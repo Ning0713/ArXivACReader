@@ -1,0 +1,28 @@
+site:
+  title: "Affective Computing Papers"
+  subtitle: "Daily Affective Computing Research Digest"
+  domain: "acpaper.ning0713.top"
+  base_path: "/"
+  output_dir: "site"
+
+sources:
+  axi_base_url: "https://paper.axi404.top"
+  arxiv_api_url: "https://export.arxiv.org/api/query"
+  timeout_seconds: 45
+  retries: 3
+  user_agent: "ArXivACReader/0.1 (+https://github.com/Ning0713/ArXivACReader)"
+
+filtering:
+  plugin: "plugins.affective_computing:plugin"
+  llm_review_min_score: 10
+
+llm:
+  enabled: true
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
+  timeout_seconds: 60
+
+paths:
+  data_dir: "data"
+  templates_dir: "templates"
+  static_dir: "static"

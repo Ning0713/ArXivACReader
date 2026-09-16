@@ -1,0 +1,14 @@
+# Copy this file only when you need project-specific overrides. Secrets belong
+# in environment variables or GitHub Actions secrets, never in this file.
+site:
+  title: "Affective Computing Papers"
+  domain: "acpaper.ning0713.top"
+  base_path: "/"
+
+filtering:
+  plugin: "plugins.affective_computing:plugin"
+
+llm:
+  enabled: true
+  base_url: "https://api.openai.com/v1"
+  model: "gpt-4o-mini"
