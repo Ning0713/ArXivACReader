@@ -1,11 +1,30 @@
 {
-  "dates": [],
-  "generated_at": "",
-  "latest_date": "",
-  "storage_bytes": 0,
-  "storage_mb": 0.0,
-  "tag_counts": {},
-  "total_daily_papers": 0,
-  "total_days": 0,
-  "total_papers": 0
+  "dates": [
+    {
+      "date": "2026-09-16",
+      "generated_at": "2026-09-16T12:03:36.692974+00:00",
+      "paper_count": 8,
+      "tag_count": 10,
+      "url": "/daily/2026-09-16/"
+    }
+  ],
+  "generated_at": "2026-09-16T12:03:36.692974+00:00",
+  "latest_date": "2026-09-16",
+  "storage_bytes": 33010,
+  "storage_mb": 0.03,
+  "tag_counts": {
+    "多模态情感": 1,
+    "心理状态/福祉": 1,
+    "情感大模型": 4,
+    "情感生成": 1,
+    "情绪识别": 1,
+    "数据集/评测": 5,
+    "文本情感": 4,
+    "语音情感": 1,
+    "面部表情": 1,
+    "鲁棒性/偏差": 1
+  },
+  "total_daily_papers": 8,
+  "total_days": 1,
+  "total_papers": 8
 }

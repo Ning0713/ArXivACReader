@@ -21,7 +21,7 @@ Axi 当日候选全集 → arXiv ID 去重 → evaluate() → assign_tags()
 | --- | --- | ---: |
 | 明确任务 | affective computing、emotion recognition、sentiment analysis、empathetic response、情绪识别 | 28 |
 | 专用数据集 | IEMOCAP、CMU-MOSI、AffectNet、RAVDESS、EmpatheticDialogues | 20 |
-| 情感上下文 | emotion、empathy、mood、情感、共情 | 6 |
+| 情感上下文 | emotion、empathy、mood、情绪、共情 | 6 |
 | 计算技术 | multimodal、MLLM、speech、recognition、reasoning、大模型 | 3 |
 
 分数为上述加权和，上限 100。`MELD/SEED/DailyDialog/SemEval/RECOLA` 名称较宽泛，只有同时出现情感上下文才算数据集信号。

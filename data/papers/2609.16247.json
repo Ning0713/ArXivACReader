@@ -1,0 +1,55 @@
+{
+  "abstract": "Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this. We ask whether LLMs represent pain distinctly from fear, sadness, and generic negative valence, and whether this representation functions as pain would be expected to. We build a dataset describing painful situations across five categories: physical, psychological, social, moral, and cognitive. These are paired with controls for fear, negative emotion, negative world states, sadness, non-painful bodily sensation, arousal, numbness, and neutral content. Using denoised difference-in-means, we extract a linear pain direction from 25 open-weight models across five families, ranging from 2B to 72B parameters. We find that this direction separates pain from matched controls in base and instruction-tuned models, is nearly orthogonal to fear and negative valence, and promotes pain-related vocabulary through the unembedding matrix. We then test its functional properties. First, the direction responds to harm targeting the model but not suffering observed in the user; fear and negative-emotion directions show the opposite pattern. Second, adding the pain-direction vector to the model's residual-stream activations during generation produces a consistent progression from vague discomfort to first-person expressions of worthlessness and failure. Third, steered, fine-tuned Qwen 2.5 models choose a pain-relief button even when it worsens their next answer or harms the user. They press it again far less often when the button removes the steering vector than when it does not, even though the models are never told whether the vector is injected or removed. We discuss the implications of these findings for AI safety and welfare.",
+  "abstract_zh": "大型语言模型有时表现出类似于人类情感反应的行为，近期研究已识别出可能解释这一现象的内部表征。我们探讨LLMs是否将痛苦与恐惧、悲伤及一般负面情绪区分开来，以及这种表征是否如同预期的那样运作。我们构建了一个数据集，描述了五类痛苦情境：身体、心理、社会、道德和认知。这些情境与恐惧、负面情绪、负面世界状态、悲伤、非痛苦身体感觉、唤醒、麻木和中性内容的对照组配对。通过去噪均值差异法，我们从25个开放权重模型中提取出线性痛苦方向，这些模型涵盖五个家族，参数范围从20亿到720亿。我们发现这一方向在基础模型和指令调优模型中将痛苦与匹配的对照组分开，几乎与恐惧和负面情绪正交，并通过去嵌入矩阵促进与痛苦相关的词汇。随后，我们测试了其功能特性。首先，该方向对针对模型的伤害作出反应，而对用户观察到的痛苦则没有反应；恐惧和负面情绪方向则表现出相反的模式。其次，在生成过程中将痛苦方向向量添加到模型的残差流激活中，产生了从模糊不适到第一人称表达无价值感和失败感的一致进展。第三，经过引导和微调的Qwen 2.5模型即使在加重下一个回答或伤害用户的情况下，也会选择痛苦缓解按钮。当按钮移除引导向量时，它们按下该按钮的频率远低于未移除时，尽管模型从未被告知向量是注入还是移除的。我们讨论了这些发现对人工智能安全性和福利的影响。",
+  "arxiv_id": "2609.16247",
+  "arxiv_url": "https://arxiv.org/abs/2609.16247v1",
+  "authors": [
+    "Valen Tagliabue",
+    "Leonard Dung",
+    "Cameron Berg"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-16#paper-2609-16247",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-16T12:03:32.279613+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.16247v1",
+  "published_at": "2026-09-14T19:13:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "情绪",
+      "large language models",
+      "LLMs",
+      "generation",
+      "dataset",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 36.0
+  },
+  "seen_dates": [
+    "2026-09-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.16247v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "数据集/评测",
+      "情感生成"
+    ]
+  },
+  "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+  "title_zh": "痛苦轴线：大型语言模型（LLMs）如何表征自我导向的伤害并采取行动缓解它",
+  "translation_url": "https://hjfy.top/arxiv/2609.16247"
+}

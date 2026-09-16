@@ -31,7 +31,7 @@ def _text(paper: Paper) -> str:
 
 class AffectiveComputingPlugin:
     slug = "affective-computing"
-    version = "affective-computing-v1"
+    version = "affective-computing-v3"
     display_name = "情感计算（情绪理解、情感分析、共情交互及相关多模态大模型）"
     arxiv_categories = ("cs.CV", "cs.CL", "cs.HC", "cs.AI", "cs.LG", "eess.AS")
     minimum_weak_score = 12
@@ -64,9 +64,8 @@ class AffectiveComputingPlugin:
     )
     contextual_datasets = ("MELD", "SEED", "DailyDialog", "SemEval", "RECOLA")
     context_terms = (
-        "emotion", "emotions", "emotional", "affective", "sentiment", "sentiments",
-        "empathy", "empathetic", "empathic", "facial expression", "facial expressions",
-        "mood", "emotional valence", "emotional arousal", "情感", "情绪", "共情", "表情",
+        "emotion", "emotions", "emotional", "affective", "empathy", "empathetic", "empathic",
+        "mood", "emotional valence", "emotional arousal", "情绪", "共情",
     )
     technical_terms = (
         "multimodal", "multi modal", "large language model", "large language models",

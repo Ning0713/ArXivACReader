@@ -1,0 +1,62 @@
+{
+  "abstract": "Open-vocabulary multimodal emotion recognition (OV-MER) aims to generate open natural-language emotion labels from multimodal affective cues. In real-world scenarios, however, complete and synchronized modal data are difficult to obtain due to limitations of acquisition devices and user privacy constraints. Existing OV-MER methods are largely designed for full-modal inputs, and fail to perform effective feature fusion under modal missing conditions. Meanwhile, current fusion approaches designed for incomplete modalities mainly focus on fixed-label recognition context, and cannot satisfy the demand for fuse emotional cues guided with arbitrary emotion semantics in OV-MER context. To tackle these challenges, this paper proposes an Affect-Prototype-Conditioned Fusion (APCF) framework for incomplete open-vocabulary emotion recognition. As a candidate-free generative framework, APCF extends modal contribution learning to scenarios guided by arbitrary emotional semantics. Specifically, we construct an affect-prototype library to explicitly model multimodal contribution characteristics corresponding to diverse emotions, which provides dynamic constraints for modal fusion under different emotional semantic perspectives. Conditional retrieval and feature aggregation are conducted based on available modal features. The refined fused affective representations are then fed into an LLM decoder to produce open-vocabulary emotion labels. Experiments on the OV-MERD+ and MER-FG datasets demonstrate that APCF substantially outperforms state-of-the-art baselines.",
+  "abstract_zh": "开放词汇多模态情感识别（OV-MER）旨在从多模态情感线索中生成开放的自然语言情感标签。然而，在现实场景中，由于采集设备的限制和用户隐私约束，完整且同步的模态数据难以获取。现有的OV-MER方法主要针对全模态输入设计，无法在模态缺失条件下有效进行特征融合。同时，当前针对不完整模态的融合方法主要集中在固定标签识别上下文，无法满足在OV-MER背景下融合任意情感语义引导的情感线索的需求。为了解决这些挑战，本文提出了一种用于不完整开放词汇情感识别的情感原型条件融合（APCF）框架。作为一种无候选生成框架，APCF将模态贡献学习扩展到由任意情感语义引导的场景。具体而言，我们构建了一个情感原型库，以明确建模对应于多样情感的多模态贡献特征，为不同情感语义视角下的模态融合提供动态约束。基于可用的模态特征进行条件检索和特征聚合。然后，将精炼的融合情感表示输入到LLM解码器中，以生成开放词汇情感标签。在OV-MERD+和MER-FG数据集上的实验表明，APCF显著优于最先进的基线方法。",
+  "arxiv_id": "2609.16962",
+  "arxiv_url": "https://arxiv.org/abs/2609.16962v1",
+  "authors": [
+    "Yichi Zhang",
+    "Shenyue Wang",
+    "Jing Luo",
+    "Chunyang Yu",
+    "Xinyu Yang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-16#paper-2609-16962",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-16T12:03:32.308912+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.16962v1",
+  "published_at": "2026-09-15T10:37:26Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "multimodal",
+      "multi modal",
+      "LLM",
+      "recognition",
+      "多模态",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.16962v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "情感大模型"
+    ]
+  },
+  "title": "Affect-Prototype Guided Fusion for Open-Vocabulary Incomplete Multi-modal Emotion Recognition",
+  "title_zh": "基于情感原型引导的开放词汇不完整多模态情感识别融合",
+  "translation_url": "https://hjfy.top/arxiv/2609.16962"
+}

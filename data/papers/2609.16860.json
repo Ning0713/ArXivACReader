@@ -1,0 +1,47 @@
+{
+  "abstract": "Mandarin Chinese has two productive reduplicative constructions that repeat either two-character base words or their constituents (e.g., `in good health', `discuss a bit'). Their varied meanings have been described as realizing plurality, valence coloring, sound symbolism and pragmatic functions. The aim of this study is twofold. A first goal is to clarify whether it is possible to come to a more precise understanding of the variegated semantics of Mandarin reduplication by using word embeddings from distributional semantics. A second goal is to explore how useful embeddings are for understanding the details of a semantically complex word-formation process. We show that the embedding space recovers the semantic and grammatical properties of reduplications previously identified in the literature, validating Tencent embeddings for morphological investigation. Semantic profiling revealed that reduplicative constructions are often strongly represented on multiple dimensions. The two patterns exhibit clear semantic and pragmatic differentiation in distributional space. Procrustes analysis clarified that the overall organization of the base-word space is largely preserved in the reduplication space, with local mismatches highlighting regions of discourse-pragmatic reorganization. Taken together, these results show that high-dimensional word embeddings can recover established linguistic generalizations, and capture the semantic versatility of Mandarin reduplication and constructional transparency.",
+  "abstract_zh": "汉语有两种富有生产性的重叠构造，分别重复两个字符的基础词或其成分（例如，“身体健康”，“稍微讨论一下”）。它们的多样化意义被描述为实现复数、情感色彩、声音象征和语用功能。本研究的目标有两个。第一个目标是澄清通过使用分布语义的词嵌入，是否可以更精确地理解汉语重叠的多样化语义。第二个目标是探讨词嵌入在理解语义复杂的词形成过程细节方面的有效性。我们展示了嵌入空间恢复了文献中先前识别的重叠的语义和语法特性，验证了腾讯嵌入在形态学研究中的有效性。语义分析揭示重叠构造通常在多个维度上表现出强烈的代表性。这两种模式在分布空间中表现出明显的语义和语用差异。Procrustes分析澄清了基础词空间的整体组织在重叠空间中大体上得以保留，而局部不匹配则突显了话语语用重组的区域。综合来看，这些结果表明，高维词嵌入能够恢复已建立的语言概括，并捕捉汉语重叠的语义多样性和构造透明性。",
+  "arxiv_id": "2609.16860",
+  "arxiv_url": "https://arxiv.org/abs/2609.16860v1",
+  "authors": [
+    "Chaoyi Wu",
+    "Yu-Hsiang Tseng",
+    "R. Harald Baayen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-16#paper-2609-16860",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-16T12:03:32.361218+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.16860v1",
+  "published_at": "2026-09-15T08:51:41Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分析",
+      "emotional",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 37.0
+  },
+  "seen_dates": [
+    "2026-09-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.16860v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": []
+  },
+  "title": "Reduplicative constructions in Mandarin: Socio-emotional profiling through distributional semantics",
+  "title_zh": "汉语中的重叠构造：通过分布语义进行社会情感分析",
+  "translation_url": "https://hjfy.top/arxiv/2609.16860"
+}

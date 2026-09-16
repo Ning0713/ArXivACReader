@@ -1,0 +1,54 @@
+{
+  "abstract": "Dynamic facial expression recognition (DFER) benchmarks such as DFEW provide multiple annotator votes per clip, yet most models collapse them to a majority label and cannot represent human disagreement at inference time. We propose a disagreement-aware DFER framework that trains directly on the raw annotator count vector using a Dirichlet-Multinomial likelihood. Unlike mean-only soft-label objectives, the proposed likelihood provides scale-sensitive supervision for the Dirichlet concentration while preserving the predictive mean. A separate ambiguity head predicts annotation entropy for unseen clips, and a monotone Chow-style reject rule combines predicted ambiguity, vacuity, temporal instability, and input quality for selective prediction. On DFEW, the method preserves recognition accuracy while reducing ECE by 30% and AURC by 15%, and predicted ambiguity reaches a Spearman correlation of 0.52 with the annotation entropy of test clips. The calibration and selective-prediction gains transfer to FERV39k and remain under identity- and movie-disjoint DFEW splits.",
+  "abstract_zh": "动态面部表情识别（DFER）基准，如DFEW，为每个片段提供多个标注者投票，但大多数模型将其简化为多数标签，无法在推理时表示人类分歧。我们提出了一种关注分歧的DFER框架，直接在原始标注者计数向量上进行训练，使用Dirichlet-多项式似然。与仅使用均值的软标签目标不同，所提出的似然为Dirichlet浓度提供了对尺度敏感的监督，同时保留了预测均值。一个独立的模糊头预测未见片段的标注熵，而单调的Chow风格拒绝规则结合了预测的模糊性、空白性、时间不稳定性和输入质量，以实现选择性预测。在DFEW上，该方法在保持识别准确性的同时，将ECE降低了30%，AURC降低了15%，预测的模糊性与测试片段的标注熵达到了0.52的斯皮尔曼相关性。校准和选择性预测的提升转移到FERV39k，并在身份和电影不重叠的DFEW分割下保持有效。",
+  "arxiv_id": "2609.17130",
+  "arxiv_url": "https://arxiv.org/abs/2609.17130v1",
+  "authors": [
+    "Yiming Wang",
+    "Frederick W. B. Li",
+    "Jingyun Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-16#paper-2609-17130",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-16T12:03:32.255857+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.17130v1",
+  "published_at": "2026-09-15T12:55:22Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "DFEW",
+      "recognition",
+      "prediction",
+      "识别",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 91.0
+  },
+  "seen_dates": [
+    "2026-09-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.17130v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Predicting Human Disagreement for Calibrated Dynamic Facial Expression Recognition",
+  "title_zh": "预测人类分歧以实现校准的动态面部表情识别",
+  "translation_url": "https://hjfy.top/arxiv/2609.17130"
+}

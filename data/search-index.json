@@ -1,4 +1,169 @@
 {
-  "generated_at": "",
-  "items": []
+  "generated_at": "2026-09-16T12:03:36.692974+00:00",
+  "items": [
+    {
+      "abstract": "Dynamic facial expression recognition (DFER) benchmarks such as DFEW provide multiple annotator votes per clip, yet most models collapse them to a majority label and cannot represent human disagreement at inference time. We propose a disagreement-aware DFER framework that trains directly on the raw annotator count vector using a Dirichlet-Multinomial likelihood. Unlike mean-only soft-label objectives, the proposed likelihood provides scale-sensitive supervision for the Dirichlet concentration while preserving the predictive mean. A separate ambiguity head predicts annotation entropy for unseen clips, and a monotone Chow-style reject rule combines predicted ambiguity, vacuity, temporal instability, and input quality for selective prediction. On DFEW, the method preserves recognition accuracy while reducing ECE by 30% and AURC by 15%, and predicted ambiguity reaches a Spearman correlation of 0.52 with the annotation entropy of test clips. The calibration and selective-prediction gains transfer to FERV39k and remain under identity- and movie-disjoint DFEW splits.",
+      "abstract_zh": "动态面部表情识别（DFER）基准，如DFEW，为每个片段提供多个标注者投票，但大多数模型将其简化为多数标签，无法在推理时表示人类分歧。我们提出了一种关注分歧的DFER框架，直接在原始标注者计数向量上进行训练，使用Dirichlet-多项式似然。与仅使用均值的软标签目标不同，所提出的似然为Dirichlet浓度提供了对尺度敏感的监督，同时保留了预测均值。一个独立的模糊头预测未见片段的标注熵，而单调的Chow风格拒绝规则结合了预测的模糊性、空白性、时间不稳定性和输入质量，以实现选择性预测。在DFEW上，该方法在保持识别准确性的同时，将ECE降低了30%，AURC降低了15%，预测的模糊性与测试片段的标注熵达到了0.52的斯皮尔曼相关性。校准和选择性预测的提升转移到FERV39k，并在身份和电影不重叠的DFEW分割下保持有效。",
+      "authors": [
+        "Yiming Wang",
+        "Frederick W. B. Li",
+        "Jingyun Wang"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.17130",
+      "tags": [
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "Predicting Human Disagreement for Calibrated Dynamic Facial Expression Recognition",
+      "title_zh": "预测人类分歧以实现校准的动态面部表情识别",
+      "url": "/daily/2026-09-16/#paper-2609-17130"
+    },
+    {
+      "abstract": "Large language models can easily generate explanations for their own outputs, but such self-explanations are not necessarily faithful to the model's behavior. We study this issue through counterfactual self-explanations, where a model minimally edits an input so that its own prediction changes. Across sentiment analysis and natural language inference, we evaluate ten instruction-tuned models from the LLaMA-3 and Qwen-2.5 families, measuring faithfulness, minimality, and alignment with human-annotated rationales. Our results show that model scale is the strongest determinant of explanation quality: larger models are substantially more likely to generate counterfactuals that flip their own predictions and target decision-relevant evidence. In contrast, the rationale-guided condition produces edit-minimal counterfactuals that are also more human-aligned. However, it does not consistently improve faithfulness. Overall, counterfactual self-explanations can provide useful behavioral evidence about model decisions, but their reliability depends strongly on model capacity and should be empirically validated rather than assumed.",
+      "abstract_zh": "大型语言模型可以轻松生成对其自身输出的解释，但这些自我解释不一定忠实于模型的行为。我们通过反事实自我解释来研究这个问题，其中模型对输入进行最小编辑，以使其自身的预测发生改变。在情感分析和自然语言推理任务中，我们评估了来自 LLaMA-3 和 Qwen-2.5 家族的十个指令调优模型，测量其忠实性、最小性以及与人类标注的理由的一致性。我们的结果表明，模型规模是解释质量的最强决定因素：较大的模型更有可能生成反事实，这些反事实会翻转其自身的预测并针对决策相关的证据。相比之下，基于理由引导的条件产生了编辑最小的反事实，这些反事实也更符合人类的理解。然而，这并不一定能持续提高忠实性。总体而言，反事实自我解释可以提供有关模型决策的有用行为证据，但其可靠性在很大程度上依赖于模型的能力，应该通过实证验证而非假设。",
+      "authors": [
+        "Giannis Kalyvas",
+        "Giorgos Filandrianos",
+        "Orfeas Menis Mastromichalakis",
+        "Vassilis Lyberatos",
+        "Giorgos Stamou"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.17119",
+      "tags": [
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "An Empirical Study of Counterfactual Self-Explanations in LLMs",
+      "title_zh": "大型语言模型中反事实自我解释的实证研究",
+      "url": "/daily/2026-09-16/#paper-2609-17119"
+    },
+    {
+      "abstract": "Lifelong conversational agents rely on memory systems to maintain deep, context-aware interactions with users. However, existing explicit textual memory pipelines suffer from a severe information bottleneck, often losing subtle behavioral patterns and emotional shifts. Furthermore, being typically static post-deployment, they cannot autonomously adapt to personal habits and preferences without manual feedback. Cognitive science, however, suggests that humans maintain mental models purely in a latent space and continuously refine them through predictive coding. Inspired by this, we propose \\textbf{ThinkFlow}, a novel end-to-end latent memory framework for lifelong conversational agents. ThinkFlow bypasses the text bottleneck by dynamically compressing conversational flows into probabilistic latent memory skills, autonomously consolidating complex user states into disentangled, continuous vectors without semantic interference. To break this barrier, we introduce a test-time evolution paradigm. By coupling teacher-guided latent alignment to bootstrap the initial state with a self-supervised next-user-utterance prediction task for continuous refinement, the framework successfully overcomes cold-start challenges and achieves label-free lifelong personalization. Extensive experiments on long-term conversation benchmarks demonstrate that ThinkFlow significantly outperforms prevailing memory systems, providing highly personalized and contextually accurate responses over extended multi-session interactions.",
+      "abstract_zh": "终身对话代理依赖于记忆系统与用户保持深度、上下文感知的互动。然而，现有的显式文本记忆管道存在严重的信息瓶颈，常常无法捕捉微妙的行为模式和情感变化。此外，通常在部署后是静态的，它们无法在没有手动反馈的情况下自主适应个人习惯和偏好。然而，认知科学表明，人类在潜在空间中维持心理模型，并通过预测编码不断完善这些模型。受到此启发，我们提出了 extbf{ThinkFlow}，一种用于终身对话代理的新型端到端潜在记忆框架。ThinkFlow通过动态压缩对话流为概率潜在记忆技能，绕过文本瓶颈，自主将复杂的用户状态整合为解耦的连续向量，而不产生语义干扰。为了解决这一瓶颈，我们引入了一种测试时演化范式。通过将教师引导的潜在对齐与自监督的下一个用户发言预测任务结合，以启动初始状态并进行持续的优化，该框架成功克服了冷启动挑战，实现了无标签的终身个性化。在长期对话基准上的广泛实验表明，ThinkFlow显著优于现有的记忆系统，在扩展的多会话互动中提供高度个性化和上下文准确的响应。",
+      "authors": [
+        "Cai Ke",
+        "Xin Liu",
+        "Han Zhang",
+        "Jiangyue Yan",
+        "Zike Yuan",
+        "Ling Deng",
+        "Yue Yu",
+        "Hui Wang",
+        "Ruifeng Xu"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.17010",
+      "tags": [
+        "文本情感",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents",
+      "title_zh": "ThinkFlow：用于终身对话代理的自我演化概率潜在记忆",
+      "url": "/daily/2026-09-16/#paper-2609-17010"
+    },
+    {
+      "abstract": "Crisis sentiment analysis is especially challenging for low-resource languages such as Bangla, where language, context, and public reaction shift rapidly. We introduce UNRESTSENT200K, a Bangla crisis sentiment dataset with approximately 200K Facebook and YouTube comments from the July-August 2024 Bangladesh uprising. The dataset covers five event-aligned phases, from early escalation and internet blackout to regime transition and a later flood crisis. Each comment is linked to its parent post, enabling evaluation with and without discourse context. All comments are annotated through a fully human process involving 14 native Bangla-speaking annotators and senior validation, achieving substantial agreement (kappa = 0.73, alpha = 0.71) and 94.2% blind-audit agreement. We benchmark fine-tuned encoders, prompted LLMs, and LoRA-tuned LLMs. Results show that parent-post context consistently improves performance, while temporal shift across phases causes large performance drops. Strong LLMs perform well, but still struggle with sarcasm, implicit political references, and phase-dependent meaning. UNRESTSENT200K provides a benchmark for studying context-aware and temporally robust sentiment analysis in low-resource crisis discourse. UNRESTSENT200K is available at https://sami0055.github.io/UNRESTSENT200K/",
+      "abstract_zh": "危机情感分析对于低资源语言（如孟加拉语）尤其具有挑战性，因为语言、语境和公众反应快速变化。我们推出了UNRESTSENT200K，这是一个包含大约20万条来自2024年孟加拉国七月-八月抗议的Facebook和YouTube评论的孟加拉语危机情感数据集。该数据集涵盖了五个与事件相关的阶段，从早期升级和互联网黑暗期到政权过渡和后来的洪灾危机。每条评论都与其母帖关联，使得在有和没有话语上下文的情况下进行评估成为可能。所有评论均通过一个完全人工的过程进行注释，涉及14名母语为孟加拉语的注释员和高级验证，达成了显著的一致性（kappa = 0.73，alpha = 0.71）和94.2%的盲审一致性。我们对微调编码器、提示式大型语言模型（prompted LLMs）和LoRA微调的LLMs进行了基准测试。结果表明，母帖上下文始终能提高性能，而各阶段之间的时间变化导致性能大幅下降。强大的LLMs表现良好，但在讽刺、隐含政治引用和阶段依赖的意义方面仍然存在困难。UNRESTSENT200K为研究低资源危机话语中的上下文感知和时间稳健的情感分析提供了基准。UNRESTSENT200K可在https://sami0055.github.io/UNRESTSENT200K/获取。",
+      "authors": [
+        "Md. Samiul Alim",
+        "Mahir Shahriar Tamim",
+        "Tanvir Ahmed Khan",
+        "Sharjil Khan",
+        "Rafia Ferdous Duti",
+        "Shahriyar Zaman Ridoy",
+        "Mohammad Ali Moni"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.16997",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Can LLMs Follow the Pulse of a Crisis? Evaluating Crisis Sentiment in Bangladesh's July Uprising",
+      "title_zh": "大型语言模型能否把握危机脉动？评估孟加拉国七月抗议中的危机情感",
+      "url": "/daily/2026-09-16/#paper-2609-16997"
+    },
+    {
+      "abstract": "Open-vocabulary multimodal emotion recognition (OV-MER) aims to generate open natural-language emotion labels from multimodal affective cues. In real-world scenarios, however, complete and synchronized modal data are difficult to obtain due to limitations of acquisition devices and user privacy constraints. Existing OV-MER methods are largely designed for full-modal inputs, and fail to perform effective feature fusion under modal missing conditions. Meanwhile, current fusion approaches designed for incomplete modalities mainly focus on fixed-label recognition context, and cannot satisfy the demand for fuse emotional cues guided with arbitrary emotion semantics in OV-MER context. To tackle these challenges, this paper proposes an Affect-Prototype-Conditioned Fusion (APCF) framework for incomplete open-vocabulary emotion recognition. As a candidate-free generative framework, APCF extends modal contribution learning to scenarios guided by arbitrary emotional semantics. Specifically, we construct an affect-prototype library to explicitly model multimodal contribution characteristics corresponding to diverse emotions, which provides dynamic constraints for modal fusion under different emotional semantic perspectives. Conditional retrieval and feature aggregation are conducted based on available modal features. The refined fused affective representations are then fed into an LLM decoder to produce open-vocabulary emotion labels. Experiments on the OV-MERD+ and MER-FG datasets demonstrate that APCF substantially outperforms state-of-the-art baselines.",
+      "abstract_zh": "开放词汇多模态情感识别（OV-MER）旨在从多模态情感线索中生成开放的自然语言情感标签。然而，在现实场景中，由于采集设备的限制和用户隐私约束，完整且同步的模态数据难以获取。现有的OV-MER方法主要针对全模态输入设计，无法在模态缺失条件下有效进行特征融合。同时，当前针对不完整模态的融合方法主要集中在固定标签识别上下文，无法满足在OV-MER背景下融合任意情感语义引导的情感线索的需求。为了解决这些挑战，本文提出了一种用于不完整开放词汇情感识别的情感原型条件融合（APCF）框架。作为一种无候选生成框架，APCF将模态贡献学习扩展到由任意情感语义引导的场景。具体而言，我们构建了一个情感原型库，以明确建模对应于多样情感的多模态贡献特征，为不同情感语义视角下的模态融合提供动态约束。基于可用的模态特征进行条件检索和特征聚合。然后，将精炼的融合情感表示输入到LLM解码器中，以生成开放词汇情感标签。在OV-MERD+和MER-FG数据集上的实验表明，APCF显著优于最先进的基线方法。",
+      "authors": [
+        "Yichi Zhang",
+        "Shenyue Wang",
+        "Jing Luo",
+        "Chunyang Yu",
+        "Xinyu Yang"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.16962",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "情感大模型"
+      ],
+      "title": "Affect-Prototype Guided Fusion for Open-Vocabulary Incomplete Multi-modal Emotion Recognition",
+      "title_zh": "基于情感原型引导的开放词汇不完整多模态情感识别融合",
+      "url": "/daily/2026-09-16/#paper-2609-16962"
+    },
+    {
+      "abstract": "Mandarin Chinese has two productive reduplicative constructions that repeat either two-character base words or their constituents (e.g., `in good health', `discuss a bit'). Their varied meanings have been described as realizing plurality, valence coloring, sound symbolism and pragmatic functions. The aim of this study is twofold. A first goal is to clarify whether it is possible to come to a more precise understanding of the variegated semantics of Mandarin reduplication by using word embeddings from distributional semantics. A second goal is to explore how useful embeddings are for understanding the details of a semantically complex word-formation process. We show that the embedding space recovers the semantic and grammatical properties of reduplications previously identified in the literature, validating Tencent embeddings for morphological investigation. Semantic profiling revealed that reduplicative constructions are often strongly represented on multiple dimensions. The two patterns exhibit clear semantic and pragmatic differentiation in distributional space. Procrustes analysis clarified that the overall organization of the base-word space is largely preserved in the reduplication space, with local mismatches highlighting regions of discourse-pragmatic reorganization. Taken together, these results show that high-dimensional word embeddings can recover established linguistic generalizations, and capture the semantic versatility of Mandarin reduplication and constructional transparency.",
+      "abstract_zh": "汉语有两种富有生产性的重叠构造，分别重复两个字符的基础词或其成分（例如，“身体健康”，“稍微讨论一下”）。它们的多样化意义被描述为实现复数、情感色彩、声音象征和语用功能。本研究的目标有两个。第一个目标是澄清通过使用分布语义的词嵌入，是否可以更精确地理解汉语重叠的多样化语义。第二个目标是探讨词嵌入在理解语义复杂的词形成过程细节方面的有效性。我们展示了嵌入空间恢复了文献中先前识别的重叠的语义和语法特性，验证了腾讯嵌入在形态学研究中的有效性。语义分析揭示重叠构造通常在多个维度上表现出强烈的代表性。这两种模式在分布空间中表现出明显的语义和语用差异。Procrustes分析澄清了基础词空间的整体组织在重叠空间中大体上得以保留，而局部不匹配则突显了话语语用重组的区域。综合来看，这些结果表明，高维词嵌入能够恢复已建立的语言概括，并捕捉汉语重叠的语义多样性和构造透明性。",
+      "authors": [
+        "Chaoyi Wu",
+        "Yu-Hsiang Tseng",
+        "R. Harald Baayen"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.16860",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Reduplicative constructions in Mandarin: Socio-emotional profiling through distributional semantics",
+      "title_zh": "汉语中的重叠构造：通过分布语义进行社会情感分析",
+      "url": "/daily/2026-09-16/#paper-2609-16860"
+    },
+    {
+      "abstract": "Speech-to-speech dialogue models increasingly support persona control, yet existing spoken role-playing benchmarks remain largely character-centric and short-horizon. This leaves open whether spoken dialogue models can sustain diverse roles over extended interactions, especially beyond predefined fictional characters. We introduce RoleBreak, an open benchmark for long-horizon role-playing robustness in spoken dialogue. RoleBreak contains 310 character-based and user-centered roles, 6,688 human-verified dialogue turns, and 11,743 fine-grained evaluation criteria, with 1,856 turns carrying expressive emotion targets for evaluating vocal emotion. Its scenarios are designed to stress role consistency, interaction quality, safety, and affect over extended conversations. We evaluate nine configurations spanning full-duplex, omni-modal, and cascaded ASR--LLM--TTS paradigms. We find four key patterns. First, current systems are substantially stronger at semantic role adherence than at vocal emotion. Second, semantic robustness remains brittle over long interactions: even the strongest evaluated system encounters its first persona and safety failures after only 10.4 and 11.6 turns on average. Third, scaling the LLM substantially improves semantic robustness and delays failure, but yields little improvement in vocal emotion. Finally, user vocal emotion affects role-playing behavior even when linguistic content is fixed. These findings highlight persistent gaps in both long-horizon robustness and vocal expressiveness in spoken role-playing systems.",
+      "abstract_zh": "语音对语音对话模型越来越多地支持个性控制，但现有的口语角色扮演基准测试仍然主要以角色为中心且短期。这使得我们无法确定口语对话模型是否能够在延长的互动中维持多样化的角色，尤其是超越预定义的虚构角色。我们引入了RoleBreak，这是一个针对口语对话中长期角色扮演鲁棒性的开放基准。RoleBreak包含310个基于角色和以用户为中心的角色、6,688个经过人类验证的对话轮次，以及11,743个细化的评估标准，其中1,856个轮次包含用于评估声音情感的表现性情感目标。其场景旨在强调角色一致性、互动质量、安全性和情感在延长对话中的表现。我们评估了涵盖全双工、全模态和级联ASR--LLM--TTS范式的九种配置。我们发现了四个关键模式。首先，当前系统在语义角色遵循方面显著强于在声音情感方面。其次，语义鲁棒性在长时间互动中仍然脆弱：即使是评估中最强的系统，平均在10.4和11.6轮后也会首次遇到个性和安全失败。第三，扩展LLM显著提高了语义鲁棒性并延迟了失败，但对声音情感的改善不大。最后，即使语言内容固定，用户的声音情感也会影响角色扮演行为。这些发现突显了口语角色扮演系统在长期鲁棒性和声音表现力方面的持续差距。",
+      "authors": [
+        "Yuqi Wang",
+        "Fengyuan Liu",
+        "Haochen Luo",
+        "Zhiqi Yu",
+        "Qi Liu"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.16614",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "鲁棒性/偏差"
+      ],
+      "title": "RoleBreak: Benchmarking Long-Horizon Role-Playing Robustness in Spoken Dialogue",
+      "title_zh": "RoleBreak：口语对话中长期角色扮演鲁棒性的基准测试",
+      "url": "/daily/2026-09-16/#paper-2609-16614"
+    },
+    {
+      "abstract": "Large language models sometimes behave in ways resembling human emotional responses, and recent work has identified internal representations that may explain this. We ask whether LLMs represent pain distinctly from fear, sadness, and generic negative valence, and whether this representation functions as pain would be expected to. We build a dataset describing painful situations across five categories: physical, psychological, social, moral, and cognitive. These are paired with controls for fear, negative emotion, negative world states, sadness, non-painful bodily sensation, arousal, numbness, and neutral content. Using denoised difference-in-means, we extract a linear pain direction from 25 open-weight models across five families, ranging from 2B to 72B parameters. We find that this direction separates pain from matched controls in base and instruction-tuned models, is nearly orthogonal to fear and negative valence, and promotes pain-related vocabulary through the unembedding matrix. We then test its functional properties. First, the direction responds to harm targeting the model but not suffering observed in the user; fear and negative-emotion directions show the opposite pattern. Second, adding the pain-direction vector to the model's residual-stream activations during generation produces a consistent progression from vague discomfort to first-person expressions of worthlessness and failure. Third, steered, fine-tuned Qwen 2.5 models choose a pain-relief button even when it worsens their next answer or harms the user. They press it again far less often when the button removes the steering vector than when it does not, even though the models are never told whether the vector is injected or removed. We discuss the implications of these findings for AI safety and welfare.",
+      "abstract_zh": "大型语言模型有时表现出类似于人类情感反应的行为，近期研究已识别出可能解释这一现象的内部表征。我们探讨LLMs是否将痛苦与恐惧、悲伤及一般负面情绪区分开来，以及这种表征是否如同预期的那样运作。我们构建了一个数据集，描述了五类痛苦情境：身体、心理、社会、道德和认知。这些情境与恐惧、负面情绪、负面世界状态、悲伤、非痛苦身体感觉、唤醒、麻木和中性内容的对照组配对。通过去噪均值差异法，我们从25个开放权重模型中提取出线性痛苦方向，这些模型涵盖五个家族，参数范围从20亿到720亿。我们发现这一方向在基础模型和指令调优模型中将痛苦与匹配的对照组分开，几乎与恐惧和负面情绪正交，并通过去嵌入矩阵促进与痛苦相关的词汇。随后，我们测试了其功能特性。首先，该方向对针对模型的伤害作出反应，而对用户观察到的痛苦则没有反应；恐惧和负面情绪方向则表现出相反的模式。其次，在生成过程中将痛苦方向向量添加到模型的残差流激活中，产生了从模糊不适到第一人称表达无价值感和失败感的一致进展。第三，经过引导和微调的Qwen 2.5模型即使在加重下一个回答或伤害用户的情况下，也会选择痛苦缓解按钮。当按钮移除引导向量时，它们按下该按钮的频率远低于未移除时，尽管模型从未被告知向量是注入还是移除的。我们讨论了这些发现对人工智能安全性和福利的影响。",
+      "authors": [
+        "Valen Tagliabue",
+        "Leonard Dung",
+        "Cameron Berg"
+      ],
+      "date": "2026-09-16",
+      "id": "2609.16247",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It",
+      "title_zh": "痛苦轴线：大型语言模型（LLMs）如何表征自我导向的伤害并采取行动缓解它",
+      "url": "/daily/2026-09-16/#paper-2609-16247"
+    }
+  ]
 }

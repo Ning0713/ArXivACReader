@@ -1,0 +1,55 @@
+{
+  "abstract": "Crisis sentiment analysis is especially challenging for low-resource languages such as Bangla, where language, context, and public reaction shift rapidly. We introduce UNRESTSENT200K, a Bangla crisis sentiment dataset with approximately 200K Facebook and YouTube comments from the July-August 2024 Bangladesh uprising. The dataset covers five event-aligned phases, from early escalation and internet blackout to regime transition and a later flood crisis. Each comment is linked to its parent post, enabling evaluation with and without discourse context. All comments are annotated through a fully human process involving 14 native Bangla-speaking annotators and senior validation, achieving substantial agreement (kappa = 0.73, alpha = 0.71) and 94.2% blind-audit agreement. We benchmark fine-tuned encoders, prompted LLMs, and LoRA-tuned LLMs. Results show that parent-post context consistently improves performance, while temporal shift across phases causes large performance drops. Strong LLMs perform well, but still struggle with sarcasm, implicit political references, and phase-dependent meaning. UNRESTSENT200K provides a benchmark for studying context-aware and temporally robust sentiment analysis in low-resource crisis discourse. UNRESTSENT200K is available at https://sami0055.github.io/UNRESTSENT200K/",
+  "abstract_zh": "危机情感分析对于低资源语言（如孟加拉语）尤其具有挑战性，因为语言、语境和公众反应快速变化。我们推出了UNRESTSENT200K，这是一个包含大约20万条来自2024年孟加拉国七月-八月抗议的Facebook和YouTube评论的孟加拉语危机情感数据集。该数据集涵盖了五个与事件相关的阶段，从早期升级和互联网黑暗期到政权过渡和后来的洪灾危机。每条评论都与其母帖关联，使得在有和没有话语上下文的情况下进行评估成为可能。所有评论均通过一个完全人工的过程进行注释，涉及14名母语为孟加拉语的注释员和高级验证，达成了显著的一致性（kappa = 0.73，alpha = 0.71）和94.2%的盲审一致性。我们对微调编码器、提示式大型语言模型（prompted LLMs）和LoRA微调的LLMs进行了基准测试。结果表明，母帖上下文始终能提高性能，而各阶段之间的时间变化导致性能大幅下降。强大的LLMs表现良好，但在讽刺、隐含政治引用和阶段依赖的意义方面仍然存在困难。UNRESTSENT200K为研究低资源危机话语中的上下文感知和时间稳健的情感分析提供了基准。UNRESTSENT200K可在https://sami0055.github.io/UNRESTSENT200K/获取。",
+  "arxiv_id": "2609.16997",
+  "arxiv_url": "https://arxiv.org/abs/2609.16997v1",
+  "authors": [
+    "Md. Samiul Alim",
+    "Mahir Shahriar Tamim",
+    "Tanvir Ahmed Khan",
+    "Sharjil Khan",
+    "Rafia Ferdous Duti",
+    "Shahriyar Zaman Ridoy",
+    "Mohammad Ali Moni"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-16#paper-2609-16997",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-16T12:03:32.369567+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.16997v1",
+  "published_at": "2026-09-15T11:08:25Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "LLMs",
+      "benchmark",
+      "dataset"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 65.0
+  },
+  "seen_dates": [
+    "2026-09-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.16997v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Can LLMs Follow the Pulse of a Crisis? Evaluating Crisis Sentiment in Bangladesh's July Uprising",
+  "title_zh": "大型语言模型能否把握危机脉动？评估孟加拉国七月抗议中的危机情感",
+  "translation_url": "https://hjfy.top/arxiv/2609.16997"
+}

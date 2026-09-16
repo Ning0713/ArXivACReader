@@ -1,5 +1,98 @@
 {
-  "papers": {},
-  "total": 0,
-  "updated_at": ""
+  "papers": {
+    "2609.16247": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "The Pain Axis: LLMs Represent Self-Directed Harm and Act to Relieve It"
+    },
+    "2609.16614": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "鲁棒性/偏差"
+      ],
+      "title": "RoleBreak: Benchmarking Long-Horizon Role-Playing Robustness in Spoken Dialogue"
+    },
+    "2609.16860": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Reduplicative constructions in Mandarin: Socio-emotional profiling through distributional semantics"
+    },
+    "2609.16962": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "情感大模型"
+      ],
+      "title": "Affect-Prototype Guided Fusion for Open-Vocabulary Incomplete Multi-modal Emotion Recognition"
+    },
+    "2609.16997": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Can LLMs Follow the Pulse of a Crisis? Evaluating Crisis Sentiment in Bangladesh's July Uprising"
+    },
+    "2609.17010": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "文本情感",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "ThinkFlow: Self-Evolving Probabilistic Latent Memory for Lifelong Conversational Agents"
+    },
+    "2609.17119": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "An Empirical Study of Counterfactual Self-Explanations in LLMs"
+    },
+    "2609.17130": {
+      "dates": [
+        "2026-09-16"
+      ],
+      "first_seen": "2026-09-16",
+      "tags": [
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "Predicting Human Disagreement for Calibrated Dynamic Facial Expression Recognition"
+    }
+  },
+  "total": 8,
+  "updated_at": "2026-09-16T12:03:36.692974+00:00"
 }
