@@ -38,7 +38,7 @@ LLM 可选，用于边界复核和已入选论文的翻译补全。未设置 `LL
 
 ## GitHub Pages 部署
 
-1. 创建普通公开仓库，推送代码；Settings / Pages / Source 选择 **GitHub Actions**。
+1. 创建普通公开仓库，推送代码；在 Settings / Pages / Source 选择 **GitHub Actions**。首次推送前启用 Pages，避免 `configure-pages` 因仓库尚未注册 Pages 而失败。
 2. 自用或 Fork 时修改 `config/config.yml`、`config/config.example.yml`、`CNAME`、`ops/projects.json` 中的仓库和域名。
 3. DNS 添加 CNAME：`acpaper.ning0713.top` → `Ning0713.github.io`；Pages 中设相同自定义域名，等待证书后启用 HTTPS。
 4. 需要 AI 时在新仓库单独创建 `LLM_API_KEY`、`LLM_BASE_URL`、`LLM_MODEL` Repository Secrets。
