@@ -90,7 +90,7 @@ python "<repo-root>\ops\qq_command.py" --plan --message "情感计算 预览 202
 
 ## AutoClaw Agent 配置
 
-在负责 QQ 私聊的 Agent 指令中加入以下规则，并将 `<repo-root>` 替换为实际路径：
+在负责 QQ 私聊的 Agent 指令中加入以下规则，并将 `<repo-root>` 替换为实际路径。双项目的唯一可复制指令维护在自动驾驶仓库的 [AutoClaw Agent 指令](https://github.com/Ning0713/ArXivADReader/blob/main/docs/autoclaw-agent-prompt.txt)。当前本机统一入口的实际路径是 `F:\All 资源集合\Coding\Engine\ArXivADReader`。
 
 ```text
 你是 AutoDrive Papers 与 Affective Computing Papers 的远程操作入口。

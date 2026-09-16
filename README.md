@@ -58,7 +58,7 @@ LLM 可选，用于边界复核和已入选论文的翻译补全。未设置 `LL
 全部 状态
 ```
 
-`ops/qq_command.py` 完整验证消息，`ops/autoclaw.ps1` 调用固定 GitHub CLI 参数。首次配置、Agent 提示词、旧会话处理与双项目命令见 [AutoClaw 文档](docs/autoclaw.md)。定时任务继续由 GitHub 负责，不必重新创建本机 cron。
+`ops/qq_command.py` 完整验证消息，`ops/autoclaw.ps1` 调用固定 GitHub CLI 参数。AutoClaw 不会自动读取本仓库文档；请将自动驾驶仓库中的 [统一 Agent 指令](https://github.com/Ning0713/ArXivADReader/blob/main/docs/autoclaw-agent-prompt.txt) 粘贴到负责 QQ 的 Agent 配置中。首次配置、Agent 提示词、旧会话处理与双项目命令见 [AutoClaw 文档](docs/autoclaw.md)。定时任务继续由 GitHub 负责，不必重新创建本机 cron。
 
 ## 贡献、来源与许可
 
