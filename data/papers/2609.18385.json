@@ -1,0 +1,54 @@
+{
+  "abstract": "Emotions are an essential aspect of human communication, particularly on social media, where authors frequently combine text and images to convey their emotions. Yet prior work on emotion analysis of social media posts has overlooked two important aspects in regard to measuring how well readers can reconstruct the authors' intent: (1)~the image modality, with most work focusing solely on text, and (2)~the real-world events that trigger the expressed emotions, and their relationship to the post content. We therefore study the relation between (a) the author's experience of the event that caused them to write a social media post and (b) the content of the post, with a focus on readers' capability to reconstruct that emotion expression. To do that, we introduce the Multimodal Multi-Emotion-Model dataset Mult2EMo, created by collecting annotations from both authors and readers on the posts and their triggering events. We find that reconstruction is possible but challenging for both human readers and computational models. We show that understanding the triggering event is crucial for accurate reconstruction, and that reconstruction is particularly challenging when posts rely heavily on the image to express emotion.",
+  "abstract_zh": "情感是人类沟通的重要方面，尤其是在社交媒体上，作者常常结合文本和图像来传达他们的情感。然而，之前关于社交媒体帖子情感分析的研究忽视了两个重要方面，这些方面与测量读者重建作者意图的能力有关：（1）图像模态，大多数研究仅关注文本；（2）引发表达情感的现实事件及其与帖子内容的关系。因此，我们研究了（a）导致作者撰写社交媒体帖子的事件体验与（b）帖子内容之间的关系，重点关注读者重建该情感表达的能力。为此，我们引入了多模态多情感模型数据集Mult2EMo，该数据集通过收集作者和读者对帖子及其触发事件的注释而创建。我们发现重建是可能的，但对人类读者和计算模型来说都是具有挑战性的。我们表明，理解触发事件对于准确重建至关重要，并且当帖子在表达情感时严重依赖图像时，重建尤其具有挑战性。",
+  "arxiv_id": "2609.18385",
+  "arxiv_url": "https://arxiv.org/abs/2609.18385v1",
+  "authors": [
+    "Christopher Bagdon",
+    "Carina Silberer",
+    "Roman Klinger"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-18385",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.522097+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.18385v1",
+  "published_at": "2026-09-16T09:39:13Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion analysis",
+      "情感分析",
+      "emotion",
+      "emotions",
+      "multimodal",
+      "dataset",
+      "多模态"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.18385v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "Emotion Experience, Expression, and Perception: Emotion Analysis on Multimodal Social Media Posts",
+  "title_zh": "情感体验、表达与感知：多模态社交媒体帖子中的情感分析",
+  "translation_url": "https://hjfy.top/arxiv/2609.18385"
+}

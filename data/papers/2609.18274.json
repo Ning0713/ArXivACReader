@@ -1,0 +1,54 @@
+{
+  "abstract": "Classroom observations are widely recognized as a key tool for establishing benchmarks of education quality and guiding pedagogical improvement, yet they remain resource-intensive and dependent on trained observers. This study evaluated the feasibility of using a LLM (GPT-5 model) to score teacher-child interactions in early childhood classrooms, benchmarked against human raters. The study analyzed 87 video-recorded observations from 38 classrooms across 30 kindergartens in Hong Kong. Using observation transcripts, the AI model was configured to apply the full Classroom Assessment Scoring System (CLASS) framework. AI-rated scores were then compared with human ratings by examining correlations and differences in mean scores of the CLASS domains and dimensions. The results showed greater convergence between AI and raters for the Emotional Support domain and, in particular, the Quality of Feedback dimension, which captures how teachers use feedback to extend children's learning. Greater divergence emerged for interactions that were more procedural or context-dependent, particularly within the Classroom Organization and Instructional Support domains. These findings suggest that transcript-based AI scoring may capture some of the relative variation in teacher-child interactions but cannot yet reproduce calibrated human judgements consistently across the full CLASS framework. AI-assisted observation may therefore be more appropriate as a preliminary screening tool rather than as a replacement for trained observers, providing teachers with evidence for reflection rather than high-stakes evaluation. Future research should examine whether domain-specific training and incorporation of contextual and visual information can improve alignment between AI and human rated scores.",
+  "abstract_zh": "课堂观察被广泛认为是建立教育质量基准和指导教学改进的关键工具，然而它们仍然资源密集且依赖于经过培训的观察者。本研究评估了使用大型语言模型（LLM，GPT-5模型）对幼儿园课堂中教师与儿童互动进行评分的可行性，并与人类评分者进行了基准比较。研究分析了来自香港30所幼儿园的38个课堂中的87个视频录制观察。通过观察记录，AI模型被配置为应用完整的课堂评估评分系统（CLASS）框架。然后，通过检查CLASS领域和维度的相关性和均值评分差异，将AI评分与人类评分进行了比较。结果显示，AI与评分者在情感支持领域，特别是在反馈质量维度上的一致性更高，该维度反映了教师如何利用反馈来延伸儿童的学习。而在课堂组织和教学支持领域，针对更具程序性或依赖于上下文的互动，AI评分与人类评分的差异则更大。这些发现表明，基于记录的AI评分可能捕捉到教师与儿童互动中的相对变化，但尚无法在完整的CLASS框架下始终如一地再现经过校准的人类判断。因此，AI辅助观察可能更适合作为初步筛选工具，而不是替代经过培训的观察者，为教师提供反思的证据，而非高风险的评估。未来的研究应探讨领域特定的培训和上下文及视觉信息的结合是否能改善AI与人类评分之间的一致性。",
+  "arxiv_id": "2609.18274",
+  "arxiv_url": "https://arxiv.org/abs/2609.18274v1",
+  "authors": [
+    "Y. Fong",
+    "J. Xiang",
+    "T. Y. D. Chan",
+    "K. Lee",
+    "E. Y. H. Lau"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-18274",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.515649+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.18274v1",
+  "published_at": "2026-09-16T07:53:28Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "LLM"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 65.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.18274v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "I code or AI code: A comparative evaluation of AI-rated scores in classroom observations",
+  "title_zh": "我评分还是AI评分：课堂观察中AI评分的比较评估",
+  "translation_url": "https://hjfy.top/arxiv/2609.18274"
+}

@@ -1,0 +1,56 @@
+{
+  "abstract": "Large language models are increasingly used to generate and evaluate online content, yet it remains unclear whether the qualities they associate with higher engagement match what real users respond to. We study this question using 1.17 million answers to 25,978 questions from Zhihu, Quora, and Reddit, comparing real platform answers and AI-generated answers across four within-question engagement levels. We introduce Ontological Preference Measurement, which represents answers along three dimensions: logic, affect, and expression. We find a systematic gap between AI preference and real user engagement: as target engagement increases, LLMs add more explicit logical structure, while real user engagement is more strongly associated with affective and expressive salience. We call this tendency logic overbinding. Based on this diagnosis, we propose Ontology-Masked Reasoning Autoencoding (OMRA), a controlled intervention that masks and reconstructs over-explained spans while preserving stance, factual content, and coherence. Across four LLM families, OMRA reduces the measured gap by an average of 54.4%. In human evaluation, OMRA wins 62.4% of pairwise preference judgments against matched real platform answers, even though the real answers are more often judged to be human-written.",
+  "abstract_zh": "大型语言模型越来越多地用于生成和评估在线内容，但尚不清楚它们与更高参与度相关的特质是否与真实用户的反应相匹配。我们通过分析来自知乎、Quora和Reddit的25,978个问题的117万答案来研究这个问题，比较真实平台答案和人工智能生成答案在四个问题内参与度水平上的表现。我们引入了本体偏好测量（Ontological Preference Measurement），该测量将答案沿逻辑、情感和表达三个维度进行表示。我们发现人工智能偏好与真实用户参与之间存在系统性的差距：随着目标参与度的提高，LLM（大型语言模型）增加了更多显式的逻辑结构，而真实用户参与则更强烈地与情感和表达的显著性相关。我们称这种倾向为逻辑过度绑定（logic overbinding）。基于这一诊断，我们提出了本体掩蔽推理自编码（Ontology-Masked Reasoning Autoencoding, OMRA），这是一种控制干预方法，掩蔽并重构过度解释的部分，同时保留立场、事实内容和连贯性。在四个LLM家族中，OMRA平均减少了54.4%的测量差距。在人类评估中，OMRA在与匹配的真实平台答案的成对偏好判断中获胜62.4%，尽管真实答案更常被判断为人类撰写。",
+  "arxiv_id": "2609.18282",
+  "arxiv_url": "https://arxiv.org/abs/2609.18282v1",
+  "authors": [
+    "Xinglang Zhang",
+    "Yuanmeng Xiang",
+    "Yunyao Zhang",
+    "Zeliang Chen",
+    "Junqing Yu",
+    "Zikai Song"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-18282",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.516570+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.18282v1",
+  "published_at": "2026-09-16T08:04:14Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "reasoning",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.18282v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "Too Good to Be Real? Diagnosing and Reducing the Gap Between AI Preference and Real User Engagement",
+  "title_zh": "太好以至于不真实？诊断并缩小人工智能偏好与真实用户参与之间的差距",
+  "translation_url": "https://hjfy.top/arxiv/2609.18282"
+}

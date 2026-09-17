@@ -91,8 +91,115 @@
         "数据集/评测"
       ],
       "title": "Predicting Human Disagreement for Calibrated Dynamic Facial Expression Recognition"
+    },
+    "2609.17536": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "情感大模型",
+        "共情交互",
+        "情感生成"
+      ],
+      "title": "Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents"
+    },
+    "2609.17549": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues"
+    },
+    "2609.17553": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "The Limits of BPE Tokenization in Polish: Segmentation-Flexional Forms, Grammatical Anchoring, and First-Person Stability in Inflectional Language Models"
+    },
+    "2609.17977": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "情绪识别",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI"
+    },
+    "2609.18106": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "情感大模型",
+        "共情交互",
+        "鲁棒性/偏差"
+      ],
+      "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment"
+    },
+    "2609.18274": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "I code or AI code: A comparative evaluation of AI-rated scores in classroom observations"
+    },
+    "2609.18282": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "情感大模型",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Too Good to Be Real? Diagnosing and Reducing the Gap Between AI Preference and Real User Engagement"
+    },
+    "2609.18385": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Emotion Experience, Expression, and Perception: Emotion Analysis on Multimodal Social Media Posts"
+    },
+    "2609.19088": {
+      "dates": [
+        "2026-09-17"
+      ],
+      "first_seen": "2026-09-17",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education"
     }
   },
-  "total": 8,
-  "updated_at": "2026-09-16T12:03:36.692974+00:00"
+  "total": 17,
+  "updated_at": "2026-09-17T09:55:21.267688+00:00"
 }

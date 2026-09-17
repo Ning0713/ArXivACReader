@@ -1,0 +1,60 @@
+{
+  "abstract": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must interpret artistic imagery, understand its semantic, affective, and cultural content, and reason about visual context to support meaningful interaction. However, existing benchmarks primarily focus on real-world images or domain-specific educational reasoning, providing limited coverage of artistic educational content. To address this gap, we introduce MUSE, a benchmark for evaluating large vision-language models on artistic image understanding in situated educational applications. MUSE decouples image annotation from question generation, enabling diverse tasks with controllable difficulty while reducing annotation effort. It comprises twelve tasks spanning visual perception, semantic and affective interpretation, culture understanding, and compositional reasoning, together with diverse artistic images deliberately curated to center Singaporean and Southeast Asian multicultural contexts alongside Western art traditions, covering multiple themes and difficulty levels. Evaluation of open-source and proprietary models reveals substantial disparities across capability dimensions, particularly in affective interpretation and compositional reasoning. Our analysis further identifies common failure modes and key challenges for developing trustworthy multi-modal models for education. We hope MUSE will serve as a standardized benchmark for advancing multi-modal understanding in situated educational applications.",
+  "abstract_zh": "大型视觉-语言模型在多模态理解方面取得了显著进展，但其在教育环境中的能力评估仍然不足。在人工智能辅助的语言学习中，模型必须解读艺术图像，理解其语义、情感和文化内容，并推理视觉上下文以支持有意义的互动。然而，现有基准主要集中于真实世界图像或特定领域的教育推理，覆盖艺术教育内容的范围有限。为了解决这一问题，我们引入了MUSE，一个用于评估大型视觉-语言模型在情境教育应用中对艺术图像理解的基准。MUSE将图像注释与问题生成解耦，能够实现多样化的任务并可控的难度，同时减少注释工作量。它包括十二个任务，涵盖视觉感知、语义和情感解读、文化理解和组合推理，并配有多种艺术图像，特别策划以聚焦新加坡和东南亚的多元文化背景以及西方艺术传统，涵盖多个主题和难度等级。对开源和专有模型的评估揭示了能力维度之间的显著差异，特别是在情感解读和组合推理方面。我们的分析进一步识别了常见的失败模式和开发可信赖的多模态教育模型的关键挑战。我们希望MUSE能够作为一个标准化基准，推动情境教育应用中的多模态理解。",
+  "arxiv_id": "2609.19088",
+  "arxiv_url": "https://arxiv.org/abs/2609.19088v1",
+  "authors": [
+    "Luyao Zhu",
+    "Xun Wei Yee",
+    "Wei Li",
+    "Mun Thye Mak",
+    "Wee Siong Ng"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-19088",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.476908+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.19088v1",
+  "published_at": "2026-09-16T17:26:10Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "multi modal",
+      "vision language",
+      "reasoning",
+      "generation",
+      "benchmark",
+      "多模态",
+      "识别",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.19088v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "多模态情感",
+      "情感大模型"
+    ]
+  },
+  "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
+  "title_zh": "MUSE：在情境教育中对大型视觉-语言模型进行多模态理解的基准评估",
+  "translation_url": "https://hjfy.top/arxiv/2609.19088"
+}

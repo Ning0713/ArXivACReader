@@ -1,0 +1,53 @@
+{
+  "abstract": "Open-weight large language models are rapidly entering hiring pipelines, yet their discriminatory failure modes -- and the regulatory exposure these create under the EU AI Act high-risk classification (Annex III) and U.S. EEOC adverse-impact analysis -- remain poorly understood. We present the first systematic, multi-model audit of open-weight LLMs that treats job-posting language as the primary experimental variable, evaluating six models (Llama 3.2, Mistral, Gemma 3, Qwen 3, Phi 3, DeepSeek-R1) across four controlled experiments that jointly probe recruiter-simulation and job-seeker-simulation tasks. We find that (1) agentic posting language depresses recruiter recommendation scores for female candidates (r_rb = 0.309, p_Bonf = 7x10^-5; model-fixed-effects r_rb = 0.448), while communal language partially reverses the penalty; and (2) coded-exclusion language suppresses non-White recruiter scores at large effect sizes (r_rb = 0.646-0.758) and, on the job-seeker side, selectively deters non-White personas from expressing interest -- operationalizing a chilling-effect mechanism at scale. A label-ablation experiment isolates the explicit demographic persona label as the primary causal driver, and Word Embedding Association Tests corroborate these findings at the representational level (d = 1.01-1.45 under Caliskan et al.'s multi-word gender attribute lists). We translate these results into a concrete pre-deployment audit protocol -- posting-vocabulary scoring, persona-conditioned LLM probing, and adverse-impact flagging against the four-fifths threshold -- that operationalizes the documentation and risk-management obligations Annex III imposes on high-risk AI in recruitment.",
+  "abstract_zh": "开放权重大型语言模型正迅速进入招聘流程，然而其歧视性失效模式及其在欧盟《人工智能法案》高风险分类（附件三）和美国平等就业机会委员会（EEOC）不利影响分析下所带来的监管风险，仍然缺乏充分理解。本文首次对开放权重大型语言模型进行系统的多模型审计，将招聘广告语言作为主要实验变量，评估了六个模型（Llama 3.2、Mistral、Gemma 3、Qwen 3、Phi 3、DeepSeek-R1），通过四个受控实验联合探究招聘者模拟和求职者模拟任务。研究发现：(1) 具有主动性的招聘语言会降低女性候选人的招聘推荐分数（r_rb = 0.309，p_Bonf = 7×10^-5；模型固定效应 r_rb = 0.448），而具有共情性的语言则部分缓解了这一惩罚；(2) 编码排斥语言显著抑制非白人候选人的招聘者评分（r_rb = 0.646-0.758），且在求职者侧选择性地阻止非白人人设表达兴趣——在大规模上实现了寒蝉效应机制。标签消融实验将显性的人口统计学人设标签确定为主要因果驱动因素，词嵌入关联测试（Word Embedding Association Tests）在表征层面上（基于Caliskan等人的多词性别属性列表，d = 1.01-1.45）进一步证实了这些发现。我们将这些结果转化为具体的部署前审计协议——包括招聘广告词汇评分、人设条件下的大型语言模型探测以及基于四分之三规则的不利影响标记——以实现附件三对招聘中高风险人工智能所施加的文档编制和风险管理义务。",
+  "arxiv_id": "2609.18106",
+  "arxiv_url": "https://arxiv.org/abs/2609.18106v1",
+  "authors": [
+    "Kosuke Kitahara",
+    "Nobuhiro Yamaguchi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-18106",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.510009+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.18106v1",
+  "published_at": "2026-09-16T04:18:56Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "共情",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "classification",
+      "分类"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.18106v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "共情交互",
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
+  "title_zh": "开放权重大型语言模型在招聘中性别和种族偏见的语言触发因素",
+  "translation_url": "https://hjfy.top/arxiv/2609.18106"
+}

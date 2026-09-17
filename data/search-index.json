@@ -1,6 +1,192 @@
 {
-  "generated_at": "2026-09-16T12:03:36.692974+00:00",
+  "generated_at": "2026-09-17T09:55:21.267688+00:00",
   "items": [
+    {
+      "abstract": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must interpret artistic imagery, understand its semantic, affective, and cultural content, and reason about visual context to support meaningful interaction. However, existing benchmarks primarily focus on real-world images or domain-specific educational reasoning, providing limited coverage of artistic educational content. To address this gap, we introduce MUSE, a benchmark for evaluating large vision-language models on artistic image understanding in situated educational applications. MUSE decouples image annotation from question generation, enabling diverse tasks with controllable difficulty while reducing annotation effort. It comprises twelve tasks spanning visual perception, semantic and affective interpretation, culture understanding, and compositional reasoning, together with diverse artistic images deliberately curated to center Singaporean and Southeast Asian multicultural contexts alongside Western art traditions, covering multiple themes and difficulty levels. Evaluation of open-source and proprietary models reveals substantial disparities across capability dimensions, particularly in affective interpretation and compositional reasoning. Our analysis further identifies common failure modes and key challenges for developing trustworthy multi-modal models for education. We hope MUSE will serve as a standardized benchmark for advancing multi-modal understanding in situated educational applications.",
+      "abstract_zh": "大型视觉-语言模型在多模态理解方面取得了显著进展，但其在教育环境中的能力评估仍然不足。在人工智能辅助的语言学习中，模型必须解读艺术图像，理解其语义、情感和文化内容，并推理视觉上下文以支持有意义的互动。然而，现有基准主要集中于真实世界图像或特定领域的教育推理，覆盖艺术教育内容的范围有限。为了解决这一问题，我们引入了MUSE，一个用于评估大型视觉-语言模型在情境教育应用中对艺术图像理解的基准。MUSE将图像注释与问题生成解耦，能够实现多样化的任务并可控的难度，同时减少注释工作量。它包括十二个任务，涵盖视觉感知、语义和情感解读、文化理解和组合推理，并配有多种艺术图像，特别策划以聚焦新加坡和东南亚的多元文化背景以及西方艺术传统，涵盖多个主题和难度等级。对开源和专有模型的评估揭示了能力维度之间的显著差异，特别是在情感解读和组合推理方面。我们的分析进一步识别了常见的失败模式和开发可信赖的多模态教育模型的关键挑战。我们希望MUSE能够作为一个标准化基准，推动情境教育应用中的多模态理解。",
+      "authors": [
+        "Luyao Zhu",
+        "Xun Wei Yee",
+        "Wei Li",
+        "Mun Thye Mak",
+        "Wee Siong Ng"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.19088",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
+      "title_zh": "MUSE：在情境教育中对大型视觉-语言模型进行多模态理解的基准评估",
+      "url": "/daily/2026-09-17/#paper-2609-19088"
+    },
+    {
+      "abstract": "Emotions are an essential aspect of human communication, particularly on social media, where authors frequently combine text and images to convey their emotions. Yet prior work on emotion analysis of social media posts has overlooked two important aspects in regard to measuring how well readers can reconstruct the authors' intent: (1)~the image modality, with most work focusing solely on text, and (2)~the real-world events that trigger the expressed emotions, and their relationship to the post content. We therefore study the relation between (a) the author's experience of the event that caused them to write a social media post and (b) the content of the post, with a focus on readers' capability to reconstruct that emotion expression. To do that, we introduce the Multimodal Multi-Emotion-Model dataset Mult2EMo, created by collecting annotations from both authors and readers on the posts and their triggering events. We find that reconstruction is possible but challenging for both human readers and computational models. We show that understanding the triggering event is crucial for accurate reconstruction, and that reconstruction is particularly challenging when posts rely heavily on the image to express emotion.",
+      "abstract_zh": "情感是人类沟通的重要方面，尤其是在社交媒体上，作者常常结合文本和图像来传达他们的情感。然而，之前关于社交媒体帖子情感分析的研究忽视了两个重要方面，这些方面与测量读者重建作者意图的能力有关：（1）图像模态，大多数研究仅关注文本；（2）引发表达情感的现实事件及其与帖子内容的关系。因此，我们研究了（a）导致作者撰写社交媒体帖子的事件体验与（b）帖子内容之间的关系，重点关注读者重建该情感表达的能力。为此，我们引入了多模态多情感模型数据集Mult2EMo，该数据集通过收集作者和读者对帖子及其触发事件的注释而创建。我们发现重建是可能的，但对人类读者和计算模型来说都是具有挑战性的。我们表明，理解触发事件对于准确重建至关重要，并且当帖子在表达情感时严重依赖图像时，重建尤其具有挑战性。",
+      "authors": [
+        "Christopher Bagdon",
+        "Carina Silberer",
+        "Roman Klinger"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.18385",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Emotion Experience, Expression, and Perception: Emotion Analysis on Multimodal Social Media Posts",
+      "title_zh": "情感体验、表达与感知：多模态社交媒体帖子中的情感分析",
+      "url": "/daily/2026-09-17/#paper-2609-18385"
+    },
+    {
+      "abstract": "Large language models are increasingly used to generate and evaluate online content, yet it remains unclear whether the qualities they associate with higher engagement match what real users respond to. We study this question using 1.17 million answers to 25,978 questions from Zhihu, Quora, and Reddit, comparing real platform answers and AI-generated answers across four within-question engagement levels. We introduce Ontological Preference Measurement, which represents answers along three dimensions: logic, affect, and expression. We find a systematic gap between AI preference and real user engagement: as target engagement increases, LLMs add more explicit logical structure, while real user engagement is more strongly associated with affective and expressive salience. We call this tendency logic overbinding. Based on this diagnosis, we propose Ontology-Masked Reasoning Autoencoding (OMRA), a controlled intervention that masks and reconstructs over-explained spans while preserving stance, factual content, and coherence. Across four LLM families, OMRA reduces the measured gap by an average of 54.4%. In human evaluation, OMRA wins 62.4% of pairwise preference judgments against matched real platform answers, even though the real answers are more often judged to be human-written.",
+      "abstract_zh": "大型语言模型越来越多地用于生成和评估在线内容，但尚不清楚它们与更高参与度相关的特质是否与真实用户的反应相匹配。我们通过分析来自知乎、Quora和Reddit的25,978个问题的117万答案来研究这个问题，比较真实平台答案和人工智能生成答案在四个问题内参与度水平上的表现。我们引入了本体偏好测量（Ontological Preference Measurement），该测量将答案沿逻辑、情感和表达三个维度进行表示。我们发现人工智能偏好与真实用户参与之间存在系统性的差距：随着目标参与度的提高，LLM（大型语言模型）增加了更多显式的逻辑结构，而真实用户参与则更强烈地与情感和表达的显著性相关。我们称这种倾向为逻辑过度绑定（logic overbinding）。基于这一诊断，我们提出了本体掩蔽推理自编码（Ontology-Masked Reasoning Autoencoding, OMRA），这是一种控制干预方法，掩蔽并重构过度解释的部分，同时保留立场、事实内容和连贯性。在四个LLM家族中，OMRA平均减少了54.4%的测量差距。在人类评估中，OMRA在与匹配的真实平台答案的成对偏好判断中获胜62.4%，尽管真实答案更常被判断为人类撰写。",
+      "authors": [
+        "Xinglang Zhang",
+        "Yuanmeng Xiang",
+        "Yunyao Zhang",
+        "Zeliang Chen",
+        "Junqing Yu",
+        "Zikai Song"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.18282",
+      "tags": [
+        "情感大模型",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Too Good to Be Real? Diagnosing and Reducing the Gap Between AI Preference and Real User Engagement",
+      "title_zh": "太好以至于不真实？诊断并缩小人工智能偏好与真实用户参与之间的差距",
+      "url": "/daily/2026-09-17/#paper-2609-18282"
+    },
+    {
+      "abstract": "Classroom observations are widely recognized as a key tool for establishing benchmarks of education quality and guiding pedagogical improvement, yet they remain resource-intensive and dependent on trained observers. This study evaluated the feasibility of using a LLM (GPT-5 model) to score teacher-child interactions in early childhood classrooms, benchmarked against human raters. The study analyzed 87 video-recorded observations from 38 classrooms across 30 kindergartens in Hong Kong. Using observation transcripts, the AI model was configured to apply the full Classroom Assessment Scoring System (CLASS) framework. AI-rated scores were then compared with human ratings by examining correlations and differences in mean scores of the CLASS domains and dimensions. The results showed greater convergence between AI and raters for the Emotional Support domain and, in particular, the Quality of Feedback dimension, which captures how teachers use feedback to extend children's learning. Greater divergence emerged for interactions that were more procedural or context-dependent, particularly within the Classroom Organization and Instructional Support domains. These findings suggest that transcript-based AI scoring may capture some of the relative variation in teacher-child interactions but cannot yet reproduce calibrated human judgements consistently across the full CLASS framework. AI-assisted observation may therefore be more appropriate as a preliminary screening tool rather than as a replacement for trained observers, providing teachers with evidence for reflection rather than high-stakes evaluation. Future research should examine whether domain-specific training and incorporation of contextual and visual information can improve alignment between AI and human rated scores.",
+      "abstract_zh": "课堂观察被广泛认为是建立教育质量基准和指导教学改进的关键工具，然而它们仍然资源密集且依赖于经过培训的观察者。本研究评估了使用大型语言模型（LLM，GPT-5模型）对幼儿园课堂中教师与儿童互动进行评分的可行性，并与人类评分者进行了基准比较。研究分析了来自香港30所幼儿园的38个课堂中的87个视频录制观察。通过观察记录，AI模型被配置为应用完整的课堂评估评分系统（CLASS）框架。然后，通过检查CLASS领域和维度的相关性和均值评分差异，将AI评分与人类评分进行了比较。结果显示，AI与评分者在情感支持领域，特别是在反馈质量维度上的一致性更高，该维度反映了教师如何利用反馈来延伸儿童的学习。而在课堂组织和教学支持领域，针对更具程序性或依赖于上下文的互动，AI评分与人类评分的差异则更大。这些发现表明，基于记录的AI评分可能捕捉到教师与儿童互动中的相对变化，但尚无法在完整的CLASS框架下始终如一地再现经过校准的人类判断。因此，AI辅助观察可能更适合作为初步筛选工具，而不是替代经过培训的观察者，为教师提供反思的证据，而非高风险的评估。未来的研究应探讨领域特定的培训和上下文及视觉信息的结合是否能改善AI与人类评分之间的一致性。",
+      "authors": [
+        "Y. Fong",
+        "J. Xiang",
+        "T. Y. D. Chan",
+        "K. Lee",
+        "E. Y. H. Lau"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.18274",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "I code or AI code: A comparative evaluation of AI-rated scores in classroom observations",
+      "title_zh": "我评分还是AI评分：课堂观察中AI评分的比较评估",
+      "url": "/daily/2026-09-17/#paper-2609-18274"
+    },
+    {
+      "abstract": "Open-weight large language models are rapidly entering hiring pipelines, yet their discriminatory failure modes -- and the regulatory exposure these create under the EU AI Act high-risk classification (Annex III) and U.S. EEOC adverse-impact analysis -- remain poorly understood. We present the first systematic, multi-model audit of open-weight LLMs that treats job-posting language as the primary experimental variable, evaluating six models (Llama 3.2, Mistral, Gemma 3, Qwen 3, Phi 3, DeepSeek-R1) across four controlled experiments that jointly probe recruiter-simulation and job-seeker-simulation tasks. We find that (1) agentic posting language depresses recruiter recommendation scores for female candidates (r_rb = 0.309, p_Bonf = 7x10^-5; model-fixed-effects r_rb = 0.448), while communal language partially reverses the penalty; and (2) coded-exclusion language suppresses non-White recruiter scores at large effect sizes (r_rb = 0.646-0.758) and, on the job-seeker side, selectively deters non-White personas from expressing interest -- operationalizing a chilling-effect mechanism at scale. A label-ablation experiment isolates the explicit demographic persona label as the primary causal driver, and Word Embedding Association Tests corroborate these findings at the representational level (d = 1.01-1.45 under Caliskan et al.'s multi-word gender attribute lists). We translate these results into a concrete pre-deployment audit protocol -- posting-vocabulary scoring, persona-conditioned LLM probing, and adverse-impact flagging against the four-fifths threshold -- that operationalizes the documentation and risk-management obligations Annex III imposes on high-risk AI in recruitment.",
+      "abstract_zh": "开放权重大型语言模型正迅速进入招聘流程，然而其歧视性失效模式及其在欧盟《人工智能法案》高风险分类（附件三）和美国平等就业机会委员会（EEOC）不利影响分析下所带来的监管风险，仍然缺乏充分理解。本文首次对开放权重大型语言模型进行系统的多模型审计，将招聘广告语言作为主要实验变量，评估了六个模型（Llama 3.2、Mistral、Gemma 3、Qwen 3、Phi 3、DeepSeek-R1），通过四个受控实验联合探究招聘者模拟和求职者模拟任务。研究发现：(1) 具有主动性的招聘语言会降低女性候选人的招聘推荐分数（r_rb = 0.309，p_Bonf = 7×10^-5；模型固定效应 r_rb = 0.448），而具有共情性的语言则部分缓解了这一惩罚；(2) 编码排斥语言显著抑制非白人候选人的招聘者评分（r_rb = 0.646-0.758），且在求职者侧选择性地阻止非白人人设表达兴趣——在大规模上实现了寒蝉效应机制。标签消融实验将显性的人口统计学人设标签确定为主要因果驱动因素，词嵌入关联测试（Word Embedding Association Tests）在表征层面上（基于Caliskan等人的多词性别属性列表，d = 1.01-1.45）进一步证实了这些发现。我们将这些结果转化为具体的部署前审计协议——包括招聘广告词汇评分、人设条件下的大型语言模型探测以及基于四分之三规则的不利影响标记——以实现附件三对招聘中高风险人工智能所施加的文档编制和风险管理义务。",
+      "authors": [
+        "Kosuke Kitahara",
+        "Nobuhiro Yamaguchi"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.18106",
+      "tags": [
+        "情感大模型",
+        "共情交互",
+        "鲁棒性/偏差"
+      ],
+      "title": "Linguistic Triggers of Gender and Racial Bias in Open-Weight LLMs Applied to Recruitment",
+      "title_zh": "开放权重大型语言模型在招聘中性别和种族偏见的语言触发因素",
+      "url": "/daily/2026-09-17/#paper-2609-18106"
+    },
+    {
+      "abstract": "Emotion recognition in conversation (ERC) is a production capability behind agent-assist prompts, escalation routing, and post-call analytics in contact-center-as-a-service (CCaaS) platforms, where cost and latency constraints matter as much as accuracy. We report a systems-level comparison of three deployment options for dialogue-contextual ERC: a low-cost stacked ensemble (sentence embeddings, windowed context, RandomForest/XGBoost/logistic-regression stacking), off-the-shelf LLM prompting (GPT-4o-mini; zero-shot, few-shot, chain-of-thought), and a confidence-gated hybrid that escalates only the ensemble's least-confident predictions to the LLM - modeled on IVA-to-human-agent escalation policies used in production contact centers. On IEMOCAP, the ensemble significantly outperforms every LLM configuration (0.595 vs. 0.460-0.536 weighted F1, p < 0.0001) at a fraction of the cost and sub-10ms latency; on MELD and CMU-MOSI the ranking reverses, showing neither pure system is a safe default. The confidence-gated hybrid resolves this by Pareto-dominating both pure systems on all three datasets (0.620, 0.643, 0.824 weighted F1) while routing the majority of traffic through the near-zero-cost ensemble, translating to roughly $10-85 per million utterances versus $99-170 for an LLM-only pipeline. The escalation policy is not an opaque cost/accuracy dial: escalated turns disproportionately follow an emotion or sentiment shift, giving operators an interpretable, auditable routing signal, and the ensemble's confidence is well-calibrated and safely under- rather than over-confident. The pattern holds across three datasets and two LLM providers. Confidence-gated cascading is established in general ML systems; our contribution is showing it transfers cleanly to dialogue-contextual ERC, yielding a concrete deployment recipe for CCaaS and conversational-AI platforms deciding how to allocate LLM spend.",
+      "abstract_zh": "对话中的情感识别（ERC）是代理辅助提示、升级路由和呼叫后分析等功能的基础，尤其在联络中心即服务（CCaaS）平台中，成本和延迟约束与准确性同样重要。我们报告了三种对话上下文情感识别的部署选项的系统级比较：一种低成本的堆叠集成方法（句子嵌入、窗口上下文、随机森林/XGBoost/逻辑回归堆叠）、现成的大型语言模型（LLM）提示（GPT-4o-mini；零-shot、少-shot、思维链）以及一种基于置信度的混合方法，该方法仅将集成模型中置信度最低的预测结果升级到LLM——该模型基于生产联络中心中使用的IVA到人类代理的升级策略。在IEMOCAP数据集上，该集成模型显著优于每种LLM配置（0.595对0.460-0.536加权F1，p < 0.0001），且成本仅为其一小部分，延迟低于10毫秒；在MELD和CMU-MOSI数据集上，排名则相反，显示出纯系统并不是一个安全的默认选择。基于置信度的混合方法通过在所有三个数据集上Pareto优于这两种纯系统（0.620、0.643、0.824加权F1）来解决这一问题，同时将大部分流量路由通过几乎零成本的集成模型，成本约为每百万次发言10-85美元，而仅使用LLM的管道则为99-170美元。升级策略并不是一个不透明的成本/准确性调节器：升级的对话轮次不成比例地跟随情感或情绪的变化，为操作员提供了一个可解释、可审计的路由信号，而集成模型的置信度经过良好校准，且安全地表现出低于而非过于自信的特征。该模式在三个数据集和两个LLM提供商中均保持一致。基于置信度的级联在一般机器学习系统中已被确立；我们的贡献在于展示其在对话上下文情感识别中的有效转移，为CCaaS和对话AI平台提供了具体的部署方案，以决定如何分配LLM的支出。",
+      "authors": [
+        "Sai Babu Udayagiri",
+        "Arjun Chouhan",
+        "Ravisekhar Kanagala",
+        "Trishala Pavagada"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.17977",
+      "tags": [
+        "情绪识别",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "When to Call an LLM: A Confidence-Gated Hybrid for Cost-Effective Emotion Recognition in Conversational AI",
+      "title_zh": "何时调用大型语言模型：一种基于置信度的混合方法用于成本效益高的对话情感识别",
+      "url": "/daily/2026-09-17/#paper-2609-17977"
+    },
+    {
+      "abstract": "This article analyzes BPE tokenization in Polish as a test case for the limits of statistical segmentation in an inflectional language. It asks whether frequency-based tokenization preserves linguistically relevant units, including orthographic form, phonemic and syllabic segmentation, derivational structure, inflectional endings, grammatical form, and the speaking subject. The material includes diagnostic words, a children's text, selected forms from the Preamble to the Constitution of the Republic of Poland, word-family tests, and examples with Polish diacritics and nasal vowels. BPE tokenizers may produce segments that coincide with syllabic or morphologically interpretable divisions, but remain dependent on the frequency of written forms. They do not systematically map orthographic representation onto phonemic structure or context-dependent phonetic realization. The results show that BPE stabilizes frequent surface fragments of grammatical exponents rather than grammatical categories themselves. A form such as ustanawiamy is not merely a sequence ending in -y, but a verbal form anchored in conjugation, person, number, tense, mood, and aspect. The article develops the concept of grammatical form anchoring. In Polish, forms such as poszlam, zrobilam, or bylam can establish the position of the speaking subject without an explicit pronoun. In interaction with AI, this exposes a further problem: a language model does not possess a stable grammatical \"I\", but reconstructs it contextually and may mirror the user's forms or shift grammatical gender. Roclawski's segmentation-flexional forms are proposed as a diagnostic framework for evaluating tokenization boundaries. More stable modeling of Polish may require sublexical stabilization, anchoring grammatical form in the inflectional system, representing sentence patterns and verbal valency, and maintaining the grammatical \"I\" in dialogue.",
+      "abstract_zh": "本文分析了波兰语中的BPE分词，作为对屈折语言中统计分段局限性的测试案例。文章探讨了基于频率的分词是否能保留语言学相关单位，包括正字法形式、音素和音节分段、派生结构、屈折词尾、语法形式以及说话主体。材料包括诊断词、儿童文本、波兰共和国宪法序言中的选定形式、词族测试以及带有波兰语变音符号和鼻元音的例子。BPE分词器可能会产生与音节或形态学可解释分割相一致的片段，但仍然依赖于书面形式的频率。它们并未系统地将正字法表示映射到音素结构或上下文依赖的语音实现上。结果表明，BPE稳定的是语法标记的频繁表面片段，而非语法类别本身。像ustanawiamy这样的形式不仅仅是以-y结尾的序列，而是一个锚定于变位、人称、数、时态、语气和体的动词形式。文章发展了语法形式锚定的概念。在波兰语中，像poszlam、zrobilam或bylam这样的形式可以在没有明确代词的情况下确立说话主体的位置。在与人工智能的互动中，这暴露了一个进一步的问题：语言模型并不拥有稳定的语法“我”，而是根据上下文重构它，并可能反映用户的形式或改变语法性别。Roclawski的分段-屈折形式被提出作为评估分词边界的诊断框架。对波兰语的更稳定建模可能需要亚词汇的稳定性，将语法形式锚定在屈折系统中，表示句子模式和动词的价，并在对话中保持语法“我”。",
+      "authors": [
+        "Elzbieta Dawidek"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.17553",
+      "tags": [
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "The Limits of BPE Tokenization in Polish: Segmentation-Flexional Forms, Grammatical Anchoring, and First-Person Stability in Inflectional Language Models",
+      "title_zh": "波兰语中BPE分词的局限性：分段-屈折形式、语法锚定与屈折语言模型中的第一人称稳定性",
+      "url": "/daily/2026-09-17/#paper-2609-17553"
+    },
+    {
+      "abstract": "Cyberbullying (CB) is a complex social phenomenon characterized by repeated aggression, power imbalance, and multi-party interaction. Although large language models (LLMs) are increasingly used to generate synthetic CB conversations for data augmentation and benchmarking, it remains unclear whether such data faithfully reproduces the social dynamics of authentic interactions beyond supporting downstream task performance. We present a comprehensive framework for evaluating the social realism of LLM-generated CB conversations. We compare authentic and synthetic dialogues generated by GPT, Grok, and LLaMA across interactional structure (turn-taking, power dynamics, and repair behavior), linguistic and stylistic realism (pronoun usage and humor), affective and behavioral markers (CB types, profanity, and toxicity), and temporal escalation dynamics. We further complement automatic analyses with a human evaluation of cyberbullying presence, scenario relevance, role plausibility, and social realism. Our results show that LLM-generated data consistently preserves high-level interactional structure, including role participation patterns, directional power asymmetry, and broad distributions of behavioral markers. However, all models systematically distort finer-grained social phenomena, including behavioral magnitude, role-specific allocation, categorical distributions, and temporal dynamics. These distortions are strongly model-dependent: GPT suppresses harmful content, Grok amplifies aggressive behaviors, and LLaMA provides the most balanced approximation while smoothing role distinctions. Our findings show that synthetic CB data is useful for modeling global interactional structure but remains an imperfect substitute for authentic conversations when behavioral realism and social dynamics are essential.",
+      "abstract_zh": "网络欺凌（CB）是一种复杂的社会现象，其特征是重复的攻击、权力不平衡和多方互动。尽管大型语言模型（LLMs）越来越多地用于生成合成的网络欺凌对话以进行数据增强和基准测试，但尚不清楚这些数据是否忠实地再现了真实互动的社会动态，超出了对下游任务性能的支持。我们提出了一个全面的框架，用于评估LLM生成的网络欺凌对话的社会真实感。我们比较了由GPT、Grok和LLaMA生成的真实和合成对话，分析了互动结构（轮流发言、权力动态和修复行为）、语言和风格的真实感（代词使用和幽默）、情感和行为标记（网络欺凌类型、粗俗语言和毒性）以及时间升级动态。我们进一步通过对网络欺凌存在、场景相关性、角色可信度和社会真实感的人类评估补充了自动分析。我们的结果表明，LLM生成的数据在高层次的互动结构方面始终保持一致，包括角色参与模式、方向性权力不对称和行为标记的广泛分布。然而，所有模型系统性地扭曲了更细粒度的社会现象，包括行为幅度、角色特定分配、类别分布和时间动态。这些扭曲在很大程度上依赖于模型：GPT抑制有害内容，Grok放大攻击性行为，而LLaMA在平滑角色区分的同时提供了最平衡的近似。我们的研究结果表明，合成的网络欺凌数据在建模全球互动结构方面是有用的，但在行为真实感和社会动态至关重要时，仍然是一个不完美的替代品。",
+      "authors": [
+        "Arefeh Kazemi",
+        "Hamza Qadeer",
+        "Sinan Asci",
+        "Joachim Wagner",
+        "Brian Davis"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.17549",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Do Social Patterns Hold in Synthetic Data? Analyzing Cyberbullying Dynamics in LLM-Generated and Authentic Dialogues",
+      "title_zh": "合成数据中的社会模式是否成立？分析LLM生成和真实对话中的网络欺凌动态",
+      "url": "/daily/2026-09-17/#paper-2609-17549"
+    },
+    {
+      "abstract": "Cognitive Stimulation Therapy (CST) offers non-pharmacological support for elders with cognitive impairment, yet scalability remains constrained by reliance on trained facilitators and severe data scarcity, particularly for privacy-sensitive, low-resource languages such as Cantonese. While Large Language Models (LLMs) show promise for automated companionship, they often struggle to balance empathetic engagement with adherence to cognitive stimulation guidelines. We propose a framework addressing these challenges along two complementary axes. First, STaR-CS (Style-Transfer and Role-Conditioned Cognitive Stimulation) synthesizes multi-party dialogues through facilitator style modeling and structured skeleton extraction, mitigating data barriers. Building upon this corpus, the Reflective Cognitive Alignment (RCA) framework models stimulation interactions as a sequential decision process, integrating Protocol-Constrained Chain-of-Cognition (PC-CoC) for structured reasoning and Inference-Time Value Alignment (IVA) for principled response selection based on safety and engagement goals. Evaluations across six backbone LLMs and two independent judges show that RCA consistently improves protocol adherence, safety, and group facilitation over standard prompting baselines. Our code is available at https://github.com/jiangjyjy/RCA_Agent.",
+      "abstract_zh": "认知刺激疗法（Cognitive Stimulation Therapy，CST）为认知障碍的老年人提供非药物支持，但由于依赖训练有素的引导者和数据稀缺，尤其是在隐私敏感的低资源语言（如粤语）中，其可扩展性受到限制。尽管大型语言模型（Large Language Models，LLMs）在自动陪伴方面显示出潜力，但它们往往难以平衡同情参与与遵循认知刺激指南之间的关系。我们提出了一个框架，以应对这两个互补的挑战。首先，STaR-CS（风格转移与角色条件认知刺激）通过引导者风格建模和结构化骨架提取合成多方对话，从而减轻数据障碍。在此语料库的基础上，反思认知对齐（Reflective Cognitive Alignment，RCA）框架将刺激互动建模为一个顺序决策过程，整合协议约束的认知链（Protocol-Constrained Chain-of-Cognition，PC-CoC）以进行结构化推理，并结合推理时价值对齐（Inference-Time Value Alignment，IVA）以基于安全性和参与目标进行原则性响应选择。对六个基础大型语言模型和两位独立评审的评估表明，RCA在协议遵循、安全性和小组引导方面始终优于标准提示基线。我们的代码可在 https://github.com/jiangjyjy/RCA_Agent 获取。",
+      "authors": [
+        "Jiyue Jiang",
+        "Ziyi Li",
+        "He Hu",
+        "Sheng Wang",
+        "Yuhan Chen",
+        "Yanyu Chen",
+        "Jingqi Zhou",
+        "Pengan Chen",
+        "Fei Ma",
+        "Irwin King",
+        "Yu Li",
+        "Chuan Wu"
+      ],
+      "date": "2026-09-17",
+      "id": "2609.17536",
+      "tags": [
+        "情感大模型",
+        "共情交互",
+        "情感生成"
+      ],
+      "title": "Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents",
+      "title_zh": "在安慰之前思考：基于反思认知对齐的协议基础老年刺激代理",
+      "url": "/daily/2026-09-17/#paper-2609-17536"
+    },
     {
       "abstract": "Dynamic facial expression recognition (DFER) benchmarks such as DFEW provide multiple annotator votes per clip, yet most models collapse them to a majority label and cannot represent human disagreement at inference time. We propose a disagreement-aware DFER framework that trains directly on the raw annotator count vector using a Dirichlet-Multinomial likelihood. Unlike mean-only soft-label objectives, the proposed likelihood provides scale-sensitive supervision for the Dirichlet concentration while preserving the predictive mean. A separate ambiguity head predicts annotation entropy for unseen clips, and a monotone Chow-style reject rule combines predicted ambiguity, vacuity, temporal instability, and input quality for selective prediction. On DFEW, the method preserves recognition accuracy while reducing ECE by 30% and AURC by 15%, and predicted ambiguity reaches a Spearman correlation of 0.52 with the annotation entropy of test clips. The calibration and selective-prediction gains transfer to FERV39k and remain under identity- and movie-disjoint DFEW splits.",
       "abstract_zh": "动态面部表情识别（DFER）基准，如DFEW，为每个片段提供多个标注者投票，但大多数模型将其简化为多数标签，无法在推理时表示人类分歧。我们提出了一种关注分歧的DFER框架，直接在原始标注者计数向量上进行训练，使用Dirichlet-多项式似然。与仅使用均值的软标签目标不同，所提出的似然为Dirichlet浓度提供了对尺度敏感的监督，同时保留了预测均值。一个独立的模糊头预测未见片段的标注熵，而单调的Chow风格拒绝规则结合了预测的模糊性、空白性、时间不稳定性和输入质量，以实现选择性预测。在DFEW上，该方法在保持识别准确性的同时，将ECE降低了30%，AURC降低了15%，预测的模糊性与测试片段的标注熵达到了0.52的斯皮尔曼相关性。校准和选择性预测的提升转移到FERV39k，并在身份和电影不重叠的DFEW分割下保持有效。",

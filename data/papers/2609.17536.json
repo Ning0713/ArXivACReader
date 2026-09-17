@@ -1,0 +1,61 @@
+{
+  "abstract": "Cognitive Stimulation Therapy (CST) offers non-pharmacological support for elders with cognitive impairment, yet scalability remains constrained by reliance on trained facilitators and severe data scarcity, particularly for privacy-sensitive, low-resource languages such as Cantonese. While Large Language Models (LLMs) show promise for automated companionship, they often struggle to balance empathetic engagement with adherence to cognitive stimulation guidelines. We propose a framework addressing these challenges along two complementary axes. First, STaR-CS (Style-Transfer and Role-Conditioned Cognitive Stimulation) synthesizes multi-party dialogues through facilitator style modeling and structured skeleton extraction, mitigating data barriers. Building upon this corpus, the Reflective Cognitive Alignment (RCA) framework models stimulation interactions as a sequential decision process, integrating Protocol-Constrained Chain-of-Cognition (PC-CoC) for structured reasoning and Inference-Time Value Alignment (IVA) for principled response selection based on safety and engagement goals. Evaluations across six backbone LLMs and two independent judges show that RCA consistently improves protocol adherence, safety, and group facilitation over standard prompting baselines. Our code is available at https://github.com/jiangjyjy/RCA_Agent.",
+  "abstract_zh": "认知刺激疗法（Cognitive Stimulation Therapy，CST）为认知障碍的老年人提供非药物支持，但由于依赖训练有素的引导者和数据稀缺，尤其是在隐私敏感的低资源语言（如粤语）中，其可扩展性受到限制。尽管大型语言模型（Large Language Models，LLMs）在自动陪伴方面显示出潜力，但它们往往难以平衡同情参与与遵循认知刺激指南之间的关系。我们提出了一个框架，以应对这两个互补的挑战。首先，STaR-CS（风格转移与角色条件认知刺激）通过引导者风格建模和结构化骨架提取合成多方对话，从而减轻数据障碍。在此语料库的基础上，反思认知对齐（Reflective Cognitive Alignment，RCA）框架将刺激互动建模为一个顺序决策过程，整合协议约束的认知链（Protocol-Constrained Chain-of-Cognition，PC-CoC）以进行结构化推理，并结合推理时价值对齐（Inference-Time Value Alignment，IVA）以基于安全性和参与目标进行原则性响应选择。对六个基础大型语言模型和两位独立评审的评估表明，RCA在协议遵循、安全性和小组引导方面始终优于标准提示基线。我们的代码可在 https://github.com/jiangjyjy/RCA_Agent 获取。",
+  "arxiv_id": "2609.17536",
+  "arxiv_url": "https://arxiv.org/abs/2609.17536v1",
+  "authors": [
+    "Jiyue Jiang",
+    "Ziyi Li",
+    "He Hu",
+    "Sheng Wang",
+    "Yuhan Chen",
+    "Yanyu Chen",
+    "Jingqi Zhou",
+    "Pengan Chen",
+    "Fei Ma",
+    "Irwin King",
+    "Yu Li",
+    "Chuan Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-17536",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.482341+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.17536v1",
+  "published_at": "2026-07-13T12:47:09Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathetic",
+      "large language models",
+      "LLMs",
+      "reasoning",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.17536v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "共情交互",
+      "情感生成"
+    ]
+  },
+  "title": "Think Before You Comfort: Reflective Cognitive Alignment for Protocol-Grounded Elderly Stimulation Agents",
+  "title_zh": "在安慰之前思考：基于反思认知对齐的协议基础老年刺激代理",
+  "translation_url": "https://hjfy.top/arxiv/2609.17536"
+}

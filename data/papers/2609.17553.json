@@ -1,0 +1,46 @@
+{
+  "abstract": "This article analyzes BPE tokenization in Polish as a test case for the limits of statistical segmentation in an inflectional language. It asks whether frequency-based tokenization preserves linguistically relevant units, including orthographic form, phonemic and syllabic segmentation, derivational structure, inflectional endings, grammatical form, and the speaking subject. The material includes diagnostic words, a children's text, selected forms from the Preamble to the Constitution of the Republic of Poland, word-family tests, and examples with Polish diacritics and nasal vowels. BPE tokenizers may produce segments that coincide with syllabic or morphologically interpretable divisions, but remain dependent on the frequency of written forms. They do not systematically map orthographic representation onto phonemic structure or context-dependent phonetic realization. The results show that BPE stabilizes frequent surface fragments of grammatical exponents rather than grammatical categories themselves. A form such as ustanawiamy is not merely a sequence ending in -y, but a verbal form anchored in conjugation, person, number, tense, mood, and aspect. The article develops the concept of grammatical form anchoring. In Polish, forms such as poszlam, zrobilam, or bylam can establish the position of the speaking subject without an explicit pronoun. In interaction with AI, this exposes a further problem: a language model does not possess a stable grammatical \"I\", but reconstructs it contextually and may mirror the user's forms or shift grammatical gender. Roclawski's segmentation-flexional forms are proposed as a diagnostic framework for evaluating tokenization boundaries. More stable modeling of Polish may require sublexical stabilization, anchoring grammatical form in the inflectional system, representing sentence patterns and verbal valency, and maintaining the grammatical \"I\" in dialogue.",
+  "abstract_zh": "本文分析了波兰语中的BPE分词，作为对屈折语言中统计分段局限性的测试案例。文章探讨了基于频率的分词是否能保留语言学相关单位，包括正字法形式、音素和音节分段、派生结构、屈折词尾、语法形式以及说话主体。材料包括诊断词、儿童文本、波兰共和国宪法序言中的选定形式、词族测试以及带有波兰语变音符号和鼻元音的例子。BPE分词器可能会产生与音节或形态学可解释分割相一致的片段，但仍然依赖于书面形式的频率。它们并未系统地将正字法表示映射到音素结构或上下文依赖的语音实现上。结果表明，BPE稳定的是语法标记的频繁表面片段，而非语法类别本身。像ustanawiamy这样的形式不仅仅是以-y结尾的序列，而是一个锚定于变位、人称、数、时态、语气和体的动词形式。文章发展了语法形式锚定的概念。在波兰语中，像poszlam、zrobilam或bylam这样的形式可以在没有明确代词的情况下确立说话主体的位置。在与人工智能的互动中，这暴露了一个进一步的问题：语言模型并不拥有稳定的语法“我”，而是根据上下文重构它，并可能反映用户的形式或改变语法性别。Roclawski的分段-屈折形式被提出作为评估分词边界的诊断框架。对波兰语的更稳定建模可能需要亚词汇的稳定性，将语法形式锚定在屈折系统中，表示句子模式和动词的价，并在对话中保持语法“我”。",
+  "arxiv_id": "2609.17553",
+  "arxiv_url": "https://arxiv.org/abs/2609.17553v1",
+  "authors": [
+    "Elzbieta Dawidek"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-17#paper-2609-17553",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-17T09:55:17.493499+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.17553v1",
+  "published_at": "2026-07-17T17:51:52Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "mood",
+      "dialogue",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-09-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.17553v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感"
+    ]
+  },
+  "title": "The Limits of BPE Tokenization in Polish: Segmentation-Flexional Forms, Grammatical Anchoring, and First-Person Stability in Inflectional Language Models",
+  "title_zh": "波兰语中BPE分词的局限性：分段-屈折形式、语法锚定与屈折语言模型中的第一人称稳定性",
+  "translation_url": "https://hjfy.top/arxiv/2609.17553"
+}
