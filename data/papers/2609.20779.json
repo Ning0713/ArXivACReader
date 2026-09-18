@@ -1,0 +1,50 @@
+{
+  "abstract": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through to GPT-5 (OpenAI GPT lineage; three demographic conditions), we show that sexual violence clusters prevalent in GPT-2 women-directed output disappear by GPT-4, while men-directed completions gain positive representational territory (caregiving, emotional range, ally identity) that women-directed completions do not. The pattern is most visible at GPT-5: Topic~5 (1,997~documents) frames breast cancer as a men's rights debate, while zero equivalent clusters appear in women-directed output. Three independent classifiers score this content as non-toxic. Sentiment scores invert at GPT-4: early models demean women; later models over-correct. Topic diversity in women-directed completions falls 36\\% relative to men at the GPT-4 alignment boundary (W/M~$= 0.58$, from $0.91$ at GPT-2). REGARD representational harm disparity correlates with release date ($\\rho = +0.55$, $p = .034$) while Detoxify does not ($\\rho = -0.23$, $p = .42$): toxicity scores fall as representational harm grows. We formalise harm laundering as a three-criteria test and provide a three-stage detection protocol applicable to any generative model. Within the OpenAI GPT lineage, toxicity score reduction is not a sufficient proxy for harm reduction.",
+  "abstract_zh": "大型语言模型的安全评估依赖于表面形式分类器，这些分类器报告模型代际间伤害评分的下降。我们提供证据表明，这种方法论系统性地不完整：显性歧视内容被转化而非移除。我们称之为“伤害洗涤”（harm laundering）。通过分析450,000个针对性别的生成结果，涵盖从GPT-2到GPT-5的15个模型（OpenAI GPT谱系；三种人口统计条件），我们展示了在GPT-2中针对女性的输出中普遍存在的性暴力聚类在GPT-4中消失，而针对男性的生成结果获得了女性生成结果所没有的积极表现领域（如照顾、情感范围、盟友身份）。这一模式在GPT-5中最为明显：主题5（1,997个文档）将乳腺癌框架化为男性权利的辩论，而在针对女性的输出中没有出现相应的聚类。三个独立的分类器将这些内容评分为非毒性。在GPT-4中，情感评分发生反转：早期模型贬低女性；后期模型则过度修正。在GPT-4的对齐边界上，针对女性的生成结果的主题多样性相较于男性下降了36%（W/M = 0.58，从GPT-2的0.91）。REGARD表现出的代表性伤害差异与发布日期相关（ρ = +0.55，p = .034），而Detoxify则没有相关性（ρ = -0.23，p = .42）：随着代表性伤害的增加，毒性评分下降。我们将伤害洗涤形式化为一个三标准测试，并提供一个适用于任何生成模型的三阶段检测协议。在OpenAI GPT谱系中，毒性评分的降低并不是伤害减少的充分代理。",
+  "arxiv_id": "2609.20779",
+  "arxiv_url": "https://arxiv.org/abs/2609.20779v1",
+  "authors": [
+    "Sarah Wyer",
+    "Sue Black",
+    "Noura Al Moubayed"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-20779",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.407026+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20779v1",
+  "published_at": "2026-09-17T17:49:28Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language models",
+      "detection",
+      "分类",
+      "检测",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20779v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+  "title_zh": "GPT模型中的伤害洗涤：性别歧视在安全训练的代际中被转化而非减少的证据",
+  "translation_url": "https://hjfy.top/arxiv/2609.20779"
+}

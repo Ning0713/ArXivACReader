@@ -1,0 +1,52 @@
+{
+  "abstract": "Human perception, action and decision making unfold in sequences, but computational predictors are often domain-specific. This study computes and tests sequential contextual fit (SCF), an embedding-based measure of how well a current information state matches its recent context. The metric uses a simple recency-weighted similarity kernel and can be applied to words, sounds, visual scenes, affective states, choices, actions and neural representations. Across language processing, music-evoked emotion, a subset of audiovisual emotion EEG data, gambling decisions, human activity recognition and decision-related EEG, lower contextual fit predicted longer processing times, larger affective or behavioural transitions and stronger neural-state changes. These effects remained after controlling for established predictors including surprisal, reinforcement-learning prediction error, acoustic change, visual change and sensor change. SCF therefore provides a computational measurement layer for relating contextual compatibility to behavioural processing and cognitive/neural state-transition dynamics.",
+  "abstract_zh": "人类的感知、行动和决策是以序列的形式展开的，但计算预测往往是特定于领域的。本研究计算并测试了序列上下文契合度（Sequential Contextual Fit, SCF），这是一种基于嵌入的度量，评估当前信息状态与其近期上下文的匹配程度。该指标使用简单的近期加权相似性核，可以应用于单词、声音、视觉场景、情感状态、选择、行动和神经表征。在语言处理、音乐引发的情感、一组视听情感的脑电图（EEG）数据、赌博决策、人类活动识别和与决策相关的EEG中，较低的上下文契合度预测了更长的处理时间、更大的情感或行为转变以及更强的神经状态变化。这些效应在控制了包括惊讶度、强化学习预测误差、声学变化、视觉变化和传感器变化等已建立的预测因子后仍然存在。因此，SCF为将上下文兼容性与行为处理和认知/神经状态转变动态相关联提供了计算测量层。",
+  "arxiv_id": "2609.20179",
+  "arxiv_url": "https://arxiv.org/abs/2609.20179v1",
+  "authors": [
+    "Kun Sun",
+    "Rong Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-20179",
+  "categories": [
+    "cs.AI",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.351494+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20179v1",
+  "published_at": "2026-07-24T08:36:03Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "recognition",
+      "prediction",
+      "EEG",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20179v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "生理信号",
+    "secondary": [
+      "语音情感"
+    ]
+  },
+  "title": "Sequential Contextual Fit Predicts Human Behavioural and Neural Dynamics Across Domains",
+  "title_zh": "序列上下文契合度预测跨领域的人类行为和神经动态",
+  "translation_url": "https://hjfy.top/arxiv/2609.20179"
+}

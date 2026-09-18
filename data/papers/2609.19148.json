@@ -1,0 +1,59 @@
+{
+  "abstract": "Ambivalence and hesitancy (A/H) are affective states in which individuals express contradictory signals across facial, vocal, and linguistic channels. Automatically recognising A/H in clinical videos requires detecting cross-modal disagreement -- the signal that standard fusion methods suppress. Based on the conflict-aware multimodal fusion framework of Bekhouche et al., we present the Modality Discrepancy Transformer (MDT). MDT enriches the original 6-token design to a 9-token representation comprising three modality embeddings, three absolute-difference features, and three Hadamard-product discrepancy features learned through linear projections. These nine tokens undergo Transformer self-attention, with FiLM-based text-conditioned modulation and LoRA fine-tuning as core architectural components. A text-guided late fusion branch blends a text-only auxiliary head with the full multimodal output at inference. On the BAH dataset from the 3rd ABAW Challenge, MDT achieves 0.7408 Macro F1 on the labelled test split and 0.7368 on the private leaderboard, outperforming the strongest published baseline by over 10 points while training in under 20 minutes on a single GPU.",
+  "abstract_zh": "矛盾和犹豫（A/H）是个体在面部、声音和语言通道中表达矛盾信号的情感状态。在临床视频中自动识别A/H需要检测跨模态的不一致性——这一信号是标准融合方法所抑制的。基于Bekhouche等人的冲突感知多模态融合框架，我们提出了模态差异变换器（MDT）。MDT将原始的6-token设计扩展为一个由三个模态嵌入、三个绝对差异特征和三个通过线性投影学习的Hadamard积差异特征组成的9-token表示。这九个token经过变换器自注意力处理，FiLM（Feature-wise Linear Modulation）基础的文本条件调制和LoRA（Low-Rank Adaptation）微调作为核心架构组件。一个文本引导的后期融合分支在推理时将仅文本的辅助头与完整的多模态输出相结合。在第三届ABA（Affective Behavior Analysis in the Wild）挑战赛的BAH数据集上，MDT在标记测试集上达到了0.7408的宏F1值，在私人排行榜上达到了0.7368，超过了最强已发布基线10多个点，同时在单个GPU上训练时间不足20分钟。",
+  "arxiv_id": "2609.19148",
+  "arxiv_url": "https://arxiv.org/abs/2609.19148v1",
+  "authors": [
+    "Shiyu Luo",
+    "Yu Wang",
+    "Jiawen Huang",
+    "Zhaoxiang Xiao",
+    "Chenxi Huang",
+    "Qi Zhang",
+    "Bin Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-19148",
+  "categories": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.366397+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.19148v1",
+  "published_at": "2026-07-18T03:40:24Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "multimodal",
+      "recognition",
+      "dataset",
+      "多模态",
+      "识别",
+      "检测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.19148v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+  "title_zh": "用于矛盾和犹豫识别的模态差异变换器",
+  "translation_url": "https://hjfy.top/arxiv/2609.19148"
+}

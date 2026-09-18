@@ -1,6 +1,221 @@
 {
-  "generated_at": "2026-09-17T09:55:21.267688+00:00",
+  "generated_at": "2026-09-18T09:34:08.216285+00:00",
   "items": [
+    {
+      "abstract": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through to GPT-5 (OpenAI GPT lineage; three demographic conditions), we show that sexual violence clusters prevalent in GPT-2 women-directed output disappear by GPT-4, while men-directed completions gain positive representational territory (caregiving, emotional range, ally identity) that women-directed completions do not. The pattern is most visible at GPT-5: Topic~5 (1,997~documents) frames breast cancer as a men's rights debate, while zero equivalent clusters appear in women-directed output. Three independent classifiers score this content as non-toxic. Sentiment scores invert at GPT-4: early models demean women; later models over-correct. Topic diversity in women-directed completions falls 36\\% relative to men at the GPT-4 alignment boundary (W/M~$= 0.58$, from $0.91$ at GPT-2). REGARD representational harm disparity correlates with release date ($\\rho = +0.55$, $p = .034$) while Detoxify does not ($\\rho = -0.23$, $p = .42$): toxicity scores fall as representational harm grows. We formalise harm laundering as a three-criteria test and provide a three-stage detection protocol applicable to any generative model. Within the OpenAI GPT lineage, toxicity score reduction is not a sufficient proxy for harm reduction.",
+      "abstract_zh": "大型语言模型的安全评估依赖于表面形式分类器，这些分类器报告模型代际间伤害评分的下降。我们提供证据表明，这种方法论系统性地不完整：显性歧视内容被转化而非移除。我们称之为“伤害洗涤”（harm laundering）。通过分析450,000个针对性别的生成结果，涵盖从GPT-2到GPT-5的15个模型（OpenAI GPT谱系；三种人口统计条件），我们展示了在GPT-2中针对女性的输出中普遍存在的性暴力聚类在GPT-4中消失，而针对男性的生成结果获得了女性生成结果所没有的积极表现领域（如照顾、情感范围、盟友身份）。这一模式在GPT-5中最为明显：主题5（1,997个文档）将乳腺癌框架化为男性权利的辩论，而在针对女性的输出中没有出现相应的聚类。三个独立的分类器将这些内容评分为非毒性。在GPT-4中，情感评分发生反转：早期模型贬低女性；后期模型则过度修正。在GPT-4的对齐边界上，针对女性的生成结果的主题多样性相较于男性下降了36%（W/M = 0.58，从GPT-2的0.91）。REGARD表现出的代表性伤害差异与发布日期相关（ρ = +0.55，p = .034），而Detoxify则没有相关性（ρ = -0.23，p = .42）：随着代表性伤害的增加，毒性评分下降。我们将伤害洗涤形式化为一个三标准测试，并提供一个适用于任何生成模型的三阶段检测协议。在OpenAI GPT谱系中，毒性评分的降低并不是伤害减少的充分代理。",
+      "authors": [
+        "Sarah Wyer",
+        "Sue Black",
+        "Noura Al Moubayed"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.20779",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+      "title_zh": "GPT模型中的伤害洗涤：性别歧视在安全训练的代际中被转化而非减少的证据",
+      "url": "/daily/2026-09-18/#paper-2609-20779"
+    },
+    {
+      "abstract": "Activation steering modifies LLM behavior at inference time, but identifying where and how strongly to steer remains manual. We introduce Deep Noir, a framework that uses Logit Lens convergence and causal head-level attribution to autonomously discover optimal steering parameters. Across three scales (1B x 3, 2-3B x 2, and 7-9B x 4), our engine achieves 16.7 percentage-point improvement on spam at 1B (standard deviation 4.7; 39 runs), with gains increasing to 21 to 42 percentage points at 7-9B across four architectures. On SST-2 sentiment, it achieves a 13.1 percentage-point improvement with zero code changes. Mechanistic grounding enables automated discovery of intervention points that generalize across tasks and architectures. On sentiment, RepE without head masking fails to improve over baseline, while Deep Noir improves all models (p less than 0.01). We further show that steering creates a predictable prompt-injection attack surface whose vulnerability increases monotonically with steering magnitude. This finding is relevant to agent systems deploying steered classifiers.",
+      "abstract_zh": "激活引导在推理时修改大型语言模型（LLM）的行为，但识别引导的具体位置和强度仍然是手动的。我们提出了Deep Noir，一个利用Logit Lens收敛和因果头级归因的框架，能够自主发现最佳引导参数。在三个规模（1B x 3、2-3B x 2和7-9B x 4）上，我们的引擎在1B上实现了16.7个百分点的垃圾邮件改善（标准差4.7；39次运行），在7-9B的四种架构上，提升幅度增加到21至42个百分点。在SST-2情感分析中，它实现了13.1个百分点的改善，且无需任何代码更改。机制基础使得能够自动发现跨任务和架构的干预点。在情感分析中，未进行头部掩蔽的RepE未能超越基线，而Deep Noir则改善了所有模型（p小于0.01）。我们进一步显示，引导创造了一个可预测的提示注入攻击面，其脆弱性随着引导幅度的增加而单调上升。此发现与部署引导分类器的代理系统相关。",
+      "authors": [
+        "Frank E. Bobe",
+        "Gregory D. Vetaw",
+        "Darshan W. Bryner",
+        "Matthew G. Cook",
+        "Jose L. Salas-Vernis"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.20722",
+      "tags": [
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Deep Noir: Autonomous Steering Discovery via Architectural Chronometry in Transformer Models",
+      "title_zh": "深度黑暗：通过变换器模型中的架构计时法发现自主驾驶",
+      "url": "/daily/2026-09-18/#paper-2609-20722"
+    },
+    {
+      "abstract": "This paper introduces and operationalizes summarization bias: a proposed systematic tendency of large language models (LLMs) to represent narrative meaning as an abstract summary label rather than as the reconstructable inferential structure that produces it. Within the Bulut Doctrine, narrative effect is theorized along a told-shown axis: in told mode, emotional and informational content is declared explicitly and requires little reader reconstruction; in shown mode, that content is suppressed at the surface and must be reconstructed from physical cues and indirection (Objective Projection). Shown mode is the higher-load condition the doctrine is designed to measure. The claim is that LLMs fail along this axis in a specific direction. Summarization bias is hypothesized to operate in two regimes: (i) a generative regime, in which a model asked to render an emotion through Objective Projection defaults to declaring it instead; and (ii) an evaluative regime, in which a model judging narrative quality rewards told-mode explicitness and under-detects shown-mode suppression. The evaluative regime is the more consequential, since LLMs increasingly serve as judges and reward models, and a directional bias toward told mode would impose a selection pressure degrading prose toward flat declaration. This report does not claim the bias is validated. It defines the construct, situates it against LLM-as-judge biases, rereads a completed independent reliability study as directional evidence consistent with it, and pre-registers a two-regime test with decision rules under which the construct would be abandoned.",
+      "abstract_zh": "本文介绍并操作化了摘要偏差：一种大型语言模型（LLMs）表现叙事意义为抽象摘要标签而非可重构推理结构的系统性倾向。在Bulut教义中，叙事效果沿着叙述-展示轴进行理论化：在叙述模式中，情感和信息内容被明确声明，读者重构的需求较小；而在展示模式中，这些内容在表面上被抑制，必须通过物理线索和间接性进行重构（客观投影）。展示模式是该教义旨在测量的高负载条件。该论点认为，LLMs在这一轴线上以特定方向失败。假设摘要偏差在两个领域中运作：（i）生成领域，在该领域中，被要求通过客观投影呈现情感的模型默认选择直接声明情感；（ii）评估领域，在该领域中，判断叙事质量的模型奖励叙述模式的明确性，而对展示模式的抑制检测不足。评估领域更具影响力，因为LLMs越来越多地作为评判者和奖励模型，而向叙述模式的方向性偏差将施加选择压力，使散文趋向于平坦的声明。本文并不声称该偏差已被验证。它定义了该构念，将其与LLM作为评判者的偏差进行对比，重新审视了一项已完成的独立可靠性研究作为与之相一致的方向性证据，并预注册了一项具有决策规则的双领域测试，在该测试下该构念将被放弃。",
+      "authors": [
+        "Levent Bulut"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.20712",
+      "tags": [
+        "情感大模型",
+        "鲁棒性/偏差"
+      ],
+      "title": "Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol",
+      "title_zh": "摘要偏差：大型语言模型中客观投影向叙述模式标签的方向性崩溃——一个概念框架和注册测试协议",
+      "url": "/daily/2026-09-18/#paper-2609-20712"
+    },
+    {
+      "abstract": "We introduce the \\textbf{Public Discourse Corpus (PDC)}, the first dataset of public-figure interview speech jointly annotated for affective valence and epistemic modality. The corpus contains 998 videos from 100 speakers across seven professional domains, yielding 186,642 sentences (3.1 million words) after sentence segmentation and filtering. To ensure that all retained videos contain analyzable speech from the intended speaker, we introduce \\textbf{Target Speaker Participation (TSP)}---a five-category annotation taxonomy with documented inter-annotator reliability ($\\kappa = 0.616$)---as a key methodological contribution that any corpus construction project can adopt. Target-speaker turns are separated from interviewer and third-party speech through an \\textbf{audio-first diarization pipeline} combining local Whisper ASR with pyannote speaker separation, released as an open-source implementation. We release the annotated corpus, the annotation tools, the cross-provider validation sample, and the complete processing pipeline. The dataset is available at https://huggingface.co/datasets/ictchenbo/public-discourse-corpus.",
+      "abstract_zh": "我们介绍了 extbf{公共话语语料库（PDC）}，这是第一个针对公共人物访谈语音进行情感价值和认知模态联合标注的数据集。该语料库包含来自100位发言者的998个视频，涵盖七个专业领域，在句子分割和过滤后，共产生186,642个句子（310万词）。为了确保所有保留的视频都包含来自目标发言者的可分析语音，我们引入了 extbf{目标发言者参与（TSP）}——一个五类标注分类法，并记录了标注者间的一致性（$ ext{kappa} = 0.616$）——作为任何语料库构建项目可以采用的关键方法论贡献。通过结合本地Whisper ASR和pyannote发言者分离的 extbf{音频优先分段流程}，将目标发言者的发言与采访者和第三方发言分开，并以开源实现的形式发布。我们发布了标注语料库、标注工具、跨提供者验证样本和完整的处理流程。该数据集可在https://huggingface.co/datasets/ictchenbo/public-discourse-corpus获取。",
+      "authors": [
+        "Bo Chen"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.20232",
+      "tags": [
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "The Public Discourse Corpus (PDC): A Speaker-Attributed Dataset for Valence and Epistemic Modality with Target Speaker Participation",
+      "title_zh": "公共话语语料库（PDC）：一个带有目标发言者参与的情感价值和认知模态的发言者归属数据集",
+      "url": "/daily/2026-09-18/#paper-2609-20232"
+    },
+    {
+      "abstract": "Human perception, action and decision making unfold in sequences, but computational predictors are often domain-specific. This study computes and tests sequential contextual fit (SCF), an embedding-based measure of how well a current information state matches its recent context. The metric uses a simple recency-weighted similarity kernel and can be applied to words, sounds, visual scenes, affective states, choices, actions and neural representations. Across language processing, music-evoked emotion, a subset of audiovisual emotion EEG data, gambling decisions, human activity recognition and decision-related EEG, lower contextual fit predicted longer processing times, larger affective or behavioural transitions and stronger neural-state changes. These effects remained after controlling for established predictors including surprisal, reinforcement-learning prediction error, acoustic change, visual change and sensor change. SCF therefore provides a computational measurement layer for relating contextual compatibility to behavioural processing and cognitive/neural state-transition dynamics.",
+      "abstract_zh": "人类的感知、行动和决策是以序列的形式展开的，但计算预测往往是特定于领域的。本研究计算并测试了序列上下文契合度（Sequential Contextual Fit, SCF），这是一种基于嵌入的度量，评估当前信息状态与其近期上下文的匹配程度。该指标使用简单的近期加权相似性核，可以应用于单词、声音、视觉场景、情感状态、选择、行动和神经表征。在语言处理、音乐引发的情感、一组视听情感的脑电图（EEG）数据、赌博决策、人类活动识别和与决策相关的EEG中，较低的上下文契合度预测了更长的处理时间、更大的情感或行为转变以及更强的神经状态变化。这些效应在控制了包括惊讶度、强化学习预测误差、声学变化、视觉变化和传感器变化等已建立的预测因子后仍然存在。因此，SCF为将上下文兼容性与行为处理和认知/神经状态转变动态相关联提供了计算测量层。",
+      "authors": [
+        "Kun Sun",
+        "Rong Wang"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.20179",
+      "tags": [
+        "生理信号",
+        "语音情感"
+      ],
+      "title": "Sequential Contextual Fit Predicts Human Behavioural and Neural Dynamics Across Domains",
+      "title_zh": "序列上下文契合度预测跨领域的人类行为和神经动态",
+      "url": "/daily/2026-09-18/#paper-2609-20179"
+    },
+    {
+      "abstract": "SpeechLLMs have shown strong potential for emotion recognition, yet they read the predicted emotion off a generative decoder not suited for classification: it can emit labels outside the target set and favors frequent classes. We propose a discriminative adaptation that reads the final prompt token's hidden state through a classification head, producing a label in one forward pass without modifying the backbone. Because this readout starts from the hidden state the model would otherwise decode, it gives a controlled comparison of generative and discriminative inference in an otherwise identical speechLLM. We keep the head a single linear layer, trading little accuracy for interpretability: each emotion becomes one direction in the LLM output token space, revealing associated tokens. On IEMOCAP, across two speechLLM architectures, it improves Macro F1 and removes hallucinations, with largest gains on realistic ASR transcripts. Our analysis reveals that these emotion directions encode indirect associations mirroring biases in web-scale text.",
+      "abstract_zh": "SpeechLLMs在情感识别方面展现出强大的潜力，但它们通过不适合分类的生成解码器读取预测的情感：该解码器可能发出超出目标集合的标签，并偏向于频繁的类别。我们提出了一种判别适应方法，通过分类头读取最终提示标记的隐藏状态，在一次前向传播中生成标签，而无需修改主干网络。由于这种读取是从模型本应解码的隐藏状态开始的，它在其他条件相同的speechLLM中提供了生成推理和判别推理的受控比较。我们将头部设计为单一线性层，牺牲了少量准确性以换取可解释性：每种情感在LLM输出标记空间中成为一个方向，揭示相关的标记。在IEMOCAP数据集上，针对两种speechLLM架构，它提高了宏观F1值并消除了幻觉，尤其在真实的ASR转录中获得了最大的提升。我们的分析表明，这些情感方向编码了间接关联，反映了网络规模文本中的偏见。",
+      "authors": [
+        "Hasindri Watawana",
+        "Sergio Burdisso",
+        "Esaú Villatoro-Tello",
+        "Manjunath K E",
+        "Kadri Hacioglu",
+        "Petr Motlicek",
+        "Andreas Stolcke"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.20081",
+      "tags": [
+        "情绪识别",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
+      "title_zh": "在标记空间中读取情感：SpeechLLMs的情感识别判别适应",
+      "url": "/daily/2026-09-18/#paper-2609-20081"
+    },
+    {
+      "abstract": "Physical teleoperation integrates human cognitive flexibility with robotic precision, yet demanding manipulation tasks frequently induce severe cognitive workload, acute frustration, and execution breakdown. Conventional shared autonomy paradigms rely primarily on task-based rules, such as spatial error boundaries, which disregard the operator's transient affective state and risk misaligned control interventions. To address this limitation, we propose an affect-aware shared autonomy teleoperation framework that dynamically modulates robotic assistance based on real-time operator state estimation. The system estimates operator affective states from synchronized facial video, cardiac signals, and bilateral arm kinematics, outputting a seven-state affective distribution and a three-category operational abstraction (neutral, productive, adverse). Affect-aware assistance is selectively triggered when the user is detected in a continuous adverse state, preserving task-positive engagement without unnecessary disruption. The empirical user study ($N = 30$) confirms that the proposed affective assistance increases the productive states by up to 39.7% without compromising user agency. The collected dataset represents the first multimodal dataset that provides continuous visual, physiological, and operator's bilateral motion tracking of temporal affective state shifts during bimanual teleoperation. Our multimodal fusion model outperforms zero-shot baselines (Qwen, MiniCPM-V) in tracking temporal state dynamics. This real-world deployment offers a new human-centric framework that integrates visual, physiological, and motion tracking for physical human-robot interaction.",
+      "abstract_zh": "物理远程操作将人类的认知灵活性与机器人的精确性相结合，但复杂的操作任务常常会导致严重的认知负荷、急性挫败感和执行中断。传统的共享自主性范式主要依赖于基于任务的规则，如空间误差边界，这忽视了操作员的瞬时情感状态，并可能导致控制干预的失调。为了解决这一局限性，我们提出了一种情感感知的共享自主远程操作框架，该框架基于实时的操作员状态估计动态调节机器人辅助。该系统通过同步的面部视频、心脏信号和双臂运动学来估计操作员的情感状态，输出七种情感分布和三类操作抽象（中性、积极、消极）。当检测到用户处于持续的消极状态时，情感感知的辅助会被选择性触发，从而在不必要干扰的情况下保持任务积极参与。实证用户研究（$N = 30$）确认所提出的情感辅助将积极状态提高了多达39.7%，而不影响用户的自主性。所收集的数据集是第一个多模态数据集，提供了双手远程操作过程中情感状态变化的连续视觉、生理和操作员双侧运动跟踪。我们的多模态融合模型在跟踪时间状态动态方面优于零样本基线（Qwen, MiniCPM-V）。这一现实世界的部署提供了一种新的以人为中心的框架，整合了视觉、生理和运动跟踪，以促进物理人机交互。",
+      "authors": [
+        "Zhengji Liang",
+        "Guiyin Tian",
+        "Sijin Qu",
+        "Hainan Liu",
+        "Shiyan Hu"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.19802",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "生理信号"
+      ],
+      "title": "Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks",
+      "title_zh": "情感共享自主性：双手远程操作任务中的时间情感动态与主观评估",
+      "url": "/daily/2026-09-18/#paper-2609-19802"
+    },
+    {
+      "abstract": "Automated visual analysis opens new avenues for behavior--based psychological measurement. Nevertheless, existing technological modules are typically scattered across task specific systems with heterogeneous interfaces and disparate deployment requirements. In this work, we present SeetaPsych v1.0, an open source, unified and extensible computer vision toolkit designed to extract psychologically relevant signals from facial images and/or face based videos. The current release encompasses four major core modules aiming at behavior--based physiological perception: unified face based emotion analysis (simultaneous facial expression recognition, facial action unit detection, and valence--arousal estimation), camera based heart rate estimation, screen point--of--gaze estimation, and scene gaze following. A suite of auxiliary preprocessing modules for human centric visual analysis is also included, comprising face detection, facial landmark detection, and head detection. These functionalities are encapsulated within a modular Pipeline/Runner architecture that automatically resolves attribute dependencies, constructs computation graphs, and support intermediate result sharing among modules. SeetaPsych provides standardized Python APIs to facilitate reproducible, large scale analyses, alongside an interactive WebUI for rapid, code--free method evaluation. Overall, SeetaPsych offers an integrated and accessible visual measurement platform for research in psychology, behavioral science, human computer interaction, and related fields.",
+      "abstract_zh": "自动化视觉分析为基于行为的心理测量开辟了新的途径。然而，现有的技术模块通常分散在特定任务的系统中，具有异构接口和不同的部署要求。在本研究中，我们提出了SeetaPsych v1.0，这是一个开源、统一且可扩展的计算机视觉工具包，旨在从面部图像和/或基于面部的视频中提取心理相关信号。当前版本包含四个主要核心模块，旨在进行基于行为的生理感知：统一的基于面部的情感分析（同时进行面部表情识别、面部动作单元检测和愉悦度-唤醒度估计）、基于摄像头的心率估计、屏幕注视点估计以及场景注视跟踪。还包括一套用于以人为中心的视觉分析的辅助预处理模块，包括面部检测、面部关键点检测和头部检测。这些功能被封装在一个模块化的Pipeline/Runner架构中，该架构自动解决属性依赖关系，构建计算图，并支持模块之间的中间结果共享。SeetaPsych提供标准化的Python API，以促进可重复的大规模分析，并配备交互式WebUI以快速、无代码的方法评估。总体而言，SeetaPsych为心理学、行为科学、人机交互及相关领域的研究提供了一个集成且易于访问的视觉测量平台。",
+      "authors": [
+        "Jiabei Zeng",
+        "Chiqin Li",
+        "Kaizhou Li",
+        "Fei Chang",
+        "Yong Li",
+        "Yuanhao Zhao",
+        "Dan Han",
+        "Wenqiang Yang",
+        "Xilin Chen",
+        "Shiguang Shan"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.19719",
+      "tags": [
+        "面部表情",
+        "生理信号",
+        "文本情感"
+      ],
+      "title": "SeetaPsych v1.0: An Open-source Computer Vision Toolkit for Behavior-based Psychological Measurement",
+      "title_zh": "SeetaPsych v1.0：一个开源计算机视觉工具包，用于基于行为的心理测量",
+      "url": "/daily/2026-09-18/#paper-2609-19719"
+    },
+    {
+      "abstract": "This paper describes the participation of the YNU-HPCC team in subtask A of task 11, Bridging the Gap in Text-Based Emotion at SemEval-2025. Our best-performing system employs the RoBERTa (Robustly Optimized BERT Approach) model, an improved version of BERT that utilizes the Transformer encoder architecture. We enhanced the output head to allow the model to process one emotion simultaneously. We obtained the official ranking score (0.44), including results from all languages. The entire dataset was translated into English using Google Translate to facilitate subsequent processing. Through probabilistic and attention analyses, we found that (I) a single prediction head performs better than six heads predicting six emotions simultaneously, and (II) training on a uniformly translated English dataset yields better results than using the original dataset. The code is available at: https://github.com/BGWH123/Semeval-2025-task11.",
+      "abstract_zh": "本文描述了YNU-HPCC团队在SemEval-2025任务11子任务A——弥合基于文本的情感差距中的参与。我们表现最佳的系统采用了RoBERTa（鲁棒优化的BERT方法）模型，这是一个改进版的BERT，利用了Transformer编码器架构。我们增强了输出头，使模型能够同时处理一种情感。我们获得了官方排名分数（0.44），包括所有语言的结果。整个数据集通过谷歌翻译翻译成英语，以便于后续处理。通过概率和注意力分析，我们发现（I）单个预测头的表现优于六个头同时预测六种情感的情况，以及（II）在均匀翻译的英语数据集上训练的结果优于使用原始数据集。代码可在以下链接获取：https://github.com/BGWH123/Semeval-2025-task11。",
+      "authors": [
+        "Hao Yang",
+        "Jin Wang",
+        "Xuejie Zhang"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.19238",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "鲁棒性/偏差"
+      ],
+      "title": "YNU-HPCC at SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Using Multiple Prediction Headers",
+      "title_zh": "YNU-HPCC在SemEval-2025任务11中的表现：通过多个预测头弥合基于文本的情感差距",
+      "url": "/daily/2026-09-18/#paper-2609-19238"
+    },
+    {
+      "abstract": "Generative AI (GenAI) applications have achieved rapid consumer adoption, yet little large-scale research examines user-perceived quality, trust, and adoption barriers. We present one of the first cross-application analyses of app store reviews for six major GenAI applications (ChatGPT, Gemini, Microsoft Copilot, Claude, DeepSeek, and Perplexity), comprising 17,012 English-language reviews from Google Play and the Apple App Store. We combine BERTopic topic modeling with RoBERTa sentiment classification and evaluate cross-application differences using chi-square, Kruskal-Wallis, and multinomial logistic regression with Bonferroni correction. Both components are validated against human coding using a stratified sample of 300 reviews. Results show that negative sentiment concentrates in advertising (91%), authentication (89%), server reliability (83%), and subscription pricing (73%). Sentiment differs significantly across applications, with Claude exhibiting the highest negative sentiment (47.7%) alongside a strongly enthusiastic user base, indicating statistically significant polarization. These findings are robust despite unequal review counts across applications. As exploratory observations, a subset of DeepSeek reviews raised geopolitical and data privacy concerns related to its Chinese origin, while a proposed Trust Friction Score summarizes application-specific trust and usability barriers into interpretable dimensions. The study provides validated and actionable evidence on user trust, usability, and adoption barriers in consumer generative AI applications.",
+      "abstract_zh": "生成性人工智能（GenAI）应用已迅速被消费者接受，但关于用户感知质量、信任和采用障碍的大规模研究仍然较少。我们呈现了对六个主要GenAI应用（ChatGPT、Gemini、Microsoft Copilot、Claude、DeepSeek和Perplexity）应用商店评论的首次跨应用分析，涵盖来自Google Play和Apple App Store的17,012条英语评论。我们结合了BERTopic主题建模与RoBERTa情感分类，并使用卡方检验、Kruskal-Wallis检验和带Bonferroni校正的多项式逻辑回归评估跨应用差异。这两个组件通过对300条评论的分层样本进行人工编码验证。结果显示，负面情感主要集中在广告（91%）、身份验证（89%）、服务器可靠性（83%）和订阅定价（73%）等方面。不同应用之间的情感差异显著，Claude的负面情感最高（47.7%），同时用户基础表现出强烈的热情，显示出统计显著的极化现象。这些发现尽管各应用评论数量不均，但依然稳健。作为探索性观察，部分DeepSeek评论提出了与其中国来源相关的地缘政治和数据隐私问题，而提出的信任摩擦评分（Trust Friction Score）则将应用特定的信任和可用性障碍总结为可解释的维度。本研究提供了关于消费者生成性人工智能应用中用户信任、可用性和采用障碍的验证和可操作的证据。",
+      "authors": [
+        "Md Jafrin Hossain",
+        "Umme Nusrat Jahan",
+        "Shouvaggo Sharif Shammo"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.19151",
+      "tags": [
+        "鲁棒性/偏差"
+      ],
+      "title": "What Users Think of Generative AI: A Cross-Platform NLP Analysis of Trust and Friction in App Store Reviews",
+      "title_zh": "用户对生成性人工智能的看法：应用商店评论中信任与摩擦的跨平台自然语言处理分析",
+      "url": "/daily/2026-09-18/#paper-2609-19151"
+    },
+    {
+      "abstract": "Ambivalence and hesitancy (A/H) are affective states in which individuals express contradictory signals across facial, vocal, and linguistic channels. Automatically recognising A/H in clinical videos requires detecting cross-modal disagreement -- the signal that standard fusion methods suppress. Based on the conflict-aware multimodal fusion framework of Bekhouche et al., we present the Modality Discrepancy Transformer (MDT). MDT enriches the original 6-token design to a 9-token representation comprising three modality embeddings, three absolute-difference features, and three Hadamard-product discrepancy features learned through linear projections. These nine tokens undergo Transformer self-attention, with FiLM-based text-conditioned modulation and LoRA fine-tuning as core architectural components. A text-guided late fusion branch blends a text-only auxiliary head with the full multimodal output at inference. On the BAH dataset from the 3rd ABAW Challenge, MDT achieves 0.7408 Macro F1 on the labelled test split and 0.7368 on the private leaderboard, outperforming the strongest published baseline by over 10 points while training in under 20 minutes on a single GPU.",
+      "abstract_zh": "矛盾和犹豫（A/H）是个体在面部、声音和语言通道中表达矛盾信号的情感状态。在临床视频中自动识别A/H需要检测跨模态的不一致性——这一信号是标准融合方法所抑制的。基于Bekhouche等人的冲突感知多模态融合框架，我们提出了模态差异变换器（MDT）。MDT将原始的6-token设计扩展为一个由三个模态嵌入、三个绝对差异特征和三个通过线性投影学习的Hadamard积差异特征组成的9-token表示。这九个token经过变换器自注意力处理，FiLM（Feature-wise Linear Modulation）基础的文本条件调制和LoRA（Low-Rank Adaptation）微调作为核心架构组件。一个文本引导的后期融合分支在推理时将仅文本的辅助头与完整的多模态输出相结合。在第三届ABA（Affective Behavior Analysis in the Wild）挑战赛的BAH数据集上，MDT在标记测试集上达到了0.7408的宏F1值，在私人排行榜上达到了0.7368，超过了最强已发布基线10多个点，同时在单个GPU上训练时间不足20分钟。",
+      "authors": [
+        "Shiyu Luo",
+        "Yu Wang",
+        "Jiawen Huang",
+        "Zhaoxiang Xiao",
+        "Chenxi Huang",
+        "Qi Zhang",
+        "Bin Liu"
+      ],
+      "date": "2026-09-18",
+      "id": "2609.19148",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition",
+      "title_zh": "用于矛盾和犹豫识别的模态差异变换器",
+      "url": "/daily/2026-09-18/#paper-2609-19148"
+    },
     {
       "abstract": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must interpret artistic imagery, understand its semantic, affective, and cultural content, and reason about visual context to support meaningful interaction. However, existing benchmarks primarily focus on real-world images or domain-specific educational reasoning, providing limited coverage of artistic educational content. To address this gap, we introduce MUSE, a benchmark for evaluating large vision-language models on artistic image understanding in situated educational applications. MUSE decouples image annotation from question generation, enabling diverse tasks with controllable difficulty while reducing annotation effort. It comprises twelve tasks spanning visual perception, semantic and affective interpretation, culture understanding, and compositional reasoning, together with diverse artistic images deliberately curated to center Singaporean and Southeast Asian multicultural contexts alongside Western art traditions, covering multiple themes and difficulty levels. Evaluation of open-source and proprietary models reveals substantial disparities across capability dimensions, particularly in affective interpretation and compositional reasoning. Our analysis further identifies common failure modes and key challenges for developing trustworthy multi-modal models for education. We hope MUSE will serve as a standardized benchmark for advancing multi-modal understanding in situated educational applications.",
       "abstract_zh": "大型视觉-语言模型在多模态理解方面取得了显著进展，但其在教育环境中的能力评估仍然不足。在人工智能辅助的语言学习中，模型必须解读艺术图像，理解其语义、情感和文化内容，并推理视觉上下文以支持有意义的互动。然而，现有基准主要集中于真实世界图像或特定领域的教育推理，覆盖艺术教育内容的范围有限。为了解决这一问题，我们引入了MUSE，一个用于评估大型视觉-语言模型在情境教育应用中对艺术图像理解的基准。MUSE将图像注释与问题生成解耦，能够实现多样化的任务并可控的难度，同时减少注释工作量。它包括十二个任务，涵盖视觉感知、语义和情感解读、文化理解和组合推理，并配有多种艺术图像，特别策划以聚焦新加坡和东南亚的多元文化背景以及西方艺术传统，涵盖多个主题和难度等级。对开源和专有模型的评估揭示了能力维度之间的显著差异，特别是在情感解读和组合推理方面。我们的分析进一步识别了常见的失败模式和开发可信赖的多模态教育模型的关键挑战。我们希望MUSE能够作为一个标准化基准，推动情境教育应用中的多模态理解。",

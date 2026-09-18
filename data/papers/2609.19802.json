@@ -1,0 +1,55 @@
+{
+  "abstract": "Physical teleoperation integrates human cognitive flexibility with robotic precision, yet demanding manipulation tasks frequently induce severe cognitive workload, acute frustration, and execution breakdown. Conventional shared autonomy paradigms rely primarily on task-based rules, such as spatial error boundaries, which disregard the operator's transient affective state and risk misaligned control interventions. To address this limitation, we propose an affect-aware shared autonomy teleoperation framework that dynamically modulates robotic assistance based on real-time operator state estimation. The system estimates operator affective states from synchronized facial video, cardiac signals, and bilateral arm kinematics, outputting a seven-state affective distribution and a three-category operational abstraction (neutral, productive, adverse). Affect-aware assistance is selectively triggered when the user is detected in a continuous adverse state, preserving task-positive engagement without unnecessary disruption. The empirical user study ($N = 30$) confirms that the proposed affective assistance increases the productive states by up to 39.7% without compromising user agency. The collected dataset represents the first multimodal dataset that provides continuous visual, physiological, and operator's bilateral motion tracking of temporal affective state shifts during bimanual teleoperation. Our multimodal fusion model outperforms zero-shot baselines (Qwen, MiniCPM-V) in tracking temporal state dynamics. This real-world deployment offers a new human-centric framework that integrates visual, physiological, and motion tracking for physical human-robot interaction.",
+  "abstract_zh": "物理远程操作将人类的认知灵活性与机器人的精确性相结合，但复杂的操作任务常常会导致严重的认知负荷、急性挫败感和执行中断。传统的共享自主性范式主要依赖于基于任务的规则，如空间误差边界，这忽视了操作员的瞬时情感状态，并可能导致控制干预的失调。为了解决这一局限性，我们提出了一种情感感知的共享自主远程操作框架，该框架基于实时的操作员状态估计动态调节机器人辅助。该系统通过同步的面部视频、心脏信号和双臂运动学来估计操作员的情感状态，输出七种情感分布和三类操作抽象（中性、积极、消极）。当检测到用户处于持续的消极状态时，情感感知的辅助会被选择性触发，从而在不必要干扰的情况下保持任务积极参与。实证用户研究（$N = 30$）确认所提出的情感辅助将积极状态提高了多达39.7%，而不影响用户的自主性。所收集的数据集是第一个多模态数据集，提供了双手远程操作过程中情感状态变化的连续视觉、生理和操作员双侧运动跟踪。我们的多模态融合模型在跟踪时间状态动态方面优于零样本基线（Qwen, MiniCPM-V）。这一现实世界的部署提供了一种新的以人为中心的框架，整合了视觉、生理和运动跟踪，以促进物理人机交互。",
+  "arxiv_id": "2609.19802",
+  "arxiv_url": "https://arxiv.org/abs/2609.19802v1",
+  "authors": [
+    "Zhengji Liang",
+    "Guiyin Tian",
+    "Sijin Qu",
+    "Hainan Liu",
+    "Shiyan Hu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-19802",
+  "categories": [
+    "cs.RO",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.209914+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.19802v1",
+  "published_at": "2026-09-17T07:14:18Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "multimodal",
+      "dataset",
+      "physiological",
+      "多模态",
+      "检测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.19802v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "多模态情感",
+      "生理信号"
+    ]
+  },
+  "title": "Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks",
+  "title_zh": "情感共享自主性：双手远程操作任务中的时间情感动态与主观评估",
+  "translation_url": "https://hjfy.top/arxiv/2609.19802"
+}

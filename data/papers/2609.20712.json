@@ -1,0 +1,51 @@
+{
+  "abstract": "This paper introduces and operationalizes summarization bias: a proposed systematic tendency of large language models (LLMs) to represent narrative meaning as an abstract summary label rather than as the reconstructable inferential structure that produces it. Within the Bulut Doctrine, narrative effect is theorized along a told-shown axis: in told mode, emotional and informational content is declared explicitly and requires little reader reconstruction; in shown mode, that content is suppressed at the surface and must be reconstructed from physical cues and indirection (Objective Projection). Shown mode is the higher-load condition the doctrine is designed to measure. The claim is that LLMs fail along this axis in a specific direction. Summarization bias is hypothesized to operate in two regimes: (i) a generative regime, in which a model asked to render an emotion through Objective Projection defaults to declaring it instead; and (ii) an evaluative regime, in which a model judging narrative quality rewards told-mode explicitness and under-detects shown-mode suppression. The evaluative regime is the more consequential, since LLMs increasingly serve as judges and reward models, and a directional bias toward told mode would impose a selection pressure degrading prose toward flat declaration. This report does not claim the bias is validated. It defines the construct, situates it against LLM-as-judge biases, rereads a completed independent reliability study as directional evidence consistent with it, and pre-registers a two-regime test with decision rules under which the construct would be abandoned.",
+  "abstract_zh": "本文介绍并操作化了摘要偏差：一种大型语言模型（LLMs）表现叙事意义为抽象摘要标签而非可重构推理结构的系统性倾向。在Bulut教义中，叙事效果沿着叙述-展示轴进行理论化：在叙述模式中，情感和信息内容被明确声明，读者重构的需求较小；而在展示模式中，这些内容在表面上被抑制，必须通过物理线索和间接性进行重构（客观投影）。展示模式是该教义旨在测量的高负载条件。该论点认为，LLMs在这一轴线上以特定方向失败。假设摘要偏差在两个领域中运作：（i）生成领域，在该领域中，被要求通过客观投影呈现情感的模型默认选择直接声明情感；（ii）评估领域，在该领域中，判断叙事质量的模型奖励叙述模式的明确性，而对展示模式的抑制检测不足。评估领域更具影响力，因为LLMs越来越多地作为评判者和奖励模型，而向叙述模式的方向性偏差将施加选择压力，使散文趋向于平坦的声明。本文并不声称该偏差已被验证。它定义了该构念，将其与LLM作为评判者的偏差进行对比，重新审视了一项已完成的独立可靠性研究作为与之相一致的方向性证据，并预注册了一项具有决策规则的双领域测试，在该测试下该构念将被放弃。",
+  "arxiv_id": "2609.20712",
+  "arxiv_url": "https://arxiv.org/abs/2609.20712v1",
+  "authors": [
+    "Levent Bulut"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-20712",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.405258+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20712v1",
+  "published_at": "2026-09-17T17:09:58Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "检测",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20712v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol",
+  "title_zh": "摘要偏差：大型语言模型中客观投影向叙述模式标签的方向性崩溃——一个概念框架和注册测试协议",
+  "translation_url": "https://hjfy.top/arxiv/2609.20712"
+}

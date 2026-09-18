@@ -198,8 +198,132 @@
         "情感大模型"
       ],
       "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education"
+    },
+    "2609.19148": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Modality Discrepancy Transformer for Ambivalence and Hesitancy Recognition"
+    },
+    "2609.19151": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "鲁棒性/偏差"
+      ],
+      "title": "What Users Think of Generative AI: A Cross-Platform NLP Analysis of Trust and Friction in App Store Reviews"
+    },
+    "2609.19238": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "鲁棒性/偏差"
+      ],
+      "title": "YNU-HPCC at SemEval-2025 Task 11: Bridging the Gap in Text-Based Emotion Using Multiple Prediction Headers"
+    },
+    "2609.19719": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "面部表情",
+        "生理信号",
+        "文本情感"
+      ],
+      "title": "SeetaPsych v1.0: An Open-source Computer Vision Toolkit for Behavior-based Psychological Measurement"
+    },
+    "2609.19802": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "生理信号"
+      ],
+      "title": "Affective Shared Autonomy: Temporal Affect Dynamics and Subjective Evaluation in Bimanual Teleoperation Tasks"
+    },
+    "2609.20081": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "情绪识别",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition"
+    },
+    "2609.20179": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "生理信号",
+        "语音情感"
+      ],
+      "title": "Sequential Contextual Fit Predicts Human Behavioural and Neural Dynamics Across Domains"
+    },
+    "2609.20232": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "The Public Discourse Corpus (PDC): A Speaker-Attributed Dataset for Valence and Epistemic Modality with Target Speaker Participation"
+    },
+    "2609.20712": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "情感大模型",
+        "鲁棒性/偏差"
+      ],
+      "title": "Summarization Bias: The Directional Collapse of Objective Projection into Told-Mode Labels in Large Language Models --- A Conceptual Framework and Registered Test Protocol"
+    },
+    "2609.20722": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Deep Noir: Autonomous Steering Discovery via Architectural Chronometry in Transformer Models"
+    },
+    "2609.20779": {
+      "dates": [
+        "2026-09-18"
+      ],
+      "first_seen": "2026-09-18",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations"
     }
   },
-  "total": 17,
-  "updated_at": "2026-09-17T09:55:21.267688+00:00"
+  "total": 28,
+  "updated_at": "2026-09-18T09:34:08.216285+00:00"
 }

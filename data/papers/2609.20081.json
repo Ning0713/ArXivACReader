@@ -1,0 +1,68 @@
+{
+  "abstract": "SpeechLLMs have shown strong potential for emotion recognition, yet they read the predicted emotion off a generative decoder not suited for classification: it can emit labels outside the target set and favors frequent classes. We propose a discriminative adaptation that reads the final prompt token's hidden state through a classification head, producing a label in one forward pass without modifying the backbone. Because this readout starts from the hidden state the model would otherwise decode, it gives a controlled comparison of generative and discriminative inference in an otherwise identical speechLLM. We keep the head a single linear layer, trading little accuracy for interpretability: each emotion becomes one direction in the LLM output token space, revealing associated tokens. On IEMOCAP, across two speechLLM architectures, it improves Macro F1 and removes hallucinations, with largest gains on realistic ASR transcripts. Our analysis reveals that these emotion directions encode indirect associations mirroring biases in web-scale text.",
+  "abstract_zh": "SpeechLLMs在情感识别方面展现出强大的潜力，但它们通过不适合分类的生成解码器读取预测的情感：该解码器可能发出超出目标集合的标签，并偏向于频繁的类别。我们提出了一种判别适应方法，通过分类头读取最终提示标记的隐藏状态，在一次前向传播中生成标签，而无需修改主干网络。由于这种读取是从模型本应解码的隐藏状态开始的，它在其他条件相同的speechLLM中提供了生成推理和判别推理的受控比较。我们将头部设计为单一线性层，牺牲了少量准确性以换取可解释性：每种情感在LLM输出标记空间中成为一个方向，揭示相关的标记。在IEMOCAP数据集上，针对两种speechLLM架构，它提高了宏观F1值并消除了幻觉，尤其在真实的ASR转录中获得了最大的提升。我们的分析表明，这些情感方向编码了间接关联，反映了网络规模文本中的偏见。",
+  "arxiv_id": "2609.20081",
+  "arxiv_url": "https://arxiv.org/abs/2609.20081v1",
+  "authors": [
+    "Hasindri Watawana",
+    "Sergio Burdisso",
+    "Esaú Villatoro-Tello",
+    "Manjunath K E",
+    "Kadri Hacioglu",
+    "Petr Motlicek",
+    "Andreas Stolcke"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-20081",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.392091+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20081v1",
+  "published_at": "2026-09-17T11:38:44Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "IEMOCAP",
+      "emotion",
+      "emotions",
+      "LLM",
+      "recognition",
+      "classification",
+      "识别",
+      "分类",
+      "预测",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20081v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "语音情感",
+      "文本情感"
+    ]
+  },
+  "title": "Reading Emotions in the Token Space: Discriminative Adaptation of SpeechLLMs for Emotion Recognition",
+  "title_zh": "在标记空间中读取情感：SpeechLLMs的情感识别判别适应",
+  "translation_url": "https://hjfy.top/arxiv/2609.20081"
+}

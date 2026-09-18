@@ -1,0 +1,64 @@
+{
+  "abstract": "Automated visual analysis opens new avenues for behavior--based psychological measurement. Nevertheless, existing technological modules are typically scattered across task specific systems with heterogeneous interfaces and disparate deployment requirements. In this work, we present SeetaPsych v1.0, an open source, unified and extensible computer vision toolkit designed to extract psychologically relevant signals from facial images and/or face based videos. The current release encompasses four major core modules aiming at behavior--based physiological perception: unified face based emotion analysis (simultaneous facial expression recognition, facial action unit detection, and valence--arousal estimation), camera based heart rate estimation, screen point--of--gaze estimation, and scene gaze following. A suite of auxiliary preprocessing modules for human centric visual analysis is also included, comprising face detection, facial landmark detection, and head detection. These functionalities are encapsulated within a modular Pipeline/Runner architecture that automatically resolves attribute dependencies, constructs computation graphs, and support intermediate result sharing among modules. SeetaPsych provides standardized Python APIs to facilitate reproducible, large scale analyses, alongside an interactive WebUI for rapid, code--free method evaluation. Overall, SeetaPsych offers an integrated and accessible visual measurement platform for research in psychology, behavioral science, human computer interaction, and related fields.",
+  "abstract_zh": "自动化视觉分析为基于行为的心理测量开辟了新的途径。然而，现有的技术模块通常分散在特定任务的系统中，具有异构接口和不同的部署要求。在本研究中，我们提出了SeetaPsych v1.0，这是一个开源、统一且可扩展的计算机视觉工具包，旨在从面部图像和/或基于面部的视频中提取心理相关信号。当前版本包含四个主要核心模块，旨在进行基于行为的生理感知：统一的基于面部的情感分析（同时进行面部表情识别、面部动作单元检测和愉悦度-唤醒度估计）、基于摄像头的心率估计、屏幕注视点估计以及场景注视跟踪。还包括一套用于以人为中心的视觉分析的辅助预处理模块，包括面部检测、面部关键点检测和头部检测。这些功能被封装在一个模块化的Pipeline/Runner架构中，该架构自动解决属性依赖关系，构建计算图，并支持模块之间的中间结果共享。SeetaPsych提供标准化的Python API，以促进可重复的大规模分析，并配备交互式WebUI以快速、无代码的方法评估。总体而言，SeetaPsych为心理学、行为科学、人机交互及相关领域的研究提供了一个集成且易于访问的视觉测量平台。",
+  "arxiv_id": "2609.19719",
+  "arxiv_url": "https://arxiv.org/abs/2609.19719v1",
+  "authors": [
+    "Jiabei Zeng",
+    "Chiqin Li",
+    "Kaizhou Li",
+    "Fei Chang",
+    "Yong Li",
+    "Yuanhao Zhao",
+    "Dan Han",
+    "Wenqiang Yang",
+    "Xilin Chen",
+    "Shiguang Shan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-19719",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.266898+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.19719v1",
+  "published_at": "2026-09-17T05:26:10Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion analysis",
+      "facial expression recognition",
+      "情感分析",
+      "表情识别",
+      "emotion",
+      "recognition",
+      "detection",
+      "physiological",
+      "识别",
+      "检测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.19719v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "生理信号",
+      "文本情感"
+    ]
+  },
+  "title": "SeetaPsych v1.0: An Open-source Computer Vision Toolkit for Behavior-based Psychological Measurement",
+  "title_zh": "SeetaPsych v1.0：一个开源计算机视觉工具包，用于基于行为的心理测量",
+  "translation_url": "https://hjfy.top/arxiv/2609.19719"
+}

@@ -1,0 +1,53 @@
+{
+  "abstract": "Activation steering modifies LLM behavior at inference time, but identifying where and how strongly to steer remains manual. We introduce Deep Noir, a framework that uses Logit Lens convergence and causal head-level attribution to autonomously discover optimal steering parameters. Across three scales (1B x 3, 2-3B x 2, and 7-9B x 4), our engine achieves 16.7 percentage-point improvement on spam at 1B (standard deviation 4.7; 39 runs), with gains increasing to 21 to 42 percentage points at 7-9B across four architectures. On SST-2 sentiment, it achieves a 13.1 percentage-point improvement with zero code changes. Mechanistic grounding enables automated discovery of intervention points that generalize across tasks and architectures. On sentiment, RepE without head masking fails to improve over baseline, while Deep Noir improves all models (p less than 0.01). We further show that steering creates a predictable prompt-injection attack surface whose vulnerability increases monotonically with steering magnitude. This finding is relevant to agent systems deploying steered classifiers.",
+  "abstract_zh": "激活引导在推理时修改大型语言模型（LLM）的行为，但识别引导的具体位置和强度仍然是手动的。我们提出了Deep Noir，一个利用Logit Lens收敛和因果头级归因的框架，能够自主发现最佳引导参数。在三个规模（1B x 3、2-3B x 2和7-9B x 4）上，我们的引擎在1B上实现了16.7个百分点的垃圾邮件改善（标准差4.7；39次运行），在7-9B的四种架构上，提升幅度增加到21至42个百分点。在SST-2情感分析中，它实现了13.1个百分点的改善，且无需任何代码更改。机制基础使得能够自动发现跨任务和架构的干预点。在情感分析中，未进行头部掩蔽的RepE未能超越基线，而Deep Noir则改善了所有模型（p小于0.01）。我们进一步显示，引导创造了一个可预测的提示注入攻击面，其脆弱性随着引导幅度的增加而单调上升。此发现与部署引导分类器的代理系统相关。",
+  "arxiv_id": "2609.20722",
+  "arxiv_url": "https://arxiv.org/abs/2609.20722v1",
+  "authors": [
+    "Frank E. Bobe",
+    "Gregory D. Vetaw",
+    "Darshan W. Bryner",
+    "Matthew G. Cook",
+    "Jose L. Salas-Vernis"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-20722",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.363941+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20722v1",
+  "published_at": "2026-09-17T17:16:31Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分析",
+      "LLM",
+      "识别",
+      "分类",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 43.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20722v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Deep Noir: Autonomous Steering Discovery via Architectural Chronometry in Transformer Models",
+  "title_zh": "深度黑暗：通过变换器模型中的架构计时法发现自主驾驶",
+  "translation_url": "https://hjfy.top/arxiv/2609.20722"
+}

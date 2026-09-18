@@ -1,0 +1,48 @@
+{
+  "abstract": "We introduce the \\textbf{Public Discourse Corpus (PDC)}, the first dataset of public-figure interview speech jointly annotated for affective valence and epistemic modality. The corpus contains 998 videos from 100 speakers across seven professional domains, yielding 186,642 sentences (3.1 million words) after sentence segmentation and filtering. To ensure that all retained videos contain analyzable speech from the intended speaker, we introduce \\textbf{Target Speaker Participation (TSP)}---a five-category annotation taxonomy with documented inter-annotator reliability ($\\kappa = 0.616$)---as a key methodological contribution that any corpus construction project can adopt. Target-speaker turns are separated from interviewer and third-party speech through an \\textbf{audio-first diarization pipeline} combining local Whisper ASR with pyannote speaker separation, released as an open-source implementation. We release the annotated corpus, the annotation tools, the cross-provider validation sample, and the complete processing pipeline. The dataset is available at https://huggingface.co/datasets/ictchenbo/public-discourse-corpus.",
+  "abstract_zh": "我们介绍了 extbf{公共话语语料库（PDC）}，这是第一个针对公共人物访谈语音进行情感价值和认知模态联合标注的数据集。该语料库包含来自100位发言者的998个视频，涵盖七个专业领域，在句子分割和过滤后，共产生186,642个句子（310万词）。为了确保所有保留的视频都包含来自目标发言者的可分析语音，我们引入了 extbf{目标发言者参与（TSP）}——一个五类标注分类法，并记录了标注者间的一致性（$ ext{kappa} = 0.616$）——作为任何语料库构建项目可以采用的关键方法论贡献。通过结合本地Whisper ASR和pyannote发言者分离的 extbf{音频优先分段流程}，将目标发言者的发言与采访者和第三方发言分开，并以开源实现的形式发布。我们发布了标注语料库、标注工具、跨提供者验证样本和完整的处理流程。该数据集可在https://huggingface.co/datasets/ictchenbo/public-discourse-corpus获取。",
+  "arxiv_id": "2609.20232",
+  "arxiv_url": "https://arxiv.org/abs/2609.20232v1",
+  "authors": [
+    "Bo Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-20232",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.395594+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20232v1",
+  "published_at": "2026-07-27T14:15:21Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "dataset",
+      "speech",
+      "audio",
+      "分类"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20232v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "The Public Discourse Corpus (PDC): A Speaker-Attributed Dataset for Valence and Epistemic Modality with Target Speaker Participation",
+  "title_zh": "公共话语语料库（PDC）：一个带有目标发言者参与的情感价值和认知模态的发言者归属数据集",
+  "translation_url": "https://hjfy.top/arxiv/2609.20232"
+}

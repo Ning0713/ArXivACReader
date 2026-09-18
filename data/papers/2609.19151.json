@@ -1,0 +1,49 @@
+{
+  "abstract": "Generative AI (GenAI) applications have achieved rapid consumer adoption, yet little large-scale research examines user-perceived quality, trust, and adoption barriers. We present one of the first cross-application analyses of app store reviews for six major GenAI applications (ChatGPT, Gemini, Microsoft Copilot, Claude, DeepSeek, and Perplexity), comprising 17,012 English-language reviews from Google Play and the Apple App Store. We combine BERTopic topic modeling with RoBERTa sentiment classification and evaluate cross-application differences using chi-square, Kruskal-Wallis, and multinomial logistic regression with Bonferroni correction. Both components are validated against human coding using a stratified sample of 300 reviews. Results show that negative sentiment concentrates in advertising (91%), authentication (89%), server reliability (83%), and subscription pricing (73%). Sentiment differs significantly across applications, with Claude exhibiting the highest negative sentiment (47.7%) alongside a strongly enthusiastic user base, indicating statistically significant polarization. These findings are robust despite unequal review counts across applications. As exploratory observations, a subset of DeepSeek reviews raised geopolitical and data privacy concerns related to its Chinese origin, while a proposed Trust Friction Score summarizes application-specific trust and usability barriers into interpretable dimensions. The study provides validated and actionable evidence on user trust, usability, and adoption barriers in consumer generative AI applications.",
+  "abstract_zh": "生成性人工智能（GenAI）应用已迅速被消费者接受，但关于用户感知质量、信任和采用障碍的大规模研究仍然较少。我们呈现了对六个主要GenAI应用（ChatGPT、Gemini、Microsoft Copilot、Claude、DeepSeek和Perplexity）应用商店评论的首次跨应用分析，涵盖来自Google Play和Apple App Store的17,012条英语评论。我们结合了BERTopic主题建模与RoBERTa情感分类，并使用卡方检验、Kruskal-Wallis检验和带Bonferroni校正的多项式逻辑回归评估跨应用差异。这两个组件通过对300条评论的分层样本进行人工编码验证。结果显示，负面情感主要集中在广告（91%）、身份验证（89%）、服务器可靠性（83%）和订阅定价（73%）等方面。不同应用之间的情感差异显著，Claude的负面情感最高（47.7%），同时用户基础表现出强烈的热情，显示出统计显著的极化现象。这些发现尽管各应用评论数量不均，但依然稳健。作为探索性观察，部分DeepSeek评论提出了与其中国来源相关的地缘政治和数据隐私问题，而提出的信任摩擦评分（Trust Friction Score）则将应用特定的信任和可用性障碍总结为可解释的维度。本研究提供了关于消费者生成性人工智能应用中用户信任、可用性和采用障碍的验证和可操作的证据。",
+  "arxiv_id": "2609.19151",
+  "arxiv_url": "https://arxiv.org/abs/2609.19151v1",
+  "authors": [
+    "Md Jafrin Hossain",
+    "Umme Nusrat Jahan",
+    "Shouvaggo Sharif Shammo"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-18#paper-2609-19151",
+  "categories": [
+    "cs.CL",
+    "cs.HC",
+    "cs.IR"
+  ],
+  "fetched_at": "2026-09-18T09:34:05.368208+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.19151v1",
+  "published_at": "2026-07-20T14:06:10Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment classification",
+      "classification",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 37.0
+  },
+  "seen_dates": [
+    "2026-09-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.19151v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "鲁棒性/偏差",
+    "secondary": []
+  },
+  "title": "What Users Think of Generative AI: A Cross-Platform NLP Analysis of Trust and Friction in App Store Reviews",
+  "title_zh": "用户对生成性人工智能的看法：应用商店评论中信任与摩擦的跨平台自然语言处理分析",
+  "translation_url": "https://hjfy.top/arxiv/2609.19151"
+}
