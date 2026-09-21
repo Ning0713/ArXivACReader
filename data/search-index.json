@@ -1,6 +1,103 @@
 {
-  "generated_at": "2026-09-18T09:34:08.216285+00:00",
+  "generated_at": "2026-09-21T10:35:11.486487+00:00",
   "items": [
+    {
+      "abstract": "Conversational speech depends on dialogue context and the listener's immediately preceding behavior. We propose ReACT-TTS, a two-stage framework that uses a one-second pre-response listener facial sequence to plan the next utterance's emotion and prosody before speech realization. On a strict dyadic MELD protocol, Temporal conditioning yields higher mean macro-F1 and VAD concordance than Text-only across ten seeds, while accuracy remains essentially unchanged. Ablations show that temporal modeling performs best among the visual variants and that an explicit early-to-late difference is unnecessary; correct listener reactions also outperform cyclic mismatches on average. In a contextual-appropriateness study with 20 speech researchers, 76% of judgments prefer Temporal, 9% Text-only, and 15% report no preference. We further connect the predicted response style to a Grad-TTS backbone for end-to-end speech realization. Overall, the results support pre-response listener dynamics as complementary cues for conversational response planning. The source code is available at https://github.com/CYJ1/ReACT-TTS_public.",
+      "abstract_zh": "对话语音依赖于对话上下文及听者的即时前序行为。我们提出了ReACT-TTS，一种两阶段框架，利用一秒钟的响应前听者面部序列来规划下一句发话的情感和韵律，然后实现语音生成。在严格的双人MELD协议下，时间条件（Temporal conditioning）在十个随机种子中表现出比仅文本（Text-only）更高的平均宏F1值和语音活动检测（VAD）一致性，而准确率基本保持不变。消融实验表明，在视觉变体中时间建模表现最佳，且无需显式的早晚差异；正确的听者反应平均上也优于循环不匹配。在一项包含20名语音研究者的上下文适宜性评估中，76%的判断偏好时间条件，9%偏好仅文本，15%无偏好。我们进一步将预测的响应风格与Grad-TTS骨干网络相结合，实现端到端语音生成。总体结果支持将响应前的听者动态作为对话响应规划的补充线索。源码可在https://github.com/CYJ1/ReACT-TTS_public获取。",
+      "authors": [
+        "Yunji Chu"
+      ],
+      "date": "2026-09-21",
+      "id": "2609.21683",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Listen Before You Speak: Response Planning from Listener Facial Reactions for Conversational Speech Generation",
+      "title_zh": "先听后说：基于听者面部反应的对话语音生成响应规划",
+      "url": "/daily/2026-09-21/#paper-2609-21683"
+    },
+    {
+      "abstract": "Problematic internet use affects a growing share of the population, yet common interventions, e.g., time limits, blocking, forced breaks, are coercive and easily circumvented. We explore a less restrictive alternative: adapting the emotional intensity of visual content. Prior work has shown that optimization can steer an image's affective content, but its per-image optimization cost makes it impractical for real-time deployment. We instead learn a model that predicts this transformation in a single forward pass: a MobileNetV4 backbone with FiLM-based emotion conditioning outputs parameters for differentiable global transformations. This replaces prior iterative optimization (80 s per image) with a single 3.7 ms forward pass. In a user study (N = 54), the model reduced viewer-reported arousal relative to unedited images, comparably to the grayscale well-being filter, while being rated higher in perceived quality. We integrate the model into an Android app that adapts Instagram video in real time, sustaining 60 fps on a Samsung Galaxy S23.",
+      "abstract_zh": "有问题的互联网使用影响着越来越多的人群，而常见的干预措施，如时间限制、屏蔽和强制休息，往往具有强制性且容易被规避。我们探索了一种限制较少的替代方案：调整视觉内容的情感强度。先前的研究表明，优化可以引导图像的情感内容，但其每张图像的优化成本使得实时部署变得不切实际。相反，我们学习了一个模型，该模型在单次前向传播中预测这种转换：一个基于 MobileNetV4 的骨干网络，结合 FiLM（Feature-wise Linear Modulation）情感调节，输出可微分全局变换的参数。这将之前每张图像需80秒的迭代优化替换为单次3.7毫秒的前向传播。在一项用户研究中（N = 54），该模型相较于未编辑图像减少了观众报告的唤醒度，效果与灰度幸福感过滤器相当，同时在感知质量上获得了更高的评分。我们将该模型集成到一个安卓应用中，能够实时调整 Instagram 视频，在三星 Galaxy S23 上保持60帧每秒的流畅度。",
+      "authors": [
+        "Musa Rochi",
+        "Marcel Schubert",
+        "Christoph Gebhardt"
+      ],
+      "date": "2026-09-21",
+      "id": "2609.21624",
+      "tags": [
+        "心理状态/福祉",
+        "社交信号"
+      ],
+      "title": "Learned Parametric Emotion Editing: Real-Time Affective Filtering for On-Device Social Media Video",
+      "title_zh": "学习的参数情感编辑：针对设备的社交媒体视频的实时情感过滤",
+      "url": "/daily/2026-09-21/#paper-2609-21624"
+    },
+    {
+      "abstract": "Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and fatigue can also affect performance. Affective cognitive diagnosis therefore extends conventional cognitive diagnosis by incorporating affective states. Existing methods often assume that the cognitive diagnosis backbone has already explained ability, item, and concept effects, so the remaining errors can be attributed mainly to affect. We argue that this assumption can be insufficient in real educational data: item calibration bias, systematic concept bias, personalized student-concept deviations, and latent student-item matching can form stable cognitive residuals. Without an explicit modeling pathway, these residuals may leak into affective representations, producing affect contamination. To address this problem, we propose an ability-residual decoupled framework for affective cognitive diagnosis. The model first captures unmodeled cognitive residuals through student, item, concept, student-concept, and low-rank student-item components, and then uses an affective module to modulate guess/slip effects. A Q-matrix-constrained concept residual attention mechanism adaptively aggregates only item-relevant concept residuals. Experiments on ASSIST2017, ASSIST2012, ASSIST2009, and Junyi with six cognitive diagnosis backbones show response-prediction gains across the reported comparisons and generally improved affect alignment when affect labels are available. Ablation studies, leakage probes, principal component analysis visualization, long-tail analysis, and case studies further indicate that ability residuals absorb stable cognitive bias, reduce cognitive contamination in the affective branch, and enhance the robustness and predictive accuracy of cognitive diagnosis models.",
+      "abstract_zh": "认知诊断通过响应日志推断学生的概念掌握情况。然而，学生的反应并不仅仅由掌握程度决定：情感、参与度和疲劳等非认知因素也会影响表现。因此，情感认知诊断通过结合情感状态扩展了传统的认知诊断。现有方法通常假设认知诊断的基础模型已经解释了能力、项目和概念效应，因此剩余的误差主要可以归因于情感。我们认为这一假设在真实教育数据中可能不足：项目校准偏差、系统性概念偏差、个性化的学生-概念偏差以及潜在的学生-项目匹配可能形成稳定的认知残差。如果没有明确的建模路径，这些残差可能会渗入情感表征，导致情感污染。为了解决这个问题，我们提出了一种用于情感认知诊断的能力残差解耦框架。该模型首先通过学生、项目、概念、学生-概念和低秩学生-项目组件捕捉未建模的认知残差，然后使用情感模块调节猜测/滑动效应。一个受Q矩阵约束的概念残差注意机制自适应地聚合仅与项目相关的概念残差。在ASSIST2017、ASSIST2012、ASSIST2009和Junyi的六个认知诊断基础模型上的实验显示，在报告的比较中响应预测有所提升，并且在情感标签可用时情感对齐普遍改善。消融研究、泄漏探测、主成分分析可视化、长尾分析和案例研究进一步表明，能力残差吸收了稳定的认知偏差，减少了情感分支中的认知污染，并增强了认知诊断模型的鲁棒性和预测准确性。",
+      "authors": [
+        "Boyuan Zhao",
+        "Meng Ye"
+      ],
+      "date": "2026-09-21",
+      "id": "2609.21214",
+      "tags": [
+        "鲁棒性/偏差"
+      ],
+      "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+      "title_zh": "情感认知诊断的能力残差解耦建模",
+      "url": "/daily/2026-09-21/#paper-2609-21214"
+    },
+    {
+      "abstract": "As access to professional mental healthcare remains limited, many individuals turn to online platforms such as Reddit to seek peer support situated within human lived experience. However, a significant portion of such queries go unanswered, presenting an opportunity for using Large Language Models (LLMs) to fill this gap. While LLMs have demonstrated strong performance on clinical benchmarks, their ability to generate lived-experience informed and community-aligned peer support is underexplored. Addressing this gap, we introduce the COmmunity-centered Peer Engaged Support (COPES) dataset and a three-axis evaluation framework to assess LLM alignment with community perspectives to mental health support seeking queries. Evaluating zero-shot and post-trained (SFT and DPO) models, we show that post-training on COPES significantly improves Strategy Alignment (>50% for general-purpose models) and alignment in Emotion & Tone. However, we also observe that such improvements are heterogeneous and alignment improvements vary significantly across subreddits and requested coping strategies. Furthermore, post-training induces distributional shifts, heavily favoring problem-focused recommendations while suppressing emotion-focused strategies. Together, this work shows that while curating community-driven data improves the alignment of LLM responses, model performance remains disparate across distinct sub-communities and specific mental health needs.",
+      "abstract_zh": "由于专业心理健康护理的获取仍然有限，许多人转向在线平台如Reddit寻求基于人类生活经验的同伴支持。然而，许多此类查询未能得到回应，这为使用大型语言模型（LLMs）填补这一空白提供了机会。尽管LLMs在临床基准测试中表现出色，但它们生成基于生活经验且与社区对齐的同伴支持的能力尚未得到充分探索。为了解决这一问题，我们引入了以社区为中心的同伴参与支持（COmmunity-centered Peer Engaged Support，COPES）数据集和一个三轴评估框架，以评估LLMs在心理健康支持寻求查询中与社区观点的对齐情况。通过评估零样本和后训练（SFT和DPO）模型，我们显示在COPES上进行后训练显著提高了策略对齐（对于通用模型超过50%）以及情感与语调的对齐。然而，我们也观察到这些改进是异质的，不同子版块和请求的应对策略之间的对齐改进差异显著。此外，后训练引发了分布转变，严重偏向于问题聚焦的建议，同时抑制了情感聚焦的策略。总体而言，这项工作表明，尽管策划以社区为驱动的数据改善了LLM响应的对齐，但模型性能在不同子社区和特定心理健康需求之间仍然存在差异。",
+      "authors": [
+        "Mohit Chandra",
+        "Nabin Kim",
+        "Eli Min",
+        "Aamogh Sawant",
+        "Tanmay Sutar",
+        "Munmun De Choudhury"
+      ],
+      "date": "2026-09-21",
+      "id": "2609.21075",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "心理状态/福祉"
+      ],
+      "title": "Aligning with Lived Experience: Heterogeneous Benefits of Fine Tuning in Mental Health Support Generation",
+      "title_zh": "与生活经验对齐：心理健康支持生成中的细调异质效益",
+      "url": "/daily/2026-09-21/#paper-2609-21075"
+    },
+    {
+      "abstract": "Motivational interviewing (MI) is a collaborative approach to elicit autonomous motivation for health behavior change. Generative AI (GenAI) offers new ways to deliver MI via conversational systems, but evidence on their design, assessment, and translation into interventions remains fragmented. This scoping review characterized evidence on GenAI-MI chatbots across system design, safety, MI quality, user perceptions, and intervention outcomes. We conducted a PRISMA-ScR scoping review. Nine datasets were searched for studies published or publicly available from January 1, 2015 to June 2, 2026 that used GenAI to generate MI chatbot responses or counselor utterances. Data were extracted using a predefined framework and synthesized descriptively. Forty-seven reports (48 studies) were included. Twenty (41.7%) focused on system design without direct participant use; 28 (58.3%) involved direct interaction. Most systems were text based and disembodied; 23 (47.9%) incorporated dynamic adaptation. Safety measures were unevenly reported. Among studies with direct use, 21/28 (75.0%) reported informed consent or user education. Thirty (62.5%) assessed MI quality, generally suggesting MI-consistent interactions. User perceptions were favorable, especially empathy, usability, helpfulness, and intention to use, though measures were heterogeneous. Eighteen (37.5%) reported intervention outcomes, mostly after a single session. Positive findings were more consistent for short-term motivation than sustained behavioral or functional change. GenAI-MI chatbots can deliver MI-consistent interactions perceived favorably, but evidence for sustained behavioral or functional change is limited. Future research should strengthen runtime safety monitoring, standardize MI quality assessment, and use longer-term comparative designs with behavioral and functional outcomes.",
+      "abstract_zh": "动机访谈（MI）是一种协作方法，旨在引发自主的健康行为改变动机。生成性人工智能（GenAI）为通过对话系统提供动机访谈提供了新的方式，但关于其设计、评估和转化为干预的证据仍然零散。本范围审查对GenAI-MI聊天机器人在系统设计、安全性、动机访谈质量、用户感知和干预结果方面的证据进行了特征描述。我们进行了PRISMA-ScR范围审查。搜索了九个数据集，查找2015年1月1日至2026年6月2日期间发表或公开可用的研究，这些研究使用GenAI生成动机访谈聊天机器人的响应或咨询师的发言。数据使用预定义框架提取并进行描述性综合。共纳入47份报告（48项研究）。其中20项（41.7%）专注于系统设计而没有直接参与者使用；28项（58.3%）涉及直接互动。大多数系统基于文本且无实体；23项（47.9%）包含动态适应。安全性措施报告不均。对于直接使用的研究，21/28项（75.0%）报告了知情同意或用户教育。30项（62.5%）评估了动机访谈质量，通常表明与动机访谈一致的互动。用户感知总体上是积极的，尤其是在同理心、可用性、有用性和使用意图方面，尽管测量标准不一。18项（37.5%）报告了干预结果，大多数是在单次会话后。积极结果在短期动机方面更为一致，而在持续的行为或功能改变方面则有限。GenAI-MI聊天机器人能够提供与动机访谈一致的互动，并被积极感知，但在持续的行为或功能改变方面的证据有限。未来的研究应加强运行时安全监测，标准化动机访谈质量评估，并采用更长期的比较设计，关注行为和功能结果。",
+      "authors": [
+        "Runze Hu",
+        "Jingqi Kong",
+        "Yang Yang",
+        "Yihang Yang",
+        "Jingyao Liu",
+        "Haizhou Tang",
+        "Shanghang Zhang",
+        "Zheng Liu"
+      ],
+      "date": "2026-09-21",
+      "id": "2609.20902",
+      "tags": [
+        "文本情感",
+        "共情交互",
+        "数据集/评测"
+      ],
+      "title": "Generative Artificial Intelligence Chatbots for Motivational Interviewing: A Scoping Review From System Design to Intervention Outcomes",
+      "title_zh": "用于动机访谈的生成性人工智能聊天机器人：从系统设计到干预结果的范围审查",
+      "url": "/daily/2026-09-21/#paper-2609-20902"
+    },
     {
       "abstract": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through to GPT-5 (OpenAI GPT lineage; three demographic conditions), we show that sexual violence clusters prevalent in GPT-2 women-directed output disappear by GPT-4, while men-directed completions gain positive representational territory (caregiving, emotional range, ally identity) that women-directed completions do not. The pattern is most visible at GPT-5: Topic~5 (1,997~documents) frames breast cancer as a men's rights debate, while zero equivalent clusters appear in women-directed output. Three independent classifiers score this content as non-toxic. Sentiment scores invert at GPT-4: early models demean women; later models over-correct. Topic diversity in women-directed completions falls 36\\% relative to men at the GPT-4 alignment boundary (W/M~$= 0.58$, from $0.91$ at GPT-2). REGARD representational harm disparity correlates with release date ($\\rho = +0.55$, $p = .034$) while Detoxify does not ($\\rho = -0.23$, $p = .42$): toxicity scores fall as representational harm grows. We formalise harm laundering as a three-criteria test and provide a three-stage detection protocol applicable to any generative model. Within the OpenAI GPT lineage, toxicity score reduction is not a sufficient proxy for harm reduction.",
       "abstract_zh": "大型语言模型的安全评估依赖于表面形式分类器，这些分类器报告模型代际间伤害评分的下降。我们提供证据表明，这种方法论系统性地不完整：显性歧视内容被转化而非移除。我们称之为“伤害洗涤”（harm laundering）。通过分析450,000个针对性别的生成结果，涵盖从GPT-2到GPT-5的15个模型（OpenAI GPT谱系；三种人口统计条件），我们展示了在GPT-2中针对女性的输出中普遍存在的性暴力聚类在GPT-4中消失，而针对男性的生成结果获得了女性生成结果所没有的积极表现领域（如照顾、情感范围、盟友身份）。这一模式在GPT-5中最为明显：主题5（1,997个文档）将乳腺癌框架化为男性权利的辩论，而在针对女性的输出中没有出现相应的聚类。三个独立的分类器将这些内容评分为非毒性。在GPT-4中，情感评分发生反转：早期模型贬低女性；后期模型则过度修正。在GPT-4的对齐边界上，针对女性的生成结果的主题多样性相较于男性下降了36%（W/M = 0.58，从GPT-2的0.91）。REGARD表现出的代表性伤害差异与发布日期相关（ρ = +0.55，p = .034），而Detoxify则没有相关性（ρ = -0.23，p = .42）：随着代表性伤害的增加，毒性评分下降。我们将伤害洗涤形式化为一个三标准测试，并提供一个适用于任何生成模型的三阶段检测协议。在OpenAI GPT谱系中，毒性评分的降低并不是伤害减少的充分代理。",

@@ -1,0 +1,50 @@
+{
+  "abstract": "Problematic internet use affects a growing share of the population, yet common interventions, e.g., time limits, blocking, forced breaks, are coercive and easily circumvented. We explore a less restrictive alternative: adapting the emotional intensity of visual content. Prior work has shown that optimization can steer an image's affective content, but its per-image optimization cost makes it impractical for real-time deployment. We instead learn a model that predicts this transformation in a single forward pass: a MobileNetV4 backbone with FiLM-based emotion conditioning outputs parameters for differentiable global transformations. This replaces prior iterative optimization (80 s per image) with a single 3.7 ms forward pass. In a user study (N = 54), the model reduced viewer-reported arousal relative to unedited images, comparably to the grayscale well-being filter, while being rated higher in perceived quality. We integrate the model into an Android app that adapts Instagram video in real time, sustaining 60 fps on a Samsung Galaxy S23.",
+  "abstract_zh": "有问题的互联网使用影响着越来越多的人群，而常见的干预措施，如时间限制、屏蔽和强制休息，往往具有强制性且容易被规避。我们探索了一种限制较少的替代方案：调整视觉内容的情感强度。先前的研究表明，优化可以引导图像的情感内容，但其每张图像的优化成本使得实时部署变得不切实际。相反，我们学习了一个模型，该模型在单次前向传播中预测这种转换：一个基于 MobileNetV4 的骨干网络，结合 FiLM（Feature-wise Linear Modulation）情感调节，输出可微分全局变换的参数。这将之前每张图像需80秒的迭代优化替换为单次3.7毫秒的前向传播。在一项用户研究中（N = 54），该模型相较于未编辑图像减少了观众报告的唤醒度，效果与灰度幸福感过滤器相当，同时在感知质量上获得了更高的评分。我们将该模型集成到一个安卓应用中，能够实时调整 Instagram 视频，在三星 Galaxy S23 上保持60帧每秒的流畅度。",
+  "arxiv_id": "2609.21624",
+  "arxiv_url": "https://arxiv.org/abs/2609.21624v1",
+  "authors": [
+    "Musa Rochi",
+    "Marcel Schubert",
+    "Christoph Gebhardt"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-21#paper-2609-21624",
+  "categories": [
+    "cs.CV",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-09-21T10:35:08.568508+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.21624v1",
+  "published_at": "2026-09-18T11:04:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "affective",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-09-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.21624v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "社交信号"
+    ]
+  },
+  "title": "Learned Parametric Emotion Editing: Real-Time Affective Filtering for On-Device Social Media Video",
+  "title_zh": "学习的参数情感编辑：针对设备的社交媒体视频的实时情感过滤",
+  "translation_url": "https://hjfy.top/arxiv/2609.21624"
+}

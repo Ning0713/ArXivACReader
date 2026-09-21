@@ -1,0 +1,54 @@
+{
+  "abstract": "Motivational interviewing (MI) is a collaborative approach to elicit autonomous motivation for health behavior change. Generative AI (GenAI) offers new ways to deliver MI via conversational systems, but evidence on their design, assessment, and translation into interventions remains fragmented. This scoping review characterized evidence on GenAI-MI chatbots across system design, safety, MI quality, user perceptions, and intervention outcomes. We conducted a PRISMA-ScR scoping review. Nine datasets were searched for studies published or publicly available from January 1, 2015 to June 2, 2026 that used GenAI to generate MI chatbot responses or counselor utterances. Data were extracted using a predefined framework and synthesized descriptively. Forty-seven reports (48 studies) were included. Twenty (41.7%) focused on system design without direct participant use; 28 (58.3%) involved direct interaction. Most systems were text based and disembodied; 23 (47.9%) incorporated dynamic adaptation. Safety measures were unevenly reported. Among studies with direct use, 21/28 (75.0%) reported informed consent or user education. Thirty (62.5%) assessed MI quality, generally suggesting MI-consistent interactions. User perceptions were favorable, especially empathy, usability, helpfulness, and intention to use, though measures were heterogeneous. Eighteen (37.5%) reported intervention outcomes, mostly after a single session. Positive findings were more consistent for short-term motivation than sustained behavioral or functional change. GenAI-MI chatbots can deliver MI-consistent interactions perceived favorably, but evidence for sustained behavioral or functional change is limited. Future research should strengthen runtime safety monitoring, standardize MI quality assessment, and use longer-term comparative designs with behavioral and functional outcomes.",
+  "abstract_zh": "动机访谈（MI）是一种协作方法，旨在引发自主的健康行为改变动机。生成性人工智能（GenAI）为通过对话系统提供动机访谈提供了新的方式，但关于其设计、评估和转化为干预的证据仍然零散。本范围审查对GenAI-MI聊天机器人在系统设计、安全性、动机访谈质量、用户感知和干预结果方面的证据进行了特征描述。我们进行了PRISMA-ScR范围审查。搜索了九个数据集，查找2015年1月1日至2026年6月2日期间发表或公开可用的研究，这些研究使用GenAI生成动机访谈聊天机器人的响应或咨询师的发言。数据使用预定义框架提取并进行描述性综合。共纳入47份报告（48项研究）。其中20项（41.7%）专注于系统设计而没有直接参与者使用；28项（58.3%）涉及直接互动。大多数系统基于文本且无实体；23项（47.9%）包含动态适应。安全性措施报告不均。对于直接使用的研究，21/28项（75.0%）报告了知情同意或用户教育。30项（62.5%）评估了动机访谈质量，通常表明与动机访谈一致的互动。用户感知总体上是积极的，尤其是在同理心、可用性、有用性和使用意图方面，尽管测量标准不一。18项（37.5%）报告了干预结果，大多数是在单次会话后。积极结果在短期动机方面更为一致，而在持续的行为或功能改变方面则有限。GenAI-MI聊天机器人能够提供与动机访谈一致的互动，并被积极感知，但在持续的行为或功能改变方面的证据有限。未来的研究应加强运行时安全监测，标准化动机访谈质量评估，并采用更长期的比较设计，关注行为和功能结果。",
+  "arxiv_id": "2609.20902",
+  "arxiv_url": "https://arxiv.org/abs/2609.20902v1",
+  "authors": [
+    "Runze Hu",
+    "Jingqi Kong",
+    "Yang Yang",
+    "Yihang Yang",
+    "Jingyao Liu",
+    "Haizhou Tang",
+    "Shanghang Zhang",
+    "Zheng Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-21#paper-2609-20902",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-21T10:35:08.666527+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.20902v1",
+  "published_at": "2026-09-17T13:43:09Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathy",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-09-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.20902v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "共情交互",
+      "数据集/评测"
+    ]
+  },
+  "title": "Generative Artificial Intelligence Chatbots for Motivational Interviewing: A Scoping Review From System Design to Intervention Outcomes",
+  "title_zh": "用于动机访谈的生成性人工智能聊天机器人：从系统设计到干预结果的范围审查",
+  "translation_url": "https://hjfy.top/arxiv/2609.20902"
+}

@@ -322,8 +322,65 @@
         "情感大模型"
       ],
       "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations"
+    },
+    "2609.20902": {
+      "dates": [
+        "2026-09-21"
+      ],
+      "first_seen": "2026-09-21",
+      "tags": [
+        "文本情感",
+        "共情交互",
+        "数据集/评测"
+      ],
+      "title": "Generative Artificial Intelligence Chatbots for Motivational Interviewing: A Scoping Review From System Design to Intervention Outcomes"
+    },
+    "2609.21075": {
+      "dates": [
+        "2026-09-21"
+      ],
+      "first_seen": "2026-09-21",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "心理状态/福祉"
+      ],
+      "title": "Aligning with Lived Experience: Heterogeneous Benefits of Fine Tuning in Mental Health Support Generation"
+    },
+    "2609.21214": {
+      "dates": [
+        "2026-09-21"
+      ],
+      "first_seen": "2026-09-21",
+      "tags": [
+        "鲁棒性/偏差"
+      ],
+      "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis"
+    },
+    "2609.21624": {
+      "dates": [
+        "2026-09-21"
+      ],
+      "first_seen": "2026-09-21",
+      "tags": [
+        "心理状态/福祉",
+        "社交信号"
+      ],
+      "title": "Learned Parametric Emotion Editing: Real-Time Affective Filtering for On-Device Social Media Video"
+    },
+    "2609.21683": {
+      "dates": [
+        "2026-09-21"
+      ],
+      "first_seen": "2026-09-21",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Listen Before You Speak: Response Planning from Listener Facial Reactions for Conversational Speech Generation"
     }
   },
-  "total": 28,
-  "updated_at": "2026-09-18T09:34:08.216285+00:00"
+  "total": 33,
+  "updated_at": "2026-09-21T10:35:11.486487+00:00"
 }

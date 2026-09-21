@@ -1,0 +1,57 @@
+{
+  "abstract": "Conversational speech depends on dialogue context and the listener's immediately preceding behavior. We propose ReACT-TTS, a two-stage framework that uses a one-second pre-response listener facial sequence to plan the next utterance's emotion and prosody before speech realization. On a strict dyadic MELD protocol, Temporal conditioning yields higher mean macro-F1 and VAD concordance than Text-only across ten seeds, while accuracy remains essentially unchanged. Ablations show that temporal modeling performs best among the visual variants and that an explicit early-to-late difference is unnecessary; correct listener reactions also outperform cyclic mismatches on average. In a contextual-appropriateness study with 20 speech researchers, 76% of judgments prefer Temporal, 9% Text-only, and 15% report no preference. We further connect the predicted response style to a Grad-TTS backbone for end-to-end speech realization. Overall, the results support pre-response listener dynamics as complementary cues for conversational response planning. The source code is available at https://github.com/CYJ1/ReACT-TTS_public.",
+  "abstract_zh": "对话语音依赖于对话上下文及听者的即时前序行为。我们提出了ReACT-TTS，一种两阶段框架，利用一秒钟的响应前听者面部序列来规划下一句发话的情感和韵律，然后实现语音生成。在严格的双人MELD协议下，时间条件（Temporal conditioning）在十个随机种子中表现出比仅文本（Text-only）更高的平均宏F1值和语音活动检测（VAD）一致性，而准确率基本保持不变。消融实验表明，在视觉变体中时间建模表现最佳，且无需显式的早晚差异；正确的听者反应平均上也优于循环不匹配。在一项包含20名语音研究者的上下文适宜性评估中，76%的判断偏好时间条件，9%偏好仅文本，15%无偏好。我们进一步将预测的响应风格与Grad-TTS骨干网络相结合，实现端到端语音生成。总体结果支持将响应前的听者动态作为对话响应规划的补充线索。源码可在https://github.com/CYJ1/ReACT-TTS_public获取。",
+  "arxiv_id": "2609.21683",
+  "arxiv_url": "https://arxiv.org/abs/2609.21683v1",
+  "authors": [
+    "Yunji Chu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-21#paper-2609-21683",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CV",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-09-21T10:35:08.630826+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.21683v1",
+  "published_at": "2026-09-18T12:18:16Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "MELD",
+      "emotion",
+      "generation",
+      "dialogue",
+      "speech",
+      "检测",
+      "预测",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 47.0
+  },
+  "seen_dates": [
+    "2026-09-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.21683v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "Listen Before You Speak: Response Planning from Listener Facial Reactions for Conversational Speech Generation",
+  "title_zh": "先听后说：基于听者面部反应的对话语音生成响应规划",
+  "translation_url": "https://hjfy.top/arxiv/2609.21683"
+}

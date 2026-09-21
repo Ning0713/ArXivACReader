@@ -1,0 +1,46 @@
+{
+  "abstract": "Cognitive diagnosis infers students' concept mastery from response logs. However, students' responses are not determined by mastery alone: non-cognitive factors such as emotion, engagement, and fatigue can also affect performance. Affective cognitive diagnosis therefore extends conventional cognitive diagnosis by incorporating affective states. Existing methods often assume that the cognitive diagnosis backbone has already explained ability, item, and concept effects, so the remaining errors can be attributed mainly to affect. We argue that this assumption can be insufficient in real educational data: item calibration bias, systematic concept bias, personalized student-concept deviations, and latent student-item matching can form stable cognitive residuals. Without an explicit modeling pathway, these residuals may leak into affective representations, producing affect contamination. To address this problem, we propose an ability-residual decoupled framework for affective cognitive diagnosis. The model first captures unmodeled cognitive residuals through student, item, concept, student-concept, and low-rank student-item components, and then uses an affective module to modulate guess/slip effects. A Q-matrix-constrained concept residual attention mechanism adaptively aggregates only item-relevant concept residuals. Experiments on ASSIST2017, ASSIST2012, ASSIST2009, and Junyi with six cognitive diagnosis backbones show response-prediction gains across the reported comparisons and generally improved affect alignment when affect labels are available. Ablation studies, leakage probes, principal component analysis visualization, long-tail analysis, and case studies further indicate that ability residuals absorb stable cognitive bias, reduce cognitive contamination in the affective branch, and enhance the robustness and predictive accuracy of cognitive diagnosis models.",
+  "abstract_zh": "认知诊断通过响应日志推断学生的概念掌握情况。然而，学生的反应并不仅仅由掌握程度决定：情感、参与度和疲劳等非认知因素也会影响表现。因此，情感认知诊断通过结合情感状态扩展了传统的认知诊断。现有方法通常假设认知诊断的基础模型已经解释了能力、项目和概念效应，因此剩余的误差主要可以归因于情感。我们认为这一假设在真实教育数据中可能不足：项目校准偏差、系统性概念偏差、个性化的学生-概念偏差以及潜在的学生-项目匹配可能形成稳定的认知残差。如果没有明确的建模路径，这些残差可能会渗入情感表征，导致情感污染。为了解决这个问题，我们提出了一种用于情感认知诊断的能力残差解耦框架。该模型首先通过学生、项目、概念、学生-概念和低秩学生-项目组件捕捉未建模的认知残差，然后使用情感模块调节猜测/滑动效应。一个受Q矩阵约束的概念残差注意机制自适应地聚合仅与项目相关的概念残差。在ASSIST2017、ASSIST2012、ASSIST2009和Junyi的六个认知诊断基础模型上的实验显示，在报告的比较中响应预测有所提升，并且在情感标签可用时情感对齐普遍改善。消融研究、泄漏探测、主成分分析可视化、长尾分析和案例研究进一步表明，能力残差吸收了稳定的认知偏差，减少了情感分支中的认知污染，并增强了认知诊断模型的鲁棒性和预测准确性。",
+  "arxiv_id": "2609.21214",
+  "arxiv_url": "https://arxiv.org/abs/2609.21214v1",
+  "authors": [
+    "Boyuan Zhao",
+    "Meng Ye"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-21#paper-2609-21214",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-21T10:35:08.607591+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.21214v1",
+  "published_at": "2026-09-18T01:54:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "prediction",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-09-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.21214v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "鲁棒性/偏差",
+    "secondary": []
+  },
+  "title": "Ability-Residual Decoupled Modeling for Affective Cognitive Diagnosis",
+  "title_zh": "情感认知诊断的能力残差解耦建模",
+  "translation_url": "https://hjfy.top/arxiv/2609.21214"
+}

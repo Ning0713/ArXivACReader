@@ -1,0 +1,58 @@
+{
+  "abstract": "As access to professional mental healthcare remains limited, many individuals turn to online platforms such as Reddit to seek peer support situated within human lived experience. However, a significant portion of such queries go unanswered, presenting an opportunity for using Large Language Models (LLMs) to fill this gap. While LLMs have demonstrated strong performance on clinical benchmarks, their ability to generate lived-experience informed and community-aligned peer support is underexplored. Addressing this gap, we introduce the COmmunity-centered Peer Engaged Support (COPES) dataset and a three-axis evaluation framework to assess LLM alignment with community perspectives to mental health support seeking queries. Evaluating zero-shot and post-trained (SFT and DPO) models, we show that post-training on COPES significantly improves Strategy Alignment (>50% for general-purpose models) and alignment in Emotion & Tone. However, we also observe that such improvements are heterogeneous and alignment improvements vary significantly across subreddits and requested coping strategies. Furthermore, post-training induces distributional shifts, heavily favoring problem-focused recommendations while suppressing emotion-focused strategies. Together, this work shows that while curating community-driven data improves the alignment of LLM responses, model performance remains disparate across distinct sub-communities and specific mental health needs.",
+  "abstract_zh": "由于专业心理健康护理的获取仍然有限，许多人转向在线平台如Reddit寻求基于人类生活经验的同伴支持。然而，许多此类查询未能得到回应，这为使用大型语言模型（LLMs）填补这一空白提供了机会。尽管LLMs在临床基准测试中表现出色，但它们生成基于生活经验且与社区对齐的同伴支持的能力尚未得到充分探索。为了解决这一问题，我们引入了以社区为中心的同伴参与支持（COmmunity-centered Peer Engaged Support，COPES）数据集和一个三轴评估框架，以评估LLMs在心理健康支持寻求查询中与社区观点的对齐情况。通过评估零样本和后训练（SFT和DPO）模型，我们显示在COPES上进行后训练显著提高了策略对齐（对于通用模型超过50%）以及情感与语调的对齐。然而，我们也观察到这些改进是异质的，不同子版块和请求的应对策略之间的对齐改进差异显著。此外，后训练引发了分布转变，严重偏向于问题聚焦的建议，同时抑制了情感聚焦的策略。总体而言，这项工作表明，尽管策划以社区为驱动的数据改善了LLM响应的对齐，但模型性能在不同子社区和特定心理健康需求之间仍然存在差异。",
+  "arxiv_id": "2609.21075",
+  "arxiv_url": "https://arxiv.org/abs/2609.21075v1",
+  "authors": [
+    "Mohit Chandra",
+    "Nabin Kim",
+    "Eli Min",
+    "Aamogh Sawant",
+    "Tanmay Sutar",
+    "Munmun De Choudhury"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-21#paper-2609-21075",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CY"
+  ],
+  "fetched_at": "2026-09-21T10:35:08.668500+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.21075v1",
+  "published_at": "2026-09-17T20:55:02Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "generation",
+      "dataset",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.21075v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "Aligning with Lived Experience: Heterogeneous Benefits of Fine Tuning in Mental Health Support Generation",
+  "title_zh": "与生活经验对齐：心理健康支持生成中的细调异质效益",
+  "translation_url": "https://hjfy.top/arxiv/2609.21075"
+}
