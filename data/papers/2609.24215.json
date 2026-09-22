@@ -1,0 +1,52 @@
+{
+  "abstract": "Although text-to-image models can accurately depict subjects and scenes, creators still struggle to specify the fine-grained emotions an image should convey without rewriting its content description. Natural language can suggest emotions, but it offers no control scale with stable meanings and ordered intensities. We propose EMOTRANS, which transforms psychologically grounded valence-arousal-dominance (VAD) coordinates into generation conditions that are independent of the content text and modulated across denoising stages, making emotional style a finely adjustable creative variable. To support this goal, we construct EMOVAD, an art-painting dataset that pairs objective content descriptions with separately collected emotional ratings from multiple annotators. We also coordinate emotional expression and content preservation through dual-branch training with a shared model. Objective and human evaluations show that the framework improves the accuracy of three-dimensional emotion control and produces perceptible, orderable continuous changes while maintaining competitive text alignment and image quality. This work provides a practical emotion-driven approach to image generation that extends objective content depiction to fine-grained emotional adjustment.",
+  "abstract_zh": "尽管文本到图像模型能够准确描绘主题和场景，但创作者仍然难以在不重写内容描述的情况下指定图像应传达的细粒度情感。自然语言可以暗示情感，但它并没有提供稳定意义和有序强度的控制尺度。我们提出了 EMOTRANS，它将心理学基础的愉悦-唤醒-主导性（Valence-Arousal-Dominance, VAD）坐标转化为与内容文本无关的生成条件，并在去噪阶段进行调节，使情感风格成为一个可细致调整的创作变量。为支持这一目标，我们构建了 EMOVAD，一个艺术绘画数据集，将客观内容描述与来自多个注释者的独立收集的情感评分配对。我们还通过共享模型的双分支训练协调情感表达和内容保留。客观和人类评估表明，该框架提高了三维情感控制的准确性，并在保持竞争性的文本对齐和图像质量的同时，产生可感知的、有序的连续变化。这项工作提供了一种实用的情感驱动图像生成方法，将客观内容描绘扩展到细粒度情感调整。",
+  "arxiv_id": "2609.24215",
+  "arxiv_url": "https://arxiv.org/abs/2609.24215v1",
+  "authors": [
+    "Minglang Li",
+    "Yueyue Fang",
+    "Xieping Gao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-24215",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.482305+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.24215v1",
+  "published_at": "2026-09-21T07:33:28Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "emotional",
+      "generation",
+      "dataset",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.24215v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "Beyond Emotion Prompts: Fine-Grained Text-to-Image Generation Driven by Valence-Arousal-Dominance",
+  "title_zh": "超越情感提示：基于愉悦-唤醒-主导性细粒度文本到图像生成",
+  "translation_url": "https://hjfy.top/arxiv/2609.24215"
+}

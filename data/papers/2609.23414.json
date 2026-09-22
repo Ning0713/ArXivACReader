@@ -1,0 +1,60 @@
+{
+  "abstract": "Socially competent humanoid robots must communicate affect and intent through gesture as well as speech, yet open-ended interaction must become motion that is both expressive and executable on a specific body. This demands semantic flexibility for contextual social intent while preserving deterministic, embodiment-aware robot control. We present EmoPose, a vision-language model (VLM)-guided framework that bridges this gap through an executable semantic interface. Given language, dialogue history, and optional visual context, the VLM selects an ordered gesture plan containing a communicative class, library variant, intensity, and speech anchor. A scalable robot-owned motion library defines the available expressive vocabulary and the source of 14-DoF joint targets. Pose Studio supports automatic trajectory generation, MuJoCo preview, and automatic synchronization of new library entries with the VLM guide; deterministic robot-side modules validate plans, construct trajectories, schedule gestures, and manage queueing and interruption. This division lets the interaction repertoire grow for new social contexts without changing the control interface or delegating raw joint commands to the foundation model. On the EmoPose-Bench, structured GPT-5.5 planning reaches $98.25\\pm0.52\\%$ on the Easy tier and $76.50\\pm0.54\\%$ overall, exceeding same-model direct-label prompting. Further tests validate dialogue-context use and ordered multi-action composition. The system completes the nominal MuJoCo suite and realizes all 29 authored variants on the physical Unitree G1. A four-stop laboratory tour demonstrates expressive narration with interruption, camera-grounded dialogue, and navigation.",
+  "abstract_zh": "具备社会能力的类人机器人必须通过手势和语言传达情感和意图，然而开放式互动必须转化为在特定身体上既富有表现力又可执行的动作。这要求在保持可预测的、具身意识的机器人控制的同时，具备语义灵活性以适应上下文社交意图。我们提出了EmoPose，一个通过可执行语义接口弥合这一差距的视觉-语言模型（VLM）引导框架。给定语言、对话历史和可选的视觉上下文，VLM选择一个有序的手势计划，其中包含一个交流类别、库变体、强度和语言锚点。一个可扩展的机器人拥有的运动库定义了可用的表现词汇和14自由度关节目标的来源。Pose Studio支持自动轨迹生成、MuJoCo预览，以及与VLM引导的新的库条目的自动同步；确定性的机器人端模块验证计划、构建轨迹、调度手势，并管理排队和中断。这种划分使得互动词汇能够在新的社交上下文中增长，而无需更改控制接口或将原始关节命令委托给基础模型。在EmoPose-Bench上，结构化的GPT-5.5规划在简单层级上达到$98.25 ext{±}0.52 ext{%}$，整体达到$76.50 ext{±}0.54 ext{%}$，超越了同模型的直接标签提示。进一步的测试验证了对话上下文的使用和有序多动作组合。该系统完成了标准的MuJoCo套件，并在物理Unitree G1上实现了所有29个创作变体。一个四站的实验室巡演展示了富有表现力的叙述与中断、基于相机的对话和导航。",
+  "arxiv_id": "2609.23414",
+  "arxiv_url": "https://arxiv.org/abs/2609.23414v1",
+  "authors": [
+    "Daojie Peng",
+    "Bingtao Wang",
+    "Fulong Ma",
+    "Wenjun Yue",
+    "Liang Zhang",
+    "Jun Ma"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-23414",
+  "categories": [
+    "cs.RO"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.227471+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.23414v1",
+  "published_at": "2026-09-20T06:58:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion aware",
+      "emotion",
+      "vision language",
+      "VLM",
+      "generation",
+      "dialogue",
+      "speech",
+      "预测",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 58.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.23414v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots",
+  "title_zh": "EmoPose：基于视觉-语言模型引导的情感感知手势生成用于类人机器人",
+  "translation_url": "https://hjfy.top/arxiv/2609.23414"
+}

@@ -1,0 +1,60 @@
+{
+  "abstract": "Humanoid robots are increasingly being popular and developed for human-centered applications, yet their ability to provide intelligent conversations and natural interactive knowledge assistance remains constrained by traditional rule-based dialogue systems, pre-defined responses and limited knowledge repositories. Large language models (LLMs) have emerged as a powerful foundation for enabling natural, adaptive, and context-aware Human-Robot Interaction (HRI), which provides a significant opportunity to address such limitations by enabling robots to understand natural speech language, reason over complicated queries, maintain high-quality conversational context, and generate knowledge-rich responses. In this work, we originally present and implement an LLM-based versatile Conversational AI Knowledge Assistant for the Raspberry-Pi-powered 13-Axis MyBuddy humanoid robot, which integrates LLM-driven language understanding and AI reasoning with real-time speech recognition, knowledge retrieval via extensible access of internet engines (e.g., Wikipedia, arXiv), flexible dialogue management, and natural speech synthesis to enable much more intelligent multi-turn continuous conversations and advanced emotional-support Human-Robot Interaction.",
+  "abstract_zh": "类人机器人在以人为中心的应用中越来越受欢迎并不断发展，但它们在提供智能对话和自然互动知识辅助方面的能力仍受到传统基于规则的对话系统、预定义响应和有限知识库的限制。大型语言模型（LLMs）作为一种强大的基础，能够实现自然、适应性强且具有上下文感知的人机交互（HRI），为解决这些限制提供了重要机会，使机器人能够理解自然语言、对复杂查询进行推理、保持高质量的对话上下文，并生成丰富知识的响应。在本研究中，我们首次提出并实现了一种基于LLM的多功能对话式人工智能知识助手，适用于由树莓派驱动的13轴MyBuddy类人机器人，该助手将LLM驱动的语言理解和人工智能推理与实时语音识别、通过可扩展的互联网引擎（如维基百科、arXiv）进行的知识检索、灵活的对话管理和自然语音合成相结合，从而实现更智能的多轮连续对话和高级情感支持的人机交互。",
+  "arxiv_id": "2609.24742",
+  "arxiv_url": "https://arxiv.org/abs/2609.24742v1",
+  "authors": [
+    "Hanxiao Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-24742",
+  "categories": [
+    "cs.RO",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.315122+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.24742v1",
+  "published_at": "2026-09-21T15:11:06Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "recognition",
+      "reasoning",
+      "dialogue",
+      "speech",
+      "识别",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 95.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.24742v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "语音情感",
+      "情感生成"
+    ]
+  },
+  "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+  "title_zh": "基于大型语言模型的MyBuddy类人机器人对话式人工智能知识助手",
+  "translation_url": "https://hjfy.top/arxiv/2609.24742"
+}

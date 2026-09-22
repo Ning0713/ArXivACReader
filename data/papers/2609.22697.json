@@ -1,0 +1,68 @@
+{
+  "abstract": "Recently, text-to-speech systems have made significant progress in speech expressiveness and controllability. However, the speaking style of generated speech typically relies on clear user-specified instructions. In natural conversations, speaking style should be naturally inferred from the preceding conversational context. Therefore, we propose COT-TTS, a context-aware, reasoning-based text-to-speech task. Given historical conversation audio, target text, and a reference speech, the system should comprehend the conversational context, infer an explicit intermediate reasoning, and finally synthesize the target speech with the specified timbre. To support this task, we constructed a large-scale bilingual conversational speech dataset comprising 9 million training samples, including a high-quality subset of 1 million samples. We further constructed a source-disjoint benchmark with 800 human-verified samples and established strong task-specific baselines. Additionally, we developed end-to-end autoregressive models with parameter sizes of 0.6B and 1.7B, generating emotion-labeled transcripts, editable speech style inferences, and speech tokens. Experimental results show that the proposed model achieves performance comparable to large-scale baseline systems with significantly fewer parameters. At the same time, the model performs well in terms of duration consistency and emotional consistency, and can generate appropriate emotional, stress, and rhythmic variations based on the conversational context. To facilitate future research, we will publicly release the data construction pipeline, dataset, trained models, and related resources. The demo page and additional resources are available at https://luckybian.github.io/COT-TTS",
+  "abstract_zh": "近年来，文本到语音系统在语音表现力和可控性方面取得了显著进展。然而，生成语音的说话风格通常依赖于用户明确指定的指令。在自然对话中，说话风格应当自然地从前面的对话上下文中推断出来。因此，我们提出了COT-TTS，一种上下文感知的基于推理的文本到语音转换任务。给定历史对话音频、目标文本和参考语音，系统应理解对话上下文，推断出明确的中间推理，最终合成具有指定音色的目标语音。为了支持这一任务，我们构建了一个大规模的双语对话语音数据集，包括900万个训练样本，其中包含100万个高质量子集。我们进一步构建了一个源不重叠的基准数据集，包含800个经过人工验证的样本，并建立了强大的任务特定基线。此外，我们开发了参数规模为0.6B和1.7B的端到端自回归模型，生成情感标记的转录文本、可编辑的语音风格推断和语音标记。实验结果表明，所提出的模型在性能上与大规模基线系统相当，但参数显著更少。同时，该模型在持续时间一致性和情感一致性方面表现良好，并能够根据对话上下文生成适当的情感、重音和节奏变化。为了促进未来的研究，我们将公开发布数据构建流程、数据集、训练模型和相关资源。演示页面和其他资源可在 https://luckybian.github.io/COT-TTS 获取。",
+  "arxiv_id": "2609.22697",
+  "arxiv_url": "https://arxiv.org/abs/2609.22697v1",
+  "authors": [
+    "Weizhen Bian",
+    "Sitong Cheng",
+    "Rongxiu Zhong",
+    "Jiahao Pan",
+    "Liumeng Xue",
+    "Boyi Kang",
+    "Shilei Zhang",
+    "Jinglei Liu",
+    "Yue Wang",
+    "Junlan Feng",
+    "Bei Liu",
+    "Wei Xue"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22697",
+  "categories": [
+    "cs.CL",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.742720+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22697v1",
+  "published_at": "2026-09-19T02:13:27Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "reasoning",
+      "conversation",
+      "benchmark",
+      "dataset",
+      "speech",
+      "audio",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 39.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22697v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "语音情感",
+      "文本情感"
+    ]
+  },
+  "title": "COT-TTS: Audio Context-Aware Text-to-Speech with Chain-of-Thought Reasoning",
+  "title_zh": "COT-TTS：基于链式推理的音频上下文感知文本到语音转换",
+  "translation_url": "https://hjfy.top/arxiv/2609.22697"
+}

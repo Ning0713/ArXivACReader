@@ -1,0 +1,46 @@
+{
+  "abstract": "In multi-agent social settings, model reliability varies across relationships. Beyond inferring what others will do, an agent must calibrate how confidently those inferences should guide policy selection for each relationship. An agent may maintain a well-validated model of one partner, a fragile model of another, and a model under revision for a third; collapsing these into a single confidence estimate loses information relevant to policy selection. We therefore formalize affective precision as a relationship-specific metacognitive estimate of confidence in the current partner model. Each partner's behavioral evidence updates a local confidence estimate that modulates policy precision during selection, regulating how strongly current beliefs are expressed in policy rather than changing the content of those beliefs. Simulations in a multi-partner graded trust game show that partner-local affective precision influences behavior primarily through policy commitment rather than direct improvement of partner-state inference. Because the mechanism tracks partner-response predictability rather than realized payoff, greater confidence produces sharper policy commitment without necessarily producing higher rewards. Under abrupt shifts in social behavior, confidence accumulated from previously reliable predictions can remain behaviorally active after the relationship changes, showing that confidence revision can lag behind social change. Finally, varying precision gain and priors produce distinct trust-calibration dynamics, showing how confidence accumulation and revision depend on model parameters. Together, these results show how relationship-specific affective precision can distinguish social prediction from social policy commitment.",
+  "abstract_zh": "在多智能体社会环境中，模型的可靠性因关系而异。除了推断他人的行为外，智能体还必须校准这些推断在每个关系中应如何自信地指导政策选择。一个智能体可能对一个伙伴保持经过充分验证的模型，对另一个伙伴则有一个脆弱的模型，而对第三个伙伴则是一个正在修订的模型；将这些模型合并为一个单一的信心估计会丢失与政策选择相关的信息。因此，我们将情感精确度形式化为对当前伙伴模型的关系特定的元认知信心估计。每个伙伴的行为证据更新一个局部信心估计，该估计在选择过程中调节政策的精确度，调控当前信念在政策中的表达强度，而不是改变这些信念的内容。在多伙伴分级信任游戏中的模拟表明，伙伴特定的情感精确度主要通过政策承诺影响行为，而不是直接改善对伙伴状态的推断。由于该机制跟踪伙伴反应的可预测性而非实际收益，更高的信心会产生更明确的政策承诺，但不一定会带来更高的奖励。在社会行为的突然变化下，来自先前可靠预测的信心积累在关系变化后仍然可以保持行为活跃，表明信心修订可能滞后于社会变化。最后，变化的精确度增益和先验产生不同的信任校准动态，显示信心的积累和修订如何依赖于模型参数。这些结果共同表明，关系特定的情感精确度如何区分社会预测与社会政策承诺。",
+  "arxiv_id": "2609.24876",
+  "arxiv_url": "https://arxiv.org/abs/2609.24876v1",
+  "authors": [
+    "Harshil Shah",
+    "Andrew Pashea"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-24876",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.654498+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.24876v1",
+  "published_at": "2026-09-21T16:46:59Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "prediction",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.24876v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "Partner-Specific Affective Precision in Social Active Inference",
+  "title_zh": "特定伙伴的情感精确度在社会主动推理中的作用",
+  "translation_url": "https://hjfy.top/arxiv/2609.24876"
+}

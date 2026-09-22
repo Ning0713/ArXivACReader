@@ -1,0 +1,57 @@
+{
+  "abstract": "We formulate \\emph{Artistic Intelligence} as exploration driven world realization, leaving space for creative possibility while preserving the semantic, artistic, and compositional structure that must remain true. Moonworks Lunara, a text-to-image model, implements this framework with a novel Diffusion Mixture Transformer architecture. A new training algorithm iteratively evolves the data distribution through informative sample acquisition and targeted injection of human-created art. We benchmark Lunara against seven image-generation models, including FLUX.2-Klein-4B, Qwen-Image (20B), and GPT-Image-1-Mini. With GPT-5.6 Sol as evaluator, Lunara ranks first in \\emph{Aesthetic Quality (8.473 vs. 8.457 GPT-Image-1-mini)}, second in \\emph{Emotional Resonance}, and remains competitive in \\emph{Content Integrity}. A blind human evaluation over the same evaluation set corroborates the automated metrics, ranking Lunara first. It also stays among the strongest models under conventional measures including CLIPScore and LAION Aesthetic Predictor. On GenEval, Lunara achieves competitive performance against a broader set of 16 models, including GPT Image 2 and Seedream 4.0. These results place Lunara at the frontier with Artistic Intelligence while maintaining a sub-10B active-parameter footprint and sub-10-second inference latency. Lunara advances the general visual intelligence frontier by shifting the question from whether models can get images right to how deeply they can interpret meaning and realize it as imaginative, expressive worlds.",
+  "abstract_zh": "我们将 extit{艺术智能}定义为以探索驱动的世界实现，既为创造性可能性留出空间，又保持必须真实的语义、艺术和构图结构。Moonworks Lunara，一个文本到图像的模型，采用了一种新颖的扩散混合变换器（Diffusion Mixture Transformer）架构来实现这一框架。一种新的训练算法通过信息样本获取和针对性注入人类创作的艺术，迭代地演变数据分布。我们将Lunara与七个图像生成模型进行了基准测试，包括FLUX.2-Klein-4B、Qwen-Image（20B）和GPT-Image-1-Mini。在GPT-5.6 Sol的评估下，Lunara在 extit{美学质量}上排名第一（8.473对比8.457，GPT-Image-1-mini），在 extit{情感共鸣}上排名第二，并在 extit{内容完整性}上保持竞争力。对同一评估集的盲人评估证实了自动化指标，Lunara排名第一。在传统测量标准下，包括CLIPScore和LAION美学预测器，Lunara也保持在最强模型之列。在GenEval上，Lunara在包括GPT Image 2和Seedream 4.0在内的16个模型中表现出竞争力。这些结果使Lunara在艺术智能的前沿，同时保持低于10B的活跃参数足迹和低于10秒的推理延迟。Lunara通过将问题从模型是否能正确生成图像转变为它们能多深刻地解读意义并将其实现为富有想象力和表现力的世界，推动了视觉智能的整体前沿。",
+  "arxiv_id": "2609.22272",
+  "arxiv_url": "https://arxiv.org/abs/2609.22272v1",
+  "authors": [
+    "Yan Wang",
+    "Yanzu Wang",
+    "Maitreyee Joshi",
+    "Samiha Sadeka",
+    "Partho Hassan",
+    "Reza Jarral",
+    "Sayeef Abdullah",
+    "Sabit Hassan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22272",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.335068+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22272v1",
+  "published_at": "2026-09-11T01:50:23Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "generation",
+      "benchmark",
+      "预测",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22272v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感生成",
+      "文本情感"
+    ]
+  },
+  "title": "Moonworks Lunara: Modeling Artistic Intelligence",
+  "title_zh": "Moonworks Lunara：艺术智能建模",
+  "translation_url": "https://hjfy.top/arxiv/2609.22272"
+}

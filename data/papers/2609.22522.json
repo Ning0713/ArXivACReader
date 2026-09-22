@@ -1,0 +1,52 @@
+{
+  "abstract": "Cosine similarity is widely used to analyze transformer representations, implicitly assuming that similarity reflects task-relevant structure. We study when this assumption fails in dialogue-conditioned large language models. Across three 7-8B chat-tuned models, ambient cosine similarity substantially underestimates linearly decodable persona structure on the same hidden states; numerically, linear probe AUC is in the 0.73-0.97 range while cosine kNN is in the 0.56-0.77 range on a 30-class task. A low-dimensional supervised subspace recovers much of this gap, whereas a matched-rank PCA subspace does not and in some cases degrades performance. This mismatch is regime-dependent: it is absent in single-sentence sentiment classification (SST-5), and a matched-cardinality control rules out attribute cardinality as a confound. The gap does not systematically increase across dialogue turns, and the task-aligned subspace remains stable over time. However, two of three models violate a pre-registered within-subspace separability invariance criterion (|Delta AUC| <= 0.03), and one model violates a pre-registered turn-invariance criterion (|Delta L| <= 0.05). These results show that cosine similarity can fail to reflect task-aligned structure in dialogue representations even when that structure is linearly accessible.",
+  "abstract_zh": "余弦相似度广泛用于分析变换器表示，隐含假设相似度反映与任务相关的结构。我们研究了在对话条件的大型语言模型中，这一假设何时失效。在三个7-8B的聊天调优模型中，环境余弦相似度显著低估了相同隐藏状态上的线性可解的人物结构；在数值上，线性探测器的AUC在0.73-0.97范围内，而余弦kNN在30类任务中则在0.56-0.77范围内。一个低维的监督子空间恢复了大部分差距，而一个匹配秩的主成分分析（PCA）子空间则没有，并且在某些情况下降低了性能。这种不匹配是依赖于不同的情境：在单句情感分类（SST-5）中不存在，并且一个匹配基数的控制排除了属性基数作为混淆因素。这个差距在对话轮次中并没有系统性增加，且与任务对齐的子空间在时间上保持稳定。然而，三个模型中的两个违反了预注册的子空间内可分离性不变性标准（|Delta AUC| <= 0.03），而一个模型违反了预注册的轮次不变性标准（|Delta L| <= 0.05）。这些结果表明，即使该结构是线性可达的，余弦相似度也可能无法反映对话表示中的任务对齐结构。",
+  "arxiv_id": "2609.22522",
+  "arxiv_url": "https://arxiv.org/abs/2609.22522v1",
+  "authors": [
+    "Yu Sun",
+    "Mengyin Lu",
+    "Cong Feng",
+    "Guangming Lu",
+    "Huimin Han"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22522",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.735810+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22522v1",
+  "published_at": "2026-09-18T19:29:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment classification",
+      "情感分类",
+      "large language models",
+      "classification",
+      "dialogue",
+      "分类",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 71.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22522v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "When Cosine Similarity Fails to Reflect Linearly Accessible Structure in Dialogue Models",
+  "title_zh": "余弦相似度何时无法反映对话模型中的线性可达结构",
+  "translation_url": "https://hjfy.top/arxiv/2609.22522"
+}

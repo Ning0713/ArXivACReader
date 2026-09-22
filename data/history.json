@@ -379,8 +379,205 @@
         "情感生成"
       ],
       "title": "Listen Before You Speak: Response Planning from Listener Facial Reactions for Conversational Speech Generation"
+    },
+    "2609.22135": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "Read-Best Is Not Steer-Best: A Probing--Steering Layer Dissociation in Omni-Modal Large Language Models"
+    },
+    "2609.22208": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "文本情感",
+        "心理状态/福祉"
+      ],
+      "title": "Replicating the Geometry of Emotion Representations in a Base Open-Weights Model"
+    },
+    "2609.22255": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations"
+    },
+    "2609.22272": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "数据集/评测",
+        "情感生成",
+        "文本情感"
+      ],
+      "title": "Moonworks Lunara: Modeling Artistic Intelligence"
+    },
+    "2609.22362": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Functional Emotion Without Character: Large Language Models, Aristotelian Disposition, and the Limits of Behavioral Alignment"
+    },
+    "2609.22522": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "When Cosine Similarity Fails to Reflect Linearly Accessible Structure in Dialogue Models"
+    },
+    "2609.22697": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "COT-TTS: Audio Context-Aware Text-to-Speech with Chain-of-Thought Reasoning"
+    },
+    "2609.22705": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Analyzing Public Discourse on Urbanism: Topic Clustering, Sentiment Analysis and Retrieval-Augmented Generation using YouTube Comments"
+    },
+    "2609.23414": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情感生成",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots"
+    },
+    "2609.23486": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "Cognitive Action Reasoning for Proactive Robots from Human-Centered Multimodal Observations"
+    },
+    "2609.23703": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions"
+    },
+    "2609.23951": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "情感大模型"
+      ],
+      "title": "HaikuS2S: A Cascaded System For Responding In Verse"
+    },
+    "2609.24215": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Beyond Emotion Prompts: Fine-Grained Text-to-Image Generation Driven by Valence-Arousal-Dominance"
+    },
+    "2609.24324": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "生理信号",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling"
+    },
+    "2609.24574": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "共情交互"
+      ],
+      "title": "Evaluating Decision Models for Text Annotation in Computational Social Science"
+    },
+    "2609.24742": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情感大模型",
+        "语音情感",
+        "情感生成"
+      ],
+      "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot"
+    },
+    "2609.24876": {
+      "dates": [
+        "2026-09-22"
+      ],
+      "first_seen": "2026-09-22",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Partner-Specific Affective Precision in Social Active Inference"
     }
   },
-  "total": 33,
-  "updated_at": "2026-09-21T10:35:11.486487+00:00"
+  "total": 50,
+  "updated_at": "2026-09-22T09:48:23.629176+00:00"
 }

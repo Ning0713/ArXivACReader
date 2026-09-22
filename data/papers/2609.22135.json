@@ -1,0 +1,57 @@
+{
+  "abstract": "Omni-modal large language models integrate text, audio, and image signals into a shared residual stream, where concepts such as emotion can be linearly decoded and causally modified by activation steering. A common but rarely tested assumption is that the layer with the highest probing accuracy is also the best layer for steering, so injection layers are often selected by probe performance. We provide the first causal test of this assumption across three independently developed omni-modal models and find that it fails. Reading and intervention rely on different layers, a phenomenon we call the probing-steering layer dissociation. Using emotion as a controlled testbed, we measure layer-wise readability and steerability across text, audio, and image inputs. Probe-best layers vary widely across architectures, while steering-effective layers consistently fall within a narrow mid-to-late range of normalized depth. Paired random-direction controls show an approximately 26-fold causal gap, ruling out random perturbation and direction quality as explanations. Logit-lens analysis reveals a staged forward process: causal handle, probing saturation, and vocabulary commitment, and motivates a two-factor account in which steering effectiveness depends on both representational readability and downstream plasticity. These results show that probing accuracy is a poor heuristic for selecting intervention layers and suggest a cross-architecture mid-to-late selection criterion. We also identify a cross-modal emotion subspace organized by valence and arousal, with joy acting as a stable anchor across models. Code and data: https://github.com/YiboWang2002/Read-Best-Is-Not-Steer-Best.",
+  "abstract_zh": "全模态大型语言模型将文本、音频和图像信号整合到共享的残差流中，其中情感等概念可以通过激活引导线性解码和因果修改。一个常见但很少被测试的假设是，具有最高探测准确性的层也是最佳引导层，因此注入层通常通过探测性能进行选择。我们首次对这一假设进行了因果测试，涵盖了三个独立开发的全模态模型，结果发现该假设不成立。阅读和干预依赖于不同的层，这一现象我们称之为探测-引导层解离。以情感作为受控测试平台，我们测量了文本、音频和图像输入的层级可读性和可引导性。探测最佳层在不同架构中差异很大，而引导有效层则始终位于归一化深度的中后期狭窄范围内。配对随机方向控制显示出大约26倍的因果差距，排除了随机扰动和方向质量作为解释的可能性。Logit-lens分析揭示了一个分阶段的前向过程：因果把握、探测饱和和词汇承诺，并激励了一种双因素解释，其中引导有效性依赖于表征可读性和下游可塑性。这些结果表明，探测准确性是选择干预层的一个不良启发式，并建议采用跨架构的中后期选择标准。我们还识别了一个跨模态情感子空间，该子空间由效价和唤醒组织，快乐在各模型中作为一个稳定的锚点。代码和数据：https://github.com/YiboWang2002/Read-Best-Is-Not-Steer-Best。",
+  "arxiv_id": "2609.22135",
+  "arxiv_url": "https://arxiv.org/abs/2609.22135v1",
+  "authors": [
+    "Yibo Wang",
+    "Jisheng Dang",
+    "Bimei Wang",
+    "Yitao Wu",
+    "Wencan Zhang",
+    "Hong Peng",
+    "Jizhao Liu",
+    "Bin Hu",
+    "Qi Tian",
+    "Tat-Seng Chua"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22135",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.682464+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22135v1",
+  "published_at": "2026-08-24T11:38:22Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "large language models",
+      "audio",
+      "识别"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22135v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "语音情感",
+      "文本情感"
+    ]
+  },
+  "title": "Read-Best Is Not Steer-Best: A Probing--Steering Layer Dissociation in Omni-Modal Large Language Models",
+  "title_zh": "阅读最佳并非引导最佳：全模态大型语言模型中的探测-引导层解离",
+  "translation_url": "https://hjfy.top/arxiv/2609.22135"
+}

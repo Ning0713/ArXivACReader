@@ -1,0 +1,49 @@
+{
+  "abstract": "Debates about whether artificial systems can feel are often forced between two unsatisfactory positions: behavioral equivalence is treated as sufficient for emotion, or phenomenal consciousness is treated as a prerequisite that makes the question empirically inaccessible. This article develops a structural alternative. It models emotions as context-sensitive regions, trajectories and attractor dynamics in high-dimensional representational state spaces. Recent mechanistic interpretability findings support the existence of causally active emotion-concept representations in large language models, but they do not establish subjective feeling or full emotional agency. Assessed against published adequacy standards for representation in language models, intervention provides strong evidence of causal use, while full affective role integration, uniformity across subject domains and coherence remain only partially established; there is no direct analogue of accuracy. These mismatches expose the need for a standard of affective appropriateness, which an account of character must supply. Such an account requires three further conditions: regulatory embodiment that gives valence endogenous stakes, temporal continuity that allows affective episodes to accumulate into a history, and an integrated self-model that binds that history to persistent values. Aristotle's concepts of path\\=e, hexis, mesot\\=es and phron\\=esis are translated into a state-space sketch in which practical wisdom includes competence in estimating normatively salient context, not merely acting on a context description already given. The framework reframes alignment as a problem of durable disposition rather than output conformity, and yields interventional tests with explicit control conditions.",
+  "abstract_zh": "关于人工系统是否能够感受的争论常常被迫在两个不令人满意的立场之间徘徊：行为等价被视为情感的充分条件，或者现象意识被视为使该问题在经验上无法接触的先决条件。本文提出了一种结构性替代方案。它将情感建模为高维表征状态空间中的上下文敏感区域、轨迹和吸引子动力学。最近的机械可解释性研究结果支持大型语言模型中因果活跃的情感概念表征的存在，但并未确立主观感受或完全的情感代理。根据已发布的语言模型表征的充分性标准进行评估，干预提供了因果使用的强有力证据，而完全的情感角色整合、跨主题领域的一致性和连贯性仍然仅部分建立；没有直接的准确性类比。这些不匹配揭示了对情感适当性的标准的需求，而这一标准必须由性格的解释提供。这样的解释需要三个进一步的条件：赋予内生利益的调节体现、允许情感事件积累成历史的时间连续性，以及将该历史与持久价值绑定的综合自我模型。亚里士多德的路径（pathē）、倾向（hexis）、中庸（mesotēs）和实践智慧（phronēsis）概念被转化为一个状态空间草图，其中实践智慧包括在估计规范性显著上下文方面的能力，而不仅仅是在已经给定的上下文描述上采取行动。该框架将对齐重新构架为持久倾向的问题，而不是输出一致性，并产生具有明确控制条件的干预测试。",
+  "arxiv_id": "2609.22362",
+  "arxiv_url": "https://arxiv.org/abs/2609.22362v1",
+  "authors": [
+    "Marzieh Zare"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22362",
+  "categories": [
+    "cs.CL",
+    "cs.CY",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.729996+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22362v1",
+  "published_at": "2026-07-31T17:46:33Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "large language models",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22362v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "Functional Emotion Without Character: Large Language Models, Aristotelian Disposition, and the Limits of Behavioral Alignment",
+  "title_zh": "没有性格的功能性情感：大型语言模型、亚里士多德的倾向与行为对齐的局限性",
+  "translation_url": "https://hjfy.top/arxiv/2609.22362"
+}

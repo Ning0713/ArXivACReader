@@ -1,0 +1,53 @@
+{
+  "abstract": "Financial language models can transform unstructured firm-specific news into structured decision signals, but financial AI research lacks an integrated deployment framework for evaluating whether those signals remain useful in financial decision systems. Computer science research has developed strong methods for time-series forecasting, text classification, multimodal stock prediction, graph-based market modeling, and machine-learning operations, yet these streams do not provide a domain-specific protocol that jointly tests financial language-model outputs under event-time observability, probability calibration, execution timing, transaction costs, liquidity constraints, capacity limits, operational diagnostics, and statistical inference. We introduce MFAST, a Market-Friction-Aware Sentiment-to-Trading framework that converts timestamped financial text into auditable, reproducible, and market-feasible trading decisions. The application is news-based trading, where firm-specific text must be linked to securities before portfolio decisions can be evaluated. The framework links Refinitiv News Analytics to Center for Research in Security Prices (CRSP) equity data, restricts the primary out-of-sample evaluation to post-release news outside disclosed foundation-model data-freshness periods, and adds a public replication arm using open financial text and public price data. Results show that decoder-only language models outperform encoder baselines and dictionary sentiment in classification, calibration, return prediction, and net portfolio performance, while operational diagnostics reveal trade-offs among accuracy, latency, memory, throughput, and inference cost. The paper shows that credible evaluation of financial language models requires an end-to-end engineering approach combining language understanding, temporal discipline, market-friction-aware deployment, and reproducible validation.",
+  "abstract_zh": "金融语言模型能够将非结构化的公司特定新闻转化为结构化的决策信号，但金融人工智能研究缺乏一个综合的部署框架来评估这些信号在金融决策系统中的有效性。计算机科学研究已经开发出强大的时间序列预测、文本分类、多模态股票预测、基于图的市场建模和机器学习操作方法，然而这些研究流并未提供一个领域特定的协议，能够在事件时间可观测性、概率校准、执行时机、交易成本、流动性约束、容量限制、操作诊断和统计推断等方面共同测试金融语言模型的输出。我们提出了MFAST（市场摩擦感知情绪到交易框架），该框架将带时间戳的金融文本转化为可审计、可重复和市场可行的交易决策。该应用为基于新闻的交易，其中公司特定文本必须与证券相关联，才能评估投资组合决策。该框架将Refinitiv新闻分析与证券价格研究中心（CRSP）股票数据连接起来，将主要的样本外评估限制在发布新闻后的数据，而这些数据在公开的基础模型数据新鲜度周期之外，并增加了一个使用开放金融文本和公共价格数据的公共复制部分。结果表明，仅解码器的语言模型在分类、校准、收益预测和净投资组合表现方面优于编码器基线和字典情绪，而操作诊断则揭示了准确性、延迟、内存、吞吐量和推断成本之间的权衡。本文表明，对金融语言模型的可信评估需要一种端到端的工程方法，结合语言理解、时间纪律、市场摩擦感知的部署和可重复的验证。",
+  "arxiv_id": "2609.23703",
+  "arxiv_url": "https://arxiv.org/abs/2609.23703v1",
+  "authors": [
+    "Kemal Kirtac"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-23703",
+  "categories": [
+    "cs.CL",
+    "cs.LG",
+    "q-fin.TR"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.783015+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.23703v1",
+  "published_at": "2026-09-20T15:24:06Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情绪",
+      "multimodal",
+      "classification",
+      "prediction",
+      "多模态",
+      "分类",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.23703v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
+  "title_zh": "金融语言模型作为应用人工智能系统在市场摩擦下的基于新闻的交易",
+  "translation_url": "https://hjfy.top/arxiv/2609.23703"
+}

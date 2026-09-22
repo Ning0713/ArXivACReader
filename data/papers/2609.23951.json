@@ -1,0 +1,59 @@
+{
+  "abstract": "Expressive speech synthesis has advanced through prosody modeling, yet generating structured poetic speech, such as haiku, remains challenging. Prior work on prosody transfer improves expressiveness, and fine-tuned poetry TTS (text-to-speech) systems capture verse intonation. However, these models do not model haiku's 5-7-5 syllable structure or line-ending pauses. We present a cascaded system, HaikuS2S, combining ASR (automatic speech recognition), LLM (large language model)-generated haiku, and TTS fine-tuning on both prose and custom haiku datasets. Our evaluation focuses on emotion similarity, speech quality, and prosody alignment. In our experiments, we see that our prosody and tonal alignment improve significantly with our fine-tuned systems, particularly the one trained on both general poetry and haiku. We also see that we maintain similar emotion similarity scores across all systems.",
+  "abstract_zh": "表达性语音合成通过韵律建模取得了进展，但生成结构化的诗歌语音，如俳句，仍然具有挑战性。先前的韵律转移工作提高了表达性，而经过微调的诗歌文本到语音（TTS）系统则捕捉了诗句的语调。然而，这些模型并未考虑俳句的5-7-5音节结构或行尾停顿。我们提出了一种级联系统HaikuS2S，结合了自动语音识别（ASR）、大型语言模型（LLM）生成的俳句，以及在散文和自定义俳句数据集上的TTS微调。我们的评估重点关注情感相似性、语音质量和韵律对齐。在我们的实验中，我们观察到经过微调的系统在韵律和音调对齐方面显著改善，特别是训练于一般诗歌和俳句的系统。我们还发现，所有系统的情感相似性评分保持相似。",
+  "arxiv_id": "2609.23951",
+  "arxiv_url": "https://arxiv.org/abs/2609.23951v1",
+  "authors": [
+    "Devangi Sharma",
+    "Sophia Judicke",
+    "Glenda Tan",
+    "Conrad Schaumburg",
+    "Shinji Watanabe"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-23951",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.794791+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.23951v1",
+  "published_at": "2026-09-20T23:47:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "expressive speech synthesis",
+      "emotion",
+      "large language model",
+      "LLM",
+      "recognition",
+      "speech",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 52.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.23951v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "情感生成",
+      "情感大模型"
+    ]
+  },
+  "title": "HaikuS2S: A Cascaded System For Responding In Verse",
+  "title_zh": "HaikuS2S：一种用于诗歌响应的级联系统",
+  "translation_url": "https://hjfy.top/arxiv/2609.23951"
+}

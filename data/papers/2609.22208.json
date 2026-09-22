@@ -1,0 +1,50 @@
+{
+  "abstract": "Sofroniew et al. (2026) report that emotion concepts in Claude Sonnet 4.5 are represented as vectors whose geometry mirrors human affect psychology. We replicate the representational core of that study on the base pretrained model google/gemma-2-27b, inheriting every disclosed parameter, resolving unspecified steps by disclosed rules, and changing only the subject model. From 205,200 newly generated Claude Sonnet 4.5 stories matching the original corpus design, we extract 171 emotion vectors and recover the core results. The leading principal components form an affective circumplex (PC1 carries 26.7% of variance against the original study's ~27%, PC2 13.4% against ~14%), emotions cluster into similar intuitive families, and the geometry holds across a broad late-middle band. The valence axis aligns with human norms (r = 0.72, against 0.81) and is stable across scales and depth. Arousal aligns at r = 0.67 (against 0.66) but only at the full 171-emotion scale and late depth, so we do not classify it as replicated. Extending the original analysis, a 46-layer sweep locates a sharp seam at L22-26, where the geometry consolidates and the vocabulary readout becomes legible. An embedding-layer baseline finds much of the geometry already present in the static token embeddings, with arousal as the exception. On top-activating held-out text, the geometry predicts token-level co-activation at r = 0.907. At least 52% of vectors peak on structurally non-conceptual tokens, a measured floor for max-activation confounds. Even when a document contains the vector's emotion word, the peak lands on that word only 6.1% of the time. Because the subject is a base model and the stimuli are Claude-generated fiction, the recovered structure is a property of the pretrained representation of Claude-rendered emotion. The original's causal and assistant-facing analyses are out of scope. Code and data are released.",
+  "abstract_zh": "Sofroniew 等人（2026）报告称，Claude Sonnet 4.5 中的情感概念被表示为其几何结构反映人类情感心理学的向量。我们在基础预训练模型 google/gemma-2-27b 上复制了该研究的表征核心，继承了所有公开参数，通过公开规则解决未指定的步骤，仅更改了主题模型。从 205,200 个新生成的与原始语料库设计相匹配的 Claude Sonnet 4.5 故事中，我们提取了 171 个情感向量并恢复了核心结果。主成分分析的前导主成分形成了一个情感圆周（PC1 解释了 26.7% 的方差，相较于原研究的 ~27%，PC2 为 13.4%，相较于 ~14%），情感聚集成相似的直观家族，几何结构在广泛的中后期带中保持一致。效价轴与人类标准对齐（r = 0.72，相较于 0.81），并在不同尺度和深度上保持稳定。唤醒度在 r = 0.67（相较于 0.66）时对齐，但仅在完整的 171 情感尺度和较深层次上，因此我们不将其归类为复制。扩展原始分析，46 层的扫描在 L22-26 处发现了一个明显的分界线，在此处几何结构巩固，词汇输出变得清晰。嵌入层基线发现大部分几何结构已经存在于静态标记嵌入中，唤醒度是例外。在顶级激活的保留文本上，几何结构预测了标记级别的共同激活，相关性为 r = 0.907。至少 52% 的向量在结构上非概念性标记上达到峰值，这是最大激活混淆的测量下限。即使文档包含向量的情感词，峰值仅在该词上出现 6.1% 的时间。由于主题是基础模型，刺激是 Claude 生成的虚构作品，因此恢复的结构是 Claude 渲染情感的预训练表征的特性。原始的因果和面向助手的分析超出了本研究的范围。代码和数据已发布。",
+  "arxiv_id": "2609.22208",
+  "arxiv_url": "https://arxiv.org/abs/2609.22208v1",
+  "authors": [
+    "Adam Hollowell"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22208",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.702176+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22208v1",
+  "published_at": "2026-09-01T13:50:45Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "affective",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22208v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "心理状态/福祉"
+    ]
+  },
+  "title": "Replicating the Geometry of Emotion Representations in a Base Open-Weights Model",
+  "title_zh": "在基础开放权重模型中复制情感表征的几何结构",
+  "translation_url": "https://hjfy.top/arxiv/2609.22208"
+}

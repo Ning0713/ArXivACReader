@@ -1,6 +1,352 @@
 {
-  "generated_at": "2026-09-21T10:35:11.486487+00:00",
+  "generated_at": "2026-09-22T09:48:23.629176+00:00",
   "items": [
+    {
+      "abstract": "In multi-agent social settings, model reliability varies across relationships. Beyond inferring what others will do, an agent must calibrate how confidently those inferences should guide policy selection for each relationship. An agent may maintain a well-validated model of one partner, a fragile model of another, and a model under revision for a third; collapsing these into a single confidence estimate loses information relevant to policy selection. We therefore formalize affective precision as a relationship-specific metacognitive estimate of confidence in the current partner model. Each partner's behavioral evidence updates a local confidence estimate that modulates policy precision during selection, regulating how strongly current beliefs are expressed in policy rather than changing the content of those beliefs. Simulations in a multi-partner graded trust game show that partner-local affective precision influences behavior primarily through policy commitment rather than direct improvement of partner-state inference. Because the mechanism tracks partner-response predictability rather than realized payoff, greater confidence produces sharper policy commitment without necessarily producing higher rewards. Under abrupt shifts in social behavior, confidence accumulated from previously reliable predictions can remain behaviorally active after the relationship changes, showing that confidence revision can lag behind social change. Finally, varying precision gain and priors produce distinct trust-calibration dynamics, showing how confidence accumulation and revision depend on model parameters. Together, these results show how relationship-specific affective precision can distinguish social prediction from social policy commitment.",
+      "abstract_zh": "在多智能体社会环境中，模型的可靠性因关系而异。除了推断他人的行为外，智能体还必须校准这些推断在每个关系中应如何自信地指导政策选择。一个智能体可能对一个伙伴保持经过充分验证的模型，对另一个伙伴则有一个脆弱的模型，而对第三个伙伴则是一个正在修订的模型；将这些模型合并为一个单一的信心估计会丢失与政策选择相关的信息。因此，我们将情感精确度形式化为对当前伙伴模型的关系特定的元认知信心估计。每个伙伴的行为证据更新一个局部信心估计，该估计在选择过程中调节政策的精确度，调控当前信念在政策中的表达强度，而不是改变这些信念的内容。在多伙伴分级信任游戏中的模拟表明，伙伴特定的情感精确度主要通过政策承诺影响行为，而不是直接改善对伙伴状态的推断。由于该机制跟踪伙伴反应的可预测性而非实际收益，更高的信心会产生更明确的政策承诺，但不一定会带来更高的奖励。在社会行为的突然变化下，来自先前可靠预测的信心积累在关系变化后仍然可以保持行为活跃，表明信心修订可能滞后于社会变化。最后，变化的精确度增益和先验产生不同的信任校准动态，显示信心的积累和修订如何依赖于模型参数。这些结果共同表明，关系特定的情感精确度如何区分社会预测与社会政策承诺。",
+      "authors": [
+        "Harshil Shah",
+        "Andrew Pashea"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.24876",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Partner-Specific Affective Precision in Social Active Inference",
+      "title_zh": "特定伙伴的情感精确度在社会主动推理中的作用",
+      "url": "/daily/2026-09-22/#paper-2609-24876"
+    },
+    {
+      "abstract": "Humanoid robots are increasingly being popular and developed for human-centered applications, yet their ability to provide intelligent conversations and natural interactive knowledge assistance remains constrained by traditional rule-based dialogue systems, pre-defined responses and limited knowledge repositories. Large language models (LLMs) have emerged as a powerful foundation for enabling natural, adaptive, and context-aware Human-Robot Interaction (HRI), which provides a significant opportunity to address such limitations by enabling robots to understand natural speech language, reason over complicated queries, maintain high-quality conversational context, and generate knowledge-rich responses. In this work, we originally present and implement an LLM-based versatile Conversational AI Knowledge Assistant for the Raspberry-Pi-powered 13-Axis MyBuddy humanoid robot, which integrates LLM-driven language understanding and AI reasoning with real-time speech recognition, knowledge retrieval via extensible access of internet engines (e.g., Wikipedia, arXiv), flexible dialogue management, and natural speech synthesis to enable much more intelligent multi-turn continuous conversations and advanced emotional-support Human-Robot Interaction.",
+      "abstract_zh": "类人机器人在以人为中心的应用中越来越受欢迎并不断发展，但它们在提供智能对话和自然互动知识辅助方面的能力仍受到传统基于规则的对话系统、预定义响应和有限知识库的限制。大型语言模型（LLMs）作为一种强大的基础，能够实现自然、适应性强且具有上下文感知的人机交互（HRI），为解决这些限制提供了重要机会，使机器人能够理解自然语言、对复杂查询进行推理、保持高质量的对话上下文，并生成丰富知识的响应。在本研究中，我们首次提出并实现了一种基于LLM的多功能对话式人工智能知识助手，适用于由树莓派驱动的13轴MyBuddy类人机器人，该助手将LLM驱动的语言理解和人工智能推理与实时语音识别、通过可扩展的互联网引擎（如维基百科、arXiv）进行的知识检索、灵活的对话管理和自然语音合成相结合，从而实现更智能的多轮连续对话和高级情感支持的人机交互。",
+      "authors": [
+        "Hanxiao Chen"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.24742",
+      "tags": [
+        "情感大模型",
+        "语音情感",
+        "情感生成"
+      ],
+      "title": "LLM-based Conversational AI Knowledge Assistant for MyBuddy Humanoid Robot",
+      "title_zh": "基于大型语言模型的MyBuddy类人机器人对话式人工智能知识助手",
+      "url": "/daily/2026-09-22/#paper-2609-24742"
+    },
+    {
+      "abstract": "Computational social science increasingly relies on large language models for text annotation, and the validity of published findings now rests on the labels generated by such models. Decision models, a new model class built for categorical question answering, answer typed questions with a choice, a probability distribution over the label set, and a confidence score rather than free text, at a small fraction of frontier inference prices. Whether their answers are accurate, and whether that stated confidence can be trusted on social science constructs, are unknown. Here, we mirror the evaluation of Ziems et al. (2024) on 18 computational social science classification tasks (7,977 items), comparing the first commercial decision model and two open-weight counterparts against 19 frontier and open-weight language models under the same zero-shot protocol. The decision model trails the per-task best LLM on 14 of 15 evaluation tasks, with a median deficit of 11.6 macro-F1 points, at a median 44 times lower measured cost. Its confidence is better calibrated than the verbalized confidence of 16 of the 19 LLMs, yet three frontier models show lower median calibration error (0.157 against 0.066). While items above 0.9 confidence are typically labeled accurately (median accuracy 0.815), on one task, empathy in peer-support dialogues, the model reports high confidence while performing near chance. Nonetheless, our results suggest that decision models are useful as a first step in the annotation pipeline: routing low-confidence items to an LLM matches or exceeds the LLM alone at a quarter to half of its cost.",
+      "abstract_zh": "计算社会科学日益依赖大型语言模型进行文本标注，而已发布研究结果的有效性现在依赖于这些模型生成的标签。决策模型是一种新型模型类别，专为分类问题回答而构建，它通过选择、标签集上的概率分布和置信度分数来回答类型问题，而不是自由文本，以极低的前沿推理价格进行。它们的答案是否准确，以及所述的置信度在社会科学构念上是否可信，目前尚不清楚。在此，我们对Ziems等人（2024）在18个计算社会科学分类任务（7,977个项目）上的评估进行了镜像，比较了第一个商业决策模型和两个开放权重的对应模型在相同零样本协议下与19个前沿和开放权重语言模型的表现。决策模型在15个评估任务中有14个任务的表现落后于每个任务最佳的LLM，且中位数缺口为11.6个宏F1分数，测得的成本中位数低44倍。其置信度的校准优于19个LLM中16个的口头置信度，然而三种前沿模型显示出较低的中位数校准误差（0.157对比0.066）。尽管置信度超过0.9的项目通常被准确标记（中位数准确率为0.815），但在一个任务中，即同伴支持对话中的同理心，该模型报告了高置信度，但其表现接近随机。然而，我们的结果表明，决策模型作为标注流程的第一步是有用的：将低置信度项目路由到LLM的效果与单独使用LLM相当或更好，且成本仅为其四分之一到一半。",
+      "authors": [
+        "Hazem Ibrahim",
+        "Yasir Zaki"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.24574",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "共情交互"
+      ],
+      "title": "Evaluating Decision Models for Text Annotation in Computational Social Science",
+      "title_zh": "评估计算社会科学中文本标注的决策模型",
+      "url": "/daily/2026-09-22/#paper-2609-24574"
+    },
+    {
+      "abstract": "Electroencephalography (EEG) provides a non-invasive window into dynamic brain activity, yet modeling long-horizon EEG sequences remains challenging due to their high temporal complexity, substantial variability across subjects, and the lack of biologically meaningful sequence representations. Existing tokenization strategies, such as fixed-window and patch-based representations, discretize EEG signals according to artificial temporal boundaries, which may disrupt intrinsic brain-state dynamics. In this work, we propose Brain-Token Learning, a neuroscience-inspired framework that introduces Brain Tokenization for long-horizon EEG sequence modeling. Instead of partitioning EEG signals into predefined temporal segments, Brain Tokenization represents EEG as sequences of recurrent microstate-derived brain tokens, where each token corresponds to a quasi-stable large-scale brain state with variable temporal duration. Based on these biologically grounded tokens, we further develop a multi-scale token interaction module consisting of Latent State Aggregation and State Transition Modeling to jointly capture global brain-state context and local microstate transitions. We evaluate Brain-Token on five heterogeneous EEG datasets, including the newly collected long-horizon NeuroLong dataset and four affective or clinical EEG datasets (SEED, DEAP, MDD, and NSSI). Extensive experiments demonstrate that Brain-Token consistently outperforms conventional CNN/LSTM architectures, Transformer-based models, and domain adaptation methods across diverse EEG scenarios. Further analysis verifies the effectiveness of microstate-based tokenization and multi-scale interaction for learning robust and interpretable EEG representations. These results establish Brain-Token as a biologically grounded tokenization paradigm for long-horizon EEG sequence modeling.",
+      "abstract_zh": "脑电图（EEG）提供了一个非侵入性窗口，观察动态脑活动，但由于其高时间复杂性、个体间显著的变异性以及缺乏生物学上有意义的序列表示，建模长时间范围的EEG序列仍然具有挑战性。现有的令牌化策略，如固定窗口和基于补丁的表示，按照人为的时间边界对EEG信号进行离散化，这可能会干扰内在的脑状态动态。在本研究中，我们提出了脑令牌学习（Brain-Token Learning），这是一个受神经科学启发的框架，引入了脑令牌化（Brain Tokenization）用于长时间范围EEG序列建模。脑令牌化并不是将EEG信号划分为预定义的时间段，而是将EEG表示为由重复微状态派生的脑令牌序列，其中每个令牌对应于一个具有可变时间持续的准稳定大规模脑状态。基于这些生物学基础的令牌，我们进一步开发了一个多尺度令牌交互模块，包括潜在状态聚合（Latent State Aggregation）和状态转移建模（State Transition Modeling），以共同捕捉全局脑状态上下文和局部微状态转移。我们在五个异质EEG数据集上评估了脑令牌，包括新收集的长时间范围神经长（NeuroLong）数据集和四个情感或临床EEG数据集（SEED、DEAP、MDD和NSSI）。大量实验表明，脑令牌在各种EEG场景中始终优于传统的CNN/LSTM架构、基于Transformer的模型和领域适应方法。进一步分析验证了基于微状态的令牌化和多尺度交互在学习稳健且可解释的EEG表示方面的有效性。这些结果确立了脑令牌作为一种生物学基础的令牌化范式，用于长时间范围EEG序列建模。",
+      "authors": [
+        "Weishan Ye",
+        "Yue Pan",
+        "Li Zhang",
+        "Gan Huang",
+        "Zhen Liang"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.24324",
+      "tags": [
+        "生理信号",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Brain-Token Learning: Microstate-Based Tokenization and Multi-Scale Interaction for Long-Horizon EEG Sequence Modeling",
+      "title_zh": "脑令牌学习：基于微状态的令牌化和多尺度交互用于长时间范围EEG序列建模",
+      "url": "/daily/2026-09-22/#paper-2609-24324"
+    },
+    {
+      "abstract": "Although text-to-image models can accurately depict subjects and scenes, creators still struggle to specify the fine-grained emotions an image should convey without rewriting its content description. Natural language can suggest emotions, but it offers no control scale with stable meanings and ordered intensities. We propose EMOTRANS, which transforms psychologically grounded valence-arousal-dominance (VAD) coordinates into generation conditions that are independent of the content text and modulated across denoising stages, making emotional style a finely adjustable creative variable. To support this goal, we construct EMOVAD, an art-painting dataset that pairs objective content descriptions with separately collected emotional ratings from multiple annotators. We also coordinate emotional expression and content preservation through dual-branch training with a shared model. Objective and human evaluations show that the framework improves the accuracy of three-dimensional emotion control and produces perceptible, orderable continuous changes while maintaining competitive text alignment and image quality. This work provides a practical emotion-driven approach to image generation that extends objective content depiction to fine-grained emotional adjustment.",
+      "abstract_zh": "尽管文本到图像模型能够准确描绘主题和场景，但创作者仍然难以在不重写内容描述的情况下指定图像应传达的细粒度情感。自然语言可以暗示情感，但它并没有提供稳定意义和有序强度的控制尺度。我们提出了 EMOTRANS，它将心理学基础的愉悦-唤醒-主导性（Valence-Arousal-Dominance, VAD）坐标转化为与内容文本无关的生成条件，并在去噪阶段进行调节，使情感风格成为一个可细致调整的创作变量。为支持这一目标，我们构建了 EMOVAD，一个艺术绘画数据集，将客观内容描述与来自多个注释者的独立收集的情感评分配对。我们还通过共享模型的双分支训练协调情感表达和内容保留。客观和人类评估表明，该框架提高了三维情感控制的准确性，并在保持竞争性的文本对齐和图像质量的同时，产生可感知的、有序的连续变化。这项工作提供了一种实用的情感驱动图像生成方法，将客观内容描绘扩展到细粒度情感调整。",
+      "authors": [
+        "Minglang Li",
+        "Yueyue Fang",
+        "Xieping Gao"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.24215",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Beyond Emotion Prompts: Fine-Grained Text-to-Image Generation Driven by Valence-Arousal-Dominance",
+      "title_zh": "超越情感提示：基于愉悦-唤醒-主导性细粒度文本到图像生成",
+      "url": "/daily/2026-09-22/#paper-2609-24215"
+    },
+    {
+      "abstract": "Expressive speech synthesis has advanced through prosody modeling, yet generating structured poetic speech, such as haiku, remains challenging. Prior work on prosody transfer improves expressiveness, and fine-tuned poetry TTS (text-to-speech) systems capture verse intonation. However, these models do not model haiku's 5-7-5 syllable structure or line-ending pauses. We present a cascaded system, HaikuS2S, combining ASR (automatic speech recognition), LLM (large language model)-generated haiku, and TTS fine-tuning on both prose and custom haiku datasets. Our evaluation focuses on emotion similarity, speech quality, and prosody alignment. In our experiments, we see that our prosody and tonal alignment improve significantly with our fine-tuned systems, particularly the one trained on both general poetry and haiku. We also see that we maintain similar emotion similarity scores across all systems.",
+      "abstract_zh": "表达性语音合成通过韵律建模取得了进展，但生成结构化的诗歌语音，如俳句，仍然具有挑战性。先前的韵律转移工作提高了表达性，而经过微调的诗歌文本到语音（TTS）系统则捕捉了诗句的语调。然而，这些模型并未考虑俳句的5-7-5音节结构或行尾停顿。我们提出了一种级联系统HaikuS2S，结合了自动语音识别（ASR）、大型语言模型（LLM）生成的俳句，以及在散文和自定义俳句数据集上的TTS微调。我们的评估重点关注情感相似性、语音质量和韵律对齐。在我们的实验中，我们观察到经过微调的系统在韵律和音调对齐方面显著改善，特别是训练于一般诗歌和俳句的系统。我们还发现，所有系统的情感相似性评分保持相似。",
+      "authors": [
+        "Devangi Sharma",
+        "Sophia Judicke",
+        "Glenda Tan",
+        "Conrad Schaumburg",
+        "Shinji Watanabe"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.23951",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "情感大模型"
+      ],
+      "title": "HaikuS2S: A Cascaded System For Responding In Verse",
+      "title_zh": "HaikuS2S：一种用于诗歌响应的级联系统",
+      "url": "/daily/2026-09-22/#paper-2609-23951"
+    },
+    {
+      "abstract": "Financial language models can transform unstructured firm-specific news into structured decision signals, but financial AI research lacks an integrated deployment framework for evaluating whether those signals remain useful in financial decision systems. Computer science research has developed strong methods for time-series forecasting, text classification, multimodal stock prediction, graph-based market modeling, and machine-learning operations, yet these streams do not provide a domain-specific protocol that jointly tests financial language-model outputs under event-time observability, probability calibration, execution timing, transaction costs, liquidity constraints, capacity limits, operational diagnostics, and statistical inference. We introduce MFAST, a Market-Friction-Aware Sentiment-to-Trading framework that converts timestamped financial text into auditable, reproducible, and market-feasible trading decisions. The application is news-based trading, where firm-specific text must be linked to securities before portfolio decisions can be evaluated. The framework links Refinitiv News Analytics to Center for Research in Security Prices (CRSP) equity data, restricts the primary out-of-sample evaluation to post-release news outside disclosed foundation-model data-freshness periods, and adds a public replication arm using open financial text and public price data. Results show that decoder-only language models outperform encoder baselines and dictionary sentiment in classification, calibration, return prediction, and net portfolio performance, while operational diagnostics reveal trade-offs among accuracy, latency, memory, throughput, and inference cost. The paper shows that credible evaluation of financial language models requires an end-to-end engineering approach combining language understanding, temporal discipline, market-friction-aware deployment, and reproducible validation.",
+      "abstract_zh": "金融语言模型能够将非结构化的公司特定新闻转化为结构化的决策信号，但金融人工智能研究缺乏一个综合的部署框架来评估这些信号在金融决策系统中的有效性。计算机科学研究已经开发出强大的时间序列预测、文本分类、多模态股票预测、基于图的市场建模和机器学习操作方法，然而这些研究流并未提供一个领域特定的协议，能够在事件时间可观测性、概率校准、执行时机、交易成本、流动性约束、容量限制、操作诊断和统计推断等方面共同测试金融语言模型的输出。我们提出了MFAST（市场摩擦感知情绪到交易框架），该框架将带时间戳的金融文本转化为可审计、可重复和市场可行的交易决策。该应用为基于新闻的交易，其中公司特定文本必须与证券相关联，才能评估投资组合决策。该框架将Refinitiv新闻分析与证券价格研究中心（CRSP）股票数据连接起来，将主要的样本外评估限制在发布新闻后的数据，而这些数据在公开的基础模型数据新鲜度周期之外，并增加了一个使用开放金融文本和公共价格数据的公共复制部分。结果表明，仅解码器的语言模型在分类、校准、收益预测和净投资组合表现方面优于编码器基线和字典情绪，而操作诊断则揭示了准确性、延迟、内存、吞吐量和推断成本之间的权衡。本文表明，对金融语言模型的可信评估需要一种端到端的工程方法，结合语言理解、时间纪律、市场摩擦感知的部署和可重复的验证。",
+      "authors": [
+        "Kemal Kirtac"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.23703",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
+      "title_zh": "金融语言模型作为应用人工智能系统在市场摩擦下的基于新闻的交易",
+      "url": "/daily/2026-09-22/#paper-2609-23703"
+    },
+    {
+      "abstract": "Robots operating in human-centered environments are typically designed to execute explicit instructions, and most robot-learning datasets likewise pair observations with task instructions or low-level actions. Although recent work has begun to explore proactive embodied assistance, existing resources target different settings and action levels, leaving real-world human-centered multimodal decision-making underexplored. We formulate this problem as \\textit{Proactive Robot Action Reasoning} (\\textit{ProRobo}), an upstream cognitive decision problem in which a robot must determine which action to take based on multimodal human and environmental cues without explicit action instructions. To support ProRobo, we introduce \\textit{ProAction}, a real-world multimodal dataset containing 10K samples of visual observations, audio signals, and text inputs across 12 daily-life scenarios in five common scenes. To construct cognitively grounded high-level action supervision, we develop a two-stage human-in-the-loop pipeline that combines appraisal-guided candidate generation with Affective Theory-of-Mind-guided human refinement, explicitly incorporating contextual judgment about human states, urgency, feasibility, and potential risk into action annotation. Based on this supervision, we benchmark representative Multimodal Large Language Models (MLLMs) and introduce \\textit{MMC2Act}, a reference model that implicitly learns the mapping from multimodal observations to cognitively grounded high-level actions. Experiments across modality settings, subject-disjoint generalization, cross-dataset transfer, and human evaluation show that general-purpose MLLMs struggle with proactively reasoning high-level actions from multimodal cues, whereas training on \\textit{ProAction} substantially improves performance.",
+      "abstract_zh": "在以人为中心的环境中操作的机器人通常被设计为执行明确的指令，大多数机器人学习数据集也将观察与任务指令或低级动作配对。尽管最近的研究开始探索主动的具身辅助，但现有资源针对不同的设置和行动层级，导致现实世界中的以人为中心的多模态决策尚未得到充分研究。我们将此问题表述为主动机器人行动推理（Proactive Robot Action Reasoning，ProRobo），这是一个上游的认知决策问题，机器人必须根据多模态的人类和环境线索确定采取何种行动，而无需明确的行动指令。为了支持ProRobo，我们引入了ProAction，这是一个真实世界的多模态数据集，包含来自五个常见场景中12个日常生活场景的10K样本，包括视觉观察、音频信号和文本输入。为了构建认知基础的高层次行动监督，我们开发了一个两阶段的人机协作流程，该流程结合了基于评估的候选生成与基于情感理论的人的细化，明确将关于人类状态、紧迫性、可行性和潜在风险的上下文判断纳入行动注释。基于这一监督，我们对代表性的多模态大语言模型（Multimodal Large Language Models，MLLMs）进行了基准测试，并引入了MMC2Act，一个参考模型，隐式学习从多模态观察到认知基础高层次行动的映射。在不同模态设置、主题不重合的泛化、跨数据集迁移和人类评估的实验中，通用的MLLMs在从多模态线索中主动推理高层次行动方面表现不佳，而在ProAction上训练则显著提高了性能。",
+      "authors": [
+        "Zhihao Gu",
+        "Kechao Zhu",
+        "Yuanfeng Wu",
+        "Mohan Liu",
+        "Ankit Kumar Shaw",
+        "ChenDong Hong",
+        "Xuanyu Chen",
+        "Dengchen Mei",
+        "Xu Tianyi",
+        "Lin Wang"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.23486",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "Cognitive Action Reasoning for Proactive Robots from Human-Centered Multimodal Observations",
+      "title_zh": "基于以人为中心的多模态观察的主动机器人认知行动推理",
+      "url": "/daily/2026-09-22/#paper-2609-23486"
+    },
+    {
+      "abstract": "Socially competent humanoid robots must communicate affect and intent through gesture as well as speech, yet open-ended interaction must become motion that is both expressive and executable on a specific body. This demands semantic flexibility for contextual social intent while preserving deterministic, embodiment-aware robot control. We present EmoPose, a vision-language model (VLM)-guided framework that bridges this gap through an executable semantic interface. Given language, dialogue history, and optional visual context, the VLM selects an ordered gesture plan containing a communicative class, library variant, intensity, and speech anchor. A scalable robot-owned motion library defines the available expressive vocabulary and the source of 14-DoF joint targets. Pose Studio supports automatic trajectory generation, MuJoCo preview, and automatic synchronization of new library entries with the VLM guide; deterministic robot-side modules validate plans, construct trajectories, schedule gestures, and manage queueing and interruption. This division lets the interaction repertoire grow for new social contexts without changing the control interface or delegating raw joint commands to the foundation model. On the EmoPose-Bench, structured GPT-5.5 planning reaches $98.25\\pm0.52\\%$ on the Easy tier and $76.50\\pm0.54\\%$ overall, exceeding same-model direct-label prompting. Further tests validate dialogue-context use and ordered multi-action composition. The system completes the nominal MuJoCo suite and realizes all 29 authored variants on the physical Unitree G1. A four-stop laboratory tour demonstrates expressive narration with interruption, camera-grounded dialogue, and navigation.",
+      "abstract_zh": "具备社会能力的类人机器人必须通过手势和语言传达情感和意图，然而开放式互动必须转化为在特定身体上既富有表现力又可执行的动作。这要求在保持可预测的、具身意识的机器人控制的同时，具备语义灵活性以适应上下文社交意图。我们提出了EmoPose，一个通过可执行语义接口弥合这一差距的视觉-语言模型（VLM）引导框架。给定语言、对话历史和可选的视觉上下文，VLM选择一个有序的手势计划，其中包含一个交流类别、库变体、强度和语言锚点。一个可扩展的机器人拥有的运动库定义了可用的表现词汇和14自由度关节目标的来源。Pose Studio支持自动轨迹生成、MuJoCo预览，以及与VLM引导的新的库条目的自动同步；确定性的机器人端模块验证计划、构建轨迹、调度手势，并管理排队和中断。这种划分使得互动词汇能够在新的社交上下文中增长，而无需更改控制接口或将原始关节命令委托给基础模型。在EmoPose-Bench上，结构化的GPT-5.5规划在简单层级上达到$98.25 ext{±}0.52 ext{%}$，整体达到$76.50 ext{±}0.54 ext{%}$，超越了同模型的直接标签提示。进一步的测试验证了对话上下文的使用和有序多动作组合。该系统完成了标准的MuJoCo套件，并在物理Unitree G1上实现了所有29个创作变体。一个四站的实验室巡演展示了富有表现力的叙述与中断、基于相机的对话和导航。",
+      "authors": [
+        "Daojie Peng",
+        "Bingtao Wang",
+        "Fulong Ma",
+        "Wenjun Yue",
+        "Liang Zhang",
+        "Jun Ma"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.23414",
+      "tags": [
+        "情感生成",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "EmoPose: Vision-Language Model Guided Emotion-Aware Gesture Generation for Humanoid Robots",
+      "title_zh": "EmoPose：基于视觉-语言模型引导的情感感知手势生成用于类人机器人",
+      "url": "/daily/2026-09-22/#paper-2609-23414"
+    },
+    {
+      "abstract": "Online discourse about urban issues - walkability, cycling infrastructure, public transit, housing density, and street safety - is voluminous but unstructured, and existing city-evaluation tools capture none of it. We present a pipeline and conversational system that combines geographic entity resolution, topic modeling, sentiment analysis, and Retrieval-Augmented Generation (RAG) over 22,788 chunks of YouTube transcripts and comments spanning 309 North American cities. Beyond the system itself, our contribution is a set of measurements about what happens when standard NLP components meet short, informal, geographically ambiguous text. A Twitter-tuned RoBERTa classifier outperforms a VADER lexicon baseline by 12.6 macro-F1 points (0.589 vs. 0.464; McNemar p = 0.0001), but both models collapse on the neutral class, which dominates urbanist comment traffic; annotators disagree on the same class (Cohen's kappa = 0.53). Dense retrieval beats a TF-IDF baseline at every cutoff (P@5 0.790 vs. 0.560), and video-level relevance proxies understate chunk-level precision by a wide margin (0.660 vs. 0.94 under human rating). For groundedness evaluation, we find BERTScore unusable when a multi-sentence generated summary is compared against a single short comment - scores are nearly flat regardless of relevance - and show that ROUGE-1-based groundedness is a paraphrase-driven lower bound rather than a hallucination rate. These findings generalize beyond the urbanist domain to any RAG system built over short user-generated documents.",
+      "abstract_zh": "关于城市问题的在线话语——步行性、骑行基础设施、公共交通、住房密度和街道安全——数量庞大但缺乏结构，现有的城市评估工具无法捕捉到这些内容。我们提出了一种管道和对话系统，结合了地理实体解析、主题建模、情感分析和检索增强生成（Retrieval-Augmented Generation, RAG），对来自309个北美城市的22,788段YouTube转录文本和评论进行分析。除了系统本身，我们的贡献在于一组关于标准自然语言处理（NLP）组件与短小、非正式、地理模糊文本相遇时所发生情况的测量。经过Twitter调优的RoBERTa分类器在宏观F1得分上超越了VADER词典基线12.6分（0.589对0.464；McNemar p = 0.0001），但两个模型在中性类别上均表现不佳，而这一类别在城市主义评论流量中占主导地位；标注者在同一类别上存在分歧（Cohen's kappa = 0.53）。在每个截止点上，密集检索的表现优于TF-IDF基线（P@5 0.790对0.560），而视频级相关性代理在很大程度上低估了块级精度（0.660对0.94，依据人工评分）。在基础性评估中，我们发现当多句生成摘要与单条短评论进行比较时，BERTScore不可用——无论相关性如何，得分几乎保持平稳——并且显示基于ROUGE-1的基础性评估是一个由意译驱动的下限，而非幻觉率。这些发现超越了城市主义领域，适用于任何基于短用户生成文档构建的RAG系统。",
+      "authors": [
+        "Jakob Morales",
+        "Monica Hegde",
+        "Fayeq Jeelani Syed"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22705",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Analyzing Public Discourse on Urbanism: Topic Clustering, Sentiment Analysis and Retrieval-Augmented Generation using YouTube Comments",
+      "title_zh": "城市主义公共话语分析：基于YouTube评论的主题聚类、情感分析与检索增强生成",
+      "url": "/daily/2026-09-22/#paper-2609-22705"
+    },
+    {
+      "abstract": "Recently, text-to-speech systems have made significant progress in speech expressiveness and controllability. However, the speaking style of generated speech typically relies on clear user-specified instructions. In natural conversations, speaking style should be naturally inferred from the preceding conversational context. Therefore, we propose COT-TTS, a context-aware, reasoning-based text-to-speech task. Given historical conversation audio, target text, and a reference speech, the system should comprehend the conversational context, infer an explicit intermediate reasoning, and finally synthesize the target speech with the specified timbre. To support this task, we constructed a large-scale bilingual conversational speech dataset comprising 9 million training samples, including a high-quality subset of 1 million samples. We further constructed a source-disjoint benchmark with 800 human-verified samples and established strong task-specific baselines. Additionally, we developed end-to-end autoregressive models with parameter sizes of 0.6B and 1.7B, generating emotion-labeled transcripts, editable speech style inferences, and speech tokens. Experimental results show that the proposed model achieves performance comparable to large-scale baseline systems with significantly fewer parameters. At the same time, the model performs well in terms of duration consistency and emotional consistency, and can generate appropriate emotional, stress, and rhythmic variations based on the conversational context. To facilitate future research, we will publicly release the data construction pipeline, dataset, trained models, and related resources. The demo page and additional resources are available at https://luckybian.github.io/COT-TTS",
+      "abstract_zh": "近年来，文本到语音系统在语音表现力和可控性方面取得了显著进展。然而，生成语音的说话风格通常依赖于用户明确指定的指令。在自然对话中，说话风格应当自然地从前面的对话上下文中推断出来。因此，我们提出了COT-TTS，一种上下文感知的基于推理的文本到语音转换任务。给定历史对话音频、目标文本和参考语音，系统应理解对话上下文，推断出明确的中间推理，最终合成具有指定音色的目标语音。为了支持这一任务，我们构建了一个大规模的双语对话语音数据集，包括900万个训练样本，其中包含100万个高质量子集。我们进一步构建了一个源不重叠的基准数据集，包含800个经过人工验证的样本，并建立了强大的任务特定基线。此外，我们开发了参数规模为0.6B和1.7B的端到端自回归模型，生成情感标记的转录文本、可编辑的语音风格推断和语音标记。实验结果表明，所提出的模型在性能上与大规模基线系统相当，但参数显著更少。同时，该模型在持续时间一致性和情感一致性方面表现良好，并能够根据对话上下文生成适当的情感、重音和节奏变化。为了促进未来的研究，我们将公开发布数据构建流程、数据集、训练模型和相关资源。演示页面和其他资源可在 https://luckybian.github.io/COT-TTS 获取。",
+      "authors": [
+        "Weizhen Bian",
+        "Sitong Cheng",
+        "Rongxiu Zhong",
+        "Jiahao Pan",
+        "Liumeng Xue",
+        "Boyi Kang",
+        "Shilei Zhang",
+        "Jinglei Liu",
+        "Yue Wang",
+        "Junlan Feng",
+        "Bei Liu",
+        "Wei Xue"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22697",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "COT-TTS: Audio Context-Aware Text-to-Speech with Chain-of-Thought Reasoning",
+      "title_zh": "COT-TTS：基于链式推理的音频上下文感知文本到语音转换",
+      "url": "/daily/2026-09-22/#paper-2609-22697"
+    },
+    {
+      "abstract": "Cosine similarity is widely used to analyze transformer representations, implicitly assuming that similarity reflects task-relevant structure. We study when this assumption fails in dialogue-conditioned large language models. Across three 7-8B chat-tuned models, ambient cosine similarity substantially underestimates linearly decodable persona structure on the same hidden states; numerically, linear probe AUC is in the 0.73-0.97 range while cosine kNN is in the 0.56-0.77 range on a 30-class task. A low-dimensional supervised subspace recovers much of this gap, whereas a matched-rank PCA subspace does not and in some cases degrades performance. This mismatch is regime-dependent: it is absent in single-sentence sentiment classification (SST-5), and a matched-cardinality control rules out attribute cardinality as a confound. The gap does not systematically increase across dialogue turns, and the task-aligned subspace remains stable over time. However, two of three models violate a pre-registered within-subspace separability invariance criterion (|Delta AUC| <= 0.03), and one model violates a pre-registered turn-invariance criterion (|Delta L| <= 0.05). These results show that cosine similarity can fail to reflect task-aligned structure in dialogue representations even when that structure is linearly accessible.",
+      "abstract_zh": "余弦相似度广泛用于分析变换器表示，隐含假设相似度反映与任务相关的结构。我们研究了在对话条件的大型语言模型中，这一假设何时失效。在三个7-8B的聊天调优模型中，环境余弦相似度显著低估了相同隐藏状态上的线性可解的人物结构；在数值上，线性探测器的AUC在0.73-0.97范围内，而余弦kNN在30类任务中则在0.56-0.77范围内。一个低维的监督子空间恢复了大部分差距，而一个匹配秩的主成分分析（PCA）子空间则没有，并且在某些情况下降低了性能。这种不匹配是依赖于不同的情境：在单句情感分类（SST-5）中不存在，并且一个匹配基数的控制排除了属性基数作为混淆因素。这个差距在对话轮次中并没有系统性增加，且与任务对齐的子空间在时间上保持稳定。然而，三个模型中的两个违反了预注册的子空间内可分离性不变性标准（|Delta AUC| <= 0.03），而一个模型违反了预注册的轮次不变性标准（|Delta L| <= 0.05）。这些结果表明，即使该结构是线性可达的，余弦相似度也可能无法反映对话表示中的任务对齐结构。",
+      "authors": [
+        "Yu Sun",
+        "Mengyin Lu",
+        "Cong Feng",
+        "Guangming Lu",
+        "Huimin Han"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22522",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "When Cosine Similarity Fails to Reflect Linearly Accessible Structure in Dialogue Models",
+      "title_zh": "余弦相似度何时无法反映对话模型中的线性可达结构",
+      "url": "/daily/2026-09-22/#paper-2609-22522"
+    },
+    {
+      "abstract": "Debates about whether artificial systems can feel are often forced between two unsatisfactory positions: behavioral equivalence is treated as sufficient for emotion, or phenomenal consciousness is treated as a prerequisite that makes the question empirically inaccessible. This article develops a structural alternative. It models emotions as context-sensitive regions, trajectories and attractor dynamics in high-dimensional representational state spaces. Recent mechanistic interpretability findings support the existence of causally active emotion-concept representations in large language models, but they do not establish subjective feeling or full emotional agency. Assessed against published adequacy standards for representation in language models, intervention provides strong evidence of causal use, while full affective role integration, uniformity across subject domains and coherence remain only partially established; there is no direct analogue of accuracy. These mismatches expose the need for a standard of affective appropriateness, which an account of character must supply. Such an account requires three further conditions: regulatory embodiment that gives valence endogenous stakes, temporal continuity that allows affective episodes to accumulate into a history, and an integrated self-model that binds that history to persistent values. Aristotle's concepts of path\\=e, hexis, mesot\\=es and phron\\=esis are translated into a state-space sketch in which practical wisdom includes competence in estimating normatively salient context, not merely acting on a context description already given. The framework reframes alignment as a problem of durable disposition rather than output conformity, and yields interventional tests with explicit control conditions.",
+      "abstract_zh": "关于人工系统是否能够感受的争论常常被迫在两个不令人满意的立场之间徘徊：行为等价被视为情感的充分条件，或者现象意识被视为使该问题在经验上无法接触的先决条件。本文提出了一种结构性替代方案。它将情感建模为高维表征状态空间中的上下文敏感区域、轨迹和吸引子动力学。最近的机械可解释性研究结果支持大型语言模型中因果活跃的情感概念表征的存在，但并未确立主观感受或完全的情感代理。根据已发布的语言模型表征的充分性标准进行评估，干预提供了因果使用的强有力证据，而完全的情感角色整合、跨主题领域的一致性和连贯性仍然仅部分建立；没有直接的准确性类比。这些不匹配揭示了对情感适当性的标准的需求，而这一标准必须由性格的解释提供。这样的解释需要三个进一步的条件：赋予内生利益的调节体现、允许情感事件积累成历史的时间连续性，以及将该历史与持久价值绑定的综合自我模型。亚里士多德的路径（pathē）、倾向（hexis）、中庸（mesotēs）和实践智慧（phronēsis）概念被转化为一个状态空间草图，其中实践智慧包括在估计规范性显著上下文方面的能力，而不仅仅是在已经给定的上下文描述上采取行动。该框架将对齐重新构架为持久倾向的问题，而不是输出一致性，并产生具有明确控制条件的干预测试。",
+      "authors": [
+        "Marzieh Zare"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22362",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Functional Emotion Without Character: Large Language Models, Aristotelian Disposition, and the Limits of Behavioral Alignment",
+      "title_zh": "没有性格的功能性情感：大型语言模型、亚里士多德的倾向与行为对齐的局限性",
+      "url": "/daily/2026-09-22/#paper-2609-22362"
+    },
+    {
+      "abstract": "We formulate \\emph{Artistic Intelligence} as exploration driven world realization, leaving space for creative possibility while preserving the semantic, artistic, and compositional structure that must remain true. Moonworks Lunara, a text-to-image model, implements this framework with a novel Diffusion Mixture Transformer architecture. A new training algorithm iteratively evolves the data distribution through informative sample acquisition and targeted injection of human-created art. We benchmark Lunara against seven image-generation models, including FLUX.2-Klein-4B, Qwen-Image (20B), and GPT-Image-1-Mini. With GPT-5.6 Sol as evaluator, Lunara ranks first in \\emph{Aesthetic Quality (8.473 vs. 8.457 GPT-Image-1-mini)}, second in \\emph{Emotional Resonance}, and remains competitive in \\emph{Content Integrity}. A blind human evaluation over the same evaluation set corroborates the automated metrics, ranking Lunara first. It also stays among the strongest models under conventional measures including CLIPScore and LAION Aesthetic Predictor. On GenEval, Lunara achieves competitive performance against a broader set of 16 models, including GPT Image 2 and Seedream 4.0. These results place Lunara at the frontier with Artistic Intelligence while maintaining a sub-10B active-parameter footprint and sub-10-second inference latency. Lunara advances the general visual intelligence frontier by shifting the question from whether models can get images right to how deeply they can interpret meaning and realize it as imaginative, expressive worlds.",
+      "abstract_zh": "我们将 extit{艺术智能}定义为以探索驱动的世界实现，既为创造性可能性留出空间，又保持必须真实的语义、艺术和构图结构。Moonworks Lunara，一个文本到图像的模型，采用了一种新颖的扩散混合变换器（Diffusion Mixture Transformer）架构来实现这一框架。一种新的训练算法通过信息样本获取和针对性注入人类创作的艺术，迭代地演变数据分布。我们将Lunara与七个图像生成模型进行了基准测试，包括FLUX.2-Klein-4B、Qwen-Image（20B）和GPT-Image-1-Mini。在GPT-5.6 Sol的评估下，Lunara在 extit{美学质量}上排名第一（8.473对比8.457，GPT-Image-1-mini），在 extit{情感共鸣}上排名第二，并在 extit{内容完整性}上保持竞争力。对同一评估集的盲人评估证实了自动化指标，Lunara排名第一。在传统测量标准下，包括CLIPScore和LAION美学预测器，Lunara也保持在最强模型之列。在GenEval上，Lunara在包括GPT Image 2和Seedream 4.0在内的16个模型中表现出竞争力。这些结果使Lunara在艺术智能的前沿，同时保持低于10B的活跃参数足迹和低于10秒的推理延迟。Lunara通过将问题从模型是否能正确生成图像转变为它们能多深刻地解读意义并将其实现为富有想象力和表现力的世界，推动了视觉智能的整体前沿。",
+      "authors": [
+        "Yan Wang",
+        "Yanzu Wang",
+        "Maitreyee Joshi",
+        "Samiha Sadeka",
+        "Partho Hassan",
+        "Reza Jarral",
+        "Sayeef Abdullah",
+        "Sabit Hassan"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22272",
+      "tags": [
+        "数据集/评测",
+        "情感生成",
+        "文本情感"
+      ],
+      "title": "Moonworks Lunara: Modeling Artistic Intelligence",
+      "title_zh": "Moonworks Lunara：艺术智能建模",
+      "url": "/daily/2026-09-22/#paper-2609-22272"
+    },
+    {
+      "abstract": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions. We introduce Deep Persona, a psychologically grounded, three-layered architecture that organizes personas into hierarchical levels of observable expression, latent beliefs, and core motivational drives, for constructing highly convincing role-playing agents. Governed by the principles of scripted determinism and bounded agency, the architecture restricts the model to a reactive engine guided by a structured internal script. We further propose a reference-free evaluation framework that benchmarks dialogue naturalness against empirical human distributions using established psychological clinical instruments and adversarial stress-tests. Empirical evaluation reveals that while LLMs achieve high pragmatic fluency, they exhibit systematic limitations in emotional expression and joint attention. In addition, we present a case study of two Deep Personas and evaluate them using the proposed framework, demonstrating that structured personas can produce interactions that more closely align with human conversational behavior.",
+      "abstract_zh": "现有的基于大型语言模型（LLMs）的角色模拟方法大多依赖于肤浅的角色描述，这些描述无法在长时间的互动中维持一致的角色行为。我们提出了深度角色（Deep Persona），一种基于心理学的三层架构，将角色组织为可观察表达、潜在信念和核心动机驱动的层级，以构建高度可信的角色扮演代理。该架构遵循脚本决定论和有限代理的原则，限制模型为一个由结构化内部脚本引导的反应引擎。我们进一步提出了一种无参考的评估框架，该框架使用已建立的心理学临床工具和对抗性压力测试，将对话自然性与经验性人类分布进行基准比较。实证评估表明，尽管LLMs在实用流畅性方面表现出色，但在情感表达和共同注意力方面存在系统性局限。此外，我们展示了两个深度角色的案例研究，并使用所提出的框架对其进行评估，证明结构化角色能够产生更接近人类对话行为的互动。",
+      "authors": [
+        "Rotem Dror",
+        "Zohar Elyoseph",
+        "Yuval Haber",
+        "Elad Refoua",
+        "Oshrat Ayalon",
+        "Adir Solomon"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22255",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations",
+      "title_zh": "深度角色：一种基于心理学的角色扮演代理和模拟的架构与评估框架",
+      "url": "/daily/2026-09-22/#paper-2609-22255"
+    },
+    {
+      "abstract": "Sofroniew et al. (2026) report that emotion concepts in Claude Sonnet 4.5 are represented as vectors whose geometry mirrors human affect psychology. We replicate the representational core of that study on the base pretrained model google/gemma-2-27b, inheriting every disclosed parameter, resolving unspecified steps by disclosed rules, and changing only the subject model. From 205,200 newly generated Claude Sonnet 4.5 stories matching the original corpus design, we extract 171 emotion vectors and recover the core results. The leading principal components form an affective circumplex (PC1 carries 26.7% of variance against the original study's ~27%, PC2 13.4% against ~14%), emotions cluster into similar intuitive families, and the geometry holds across a broad late-middle band. The valence axis aligns with human norms (r = 0.72, against 0.81) and is stable across scales and depth. Arousal aligns at r = 0.67 (against 0.66) but only at the full 171-emotion scale and late depth, so we do not classify it as replicated. Extending the original analysis, a 46-layer sweep locates a sharp seam at L22-26, where the geometry consolidates and the vocabulary readout becomes legible. An embedding-layer baseline finds much of the geometry already present in the static token embeddings, with arousal as the exception. On top-activating held-out text, the geometry predicts token-level co-activation at r = 0.907. At least 52% of vectors peak on structurally non-conceptual tokens, a measured floor for max-activation confounds. Even when a document contains the vector's emotion word, the peak lands on that word only 6.1% of the time. Because the subject is a base model and the stimuli are Claude-generated fiction, the recovered structure is a property of the pretrained representation of Claude-rendered emotion. The original's causal and assistant-facing analyses are out of scope. Code and data are released.",
+      "abstract_zh": "Sofroniew 等人（2026）报告称，Claude Sonnet 4.5 中的情感概念被表示为其几何结构反映人类情感心理学的向量。我们在基础预训练模型 google/gemma-2-27b 上复制了该研究的表征核心，继承了所有公开参数，通过公开规则解决未指定的步骤，仅更改了主题模型。从 205,200 个新生成的与原始语料库设计相匹配的 Claude Sonnet 4.5 故事中，我们提取了 171 个情感向量并恢复了核心结果。主成分分析的前导主成分形成了一个情感圆周（PC1 解释了 26.7% 的方差，相较于原研究的 ~27%，PC2 为 13.4%，相较于 ~14%），情感聚集成相似的直观家族，几何结构在广泛的中后期带中保持一致。效价轴与人类标准对齐（r = 0.72，相较于 0.81），并在不同尺度和深度上保持稳定。唤醒度在 r = 0.67（相较于 0.66）时对齐，但仅在完整的 171 情感尺度和较深层次上，因此我们不将其归类为复制。扩展原始分析，46 层的扫描在 L22-26 处发现了一个明显的分界线，在此处几何结构巩固，词汇输出变得清晰。嵌入层基线发现大部分几何结构已经存在于静态标记嵌入中，唤醒度是例外。在顶级激活的保留文本上，几何结构预测了标记级别的共同激活，相关性为 r = 0.907。至少 52% 的向量在结构上非概念性标记上达到峰值，这是最大激活混淆的测量下限。即使文档包含向量的情感词，峰值仅在该词上出现 6.1% 的时间。由于主题是基础模型，刺激是 Claude 生成的虚构作品，因此恢复的结构是 Claude 渲染情感的预训练表征的特性。原始的因果和面向助手的分析超出了本研究的范围。代码和数据已发布。",
+      "authors": [
+        "Adam Hollowell"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22208",
+      "tags": [
+        "文本情感",
+        "心理状态/福祉"
+      ],
+      "title": "Replicating the Geometry of Emotion Representations in a Base Open-Weights Model",
+      "title_zh": "在基础开放权重模型中复制情感表征的几何结构",
+      "url": "/daily/2026-09-22/#paper-2609-22208"
+    },
+    {
+      "abstract": "Omni-modal large language models integrate text, audio, and image signals into a shared residual stream, where concepts such as emotion can be linearly decoded and causally modified by activation steering. A common but rarely tested assumption is that the layer with the highest probing accuracy is also the best layer for steering, so injection layers are often selected by probe performance. We provide the first causal test of this assumption across three independently developed omni-modal models and find that it fails. Reading and intervention rely on different layers, a phenomenon we call the probing-steering layer dissociation. Using emotion as a controlled testbed, we measure layer-wise readability and steerability across text, audio, and image inputs. Probe-best layers vary widely across architectures, while steering-effective layers consistently fall within a narrow mid-to-late range of normalized depth. Paired random-direction controls show an approximately 26-fold causal gap, ruling out random perturbation and direction quality as explanations. Logit-lens analysis reveals a staged forward process: causal handle, probing saturation, and vocabulary commitment, and motivates a two-factor account in which steering effectiveness depends on both representational readability and downstream plasticity. These results show that probing accuracy is a poor heuristic for selecting intervention layers and suggest a cross-architecture mid-to-late selection criterion. We also identify a cross-modal emotion subspace organized by valence and arousal, with joy acting as a stable anchor across models. Code and data: https://github.com/YiboWang2002/Read-Best-Is-Not-Steer-Best.",
+      "abstract_zh": "全模态大型语言模型将文本、音频和图像信号整合到共享的残差流中，其中情感等概念可以通过激活引导线性解码和因果修改。一个常见但很少被测试的假设是，具有最高探测准确性的层也是最佳引导层，因此注入层通常通过探测性能进行选择。我们首次对这一假设进行了因果测试，涵盖了三个独立开发的全模态模型，结果发现该假设不成立。阅读和干预依赖于不同的层，这一现象我们称之为探测-引导层解离。以情感作为受控测试平台，我们测量了文本、音频和图像输入的层级可读性和可引导性。探测最佳层在不同架构中差异很大，而引导有效层则始终位于归一化深度的中后期狭窄范围内。配对随机方向控制显示出大约26倍的因果差距，排除了随机扰动和方向质量作为解释的可能性。Logit-lens分析揭示了一个分阶段的前向过程：因果把握、探测饱和和词汇承诺，并激励了一种双因素解释，其中引导有效性依赖于表征可读性和下游可塑性。这些结果表明，探测准确性是选择干预层的一个不良启发式，并建议采用跨架构的中后期选择标准。我们还识别了一个跨模态情感子空间，该子空间由效价和唤醒组织，快乐在各模型中作为一个稳定的锚点。代码和数据：https://github.com/YiboWang2002/Read-Best-Is-Not-Steer-Best。",
+      "authors": [
+        "Yibo Wang",
+        "Jisheng Dang",
+        "Bimei Wang",
+        "Yitao Wu",
+        "Wencan Zhang",
+        "Hong Peng",
+        "Jizhao Liu",
+        "Bin Hu",
+        "Qi Tian",
+        "Tat-Seng Chua"
+      ],
+      "date": "2026-09-22",
+      "id": "2609.22135",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "Read-Best Is Not Steer-Best: A Probing--Steering Layer Dissociation in Omni-Modal Large Language Models",
+      "title_zh": "阅读最佳并非引导最佳：全模态大型语言模型中的探测-引导层解离",
+      "url": "/daily/2026-09-22/#paper-2609-22135"
+    },
     {
       "abstract": "Conversational speech depends on dialogue context and the listener's immediately preceding behavior. We propose ReACT-TTS, a two-stage framework that uses a one-second pre-response listener facial sequence to plan the next utterance's emotion and prosody before speech realization. On a strict dyadic MELD protocol, Temporal conditioning yields higher mean macro-F1 and VAD concordance than Text-only across ten seeds, while accuracy remains essentially unchanged. Ablations show that temporal modeling performs best among the visual variants and that an explicit early-to-late difference is unnecessary; correct listener reactions also outperform cyclic mismatches on average. In a contextual-appropriateness study with 20 speech researchers, 76% of judgments prefer Temporal, 9% Text-only, and 15% report no preference. We further connect the predicted response style to a Grad-TTS backbone for end-to-end speech realization. Overall, the results support pre-response listener dynamics as complementary cues for conversational response planning. The source code is available at https://github.com/CYJ1/ReACT-TTS_public.",
       "abstract_zh": "对话语音依赖于对话上下文及听者的即时前序行为。我们提出了ReACT-TTS，一种两阶段框架，利用一秒钟的响应前听者面部序列来规划下一句发话的情感和韵律，然后实现语音生成。在严格的双人MELD协议下，时间条件（Temporal conditioning）在十个随机种子中表现出比仅文本（Text-only）更高的平均宏F1值和语音活动检测（VAD）一致性，而准确率基本保持不变。消融实验表明，在视觉变体中时间建模表现最佳，且无需显式的早晚差异；正确的听者反应平均上也优于循环不匹配。在一项包含20名语音研究者的上下文适宜性评估中，76%的判断偏好时间条件，9%偏好仅文本，15%无偏好。我们进一步将预测的响应风格与Grad-TTS骨干网络相结合，实现端到端语音生成。总体结果支持将响应前的听者动态作为对话响应规划的补充线索。源码可在https://github.com/CYJ1/ReACT-TTS_public获取。",

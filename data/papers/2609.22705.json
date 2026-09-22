@@ -1,0 +1,52 @@
+{
+  "abstract": "Online discourse about urban issues - walkability, cycling infrastructure, public transit, housing density, and street safety - is voluminous but unstructured, and existing city-evaluation tools capture none of it. We present a pipeline and conversational system that combines geographic entity resolution, topic modeling, sentiment analysis, and Retrieval-Augmented Generation (RAG) over 22,788 chunks of YouTube transcripts and comments spanning 309 North American cities. Beyond the system itself, our contribution is a set of measurements about what happens when standard NLP components meet short, informal, geographically ambiguous text. A Twitter-tuned RoBERTa classifier outperforms a VADER lexicon baseline by 12.6 macro-F1 points (0.589 vs. 0.464; McNemar p = 0.0001), but both models collapse on the neutral class, which dominates urbanist comment traffic; annotators disagree on the same class (Cohen's kappa = 0.53). Dense retrieval beats a TF-IDF baseline at every cutoff (P@5 0.790 vs. 0.560), and video-level relevance proxies understate chunk-level precision by a wide margin (0.660 vs. 0.94 under human rating). For groundedness evaluation, we find BERTScore unusable when a multi-sentence generated summary is compared against a single short comment - scores are nearly flat regardless of relevance - and show that ROUGE-1-based groundedness is a paraphrase-driven lower bound rather than a hallucination rate. These findings generalize beyond the urbanist domain to any RAG system built over short user-generated documents.",
+  "abstract_zh": "关于城市问题的在线话语——步行性、骑行基础设施、公共交通、住房密度和街道安全——数量庞大但缺乏结构，现有的城市评估工具无法捕捉到这些内容。我们提出了一种管道和对话系统，结合了地理实体解析、主题建模、情感分析和检索增强生成（Retrieval-Augmented Generation, RAG），对来自309个北美城市的22,788段YouTube转录文本和评论进行分析。除了系统本身，我们的贡献在于一组关于标准自然语言处理（NLP）组件与短小、非正式、地理模糊文本相遇时所发生情况的测量。经过Twitter调优的RoBERTa分类器在宏观F1得分上超越了VADER词典基线12.6分（0.589对0.464；McNemar p = 0.0001），但两个模型在中性类别上均表现不佳，而这一类别在城市主义评论流量中占主导地位；标注者在同一类别上存在分歧（Cohen's kappa = 0.53）。在每个截止点上，密集检索的表现优于TF-IDF基线（P@5 0.790对0.560），而视频级相关性代理在很大程度上低估了块级精度（0.660对0.94，依据人工评分）。在基础性评估中，我们发现当多句生成摘要与单条短评论进行比较时，BERTScore不可用——无论相关性如何，得分几乎保持平稳——并且显示基于ROUGE-1的基础性评估是一个由意译驱动的下限，而非幻觉率。这些发现超越了城市主义领域，适用于任何基于短用户生成文档构建的RAG系统。",
+  "arxiv_id": "2609.22705",
+  "arxiv_url": "https://arxiv.org/abs/2609.22705v1",
+  "authors": [
+    "Jakob Morales",
+    "Monica Hegde",
+    "Fayeq Jeelani Syed"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22705",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.744698+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22705v1",
+  "published_at": "2026-09-19T02:34:56Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "generation",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 65.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22705v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "Analyzing Public Discourse on Urbanism: Topic Clustering, Sentiment Analysis and Retrieval-Augmented Generation using YouTube Comments",
+  "title_zh": "城市主义公共话语分析：基于YouTube评论的主题聚类、情感分析与检索增强生成",
+  "translation_url": "https://hjfy.top/arxiv/2609.22705"
+}

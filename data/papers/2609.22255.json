@@ -1,0 +1,55 @@
+{
+  "abstract": "Existing approaches to persona simulation with Large Language Models (LLMs) mostly rely on shallow character descriptions that fail to sustain coherent character behavior across extended interactions. We introduce Deep Persona, a psychologically grounded, three-layered architecture that organizes personas into hierarchical levels of observable expression, latent beliefs, and core motivational drives, for constructing highly convincing role-playing agents. Governed by the principles of scripted determinism and bounded agency, the architecture restricts the model to a reactive engine guided by a structured internal script. We further propose a reference-free evaluation framework that benchmarks dialogue naturalness against empirical human distributions using established psychological clinical instruments and adversarial stress-tests. Empirical evaluation reveals that while LLMs achieve high pragmatic fluency, they exhibit systematic limitations in emotional expression and joint attention. In addition, we present a case study of two Deep Personas and evaluate them using the proposed framework, demonstrating that structured personas can produce interactions that more closely align with human conversational behavior.",
+  "abstract_zh": "现有的基于大型语言模型（LLMs）的角色模拟方法大多依赖于肤浅的角色描述，这些描述无法在长时间的互动中维持一致的角色行为。我们提出了深度角色（Deep Persona），一种基于心理学的三层架构，将角色组织为可观察表达、潜在信念和核心动机驱动的层级，以构建高度可信的角色扮演代理。该架构遵循脚本决定论和有限代理的原则，限制模型为一个由结构化内部脚本引导的反应引擎。我们进一步提出了一种无参考的评估框架，该框架使用已建立的心理学临床工具和对抗性压力测试，将对话自然性与经验性人类分布进行基准比较。实证评估表明，尽管LLMs在实用流畅性方面表现出色，但在情感表达和共同注意力方面存在系统性局限。此外，我们展示了两个深度角色的案例研究，并使用所提出的框架对其进行评估，证明结构化角色能够产生更接近人类对话行为的互动。",
+  "arxiv_id": "2609.22255",
+  "arxiv_url": "https://arxiv.org/abs/2609.22255v1",
+  "authors": [
+    "Rotem Dror",
+    "Zohar Elyoseph",
+    "Yuval Haber",
+    "Elad Refoua",
+    "Oshrat Ayalon",
+    "Adir Solomon"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-22#paper-2609-22255",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-22T09:48:16.725958+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.22255v1",
+  "published_at": "2026-09-06T08:53:41Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language models",
+      "LLMs",
+      "dialogue",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-09-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.22255v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "心理状态/福祉",
+      "数据集/评测"
+    ]
+  },
+  "title": "Deep Persona: A Psychologically Grounded Architecture and Evaluation Framework for Role-Playing Agents and Simulations",
+  "title_zh": "深度角色：一种基于心理学的角色扮演代理和模拟的架构与评估框架",
+  "translation_url": "https://hjfy.top/arxiv/2609.22255"
+}
