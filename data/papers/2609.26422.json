@@ -1,0 +1,65 @@
+{
+  "abstract": "Detecting emotions is necessary for building systems that can accurately and adaptively interact with humans. Speech Emotion Recognition (SER) has become an important research focus to develop intelligent spoken interfaces. However, most studies predict emotions at the utterance level, ignoring the conversational context, along with the emotional flow and speaker interactions it carries. In this paper, we introduce ACERT (Averaged Contextual Emotion Representation through Time), a module that integrates a flexible-length window of conversational context to better capture emotional evolution in spoken interactions. To evaluate the robustness of this method, we conducted experiments on datasets spanning diverse emotionally expressive styles and contexts. ACERT outperforms current state-of-the-art (SOTA) approaches on IEMOCAP, establishes the first context-aware benchmark on SAFE, and obtains strong results on MELD for unweighted, class-balanced metrics. Ablation studies show that ACERT's gains come from emotional and conversational continuity, rather than from speaker identity or acoustic conditions.",
+  "abstract_zh": "情感检测对于构建能够准确且自适应地与人类互动的系统是必要的。语音情感识别（SER）已成为开发智能语音接口的重要研究重点。然而，大多数研究在话语层面预测情感，忽视了对话上下文及其所承载的情感流动和说话者互动。在本文中，我们介绍了ACERT（Averaged Contextual Emotion Representation through Time），一个集成灵活长度对话上下文窗口的模块，以更好地捕捉语音互动中的情感演变。为了评估该方法的稳健性，我们在涵盖多种情感表达风格和上下文的数据集上进行了实验。ACERT在IEMOCAP上超越了当前的最先进（SOTA）方法，在SAFE上建立了首个基于上下文的基准，并在MELD上获得了强劲的无权重、类别平衡指标结果。消融研究表明，ACERT的提升来自于情感和对话的连续性，而非说话者身份或声学条件。",
+  "arxiv_id": "2609.26422",
+  "arxiv_url": "https://arxiv.org/abs/2609.26422v1",
+  "authors": [
+    "Arthur Peuvot",
+    "Romaric Besançon",
+    "Gaël de Chalendar",
+    "Bianca Vieru",
+    "Ioana Vasilescu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-23#paper-2609-26422",
+  "categories": [
+    "cs.CL",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-09-23T09:51:24.660940+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.26422v1",
+  "published_at": "2026-09-22T13:50:02Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "IEMOCAP",
+      "MELD",
+      "emotion",
+      "emotions",
+      "emotional",
+      "recognition",
+      "benchmark",
+      "speech",
+      "识别",
+      "检测",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.26422v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "数据集/评测",
+      "情绪识别"
+    ]
+  },
+  "title": "Enriching Speech Emotion Representations with Conversational Context",
+  "title_zh": "通过对话上下文丰富语音情感表征",
+  "translation_url": "https://hjfy.top/arxiv/2609.26422"
+}

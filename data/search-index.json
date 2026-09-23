@@ -1,6 +1,27 @@
 {
-  "generated_at": "2026-09-22T09:48:23.629176+00:00",
+  "generated_at": "2026-09-23T09:51:26.799065+00:00",
   "items": [
+    {
+      "abstract": "Detecting emotions is necessary for building systems that can accurately and adaptively interact with humans. Speech Emotion Recognition (SER) has become an important research focus to develop intelligent spoken interfaces. However, most studies predict emotions at the utterance level, ignoring the conversational context, along with the emotional flow and speaker interactions it carries. In this paper, we introduce ACERT (Averaged Contextual Emotion Representation through Time), a module that integrates a flexible-length window of conversational context to better capture emotional evolution in spoken interactions. To evaluate the robustness of this method, we conducted experiments on datasets spanning diverse emotionally expressive styles and contexts. ACERT outperforms current state-of-the-art (SOTA) approaches on IEMOCAP, establishes the first context-aware benchmark on SAFE, and obtains strong results on MELD for unweighted, class-balanced metrics. Ablation studies show that ACERT's gains come from emotional and conversational continuity, rather than from speaker identity or acoustic conditions.",
+      "abstract_zh": "情感检测对于构建能够准确且自适应地与人类互动的系统是必要的。语音情感识别（SER）已成为开发智能语音接口的重要研究重点。然而，大多数研究在话语层面预测情感，忽视了对话上下文及其所承载的情感流动和说话者互动。在本文中，我们介绍了ACERT（Averaged Contextual Emotion Representation through Time），一个集成灵活长度对话上下文窗口的模块，以更好地捕捉语音互动中的情感演变。为了评估该方法的稳健性，我们在涵盖多种情感表达风格和上下文的数据集上进行了实验。ACERT在IEMOCAP上超越了当前的最先进（SOTA）方法，在SAFE上建立了首个基于上下文的基准，并在MELD上获得了强劲的无权重、类别平衡指标结果。消融研究表明，ACERT的提升来自于情感和对话的连续性，而非说话者身份或声学条件。",
+      "authors": [
+        "Arthur Peuvot",
+        "Romaric Besançon",
+        "Gaël de Chalendar",
+        "Bianca Vieru",
+        "Ioana Vasilescu"
+      ],
+      "date": "2026-09-23",
+      "id": "2609.26422",
+      "tags": [
+        "语音情感",
+        "数据集/评测",
+        "情绪识别"
+      ],
+      "title": "Enriching Speech Emotion Representations with Conversational Context",
+      "title_zh": "通过对话上下文丰富语音情感表征",
+      "url": "/daily/2026-09-23/#paper-2609-26422"
+    },
     {
       "abstract": "In multi-agent social settings, model reliability varies across relationships. Beyond inferring what others will do, an agent must calibrate how confidently those inferences should guide policy selection for each relationship. An agent may maintain a well-validated model of one partner, a fragile model of another, and a model under revision for a third; collapsing these into a single confidence estimate loses information relevant to policy selection. We therefore formalize affective precision as a relationship-specific metacognitive estimate of confidence in the current partner model. Each partner's behavioral evidence updates a local confidence estimate that modulates policy precision during selection, regulating how strongly current beliefs are expressed in policy rather than changing the content of those beliefs. Simulations in a multi-partner graded trust game show that partner-local affective precision influences behavior primarily through policy commitment rather than direct improvement of partner-state inference. Because the mechanism tracks partner-response predictability rather than realized payoff, greater confidence produces sharper policy commitment without necessarily producing higher rewards. Under abrupt shifts in social behavior, confidence accumulated from previously reliable predictions can remain behaviorally active after the relationship changes, showing that confidence revision can lag behind social change. Finally, varying precision gain and priors produce distinct trust-calibration dynamics, showing how confidence accumulation and revision depend on model parameters. Together, these results show how relationship-specific affective precision can distinguish social prediction from social policy commitment.",
       "abstract_zh": "在多智能体社会环境中，模型的可靠性因关系而异。除了推断他人的行为外，智能体还必须校准这些推断在每个关系中应如何自信地指导政策选择。一个智能体可能对一个伙伴保持经过充分验证的模型，对另一个伙伴则有一个脆弱的模型，而对第三个伙伴则是一个正在修订的模型；将这些模型合并为一个单一的信心估计会丢失与政策选择相关的信息。因此，我们将情感精确度形式化为对当前伙伴模型的关系特定的元认知信心估计。每个伙伴的行为证据更新一个局部信心估计，该估计在选择过程中调节政策的精确度，调控当前信念在政策中的表达强度，而不是改变这些信念的内容。在多伙伴分级信任游戏中的模拟表明，伙伴特定的情感精确度主要通过政策承诺影响行为，而不是直接改善对伙伴状态的推断。由于该机制跟踪伙伴反应的可预测性而非实际收益，更高的信心会产生更明确的政策承诺，但不一定会带来更高的奖励。在社会行为的突然变化下，来自先前可靠预测的信心积累在关系变化后仍然可以保持行为活跃，表明信心修订可能滞后于社会变化。最后，变化的精确度增益和先验产生不同的信任校准动态，显示信心的积累和修订如何依赖于模型参数。这些结果共同表明，关系特定的情感精确度如何区分社会预测与社会政策承诺。",
