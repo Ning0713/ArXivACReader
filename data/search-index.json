@@ -1,6 +1,93 @@
 {
-  "generated_at": "2026-09-23T09:51:26.799065+00:00",
+  "generated_at": "2026-09-24T09:51:09.854957+00:00",
   "items": [
+    {
+      "abstract": "Natural language processing (NLP) applied to open-ended teaching-evaluation comments (Student Evaluation of Teaching, SET) has tracked the field's technical evolution--from lexicons and conventional classifiers to transformers and large language models (LLMs)--but it is not evident that this technical diversification has been accompanied by corresponding gains in educational value and robustness of the evidence. This scoping review (PRISMA-ScR) maps 421 studies (2015-2026, 2026 partial) along a technical axis (RQ1) and four value dimensions (RQ2-RQ5). Dual mutually blinded LLM screening with sampled human adjudication coded seven extraction domains, with targeted codebook-boundary review at synthesis. The joint map's sharpest quantified gap is the actionability discontinuity: demonstrated output or stronger (A2+: 258/421; 61.3%) versus intended-user evaluation or stronger (A3+: 49/421; 11.6%), a 49.7 percentage-point drop. Sentiment analysis remains the modal task (300/421); diagnostic and generative depth is a substantial minority (D4-D5: 28.2% of resolved cases); a formal fairness metric is rare (1.9%). The findings are descriptive and do not support causal claims of progress: technological coexistence and uneven reporting are part of the map, but the A2+ to A3+ cliff is the contribution, not a quality ladder.",
+      "abstract_zh": "应用于开放式教学评价评论（学生教学评价，SET）的自然语言处理（NLP）追踪了该领域的技术演变——从词典和传统分类器到变换器和大型语言模型（LLMs）——但尚不清楚这种技术多样化是否伴随着教育价值和证据的稳健性相应的提升。本范围评估（PRISMA-ScR）沿技术轴（RQ1）和四个价值维度（RQ2-RQ5）绘制了421项研究（2015-2026，2026年部分）。采用双重互盲的LLM筛选与抽样人类裁决，编码了七个提取领域，并在综合时进行了针对性代码本边界审查。联合图谱中最明显的量化差距是可行性不连续性：展示的输出或更强（A2+: 258/421; 61.3%）与意图用户评价或更强（A3+: 49/421; 11.6%），下降了49.7个百分点。情感分析仍然是主要任务（300/421）；诊断和生成深度是一个相当小的少数（D4-D5: 解决案例的28.2%）；正式的公平性指标很少见（1.9%）。这些发现是描述性的，并不支持因果进展的主张：技术共存和不均匀报告是图谱的一部分，但A2+到A3+的悬崖是贡献，而不是质量阶梯。",
+      "authors": [
+        "Jeff Eicher",
+        "Rafael da Silva"
+      ],
+      "date": "2026-09-24",
+      "id": "2609.27939",
+      "tags": [
+        "情感大模型",
+        "鲁棒性/偏差",
+        "文本情感"
+      ],
+      "title": "From Sentiment Classification to Actionable and Responsible Feedback: A Scoping Review and Evidence Map of NLP in Student Evaluation of Teaching, 2015-2026",
+      "title_zh": "从情感分类到可行且负责任的反馈：2015-2026年学生教学评价中自然语言处理的范围评估与证据图谱",
+      "url": "/daily/2026-09-24/#paper-2609-27939"
+    },
+    {
+      "abstract": "Generative AI is rapidly entering adolescents' everyday lives during a critical period of cognitive, social and emotional development. Yet its adoption is outpacing evidence on how adolescents themselves experience, understand and negotiate its expanding role in their lives. We examined AI-related discourse on r/teenagers from January 2023 to July 2026 using validated keyword-based retrieval and a human-in-the-loop, LLM-assisted thematic analysis. AI-related discussion increased substantially over time, and 11,083 analytically coded posts revealed eight interconnected domains of experience. Everyday and social use was most prevalent (36.8 percent), while discourse increasingly shifted toward authenticity, personal control and safety, and future human roles. Across domains, adolescents questioned when AI should support or substitute for human thinking and creativity, how conversational AI changes relationships and perceptions of agency, what can still be considered authentic, who controls personal information and representation, and what opportunities and roles should remain human. These findings position adolescent AI use not simply as technology adoption, but as an emerging negotiation over AI's place and boundaries in everyday life. Supporting this transition will require developmentally appropriate AI literacy, psychological and social support, and AI systems and policies that protect adolescents' agency, privacy, relationships and opportunities for human development.",
+      "abstract_zh": "生成性人工智能正在迅速进入青少年的日常生活，这一阶段正是他们认知、社会和情感发展的关键时期。然而，其采用速度超过了关于青少年如何体验、理解和协商人工智能在他们生活中日益扩展角色的证据。我们使用经过验证的基于关键词的检索和人机协作的LLM辅助主题分析，考察了2023年1月至2026年7月期间r/teenagers上的与人工智能相关的讨论。与人工智能相关的讨论随着时间的推移显著增加，11,083条经过分析编码的帖子揭示了八个相互关联的体验领域。日常和社交使用最为普遍（36.8%），而讨论逐渐转向真实性、个人控制和安全性以及未来人类角色。在各个领域，青少年质疑人工智能何时应支持或替代人类的思维和创造力，交互式人工智能如何改变关系和对自主性的认知，什么仍然可以被视为真实，谁控制个人信息和表现，以及哪些机会和角色应保留给人类。这些发现将青少年对人工智能的使用视为不仅仅是技术的采用，而是对人工智能在日常生活中的地位和界限的逐步协商。支持这一过渡需要发展适宜的人工智能素养、心理和社会支持，以及能够保护青少年自主性、隐私、关系和人类发展机会的人工智能系统和政策。",
+      "authors": [
+        "Jianfeng Zhu"
+      ],
+      "date": "2026-09-24",
+      "id": "2609.27824",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "社交信号"
+      ],
+      "title": "\"AI Is Turning Too Human\": How Teenagers Experience and Negotiate AI in Everyday Life",
+      "title_zh": "“人工智能变得过于人性化”：青少年如何在日常生活中体验和协商人工智能",
+      "url": "/daily/2026-09-24/#paper-2609-27824"
+    },
+    {
+      "abstract": "In multimodal emotion recognition (MER), human affective states are inferred by integrating complementary cues from multiple modalities. In audio-text MER, affective cues are often entangled with speaker style and lexical content, while cross-modal disagreement further complicates how the evidence should be integrated. Under conventional discriminative fusion, multimodal evidence is compressed into a terminal prediction, with modality-specific cues and conflict information insufficiently preserved. In large generative affective models, by contrast, affective reasoning is typically embedded in language decoding, leaving emotion evidence implicit and difficult to verify in a structured space. To address these limitations, BiCFlow-MER (Bidirectional Conditional Flow for Multimodal Emotion Recognition) is proposed as a conditional-flow framework in which audio-text MER is formulated as generative evidence transport within a structured emotion space. Within BiCFlow-MER, emotion-oriented evidence is disentangled from speaker-style and lexical-content factors to construct a conflict-aware affective condition. Guided by this condition, each utterance is transported to an explicit emotion-space endpoint through a bidirectional rectified flow. Candidate emotions are jointly verified through adaptive prototype-cloud scoring of the transported endpoint and backward class-to-condition consistency with the original multimodal condition, enabling conflict-aware recognition. BiCFlow-MER is shown to outperform all compared methods across IEMOCAP, MELD, and the zero-shot CASE benchmark. By orchestrating discriminative recognition and generative evidence modeling through conditional transport, BiCFlow-MER defines a new MER paradigm.",
+      "abstract_zh": "在多模态情感识别（MER）中，通过整合来自多种模态的互补线索来推断人类的情感状态。在音频-文本情感识别中，情感线索通常与说话者风格和词汇内容交织在一起，而跨模态的不一致性进一步复杂化了证据的整合方式。在传统的判别性融合中，多模态证据被压缩为最终预测，模态特定的线索和冲突信息未得到充分保留。相比之下，在大型生成性情感模型中，情感推理通常嵌入在语言解码中，使得情感证据隐含且难以在结构化空间中验证。为了解决这些局限性，提出了BiCFlow-MER（双向条件流用于多模态情感识别），作为一个条件流框架，其中音频-文本情感识别被表述为在结构化情感空间内的生成性证据传输。在BiCFlow-MER中，情感导向的证据与说话者风格和词汇内容因素相分离，以构建一个关注冲突的情感条件。在该条件的指导下，每个话语通过双向修正流被传输到一个明确的情感空间端点。候选情感通过对传输端点的自适应原型云评分和与原始多模态条件的反向类别到条件一致性进行联合验证，从而实现关注冲突的识别。BiCFlow-MER在IEMOCAP、MELD和零样本CASE基准测试中表现优于所有比较方法。通过条件传输协调判别性识别和生成性证据建模，BiCFlow-MER定义了一个新的情感识别范式。",
+      "authors": [
+        "Yanbing Wang",
+        "Shenyue Wang",
+        "Chunyang Yu"
+      ],
+      "date": "2026-09-24",
+      "id": "2609.27615",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "BiCFlow-MER: Orchestrating Discriminative and Generative Multimodal Emotion Recognition via Conditional Transport",
+      "title_zh": "BiCFlow-MER：通过条件传输协调判别性和生成性多模态情感识别",
+      "url": "/daily/2026-09-24/#paper-2609-27615"
+    },
+    {
+      "abstract": "We introduce the Illinois Social Attitudes Aggregate Corpus (ISAAC), an open, modular, and accessible corpus of 527 million+ English-language Reddit posts selected for relevance to six key social group distinctions based on race, sexuality, age, ability, body weight, and skin tone, covering the 17-year period from 2007 to 2023. A multi-step, human-audited filtering pipeline was used to keep irrelevant content in the curated dataset below 10%, both overall and for each social group distinction. Each post was then algorithmically annotated with the user's estimated home region, along with a suite of validated off-the-shelf and custom semantic labels including moralization, sentiment, emotion, and linguistic generalization. We confirm the validity of the resulting corpus through convergent evidence linking ISAAC to macro-level societal trends, such as online search behavior, temporal spikes during major societal events (both nationally and regionally), and long-term shifts in public attitudes. By offering a unified, public infrastructure, ISAAC eliminates research fragmentation and enables seamless replication while supporting diverse empirical workflows at scale. Specifically, ISAAC allows investigators to perform cross-category comparisons, conduct high-precision tracking of long-term temporal shifts in social group discourse, and map spatial variation onto localized public opinion and policy outcomes. ISAAC's fully public, modular pipeline facilitates easy extension of the corpus to new platforms, languages, and social categories. To accommodate various research needs, ISAAC is accessible both without coding through a point-and-click website and labeler web-apps, and programmatically via an SQL playground, a Python package, and HuggingFace.",
+      "abstract_zh": "我们介绍了伊利诺伊州社会态度汇总语料库（ISAAC），这是一个开放的、模块化的、易于访问的语料库，包含超过5.27亿条与六个关键社会群体区分（基于种族、性别、年龄、能力、体重和肤色）相关的英文Reddit帖子，涵盖2007年至2023年17年的时间段。我们使用了一个多步骤的人为审核过滤流程，以确保策划的数据集中不相关内容的比例低于10%，无论是整体还是针对每个社会群体区分。每个帖子随后被算法标注，包含用户估计的居住地区，以及一系列经过验证的现成和自定义语义标签，包括道德化、情感、情绪和语言概括。我们通过将ISAAC与宏观社会趋势（如在线搜索行为、重大社会事件期间的时间波动（无论是全国性还是区域性）以及公众态度的长期变化）联系起来的趋同证据，确认了所得到的语料库的有效性。通过提供统一的公共基础设施，ISAAC消除了研究碎片化，支持无缝复制，同时支持大规模的多样化实证工作流程。具体而言，ISAAC允许研究者进行跨类别比较，进行社会群体话语的长期时间变化的高精度追踪，并将空间变异映射到本地化的公众舆论和政策结果。ISAAC的完全公开的模块化流程便于将语料库扩展到新的平台、语言和社会类别。为了满足各种研究需求，ISAAC既可以通过点击式网站和标注者网页应用程序无编码访问，也可以通过SQL游乐场、Python包和HuggingFace进行编程访问。",
+      "authors": [
+        "Babak Hemmatian",
+        "Sarah Hadjarab",
+        "Jessica Chen",
+        "Benedek Kurdi"
+      ],
+      "date": "2026-09-24",
+      "id": "2609.27059",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "The Illinois Social Attitudes Aggregate Corpus (ISAAC): An Open Tool and Reproducible Pipeline for Analyzing Social Group Discourse at Scale",
+      "title_zh": "伊利诺伊州社会态度汇总语料库（ISAAC）：一个开放工具和可重复的分析社会群体话语的流程",
+      "url": "/daily/2026-09-24/#paper-2609-27059"
+    },
+    {
+      "abstract": "The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agents in simulated dynamic worlds. This connects the current era of general artificial intelligence (AI/AGI) with the proliferation of transformer-based conversational agents and the increased computational capabilities. Given an overview of current and previous multi-agent theories of mind (socially and affectively-aware agents), the existence of an integrative design of agent interactions with themselves and with humans must be crucial for understanding how to create sustainable and governance in future human-agent reasoning systems. In this work is presented a software \"AGIMUD\" that integrates: A. socially-aware reasoning and emotion in agent behavior and interaction, B. a design of human multimodal scheme for human users, artificial agents and simulated worlds, and C. distributing the AI processing through the network to enable multiple autonomous agents. These integrations allow the dynamic world recreation as multi-user dungeons (MUDs) where both agents and humans can interact simultaneously in real time. Find the code online in https://github.com/dberga/AGIMUD.",
+      "abstract_zh": "本文的目的是提供设计原则和软件架构，以促进人类与多个智能体在模拟动态世界中的互动。这将当前的通用人工智能（AI/AGI）时代与基于变换器的对话智能体的普及以及计算能力的提升联系起来。在概述当前和过去的多智能体心智理论（社会和情感意识智能体）后，智能体与自身及人类之间互动的综合设计的存在对于理解如何在未来的人机推理系统中创造可持续性和治理至关重要。本文展示了一款名为“AGIMUD”的软件，它集成了：A. 智能体行为和互动中的社会意识推理和情感，B. 为人类用户、人工智能体和模拟世界设计的人类多模态方案，以及 C. 通过网络分配AI处理，以支持多个自主智能体。这些集成使得动态世界的重建成为多用户地下城（MUD），在其中智能体和人类可以实时同时互动。相关代码可在 https://github.com/dberga/AGIMUD 在线获取。",
+      "authors": [
+        "David Berga"
+      ],
+      "date": "2026-09-24",
+      "id": "2609.26927",
+      "tags": [
+        "多模态情感"
+      ],
+      "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
+      "title_zh": "构建用于交互式多智能体模拟的社会情感人工智能",
+      "url": "/daily/2026-09-24/#paper-2609-26927"
+    },
     {
       "abstract": "Detecting emotions is necessary for building systems that can accurately and adaptively interact with humans. Speech Emotion Recognition (SER) has become an important research focus to develop intelligent spoken interfaces. However, most studies predict emotions at the utterance level, ignoring the conversational context, along with the emotional flow and speaker interactions it carries. In this paper, we introduce ACERT (Averaged Contextual Emotion Representation through Time), a module that integrates a flexible-length window of conversational context to better capture emotional evolution in spoken interactions. To evaluate the robustness of this method, we conducted experiments on datasets spanning diverse emotionally expressive styles and contexts. ACERT outperforms current state-of-the-art (SOTA) approaches on IEMOCAP, establishes the first context-aware benchmark on SAFE, and obtains strong results on MELD for unweighted, class-balanced metrics. Ablation studies show that ACERT's gains come from emotional and conversational continuity, rather than from speaker identity or acoustic conditions.",
       "abstract_zh": "情感检测对于构建能够准确且自适应地与人类互动的系统是必要的。语音情感识别（SER）已成为开发智能语音接口的重要研究重点。然而，大多数研究在话语层面预测情感，忽视了对话上下文及其所承载的情感流动和说话者互动。在本文中，我们介绍了ACERT（Averaged Contextual Emotion Representation through Time），一个集成灵活长度对话上下文窗口的模块，以更好地捕捉语音互动中的情感演变。为了评估该方法的稳健性，我们在涵盖多种情感表达风格和上下文的数据集上进行了实验。ACERT在IEMOCAP上超越了当前的最先进（SOTA）方法，在SAFE上建立了首个基于上下文的基准，并在MELD上获得了强劲的无权重、类别平衡指标结果。消融研究表明，ACERT的提升来自于情感和对话的连续性，而非说话者身份或声学条件。",

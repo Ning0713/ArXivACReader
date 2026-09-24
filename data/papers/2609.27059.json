@@ -1,0 +1,48 @@
+{
+  "abstract": "We introduce the Illinois Social Attitudes Aggregate Corpus (ISAAC), an open, modular, and accessible corpus of 527 million+ English-language Reddit posts selected for relevance to six key social group distinctions based on race, sexuality, age, ability, body weight, and skin tone, covering the 17-year period from 2007 to 2023. A multi-step, human-audited filtering pipeline was used to keep irrelevant content in the curated dataset below 10%, both overall and for each social group distinction. Each post was then algorithmically annotated with the user's estimated home region, along with a suite of validated off-the-shelf and custom semantic labels including moralization, sentiment, emotion, and linguistic generalization. We confirm the validity of the resulting corpus through convergent evidence linking ISAAC to macro-level societal trends, such as online search behavior, temporal spikes during major societal events (both nationally and regionally), and long-term shifts in public attitudes. By offering a unified, public infrastructure, ISAAC eliminates research fragmentation and enables seamless replication while supporting diverse empirical workflows at scale. Specifically, ISAAC allows investigators to perform cross-category comparisons, conduct high-precision tracking of long-term temporal shifts in social group discourse, and map spatial variation onto localized public opinion and policy outcomes. ISAAC's fully public, modular pipeline facilitates easy extension of the corpus to new platforms, languages, and social categories. To accommodate various research needs, ISAAC is accessible both without coding through a point-and-click website and labeler web-apps, and programmatically via an SQL playground, a Python package, and HuggingFace.",
+  "abstract_zh": "我们介绍了伊利诺伊州社会态度汇总语料库（ISAAC），这是一个开放的、模块化的、易于访问的语料库，包含超过5.27亿条与六个关键社会群体区分（基于种族、性别、年龄、能力、体重和肤色）相关的英文Reddit帖子，涵盖2007年至2023年17年的时间段。我们使用了一个多步骤的人为审核过滤流程，以确保策划的数据集中不相关内容的比例低于10%，无论是整体还是针对每个社会群体区分。每个帖子随后被算法标注，包含用户估计的居住地区，以及一系列经过验证的现成和自定义语义标签，包括道德化、情感、情绪和语言概括。我们通过将ISAAC与宏观社会趋势（如在线搜索行为、重大社会事件期间的时间波动（无论是全国性还是区域性）以及公众态度的长期变化）联系起来的趋同证据，确认了所得到的语料库的有效性。通过提供统一的公共基础设施，ISAAC消除了研究碎片化，支持无缝复制，同时支持大规模的多样化实证工作流程。具体而言，ISAAC允许研究者进行跨类别比较，进行社会群体话语的长期时间变化的高精度追踪，并将空间变异映射到本地化的公众舆论和政策结果。ISAAC的完全公开的模块化流程便于将语料库扩展到新的平台、语言和社会类别。为了满足各种研究需求，ISAAC既可以通过点击式网站和标注者网页应用程序无编码访问，也可以通过SQL游乐场、Python包和HuggingFace进行编程访问。",
+  "arxiv_id": "2609.27059",
+  "arxiv_url": "https://arxiv.org/abs/2609.27059v1",
+  "authors": [
+    "Babak Hemmatian",
+    "Sarah Hadjarab",
+    "Jessica Chen",
+    "Benedek Kurdi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-24#paper-2609-27059",
+  "categories": [
+    "cs.CL",
+    "cs.SI"
+  ],
+  "fetched_at": "2026-09-24T09:51:07.174051+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.27059v1",
+  "published_at": "2026-09-22T20:59:57Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "情绪",
+      "dataset"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-09-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.27059v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": []
+  },
+  "title": "The Illinois Social Attitudes Aggregate Corpus (ISAAC): An Open Tool and Reproducible Pipeline for Analyzing Social Group Discourse at Scale",
+  "title_zh": "伊利诺伊州社会态度汇总语料库（ISAAC）：一个开放工具和可重复的分析社会群体话语的流程",
+  "translation_url": "https://hjfy.top/arxiv/2609.27059"
+}

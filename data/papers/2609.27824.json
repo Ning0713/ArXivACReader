@@ -1,0 +1,47 @@
+{
+  "abstract": "Generative AI is rapidly entering adolescents' everyday lives during a critical period of cognitive, social and emotional development. Yet its adoption is outpacing evidence on how adolescents themselves experience, understand and negotiate its expanding role in their lives. We examined AI-related discourse on r/teenagers from January 2023 to July 2026 using validated keyword-based retrieval and a human-in-the-loop, LLM-assisted thematic analysis. AI-related discussion increased substantially over time, and 11,083 analytically coded posts revealed eight interconnected domains of experience. Everyday and social use was most prevalent (36.8 percent), while discourse increasingly shifted toward authenticity, personal control and safety, and future human roles. Across domains, adolescents questioned when AI should support or substitute for human thinking and creativity, how conversational AI changes relationships and perceptions of agency, what can still be considered authentic, who controls personal information and representation, and what opportunities and roles should remain human. These findings position adolescent AI use not simply as technology adoption, but as an emerging negotiation over AI's place and boundaries in everyday life. Supporting this transition will require developmentally appropriate AI literacy, psychological and social support, and AI systems and policies that protect adolescents' agency, privacy, relationships and opportunities for human development.",
+  "abstract_zh": "生成性人工智能正在迅速进入青少年的日常生活，这一阶段正是他们认知、社会和情感发展的关键时期。然而，其采用速度超过了关于青少年如何体验、理解和协商人工智能在他们生活中日益扩展角色的证据。我们使用经过验证的基于关键词的检索和人机协作的LLM辅助主题分析，考察了2023年1月至2026年7月期间r/teenagers上的与人工智能相关的讨论。与人工智能相关的讨论随着时间的推移显著增加，11,083条经过分析编码的帖子揭示了八个相互关联的体验领域。日常和社交使用最为普遍（36.8%），而讨论逐渐转向真实性、个人控制和安全性以及未来人类角色。在各个领域，青少年质疑人工智能何时应支持或替代人类的思维和创造力，交互式人工智能如何改变关系和对自主性的认知，什么仍然可以被视为真实，谁控制个人信息和表现，以及哪些机会和角色应保留给人类。这些发现将青少年对人工智能的使用视为不仅仅是技术的采用，而是对人工智能在日常生活中的地位和界限的逐步协商。支持这一过渡需要发展适宜的人工智能素养、心理和社会支持，以及能够保护青少年自主性、隐私、关系和人类发展机会的人工智能系统和政策。",
+  "arxiv_id": "2609.27824",
+  "arxiv_url": "https://arxiv.org/abs/2609.27824v1",
+  "authors": [
+    "Jianfeng Zhu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-24#paper-2609-27824",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-24T09:51:07.193642+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.27824v1",
+  "published_at": "2026-08-18T22:54:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-09-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.27824v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "心理状态/福祉",
+      "社交信号"
+    ]
+  },
+  "title": "\"AI Is Turning Too Human\": How Teenagers Experience and Negotiate AI in Everyday Life",
+  "title_zh": "“人工智能变得过于人性化”：青少年如何在日常生活中体验和协商人工智能",
+  "translation_url": "https://hjfy.top/arxiv/2609.27824"
+}

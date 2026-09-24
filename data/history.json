@@ -588,8 +588,64 @@
         "情绪识别"
       ],
       "title": "Enriching Speech Emotion Representations with Conversational Context"
+    },
+    "2609.26927": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "first_seen": "2026-09-24",
+      "tags": [
+        "多模态情感"
+      ],
+      "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations"
+    },
+    "2609.27059": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "first_seen": "2026-09-24",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "The Illinois Social Attitudes Aggregate Corpus (ISAAC): An Open Tool and Reproducible Pipeline for Analyzing Social Group Discourse at Scale"
+    },
+    "2609.27615": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "first_seen": "2026-09-24",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "BiCFlow-MER: Orchestrating Discriminative and Generative Multimodal Emotion Recognition via Conditional Transport"
+    },
+    "2609.27824": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "first_seen": "2026-09-24",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "社交信号"
+      ],
+      "title": "\"AI Is Turning Too Human\": How Teenagers Experience and Negotiate AI in Everyday Life"
+    },
+    "2609.27939": {
+      "dates": [
+        "2026-09-24"
+      ],
+      "first_seen": "2026-09-24",
+      "tags": [
+        "情感大模型",
+        "鲁棒性/偏差",
+        "文本情感"
+      ],
+      "title": "From Sentiment Classification to Actionable and Responsible Feedback: A Scoping Review and Evidence Map of NLP in Student Evaluation of Teaching, 2015-2026"
     }
   },
-  "total": 51,
-  "updated_at": "2026-09-23T09:51:26.799065+00:00"
+  "total": 56,
+  "updated_at": "2026-09-24T09:51:09.854957+00:00"
 }

@@ -1,0 +1,56 @@
+{
+  "abstract": "Natural language processing (NLP) applied to open-ended teaching-evaluation comments (Student Evaluation of Teaching, SET) has tracked the field's technical evolution--from lexicons and conventional classifiers to transformers and large language models (LLMs)--but it is not evident that this technical diversification has been accompanied by corresponding gains in educational value and robustness of the evidence. This scoping review (PRISMA-ScR) maps 421 studies (2015-2026, 2026 partial) along a technical axis (RQ1) and four value dimensions (RQ2-RQ5). Dual mutually blinded LLM screening with sampled human adjudication coded seven extraction domains, with targeted codebook-boundary review at synthesis. The joint map's sharpest quantified gap is the actionability discontinuity: demonstrated output or stronger (A2+: 258/421; 61.3%) versus intended-user evaluation or stronger (A3+: 49/421; 11.6%), a 49.7 percentage-point drop. Sentiment analysis remains the modal task (300/421); diagnostic and generative depth is a substantial minority (D4-D5: 28.2% of resolved cases); a formal fairness metric is rare (1.9%). The findings are descriptive and do not support causal claims of progress: technological coexistence and uneven reporting are part of the map, but the A2+ to A3+ cliff is the contribution, not a quality ladder.",
+  "abstract_zh": "应用于开放式教学评价评论（学生教学评价，SET）的自然语言处理（NLP）追踪了该领域的技术演变——从词典和传统分类器到变换器和大型语言模型（LLMs）——但尚不清楚这种技术多样化是否伴随着教育价值和证据的稳健性相应的提升。本范围评估（PRISMA-ScR）沿技术轴（RQ1）和四个价值维度（RQ2-RQ5）绘制了421项研究（2015-2026，2026年部分）。采用双重互盲的LLM筛选与抽样人类裁决，编码了七个提取领域，并在综合时进行了针对性代码本边界审查。联合图谱中最明显的量化差距是可行性不连续性：展示的输出或更强（A2+: 258/421; 61.3%）与意图用户评价或更强（A3+: 49/421; 11.6%），下降了49.7个百分点。情感分析仍然是主要任务（300/421）；诊断和生成深度是一个相当小的少数（D4-D5: 解决案例的28.2%）；正式的公平性指标很少见（1.9%）。这些发现是描述性的，并不支持因果进展的主张：技术共存和不均匀报告是图谱的一部分，但A2+到A3+的悬崖是贡献，而不是质量阶梯。",
+  "arxiv_id": "2609.27939",
+  "arxiv_url": "https://arxiv.org/abs/2609.27939v1",
+  "authors": [
+    "Jeff Eicher",
+    "Rafael da Silva"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-24#paper-2609-27939",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-09-24T09:51:07.195153+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.27939v1",
+  "published_at": "2026-08-23T23:52:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "sentiment classification",
+      "情感分析",
+      "情感分类",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "classification",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.27939v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "鲁棒性/偏差",
+      "文本情感"
+    ]
+  },
+  "title": "From Sentiment Classification to Actionable and Responsible Feedback: A Scoping Review and Evidence Map of NLP in Student Evaluation of Teaching, 2015-2026",
+  "title_zh": "从情感分类到可行且负责任的反馈：2015-2026年学生教学评价中自然语言处理的范围评估与证据图谱",
+  "translation_url": "https://hjfy.top/arxiv/2609.27939"
+}

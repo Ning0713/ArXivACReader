@@ -1,0 +1,52 @@
+{
+  "abstract": "The objective of this article is to provide design principles and a software architecture for enabling interaction between humans and multiple agents in simulated dynamic worlds. This connects the current era of general artificial intelligence (AI/AGI) with the proliferation of transformer-based conversational agents and the increased computational capabilities. Given an overview of current and previous multi-agent theories of mind (socially and affectively-aware agents), the existence of an integrative design of agent interactions with themselves and with humans must be crucial for understanding how to create sustainable and governance in future human-agent reasoning systems. In this work is presented a software \"AGIMUD\" that integrates: A. socially-aware reasoning and emotion in agent behavior and interaction, B. a design of human multimodal scheme for human users, artificial agents and simulated worlds, and C. distributing the AI processing through the network to enable multiple autonomous agents. These integrations allow the dynamic world recreation as multi-user dungeons (MUDs) where both agents and humans can interact simultaneously in real time. Find the code online in https://github.com/dberga/AGIMUD.",
+  "abstract_zh": "本文的目的是提供设计原则和软件架构，以促进人类与多个智能体在模拟动态世界中的互动。这将当前的通用人工智能（AI/AGI）时代与基于变换器的对话智能体的普及以及计算能力的提升联系起来。在概述当前和过去的多智能体心智理论（社会和情感意识智能体）后，智能体与自身及人类之间互动的综合设计的存在对于理解如何在未来的人机推理系统中创造可持续性和治理至关重要。本文展示了一款名为“AGIMUD”的软件，它集成了：A. 智能体行为和互动中的社会意识推理和情感，B. 为人类用户、人工智能体和模拟世界设计的人类多模态方案，以及 C. 通过网络分配AI处理，以支持多个自主智能体。这些集成使得动态世界的重建成为多用户地下城（MUD），在其中智能体和人类可以实时同时互动。相关代码可在 https://github.com/dberga/AGIMUD 在线获取。",
+  "arxiv_id": "2609.26927",
+  "arxiv_url": "https://arxiv.org/abs/2609.26927v1",
+  "authors": [
+    "David Berga"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-24#paper-2609-26927",
+  "categories": [
+    "cs.AI",
+    "cs.CY",
+    "cs.GT",
+    "cs.HC",
+    "cs.MA"
+  ],
+  "fetched_at": "2026-09-24T09:51:07.142185+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.26927v1",
+  "published_at": "2026-09-22T18:21:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "multimodal",
+      "reasoning",
+      "多模态",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-09-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.26927v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": []
+  },
+  "title": "Building Socio-Affective Artificial Intelligence for Interactive Multi-Agent Simulations",
+  "title_zh": "构建用于交互式多智能体模拟的社会情感人工智能",
+  "translation_url": "https://hjfy.top/arxiv/2609.26927"
+}
