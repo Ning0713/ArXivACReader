@@ -1,0 +1,55 @@
+{
+  "abstract": "Mental health disorders affect hundreds of millions of people around the world, yet access to professional counseling remains severely limited. AI-powered dialogue systems offer a scalable alternative, but existing models face two fundamental challenges. First, they lack the bidirectional understanding needed to capture the layered nature of emotional expression, particularly in cases of progressive disclosure, where clients often present symptoms at the surface-level while concealing deeper trauma. Autoregressive (AR) models process information sequentially and cannot revise early interpretations when new evidence emerges later in the conversation. Second, they fail to effectively incorporate the relational knowledge that underlies clinical reasoning. In this paper, we propose \\textbf{BiGraph-Diffuse}, the first large-scale diffusion language model tailored for the counseling domain. We further introduce \\textbf{BiGraph-RAG}, a relation-free graph-structured retrieval strategy that relies only on lightweight entity extraction and semantic linking. This design preserves inferential pathways from observable symptoms to potential underlying causes, while incurring zero LLM token cost during indexing. Importantly, these two modules are not merely combined but mutually reinforcing. The diffusion model provides a holistic bidirectional context, enabling the system to defer premature judgments during progressive disclosure. Meanwhile, graph-based retrieval captures the structured interconnections of clinical knowledge. Extensive experiments demonstrate the effectiveness of BiGraph-Diffuse, and we further provide a solid theoretical analysis to support its design.",
+  "abstract_zh": "心理健康障碍影响着全球数亿人，但专业咨询的获取仍然非常有限。基于人工智能的对话系统提供了一种可扩展的替代方案，但现有模型面临两个基本挑战。首先，它们缺乏捕捉情感表达层次化特征所需的双向理解，特别是在渐进披露的情况下，客户往往在表面上呈现症状，而隐藏更深层的创伤。自回归（AR）模型按顺序处理信息，无法在对话中后期出现新证据时修正早期的解释。其次，它们未能有效整合支撑临床推理的关系知识。本文提出了 extbf{BiGraph-Diffuse}，这是第一个针对咨询领域的大规模扩散语言模型。我们进一步引入了 extbf{BiGraph-RAG}，一种无关系的图结构检索策略，仅依赖轻量级实体提取和语义链接。该设计保留了从可观察症状到潜在根本原因的推理路径，同时在索引过程中不产生任何LLM令牌成本。重要的是，这两个模块并非简单组合，而是相互强化。扩散模型提供了整体的双向上下文，使系统能够在渐进披露过程中推迟过早的判断。同时，基于图的检索捕捉了临床知识的结构性相互联系。大量实验表明了BiGraph-Diffuse的有效性，我们还提供了坚实的理论分析以支持其设计。",
+  "arxiv_id": "2609.29519",
+  "arxiv_url": "https://arxiv.org/abs/2609.29519v1",
+  "authors": [
+    "Yuxiang Cheng",
+    "Quanwei Tang",
+    "Lvhui Lu",
+    "Dong Zhang",
+    "Shoushan Li",
+    "Erik Cambria"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-25#paper-2609-29519",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-25T10:06:51.827950+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.29519v1",
+  "published_at": "2026-08-25T04:22:18Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "reasoning",
+      "dialogue",
+      "conversation",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.29519v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "BiGraph-Diffuse: A Bidirectional Diffusion Language Model with Graph-Structured Retrieval For Mental Health Counseling",
+  "title_zh": "BiGraph-Diffuse：一种具有图结构检索的双向扩散语言模型用于心理健康咨询",
+  "translation_url": "https://hjfy.top/arxiv/2609.29519"
+}

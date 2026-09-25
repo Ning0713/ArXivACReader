@@ -1,0 +1,51 @@
+{
+  "abstract": "A large language model (LLM) can turn a text into a distribution over an ordered scale, but that distribution is a noisy measurement: saturated, compressed or exaggerated, and biased in a consistent direction. We propose CORDIAL, which treats the model's output as a noisy reading of the true label and corrects it with a channel of five interpretable parameters. The channel is small enough for its posterior to be averaged from a handful of labels, and we prove that the resulting calibration preserves first-order stochastic order. On Amazon reviews and CMU-MOSEI transcripts with four LLMs, CORDIAL has the lowest log loss among nine calibrators in 76 of 80 settings with 5 to 100 labels; with 20 labels and the main 7B reader, it matches the strongest baseline using 28-54 labels. The same posterior lets us learn priors from other tasks and fuse several LLMs. Unrestricted calibrators such as Dirichlet calibration overtake it only as the calibration set grows into the hundreds or thousands.",
+  "abstract_zh": "大型语言模型（LLM）可以将文本转换为有序尺度上的分布，但该分布是一种噪声测量：饱和、压缩或夸大，并且在一致的方向上存在偏差。我们提出了CORDIAL，它将模型的输出视为真实标签的噪声读数，并通过五个可解释参数的通道进行修正。该通道足够小，可以从少量标签中平均其后验分布，我们证明了所得到的校准保持了一阶随机顺序。在亚马逊评论和CMU-MOSEI转录本上，使用四个LLM的CORDIAL在80个设置中有76个的对数损失低于九个校准器；在使用20个标签和主要的7B阅读器时，它与使用28-54个标签的最强基线相匹配。相同的后验分布使我们能够从其他任务中学习先验，并融合多个LLM。只有当校准集增长到数百或数千时，无限制的校准器（如Dirichlet校准）才会超越它。",
+  "arxiv_id": "2609.29807",
+  "arxiv_url": "https://arxiv.org/abs/2609.29807v1",
+  "authors": [
+    "Xiangwei Wang",
+    "Peng Wang",
+    "Saman Halgamuge"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-25#paper-2609-29807",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-09-25T10:06:51.899859+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.29807v1",
+  "published_at": "2026-09-24T13:41:29Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "CMU MOSEI",
+      "large language model",
+      "LLM",
+      "LLMs"
+    ],
+    "reasons": [
+      "情感计算数据集证据"
+    ],
+    "score": 29.0
+  },
+  "seen_dates": [
+    "2026-09-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.29807v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "文本情感",
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels",
+  "title_zh": "CORDIAL：从少量标签校准有序大型语言模型输出",
+  "translation_url": "https://hjfy.top/arxiv/2609.29807"
+}

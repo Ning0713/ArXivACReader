@@ -1,0 +1,50 @@
+{
+  "abstract": "We audit a multilingual affective generation benchmark eight instruction-tuned LLMs producing emoji summaries for 17,100 Bangla, English and Hindi sentences, with 6,960 human judgements and find its headline conclusions to be artefacts of the measurement instrument rather than properties of the systems. Treating annotators as a random rather than a fixed factor, no system differs significantly from any other ($F(7,14)=0.59$, $p=0.76$), although the conventional analysis declares 19 of 28 pairwise differences significant. Annotator identity explains far more rating variance than system identity, and the winning system changes whenever any single annotator is removed. The ordering that does emerge tracks output length: mean emoji count explains 78.7\\% of between-system variance, and a within-item length-matched comparison over 2,599 pairs reverses the leaderboard. We further show that cross-provider anisotropy differences vanish under mean-centring, that per-language token costs change sign with the normalising unit, and that multi-view row-wise splits inflate macro-F1 by $3.1$ points and change the top-ranked system. In place of preference scoring we propose **emoji-affect decodability**, a reference-based probe whose rankings are stable to $\\pm0.003$ macro-F1 across seeds.",
+  "abstract_zh": "我们审计了一个多语言情感生成基准，评估了八个经过指令调优的大型语言模型（LLMs）为17,100个孟加拉语、英语和印地语句子生成的表情符号摘要，并结合6,960条人工评判，发现其主要结论是测量工具的伪影，而非系统的属性。将注释者视为随机因素而非固定因素时，任何系统之间没有显著差异（$F(7,14)=0.59$, $p=0.76$），尽管传统分析宣称28对中的19对差异显著。注释者身份解释的评分方差远大于系统身份，并且每当移除任何单个注释者时，获胜系统都会发生变化。出现的排序与输出长度相关：平均表情符号数量解释了78.7 ext{%}的系统间方差，而在2,599对中进行的按项长度匹配比较则颠覆了排行榜。我们进一步表明，跨提供者的各向异性差异在均值中心化后消失，每种语言的标记成本随归一化单位的变化而改变，并且多视角行分割使宏观F1提高了3.1分，并改变了排名最高的系统。我们提出了**表情符号情感可解码性**作为偏好评分的替代，这是一种基于参考的探测器，其排名在不同种子下稳定在$ ext{±}0.003$宏观F1。",
+  "arxiv_id": "2609.29445",
+  "arxiv_url": "https://arxiv.org/abs/2609.29445v1",
+  "authors": [
+    "Fardeen Sadab",
+    "Adib Sakhawat"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-25#paper-2609-29445",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-25T10:06:51.883052+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.29445v1",
+  "published_at": "2026-09-24T12:02:53Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "LLMs",
+      "generation",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-09-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.29445v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "数据集/评测",
+      "面部表情"
+    ]
+  },
+  "title": "Two Emojis of Difference: What Multilingual Affective Generation Benchmarks Actually Measure",
+  "title_zh": "差异的两个表情符号：多语言情感生成基准实际上测量了什么",
+  "translation_url": "https://hjfy.top/arxiv/2609.29445"
+}

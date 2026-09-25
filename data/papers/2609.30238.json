@@ -1,0 +1,57 @@
+{
+  "abstract": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still suffer from spurious generation and noisy guidance due to the lack of high-level semantic grounding in partially observed multimodal evidence. To address these issues, we propose SemMSA, a latent semantic-aided framework that constructs rich sentiment-relevant semantics with LLMs, fully integrating with all modalities via anchor-free spectral alignment. It mainly consists of Cross-modal Semantic Refinement (CSR) and Cross-modal Spectral Alignment (CSA). Specifically, CSR first adaptively extracts visual and acoustic representations by corresponding adapters to form a unified multimodal prefix with language in the frozen LLM embedding space. It then iteratively produces continuous discriminative semantic states through a token-efficient latent refinement process without decoding explicit text. Next, CSA simultaneously aligns the refined semantics with all modalities by enhancing the dominant spectral component of their kernel Gram matrix. This captures global nonlinear dependencies among all representations without relying on a predefined anchor modality. In addition, an instance-level spectral separation constraint preserves cross-sample discriminability and mitigates representation collapse. Extensive experiments on SIMS, MOSI, and MOSEI benchmarks demonstrate that SemMSA achieves state-of-the-art performance.",
+  "abstract_zh": "近期对多模态情感分析（MSA）的研究集中于从语言、视觉和声学模态中学习，以推断人类情感，尤其是在不完整数据的情况下。大多数研究通常通过重构模态特征或设计复杂的融合机制来补偿缺失的信息。然而，由于在部分观察的多模态证据中缺乏高层次的语义基础，这些方法仍然面临虚假生成和噪声引导的问题。为了解决这些问题，我们提出了SemMSA，一个基于潜在语义的框架，该框架利用大型语言模型（LLMs）构建丰富的情感相关语义，并通过无锚点的光谱对齐完全整合所有模态。该框架主要由跨模态语义精炼（CSR）和跨模态光谱对齐（CSA）组成。具体而言，CSR首先通过相应的适配器自适应提取视觉和声学表示，以形成与冻结的LLM嵌入空间中的语言统一的多模态前缀。然后，它通过一种高效的潜在精炼过程迭代生成连续的区分语义状态，而无需解码显式文本。接下来，CSA通过增强其核Gram矩阵的主导光谱分量，同时对所有模态的精炼语义进行对齐。这捕捉了所有表示之间的全局非线性依赖关系，而不依赖于预定义的锚模态。此外，实例级光谱分离约束保持了跨样本的可区分性，并减轻了表示崩溃。在SIMS、MOSI和MOSEI基准上的大量实验表明，SemMSA实现了最先进的性能。",
+  "arxiv_id": "2609.30238",
+  "arxiv_url": "https://arxiv.org/abs/2609.30238v1",
+  "authors": [
+    "Wenhao Li",
+    "Zhibin Wu",
+    "Chong Xiao",
+    "Qiangchang Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-25#paper-2609-30238",
+  "categories": [
+    "cs.CL",
+    "cs.CV",
+    "cs.MM"
+  ],
+  "fetched_at": "2026-09-25T10:06:51.914329+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.30238v1",
+  "published_at": "2026-09-24T17:55:31Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "multimodal",
+      "LLM",
+      "LLMs",
+      "generation",
+      "多模态",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-09-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.30238v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+  "title_zh": "SemMSA：基于潜在语义的鲁棒多模态情感分析框架（处理不完整数据）",
+  "translation_url": "https://hjfy.top/arxiv/2609.30238"
+}

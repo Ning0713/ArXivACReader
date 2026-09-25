@@ -1,6 +1,145 @@
 {
-  "generated_at": "2026-09-24T09:51:09.854957+00:00",
+  "generated_at": "2026-09-25T10:06:56.102792+00:00",
   "items": [
+    {
+      "abstract": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still suffer from spurious generation and noisy guidance due to the lack of high-level semantic grounding in partially observed multimodal evidence. To address these issues, we propose SemMSA, a latent semantic-aided framework that constructs rich sentiment-relevant semantics with LLMs, fully integrating with all modalities via anchor-free spectral alignment. It mainly consists of Cross-modal Semantic Refinement (CSR) and Cross-modal Spectral Alignment (CSA). Specifically, CSR first adaptively extracts visual and acoustic representations by corresponding adapters to form a unified multimodal prefix with language in the frozen LLM embedding space. It then iteratively produces continuous discriminative semantic states through a token-efficient latent refinement process without decoding explicit text. Next, CSA simultaneously aligns the refined semantics with all modalities by enhancing the dominant spectral component of their kernel Gram matrix. This captures global nonlinear dependencies among all representations without relying on a predefined anchor modality. In addition, an instance-level spectral separation constraint preserves cross-sample discriminability and mitigates representation collapse. Extensive experiments on SIMS, MOSI, and MOSEI benchmarks demonstrate that SemMSA achieves state-of-the-art performance.",
+      "abstract_zh": "近期对多模态情感分析（MSA）的研究集中于从语言、视觉和声学模态中学习，以推断人类情感，尤其是在不完整数据的情况下。大多数研究通常通过重构模态特征或设计复杂的融合机制来补偿缺失的信息。然而，由于在部分观察的多模态证据中缺乏高层次的语义基础，这些方法仍然面临虚假生成和噪声引导的问题。为了解决这些问题，我们提出了SemMSA，一个基于潜在语义的框架，该框架利用大型语言模型（LLMs）构建丰富的情感相关语义，并通过无锚点的光谱对齐完全整合所有模态。该框架主要由跨模态语义精炼（CSR）和跨模态光谱对齐（CSA）组成。具体而言，CSR首先通过相应的适配器自适应提取视觉和声学表示，以形成与冻结的LLM嵌入空间中的语言统一的多模态前缀。然后，它通过一种高效的潜在精炼过程迭代生成连续的区分语义状态，而无需解码显式文本。接下来，CSA通过增强其核Gram矩阵的主导光谱分量，同时对所有模态的精炼语义进行对齐。这捕捉了所有表示之间的全局非线性依赖关系，而不依赖于预定义的锚模态。此外，实例级光谱分离约束保持了跨样本的可区分性，并减轻了表示崩溃。在SIMS、MOSI和MOSEI基准上的大量实验表明，SemMSA实现了最先进的性能。",
+      "authors": [
+        "Wenhao Li",
+        "Zhibin Wu",
+        "Chong Xiao",
+        "Qiangchang Wang"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.30238",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data",
+      "title_zh": "SemMSA：基于潜在语义的鲁棒多模态情感分析框架（处理不完整数据）",
+      "url": "/daily/2026-09-25/#paper-2609-30238"
+    },
+    {
+      "abstract": "A large language model (LLM) can turn a text into a distribution over an ordered scale, but that distribution is a noisy measurement: saturated, compressed or exaggerated, and biased in a consistent direction. We propose CORDIAL, which treats the model's output as a noisy reading of the true label and corrects it with a channel of five interpretable parameters. The channel is small enough for its posterior to be averaged from a handful of labels, and we prove that the resulting calibration preserves first-order stochastic order. On Amazon reviews and CMU-MOSEI transcripts with four LLMs, CORDIAL has the lowest log loss among nine calibrators in 76 of 80 settings with 5 to 100 labels; with 20 labels and the main 7B reader, it matches the strongest baseline using 28-54 labels. The same posterior lets us learn priors from other tasks and fuse several LLMs. Unrestricted calibrators such as Dirichlet calibration overtake it only as the calibration set grows into the hundreds or thousands.",
+      "abstract_zh": "大型语言模型（LLM）可以将文本转换为有序尺度上的分布，但该分布是一种噪声测量：饱和、压缩或夸大，并且在一致的方向上存在偏差。我们提出了CORDIAL，它将模型的输出视为真实标签的噪声读数，并通过五个可解释参数的通道进行修正。该通道足够小，可以从少量标签中平均其后验分布，我们证明了所得到的校准保持了一阶随机顺序。在亚马逊评论和CMU-MOSEI转录本上，使用四个LLM的CORDIAL在80个设置中有76个的对数损失低于九个校准器；在使用20个标签和主要的7B阅读器时，它与使用28-54个标签的最强基线相匹配。相同的后验分布使我们能够从其他任务中学习先验，并融合多个LLM。只有当校准集增长到数百或数千时，无限制的校准器（如Dirichlet校准）才会超越它。",
+      "authors": [
+        "Xiangwei Wang",
+        "Peng Wang",
+        "Saman Halgamuge"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.29807",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "鲁棒性/偏差"
+      ],
+      "title": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels",
+      "title_zh": "CORDIAL：从少量标签校准有序大型语言模型输出",
+      "url": "/daily/2026-09-25/#paper-2609-29807"
+    },
+    {
+      "abstract": "Multimodal emotion recognition is a key research area in affective computing, with applications in sentiment analysis, intelligent customer service, and human-computer interaction. However, existing methods often rely on single-modal features or simple multimodal fusion, failing to capture the synergy between global and local contexts, which limits model performance and emotion understanding. To address this challenge, we propose Transformer-GAT, a hybrid framework that combines Transformer and the Graph Attention Network to enable cross-modal emotion understanding. The Transformer is used to capture global semantic information, while the Graph Attention Network is employed to model fine-grained relationships between modalities, thereby enhancing the representation of emotional features. Experiments on the IEMOCAP and MELD datasets show that our model achieves weighted F1 scores of 72.45% and 77.37%, outperforming state-of-the-art methods. These results demonstrate that Transformer-GAT effectively integrates multimodal features, balances global and local contexts, and provides deeper emotional insights, offering new directions for multimodal emotion computing.",
+      "abstract_zh": "多模态情感识别是情感计算中的一个关键研究领域，广泛应用于情感分析、智能客服和人机交互。然而，现有方法往往依赖于单一模态特征或简单的多模态融合，未能有效捕捉全局和局部上下文之间的协同作用，从而限制了模型性能和情感理解。为了解决这一挑战，我们提出了Transformer-GAT，一种结合了Transformer和图注意力网络（Graph Attention Network）的混合框架，以实现跨模态情感理解。Transformer用于捕捉全局语义信息，而图注意力网络则用于建模模态之间的细粒度关系，从而增强情感特征的表示。在IEMOCAP和MELD数据集上的实验表明，我们的模型达到了72.45%和77.37%的加权F1分数，超越了当前最先进的方法。这些结果表明，Transformer-GAT有效整合了多模态特征，平衡了全局和局部上下文，并提供了更深层次的情感洞察，为多模态情感计算提供了新的方向。",
+      "authors": [
+        "Jiaqi Qiao",
+        "Yifan Lyu",
+        "Xiujuan Xu"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.29556",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "Cross-Modal Emotion Understanding: A Transformer-GAT Approach for Dialogue Emotion Recognition",
+      "title_zh": "跨模态情感理解：一种基于Transformer-GAT的对话情感识别方法",
+      "url": "/daily/2026-09-25/#paper-2609-29556"
+    },
+    {
+      "abstract": "Automatic stress recognition from facial video provides a non-contact approach for affective monitoring. However, most existing video-based methods divide complete recordings into shorter temporal segments before performing classification. Such segmentation requires additional decisions concerning segment duration, overlap, and prediction aggregation, and may restrict the model from exploiting information distributed across the entire recording. We introduce UNWIND, a facial-video framework for stress detection that analyzes a complete recording as a single model input, eliminating the need for temporal windowing or external segmentation. UNWIND reorganizes the video by folding its temporal dimension into the channel dimension of a two-dimensional spatial representation, which is subsequently processed through a unified asymmetric-attention architecture. With a temporal stride of $\\tau=1$, the framework processes the entire $120$-second sequence, corresponding to $3{,}600$ frames sampled at $30$~fps, in a single input. We evaluate seven temporal-stride settings on a stress dataset comprising $58$ subjects, using a stratified subject-level protocol that covers configurations from dense frame retention to sparse temporal sampling. The highest test accuracy, $70.02\\%$, is obtained at $\\tau=15$, while processing all frames at $\\tau=1$ achieves a comparable accuracy of $69.73\\%$. Computational requirements range from $12.48$ to $348.78$ GFLOPs across the evaluated stride settings, illustrating the balance between temporal sampling density and computational efficiency. The findings show that effective facial-video stress recognition can be achieved without dividing recordings into temporal windows and that complete-recording inference can be performed within a single unified model.",
+      "abstract_zh": "从面部视频中自动识别压力提供了一种非接触式的情感监测方法。然而，大多数现有的视频基础方法在进行分类之前会将完整录制分割成较短的时间段。这种分段需要额外的决策，涉及段的持续时间、重叠和预测聚合，并可能限制模型利用分布在整个录制中的信息。我们介绍了UNWIND，一个用于压力检测的面部视频框架，它将完整录制作为单个模型输入进行分析，消除了对时间窗口或外部分段的需求。UNWIND通过将视频的时间维度折叠到二维空间表示的通道维度中来重新组织视频，随后通过统一的非对称注意力架构进行处理。在时间步长$ au=1$下，该框架处理整个120秒的序列，相当于以30 fps采样的3600帧，在单个输入中完成。我们在一个包含58个受试者的压力数据集上评估了七个时间步长设置，使用分层受试者级协议，涵盖从密集帧保留到稀疏时间采样的配置。在$ au=15$时获得了最高的测试准确率70.02%，而在$ au=1$时处理所有帧也达到了相当的准确率69.73%。在评估的步长设置中，计算需求范围从12.48到348.78 GFLOPs，说明了时间采样密度与计算效率之间的平衡。研究结果表明，能够在不将录制分割成时间窗口的情况下实现有效的面部视频压力识别，并且可以在单个统一模型中进行完整录制推断。",
+      "authors": [
+        "Stefanos Gkikas",
+        "Christian Arzate Cruz",
+        "Eric Nichols",
+        "Giorgos Giannakakis",
+        "Randy Gomez"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.29553",
+      "tags": [
+        "数据集/评测",
+        "心理状态/福祉"
+      ],
+      "title": "UNWIND: Any-Length Facial Video for Stress Detection without Temporal Windowing",
+      "title_zh": "UNWIND：无时间窗口的任意长度面部视频压力检测",
+      "url": "/daily/2026-09-25/#paper-2609-29553"
+    },
+    {
+      "abstract": "Mental health disorders affect hundreds of millions of people around the world, yet access to professional counseling remains severely limited. AI-powered dialogue systems offer a scalable alternative, but existing models face two fundamental challenges. First, they lack the bidirectional understanding needed to capture the layered nature of emotional expression, particularly in cases of progressive disclosure, where clients often present symptoms at the surface-level while concealing deeper trauma. Autoregressive (AR) models process information sequentially and cannot revise early interpretations when new evidence emerges later in the conversation. Second, they fail to effectively incorporate the relational knowledge that underlies clinical reasoning. In this paper, we propose \\textbf{BiGraph-Diffuse}, the first large-scale diffusion language model tailored for the counseling domain. We further introduce \\textbf{BiGraph-RAG}, a relation-free graph-structured retrieval strategy that relies only on lightweight entity extraction and semantic linking. This design preserves inferential pathways from observable symptoms to potential underlying causes, while incurring zero LLM token cost during indexing. Importantly, these two modules are not merely combined but mutually reinforcing. The diffusion model provides a holistic bidirectional context, enabling the system to defer premature judgments during progressive disclosure. Meanwhile, graph-based retrieval captures the structured interconnections of clinical knowledge. Extensive experiments demonstrate the effectiveness of BiGraph-Diffuse, and we further provide a solid theoretical analysis to support its design.",
+      "abstract_zh": "心理健康障碍影响着全球数亿人，但专业咨询的获取仍然非常有限。基于人工智能的对话系统提供了一种可扩展的替代方案，但现有模型面临两个基本挑战。首先，它们缺乏捕捉情感表达层次化特征所需的双向理解，特别是在渐进披露的情况下，客户往往在表面上呈现症状，而隐藏更深层的创伤。自回归（AR）模型按顺序处理信息，无法在对话中后期出现新证据时修正早期的解释。其次，它们未能有效整合支撑临床推理的关系知识。本文提出了 extbf{BiGraph-Diffuse}，这是第一个针对咨询领域的大规模扩散语言模型。我们进一步引入了 extbf{BiGraph-RAG}，一种无关系的图结构检索策略，仅依赖轻量级实体提取和语义链接。该设计保留了从可观察症状到潜在根本原因的推理路径，同时在索引过程中不产生任何LLM令牌成本。重要的是，这两个模块并非简单组合，而是相互强化。扩散模型提供了整体的双向上下文，使系统能够在渐进披露过程中推迟过早的判断。同时，基于图的检索捕捉了临床知识的结构性相互联系。大量实验表明了BiGraph-Diffuse的有效性，我们还提供了坚实的理论分析以支持其设计。",
+      "authors": [
+        "Yuxiang Cheng",
+        "Quanwei Tang",
+        "Lvhui Lu",
+        "Dong Zhang",
+        "Shoushan Li",
+        "Erik Cambria"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.29519",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型"
+      ],
+      "title": "BiGraph-Diffuse: A Bidirectional Diffusion Language Model with Graph-Structured Retrieval For Mental Health Counseling",
+      "title_zh": "BiGraph-Diffuse：一种具有图结构检索的双向扩散语言模型用于心理健康咨询",
+      "url": "/daily/2026-09-25/#paper-2609-29519"
+    },
+    {
+      "abstract": "We audit a multilingual affective generation benchmark eight instruction-tuned LLMs producing emoji summaries for 17,100 Bangla, English and Hindi sentences, with 6,960 human judgements and find its headline conclusions to be artefacts of the measurement instrument rather than properties of the systems. Treating annotators as a random rather than a fixed factor, no system differs significantly from any other ($F(7,14)=0.59$, $p=0.76$), although the conventional analysis declares 19 of 28 pairwise differences significant. Annotator identity explains far more rating variance than system identity, and the winning system changes whenever any single annotator is removed. The ordering that does emerge tracks output length: mean emoji count explains 78.7\\% of between-system variance, and a within-item length-matched comparison over 2,599 pairs reverses the leaderboard. We further show that cross-provider anisotropy differences vanish under mean-centring, that per-language token costs change sign with the normalising unit, and that multi-view row-wise splits inflate macro-F1 by $3.1$ points and change the top-ranked system. In place of preference scoring we propose **emoji-affect decodability**, a reference-based probe whose rankings are stable to $\\pm0.003$ macro-F1 across seeds.",
+      "abstract_zh": "我们审计了一个多语言情感生成基准，评估了八个经过指令调优的大型语言模型（LLMs）为17,100个孟加拉语、英语和印地语句子生成的表情符号摘要，并结合6,960条人工评判，发现其主要结论是测量工具的伪影，而非系统的属性。将注释者视为随机因素而非固定因素时，任何系统之间没有显著差异（$F(7,14)=0.59$, $p=0.76$），尽管传统分析宣称28对中的19对差异显著。注释者身份解释的评分方差远大于系统身份，并且每当移除任何单个注释者时，获胜系统都会发生变化。出现的排序与输出长度相关：平均表情符号数量解释了78.7 ext{%}的系统间方差，而在2,599对中进行的按项长度匹配比较则颠覆了排行榜。我们进一步表明，跨提供者的各向异性差异在均值中心化后消失，每种语言的标记成本随归一化单位的变化而改变，并且多视角行分割使宏观F1提高了3.1分，并改变了排名最高的系统。我们提出了**表情符号情感可解码性**作为偏好评分的替代，这是一种基于参考的探测器，其排名在不同种子下稳定在$ ext{±}0.003$宏观F1。",
+      "authors": [
+        "Fardeen Sadab",
+        "Adib Sakhawat"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.29445",
+      "tags": [
+        "情感生成",
+        "数据集/评测",
+        "面部表情"
+      ],
+      "title": "Two Emojis of Difference: What Multilingual Affective Generation Benchmarks Actually Measure",
+      "title_zh": "差异的两个表情符号：多语言情感生成基准实际上测量了什么",
+      "url": "/daily/2026-09-25/#paper-2609-29445"
+    },
+    {
+      "abstract": "Emotion dynamics are critical for understanding crisis-support conversations, yet most computational work treats emotion as static utterance-level labels. We introduce EMPATH, a framework for understanding affective dynamics in mental health dialogues across three granularities: turn-level labels, transition probabilities, and global conversation archetypes. Applying EMPATH to text-based crisis conversations with self-identified Black texters discussing grief, we find persistent negative affect, gradual hope-ward transitions, distinct texter-volunteer emotional roles, and heterogeneous recovery trajectories. These results highlight the informative patterns that emerge from computationally understanding crisis support and expressions of grief as dynamic processes within conversations, as well as the overall value of emotion-dynamic analysis for analyzing and comparing affect in dialogues.",
+      "abstract_zh": "情感动态对于理解危机支持对话至关重要，然而大多数计算工作将情感视为静态的发话级标签。我们引入了EMPATH，一个用于理解心理健康对话中情感动态的框架，涵盖三个层次：发话级标签、转变概率和整体对话原型。通过将EMPATH应用于自我认同为黑人发信者的文本危机对话，讨论悲伤时，我们发现持续的负面情感、逐渐向希望转变的过程、发信者与志愿者之间的情感角色差异，以及异质的恢复轨迹。这些结果突显了从计算上理解危机支持和悲伤表达作为对话中动态过程所产生的信息模式，以及情感动态分析在分析和比较对话中的情感方面的整体价值。",
+      "authors": [
+        "Ziwei Gong",
+        "Yuchen Huang",
+        "Wen Liang",
+        "Nicholas Deas",
+        "Melanie Subbiah",
+        "Kathleen McKeown",
+        "Julia Hirschberg"
+      ],
+      "date": "2026-09-25",
+      "id": "2609.29056",
+      "tags": [
+        "心理状态/福祉",
+        "文本情感"
+      ],
+      "title": "Empath: Tracing Multi-Level Emotion Dynamics in Crisis Counseling Dialogues",
+      "title_zh": "EMPATH：追踪危机咨询对话中的多层次情感动态",
+      "url": "/daily/2026-09-25/#paper-2609-29056"
+    },
     {
       "abstract": "Natural language processing (NLP) applied to open-ended teaching-evaluation comments (Student Evaluation of Teaching, SET) has tracked the field's technical evolution--from lexicons and conventional classifiers to transformers and large language models (LLMs)--but it is not evident that this technical diversification has been accompanied by corresponding gains in educational value and robustness of the evidence. This scoping review (PRISMA-ScR) maps 421 studies (2015-2026, 2026 partial) along a technical axis (RQ1) and four value dimensions (RQ2-RQ5). Dual mutually blinded LLM screening with sampled human adjudication coded seven extraction domains, with targeted codebook-boundary review at synthesis. The joint map's sharpest quantified gap is the actionability discontinuity: demonstrated output or stronger (A2+: 258/421; 61.3%) versus intended-user evaluation or stronger (A3+: 49/421; 11.6%), a 49.7 percentage-point drop. Sentiment analysis remains the modal task (300/421); diagnostic and generative depth is a substantial minority (D4-D5: 28.2% of resolved cases); a formal fairness metric is rare (1.9%). The findings are descriptive and do not support causal claims of progress: technological coexistence and uneven reporting are part of the map, but the A2+ to A3+ cliff is the contribution, not a quality ladder.",
       "abstract_zh": "应用于开放式教学评价评论（学生教学评价，SET）的自然语言处理（NLP）追踪了该领域的技术演变——从词典和传统分类器到变换器和大型语言模型（LLMs）——但尚不清楚这种技术多样化是否伴随着教育价值和证据的稳健性相应的提升。本范围评估（PRISMA-ScR）沿技术轴（RQ1）和四个价值维度（RQ2-RQ5）绘制了421项研究（2015-2026，2026年部分）。采用双重互盲的LLM筛选与抽样人类裁决，编码了七个提取领域，并在综合时进行了针对性代码本边界审查。联合图谱中最明显的量化差距是可行性不连续性：展示的输出或更强（A2+: 258/421; 61.3%）与意图用户评价或更强（A3+: 49/421; 11.6%），下降了49.7个百分点。情感分析仍然是主要任务（300/421）；诊断和生成深度是一个相当小的少数（D4-D5: 解决案例的28.2%）；正式的公平性指标很少见（1.9%）。这些发现是描述性的，并不支持因果进展的主张：技术共存和不均匀报告是图谱的一部分，但A2+到A3+的悬崖是贡献，而不是质量阶梯。",

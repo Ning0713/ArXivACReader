@@ -1,0 +1,55 @@
+{
+  "abstract": "Emotion dynamics are critical for understanding crisis-support conversations, yet most computational work treats emotion as static utterance-level labels. We introduce EMPATH, a framework for understanding affective dynamics in mental health dialogues across three granularities: turn-level labels, transition probabilities, and global conversation archetypes. Applying EMPATH to text-based crisis conversations with self-identified Black texters discussing grief, we find persistent negative affect, gradual hope-ward transitions, distinct texter-volunteer emotional roles, and heterogeneous recovery trajectories. These results highlight the informative patterns that emerge from computationally understanding crisis support and expressions of grief as dynamic processes within conversations, as well as the overall value of emotion-dynamic analysis for analyzing and comparing affect in dialogues.",
+  "abstract_zh": "情感动态对于理解危机支持对话至关重要，然而大多数计算工作将情感视为静态的发话级标签。我们引入了EMPATH，一个用于理解心理健康对话中情感动态的框架，涵盖三个层次：发话级标签、转变概率和整体对话原型。通过将EMPATH应用于自我认同为黑人发信者的文本危机对话，讨论悲伤时，我们发现持续的负面情感、逐渐向希望转变的过程、发信者与志愿者之间的情感角色差异，以及异质的恢复轨迹。这些结果突显了从计算上理解危机支持和悲伤表达作为对话中动态过程所产生的信息模式，以及情感动态分析在分析和比较对话中的情感方面的整体价值。",
+  "arxiv_id": "2609.29056",
+  "arxiv_url": "https://arxiv.org/abs/2609.29056v1",
+  "authors": [
+    "Ziwei Gong",
+    "Yuchen Huang",
+    "Wen Liang",
+    "Nicholas Deas",
+    "Melanie Subbiah",
+    "Kathleen McKeown",
+    "Julia Hirschberg"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-25#paper-2609-29056",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-25T10:06:51.867812+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.29056v1",
+  "published_at": "2026-09-24T05:40:15Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "affective",
+      "conversation",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.29056v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "文本情感"
+    ]
+  },
+  "title": "Empath: Tracing Multi-Level Emotion Dynamics in Crisis Counseling Dialogues",
+  "title_zh": "EMPATH：追踪危机咨询对话中的多层次情感动态",
+  "translation_url": "https://hjfy.top/arxiv/2609.29056"
+}

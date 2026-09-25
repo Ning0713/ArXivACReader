@@ -644,8 +644,89 @@
         "文本情感"
       ],
       "title": "From Sentiment Classification to Actionable and Responsible Feedback: A Scoping Review and Evidence Map of NLP in Student Evaluation of Teaching, 2015-2026"
+    },
+    "2609.29056": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "心理状态/福祉",
+        "文本情感"
+      ],
+      "title": "Empath: Tracing Multi-Level Emotion Dynamics in Crisis Counseling Dialogues"
+    },
+    "2609.29445": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "情感生成",
+        "数据集/评测",
+        "面部表情"
+      ],
+      "title": "Two Emojis of Difference: What Multilingual Affective Generation Benchmarks Actually Measure"
+    },
+    "2609.29519": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型"
+      ],
+      "title": "BiGraph-Diffuse: A Bidirectional Diffusion Language Model with Graph-Structured Retrieval For Mental Health Counseling"
+    },
+    "2609.29553": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "数据集/评测",
+        "心理状态/福祉"
+      ],
+      "title": "UNWIND: Any-Length Facial Video for Stress Detection without Temporal Windowing"
+    },
+    "2609.29556": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "Cross-Modal Emotion Understanding: A Transformer-GAT Approach for Dialogue Emotion Recognition"
+    },
+    "2609.29807": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "鲁棒性/偏差"
+      ],
+      "title": "CORDIAL: Calibrating Ordinal LLM Outputs from Few Labels"
+    },
+    "2609.30238": {
+      "dates": [
+        "2026-09-25"
+      ],
+      "first_seen": "2026-09-25",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data"
     }
   },
-  "total": 56,
-  "updated_at": "2026-09-24T09:51:09.854957+00:00"
+  "total": 63,
+  "updated_at": "2026-09-25T10:06:56.102792+00:00"
 }

@@ -1,0 +1,67 @@
+{
+  "abstract": "Multimodal emotion recognition is a key research area in affective computing, with applications in sentiment analysis, intelligent customer service, and human-computer interaction. However, existing methods often rely on single-modal features or simple multimodal fusion, failing to capture the synergy between global and local contexts, which limits model performance and emotion understanding. To address this challenge, we propose Transformer-GAT, a hybrid framework that combines Transformer and the Graph Attention Network to enable cross-modal emotion understanding. The Transformer is used to capture global semantic information, while the Graph Attention Network is employed to model fine-grained relationships between modalities, thereby enhancing the representation of emotional features. Experiments on the IEMOCAP and MELD datasets show that our model achieves weighted F1 scores of 72.45% and 77.37%, outperforming state-of-the-art methods. These results demonstrate that Transformer-GAT effectively integrates multimodal features, balances global and local contexts, and provides deeper emotional insights, offering new directions for multimodal emotion computing.",
+  "abstract_zh": "多模态情感识别是情感计算中的一个关键研究领域，广泛应用于情感分析、智能客服和人机交互。然而，现有方法往往依赖于单一模态特征或简单的多模态融合，未能有效捕捉全局和局部上下文之间的协同作用，从而限制了模型性能和情感理解。为了解决这一挑战，我们提出了Transformer-GAT，一种结合了Transformer和图注意力网络（Graph Attention Network）的混合框架，以实现跨模态情感理解。Transformer用于捕捉全局语义信息，而图注意力网络则用于建模模态之间的细粒度关系，从而增强情感特征的表示。在IEMOCAP和MELD数据集上的实验表明，我们的模型达到了72.45%和77.37%的加权F1分数，超越了当前最先进的方法。这些结果表明，Transformer-GAT有效整合了多模态特征，平衡了全局和局部上下文，并提供了更深层次的情感洞察，为多模态情感计算提供了新的方向。",
+  "arxiv_id": "2609.29556",
+  "arxiv_url": "https://arxiv.org/abs/2609.29556v1",
+  "authors": [
+    "Jiaqi Qiao",
+    "Yifan Lyu",
+    "Xiujuan Xu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-25#paper-2609-29556",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-25T10:06:51.831934+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.29556v1",
+  "published_at": "2026-09-02T07:50:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective computing",
+      "emotion recognition",
+      "emotion understanding",
+      "sentiment analysis",
+      "情感计算",
+      "情感识别",
+      "情感理解",
+      "情感分析",
+      "IEMOCAP",
+      "MELD",
+      "emotion",
+      "emotional",
+      "affective",
+      "multimodal",
+      "recognition",
+      "dialogue",
+      "多模态",
+      "识别",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.29556v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "文本情感"
+    ]
+  },
+  "title": "Cross-Modal Emotion Understanding: A Transformer-GAT Approach for Dialogue Emotion Recognition",
+  "title_zh": "跨模态情感理解：一种基于Transformer-GAT的对话情感识别方法",
+  "translation_url": "https://hjfy.top/arxiv/2609.29556"
+}
