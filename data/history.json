@@ -725,8 +725,42 @@
         "情感大模型"
       ],
       "title": "SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data"
+    },
+    "2609.30882": {
+      "dates": [
+        "2026-09-28"
+      ],
+      "first_seen": "2026-09-28",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Effects of Transcript Compression on LLM-based Medical Misinformation Detection in Japanese YouTube Videos"
+    },
+    "2609.31167": {
+      "dates": [
+        "2026-09-28"
+      ],
+      "first_seen": "2026-09-28",
+      "tags": [
+        "情绪识别",
+        "生理信号",
+        "数据集/评测"
+      ],
+      "title": "Neural State Prediction: Obstructing Shortcut Learning in EEG Foundation Models"
+    },
+    "2609.31285": {
+      "dates": [
+        "2026-09-28"
+      ],
+      "first_seen": "2026-09-28",
+      "tags": [
+        "面部表情"
+      ],
+      "title": "MoTop: Motion-Topological Model For Micro AU Detection"
     }
   },
-  "total": 63,
-  "updated_at": "2026-09-25T10:06:56.102792+00:00"
+  "total": 66,
+  "updated_at": "2026-09-28T11:36:38.982794+00:00"
 }

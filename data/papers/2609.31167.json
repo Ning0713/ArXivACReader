@@ -1,0 +1,57 @@
+{
+  "abstract": "EEG foundation models increasingly use masked prediction to learn from unlabeled recordings, but optimizing this objective does not ensure transferable neural representations. A central challenge is that stable positional cues and local correlations can make masked regions predictable without integrating distributed neural context. To reduce this reliance on low-information prediction paths, we introduce Neural State Prediction (NSP), a latent-predictive framework that constrains both the prediction target and the available context. NSP uses a Target Encoder updated by an exponential moving average (EMA) to define latent supervision. Identity residualization removes additive effects associated with channel identity and relative time from the targets, while topology-separated context excludes their immediate spatial and temporal neighborhood from the visible input. We pretrain NSP on 2.2 million EEG segments from TUEG and evaluate it across 30 downstream datasets spanning clinical diagnosis, sleep staging, emotion recognition, motor imagery, event-related potentials, cognitive-state decoding, and language retrieval. Under full-parameter multi-task fine-tuning on EEG-FM-Bench, NSP achieves 63.94 macro balanced accuracy across 14 datasets, exceeding the strongest evaluated baseline by 2.35 percentage points. Controlled component ablations assess the contribution of each mechanism, while matched context controls and held-out interventions characterize the role of context geometry, signal content, and positional information. Jointly designing latent targets and their context offers a promising direction for EEG foundation models that learn from distributed signal structure.",
+  "abstract_zh": "EEG 基础模型越来越多地使用掩蔽预测从未标记的录音中学习，但优化这一目标并不能确保可转移的神经表征。一个核心挑战是，稳定的位置信息和局部相关性可以使掩蔽区域变得可预测，而无需整合分布式神经上下文。为了减少对低信息预测路径的依赖，我们引入了神经状态预测（Neural State Prediction, NSP），这是一种潜在预测框架，约束了预测目标和可用上下文。NSP 使用通过指数移动平均（Exponential Moving Average, EMA）更新的目标编码器来定义潜在监督。身份残差化消除了与通道身份和相对时间相关的附加效应，而拓扑分离上下文则排除了其直接空间和时间邻域的可见输入。我们在来自 TUEG 的 220 万个 EEG 段上预训练 NSP，并在涵盖临床诊断、睡眠分期、情感识别、运动想象、事件相关电位、认知状态解码和语言检索的 30 个下游数据集上进行了评估。在 EEG-FM-Bench 上进行全参数多任务微调时，NSP 在 14 个数据集上实现了 63.94 的宏平衡准确率，超过了最强评估基线 2.35 个百分点。受控组件消融评估了每个机制的贡献，而匹配上下文控制和保留干预则描述了上下文几何、信号内容和位置信息的作用。共同设计潜在目标及其上下文为从分布式信号结构中学习的 EEG 基础模型提供了一个有前景的方向。",
+  "arxiv_id": "2609.31167",
+  "arxiv_url": "https://arxiv.org/abs/2609.31167v1",
+  "authors": [
+    "Kieren Yu",
+    "Ziyang Liu",
+    "Chang Huang",
+    "Jintai Chen",
+    "Kaishun Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-28#paper-2609-31167",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-28T11:36:37.160871+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.31167v1",
+  "published_at": "2026-09-25T11:58:29Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "recognition",
+      "prediction",
+      "EEG",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-09-28"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.31167v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-28"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "生理信号",
+      "数据集/评测"
+    ]
+  },
+  "title": "Neural State Prediction: Obstructing Shortcut Learning in EEG Foundation Models",
+  "title_zh": "神经状态预测：阻碍 EEG 基础模型中的捷径学习",
+  "translation_url": "https://hjfy.top/arxiv/2609.31167"
+}

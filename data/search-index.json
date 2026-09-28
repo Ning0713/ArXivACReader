@@ -1,6 +1,65 @@
 {
-  "generated_at": "2026-09-25T10:06:56.102792+00:00",
+  "generated_at": "2026-09-28T11:36:38.982794+00:00",
   "items": [
+    {
+      "abstract": "Facial micro-expressions are spontaneous, brief, and subtle facial movements that reveal suppressed emotions in high-stakes environments. In contrast to classic expression analysis, detecting action unit (AU) yields a finer representation of facial movements, serving as a preliminary step before defining expression classes and other downstream tasks. Therefore, it represents a crucial upstream task in facial analysis, and improving an AU detection module increases the precision of facial analysis. Despite that, detecting AU is challenging because of the constrictive nature of the AU activation regions, leading to confusion among different AUs known as AU ambiguity. To model the fine-scale changes, we propose \\textbf{MoTop}, a motion-topological model that is augmented with a learnable motion context, yielding regional soft guidance for facial activity, followed by facial landmarks that capture the fine-scale topological changes of micro AUs. To increase the micro facial landmark representations, we amplify the encoded facial landmark transitions via linear extrapolation, thereby increasing the spatial proximity of landmarks and enhancing the low-intensity landmark dynamics. In addition, we design anatomical facial clusters that enhance the hierarchical representation, facilitating multi-scale modelling of facial geometry and improving micro-topological representations. With these contributions, we have achieved state-of-the-art performance on the CD6ME protocol for the micro AU detection task.",
+      "abstract_zh": "面部微表情是自发的、短暂的和微妙的面部运动，能够揭示在高风险环境中被压抑的情感。与经典的表情分析相比，检测动作单元（AU）能够提供更细致的面部运动表现，作为定义表情类别和其他下游任务的初步步骤。因此，这在面部分析中代表了一个至关重要的上游任务，改进AU检测模块可以提高面部分析的精度。然而，由于AU激活区域的限制性特征，AU检测面临挑战，这导致不同AU之间的混淆，称为AU歧义。为了对细微变化进行建模，我们提出了 extbf{MoTop}，一种增强了可学习运动上下文的运动-拓扑模型，为面部活动提供区域软指导，随后通过面部关键点捕捉微AU的细微拓扑变化。为了增强微面部关键点的表现，我们通过线性外推放大编码的面部关键点过渡，从而增加关键点的空间接近度并增强低强度关键点的动态。此外，我们设计了增强层次表示的解剖面部聚类，促进面部几何的多尺度建模并改善微拓扑表示。凭借这些贡献，我们在微AU检测任务的CD6ME协议上实现了最先进的性能。",
+      "authors": [
+        "Huai-Qian Khor",
+        "Mengting Wei",
+        "Yante Li",
+        "Chu Kiong Loo",
+        "Guoying Zhao"
+      ],
+      "date": "2026-09-28",
+      "id": "2609.31285",
+      "tags": [
+        "面部表情"
+      ],
+      "title": "MoTop: Motion-Topological Model For Micro AU Detection",
+      "title_zh": "MoTop：用于微表情动作单元检测的运动-拓扑模型",
+      "url": "/daily/2026-09-28/#paper-2609-31285"
+    },
+    {
+      "abstract": "EEG foundation models increasingly use masked prediction to learn from unlabeled recordings, but optimizing this objective does not ensure transferable neural representations. A central challenge is that stable positional cues and local correlations can make masked regions predictable without integrating distributed neural context. To reduce this reliance on low-information prediction paths, we introduce Neural State Prediction (NSP), a latent-predictive framework that constrains both the prediction target and the available context. NSP uses a Target Encoder updated by an exponential moving average (EMA) to define latent supervision. Identity residualization removes additive effects associated with channel identity and relative time from the targets, while topology-separated context excludes their immediate spatial and temporal neighborhood from the visible input. We pretrain NSP on 2.2 million EEG segments from TUEG and evaluate it across 30 downstream datasets spanning clinical diagnosis, sleep staging, emotion recognition, motor imagery, event-related potentials, cognitive-state decoding, and language retrieval. Under full-parameter multi-task fine-tuning on EEG-FM-Bench, NSP achieves 63.94 macro balanced accuracy across 14 datasets, exceeding the strongest evaluated baseline by 2.35 percentage points. Controlled component ablations assess the contribution of each mechanism, while matched context controls and held-out interventions characterize the role of context geometry, signal content, and positional information. Jointly designing latent targets and their context offers a promising direction for EEG foundation models that learn from distributed signal structure.",
+      "abstract_zh": "EEG 基础模型越来越多地使用掩蔽预测从未标记的录音中学习，但优化这一目标并不能确保可转移的神经表征。一个核心挑战是，稳定的位置信息和局部相关性可以使掩蔽区域变得可预测，而无需整合分布式神经上下文。为了减少对低信息预测路径的依赖，我们引入了神经状态预测（Neural State Prediction, NSP），这是一种潜在预测框架，约束了预测目标和可用上下文。NSP 使用通过指数移动平均（Exponential Moving Average, EMA）更新的目标编码器来定义潜在监督。身份残差化消除了与通道身份和相对时间相关的附加效应，而拓扑分离上下文则排除了其直接空间和时间邻域的可见输入。我们在来自 TUEG 的 220 万个 EEG 段上预训练 NSP，并在涵盖临床诊断、睡眠分期、情感识别、运动想象、事件相关电位、认知状态解码和语言检索的 30 个下游数据集上进行了评估。在 EEG-FM-Bench 上进行全参数多任务微调时，NSP 在 14 个数据集上实现了 63.94 的宏平衡准确率，超过了最强评估基线 2.35 个百分点。受控组件消融评估了每个机制的贡献，而匹配上下文控制和保留干预则描述了上下文几何、信号内容和位置信息的作用。共同设计潜在目标及其上下文为从分布式信号结构中学习的 EEG 基础模型提供了一个有前景的方向。",
+      "authors": [
+        "Kieren Yu",
+        "Ziyang Liu",
+        "Chang Huang",
+        "Jintai Chen",
+        "Kaishun Wu"
+      ],
+      "date": "2026-09-28",
+      "id": "2609.31167",
+      "tags": [
+        "情绪识别",
+        "生理信号",
+        "数据集/评测"
+      ],
+      "title": "Neural State Prediction: Obstructing Shortcut Learning in EEG Foundation Models",
+      "title_zh": "神经状态预测：阻碍 EEG 基础模型中的捷径学习",
+      "url": "/daily/2026-09-28/#paper-2609-31167"
+    },
+    {
+      "abstract": "Large language models (LLMs) are increasingly used to assess long-form medical videos, but their effectiveness may depend on whether transcripts are provided in full or compressed through summarization, retrieval, or claim screening. This study examines how such transcript compression affects LLM-based veracity classification of Japanese medical YouTube videos. We compare four transcript input designs: full transcripts, LLM-generated summaries, RAPTOR-based retrievalaugmented generation (RAG), and Screening, which extracts candidate medical and health-related sentences. Using 74 long-form videos labeled as Real or Fake, we evaluate classification performance and analyze linguistic changes using J-LIWC, hedge expressions, and institutional or technical terms. The full-transcript Baseline achieved the best performance, whereas all compressed inputs increased false negatives, meaning that Fake videos were more likely to be misclassified as Real. Summary caused the largest performance drop, while Screening performed best among the compressed inputs but still omitted many medically relevant sentences. Linguistic analyses showed that these errors were not explained by a simple increase in certainty. Instead, Summary reduced affective, social, temporal, cognitive, and conversational cues, while Summary and RAG made institutional and technical terms more salient. These findings suggest that transcript compression can represent Fake videos as more coherent and authoritative inputs, thereby weakening cues needed for misinformation detection",
+      "abstract_zh": "大型语言模型（LLMs）在评估长篇医疗视频中的应用日益增多，但其有效性可能取决于转录文本是完整提供还是通过摘要、检索或声明筛选进行压缩。本研究探讨了转录压缩如何影响基于LLM的日本医疗YouTube视频的真实性分类。我们比较了四种转录输入设计：完整转录、LLM生成的摘要、基于RAPTOR的检索增强生成（RAG）和筛选，后者提取候选的医疗和健康相关句子。使用74个标记为真实或虚假的长篇视频，我们评估了分类性能，并使用J-LIWC分析语言变化、模糊表达以及机构或技术术语。完整转录基线达到了最佳性能，而所有压缩输入均增加了假阴性，这意味着虚假视频更可能被错误分类为真实。摘要导致了性能的最大下降，而筛选在压缩输入中表现最佳，但仍然遗漏了许多与医学相关的句子。语言分析表明，这些错误并不是由简单的确定性增加所解释的。相反，摘要减少了情感、社交、时间、认知和对话线索，而摘要和RAG则使机构和技术术语更加突出。这些发现表明，转录压缩可能使虚假视频表现得更连贯和权威，从而削弱了检测虚假信息所需的线索。",
+      "authors": [
+        "Yuya Wake",
+        "Sho Tsugawa",
+        "Toshiyuki Amagasa"
+      ],
+      "date": "2026-09-28",
+      "id": "2609.30882",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Effects of Transcript Compression on LLM-based Medical Misinformation Detection in Japanese YouTube Videos",
+      "title_zh": "转录压缩对基于大型语言模型的日本YouTube视频医疗虚假信息检测的影响",
+      "url": "/daily/2026-09-28/#paper-2609-30882"
+    },
     {
       "abstract": "Recent research on Multimodal Sentiment Analysis (MSA) has focused on learning from language, visual, and acoustic modalities with incomplete data to infer human sentiment. Most studies typically compensate for missing information by reconstructing modality features or designing complicated fusion mechanisms. However, these methods still suffer from spurious generation and noisy guidance due to the lack of high-level semantic grounding in partially observed multimodal evidence. To address these issues, we propose SemMSA, a latent semantic-aided framework that constructs rich sentiment-relevant semantics with LLMs, fully integrating with all modalities via anchor-free spectral alignment. It mainly consists of Cross-modal Semantic Refinement (CSR) and Cross-modal Spectral Alignment (CSA). Specifically, CSR first adaptively extracts visual and acoustic representations by corresponding adapters to form a unified multimodal prefix with language in the frozen LLM embedding space. It then iteratively produces continuous discriminative semantic states through a token-efficient latent refinement process without decoding explicit text. Next, CSA simultaneously aligns the refined semantics with all modalities by enhancing the dominant spectral component of their kernel Gram matrix. This captures global nonlinear dependencies among all representations without relying on a predefined anchor modality. In addition, an instance-level spectral separation constraint preserves cross-sample discriminability and mitigates representation collapse. Extensive experiments on SIMS, MOSI, and MOSEI benchmarks demonstrate that SemMSA achieves state-of-the-art performance.",
       "abstract_zh": "近期对多模态情感分析（MSA）的研究集中于从语言、视觉和声学模态中学习，以推断人类情感，尤其是在不完整数据的情况下。大多数研究通常通过重构模态特征或设计复杂的融合机制来补偿缺失的信息。然而，由于在部分观察的多模态证据中缺乏高层次的语义基础，这些方法仍然面临虚假生成和噪声引导的问题。为了解决这些问题，我们提出了SemMSA，一个基于潜在语义的框架，该框架利用大型语言模型（LLMs）构建丰富的情感相关语义，并通过无锚点的光谱对齐完全整合所有模态。该框架主要由跨模态语义精炼（CSR）和跨模态光谱对齐（CSA）组成。具体而言，CSR首先通过相应的适配器自适应提取视觉和声学表示，以形成与冻结的LLM嵌入空间中的语言统一的多模态前缀。然后，它通过一种高效的潜在精炼过程迭代生成连续的区分语义状态，而无需解码显式文本。接下来，CSA通过增强其核Gram矩阵的主导光谱分量，同时对所有模态的精炼语义进行对齐。这捕捉了所有表示之间的全局非线性依赖关系，而不依赖于预定义的锚模态。此外，实例级光谱分离约束保持了跨样本的可区分性，并减轻了表示崩溃。在SIMS、MOSI和MOSEI基准上的大量实验表明，SemMSA实现了最先进的性能。",
