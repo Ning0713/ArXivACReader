@@ -1,0 +1,68 @@
+{
+  "abstract": "Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution. However, existing co-speech methods are primarily developed for digital humans and lack joint support for affective control and low-latency continuous generation on physical embodiments. To bridge this gap, we present SocialHumanoid, a system for expressive humanoid behavior via one-step co-speech motion generation. Given response speech and a specified affective condition, SocialHumanoid generates each full-body motion window in a single forward pass and connects successive windows through motion-history conditioning. The generated human motion is further converted online into embodiment-compatible robot references and tracked by a whole-body controller for physical execution. To provide explicit supervision for affective body expression, we further introduce AffectMoCap, a 4-hour dataset captured from two professional actors, containing synchronized speech, body motion, fine-grained hand motion, and emotion annotations. On BEAT2, SocialHumanoid achieves the best FGD among the compared generation methods, competitive speech-motion synchrony, and approximately $6\\times$ faster inference than GestureLSM under the same protocol. Perceptual evaluations further show that training with AffectMoCap improves affect recognition from generated body motion, while real-robot experiments demonstrate continuous affect-conditioned behavior and stable long-horizon execution. Our project page is https://rex0191.github.io/SocialHumanoid/.",
+  "abstract_zh": "人形机器人越来越被期望作为具身的社交代理，通过面对面的互动与人类自然交流。在这样的交流中，人形机器人需要与语言同步的身体行为，这些行为应具有情感表达能力，并适合实时执行。然而，现有的共语方法主要是为数字人类开发的，缺乏对情感控制和物理实体上低延迟连续生成的联合支持。为了解决这一问题，我们提出了SocialHumanoid，一个通过一步共语运动生成实现富有表现力的人形行为的系统。在给定响应语音和指定情感条件的情况下，SocialHumanoid在一次前向传递中生成每个全身运动窗口，并通过运动历史条件连接连续的窗口。生成的人类运动进一步在线转换为适合具身化的机器人参考，并由全身控制器跟踪以实现物理执行。为了提供情感身体表达的明确监督，我们进一步引入了AffectMoCap，这是一个由两位专业演员捕获的4小时数据集，包含同步的语音、身体运动、细粒度手部运动和情感注释。在BEAT2上，SocialHumanoid在比较的生成方法中实现了最佳的FGD，具有竞争力的语音-运动同步性，并且在相同协议下的推理速度约为GestureLSM的6倍。感知评估进一步表明，使用AffectMoCap进行训练提高了从生成的身体运动中识别情感的能力，而真实机器人实验则展示了连续的情感条件行为和稳定的长时间执行。我们的项目页面是 https://rex0191.github.io/SocialHumanoid/.",
+  "arxiv_id": "2609.33311",
+  "arxiv_url": "https://arxiv.org/abs/2609.33311v1",
+  "authors": [
+    "Chengqun Yang",
+    "Tengjie Zhu",
+    "Liang Xu",
+    "Fulong Liu",
+    "Guanzhu Ren",
+    "Yitong Xing",
+    "Xuefeng Lu",
+    "Fei Shi",
+    "Siyuan Fan",
+    "Weijie Dong",
+    "Yao Mu",
+    "Xiaokang Yang",
+    "Yichao Yan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-33311",
+  "categories": [
+    "cs.RO",
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.247154+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.33311v1",
+  "published_at": "2026-09-27T07:24:33Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affect recognition",
+      "emotion",
+      "affective",
+      "recognition",
+      "generation",
+      "dataset",
+      "speech",
+      "识别",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 61.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.33311v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+  "title_zh": "SocialHumanoid：通过一步共语运动生成实现富有表现力的人形行为",
+  "translation_url": "https://hjfy.top/arxiv/2609.33311"
+}

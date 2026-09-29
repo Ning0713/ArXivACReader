@@ -1,6 +1,145 @@
 {
-  "generated_at": "2026-09-28T11:36:38.982794+00:00",
+  "generated_at": "2026-09-29T11:14:51.633135+00:00",
   "items": [
+    {
+      "abstract": "Aspect-based sentiment analysis (ABSA) has largely turned to text generation. We show that competitive dimensional ABSA does not need it. Using Jev, a frozen model that answers typed questions with rubric scores, label probabilities, and yes/no judgments, we decompose all three tasks of SemEval-2026 Task III Track A into such decisions and align them with the annotation scheme through 488 coefficients fitted on CPU, with no text generation and no backbone tuning. On valence-arousal regression over ten corpora in six languages, the system reaches 1.0645 RMSE, the lowest aggregate error of any participating system. On triplet and quadruplet extraction, it reaches 52.09 and 44.06 continuous F1, above fine-tuned Llama-3.3-70B and GPT-OSS-120B baselines. Analyses and ablations show where the accuracy comes from: supervised calibration roughly halves the raw regression error, exact valence-arousal would add only 4.5 F1 to extraction, and the learned combination of span-boundary evidence, not any single signal, carries the extraction systems.",
+      "abstract_zh": "基于方面的情感分析（ABSA）在很大程度上转向了文本生成。我们表明，竞争维度的ABSA并不需要这一过程。通过使用Jev，一个能够以评分、标签概率和是/否判断回答类型化问题的固定模型，我们将SemEval-2026任务III A轨道的所有三个任务分解为这样的决策，并通过在CPU上拟合的488个系数将其与注释方案对齐，无需文本生成和主干调优。在六种语言的十个语料库上进行的情感-唤醒回归中，该系统达到了1.0645的均方根误差（RMSE），是所有参与系统中最低的总误差。在三元组和四元组提取中，分别达到了52.09和44.06的连续F1，超过了微调的Llama-3.3-70B和GPT-OSS-120B基线。分析和消融实验表明了准确性的来源：监督校准大致将原始回归误差减半，精确的情感-唤醒仅会为提取增加4.5的F1，而学习到的跨度边界证据的组合，而非任何单一信号，支撑了提取系统。",
+      "authors": [
+        "Yiqun Zhang",
+        "Peidong Wang",
+        "Zihan Wang",
+        "Shi Feng"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.35293",
+      "tags": [
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Decide, Don't Generate: Competitive Dimensional ABSA with Jev's Typed Decisions",
+      "title_zh": "决策，而非生成：基于竞争维度的ABSA与Jev的类型化决策",
+      "url": "/daily/2026-09-29/#paper-2609-35293"
+    },
+    {
+      "abstract": "We identify a fundamental mismatch in empathetic reinforcement learning: support priorities evolve with the dialogue state, yet existing methods typically optimize predefined reward specifications that remain fixed across turns. To model these evolving support priorities, we organize empathetic support along cognitive, affective, and proactive empathy, and propose Context-Adaptive Rubric Evolution (CARE). At each turn, CARE generates a context-adaptive rubric by adjusting both the weights of these three empathy dimensions and their fine-grained evaluation criteria. The rubric generator is trained with turn-level rubric supervision and human preference data through supervised fine-tuning followed by preference-based reinforcement learning, and then serves as an adaptive reward interface for online empathetic RL. Integrated with both RLVER and MICA, CARE achieves state-of-the-art performance across SentientBench, EQBench3, and EMPA under three independent LLM judges. Notably, on EMPA, CARE improves EPM-Idx over the strongest baseline by at least 13 points under all three judges, including an increase from 28.11 to 83.54 under Gemini-2.5-Pro. Further analyses show that learned rubric priorities systematically vary across dialogue stages and user emotions, demonstrating that CARE adapts what is rewarded as support needs evolve.",
+      "abstract_zh": "我们识别出同理心强化学习中的一个基本不匹配：支持优先级随着对话状态的变化而演变，但现有方法通常优化固定的预定义奖励规范，这些规范在多个回合中保持不变。为了建模这些演变的支持优先级，我们将同理心支持组织为认知、情感和主动同理心，并提出了上下文自适应评分演变（Context-Adaptive Rubric Evolution, CARE）。在每个回合中，CARE通过调整这三个同理心维度的权重及其细化的评估标准，生成一个上下文自适应的评分标准。评分标准生成器通过回合级评分监督和人类偏好数据进行监督微调，然后通过基于偏好的强化学习进行训练，最终作为在线同理心强化学习的自适应奖励接口。与RLVER和MICA相结合，CARE在SentientBench、EQBench3和EMPA三个独立的LLM评审下实现了最先进的性能。值得注意的是，在EMPA上，CARE在所有三个评审下将EPM-Idx提高了至少13分，包括在Gemini-2.5-Pro下从28.11提高到83.54。进一步分析表明，学习到的评分优先级在对话阶段和用户情感之间系统性地变化，证明了CARE能够随着支持需求的演变而调整奖励内容。",
+      "authors": [
+        "Pengyu Huang",
+        "Zhiyuan Han",
+        "Wenwen Tong",
+        "Hewei Guo",
+        "Jiangnan Chen",
+        "Sirui Chen",
+        "Lewei Lu",
+        "Beier Zhu",
+        "Xun Yang"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.34249",
+      "tags": [
+        "共情交互",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Evolving Support Priorities in Empathetic Reinforcement Learning",
+      "title_zh": "在同理心强化学习中演变的支持优先级",
+      "url": "/daily/2026-09-29/#paper-2609-34249"
+    },
+    {
+      "abstract": "We introduce NSV-Shift, a contrastive benchmark for evaluating whether speech-to-speech models can understand non-speech vocalizations (NSVs) and adapt their responses accordingly. Each pair contains two conversations with identical lexical content that differ only in the NSV embedded in the final turn. Our pilot contains 22 human-verified pairs (44 audio conditions) and evaluates five models on NSV perception, emotion understanding, and response adaptation. Results show that models generally perform better at detecting NSVs than at interpreting their fine-grained emotional meaning or producing appropriately differentiated responses. The data construction pipeline, dataset, and evaluation pipeline are publicly available at https://github.com/ChenzwNina/nsv-construction.",
+      "abstract_zh": "我们介绍了NSV-Shift，这是一个对比基准，用于评估语音到语音模型是否能够理解非语音发声（NSVs）并相应地调整其响应。每对样本包含两个对话，它们的词汇内容相同，仅在最后一轮中嵌入的NSV不同。我们的初步研究包含22对经过人工验证的样本（44个音频条件），并评估五个模型在NSV感知、情感理解和响应适应方面的表现。结果表明，模型在检测NSVs方面的表现通常优于对其细微情感意义的解释或产生适当区分的响应。数据构建流程、数据集和评估流程已公开发布在 https://github.com/ChenzwNina/nsv-construction。",
+      "authors": [
+        "Ziwei Chen"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.33899",
+      "tags": [
+        "数据集/评测",
+        "语音情感"
+      ],
+      "title": "NSV-Shift: A Contrastive Benchmark for Non-Speech Vocalization Understanding and Response Adaptation in Speech-to-Speech Models",
+      "title_zh": "NSV-Shift：用于评估语音到语音模型理解非语音发声及其响应适应性的对比基准",
+      "url": "/daily/2026-09-29/#paper-2609-33899"
+    },
+    {
+      "abstract": "Humanoid robots are increasingly expected to serve as embodied social agents that communicate naturally with humans through face-to-face interaction. During such communication, humanoid robots require body behaviors that are synchronized with speech, affectively expressive, and suitable for real-time execution. However, existing co-speech methods are primarily developed for digital humans and lack joint support for affective control and low-latency continuous generation on physical embodiments. To bridge this gap, we present SocialHumanoid, a system for expressive humanoid behavior via one-step co-speech motion generation. Given response speech and a specified affective condition, SocialHumanoid generates each full-body motion window in a single forward pass and connects successive windows through motion-history conditioning. The generated human motion is further converted online into embodiment-compatible robot references and tracked by a whole-body controller for physical execution. To provide explicit supervision for affective body expression, we further introduce AffectMoCap, a 4-hour dataset captured from two professional actors, containing synchronized speech, body motion, fine-grained hand motion, and emotion annotations. On BEAT2, SocialHumanoid achieves the best FGD among the compared generation methods, competitive speech-motion synchrony, and approximately $6\\times$ faster inference than GestureLSM under the same protocol. Perceptual evaluations further show that training with AffectMoCap improves affect recognition from generated body motion, while real-robot experiments demonstrate continuous affect-conditioned behavior and stable long-horizon execution. Our project page is https://rex0191.github.io/SocialHumanoid/.",
+      "abstract_zh": "人形机器人越来越被期望作为具身的社交代理，通过面对面的互动与人类自然交流。在这样的交流中，人形机器人需要与语言同步的身体行为，这些行为应具有情感表达能力，并适合实时执行。然而，现有的共语方法主要是为数字人类开发的，缺乏对情感控制和物理实体上低延迟连续生成的联合支持。为了解决这一问题，我们提出了SocialHumanoid，一个通过一步共语运动生成实现富有表现力的人形行为的系统。在给定响应语音和指定情感条件的情况下，SocialHumanoid在一次前向传递中生成每个全身运动窗口，并通过运动历史条件连接连续的窗口。生成的人类运动进一步在线转换为适合具身化的机器人参考，并由全身控制器跟踪以实现物理执行。为了提供情感身体表达的明确监督，我们进一步引入了AffectMoCap，这是一个由两位专业演员捕获的4小时数据集，包含同步的语音、身体运动、细粒度手部运动和情感注释。在BEAT2上，SocialHumanoid在比较的生成方法中实现了最佳的FGD，具有竞争力的语音-运动同步性，并且在相同协议下的推理速度约为GestureLSM的6倍。感知评估进一步表明，使用AffectMoCap进行训练提高了从生成的身体运动中识别情感的能力，而真实机器人实验则展示了连续的情感条件行为和稳定的长时间执行。我们的项目页面是 https://rex0191.github.io/SocialHumanoid/.",
+      "authors": [
+        "Chengqun Yang",
+        "Tengjie Zhu",
+        "Liang Xu",
+        "Fulong Liu",
+        "Guanzhu Ren",
+        "Yitong Xing",
+        "Xuefeng Lu",
+        "Fei Shi",
+        "Siyuan Fan",
+        "Weijie Dong",
+        "Yao Mu",
+        "Xiaokang Yang",
+        "Yichao Yan"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.33311",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation",
+      "title_zh": "SocialHumanoid：通过一步共语运动生成实现富有表现力的人形行为",
+      "url": "/daily/2026-09-29/#paper-2609-33311"
+    },
+    {
+      "abstract": "Monetary-policy announcements and central-bank communications play a central role in foreign exchange markets, yet their qualitative, unstructured form makes their forecasting value difficult to quantify. While prior research has largely focused on sentiment extracted from financial news, comparatively little is known about the relative contribution of different dimensions of monetary-policy communication. Existing studies primarily evaluate whether textual information improves overall forecasting performance but provide limited insight into which communication channels drive such improvements. To address this gap, this paper introduces a statistical attribution methodology that decomposes monetary-policy communication into interpretable channels and quantifies their incremental forecasting contribution under false-discovery-rate control. Monetary-policy news is transformed into structured communication signals using large language models (LLMs) and temporal feature engineering. These signals are evaluated using rolling-window experiments with tree-based machine-learning models. The results show that monetary-policy communication contains measurable predictive information. Attribution analysis shows that predictive value is concentrated in a small subset of signals, with communication timing providing the strongest individual feature-level contribution, targeted communication-activity measures also contributing positively, and LLM-derived sentiment providing complementary information at the group level. The findings indicate that communication-based forecasting value extends beyond sentiment alone and that attribution, rather than aggregate accuracy alone, is central to evaluating news-derived signals.",
+      "abstract_zh": "货币政策公告和中央银行沟通在外汇市场中发挥着核心作用，但其定性、非结构化的形式使得其预测价值难以量化。尽管之前的研究主要集中在从金融新闻中提取的情绪上，但关于货币政策沟通的不同维度相对贡献的了解却相对较少。现有研究主要评估文本信息是否提高了整体预测性能，但对哪些沟通渠道推动了这种改善提供的见解有限。为了解决这一空白，本文引入了一种统计归因方法，将货币政策沟通分解为可解释的渠道，并在假发现率控制下量化其增量预测贡献。货币政策新闻通过大型语言模型（LLMs）和时间特征工程转化为结构化的沟通信号。这些信号通过基于树的机器学习模型进行滚动窗口实验评估。结果表明，货币政策沟通包含可测量的预测信息。归因分析显示，预测价值集中在少数信号中，沟通时机提供了最强的个体特征级贡献，针对性的沟通活动措施也有积极贡献，而LLM衍生的情绪在群体层面提供了互补信息。研究结果表明，基于沟通的预测价值超越了单纯的情绪，归因而非仅仅是整体准确性对于评估新闻衍生信号至关重要。",
+      "authors": [
+        "Maya Kodeih",
+        "Aliaa Alnaggar",
+        "Mucahit Cevik"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.32773",
+      "tags": [
+        "情感大模型",
+        "文本情感"
+      ],
+      "title": "Forecasting Intraday USD/CAD Exchange Rate with News-Derived Monetary-Policy Signals",
+      "title_zh": "基于新闻衍生货币政策信号的日内美元/加元汇率预测",
+      "url": "/daily/2026-09-29/#paper-2609-32773"
+    },
+    {
+      "abstract": "Recognition of student affective states from classroom video is constrained by a class imbalance problem whose true nature is, we argue, under-analyzed. We show that on DAiSEE -- the de facto benchmark for this task -- class imbalance is fundamentally a dimension-specific phenomenon: raw imbalance ratios reach as high as approximately 79:1 (Frustration), and the structure of imbalance -- not only its magnitude -- varies across dimensions, so uniform algorithmic treatments (aggressive class reweighting, focal loss, uniform binary simplification) fail in dimension-dependent ways. We propose the Adaptive Hybrid Label Strategy (AHLS), which assigns four-level classification to dimensions with manageable imbalance and binary classification to severely long-tailed dimensions, coupled with a null-class placeholder mechanism that stabilizes multi-task optimization by compressing the maximum effective inverse-frequency weight ratio from as high as ~79$\\times$ to at most ~8.5$\\times$ across the four dimensions. Validated on a lightweight FERShuffleNetV2 + LTCN architecture (0.39 M parameters, 0.07 G FLOPs), the strategy attains the highest mean Macro-F1 of 47.70% across all four affective dimensions among 11 compared methods, including five state-of-the-art deep models (up to 167$\\times$ larger) and five traditional machine-learning baselines. A cross-model behavioral analysis on DAiSEE indicates that, in this setting, classification strategy may influence minority-state recognition more strongly than further backbone scaling alone. We also report evidence of an annotation-density limitation of DAiSEE on minority affective states, which suggests that benchmark design may bound future progress as much as algorithmic refinement. Index Terms Affective computing, classroom video analysis, class imbalance, multi-task learning, lightweight deep learning, DAiSEE, engagement recognition.",
+      "abstract_zh": "从课堂视频中识别学生的情感状态受到类别不平衡问题的限制，而我们认为这一问题的真实性质尚未得到充分分析。我们展示了在 DAiSEE（该任务的事实标准基准）上，类别不平衡本质上是一种维度特定现象：原始不平衡比率高达约 79:1（挫败感），而不平衡的结构——不仅仅是其幅度——在不同维度之间存在差异，因此统一的算法处理（如激进的类别重加权、焦点损失、统一的二元简化）在维度依赖性方面表现不佳。我们提出了自适应混合标签策略（Adaptive Hybrid Label Strategy, AHLS），该策略对具有可管理不平衡的维度分配四级分类，对严重长尾的维度进行二元分类，并结合一个空类占位机制，通过将四个维度的最大有效逆频率权重比从高达 ~79× 压缩至最多 ~8.5×，从而稳定多任务优化。经过在轻量级 FERShuffleNetV2 + LTCN 架构（0.39 M 参数，0.07 G FLOPs）上的验证，该策略在 11 种比较方法中获得了所有四个情感维度的最高平均宏 F1 值 47.70%，包括五种最先进的深度模型（最大可达 167× 更大）和五种传统机器学习基线。对 DAiSEE 的跨模型行为分析表明，在这种情况下，分类策略可能比进一步的主干扩展更强烈地影响少数状态的识别。我们还报告了 DAiSEE 在少数情感状态上的标注密度限制的证据，这表明基准设计可能在未来进展中与算法优化同样重要。关键词：情感计算，课堂视频分析，类别不平衡，多任务学习，轻量级深度学习，DAiSEE，参与度识别。",
+      "authors": [
+        "Xiangqian Li"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.31750",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "Dimension-Specific Imbalance and an Adaptive Hybrid Label Strategy for Multi-Task Affective State Recognition in Classroom Video",
+      "title_zh": "针对课堂视频中多任务情感状态识别的维度特定不平衡与自适应混合标签策略",
+      "url": "/daily/2026-09-29/#paper-2609-31750"
+    },
+    {
+      "abstract": "Sentiment analysis is a common tool for converting unstructured text into quantitative signals in finance and risk management. Yet most applications reduce the output to a discrete polarity label or a single predictive feature, overlooking the distributional structure of sentiment intensity in consumer complaint narratives. In this paper we treat negative sentiment in consumer complaints as a bounded continuous variable and study its full distribution rather than a single label. We score each narrative with a transformer classifier, model the scores with Beta distributions, and compare the fitted distributions of meritorious and non-meritorious complaints through the Kullback Leibler divergence and the squared Hellinger distance. The fitted distributions are then linked with dollar amounts and company response outcomes to construct anomaly diagnostics that flag complaints whose textual severity is inconsistent with the recorded relief. We find that the two groups have strongly overlapping distributions, so negative sentiment intensity is not a sharp classifier of outcomes on its own; combined with monetary and categorical attributes, it isolates unusually severe complaints for operational risk monitoring. Treating sentiment analysis as continuous distributional measurement, this study links sentiment extraction, bounded response modeling, and anomaly detection in a unified framework for consumer complaint assessment.",
+      "abstract_zh": "情感分析是将非结构化文本转化为定量信号的常用工具，广泛应用于金融和风险管理。然而，大多数应用将输出简化为离散的极性标签或单一的预测特征，忽视了消费者投诉叙述中情感强度的分布结构。本文将消费者投诉中的负面情感视为一个有界的连续变量，研究其完整分布，而非单一标签。我们使用变换器分类器对每个叙述进行评分，利用Beta分布对评分进行建模，并通过Kullback-Leibler散度和平方Hellinger距离比较优质与非优质投诉的拟合分布。然后，将拟合的分布与金额和公司响应结果关联，以构建异常诊断，标记那些文本严重性与记录的救济不一致的投诉。我们发现这两组的分布高度重叠，因此负面情感强度本身并不能作为结果的明确分类器；结合货币和类别属性，它能够隔离出异常严重的投诉，以便进行操作风险监控。将情感分析视为连续分布测量，本研究将情感提取、有界响应建模和异常检测整合为一个统一的框架，用于消费者投诉评估。",
+      "authors": [
+        "Peiheng Gao",
+        "Chen Yang",
+        "Shimin Zhang"
+      ],
+      "date": "2026-09-29",
+      "id": "2609.31653",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Distributional sentiment modeling and anomaly detection for consumer complaint assessment",
+      "title_zh": "消费者投诉评估的分布式情感建模与异常检测",
+      "url": "/daily/2026-09-29/#paper-2609-31653"
+    },
     {
       "abstract": "Facial micro-expressions are spontaneous, brief, and subtle facial movements that reveal suppressed emotions in high-stakes environments. In contrast to classic expression analysis, detecting action unit (AU) yields a finer representation of facial movements, serving as a preliminary step before defining expression classes and other downstream tasks. Therefore, it represents a crucial upstream task in facial analysis, and improving an AU detection module increases the precision of facial analysis. Despite that, detecting AU is challenging because of the constrictive nature of the AU activation regions, leading to confusion among different AUs known as AU ambiguity. To model the fine-scale changes, we propose \\textbf{MoTop}, a motion-topological model that is augmented with a learnable motion context, yielding regional soft guidance for facial activity, followed by facial landmarks that capture the fine-scale topological changes of micro AUs. To increase the micro facial landmark representations, we amplify the encoded facial landmark transitions via linear extrapolation, thereby increasing the spatial proximity of landmarks and enhancing the low-intensity landmark dynamics. In addition, we design anatomical facial clusters that enhance the hierarchical representation, facilitating multi-scale modelling of facial geometry and improving micro-topological representations. With these contributions, we have achieved state-of-the-art performance on the CD6ME protocol for the micro AU detection task.",
       "abstract_zh": "面部微表情是自发的、短暂的和微妙的面部运动，能够揭示在高风险环境中被压抑的情感。与经典的表情分析相比，检测动作单元（AU）能够提供更细致的面部运动表现，作为定义表情类别和其他下游任务的初步步骤。因此，这在面部分析中代表了一个至关重要的上游任务，改进AU检测模块可以提高面部分析的精度。然而，由于AU激活区域的限制性特征，AU检测面临挑战，这导致不同AU之间的混淆，称为AU歧义。为了对细微变化进行建模，我们提出了 extbf{MoTop}，一种增强了可学习运动上下文的运动-拓扑模型，为面部活动提供区域软指导，随后通过面部关键点捕捉微AU的细微拓扑变化。为了增强微面部关键点的表现，我们通过线性外推放大编码的面部关键点过渡，从而增加关键点的空间接近度并增强低强度关键点的动态。此外，我们设计了增强层次表示的解剖面部聚类，促进面部几何的多尺度建模并改善微拓扑表示。凭借这些贡献，我们在微AU检测任务的CD6ME协议上实现了最先进的性能。",

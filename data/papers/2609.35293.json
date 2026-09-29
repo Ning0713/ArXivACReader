@@ -1,0 +1,50 @@
+{
+  "abstract": "Aspect-based sentiment analysis (ABSA) has largely turned to text generation. We show that competitive dimensional ABSA does not need it. Using Jev, a frozen model that answers typed questions with rubric scores, label probabilities, and yes/no judgments, we decompose all three tasks of SemEval-2026 Task III Track A into such decisions and align them with the annotation scheme through 488 coefficients fitted on CPU, with no text generation and no backbone tuning. On valence-arousal regression over ten corpora in six languages, the system reaches 1.0645 RMSE, the lowest aggregate error of any participating system. On triplet and quadruplet extraction, it reaches 52.09 and 44.06 continuous F1, above fine-tuned Llama-3.3-70B and GPT-OSS-120B baselines. Analyses and ablations show where the accuracy comes from: supervised calibration roughly halves the raw regression error, exact valence-arousal would add only 4.5 F1 to extraction, and the learned combination of span-boundary evidence, not any single signal, carries the extraction systems.",
+  "abstract_zh": "基于方面的情感分析（ABSA）在很大程度上转向了文本生成。我们表明，竞争维度的ABSA并不需要这一过程。通过使用Jev，一个能够以评分、标签概率和是/否判断回答类型化问题的固定模型，我们将SemEval-2026任务III A轨道的所有三个任务分解为这样的决策，并通过在CPU上拟合的488个系数将其与注释方案对齐，无需文本生成和主干调优。在六种语言的十个语料库上进行的情感-唤醒回归中，该系统达到了1.0645的均方根误差（RMSE），是所有参与系统中最低的总误差。在三元组和四元组提取中，分别达到了52.09和44.06的连续F1，超过了微调的Llama-3.3-70B和GPT-OSS-120B基线。分析和消融实验表明了准确性的来源：监督校准大致将原始回归误差减半，精确的情感-唤醒仅会为提取增加4.5的F1，而学习到的跨度边界证据的组合，而非任何单一信号，支撑了提取系统。",
+  "arxiv_id": "2609.35293",
+  "arxiv_url": "https://arxiv.org/abs/2609.35293v1",
+  "authors": [
+    "Yiqun Zhang",
+    "Peidong Wang",
+    "Zihan Wang",
+    "Shi Feng"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-35293",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.958826+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.35293v1",
+  "published_at": "2026-09-28T14:37:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "generation",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 62.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.35293v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感生成"
+    ]
+  },
+  "title": "Decide, Don't Generate: Competitive Dimensional ABSA with Jev's Typed Decisions",
+  "title_zh": "决策，而非生成：基于竞争维度的ABSA与Jev的类型化决策",
+  "translation_url": "https://hjfy.top/arxiv/2609.35293"
+}

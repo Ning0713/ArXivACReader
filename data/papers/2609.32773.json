@@ -1,0 +1,52 @@
+{
+  "abstract": "Monetary-policy announcements and central-bank communications play a central role in foreign exchange markets, yet their qualitative, unstructured form makes their forecasting value difficult to quantify. While prior research has largely focused on sentiment extracted from financial news, comparatively little is known about the relative contribution of different dimensions of monetary-policy communication. Existing studies primarily evaluate whether textual information improves overall forecasting performance but provide limited insight into which communication channels drive such improvements. To address this gap, this paper introduces a statistical attribution methodology that decomposes monetary-policy communication into interpretable channels and quantifies their incremental forecasting contribution under false-discovery-rate control. Monetary-policy news is transformed into structured communication signals using large language models (LLMs) and temporal feature engineering. These signals are evaluated using rolling-window experiments with tree-based machine-learning models. The results show that monetary-policy communication contains measurable predictive information. Attribution analysis shows that predictive value is concentrated in a small subset of signals, with communication timing providing the strongest individual feature-level contribution, targeted communication-activity measures also contributing positively, and LLM-derived sentiment providing complementary information at the group level. The findings indicate that communication-based forecasting value extends beyond sentiment alone and that attribution, rather than aggregate accuracy alone, is central to evaluating news-derived signals.",
+  "abstract_zh": "货币政策公告和中央银行沟通在外汇市场中发挥着核心作用，但其定性、非结构化的形式使得其预测价值难以量化。尽管之前的研究主要集中在从金融新闻中提取的情绪上，但关于货币政策沟通的不同维度相对贡献的了解却相对较少。现有研究主要评估文本信息是否提高了整体预测性能，但对哪些沟通渠道推动了这种改善提供的见解有限。为了解决这一空白，本文引入了一种统计归因方法，将货币政策沟通分解为可解释的渠道，并在假发现率控制下量化其增量预测贡献。货币政策新闻通过大型语言模型（LLMs）和时间特征工程转化为结构化的沟通信号。这些信号通过基于树的机器学习模型进行滚动窗口实验评估。结果表明，货币政策沟通包含可测量的预测信息。归因分析显示，预测价值集中在少数信号中，沟通时机提供了最强的个体特征级贡献，针对性的沟通活动措施也有积极贡献，而LLM衍生的情绪在群体层面提供了互补信息。研究结果表明，基于沟通的预测价值超越了单纯的情绪，归因而非仅仅是整体准确性对于评估新闻衍生信号至关重要。",
+  "arxiv_id": "2609.32773",
+  "arxiv_url": "https://arxiv.org/abs/2609.32773v1",
+  "authors": [
+    "Maya Kodeih",
+    "Aliaa Alnaggar",
+    "Mucahit Cevik"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-32773",
+  "categories": [
+    "cs.AI",
+    "cs.LG",
+    "q-fin.CP"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.669086+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.32773v1",
+  "published_at": "2026-09-26T16:50:39Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情绪",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.32773v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "文本情感"
+    ]
+  },
+  "title": "Forecasting Intraday USD/CAD Exchange Rate with News-Derived Monetary-Policy Signals",
+  "title_zh": "基于新闻衍生货币政策信号的日内美元/加元汇率预测",
+  "translation_url": "https://hjfy.top/arxiv/2609.32773"
+}

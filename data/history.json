@@ -759,8 +759,85 @@
         "面部表情"
       ],
       "title": "MoTop: Motion-Topological Model For Micro AU Detection"
+    },
+    "2609.31653": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Distributional sentiment modeling and anomaly detection for consumer complaint assessment"
+    },
+    "2609.31750": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "Dimension-Specific Imbalance and an Adaptive Hybrid Label Strategy for Multi-Task Affective State Recognition in Classroom Video"
+    },
+    "2609.32773": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "情感大模型",
+        "文本情感"
+      ],
+      "title": "Forecasting Intraday USD/CAD Exchange Rate with News-Derived Monetary-Policy Signals"
+    },
+    "2609.33311": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "SocialHumanoid: Towards Expressive Humanoid Behavior via One-Step Co-Speech Motion Generation"
+    },
+    "2609.33899": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "数据集/评测",
+        "语音情感"
+      ],
+      "title": "NSV-Shift: A Contrastive Benchmark for Non-Speech Vocalization Understanding and Response Adaptation in Speech-to-Speech Models"
+    },
+    "2609.34249": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "共情交互",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Evolving Support Priorities in Empathetic Reinforcement Learning"
+    },
+    "2609.35293": {
+      "dates": [
+        "2026-09-29"
+      ],
+      "first_seen": "2026-09-29",
+      "tags": [
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Decide, Don't Generate: Competitive Dimensional ABSA with Jev's Typed Decisions"
     }
   },
-  "total": 66,
-  "updated_at": "2026-09-28T11:36:38.982794+00:00"
+  "total": 73,
+  "updated_at": "2026-09-29T11:14:51.633135+00:00"
 }

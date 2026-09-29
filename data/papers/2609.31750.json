@@ -1,0 +1,51 @@
+{
+  "abstract": "Recognition of student affective states from classroom video is constrained by a class imbalance problem whose true nature is, we argue, under-analyzed. We show that on DAiSEE -- the de facto benchmark for this task -- class imbalance is fundamentally a dimension-specific phenomenon: raw imbalance ratios reach as high as approximately 79:1 (Frustration), and the structure of imbalance -- not only its magnitude -- varies across dimensions, so uniform algorithmic treatments (aggressive class reweighting, focal loss, uniform binary simplification) fail in dimension-dependent ways. We propose the Adaptive Hybrid Label Strategy (AHLS), which assigns four-level classification to dimensions with manageable imbalance and binary classification to severely long-tailed dimensions, coupled with a null-class placeholder mechanism that stabilizes multi-task optimization by compressing the maximum effective inverse-frequency weight ratio from as high as ~79$\\times$ to at most ~8.5$\\times$ across the four dimensions. Validated on a lightweight FERShuffleNetV2 + LTCN architecture (0.39 M parameters, 0.07 G FLOPs), the strategy attains the highest mean Macro-F1 of 47.70% across all four affective dimensions among 11 compared methods, including five state-of-the-art deep models (up to 167$\\times$ larger) and five traditional machine-learning baselines. A cross-model behavioral analysis on DAiSEE indicates that, in this setting, classification strategy may influence minority-state recognition more strongly than further backbone scaling alone. We also report evidence of an annotation-density limitation of DAiSEE on minority affective states, which suggests that benchmark design may bound future progress as much as algorithmic refinement. Index Terms Affective computing, classroom video analysis, class imbalance, multi-task learning, lightweight deep learning, DAiSEE, engagement recognition.",
+  "abstract_zh": "从课堂视频中识别学生的情感状态受到类别不平衡问题的限制，而我们认为这一问题的真实性质尚未得到充分分析。我们展示了在 DAiSEE（该任务的事实标准基准）上，类别不平衡本质上是一种维度特定现象：原始不平衡比率高达约 79:1（挫败感），而不平衡的结构——不仅仅是其幅度——在不同维度之间存在差异，因此统一的算法处理（如激进的类别重加权、焦点损失、统一的二元简化）在维度依赖性方面表现不佳。我们提出了自适应混合标签策略（Adaptive Hybrid Label Strategy, AHLS），该策略对具有可管理不平衡的维度分配四级分类，对严重长尾的维度进行二元分类，并结合一个空类占位机制，通过将四个维度的最大有效逆频率权重比从高达 ~79× 压缩至最多 ~8.5×，从而稳定多任务优化。经过在轻量级 FERShuffleNetV2 + LTCN 架构（0.39 M 参数，0.07 G FLOPs）上的验证，该策略在 11 种比较方法中获得了所有四个情感维度的最高平均宏 F1 值 47.70%，包括五种最先进的深度模型（最大可达 167× 更大）和五种传统机器学习基线。对 DAiSEE 的跨模型行为分析表明，在这种情况下，分类策略可能比进一步的主干扩展更强烈地影响少数状态的识别。我们还报告了 DAiSEE 在少数情感状态上的标注密度限制的证据，这表明基准设计可能在未来进展中与算法优化同样重要。关键词：情感计算，课堂视频分析，类别不平衡，多任务学习，轻量级深度学习，DAiSEE，参与度识别。",
+  "arxiv_id": "2609.31750",
+  "arxiv_url": "https://arxiv.org/abs/2609.31750v1",
+  "authors": [
+    "Xiangqian Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-31750",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.373331+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.31750v1",
+  "published_at": "2026-09-23T08:20:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective computing",
+      "情感计算",
+      "affective",
+      "recognition",
+      "classification",
+      "benchmark",
+      "deep learning",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.31750v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": []
+  },
+  "title": "Dimension-Specific Imbalance and an Adaptive Hybrid Label Strategy for Multi-Task Affective State Recognition in Classroom Video",
+  "title_zh": "针对课堂视频中多任务情感状态识别的维度特定不平衡与自适应混合标签策略",
+  "translation_url": "https://hjfy.top/arxiv/2609.31750"
+}

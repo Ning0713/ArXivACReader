@@ -1,0 +1,54 @@
+{
+  "abstract": "We introduce NSV-Shift, a contrastive benchmark for evaluating whether speech-to-speech models can understand non-speech vocalizations (NSVs) and adapt their responses accordingly. Each pair contains two conversations with identical lexical content that differ only in the NSV embedded in the final turn. Our pilot contains 22 human-verified pairs (44 audio conditions) and evaluates five models on NSV perception, emotion understanding, and response adaptation. Results show that models generally perform better at detecting NSVs than at interpreting their fine-grained emotional meaning or producing appropriately differentiated responses. The data construction pipeline, dataset, and evaluation pipeline are publicly available at https://github.com/ChenzwNina/nsv-construction.",
+  "abstract_zh": "我们介绍了NSV-Shift，这是一个对比基准，用于评估语音到语音模型是否能够理解非语音发声（NSVs）并相应地调整其响应。每对样本包含两个对话，它们的词汇内容相同，仅在最后一轮中嵌入的NSV不同。我们的初步研究包含22对经过人工验证的样本（44个音频条件），并评估五个模型在NSV感知、情感理解和响应适应方面的表现。结果表明，模型在检测NSVs方面的表现通常优于对其细微情感意义的解释或产生适当区分的响应。数据构建流程、数据集和评估流程已公开发布在 https://github.com/ChenzwNina/nsv-construction。",
+  "arxiv_id": "2609.33899",
+  "arxiv_url": "https://arxiv.org/abs/2609.33899v1",
+  "authors": [
+    "Ziwei Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-33899",
+  "categories": [
+    "cs.CL",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.902877+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.33899v1",
+  "published_at": "2026-09-27T20:28:06Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion understanding",
+      "情感理解",
+      "emotion",
+      "emotional",
+      "benchmark",
+      "dataset",
+      "speech",
+      "audio",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 83.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.33899v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "语音情感"
+    ]
+  },
+  "title": "NSV-Shift: A Contrastive Benchmark for Non-Speech Vocalization Understanding and Response Adaptation in Speech-to-Speech Models",
+  "title_zh": "NSV-Shift：用于评估语音到语音模型理解非语音发声及其响应适应性的对比基准",
+  "translation_url": "https://hjfy.top/arxiv/2609.33899"
+}

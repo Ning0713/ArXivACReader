@@ -1,0 +1,51 @@
+{
+  "abstract": "Sentiment analysis is a common tool for converting unstructured text into quantitative signals in finance and risk management. Yet most applications reduce the output to a discrete polarity label or a single predictive feature, overlooking the distributional structure of sentiment intensity in consumer complaint narratives. In this paper we treat negative sentiment in consumer complaints as a bounded continuous variable and study its full distribution rather than a single label. We score each narrative with a transformer classifier, model the scores with Beta distributions, and compare the fitted distributions of meritorious and non-meritorious complaints through the Kullback Leibler divergence and the squared Hellinger distance. The fitted distributions are then linked with dollar amounts and company response outcomes to construct anomaly diagnostics that flag complaints whose textual severity is inconsistent with the recorded relief. We find that the two groups have strongly overlapping distributions, so negative sentiment intensity is not a sharp classifier of outcomes on its own; combined with monetary and categorical attributes, it isolates unusually severe complaints for operational risk monitoring. Treating sentiment analysis as continuous distributional measurement, this study links sentiment extraction, bounded response modeling, and anomaly detection in a unified framework for consumer complaint assessment.",
+  "abstract_zh": "情感分析是将非结构化文本转化为定量信号的常用工具，广泛应用于金融和风险管理。然而，大多数应用将输出简化为离散的极性标签或单一的预测特征，忽视了消费者投诉叙述中情感强度的分布结构。本文将消费者投诉中的负面情感视为一个有界的连续变量，研究其完整分布，而非单一标签。我们使用变换器分类器对每个叙述进行评分，利用Beta分布对评分进行建模，并通过Kullback-Leibler散度和平方Hellinger距离比较优质与非优质投诉的拟合分布。然后，将拟合的分布与金额和公司响应结果关联，以构建异常诊断，标记那些文本严重性与记录的救济不一致的投诉。我们发现这两组的分布高度重叠，因此负面情感强度本身并不能作为结果的明确分类器；结合货币和类别属性，它能够隔离出异常严重的投诉，以便进行操作风险监控。将情感分析视为连续分布测量，本研究将情感提取、有界响应建模和异常检测整合为一个统一的框架，用于消费者投诉评估。",
+  "arxiv_id": "2609.31653",
+  "arxiv_url": "https://arxiv.org/abs/2609.31653v1",
+  "authors": [
+    "Peiheng Gao",
+    "Chen Yang",
+    "Shimin Zhang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-31653",
+  "categories": [
+    "cs.CL",
+    "cs.LG",
+    "stat.AP"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.801852+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.31653v1",
+  "published_at": "2026-09-14T15:34:23Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "detection",
+      "分类",
+      "检测",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 68.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.31653v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": []
+  },
+  "title": "Distributional sentiment modeling and anomaly detection for consumer complaint assessment",
+  "title_zh": "消费者投诉评估的分布式情感建模与异常检测",
+  "translation_url": "https://hjfy.top/arxiv/2609.31653"
+}

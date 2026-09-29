@@ -1,0 +1,61 @@
+{
+  "abstract": "We identify a fundamental mismatch in empathetic reinforcement learning: support priorities evolve with the dialogue state, yet existing methods typically optimize predefined reward specifications that remain fixed across turns. To model these evolving support priorities, we organize empathetic support along cognitive, affective, and proactive empathy, and propose Context-Adaptive Rubric Evolution (CARE). At each turn, CARE generates a context-adaptive rubric by adjusting both the weights of these three empathy dimensions and their fine-grained evaluation criteria. The rubric generator is trained with turn-level rubric supervision and human preference data through supervised fine-tuning followed by preference-based reinforcement learning, and then serves as an adaptive reward interface for online empathetic RL. Integrated with both RLVER and MICA, CARE achieves state-of-the-art performance across SentientBench, EQBench3, and EMPA under three independent LLM judges. Notably, on EMPA, CARE improves EPM-Idx over the strongest baseline by at least 13 points under all three judges, including an increase from 28.11 to 83.54 under Gemini-2.5-Pro. Further analyses show that learned rubric priorities systematically vary across dialogue stages and user emotions, demonstrating that CARE adapts what is rewarded as support needs evolve.",
+  "abstract_zh": "我们识别出同理心强化学习中的一个基本不匹配：支持优先级随着对话状态的变化而演变，但现有方法通常优化固定的预定义奖励规范，这些规范在多个回合中保持不变。为了建模这些演变的支持优先级，我们将同理心支持组织为认知、情感和主动同理心，并提出了上下文自适应评分演变（Context-Adaptive Rubric Evolution, CARE）。在每个回合中，CARE通过调整这三个同理心维度的权重及其细化的评估标准，生成一个上下文自适应的评分标准。评分标准生成器通过回合级评分监督和人类偏好数据进行监督微调，然后通过基于偏好的强化学习进行训练，最终作为在线同理心强化学习的自适应奖励接口。与RLVER和MICA相结合，CARE在SentientBench、EQBench3和EMPA三个独立的LLM评审下实现了最先进的性能。值得注意的是，在EMPA上，CARE在所有三个评审下将EPM-Idx提高了至少13分，包括在Gemini-2.5-Pro下从28.11提高到83.54。进一步分析表明，学习到的评分优先级在对话阶段和用户情感之间系统性地变化，证明了CARE能够随着支持需求的演变而调整奖励内容。",
+  "arxiv_id": "2609.34249",
+  "arxiv_url": "https://arxiv.org/abs/2609.34249v1",
+  "authors": [
+    "Pengyu Huang",
+    "Zhiyuan Han",
+    "Wenwen Tong",
+    "Hewei Guo",
+    "Jiangnan Chen",
+    "Sirui Chen",
+    "Lewei Lu",
+    "Beier Zhu",
+    "Xun Yang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-29#paper-2609-34249",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-29T11:14:41.797961+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.34249v1",
+  "published_at": "2026-09-28T03:55:21Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotions",
+      "affective",
+      "empathy",
+      "empathetic",
+      "LLM",
+      "dialogue",
+      "识别",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 39.0
+  },
+  "seen_dates": [
+    "2026-09-29"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.34249v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-29"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "共情交互",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "Evolving Support Priorities in Empathetic Reinforcement Learning",
+  "title_zh": "在同理心强化学习中演变的支持优先级",
+  "translation_url": "https://hjfy.top/arxiv/2609.34249"
+}
