@@ -1,0 +1,59 @@
+{
+  "abstract": "Empathetic spoken dialogue requires models to use both what is said and how it is said to decide how to respond. Explicit CoT can improve paralinguistic perception and make acoustic cues more explicit in replies, yet does not ensure their effective use in response planning. We call this mismatch the perception-reasoning gap. In addition, CoT may not fully capture acoustic cues in words, and generating it adds inference latency. To address these limitations, we introduce LoopSLM, which builds on looped Transformers for latent reasoning, reusing a decoder block to refine hidden states with acoustic grounding at every pass. Its two-stage training further narrows the perception-reasoning gap by separating learning to reason from learning to respond, enabling direct inference without CoT. On EchoMind, LoopSLM improves paralinguistic understanding, reasoning, and reply quality over Qwen2.5-Omni-7B. Against the CoT-SFT baseline, LoopSLM gains over 20 points in reasoning accuracy while generating 64.5% fewer tokens at half the latency. It also outperforms Qwen3-Omni-Thinking on most empathetic reply metrics with 34x lower latency. Despite training only on dialogue data, LoopSLM improves accuracy on general audio benchmarks.",
+  "abstract_zh": "富有同理心的语音对话要求模型同时考虑说什么和如何说，以决定如何回应。显式的链式推理（CoT）可以改善对副语言信息的感知，并使声学线索在回复中更加明确，但并不能确保在响应规划中有效利用这些信息。我们将这种不匹配称为感知-推理差距。此外，链式推理可能无法完全捕捉单词中的声学线索，而生成链式推理会增加推理延迟。为了解决这些局限性，我们引入了LoopSLM，它基于循环变换器（looped Transformers）进行潜在推理，在每次传递中重用解码器块以利用声学基础来细化隐藏状态。其两阶段训练进一步缩小了感知-推理差距，通过将推理学习与响应学习分开，使得无需链式推理即可进行直接推理。在EchoMind上，LoopSLM在副语言理解、推理和回复质量上优于Qwen2.5-Omni-7B。与链式推理-微调（CoT-SFT）基线相比，LoopSLM在推理准确性上提高了20多个百分点，同时生成的标记减少了64.5%，延迟减半。它在大多数同理心回复指标上也优于Qwen3-Omni-Thinking，延迟降低了34倍。尽管仅在对话数据上进行训练，LoopSLM在一般音频基准测试中的准确性也有所提升。",
+  "arxiv_id": "2609.37818",
+  "arxiv_url": "https://arxiv.org/abs/2609.37818v1",
+  "authors": [
+    "Shengbo Cai",
+    "Yuxiang Wang",
+    "Jingran Xie",
+    "Zhisheng Zhang",
+    "Shun Lei",
+    "Di Cao",
+    "Teddy Sun",
+    "Zhiyong Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-37818",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-09-30T11:03:17.168883+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.37818v1",
+  "published_at": "2026-09-29T15:28:13Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathetic",
+      "reasoning",
+      "dialogue",
+      "audio",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.37818v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "共情交互",
+      "数据集/评测"
+    ]
+  },
+  "title": "Thinking in Depth, Speaking Directly: Recurrent Latent Reasoning for Paralinguistically Grounded Spoken Dialogue",
+  "title_zh": "深入思考，直接表达：用于语音对话的递归潜在推理",
+  "translation_url": "https://hjfy.top/arxiv/2609.37818"
+}

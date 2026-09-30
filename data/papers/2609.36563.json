@@ -1,0 +1,55 @@
+{
+  "abstract": "Visual emotion recognition commonly assumes that all evidence required for prediction is contained in the observed image or video. Yet the same visible reaction can convey different emotions depending on events beyond the input: tears, for example, may indicate grief or joy. We formulate Event-Grounded Emotion Recognition (EGER), where emotion recognition requires recovering the affect-determining event. We construct EGER-Bench, comprising 10,052 videos and 10,734 images across 11 emotions, two source domains, and four visual settings. A study with six annotators shows that event context raises human recognition accuracy from 33.96% to 72.08%, confirming that visual evidence alone is often insufficient. Semantic relevance alone does not solve EGER: a plausible event may imply the wrong emotion if its identity, focal-person role, relationship, or outcome is misinterpreted. We therefore propose AffectReveal, a tuning-free framework that first constructs and independently verifies evidence-grounded alternatives over these affect-critical factors. It then cross-checks the recovered event against face-masked in-media facts through bidirectional atomic evidence support, while retaining the original unmasked input for final prediction. Across three downstream models and four input settings, AffectReveal yields average UAR gains of 5.26--10.53 points. For three fine-tunable models, it also enables untuned models to outperform their fine-tuned visual-only counterparts in all 12 accuracy comparisons, without updating downstream parameters.",
+  "abstract_zh": "视觉情感识别通常假设所有预测所需的证据都包含在观察到的图像或视频中。然而，相同的可见反应可能会根据输入之外的事件传达不同的情感：例如，眼泪可能表示悲伤或快乐。我们提出了事件基础情感识别（Event-Grounded Emotion Recognition, EGER）的概念，其中情感识别需要恢复影响情感的事件。我们构建了EGER-Bench，包括10,052个视频和10,734张图像，涵盖11种情感、两个源领域和四种视觉设置。六位注释者的研究表明，事件背景将人类识别准确率从33.96%提高到72.08%，确认仅凭视觉证据往往是不够的。仅靠语义相关性无法解决EGER问题：如果事件的身份、焦点人物角色、关系或结果被误解，一个合理的事件可能暗示错误的情感。因此，我们提出了AffectReveal，这是一个无需调优的框架，首先在这些影响情感的关键因素上构建并独立验证基于证据的替代方案。然后，它通过双向原子证据支持，将恢复的事件与面部遮蔽的媒体事实进行交叉验证，同时保留原始未遮蔽的输入以进行最终预测。在三个下游模型和四种输入设置中，AffectReveal的平均无偏识别率（UAR）提高了5.26到10.53个百分点。对于三个可调优的模型，它还使未调优的模型在所有12个准确性比较中超越其调优后的仅视觉对照组，而无需更新下游参数。",
+  "arxiv_id": "2609.36563",
+  "arxiv_url": "https://arxiv.org/abs/2609.36563v1",
+  "authors": [
+    "Yihao Qian",
+    "Runhao Zeng",
+    "Sicheng Zhao",
+    "Feng Liang",
+    "Hongmin Cai",
+    "Mingkui Tan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-36563",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-30T11:03:16.728971+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.36563v1",
+  "published_at": "2026-09-29T02:48:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "emotions",
+      "recognition",
+      "prediction",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.36563v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "AffectReveal: Event-Grounded Emotion Recognition Beyond Visual Appearances",
+  "title_zh": "AffectReveal：超越视觉外观的事件基础情感识别",
+  "translation_url": "https://hjfy.top/arxiv/2609.36563"
+}

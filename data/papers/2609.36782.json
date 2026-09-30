@@ -1,0 +1,62 @@
+{
+  "abstract": "While multimodal large language models (MLLMs) have demonstrated exceptional capabilities in objective understanding tasks, their performance in affective reasoning still falls significantly short of human standards. We attribute it to a central capability gap: MLLMs are difficult to reliably distinguish semantically proximal emotions based on fine-grained visual evidence, which could be decoupled as two limitations: 1) Insufficient Attribution. The global reasoning paradigm of conventional MLLMs severely dilutes fine-grained emotion cues, where subtle emotional states are usually implicitly encoded, thereby generating emotional misjudgments in complex scenarios. 2) Insufficient Discrimination. Existing methods could only identify regions generally associated with emotions, which fails to distinguish discriminative regions between semantically similar emotions, leading to ambiguous emotion judgements. To overcome these limitations, we present a training-free inference-time optimization framework, named Decoding Affective Nuances (DAN). Specifically, we propose a Hierarchical Emotional Reasoning Chain (HERC) that enhances the insufficient attribution by harmonizing fine-grained scene/object-level cues and performing a soft-gated reasoning. Furthermore, to discriminate between semantically proximal emotions, we design a Contrastive Discriminative Visual Pruning (CDVP), which isolates discriminative visual tokens to reason the final emotion category by computing the absolute discrepancy between the attention distributions of similar emotions. Performances on several benchmarks demonstrate that DAN significantly improves discrimination for affective nuances without consuming additional training resources, especially achieving +10.47% improvements with Qwen3-VL-8B-Instruct on WebEmo25 dataset that contains 25 fine-grained emotion categories.",
+  "abstract_zh": "尽管多模态大型语言模型（MLLMs）在客观理解任务中表现出色，但它们在情感推理方面的表现仍显著低于人类标准。我们将其归因于一个核心能力差距：MLLMs难以基于细粒度的视觉证据可靠地区分语义上相近的情感，这可以分解为两个局限性：1）归因不足。传统MLLMs的全球推理范式严重稀释了细粒度情感线索，其中微妙的情感状态通常是隐式编码的，从而在复杂场景中产生情感误判。2）判别不足。现有方法只能识别与情感普遍相关的区域，未能区分语义相似情感之间的判别区域，导致情感判断模糊。为了克服这些局限性，我们提出了一种无训练的推理时优化框架，称为解码情感细微差别（DAN）。具体而言，我们提出了一个层次情感推理链（HERC），通过协调细粒度场景/对象级线索并执行软门控推理来增强不足的归因。此外，为了区分语义上相近的情感，我们设计了一种对比性判别视觉修剪（CDVP），通过计算相似情感的注意力分布之间的绝对差异，隔离判别视觉标记以推理最终的情感类别。在多个基准测试上的表现表明，DAN显著提高了情感细微差别的判别能力，而不消耗额外的训练资源，特别是在包含25个细粒度情感类别的WebEmo25数据集上，使用Qwen3-VL-8B-Instruct实现了+10.47%的提升。",
+  "arxiv_id": "2609.36782",
+  "arxiv_url": "https://arxiv.org/abs/2609.36782v1",
+  "authors": [
+    "Cheng Ye",
+    "Weidong Chen",
+    "Zhaobo Qi",
+    "Beier Zhu",
+    "Zhendong Mao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-36782",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-30T11:03:16.746500+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.36782v1",
+  "published_at": "2026-09-29T05:53:48Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion reasoning",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "multimodal",
+      "large language models",
+      "MLLMs",
+      "reasoning",
+      "dataset",
+      "多模态",
+      "识别",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 76.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.36782v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "Decoding Affective Nuances: Enhancing MLLMs via Hierarchical Emotion Reasoning and Contrastive Discriminative Pruning",
+  "title_zh": "解码情感细微差别：通过层次情感推理和对比性判别修剪增强多模态大型语言模型",
+  "translation_url": "https://hjfy.top/arxiv/2609.36782"
+}

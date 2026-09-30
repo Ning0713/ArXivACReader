@@ -836,8 +836,135 @@
         "情感生成"
       ],
       "title": "Decide, Don't Generate: Competitive Dimensional ABSA with Jev's Typed Decisions"
+    },
+    "2609.36194": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Concept Direction Reliability Across Languages with Different Tokenizer Fertility"
+    },
+    "2609.36340": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "情感生成",
+        "共情交互",
+        "数据集/评测"
+      ],
+      "title": "ThuRunel: Dynamic Decoupling for Structured Advisory Dialogue"
+    },
+    "2609.36563": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "AffectReveal: Event-Grounded Emotion Recognition Beyond Visual Appearances"
+    },
+    "2609.36775": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "数据集/评测",
+        "鲁棒性/偏差",
+        "多模态情感"
+      ],
+      "title": "DSPO: Diversity-aware Subjective Policy Optimization for Robust Emotional Reasoning"
+    },
+    "2609.36776": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "多模态情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Causal-EVC: Breaking Emotional Spurious Causality via Spatiotemporal Grounding and Counterfactual Intervention"
+    },
+    "2609.36782": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "多模态情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Decoding Affective Nuances: Enhancing MLLMs via Hierarchical Emotion Reasoning and Contrastive Discriminative Pruning"
+    },
+    "2609.37324": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "VISTA: Value-Informed Event Appraisal for Multimodal Emotion Conflict"
+    },
+    "2609.37408": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "语音情感"
+      ],
+      "title": "Look What You Made Us Cluster: Hate Narrative Extraction from Reddit Discourse"
+    },
+    "2609.37818": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "语音情感",
+        "共情交互",
+        "数据集/评测"
+      ],
+      "title": "Thinking in Depth, Speaking Directly: Recurrent Latent Reasoning for Paralinguistically Grounded Spoken Dialogue"
+    },
+    "2609.37853": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "社交信号"
+      ],
+      "title": "AnthroDial: Benchmarking LLM Anthropomorphism in Autonomous Social Interaction"
+    },
+    "2609.37882": {
+      "dates": [
+        "2026-09-30"
+      ],
+      "first_seen": "2026-09-30",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "社交信号"
+      ],
+      "title": "How Many Labels Does a Language Need? Annotation Budgets and Cross-Lingual Pooling for African-Language Text Classification"
     }
   },
-  "total": 73,
-  "updated_at": "2026-09-29T11:14:51.633135+00:00"
+  "total": 84,
+  "updated_at": "2026-09-30T11:03:23.925680+00:00"
 }

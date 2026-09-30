@@ -1,0 +1,55 @@
+{
+  "abstract": "High-stakes advisory domains such as medical aesthetics, legal consultation, and educational planning exhibit a two-phase structure. The early phase requires empathetic elicitation and emotional support, and the late phase requires authoritative specialist judgment. Neither fully automated agents nor human junior consultants adequately address this structure at scale. We formalize the core design challenge as dynamic decoupling, asking how an AI advisory agent should decide what to ask, when to stop, what to resolve autonomously, and what to forward to the specialist. We present ThuRunel, an advisory agent combining a finite-state belief management framework, a chain-of-thought teacher synthesis protocol, and learned generation adapters. Against eleven baselines, ThuRunel achieves consistent improvements in elicitation completeness and specialist brief quality. ThuRunel is publicly deployed as a bilingual web application in which the same decoupling decisions operate from the client's side, grounded in a curated knowledge base that cites its sources in every answer.",
+  "abstract_zh": "高风险咨询领域，如医疗美容、法律咨询和教育规划，展现出两阶段结构。早期阶段需要同理心的引导和情感支持，而后期阶段则需要权威专家的判断。无论是完全自动化的代理还是人类初级顾问都无法在规模上充分应对这一结构。我们将核心设计挑战形式化为动态解耦，探讨人工智能咨询代理应如何决定提问内容、何时停止、何时自主解决问题以及何时转交给专家。我们提出了ThuRunel，这是一种结合有限状态信念管理框架、思维链教师合成协议和学习生成适配器的咨询代理。与十一种基准相比，ThuRunel在引导完整性和专家简报质量方面取得了一致的改进。ThuRunel作为一个双语网络应用程序公开部署，其中相同的解耦决策在客户端进行，并基于一个经过策划的知识库，在每个答案中引用其来源。",
+  "arxiv_id": "2609.36340",
+  "arxiv_url": "https://arxiv.org/abs/2609.36340v1",
+  "authors": [
+    "Yuyan Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-36340",
+  "categories": [
+    "cs.AI",
+    "cs.HC",
+    "cs.IR"
+  ],
+  "fetched_at": "2026-09-30T11:03:16.923168+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.36340v1",
+  "published_at": "2026-09-28T22:23:43Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "empathetic",
+      "generation",
+      "dialogue",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.36340v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "共情交互",
+      "数据集/评测"
+    ]
+  },
+  "title": "ThuRunel: Dynamic Decoupling for Structured Advisory Dialogue",
+  "title_zh": "ThuRunel：结构化咨询对话的动态解耦",
+  "translation_url": "https://hjfy.top/arxiv/2609.36340"
+}

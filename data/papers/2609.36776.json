@@ -1,0 +1,64 @@
+{
+  "abstract": "Emotional Video Captioning aims to generate factually accurate and emotionally empathetic descriptions. While recent methods have recognized the importance of visual causes to guide emotion perception and caption generation, they fundamentally rely on simple attention matching, which inevitably suffers from {causal redundancy and spurious correlations} in co-occurrence bias (e.g., misclassifying ``sadness'' as ``joy'' on a sunny beach), leading to severe shortcut learning from confusing backgrounds. Furthermore, existing evaluations fail to verify whether models have genuinely mastered causal reasoning or merely exploited background confounders. To address these limitations, we first construct {EVC-CauseGround}, a comprehensive benchmark with dense spatio-temporal causal annotations. Crucially, it introduces a carefully selected {Causal-Faithfulness Subset} to explicitly quantify genuine emotion-cause attribution. Second, we propose {Causal-EVC}, an emotion-grounding captioning framework, which introduces a Motion-guided Causal Spatiotemporal Localization module to precisely decouple causal triggers from background confounders. Besides, we introduce an Interpretable Sparse Emotion Routing module. By synthesizing counterfactual representations and formulating a novel counterfactual contrastive objective, we enforce the model to anchor its emotion predictions strictly on authentic causal triggers instead of confusing background. Extensive experiments show that Causal-EVC not only achieves the best performance on semantic metrics but also exhibits significant advantages in the causal-faithfulness subset, which demonstrates that our model could mine emotional cues from genuine visual causes and mitigate co-occurrence bias for interpretable multimodal emotion understanding.",
+  "abstract_zh": "情感视频描述旨在生成事实准确且情感共鸣的描述。尽管近期的方法已经认识到视觉因果关系在引导情感感知和描述生成中的重要性，但它们基本上依赖于简单的注意力匹配，这不可避免地受到共现偏差中的{因果冗余和虚假相关性}的影响（例如，在阳光明媚的海滩上将“悲伤”错误分类为“快乐”），导致从混淆背景中严重的捷径学习。此外，现有的评估未能验证模型是否真正掌握了因果推理，还是仅仅利用了背景混淆因素。为了解决这些局限性，我们首先构建了{EVC-CauseGround}，这是一个具有密集时空因果注释的综合基准。关键是，它引入了一个精心选择的{因果可信度子集}，以明确量化真实的情感-因果归因。其次，我们提出了{因果-EVC}，一个情感基础的描述生成框架，介绍了一个运动引导的因果时空定位模块，以精确地将因果触发因素与背景混淆因素解耦。此外，我们引入了一个可解释的稀疏情感路由模块。通过合成反事实表示并制定一个新的反事实对比目标，我们强制模型将其情感预测严格锚定在真实的因果触发因素上，而不是混淆的背景。大量实验表明，因果-EVC不仅在语义指标上实现了最佳性能，而且在因果可信度子集上表现出显著优势，这表明我们的模型能够从真实的视觉因果中挖掘情感线索，并减轻共现偏差，从而实现可解释的多模态情感理解。",
+  "arxiv_id": "2609.36776",
+  "arxiv_url": "https://arxiv.org/abs/2609.36776v1",
+  "authors": [
+    "Cheng Ye",
+    "Weidong Chen",
+    "Peipei Song",
+    "Zhendong Mao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-36776",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-30T11:03:16.745646+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.36776v1",
+  "published_at": "2026-09-29T05:49:15Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion understanding",
+      "emotion cause",
+      "情感理解",
+      "情感预测",
+      "emotion",
+      "emotional",
+      "empathetic",
+      "multimodal",
+      "reasoning",
+      "generation",
+      "benchmark",
+      "多模态",
+      "分类",
+      "预测",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.36776v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "Causal-EVC: Breaking Emotional Spurious Causality via Spatiotemporal Grounding and Counterfactual Intervention",
+  "title_zh": "因果-EVC：通过时空基础和反事实干预打破情感虚假因果关系",
+  "translation_url": "https://hjfy.top/arxiv/2609.36776"
+}

@@ -1,0 +1,53 @@
+{
+  "abstract": "Every text classifier for an African language begins with a budgeting question: how many labelled examples are needed, and can labels from other African languages stand in for them? We answer both questions empirically for 28 language-task pairs, news topic classification in 16 languages (MasakhaNEWS) and tweet sentiment in 12 languages (AfriSenti), using a character n-gram linear model that trains in seconds on two CPU cores with no pretrained weights and no accelerator. Monolingual learning curves at budgets from 25 to several thousand labels show that topic classification reaches 90\\% of its full-data macro-F1 with about 400 labels in the median language, while sentiment is still improving at the full training size in 11 of 12 languages and needs thousands of labels. Pooling the full training data of the other languages in the benchmark is worth a great deal at small budgets and nothing at large ones: at 25 target labels it adds 0.20 macro-F1 on average for news (up to 0.43 for Lingala) and 0.08 for sentiment, the gain decays to zero by 800 labels, and at full size pooling hurts in 9 of 16 and 8 of 12 languages. Twenty-five target labels plus pooled data match what 100 to 400 monolingual labels achieve for most news languages. A complete zero-shot transfer matrix shows that transfer without any target labels recovers a median of only 13\\% (news) and 4\\% (sentiment) of the gap between a majority-class predictor and the in-language model, with the exceptions explained by shared script (Amharic and Tigrinya), shared lexicon (English and Nigerian Pidgin, the Arabic dialects), or a shared label prior rather than by language family. We release code that regenerates every number from the public benchmark files and translate the results into concrete annotation guidance for teams building African-language classifiers without GPUs.",
+  "abstract_zh": "每个非洲语言的文本分类器都始于一个预算问题：需要多少标注示例，其他非洲语言的标签是否可以替代它们？我们通过对28个语言-任务对进行实证研究来回答这两个问题，包括16种语言的新闻主题分类（MasakhaNEWS）和12种语言的推文情感分析（AfriSenti），使用一种字符n-gram线性模型，该模型在两个CPU核心上训练仅需几秒钟，无需预训练权重和加速器。在从25到几千个标签的预算下，单语学习曲线显示，主题分类在中位语言中大约需要400个标签即可达到其全数据宏观F1的90%，而情感分析在12种语言中有11种仍在全训练规模下持续改进，并需要数千个标签。在小预算下，汇聚基准中其他语言的完整训练数据具有很大价值，而在大预算下则没有：在25个目标标签时，新闻的平均宏观F1增加了0.20（最高可达0.43的Lingala），情感分析增加了0.08，增益在800个标签时衰减至零，而在全规模下，汇聚在16种语言中的9种和12种语言中的8种情况下都造成了损害。25个目标标签加上汇聚数据与大多数新闻语言中100到400个单语标签的效果相当。完整的零样本迁移矩阵显示，在没有任何目标标签的情况下，迁移仅恢复了多数类预测器与语言内模型之间差距的中位数13%（新闻）和4%（情感），例外情况由共享书写系统（阿姆哈拉语和提格利尼亚语）、共享词汇（英语和尼日利亚皮钦语、阿拉伯方言）或共享标签先验解释，而非语言家族。我们发布了代码，可以从公共基准文件中重新生成每一个数字，并将结果转化为具体的标注指导，以帮助构建不使用GPU的非洲语言分类器的团队。",
+  "arxiv_id": "2609.37882",
+  "arxiv_url": "https://arxiv.org/abs/2609.37882v1",
+  "authors": [
+    "Bhanu Prakash Vangala",
+    "Sowmya Guda",
+    "Navya Vangala"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-37882",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-09-30T11:03:17.174767+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.37882v1",
+  "published_at": "2026-09-29T15:54:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分析",
+      "classification",
+      "benchmark",
+      "分类",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 43.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.37882v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测",
+      "社交信号"
+    ]
+  },
+  "title": "How Many Labels Does a Language Need? Annotation Budgets and Cross-Lingual Pooling for African-Language Text Classification",
+  "title_zh": "语言需要多少标签？非洲语言文本分类的标注预算与跨语言汇聚",
+  "translation_url": "https://hjfy.top/arxiv/2609.37882"
+}

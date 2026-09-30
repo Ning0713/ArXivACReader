@@ -1,0 +1,58 @@
+{
+  "abstract": "Reinforcement Learning has significantly advanced the complex reasoning capabilities of MLLMs. However, prevailing RL algorithms suffer a severe failure in emotion reasoning tasks. These methods heavily rely on deterministic hard-label supervision and point-wise isolated evaluation, creating a fundamental gap with the inherently subjective and continuously distributed nature of human emotions. Furthermore, unlike explicit physical objects, emotional states are deeply implicit within visual cues. This abstract nature exacerbates visual hallucinations in MLLMs, leading to plausible yet ungrounded emotional evidence. To address these limitations, we propose Diversity-Aware Subjective Policy Optimization (DSPO), a reinforcement learning framework that jointly promotes subjective affective coverage and visual grounding. First, we construct a context-grounded emotional distribution prior in the VAD space by combining the lexical prior of the annotated emotion with image-specific contextual information. Based on this prior, we introduce a Distribution-Aligned Emotional Diversity Reward (DEDR), which measures the leave-one-out marginal contribution of each candidate emotion within a rollout. DEDR rewards candidates whose inclusion brings the predicted affective set closer to the context-grounded prior, thereby preserving plausible subjective interpretations without encouraging unconstrained dispersion. We further develop Counterfactual Visual Intervention Gating (CVIG), which masks the visual region highlighted in the reasoning process and uses the resulting candidate-wise probability changes to reduce the weights of interpretations unsupported by visual evidence. Extensive experiments demonstrate that DSPO achieves state-of-the-art performance across multiple public benchmarks, especially on the cross-domain performance, i.e., improving +10.8\\% on average cross-domain accuracy than EMO-R3.",
+  "abstract_zh": "强化学习显著提升了多模态大语言模型（MLLMs）在复杂推理能力方面的表现。然而，现有的强化学习算法在情感推理任务中表现不佳。这些方法严重依赖于确定性的硬标签监督和逐点孤立评估，导致与人类情感固有的主观性和连续分布特性之间存在根本性差距。此外，与显性物理对象不同，情感状态在视觉线索中深藏隐晦。这种抽象特性加剧了多模态大语言模型中的视觉幻觉，导致看似合理但缺乏实证支持的情感证据。为了解决这些局限性，我们提出了面向多样性的主观策略优化（Diversity-Aware Subjective Policy Optimization, DSPO），这是一种强化学习框架，旨在共同促进主观情感覆盖和视觉基础。首先，我们通过结合注释情感的词汇先验和图像特定的上下文信息，在情感-价值-激励（VAD）空间中构建一个上下文基础的情感分布先验。基于该先验，我们引入了分布对齐的情感多样性奖励（Distribution-Aligned Emotional Diversity Reward, DEDR），该奖励衡量每个候选情感在回滚过程中的逐一边际贡献。DEDR奖励那些其纳入使得预测的情感集合更接近上下文基础先验的候选，从而保留合理的主观解释而不鼓励无约束的分散。我们进一步开发了反事实视觉干预门控（Counterfactual Visual Intervention Gating, CVIG），该方法掩盖推理过程中突出显示的视觉区域，并利用由此产生的候选概率变化来降低不被视觉证据支持的解释的权重。大量实验表明，DSPO在多个公共基准上达到了最先进的性能，特别是在跨领域性能上，即在平均跨领域准确率上比EMO-R3提高了10.8%。",
+  "arxiv_id": "2609.36775",
+  "arxiv_url": "https://arxiv.org/abs/2609.36775v1",
+  "authors": [
+    "Cheng Ye",
+    "Weidong Chen",
+    "Bingyan Xu",
+    "Zhendong Mao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-36775",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-09-30T11:03:16.744801+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.36775v1",
+  "published_at": "2026-09-29T05:46:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion reasoning",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "MLLMs",
+      "reasoning",
+      "多模态",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 67.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.36775v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "鲁棒性/偏差",
+      "多模态情感"
+    ]
+  },
+  "title": "DSPO: Diversity-aware Subjective Policy Optimization for Robust Emotional Reasoning",
+  "title_zh": "DSPO：面向多样性的主观策略优化以增强情感推理的鲁棒性",
+  "translation_url": "https://hjfy.top/arxiv/2609.36775"
+}

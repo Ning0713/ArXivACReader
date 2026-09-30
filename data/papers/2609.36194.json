@@ -1,0 +1,52 @@
+{
+  "abstract": "Extracted sentiment directions can vary across samples even when downstream sentiment classification remains accurate. To evaluate direction reproducibility, we measure split-half agreement in English, Hausa, and Yoruba representations across four language models using both native and translated texts. We identify layers selected for agreement using ten topics and evaluate direction agreement across separate groups of fifteen topics. Using the final token, split-half agreement ranges from 0.737 to 0.870 for English, 0.589 to 0.762 for Hausa, and 0.101 to 0.399 for Yoruba, maintaining this language rank order across all 77 complete model comparisons. Classifiers trained on these same layers consistently predict sentiment above chance, demonstrating that predictive accuracy does not imply directional consistency. Furthermore, averaging token representations yields less consistent agreement, and high agreement can partially reflect sentence length. Ultimately, our findings highlight the need to measure vector direction reproducibility independently of classification performance, though they do not establish that tokenizer fertility which is the average number of tokens per whitespace separated word causes cross-lingual differences.",
+  "abstract_zh": "提取的情感方向在样本之间可能存在差异，即使下游情感分类保持准确。为了评估方向的可重复性，我们在英语、豪萨语和约鲁巴语的四种语言模型中，使用本地文本和翻译文本测量了分半一致性。我们使用十个主题识别出选定的层以进行一致性评估，并在十五个主题的不同组之间评估方向一致性。使用最终的标记，英语的分半一致性范围为0.737到0.870，豪萨语为0.589到0.762，约鲁巴语为0.101到0.399，在所有77个完整模型比较中保持了这种语言排名顺序。基于这些相同层训练的分类器始终在随机水平之上预测情感，表明预测准确性并不意味着方向一致性。此外，平均标记表示会导致一致性降低，而高一致性部分反映了句子长度。最终，我们的研究结果强调了独立于分类性能测量向量方向可重复性的必要性，尽管它们并未确立分词器丰度（即每个以空格分隔的单词的平均标记数）导致跨语言差异。",
+  "arxiv_id": "2609.36194",
+  "arxiv_url": "https://arxiv.org/abs/2609.36194v1",
+  "authors": [
+    "Muhammad Abdullahi Said",
+    "Abass Oguntade",
+    "Elisha Komolafe",
+    "Babangida Sani",
+    "Fatima Muhammad Adam",
+    "Muhammad Sammani Sani"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-09-30#paper-2609-36194",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-09-30T11:03:17.095934+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.36194v1",
+  "published_at": "2026-09-28T19:57:20Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment classification",
+      "情感分类",
+      "classification",
+      "识别",
+      "分类",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 68.0
+  },
+  "seen_dates": [
+    "2026-09-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.36194v1",
+    "axi": "https://paper.axi404.top/daily/2026-09-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": []
+  },
+  "title": "Concept Direction Reliability Across Languages with Different Tokenizer Fertility",
+  "title_zh": "不同分词器丰度下跨语言概念方向可靠性",
+  "translation_url": "https://hjfy.top/arxiv/2609.36194"
+}
