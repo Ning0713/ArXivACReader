@@ -1,0 +1,20 @@
+{
+  "candidate_count": 562,
+  "date": "2026-10-01",
+  "filter_version": "affective-computing-v3",
+  "generated_at": "2026-10-01T11:29:51.220861+00:00",
+  "paper_ids": [
+    "2609.40079",
+    "2609.38296",
+    "2609.38359",
+    "2609.39863",
+    "2609.38820",
+    "2609.39072"
+  ],
+  "raw_count": 562,
+  "selected_count": 6,
+  "source_hash": "8a98bbdf2a390ed7ba21bddd144723d29b356d985c6454f1c3bf8ce06cc348ec",
+  "source_mode": "axi",
+  "source_url": "https://paper.axi404.top/daily/2026-10-01",
+  "warnings": []
+}

@@ -1,0 +1,52 @@
+{
+  "abstract": "With the rapid growth of Arabic NLP, several models, datasets and benchmarks have been reported. This paper asks whether approaches developed for majority languages like English can be adapted to Arabic tasks. We adapt an English aspect-based sentiment analysis framework to Arabic classification tasks and present the adaptation as BARRAC: Brainstorming Alignment and Replaced Representation learning for ArabiC tasks. BARRAC replaces consumer-review attribute pools with Arabic linguistic devices and markers for dialectal sentiment, sarcasm, and dialect identification, and replaces noisy self-training with two-stage training. Evaluated on five Arabic dialect datasets, BARRAC achieves a mean macro-F1 of 63.93\\%, outperforming the best few-label SOTA by 3\\%, and outperforming GPT-4o on four out of five tasks. Error analysis provides insights into remaining challenges. These results demonstrate that adapting task-specific approaches is a promising direction for Arabic NLP alongside adapting models, datasets and benchmarks.",
+  "abstract_zh": "随着阿拉伯自然语言处理的快速发展，已经报告了多个模型、数据集和基准。本文探讨了为英语等主要语言开发的方法是否可以适应阿拉伯任务。我们将一个基于英语的方面情感分析框架适应于阿拉伯分类任务，并将这种适应称为BARRAC：阿拉伯任务的头脑风暴对齐和替代表示学习。BARRAC用阿拉伯语言工具和标记替换了消费者评论属性池，以识别方言情感、讽刺和方言识别，并用两阶段训练替换了噪声自训练。在五个阿拉伯方言数据集上的评估中，BARRAC达到了63.93%的平均宏F1值，比最佳的少标签状态最优（SOTA）高出3%，并在五个任务中的四个任务上超越了GPT-4o。错误分析提供了对剩余挑战的见解。这些结果表明，适应特定任务的方法是阿拉伯自然语言处理的一个有前景的方向，除了适应模型、数据集和基准之外。",
+  "arxiv_id": "2609.38820",
+  "arxiv_url": "https://arxiv.org/abs/2609.38820v1",
+  "authors": [
+    "Ali Almutairi",
+    "Gelareh Mohammadi",
+    "Imran Razzak",
+    "Aditya Joshi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-01#paper-2609-38820",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-01T11:29:45.579590+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.38820v1",
+  "published_at": "2026-09-30T02:46:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "classification",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 65.0
+  },
+  "seen_dates": [
+    "2026-10-01"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.38820v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-01"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects",
+  "title_zh": "BARRAC：将基于英语的方面情感分析方法适应于阿拉伯方言分类任务",
+  "translation_url": "https://hjfy.top/arxiv/2609.38820"
+}

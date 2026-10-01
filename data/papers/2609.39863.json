@@ -1,0 +1,55 @@
+{
+  "abstract": "Large language models frequently fail to balance staying truthful with being supportive. They often exhibit sycophancy in responses to users, agreeing with false claims, offering unwarranted flattery, and giving advice skewed toward users' expressed views. In reality, sycophancy rarely happens in a single exchange; it may emerge organically as users repeatedly insist or subtly steer the dialogue over time. Current evaluations, however, rely on rigid, single-turn tests or fixed scripts that fail to capture these natural dynamics. Furthermore, these benchmarks often mistake showing basic empathy for yielding, penalizing models for acknowledging a user's feeling. This view may drive future models to over-correct into cold, dismissive rigidity. To address this gap, we introduce FIGS (Factual Integrity and Grounded Support), a dual-axis evaluation framework built around extended, realistic dialogue. We use an adaptive 10-turn conversational simulator that dynamically challenges the target model, reflecting how users repeat requests, push back, or steer a conversation toward a preferred answer. To accurately evaluate these trajectories, we apply a taxonomy that strictly separates Sycophancy (whether the model holds firm to the truth and keeps its praise proportional) from Calibrated Validation (showing empathetic understanding of the user's feelings without overdoing it). We release our complete testing environment, including 500 diverse multi-turn scenarios and an automated judge. Our evaluation of leading models reveals a consistent trade-off: over the course of a sustained interaction, current systems either slowly drift to sycophancy or over-correct into robotic detachment. This demonstrates that balancing honesty with appropriate support throughout a natural conversation remains a critical, unsolved challenge.",
+  "abstract_zh": "大型语言模型在保持真实与提供支持之间常常难以平衡。它们在回应用户时常表现出谄媚，赞同虚假的主张，提供不必要的恭维，并给出偏向用户表达观点的建议。实际上，谄媚很少在单次交流中发生；它可能随着用户的反复坚持或逐渐引导对话而自然产生。然而，目前的评估依赖于僵化的单轮测试或固定脚本，未能捕捉到这些自然动态。此外，这些基准常常将表现出基本同理心误认为是屈从，惩罚模型承认用户感受。这种看法可能导致未来的模型过度修正，变得冷漠和拒绝。为了解决这一问题，我们引入了FIGS（事实完整性与扎根支持），一个围绕扩展、真实对话构建的双轴评估框架。我们使用一个自适应的10轮对话模拟器，动态挑战目标模型，反映用户如何重复请求、反驳或将对话引导至偏好的答案。为了准确评估这些轨迹，我们应用了一种分类法，严格区分谄媚（模型是否坚持真相并保持赞美的适度）与校准验证（表现出对用户感受的同理理解而不至于过度）。我们发布了完整的测试环境，包括500个多样化的多轮场景和一个自动评判系统。我们对领先模型的评估揭示了一种一致的权衡：在持续互动的过程中，当前系统要么缓慢漂移至谄媚，要么过度修正为机械的疏离。这表明，在自然对话中平衡诚实与适当支持仍然是一个关键的、未解决的挑战。",
+  "arxiv_id": "2609.39863",
+  "arxiv_url": "https://arxiv.org/abs/2609.39863v1",
+  "authors": [
+    "Sidharth Pulipaka",
+    "Ruta Binkyte",
+    "Ivaxi Sheth",
+    "Sahar Abdelnabi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-01#paper-2609-39863",
+  "categories": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-01T11:29:45.543472+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.39863v1",
+  "published_at": "2026-09-30T14:46:13Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathy",
+      "empathetic",
+      "large language models",
+      "dialogue",
+      "conversation",
+      "分类",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-01"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.39863v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-01"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "共情交互",
+    "secondary": [
+      "数据集/评测",
+      "情感大模型"
+    ]
+  },
+  "title": "FIGS: Evaluating Multi-Turn Sycophancy Without Penalizing Empathy",
+  "title_zh": "FIGS：评估多轮谄媚而不惩罚同理心",
+  "translation_url": "https://hjfy.top/arxiv/2609.39863"
+}

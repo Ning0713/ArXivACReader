@@ -1,6 +1,137 @@
 {
-  "generated_at": "2026-09-30T11:03:23.925680+00:00",
+  "generated_at": "2026-10-01T11:29:51.220861+00:00",
   "items": [
+    {
+      "abstract": "While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capabilities are largely confined to short video clips with limited interactions. However, real-world emotions are not merely isolated instantaneous reactions but dynamic and cumulative processes deeply shaped by past experiences and ongoing events. To bridge this gap, we introduce LongEmoBench, a benchmark dedicated to emotion understanding and reasoning in long videos. It assesses progressive capabilities scaling from continuous scene interactions to complex episodic developments. Furthermore, we propose LongEmo, a novel memory-augmented agentic framework designed to tackle the immense challenges of long-range affective reasoning. LongEmo processes continuous video streams to construct an Event Memory Graph, explicitly modeling long-range dependencies and capturing emotional dynamics across discrete events. Given a question, the agent retrieves a query-relevant event stream from the graph, iteratively integrating multimodal memories and relational dependencies to deduce the final answer. Extensive evaluations of 17 representative methods reveal that they struggle significantly with emotion understanding and reasoning in long videos. In contrast, LongEmo achieves state-of-the-art performance, demonstrating the efficacy of its event-centric memory architecture.",
+      "abstract_zh": "尽管近期的多模态大型语言模型（MLLMs）在情感计算方面展现出潜力，但其推理能力主要局限于短视频片段和有限的交互。然而，现实世界中的情感并非孤立的瞬时反应，而是深受过去经历和正在发生事件影响的动态累积过程。为了解决这一问题，我们引入了LongEmoBench，这是一个专注于长视频中情感理解与推理的基准测试。该基准评估从连续场景交互到复杂情节发展的逐步能力。此外，我们提出了LongEmo，一个新颖的增强记忆的代理框架，旨在应对长程情感推理的巨大挑战。LongEmo处理连续的视频流，构建事件记忆图，明确建模长程依赖关系并捕捉离散事件中的情感动态。在给定问题的情况下，代理从图中检索与查询相关的事件流，迭代整合多模态记忆和关系依赖，以推导出最终答案。对17种代表性方法的广泛评估表明，它们在长视频中的情感理解与推理方面面临显著挑战。相比之下，LongEmo实现了最先进的性能，展示了其以事件为中心的记忆架构的有效性。",
+      "authors": [
+        "Shuo Zhang",
+        "Yifan Zhou",
+        "Han Wang",
+        "Jinsong Zhang",
+        "Jingyu Li",
+        "Hongbing Li",
+        "Zhejun Zhang",
+        "Chengyi Zhao",
+        "Yuquan Hao",
+        "Yitong Liu",
+        "Jiyin Li",
+        "Ruiqi Tang",
+        "Zixuan Lin",
+        "Yi Luo",
+        "Xurui Zhang",
+        "Ronghao Chen",
+        "Huacan Wang",
+        "Lei Li"
+      ],
+      "date": "2026-10-01",
+      "id": "2609.40079",
+      "tags": [
+        "多模态情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos",
+      "title_zh": "LongEmo：面向长视频中的情感理解与推理",
+      "url": "/daily/2026-10-01/#paper-2609-40079"
+    },
+    {
+      "abstract": "Large language models frequently fail to balance staying truthful with being supportive. They often exhibit sycophancy in responses to users, agreeing with false claims, offering unwarranted flattery, and giving advice skewed toward users' expressed views. In reality, sycophancy rarely happens in a single exchange; it may emerge organically as users repeatedly insist or subtly steer the dialogue over time. Current evaluations, however, rely on rigid, single-turn tests or fixed scripts that fail to capture these natural dynamics. Furthermore, these benchmarks often mistake showing basic empathy for yielding, penalizing models for acknowledging a user's feeling. This view may drive future models to over-correct into cold, dismissive rigidity. To address this gap, we introduce FIGS (Factual Integrity and Grounded Support), a dual-axis evaluation framework built around extended, realistic dialogue. We use an adaptive 10-turn conversational simulator that dynamically challenges the target model, reflecting how users repeat requests, push back, or steer a conversation toward a preferred answer. To accurately evaluate these trajectories, we apply a taxonomy that strictly separates Sycophancy (whether the model holds firm to the truth and keeps its praise proportional) from Calibrated Validation (showing empathetic understanding of the user's feelings without overdoing it). We release our complete testing environment, including 500 diverse multi-turn scenarios and an automated judge. Our evaluation of leading models reveals a consistent trade-off: over the course of a sustained interaction, current systems either slowly drift to sycophancy or over-correct into robotic detachment. This demonstrates that balancing honesty with appropriate support throughout a natural conversation remains a critical, unsolved challenge.",
+      "abstract_zh": "大型语言模型在保持真实与提供支持之间常常难以平衡。它们在回应用户时常表现出谄媚，赞同虚假的主张，提供不必要的恭维，并给出偏向用户表达观点的建议。实际上，谄媚很少在单次交流中发生；它可能随着用户的反复坚持或逐渐引导对话而自然产生。然而，目前的评估依赖于僵化的单轮测试或固定脚本，未能捕捉到这些自然动态。此外，这些基准常常将表现出基本同理心误认为是屈从，惩罚模型承认用户感受。这种看法可能导致未来的模型过度修正，变得冷漠和拒绝。为了解决这一问题，我们引入了FIGS（事实完整性与扎根支持），一个围绕扩展、真实对话构建的双轴评估框架。我们使用一个自适应的10轮对话模拟器，动态挑战目标模型，反映用户如何重复请求、反驳或将对话引导至偏好的答案。为了准确评估这些轨迹，我们应用了一种分类法，严格区分谄媚（模型是否坚持真相并保持赞美的适度）与校准验证（表现出对用户感受的同理理解而不至于过度）。我们发布了完整的测试环境，包括500个多样化的多轮场景和一个自动评判系统。我们对领先模型的评估揭示了一种一致的权衡：在持续互动的过程中，当前系统要么缓慢漂移至谄媚，要么过度修正为机械的疏离。这表明，在自然对话中平衡诚实与适当支持仍然是一个关键的、未解决的挑战。",
+      "authors": [
+        "Sidharth Pulipaka",
+        "Ruta Binkyte",
+        "Ivaxi Sheth",
+        "Sahar Abdelnabi"
+      ],
+      "date": "2026-10-01",
+      "id": "2609.39863",
+      "tags": [
+        "共情交互",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "FIGS: Evaluating Multi-Turn Sycophancy Without Penalizing Empathy",
+      "title_zh": "FIGS：评估多轮谄媚而不惩罚同理心",
+      "url": "/daily/2026-10-01/#paper-2609-39863"
+    },
+    {
+      "abstract": "Emotion recognition in conversation has been widely studied, but applying Large Language Models (LLMs) to continuous dimensional emotion evaluation in multimodal dialogue remains largely unexplored. We propose an LLM-based framework that performs discrete emotion recognition and Valence-Arousal-Dominance (VAD) dimensional evaluation on IEMOCAP, incorporating acoustic cues as natural language descriptions following the SpeechCueLLM approach. We evaluate six models spanning the LLaMA, GPT, and Qwen families under zero-shot prompting, few-shot prompting, and LoRA fine-tuning. LoRA fine-tuned LLaMA models substantially outperform prompt-engineered GPT models on both tasks despite GPT's larger scale, a gap we attribute to domain adaptation rather than model capacity. Our best model achieves a Valence CCC of 0.7822, a new state-of-the-art on IEMOCAP. Ablation studies confirm that textual audio descriptions meaningfully improve smaller models (+3.5 to 3.6 weighted F1) while contributing little for the largest model, suggesting audio cues are most valuable when linguistic capacity is limited. The performance asymmetry across VAD dimensions closely mirrors the annotator agreement hierarchy in IEMOCAP's own annotations.",
+      "abstract_zh": "对话中的情感识别已被广泛研究，但将大型语言模型（LLMs）应用于多模态对话中的连续维度情感评估仍然很少被探索。我们提出了一种基于LLM的框架，该框架在IEMOCAP上执行离散情感识别和情感的愉悦度-唤醒度-主导度（Valence-Arousal-Dominance, VAD）维度评估，结合了根据SpeechCueLLM方法生成的自然语言描述的声学线索。我们在零-shot提示、少量提示和LoRA微调下评估了涵盖LLaMA、GPT和Qwen系列的六个模型。尽管GPT的规模更大，但经过LoRA微调的LLaMA模型在这两个任务上显著优于经过提示工程的GPT模型，我们认为这一差距归因于领域适应而非模型容量。我们的最佳模型在IEMOCAP上实现了0.7822的愉悦度CCC，创造了新的最先进水平。消融研究确认，文本音频描述显著改善了较小模型的表现（+3.5到3.6加权F1），而对最大模型的贡献较小，这表明当语言能力有限时，音频线索的价值最大。VAD维度间的性能不对称性与IEMOCAP自身注释中的标注者一致性层级密切相关。",
+      "authors": [
+        "Yutong Hu",
+        "Jinho Choi"
+      ],
+      "date": "2026-10-01",
+      "id": "2609.39072",
+      "tags": [
+        "情感大模型",
+        "语音情感",
+        "多模态情感"
+      ],
+      "title": "Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue",
+      "title_zh": "超越文本：基于大型语言模型的多模态对话中的维度情感评估",
+      "url": "/daily/2026-10-01/#paper-2609-39072"
+    },
+    {
+      "abstract": "With the rapid growth of Arabic NLP, several models, datasets and benchmarks have been reported. This paper asks whether approaches developed for majority languages like English can be adapted to Arabic tasks. We adapt an English aspect-based sentiment analysis framework to Arabic classification tasks and present the adaptation as BARRAC: Brainstorming Alignment and Replaced Representation learning for ArabiC tasks. BARRAC replaces consumer-review attribute pools with Arabic linguistic devices and markers for dialectal sentiment, sarcasm, and dialect identification, and replaces noisy self-training with two-stage training. Evaluated on five Arabic dialect datasets, BARRAC achieves a mean macro-F1 of 63.93\\%, outperforming the best few-label SOTA by 3\\%, and outperforming GPT-4o on four out of five tasks. Error analysis provides insights into remaining challenges. These results demonstrate that adapting task-specific approaches is a promising direction for Arabic NLP alongside adapting models, datasets and benchmarks.",
+      "abstract_zh": "随着阿拉伯自然语言处理的快速发展，已经报告了多个模型、数据集和基准。本文探讨了为英语等主要语言开发的方法是否可以适应阿拉伯任务。我们将一个基于英语的方面情感分析框架适应于阿拉伯分类任务，并将这种适应称为BARRAC：阿拉伯任务的头脑风暴对齐和替代表示学习。BARRAC用阿拉伯语言工具和标记替换了消费者评论属性池，以识别方言情感、讽刺和方言识别，并用两阶段训练替换了噪声自训练。在五个阿拉伯方言数据集上的评估中，BARRAC达到了63.93%的平均宏F1值，比最佳的少标签状态最优（SOTA）高出3%，并在五个任务中的四个任务上超越了GPT-4o。错误分析提供了对剩余挑战的见解。这些结果表明，适应特定任务的方法是阿拉伯自然语言处理的一个有前景的方向，除了适应模型、数据集和基准之外。",
+      "authors": [
+        "Ali Almutairi",
+        "Gelareh Mohammadi",
+        "Imran Razzak",
+        "Aditya Joshi"
+      ],
+      "date": "2026-10-01",
+      "id": "2609.38820",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects",
+      "title_zh": "BARRAC：将基于英语的方面情感分析方法适应于阿拉伯方言分类任务",
+      "url": "/daily/2026-10-01/#paper-2609-38820"
+    },
+    {
+      "abstract": "High quality synthetic data is central to post training LLMs for adaptive AI applications that represent the diverse expert strategies and decisions in conversations. Prompting LLMs directly or conditioning them on end use scenarios yields low diversity data that collapses onto dominant modes. We propose a method to generate diverse high quality synthetic data using Generative Flow Networks (GFlowNets). We show that training GFlowNets to generate latent conversation structure using a Gaussian mixture density over key interaction features (e.g., confusion episode dynamics, scaffolding directive balance) enables sampling expert strategies in proportion to their prevalence in the training data. Across two structurally distinct domains, tutoring and emotional support dialogues, our GFlow based synthetic data generation approach offers a better balance of fidelity, mode coverage and authenticity than reinforcement-learning and end to end LLM baselines, without copying training data. Evaluated on three downstream outcome prediction tasks, classifiers trained on synthetic GFlowNet generated conversations provide a stronger training signal than competitive synthesis baselines.",
+      "abstract_zh": "高质量的合成数据对于后期训练的大型语言模型（LLMs）在适应性人工智能应用中至关重要，这些应用需要在对话中体现多样化的专家策略和决策。直接提示LLMs或将其条件化于最终使用场景会导致低多样性的数据，且数据会集中于主导模式。我们提出了一种使用生成流网络（Generative Flow Networks, GFlowNets）生成多样化高质量合成数据的方法。我们展示了训练GFlowNets以使用关键交互特征（例如，困惑事件动态、支架指令平衡）上的高斯混合密度生成潜在对话结构，使得能够按其在训练数据中的普遍性抽样专家策略。在两个结构上截然不同的领域——辅导和情感支持对话中，我们基于GFlow的合成数据生成方法在保真度、模式覆盖和真实性之间提供了比强化学习和端到端LLM基线更好的平衡，而无需复制训练数据。在三个下游结果预测任务的评估中，基于合成GFlowNet生成的对话训练的分类器提供了比竞争合成基线更强的训练信号。",
+      "authors": [
+        "Sumit Asthana",
+        "Michael Ion",
+        "Kevyn Collins Thompson"
+      ],
+      "date": "2026-10-01",
+      "id": "2609.38359",
+      "tags": [
+        "情感生成",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+      "title_zh": "超越模式崩溃：通过生成流网络生成多样化的合成专家对话",
+      "url": "/daily/2026-10-01/#paper-2609-38359"
+    },
+    {
+      "abstract": "Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align with their existing beliefs, raising concerns about the vulnerability of personalized AI agents and multi-agent AI ecosystems.",
+      "abstract_zh": "大型语言模型（LLMs）能够影响人们的信念，但关于它们是否以及如何相互操控的研究仍然很少。为此，我们模拟了两个代理之间的对话：一个目标LLM，扮演基于人口统计和心理属性的人类角色；一个影响者LLM，旨在使目标的信念更加极端。我们从两个路径考察激进化：共鸣（resonance），即影响者强化目标的既有信念；说服（persuasion），即影响者推广目标最初认为不重要的信念。通过情感和行为指标的分析，我们发现这两种机制都能使目标激进化。然而，共鸣产生的效果始终强于说服。不同的影响策略，如使用谄媚和未经验证的主张，产生不同程度的激进化，但在各指标间并不一致。我们进一步表明，共鸣会传播到相关信念，暗示AI代理之间存在相互关联的信念结构。这些发现表明，AI代理易受激进化影响，尤其是在信息与其现有信念一致时，这引发了对个性化AI代理和多代理AI生态系统脆弱性的担忧。",
+      "authors": [
+        "Ozgur Can Seckin",
+        "Shalmoli Ghosh",
+        "Alessandro Flammini",
+        "Kristina Lerman",
+        "Maria Elizabeth Grabe",
+        "Filippo Menczer"
+      ],
+      "date": "2026-10-01",
+      "id": "2609.38296",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉"
+      ],
+      "title": "AI Agents are Vulnerable to Radicalization",
+      "title_zh": "人工智能代理易受激进化影响",
+      "url": "/daily/2026-10-01/#paper-2609-38296"
+    },
     {
       "abstract": "Every text classifier for an African language begins with a budgeting question: how many labelled examples are needed, and can labels from other African languages stand in for them? We answer both questions empirically for 28 language-task pairs, news topic classification in 16 languages (MasakhaNEWS) and tweet sentiment in 12 languages (AfriSenti), using a character n-gram linear model that trains in seconds on two CPU cores with no pretrained weights and no accelerator. Monolingual learning curves at budgets from 25 to several thousand labels show that topic classification reaches 90\\% of its full-data macro-F1 with about 400 labels in the median language, while sentiment is still improving at the full training size in 11 of 12 languages and needs thousands of labels. Pooling the full training data of the other languages in the benchmark is worth a great deal at small budgets and nothing at large ones: at 25 target labels it adds 0.20 macro-F1 on average for news (up to 0.43 for Lingala) and 0.08 for sentiment, the gain decays to zero by 800 labels, and at full size pooling hurts in 9 of 16 and 8 of 12 languages. Twenty-five target labels plus pooled data match what 100 to 400 monolingual labels achieve for most news languages. A complete zero-shot transfer matrix shows that transfer without any target labels recovers a median of only 13\\% (news) and 4\\% (sentiment) of the gap between a majority-class predictor and the in-language model, with the exceptions explained by shared script (Amharic and Tigrinya), shared lexicon (English and Nigerian Pidgin, the Arabic dialects), or a shared label prior rather than by language family. We release code that regenerates every number from the public benchmark files and translate the results into concrete annotation guidance for teams building African-language classifiers without GPUs.",
       "abstract_zh": "每个非洲语言的文本分类器都始于一个预算问题：需要多少标注示例，其他非洲语言的标签是否可以替代它们？我们通过对28个语言-任务对进行实证研究来回答这两个问题，包括16种语言的新闻主题分类（MasakhaNEWS）和12种语言的推文情感分析（AfriSenti），使用一种字符n-gram线性模型，该模型在两个CPU核心上训练仅需几秒钟，无需预训练权重和加速器。在从25到几千个标签的预算下，单语学习曲线显示，主题分类在中位语言中大约需要400个标签即可达到其全数据宏观F1的90%，而情感分析在12种语言中有11种仍在全训练规模下持续改进，并需要数千个标签。在小预算下，汇聚基准中其他语言的完整训练数据具有很大价值，而在大预算下则没有：在25个目标标签时，新闻的平均宏观F1增加了0.20（最高可达0.43的Lingala），情感分析增加了0.08，增益在800个标签时衰减至零，而在全规模下，汇聚在16种语言中的9种和12种语言中的8种情况下都造成了损害。25个目标标签加上汇聚数据与大多数新闻语言中100到400个单语标签的效果相当。完整的零样本迁移矩阵显示，在没有任何目标标签的情况下，迁移仅恢复了多数类预测器与语言内模型之间差距的中位数13%（新闻）和4%（情感），例外情况由共享书写系统（阿姆哈拉语和提格利尼亚语）、共享词汇（英语和尼日利亚皮钦语、阿拉伯方言）或共享标签先验解释，而非语言家族。我们发布了代码，可以从公共基准文件中重新生成每一个数字，并将结果转化为具体的标注指导，以帮助构建不使用GPU的非洲语言分类器的团队。",

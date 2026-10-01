@@ -1,0 +1,78 @@
+{
+  "abstract": "While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capabilities are largely confined to short video clips with limited interactions. However, real-world emotions are not merely isolated instantaneous reactions but dynamic and cumulative processes deeply shaped by past experiences and ongoing events. To bridge this gap, we introduce LongEmoBench, a benchmark dedicated to emotion understanding and reasoning in long videos. It assesses progressive capabilities scaling from continuous scene interactions to complex episodic developments. Furthermore, we propose LongEmo, a novel memory-augmented agentic framework designed to tackle the immense challenges of long-range affective reasoning. LongEmo processes continuous video streams to construct an Event Memory Graph, explicitly modeling long-range dependencies and capturing emotional dynamics across discrete events. Given a question, the agent retrieves a query-relevant event stream from the graph, iteratively integrating multimodal memories and relational dependencies to deduce the final answer. Extensive evaluations of 17 representative methods reveal that they struggle significantly with emotion understanding and reasoning in long videos. In contrast, LongEmo achieves state-of-the-art performance, demonstrating the efficacy of its event-centric memory architecture.",
+  "abstract_zh": "尽管近期的多模态大型语言模型（MLLMs）在情感计算方面展现出潜力，但其推理能力主要局限于短视频片段和有限的交互。然而，现实世界中的情感并非孤立的瞬时反应，而是深受过去经历和正在发生事件影响的动态累积过程。为了解决这一问题，我们引入了LongEmoBench，这是一个专注于长视频中情感理解与推理的基准测试。该基准评估从连续场景交互到复杂情节发展的逐步能力。此外，我们提出了LongEmo，一个新颖的增强记忆的代理框架，旨在应对长程情感推理的巨大挑战。LongEmo处理连续的视频流，构建事件记忆图，明确建模长程依赖关系并捕捉离散事件中的情感动态。在给定问题的情况下，代理从图中检索与查询相关的事件流，迭代整合多模态记忆和关系依赖，以推导出最终答案。对17种代表性方法的广泛评估表明，它们在长视频中的情感理解与推理方面面临显著挑战。相比之下，LongEmo实现了最先进的性能，展示了其以事件为中心的记忆架构的有效性。",
+  "arxiv_id": "2609.40079",
+  "arxiv_url": "https://arxiv.org/abs/2609.40079v1",
+  "authors": [
+    "Shuo Zhang",
+    "Yifan Zhou",
+    "Han Wang",
+    "Jinsong Zhang",
+    "Jingyu Li",
+    "Hongbing Li",
+    "Zhejun Zhang",
+    "Chengyi Zhao",
+    "Yuquan Hao",
+    "Yitong Liu",
+    "Jiyin Li",
+    "Ruiqi Tang",
+    "Zixuan Lin",
+    "Yi Luo",
+    "Xurui Zhang",
+    "Ronghao Chen",
+    "Huacan Wang",
+    "Lei Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-01#paper-2609-40079",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-01T11:29:45.457741+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.40079v1",
+  "published_at": "2026-09-30T16:27:25Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective computing",
+      "emotion understanding",
+      "情感计算",
+      "情感理解",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "multimodal",
+      "large language models",
+      "MLLMs",
+      "reasoning",
+      "benchmark",
+      "多模态",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-01"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.40079v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-01"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos",
+  "title_zh": "LongEmo：面向长视频中的情感理解与推理",
+  "translation_url": "https://hjfy.top/arxiv/2609.40079"
+}

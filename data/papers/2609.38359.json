@@ -1,0 +1,61 @@
+{
+  "abstract": "High quality synthetic data is central to post training LLMs for adaptive AI applications that represent the diverse expert strategies and decisions in conversations. Prompting LLMs directly or conditioning them on end use scenarios yields low diversity data that collapses onto dominant modes. We propose a method to generate diverse high quality synthetic data using Generative Flow Networks (GFlowNets). We show that training GFlowNets to generate latent conversation structure using a Gaussian mixture density over key interaction features (e.g., confusion episode dynamics, scaffolding directive balance) enables sampling expert strategies in proportion to their prevalence in the training data. Across two structurally distinct domains, tutoring and emotional support dialogues, our GFlow based synthetic data generation approach offers a better balance of fidelity, mode coverage and authenticity than reinforcement-learning and end to end LLM baselines, without copying training data. Evaluated on three downstream outcome prediction tasks, classifiers trained on synthetic GFlowNet generated conversations provide a stronger training signal than competitive synthesis baselines.",
+  "abstract_zh": "高质量的合成数据对于后期训练的大型语言模型（LLMs）在适应性人工智能应用中至关重要，这些应用需要在对话中体现多样化的专家策略和决策。直接提示LLMs或将其条件化于最终使用场景会导致低多样性的数据，且数据会集中于主导模式。我们提出了一种使用生成流网络（Generative Flow Networks, GFlowNets）生成多样化高质量合成数据的方法。我们展示了训练GFlowNets以使用关键交互特征（例如，困惑事件动态、支架指令平衡）上的高斯混合密度生成潜在对话结构，使得能够按其在训练数据中的普遍性抽样专家策略。在两个结构上截然不同的领域——辅导和情感支持对话中，我们基于GFlow的合成数据生成方法在保真度、模式覆盖和真实性之间提供了比强化学习和端到端LLM基线更好的平衡，而无需复制训练数据。在三个下游结果预测任务的评估中，基于合成GFlowNet生成的对话训练的分类器提供了比竞争合成基线更强的训练信号。",
+  "arxiv_id": "2609.38359",
+  "arxiv_url": "https://arxiv.org/abs/2609.38359v1",
+  "authors": [
+    "Sumit Asthana",
+    "Michael Ion",
+    "Kevyn Collins Thompson"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-01#paper-2609-38359",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-01T11:29:45.474851+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.38359v1",
+  "published_at": "2026-09-29T18:21:50Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "LLM",
+      "LLMs",
+      "prediction",
+      "generation",
+      "conversation",
+      "分类",
+      "预测",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 89.0
+  },
+  "seen_dates": [
+    "2026-10-01"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.38359v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-01"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+  "title_zh": "超越模式崩溃：通过生成流网络生成多样化的合成专家对话",
+  "translation_url": "https://hjfy.top/arxiv/2609.38359"
+}

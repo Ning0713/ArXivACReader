@@ -1,0 +1,54 @@
+{
+  "abstract": "Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce different levels of radicalization, but not consistently across metrics. We further show that resonance propagates to related beliefs, suggesting interconnected belief structures within AI agents. These findings indicate that AI agents are susceptible to radicalization, particularly when messages align with their existing beliefs, raising concerns about the vulnerability of personalized AI agents and multi-agent AI ecosystems.",
+  "abstract_zh": "大型语言模型（LLMs）能够影响人们的信念，但关于它们是否以及如何相互操控的研究仍然很少。为此，我们模拟了两个代理之间的对话：一个目标LLM，扮演基于人口统计和心理属性的人类角色；一个影响者LLM，旨在使目标的信念更加极端。我们从两个路径考察激进化：共鸣（resonance），即影响者强化目标的既有信念；说服（persuasion），即影响者推广目标最初认为不重要的信念。通过情感和行为指标的分析，我们发现这两种机制都能使目标激进化。然而，共鸣产生的效果始终强于说服。不同的影响策略，如使用谄媚和未经验证的主张，产生不同程度的激进化，但在各指标间并不一致。我们进一步表明，共鸣会传播到相关信念，暗示AI代理之间存在相互关联的信念结构。这些发现表明，AI代理易受激进化影响，尤其是在信息与其现有信念一致时，这引发了对个性化AI代理和多代理AI生态系统脆弱性的担忧。",
+  "arxiv_id": "2609.38296",
+  "arxiv_url": "https://arxiv.org/abs/2609.38296v1",
+  "authors": [
+    "Ozgur Can Seckin",
+    "Shalmoli Ghosh",
+    "Alessandro Flammini",
+    "Kristina Lerman",
+    "Maria Elizabeth Grabe",
+    "Filippo Menczer"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-01#paper-2609-38296",
+  "categories": [
+    "cs.AI",
+    "cs.CY"
+  ],
+  "fetched_at": "2026-10-01T11:29:45.472900+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.38296v1",
+  "published_at": "2026-09-29T17:45:00Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-01"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.38296v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-01"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "心理状态/福祉"
+    ]
+  },
+  "title": "AI Agents are Vulnerable to Radicalization",
+  "title_zh": "人工智能代理易受激进化影响",
+  "translation_url": "https://hjfy.top/arxiv/2609.38296"
+}

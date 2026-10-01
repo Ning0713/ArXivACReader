@@ -1,0 +1,67 @@
+{
+  "abstract": "Emotion recognition in conversation has been widely studied, but applying Large Language Models (LLMs) to continuous dimensional emotion evaluation in multimodal dialogue remains largely unexplored. We propose an LLM-based framework that performs discrete emotion recognition and Valence-Arousal-Dominance (VAD) dimensional evaluation on IEMOCAP, incorporating acoustic cues as natural language descriptions following the SpeechCueLLM approach. We evaluate six models spanning the LLaMA, GPT, and Qwen families under zero-shot prompting, few-shot prompting, and LoRA fine-tuning. LoRA fine-tuned LLaMA models substantially outperform prompt-engineered GPT models on both tasks despite GPT's larger scale, a gap we attribute to domain adaptation rather than model capacity. Our best model achieves a Valence CCC of 0.7822, a new state-of-the-art on IEMOCAP. Ablation studies confirm that textual audio descriptions meaningfully improve smaller models (+3.5 to 3.6 weighted F1) while contributing little for the largest model, suggesting audio cues are most valuable when linguistic capacity is limited. The performance asymmetry across VAD dimensions closely mirrors the annotator agreement hierarchy in IEMOCAP's own annotations.",
+  "abstract_zh": "对话中的情感识别已被广泛研究，但将大型语言模型（LLMs）应用于多模态对话中的连续维度情感评估仍然很少被探索。我们提出了一种基于LLM的框架，该框架在IEMOCAP上执行离散情感识别和情感的愉悦度-唤醒度-主导度（Valence-Arousal-Dominance, VAD）维度评估，结合了根据SpeechCueLLM方法生成的自然语言描述的声学线索。我们在零-shot提示、少量提示和LoRA微调下评估了涵盖LLaMA、GPT和Qwen系列的六个模型。尽管GPT的规模更大，但经过LoRA微调的LLaMA模型在这两个任务上显著优于经过提示工程的GPT模型，我们认为这一差距归因于领域适应而非模型容量。我们的最佳模型在IEMOCAP上实现了0.7822的愉悦度CCC，创造了新的最先进水平。消融研究确认，文本音频描述显著改善了较小模型的表现（+3.5到3.6加权F1），而对最大模型的贡献较小，这表明当语言能力有限时，音频线索的价值最大。VAD维度间的性能不对称性与IEMOCAP自身注释中的标注者一致性层级密切相关。",
+  "arxiv_id": "2609.39072",
+  "arxiv_url": "https://arxiv.org/abs/2609.39072v1",
+  "authors": [
+    "Yutong Hu",
+    "Jinho Choi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-01#paper-2609-39072",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG",
+    "cs.MM"
+  ],
+  "fetched_at": "2026-10-01T11:29:45.590187+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2609.39072v1",
+  "published_at": "2026-09-30T06:09:48Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "IEMOCAP",
+      "emotion",
+      "multimodal",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "recognition",
+      "dialogue",
+      "conversation",
+      "audio",
+      "多模态",
+      "大模型",
+      "识别",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-01"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2609.39072v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-01"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "语音情感",
+      "多模态情感"
+    ]
+  },
+  "title": "Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue",
+  "title_zh": "超越文本：基于大型语言模型的多模态对话中的维度情感评估",
+  "translation_url": "https://hjfy.top/arxiv/2609.39072"
+}

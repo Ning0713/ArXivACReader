@@ -963,8 +963,78 @@
         "社交信号"
       ],
       "title": "How Many Labels Does a Language Need? Annotation Budgets and Cross-Lingual Pooling for African-Language Text Classification"
+    },
+    "2609.38296": {
+      "dates": [
+        "2026-10-01"
+      ],
+      "first_seen": "2026-10-01",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉"
+      ],
+      "title": "AI Agents are Vulnerable to Radicalization"
+    },
+    "2609.38359": {
+      "dates": [
+        "2026-10-01"
+      ],
+      "first_seen": "2026-10-01",
+      "tags": [
+        "情感生成",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks"
+    },
+    "2609.38820": {
+      "dates": [
+        "2026-10-01"
+      ],
+      "first_seen": "2026-10-01",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "BARRAC: Adaptation of an English Aspect-based Sentiment Analysis Approach for Classification Tasks in Arabic Dialects"
+    },
+    "2609.39072": {
+      "dates": [
+        "2026-10-01"
+      ],
+      "first_seen": "2026-10-01",
+      "tags": [
+        "情感大模型",
+        "语音情感",
+        "多模态情感"
+      ],
+      "title": "Beyond Text: LLM-Based Dimensional Emotion Evaluation in Multimodal Dialogue"
+    },
+    "2609.39863": {
+      "dates": [
+        "2026-10-01"
+      ],
+      "first_seen": "2026-10-01",
+      "tags": [
+        "共情交互",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "FIGS: Evaluating Multi-Turn Sycophancy Without Penalizing Empathy"
+    },
+    "2609.40079": {
+      "dates": [
+        "2026-10-01"
+      ],
+      "first_seen": "2026-10-01",
+      "tags": [
+        "多模态情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos"
     }
   },
-  "total": 84,
-  "updated_at": "2026-09-30T11:03:23.925680+00:00"
+  "total": 90,
+  "updated_at": "2026-10-01T11:29:51.220861+00:00"
 }
