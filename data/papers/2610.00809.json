@@ -1,0 +1,58 @@
+{
+  "abstract": "Vision-Language Models (VLMs) enable video annotation at scale, but costs accumulate quickly: processing a typical 60-second short-form video at one frame per second requires millions of tokens. To reduce costs, researchers rely on heuristics such as sampling a subset of frames, compressing videos into image grids, or using only a single modality. However, it remains unclear which heuristics save cost, and whether they preserve the downstream conclusions these annotations enable. To address this gap, we conduct a systematic evaluation of these heuristics using short-form videos, on two computational social science (CSS) tasks: sentiment and topic classification. We evaluate each configuration along three axes the literature typically treats separately: classification accuracy, validity of downstream inference, and per-video token cost. First, we find that accuracy and validity diverge: the highest-accuracy configuration can produce wrong conclusions. Second, modality value is not guaranteed: text alone can yield strong performance, indicating that adding modalities can add cost without adding signal. Finally, we find that cost can be decoupled from video length when annotating short-form videos: a single $2\\times8$ image grid built via simple shot-transition detection approaches full-video understanding ($\\kappa$ within~.05), at $\\sim 15\\%$ of the token cost. Based on these findings, we derive guidelines that can enable cost-aware VLM annotation in CSS.",
+  "abstract_zh": "视觉-语言模型（VLMs）使得视频注释能够大规模进行，但成本迅速累积：处理一段典型的60秒短视频，每秒处理一帧需要数百万个标记。为了降低成本，研究人员依赖于一些启发式方法，例如抽样一部分帧、将视频压缩为图像网格，或仅使用单一模态。然而，目前尚不清楚哪些启发式方法能够节省成本，并且这些方法是否保留了这些注释所支持的下游结论。为了解决这一问题，我们对这些启发式方法进行了系统评估，使用短视频在两个计算社会科学（CSS）任务上进行测试：情感分析和主题分类。我们从三个通常在文献中分别处理的维度评估每种配置：分类准确性、下游推理的有效性和每个视频的标记成本。首先，我们发现准确性和有效性存在差异：最高准确性的配置可能会得出错误的结论。其次，模态的价值并不保证：仅使用文本也能取得良好的表现，这表明添加模态可能会增加成本而不增加信息。最后，我们发现，在对短视频进行注释时，成本可以与视频长度解耦：通过简单的镜头切换检测构建的单个$2 imes8$图像网格能够实现完整视频理解（$ ext{kappa}$在~.05以内），其标记成本约为15%。基于这些发现，我们提出了能够实现成本意识的VLM注释的指导方针。",
+  "arxiv_id": "2610.00809",
+  "arxiv_url": "https://arxiv.org/abs/2610.00809v1",
+  "authors": [
+    "Zhixi Zhu",
+    "Kristina Gligoric"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-02#paper-2610-00809",
+  "categories": [
+    "cs.CV",
+    "cs.CL",
+    "cs.SI"
+  ],
+  "fetched_at": "2026-10-02T10:59:15.484997+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.00809v1",
+  "published_at": "2026-09-30T22:59:51Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分析",
+      "multimodal",
+      "vision language",
+      "VLM",
+      "LLM",
+      "classification",
+      "detection",
+      "多模态",
+      "分类",
+      "检测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 58.0
+  },
+  "seen_dates": [
+    "2026-10-02"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.00809v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-02"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Paying for Too Many Tokens? Valid and Cost-Efficient Multimodal LLM Annotation with Simple Heuristics",
+  "title_zh": "支付过多的标记费用？使用简单启发式方法进行有效且成本高效的多模态大语言模型注释",
+  "translation_url": "https://hjfy.top/arxiv/2610.00809"
+}

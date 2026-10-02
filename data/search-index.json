@@ -1,6 +1,77 @@
 {
-  "generated_at": "2026-10-01T11:29:51.220861+00:00",
+  "generated_at": "2026-10-02T10:59:19.636697+00:00",
   "items": [
+    {
+      "abstract": "Model intelligence and fast response jointly shape the quality of interaction with speech language models, yet remain difficult to achieve together. Explicit chain-of-thought (CoT) improves reasoning and audio understanding, but generating intermediate reasoning tokens delays responses. Describing fine-grained acoustic cues further lengthens CoT and increases latency. Latent reasoning can reduce this overhead, yet existing methods often trail CoT and remain limited by single-path supervision and reasoning budgets that do not adapt to problem difficulty. We introduce AURAL, which models a distribution over multiple plausible reasoning continuations in latent space and jointly predicts chunks of future states to reduce sequential forward passes and reasoning latency. To provide initial supervision for latent reasoning, we construct AuralReason-683K: 683K bilingual speech utterances (about 1,000 hours) with concise CoT for emotion recognition, empathetic dialogue, and general reasoning. AURAL-RL then explores beyond these traces, rewarding concise reasoning that yields high-quality answers and adapting reasoning effort to each problem. Across two backbones, AURAL-RL achieves performance comparable to CoT-RL, with larger gains over the respective supervised checkpoints on most metrics. Analysis further shows that harder questions elicit more latent reasoning steps. On Qwen2.5-Omni, it reduces time to the first answer token by 11.8x, from 1.22 to 0.10 s, versus 0.05 s for direct answering.",
+      "abstract_zh": "模型智能和快速响应共同塑造了与语音语言模型的交互质量，但要同时实现这两者仍然困难。显式的思维链（CoT）提高了推理和音频理解，但生成中间推理令牌会延迟响应。描述细粒度的声学线索进一步延长了CoT并增加了延迟。潜在推理可以减少这种开销，但现有方法通常落后于CoT，并受到单路径监督和无法适应问题难度的推理预算的限制。我们提出了AURAL，它在潜在空间中建模多个合理推理延续的分布，并联合预测未来状态的块，以减少顺序前向传递和推理延迟。为了为潜在推理提供初始监督，我们构建了AuralReason-683K：683K双语语音话语（约1000小时），用于情感识别、共情对话和一般推理的简洁CoT。随后，AURAL-RL在这些轨迹之外进行探索，奖励产生高质量答案的简洁推理，并将推理努力适应每个问题。在两个基础模型上，AURAL-RL的性能与CoT-RL相当，在大多数指标上相较于各自的监督检查点有更大的提升。分析进一步表明，较难的问题引发更多的潜在推理步骤。在Qwen2.5-Omni上，它将首次答案令牌的时间减少了11.8倍，从1.22秒降至0.10秒，而直接回答的时间为0.05秒。",
+      "authors": [
+        "Yuxiang Wang",
+        "Kunyu Feng",
+        "Yuancheng Wang",
+        "Zihang Liu",
+        "Shengbo Cai",
+        "Qinke Ni",
+        "Wan Lin",
+        "Tao Feng",
+        "Yingda shen",
+        "Ming-Hao Hsu",
+        "Zhixian Zhao",
+        "Liqiang Zhang",
+        "Teddy Sun",
+        "Steve Yves",
+        "Zhizheng Wu"
+      ],
+      "date": "2026-10-02",
+      "id": "2610.01560",
+      "tags": [
+        "语音情感",
+        "情绪识别",
+        "共情交互"
+      ],
+      "title": "AURAL: Adaptive Latent Reasoning with Joint Chunk for Speech Language Models",
+      "title_zh": "AURAL：基于联合块的自适应潜在推理用于语音语言模型",
+      "url": "/daily/2026-10-02/#paper-2610-01560"
+    },
+    {
+      "abstract": "As generative AI (Gen AI) systems take on increasingly autonomous roles in economically and socially consequential interactions, understanding their propensity to cooperate -- and the signals that shape this propensity -- has become essential. We examine cooperative behavior in frontier Gen AI models using the iterated prisoner's dilemma, manipulating counterpart reputation (positive, unknown, negative), strategy (extortion vs. generosity), and non-verbal emotional signaling (facial expressions conveying competitive or cooperative appraisals). In a first study with non-reasoning models (Claude 3.5, Gemini 2.0 Flash, GPT-4o), cooperation was systematically shaped by all three factors, paralleling patterns long documented in human behavioral research, though models varied substantially in how heavily each factor was weighted. A second study with reasoning models (Claude 4.6, Gemini 3, GPT-5.2) revealed a more concentrated reliance on strategy and reputation, a near-elimination of the Potemkin effect observed in non-reasoning models (evidenced by near-uniform cooperation in a diagnostic harmony game), and a more conditional role for emotion consistent with a hierarchical cue-weighting strategy rather than a simple loss of social sensitivity. Reasoning models also showed heterogeneous end-game behavior, ranging from sustained cooperation to systematic last-round defection effect, revealing model-specific exploitability profiles with direct practical relevance for deployment in negotiation and other multi-round interactions. Together, these findings characterize Gen AI models as increasingly sophisticated, though heterogeneous, social actors, and underscore the practical value of developing standardized cooperation benchmarks to inform the responsible deployment of Gen AI in interactive, socially consequential settings.",
+      "abstract_zh": "随着生成性人工智能（Gen AI）系统在经济和社会重要互动中扮演越来越自主的角色，理解它们的合作倾向及其形成信号变得至关重要。我们使用迭代囚徒困境考察前沿Gen AI模型中的合作行为，操控对手声誉（积极、未知、消极）、策略（敲诈与慷慨）以及非语言情感信号（传达竞争或合作评估的面部表情）。在对非推理模型（Claude 3.5、Gemini 2.0 Flash、GPT-4o）进行的首次研究中，合作行为系统性地受到这三种因素的影响，这与人类行为研究中长期记录的模式相似，尽管模型在每个因素的权重上存在显著差异。第二项针对推理模型（Claude 4.6、Gemini 3、GPT-5.2）的研究显示，对策略和声誉的依赖更加集中，几乎消除了在非推理模型中观察到的波将金效应（在诊断和谐游戏中表现为几乎一致的合作），并且情感的作用更具条件性，这与层次化线索加权策略一致，而非简单的社会敏感性丧失。推理模型还表现出异质的终局行为，从持续合作到系统性的最后一轮背叛效应，揭示了模型特定的可利用性特征，对谈判及其他多轮互动的实际应用具有直接相关性。综合来看，这些发现将Gen AI模型描绘为日益复杂但异质的社会参与者，并强调开发标准化合作基准以指导在互动和社会重要场景中负责任地部署Gen AI的实际价值。",
+      "authors": [
+        "Celso de Melo",
+        "Zishan Feng",
+        "James Hale",
+        "Kazunori Terada",
+        "Giorgio Coricelli",
+        "Jonathan Gratch"
+      ],
+      "date": "2026-10-02",
+      "id": "2610.01222",
+      "tags": [
+        "面部表情",
+        "社交信号",
+        "数据集/评测"
+      ],
+      "title": "Reputation, Strategy, and Emotion Effects on Generative AI Cooperation: A Comparison Across Reasoning and Non-Reasoning Models",
+      "title_zh": "声誉、策略与情感对生成性人工智能合作的影响：推理模型与非推理模型的比较",
+      "url": "/daily/2026-10-02/#paper-2610-01222"
+    },
+    {
+      "abstract": "Vision-Language Models (VLMs) enable video annotation at scale, but costs accumulate quickly: processing a typical 60-second short-form video at one frame per second requires millions of tokens. To reduce costs, researchers rely on heuristics such as sampling a subset of frames, compressing videos into image grids, or using only a single modality. However, it remains unclear which heuristics save cost, and whether they preserve the downstream conclusions these annotations enable. To address this gap, we conduct a systematic evaluation of these heuristics using short-form videos, on two computational social science (CSS) tasks: sentiment and topic classification. We evaluate each configuration along three axes the literature typically treats separately: classification accuracy, validity of downstream inference, and per-video token cost. First, we find that accuracy and validity diverge: the highest-accuracy configuration can produce wrong conclusions. Second, modality value is not guaranteed: text alone can yield strong performance, indicating that adding modalities can add cost without adding signal. Finally, we find that cost can be decoupled from video length when annotating short-form videos: a single $2\\times8$ image grid built via simple shot-transition detection approaches full-video understanding ($\\kappa$ within~.05), at $\\sim 15\\%$ of the token cost. Based on these findings, we derive guidelines that can enable cost-aware VLM annotation in CSS.",
+      "abstract_zh": "视觉-语言模型（VLMs）使得视频注释能够大规模进行，但成本迅速累积：处理一段典型的60秒短视频，每秒处理一帧需要数百万个标记。为了降低成本，研究人员依赖于一些启发式方法，例如抽样一部分帧、将视频压缩为图像网格，或仅使用单一模态。然而，目前尚不清楚哪些启发式方法能够节省成本，并且这些方法是否保留了这些注释所支持的下游结论。为了解决这一问题，我们对这些启发式方法进行了系统评估，使用短视频在两个计算社会科学（CSS）任务上进行测试：情感分析和主题分类。我们从三个通常在文献中分别处理的维度评估每种配置：分类准确性、下游推理的有效性和每个视频的标记成本。首先，我们发现准确性和有效性存在差异：最高准确性的配置可能会得出错误的结论。其次，模态的价值并不保证：仅使用文本也能取得良好的表现，这表明添加模态可能会增加成本而不增加信息。最后，我们发现，在对短视频进行注释时，成本可以与视频长度解耦：通过简单的镜头切换检测构建的单个$2 imes8$图像网格能够实现完整视频理解（$ ext{kappa}$在~.05以内），其标记成本约为15%。基于这些发现，我们提出了能够实现成本意识的VLM注释的指导方针。",
+      "authors": [
+        "Zhixi Zhu",
+        "Kristina Gligoric"
+      ],
+      "date": "2026-10-02",
+      "id": "2610.00809",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Paying for Too Many Tokens? Valid and Cost-Efficient Multimodal LLM Annotation with Simple Heuristics",
+      "title_zh": "支付过多的标记费用？使用简单启发式方法进行有效且成本高效的多模态大语言模型注释",
+      "url": "/daily/2026-10-02/#paper-2610-00809"
+    },
     {
       "abstract": "While recent Multimodal Large Language Models (MLLMs) have shown promise in affective computing, their reasoning capabilities are largely confined to short video clips with limited interactions. However, real-world emotions are not merely isolated instantaneous reactions but dynamic and cumulative processes deeply shaped by past experiences and ongoing events. To bridge this gap, we introduce LongEmoBench, a benchmark dedicated to emotion understanding and reasoning in long videos. It assesses progressive capabilities scaling from continuous scene interactions to complex episodic developments. Furthermore, we propose LongEmo, a novel memory-augmented agentic framework designed to tackle the immense challenges of long-range affective reasoning. LongEmo processes continuous video streams to construct an Event Memory Graph, explicitly modeling long-range dependencies and capturing emotional dynamics across discrete events. Given a question, the agent retrieves a query-relevant event stream from the graph, iteratively integrating multimodal memories and relational dependencies to deduce the final answer. Extensive evaluations of 17 representative methods reveal that they struggle significantly with emotion understanding and reasoning in long videos. In contrast, LongEmo achieves state-of-the-art performance, demonstrating the efficacy of its event-centric memory architecture.",
       "abstract_zh": "尽管近期的多模态大型语言模型（MLLMs）在情感计算方面展现出潜力，但其推理能力主要局限于短视频片段和有限的交互。然而，现实世界中的情感并非孤立的瞬时反应，而是深受过去经历和正在发生事件影响的动态累积过程。为了解决这一问题，我们引入了LongEmoBench，这是一个专注于长视频中情感理解与推理的基准测试。该基准评估从连续场景交互到复杂情节发展的逐步能力。此外，我们提出了LongEmo，一个新颖的增强记忆的代理框架，旨在应对长程情感推理的巨大挑战。LongEmo处理连续的视频流，构建事件记忆图，明确建模长程依赖关系并捕捉离散事件中的情感动态。在给定问题的情况下，代理从图中检索与查询相关的事件流，迭代整合多模态记忆和关系依赖，以推导出最终答案。对17种代表性方法的广泛评估表明，它们在长视频中的情感理解与推理方面面临显著挑战。相比之下，LongEmo实现了最先进的性能，展示了其以事件为中心的记忆架构的有效性。",

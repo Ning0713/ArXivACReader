@@ -1033,8 +1033,44 @@
         "数据集/评测"
       ],
       "title": "LongEmo: Towards Emotion Understanding and Reasoning in Long Videos"
+    },
+    "2610.00809": {
+      "dates": [
+        "2026-10-02"
+      ],
+      "first_seen": "2026-10-02",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Paying for Too Many Tokens? Valid and Cost-Efficient Multimodal LLM Annotation with Simple Heuristics"
+    },
+    "2610.01222": {
+      "dates": [
+        "2026-10-02"
+      ],
+      "first_seen": "2026-10-02",
+      "tags": [
+        "面部表情",
+        "社交信号",
+        "数据集/评测"
+      ],
+      "title": "Reputation, Strategy, and Emotion Effects on Generative AI Cooperation: A Comparison Across Reasoning and Non-Reasoning Models"
+    },
+    "2610.01560": {
+      "dates": [
+        "2026-10-02"
+      ],
+      "first_seen": "2026-10-02",
+      "tags": [
+        "语音情感",
+        "情绪识别",
+        "共情交互"
+      ],
+      "title": "AURAL: Adaptive Latent Reasoning with Joint Chunk for Speech Language Models"
     }
   },
-  "total": 90,
-  "updated_at": "2026-10-01T11:29:51.220861+00:00"
+  "total": 93,
+  "updated_at": "2026-10-02T10:59:19.636697+00:00"
 }

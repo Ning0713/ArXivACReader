@@ -1,0 +1,78 @@
+{
+  "abstract": "Model intelligence and fast response jointly shape the quality of interaction with speech language models, yet remain difficult to achieve together. Explicit chain-of-thought (CoT) improves reasoning and audio understanding, but generating intermediate reasoning tokens delays responses. Describing fine-grained acoustic cues further lengthens CoT and increases latency. Latent reasoning can reduce this overhead, yet existing methods often trail CoT and remain limited by single-path supervision and reasoning budgets that do not adapt to problem difficulty. We introduce AURAL, which models a distribution over multiple plausible reasoning continuations in latent space and jointly predicts chunks of future states to reduce sequential forward passes and reasoning latency. To provide initial supervision for latent reasoning, we construct AuralReason-683K: 683K bilingual speech utterances (about 1,000 hours) with concise CoT for emotion recognition, empathetic dialogue, and general reasoning. AURAL-RL then explores beyond these traces, rewarding concise reasoning that yields high-quality answers and adapting reasoning effort to each problem. Across two backbones, AURAL-RL achieves performance comparable to CoT-RL, with larger gains over the respective supervised checkpoints on most metrics. Analysis further shows that harder questions elicit more latent reasoning steps. On Qwen2.5-Omni, it reduces time to the first answer token by 11.8x, from 1.22 to 0.10 s, versus 0.05 s for direct answering.",
+  "abstract_zh": "模型智能和快速响应共同塑造了与语音语言模型的交互质量，但要同时实现这两者仍然困难。显式的思维链（CoT）提高了推理和音频理解，但生成中间推理令牌会延迟响应。描述细粒度的声学线索进一步延长了CoT并增加了延迟。潜在推理可以减少这种开销，但现有方法通常落后于CoT，并受到单路径监督和无法适应问题难度的推理预算的限制。我们提出了AURAL，它在潜在空间中建模多个合理推理延续的分布，并联合预测未来状态的块，以减少顺序前向传递和推理延迟。为了为潜在推理提供初始监督，我们构建了AuralReason-683K：683K双语语音话语（约1000小时），用于情感识别、共情对话和一般推理的简洁CoT。随后，AURAL-RL在这些轨迹之外进行探索，奖励产生高质量答案的简洁推理，并将推理努力适应每个问题。在两个基础模型上，AURAL-RL的性能与CoT-RL相当，在大多数指标上相较于各自的监督检查点有更大的提升。分析进一步表明，较难的问题引发更多的潜在推理步骤。在Qwen2.5-Omni上，它将首次答案令牌的时间减少了11.8倍，从1.22秒降至0.10秒，而直接回答的时间为0.05秒。",
+  "arxiv_id": "2610.01560",
+  "arxiv_url": "https://arxiv.org/abs/2610.01560v1",
+  "authors": [
+    "Yuxiang Wang",
+    "Kunyu Feng",
+    "Yuancheng Wang",
+    "Zihang Liu",
+    "Shengbo Cai",
+    "Qinke Ni",
+    "Wan Lin",
+    "Tao Feng",
+    "Yingda shen",
+    "Ming-Hao Hsu",
+    "Zhixian Zhao",
+    "Liqiang Zhang",
+    "Teddy Sun",
+    "Steve Yves",
+    "Zhizheng Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-02#paper-2610-01560",
+  "categories": [
+    "cs.CL",
+    "cs.LG",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-10-02T10:59:15.668082+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.01560v1",
+  "published_at": "2026-10-01T12:28:03Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "empathetic dialogue",
+      "情感识别",
+      "共情对话",
+      "emotion",
+      "empathetic",
+      "共情",
+      "recognition",
+      "reasoning",
+      "dialogue",
+      "speech",
+      "audio",
+      "识别",
+      "预测",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-02"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.01560v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-02"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "情绪识别",
+      "共情交互"
+    ]
+  },
+  "title": "AURAL: Adaptive Latent Reasoning with Joint Chunk for Speech Language Models",
+  "title_zh": "AURAL：基于联合块的自适应潜在推理用于语音语言模型",
+  "translation_url": "https://hjfy.top/arxiv/2610.01560"
+}
