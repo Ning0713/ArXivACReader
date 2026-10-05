@@ -1,0 +1,52 @@
+{
+  "abstract": "Typed decision models return choices or distributions over answer options supplied at request time. Accuracy with complete options does not establish whether a model recognizes that a reference answer is missing or avoids rejecting valid candidates. We present a paired candidate-coverage benchmark protocol and an initial evaluation of Laya and Jev across AG News, DBpedia, Emotion, and TREC. The models receive identical frozen texts and requests: 300 calibration and 589 test texts yield 23,932 predictions per model. Present/absent pairs match ordinary candidate count, and name variants preserve descriptions, members, and order. Native rejection behavior differs sharply: at five TREC candidates with natural names, Laya detects 97.2% of missing-answer cases but falsely rejects 69.7% of present controls; Jev's rates are 24.8% and 0.0%. Calibration-only none-score thresholds change these rates to 33.9%/3.7% and 45.0%/1.8%, respectively. On DBpedia, Jev's high coverage-score AUROC supports a stronger operating point, whereas both models have weak complete-set accuracy on Emotion. Competence-conditioned analysis, probability-precision sensitivity, and interface audits show why classification, score ranking, and rejection policies need separate measurement. This initial benchmark is descriptive and limited to reference-label omission; it does not establish natural out-of-scope generalization, causal mechanisms, or a new rejection method.",
+  "abstract_zh": "类型决策模型在请求时返回选择或答案选项的分布。对于完整选项的准确性并不能确定模型是否识别出参考答案缺失或避免拒绝有效候选项。我们提出了一种配对候选覆盖基准协议，并对 Laya 和 Jev 在 AG News、DBpedia、Emotion 和 TREC 数据集上的初步评估进行了分析。这些模型接收相同的冻结文本和请求：300 个校准文本和 589 个测试文本每个模型产生 23,932 个预测。存在/缺失对的数量与普通候选项数量相匹配，名称变体保留了描述、成员和顺序。原生拒绝行为差异显著：在五个具有自然名称的 TREC 候选项中，Laya 检测到 97.2% 的缺失答案案例，但错误拒绝了 69.7% 的存在控制；而 Jev 的比率分别为 24.8% 和 0.0%。仅校准的无评分阈值将这些比率分别改变为 33.9%/3.7% 和 45.0%/1.8%。在 DBpedia 上，Jev 的高覆盖分数 AUROC 支持更强的操作点，而在 Emotion 上两个模型的完整集准确性较弱。能力条件分析、概率-精度敏感性和接口审计显示分类、评分排名和拒绝政策为何需要单独测量。这个初步基准是描述性的，局限于参考标签的遗漏；它并未建立自然的超范围泛化、因果机制或新的拒绝方法。",
+  "arxiv_id": "2610.03387",
+  "arxiv_url": "https://arxiv.org/abs/2610.03387v1",
+  "authors": [
+    "Jiawen Lu",
+    "Tongtong Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-05#paper-2610-03387",
+  "categories": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-05T12:11:10.322333+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.03387v1",
+  "published_at": "2026-10-02T14:36:46Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "classification",
+      "benchmark",
+      "识别",
+      "分类",
+      "检测",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-10-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.03387v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感"
+    ]
+  },
+  "title": "Benchmarking Candidate Coverage in Typed Decision Models",
+  "title_zh": "类型决策模型中的候选覆盖基准测试",
+  "translation_url": "https://hjfy.top/arxiv/2610.03387"
+}

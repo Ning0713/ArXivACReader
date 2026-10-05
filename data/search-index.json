@@ -1,6 +1,66 @@
 {
-  "generated_at": "2026-10-02T10:59:19.636697+00:00",
+  "generated_at": "2026-10-05T12:11:12.289409+00:00",
   "items": [
+    {
+      "abstract": "Typed decision models return choices or distributions over answer options supplied at request time. Accuracy with complete options does not establish whether a model recognizes that a reference answer is missing or avoids rejecting valid candidates. We present a paired candidate-coverage benchmark protocol and an initial evaluation of Laya and Jev across AG News, DBpedia, Emotion, and TREC. The models receive identical frozen texts and requests: 300 calibration and 589 test texts yield 23,932 predictions per model. Present/absent pairs match ordinary candidate count, and name variants preserve descriptions, members, and order. Native rejection behavior differs sharply: at five TREC candidates with natural names, Laya detects 97.2% of missing-answer cases but falsely rejects 69.7% of present controls; Jev's rates are 24.8% and 0.0%. Calibration-only none-score thresholds change these rates to 33.9%/3.7% and 45.0%/1.8%, respectively. On DBpedia, Jev's high coverage-score AUROC supports a stronger operating point, whereas both models have weak complete-set accuracy on Emotion. Competence-conditioned analysis, probability-precision sensitivity, and interface audits show why classification, score ranking, and rejection policies need separate measurement. This initial benchmark is descriptive and limited to reference-label omission; it does not establish natural out-of-scope generalization, causal mechanisms, or a new rejection method.",
+      "abstract_zh": "类型决策模型在请求时返回选择或答案选项的分布。对于完整选项的准确性并不能确定模型是否识别出参考答案缺失或避免拒绝有效候选项。我们提出了一种配对候选覆盖基准协议，并对 Laya 和 Jev 在 AG News、DBpedia、Emotion 和 TREC 数据集上的初步评估进行了分析。这些模型接收相同的冻结文本和请求：300 个校准文本和 589 个测试文本每个模型产生 23,932 个预测。存在/缺失对的数量与普通候选项数量相匹配，名称变体保留了描述、成员和顺序。原生拒绝行为差异显著：在五个具有自然名称的 TREC 候选项中，Laya 检测到 97.2% 的缺失答案案例，但错误拒绝了 69.7% 的存在控制；而 Jev 的比率分别为 24.8% 和 0.0%。仅校准的无评分阈值将这些比率分别改变为 33.9%/3.7% 和 45.0%/1.8%。在 DBpedia 上，Jev 的高覆盖分数 AUROC 支持更强的操作点，而在 Emotion 上两个模型的完整集准确性较弱。能力条件分析、概率-精度敏感性和接口审计显示分类、评分排名和拒绝政策为何需要单独测量。这个初步基准是描述性的，局限于参考标签的遗漏；它并未建立自然的超范围泛化、因果机制或新的拒绝方法。",
+      "authors": [
+        "Jiawen Lu",
+        "Tongtong Wu"
+      ],
+      "date": "2026-10-05",
+      "id": "2610.03387",
+      "tags": [
+        "数据集/评测",
+        "文本情感"
+      ],
+      "title": "Benchmarking Candidate Coverage in Typed Decision Models",
+      "title_zh": "类型决策模型中的候选覆盖基准测试",
+      "url": "/daily/2026-10-05/#paper-2610-03387"
+    },
+    {
+      "abstract": "The estimation and analysis of facial expression intensity play a crucial role in affective communication and human-computer interaction. Previous research has primarily focused on detecting and estimating facial expression intensity from frame-level 2D representations. However, this limitation restricts a comprehensive understanding of real-world facial expressions, as they are inherently 3D and temporally continuous. This paper investigates the perception of facial expression intensity by introducing the 4D Facial Expression Intensity Dataset (4DFEID). We employ a parametric face model and compile a total of 2,869 mesh sequences with controlled geometric variations, generating 4D data instances with diverse peak intensities and identity attributes. Using a Likert scale, we collect more than 90,000 subjective intensity perception ratings via a crowdsourcing platform. We explore various architectures and aggregation methods to establish baselines for episode intensity estimation on the new dataset, revealing that spatial-temporal graph models consistently outperform traditional frame-aggregation methods. In contrast to existing datasets that rely on 2D static imagery, the proposed 4D-FEID dataset provides the community with a unique and vital resource for investigating the perception of facial expression intensity through the use of dynamic 3D stimuli. By offering high-fidelity, spatio-temporally coherent facial data, 4D-FEID establishes a new foundation for research into more nuanced and naturalistic expression analysis, thereby addressing a gap in the current landscape of affective computing and human-computer interaction studies. The dataset is available at link.",
+      "abstract_zh": "面部表情强度的估计和分析在情感交流和人机交互中发挥着至关重要的作用。以往的研究主要集中在从帧级2D表示中检测和估计面部表情强度。然而，这一局限性限制了对现实世界面部表情的全面理解，因为面部表情本质上是三维的，并且在时间上是连续的。本文通过引入4D面部表情强度数据集（4DFEID）来研究面部表情强度的感知。我们采用参数化面部模型，编制了总计2,869个具有可控几何变化的网格序列，生成具有多样化峰值强度和身份属性的4D数据实例。通过使用李克特量表，我们通过众包平台收集了超过90,000个主观强度感知评分。我们探索了各种架构和聚合方法，以在新数据集上建立情节强度估计的基线，结果显示时空图模型始终优于传统的帧聚合方法。与依赖于2D静态图像的现有数据集相比，所提出的4D-FEID数据集为研究通过动态3D刺激感知面部表情强度提供了独特而重要的资源。通过提供高保真、时空一致的面部数据，4D-FEID为更细致和自然的表情分析研究奠定了新的基础，从而填补了当前情感计算和人机交互研究领域的空白。该数据集可在链接处获取。",
+      "authors": [
+        "Zesheng Wang",
+        "Alexandre Bruckert",
+        "Pierre Lebreton",
+        "Patrick Le Callet",
+        "Yante Li",
+        "Guoying Zhao"
+      ],
+      "date": "2026-10-05",
+      "id": "2610.02647",
+      "tags": [
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "Capturing Dynamics: The 4D Facial Expression Intensity Dataset",
+      "title_zh": "捕捉动态：4D面部表情强度数据集",
+      "url": "/daily/2026-10-05/#paper-2610-02647"
+    },
+    {
+      "abstract": "Full-duplex voice agents make many small, closed decisions, which current systems answer by slow autoregressive decoding. We propose DuplexJev, which feeds ASR-encoder hidden states through a small connector into a frozen LLM and reads each question as a single-token distribution over its options. Nothing is decoded, and an 8-GPU node answers 80 decisions about eight utterances in about 0.1 s. With a last-layer connector, spoken QA stays close to reading the transcript (90% vs. 91%). DuplexJev also hears the speaker: gender and emotion accuracy both reach 90% (from 55% and 28%) with a cross-attention connector, whose spoken QA drops by only 1 point (83% to 82%). We train decisions with cross-entropy on the read-out answer token, instead of the usual transcript distillation, whose teacher never hears the voice, and keep distillation for content. Encoders and LLMs are interchangeable; we release weights, training recipe, a batched-inference pipeline for full-duplex serving and a bilingual spoken-QA set.",
+      "abstract_zh": "全双工语音代理进行许多小型、封闭的决策，而当前系统通过缓慢的自回归解码来响应这些决策。我们提出了DuplexJev，它通过一个小连接器将ASR编码器的隐藏状态输入到一个冻结的LLM中，并将每个问题视为其选项上的单标记分布。没有任何内容被解码，一个8-GPU节点在约0.1秒内回答关于八个发声的80个决策。通过最后一层连接器，口语问答的准确性接近于读取转录（90%对91%）。DuplexJev还能够听到说话者的声音：性别和情感的准确率均达到90%（分别从55%和28%提高），使用交叉注意力连接器，其口语问答的准确率仅下降了1个百分点（从83%降至82%）。我们通过交叉熵训练决策，基于读取的答案标记，而不是通常的转录蒸馏，后者的教师从未听到声音，并将蒸馏用于内容。编码器和LLM是可互换的；我们发布权重、训练配方、用于全双工服务的批量推理管道以及一个双语口语问答集。",
+      "authors": [
+        "Jie Jin",
+        "Ziyin Ma",
+        "Min Yin",
+        "Jinyu Chen",
+        "Haigang Song",
+        "Zhikun Pang",
+        "Xiaowen Zhang"
+      ],
+      "date": "2026-10-05",
+      "id": "2610.02638",
+      "tags": [
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "Batched Speech Decisions Without Decoding: Single-Token Supervision Lets a Frozen LLM Hear Beyond the Transcript",
+      "title_zh": "无解码的批量语音决策：单标记监督让冻结的LLM超越转录听见",
+      "url": "/daily/2026-10-05/#paper-2610-02638"
+    },
     {
       "abstract": "Model intelligence and fast response jointly shape the quality of interaction with speech language models, yet remain difficult to achieve together. Explicit chain-of-thought (CoT) improves reasoning and audio understanding, but generating intermediate reasoning tokens delays responses. Describing fine-grained acoustic cues further lengthens CoT and increases latency. Latent reasoning can reduce this overhead, yet existing methods often trail CoT and remain limited by single-path supervision and reasoning budgets that do not adapt to problem difficulty. We introduce AURAL, which models a distribution over multiple plausible reasoning continuations in latent space and jointly predicts chunks of future states to reduce sequential forward passes and reasoning latency. To provide initial supervision for latent reasoning, we construct AuralReason-683K: 683K bilingual speech utterances (about 1,000 hours) with concise CoT for emotion recognition, empathetic dialogue, and general reasoning. AURAL-RL then explores beyond these traces, rewarding concise reasoning that yields high-quality answers and adapting reasoning effort to each problem. Across two backbones, AURAL-RL achieves performance comparable to CoT-RL, with larger gains over the respective supervised checkpoints on most metrics. Analysis further shows that harder questions elicit more latent reasoning steps. On Qwen2.5-Omni, it reduces time to the first answer token by 11.8x, from 1.22 to 0.10 s, versus 0.05 s for direct answering.",
       "abstract_zh": "模型智能和快速响应共同塑造了与语音语言模型的交互质量，但要同时实现这两者仍然困难。显式的思维链（CoT）提高了推理和音频理解，但生成中间推理令牌会延迟响应。描述细粒度的声学线索进一步延长了CoT并增加了延迟。潜在推理可以减少这种开销，但现有方法通常落后于CoT，并受到单路径监督和无法适应问题难度的推理预算的限制。我们提出了AURAL，它在潜在空间中建模多个合理推理延续的分布，并联合预测未来状态的块，以减少顺序前向传递和推理延迟。为了为潜在推理提供初始监督，我们构建了AuralReason-683K：683K双语语音话语（约1000小时），用于情感识别、共情对话和一般推理的简洁CoT。随后，AURAL-RL在这些轨迹之外进行探索，奖励产生高质量答案的简洁推理，并将推理努力适应每个问题。在两个基础模型上，AURAL-RL的性能与CoT-RL相当，在大多数指标上相较于各自的监督检查点有更大的提升。分析进一步表明，较难的问题引发更多的潜在推理步骤。在Qwen2.5-Omni上，它将首次答案令牌的时间减少了11.8倍，从1.22秒降至0.10秒，而直接回答的时间为0.05秒。",

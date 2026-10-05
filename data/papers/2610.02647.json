@@ -1,0 +1,55 @@
+{
+  "abstract": "The estimation and analysis of facial expression intensity play a crucial role in affective communication and human-computer interaction. Previous research has primarily focused on detecting and estimating facial expression intensity from frame-level 2D representations. However, this limitation restricts a comprehensive understanding of real-world facial expressions, as they are inherently 3D and temporally continuous. This paper investigates the perception of facial expression intensity by introducing the 4D Facial Expression Intensity Dataset (4DFEID). We employ a parametric face model and compile a total of 2,869 mesh sequences with controlled geometric variations, generating 4D data instances with diverse peak intensities and identity attributes. Using a Likert scale, we collect more than 90,000 subjective intensity perception ratings via a crowdsourcing platform. We explore various architectures and aggregation methods to establish baselines for episode intensity estimation on the new dataset, revealing that spatial-temporal graph models consistently outperform traditional frame-aggregation methods. In contrast to existing datasets that rely on 2D static imagery, the proposed 4D-FEID dataset provides the community with a unique and vital resource for investigating the perception of facial expression intensity through the use of dynamic 3D stimuli. By offering high-fidelity, spatio-temporally coherent facial data, 4D-FEID establishes a new foundation for research into more nuanced and naturalistic expression analysis, thereby addressing a gap in the current landscape of affective computing and human-computer interaction studies. The dataset is available at link.",
+  "abstract_zh": "面部表情强度的估计和分析在情感交流和人机交互中发挥着至关重要的作用。以往的研究主要集中在从帧级2D表示中检测和估计面部表情强度。然而，这一局限性限制了对现实世界面部表情的全面理解，因为面部表情本质上是三维的，并且在时间上是连续的。本文通过引入4D面部表情强度数据集（4DFEID）来研究面部表情强度的感知。我们采用参数化面部模型，编制了总计2,869个具有可控几何变化的网格序列，生成具有多样化峰值强度和身份属性的4D数据实例。通过使用李克特量表，我们通过众包平台收集了超过90,000个主观强度感知评分。我们探索了各种架构和聚合方法，以在新数据集上建立情节强度估计的基线，结果显示时空图模型始终优于传统的帧聚合方法。与依赖于2D静态图像的现有数据集相比，所提出的4D-FEID数据集为研究通过动态3D刺激感知面部表情强度提供了独特而重要的资源。通过提供高保真、时空一致的面部数据，4D-FEID为更细致和自然的表情分析研究奠定了新的基础，从而填补了当前情感计算和人机交互研究领域的空白。该数据集可在链接处获取。",
+  "arxiv_id": "2610.02647",
+  "arxiv_url": "https://arxiv.org/abs/2610.02647v1",
+  "authors": [
+    "Zesheng Wang",
+    "Alexandre Bruckert",
+    "Pierre Lebreton",
+    "Patrick Le Callet",
+    "Yante Li",
+    "Guoying Zhao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-05#paper-2610-02647",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-05T12:11:10.254090+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.02647v1",
+  "published_at": "2026-10-02T01:09:42Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective computing",
+      "情感计算",
+      "affective",
+      "dataset",
+      "检测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 71.0
+  },
+  "seen_dates": [
+    "2026-10-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.02647v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Capturing Dynamics: The 4D Facial Expression Intensity Dataset",
+  "title_zh": "捕捉动态：4D面部表情强度数据集",
+  "translation_url": "https://hjfy.top/arxiv/2610.02647"
+}

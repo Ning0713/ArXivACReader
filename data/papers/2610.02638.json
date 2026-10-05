@@ -1,0 +1,54 @@
+{
+  "abstract": "Full-duplex voice agents make many small, closed decisions, which current systems answer by slow autoregressive decoding. We propose DuplexJev, which feeds ASR-encoder hidden states through a small connector into a frozen LLM and reads each question as a single-token distribution over its options. Nothing is decoded, and an 8-GPU node answers 80 decisions about eight utterances in about 0.1 s. With a last-layer connector, spoken QA stays close to reading the transcript (90% vs. 91%). DuplexJev also hears the speaker: gender and emotion accuracy both reach 90% (from 55% and 28%) with a cross-attention connector, whose spoken QA drops by only 1 point (83% to 82%). We train decisions with cross-entropy on the read-out answer token, instead of the usual transcript distillation, whose teacher never hears the voice, and keep distillation for content. Encoders and LLMs are interchangeable; we release weights, training recipe, a batched-inference pipeline for full-duplex serving and a bilingual spoken-QA set.",
+  "abstract_zh": "全双工语音代理进行许多小型、封闭的决策，而当前系统通过缓慢的自回归解码来响应这些决策。我们提出了DuplexJev，它通过一个小连接器将ASR编码器的隐藏状态输入到一个冻结的LLM中，并将每个问题视为其选项上的单标记分布。没有任何内容被解码，一个8-GPU节点在约0.1秒内回答关于八个发声的80个决策。通过最后一层连接器，口语问答的准确性接近于读取转录（90%对91%）。DuplexJev还能够听到说话者的声音：性别和情感的准确率均达到90%（分别从55%和28%提高），使用交叉注意力连接器，其口语问答的准确率仅下降了1个百分点（从83%降至82%）。我们通过交叉熵训练决策，基于读取的答案标记，而不是通常的转录蒸馏，后者的教师从未听到声音，并将蒸馏用于内容。编码器和LLM是可互换的；我们发布权重、训练配方、用于全双工服务的批量推理管道以及一个双语口语问答集。",
+  "arxiv_id": "2610.02638",
+  "arxiv_url": "https://arxiv.org/abs/2610.02638v1",
+  "authors": [
+    "Jie Jin",
+    "Ziyin Ma",
+    "Min Yin",
+    "Jinyu Chen",
+    "Haigang Song",
+    "Zhikun Pang",
+    "Xiaowen Zhang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-05#paper-2610-02638",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-05T12:11:10.296225+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.02638v1",
+  "published_at": "2026-10-02T00:54:52Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "LLM",
+      "LLMs",
+      "speech",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.02638v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Batched Speech Decisions Without Decoding: Single-Token Supervision Lets a Frozen LLM Hear Beyond the Transcript",
+  "title_zh": "无解码的批量语音决策：单标记监督让冻结的LLM超越转录听见",
+  "translation_url": "https://hjfy.top/arxiv/2610.02638"
+}
