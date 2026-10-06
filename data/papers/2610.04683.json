@@ -1,0 +1,62 @@
+{
+  "abstract": "Activation steering has proven effective for controlling the behavior of Large Language Models (LLMs) at inference time, but its application to SpeechLLMs remains new, and training-free steering approaches for such models are still largely unexplored. We propose a training-free Contrastive Activation Addition (CAA) protocol that derives steering vectors for common speech tasks (e.g. transcription) in SpeechLLMs from a small number of labeled utterances. We showcase that adding these vectors in the representation space, at inference time, enforces better the targeted speech task. We further show that, when combined with prompting, these vectors yield to consistent improvement over prompting alone on most evaluated tasks such as Automatic Speech Recognition (ASR) or Emotion Recognition (ER), and transfer to out-of-domain data. We additionally demonstrate the usefulness of script-normalization directions to enforce the target script of a specific language.",
+  "abstract_zh": "激活引导已被证明在推理时有效控制大型语言模型（LLMs）的行为，但其在语音语言模型（SpeechLLMs）中的应用仍然较新，且针对此类模型的无训练引导方法仍然大多未被探索。我们提出了一种无训练的对比激活添加（Contrastive Activation Addition, CAA）协议，该协议从少量标记的发声中推导出针对常见语音任务（例如转录）的引导向量。我们展示了在推理时将这些向量添加到表示空间中，可以更好地强化目标语音任务。我们进一步表明，当与提示结合使用时，这些向量在大多数评估任务（如自动语音识别（Automatic Speech Recognition, ASR）或情感识别（Emotion Recognition, ER））上，相较于单独使用提示，能够持续提升性能，并且能够迁移到域外数据。此外，我们还展示了脚本标准化方向在强化特定语言目标脚本方面的实用性。",
+  "arxiv_id": "2610.04683",
+  "arxiv_url": "https://arxiv.org/abs/2610.04683v1",
+  "authors": [
+    "Séverin Baroudi",
+    "Yanis Labrak",
+    "Pierfrancesco Melucci",
+    "Sergio Burdisso",
+    "Petr Motlicek",
+    "Hervé Bredin",
+    "Mirco Ravanelli",
+    "Ricard Marxer"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-06#paper-2610-04683",
+  "categories": [
+    "cs.CL",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-10-06T11:54:34.516956+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.04683v1",
+  "published_at": "2026-10-03T17:53:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "large language models",
+      "LLMs",
+      "recognition",
+      "speech",
+      "识别",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-10-06"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.04683v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Steering Speech-Language Models: Training-Free Task Specialization via Contrastive Activation Addition",
+  "title_zh": "引导语音语言模型：通过对比激活添加实现无训练任务专业化",
+  "translation_url": "https://hjfy.top/arxiv/2610.04683"
+}

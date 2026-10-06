@@ -1,0 +1,59 @@
+{
+  "abstract": "Context: Fine-grained emotion classification of mobile app reviews enables requirements engineering activities that go beyond polarity-based opinion mining, including emotionally informed issue prioritisation and feature-oriented feedback analysis. However, automatic fine-grained emotion extraction from app reviews remains understudied. Objectives: Building on a previously published annotation framework and human-labelled ground truth adapted from Plutchik's taxonomy, this paper investigates how large language models can be leveraged for automatic multi-label emotion classification under severe class imbalance. Methods: We compare encoder-only fine-tuning under multi-label and binary-ensemble formulations, decoder-only zero- and few-shot prompting across open-source and proprietary models, and a catalogue of imbalance mitigation strategies (loss reweighting, resampling, generative data augmentation), with the synthetic-review generator and prompting strategy selected via an intrinsic augmentation-utility ranking. Results: Fine-tuned encoders trail the best decoder-only few-shot prompting (macro-F1 0.642) by a wide margin at baseline (multi-label: 0.387; binary ensemble: 0.450); pairing the best multi-label encoder with generative data augmentation and positive-weighted loss closes most of this gap (+0.204) at up to three orders of magnitude lower inference latency than the decoders, with the largest gains on the rarest emotions, from undetected to gains of up to +0.501 F1. Conclusion: Large language models make fine-grained, multi-label emotion classification of app reviews feasible for requirements engineering pipelines, with modest macro-F1, and the best formulation and mitigation strategy are backbone- and formulation-dependent. We release the experimental pipeline, synthetic corpora, and fine-tuned checkpoints for replication and reuse.",
+  "abstract_zh": "背景：移动应用评论的细粒度情感分类使得需求工程活动超越基于极性的意见挖掘，包括情感驱动的问题优先级排序和面向特征的反馈分析。然而，自动从应用评论中提取细粒度情感仍然是一个未被充分研究的领域。目标：基于先前发布的注释框架和从Plutchik的分类法中调整的人类标注的真实数据，本文探讨如何利用大型语言模型在严重类别不平衡的情况下进行自动多标签情感分类。方法：我们比较了在多标签和二元集成形式下的编码器仅微调，解码器仅的零样本和少样本提示，跨开源和专有模型，以及一系列不平衡缓解策略（损失重加权、重采样、生成数据增强），并通过内在的增强效用排名选择合成评论生成器和提示策略。结果：微调的编码器在基线下（多标签：0.387；二元集成：0.450）明显落后于最佳的解码器仅少样本提示（宏F1 0.642）；将最佳多标签编码器与生成数据增强和正权重损失结合，可以在推理延迟比解码器低三个数量级的情况下缩小大部分差距（+0.204），在最稀有的情感上获得最大增益，从未检测到的情感到F1增益高达+0.501。结论：大型语言模型使得应用评论的细粒度多标签情感分类在需求工程流程中成为可能，宏F1表现适中，最佳的形式和缓解策略依赖于骨干网络和形式。我们发布了实验流程、合成语料库和微调检查点以供复制和重用。",
+  "arxiv_id": "2610.03802",
+  "arxiv_url": "https://arxiv.org/abs/2610.03802v1",
+  "authors": [
+    "Quim Motger",
+    "Carlota Catot",
+    "Marc Oriol"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-06#paper-2610-03802",
+  "categories": [
+    "cs.CL",
+    "cs.IR",
+    "cs.SE"
+  ],
+  "fetched_at": "2026-10-06T11:54:34.501570+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.03802v1",
+  "published_at": "2026-10-01T07:50:50Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion classification",
+      "情感分类",
+      "emotion",
+      "emotions",
+      "large language models",
+      "classification",
+      "分类",
+      "检测",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 86.0
+  },
+  "seen_dates": [
+    "2026-10-06"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.03802v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Fine-Grained Emotion Classification from Mobile App Reviews: An Empirical Study with Large Language Models",
+  "title_zh": "基于移动应用评论的细粒度情感分类：基于大型语言模型的实证研究",
+  "translation_url": "https://hjfy.top/arxiv/2610.03802"
+}

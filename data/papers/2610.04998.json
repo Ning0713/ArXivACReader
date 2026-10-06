@@ -1,0 +1,55 @@
+{
+  "abstract": "Emotional expression can influence the safety decisions of large language models (LLMs), offering a potential avenue for improving safety alignment. Existing studies have mainly focused on how emotional expressions facilitate attacks under harmful requests, while overlooking their effects on benign requests. We find that emotional expression can also systematically increase refusal tendencies on benign requests, leading to unnecessary over-refusal. Based on this observation, we propose emotion-guided refusal subspace steering (EmoRSS), an activation-steering method that mitigates emotion-induced over-refusal while preserving refusal behaviour on harmful requests. Specifically, we first identify a refusal-sensitive layer using layer-wise linear probes and construct a refusal subspace from sparse autoencoder (SAE) features aligned with the probe direction. Next, we use paired regular and emotional requests with the same queries to estimate the mean activation shift in the features defining the refusal subspace. Finally, we decode this shift into an activation intervention vector and apply it in the reverse refusal direction during inference, without updating the backbone parameters. Experiments on two LLMs show that, when requests contain emotional expressions, our method achieves a more favourable trade-off between refusing harmful requests and answering benign ones than prior over-refusal mitigation baselines, while better preserving general task performance.",
+  "abstract_zh": "情感表达可以影响大型语言模型（LLMs）的安全决策，为改善安全对齐提供了潜在途径。现有研究主要集中在情感表达如何在有害请求下促进攻击，而忽视了其对良性请求的影响。我们发现，情感表达也可以系统性地增加对良性请求的拒绝倾向，导致不必要的过度拒绝。基于这一观察，我们提出了情感引导的拒绝子空间引导（EmoRSS），这是一种激活引导方法，旨在减轻情感引发的过度拒绝，同时保留对有害请求的拒绝行为。具体而言，我们首先使用逐层线性探针识别出一个对拒绝敏感的层，并根据探针方向构建一个由稀疏自编码器（SAE）特征构成的拒绝子空间。接下来，我们使用具有相同查询的配对常规请求和情感请求来估计定义拒绝子空间的特征中的平均激活偏移。最后，我们将这一偏移解码为激活干预向量，并在推理过程中应用于反向拒绝方向，而不更新主干参数。在对两个LLM的实验中，当请求包含情感表达时，我们的方法在拒绝有害请求和回答良性请求之间实现了比先前的过度拒绝缓解基线更有利的权衡，同时更好地保留了总体任务性能。",
+  "arxiv_id": "2610.04998",
+  "arxiv_url": "https://arxiv.org/abs/2610.04998v1",
+  "authors": [
+    "Shuyi Miao",
+    "Yaojin Ma",
+    "Chenhang Cui",
+    "Xiaohao Liu",
+    "Dang Jisheng",
+    "Shengda Zhuo",
+    "Fei Shen",
+    "Tat-Seng Chua"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-06#paper-2610-04998",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-06T11:54:34.457148+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.04998v1",
+  "published_at": "2026-10-04T06:40:16Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "识别",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-06"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.04998v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "EmoRSS: Mitigating Emotion-Induced Over-Refusal in Large Language Models",
+  "title_zh": "EmoRSS：减轻大型语言模型中的情感引发的过度拒绝",
+  "translation_url": "https://hjfy.top/arxiv/2610.04998"
+}

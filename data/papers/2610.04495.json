@@ -1,0 +1,60 @@
+{
+  "abstract": "Nowadays, emojis are often replacing words. Yet computational systems still oversimplify them. Most existing approaches treat emojis as static sentiment indicators and overlook their emotional distributions. In this study, we propose an emoji-aware emotion analysis framework based on a Twitter (X) dataset of 100,000 emoji-containing replies collected between 2020-2025. After preprocessing and text cleaning, we applied text-to-emotion classification to detect five primary emotions (Happy, Angry, Sad, Fear, and Surprise) for each message. By aggregating emotion scores across contexts in which each emoji appears, we estimate emoji-emotion association distributions and construct an emoji-emotion ranking system reflecting relative emotional dominance. Furthermore, we project emojis into the Russell valence-arousal space to enable continuous affective interpretation. Our results demonstrate that emojis exhibit probabilistic, context-sensitive emotional profiles rather than fixed sentiment polarities.",
+  "abstract_zh": "如今，表情符号常常取代文字。然而，计算系统仍然过于简化它们。大多数现有方法将表情符号视为静态情感指标，忽视了它们的情感分布。在本研究中，我们提出了一种基于推特（Twitter，现称X）数据集的表情符号感知情感分析框架，该数据集包含2020年至2025年间收集的100,000条包含表情符号的回复。在预处理和文本清洗后，我们应用文本到情感分类的方法，检测每条消息的五种主要情感（快乐、愤怒、悲伤、恐惧和惊讶）。通过汇总每个表情符号出现上下文中的情感评分，我们估计表情符号-情感关联分布，并构建一个反映相对情感主导性的表情符号-情感排名系统。此外，我们将表情符号投射到拉塞尔（Russell）情感价值-唤醒空间，以实现连续的情感解释。我们的结果表明，表情符号表现出概率性和上下文敏感的情感特征，而非固定的情感极性。",
+  "arxiv_id": "2610.04495",
+  "arxiv_url": "https://arxiv.org/abs/2610.04495v1",
+  "authors": [
+    "Danila Khlebokazov",
+    "Nurkhan Tashimov",
+    "Pakizar Shamoi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-06#paper-2610-04495",
+  "categories": [
+    "cs.CL",
+    "cs.SI"
+  ],
+  "fetched_at": "2026-10-06T11:54:34.513778+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.04495v1",
+  "published_at": "2026-10-03T12:51:21Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion classification",
+      "emotion analysis",
+      "情感分析",
+      "情感分类",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "classification",
+      "dataset",
+      "分类",
+      "检测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-06"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.04495v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测",
+      "情绪识别"
+    ]
+  },
+  "title": "Emoji-Emotion Ranking System Using Twitter Data",
+  "title_zh": "基于推特数据的表情符号-情感排名系统",
+  "translation_url": "https://hjfy.top/arxiv/2610.04495"
+}

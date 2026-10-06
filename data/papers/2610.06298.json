@@ -1,0 +1,61 @@
+{
+  "abstract": "Sentiment analysis is a fundamental problem in Natural Language Processing (NLP). Standard sentiment classification for the Arabic language remains challenging due to the high volume of dialectal Arabic. To advance research in this area, this paper proposes the Shared Task on Sentiment Analysis and Swapping in Arabic Dialects (DialectSentEval), hosted with the Arabic Natural Language Processing Conference (ArabicNLP 2026). This shared task consists of two subtasks: Subtask 1 focuses on multi-class and multi-dialect sentiment analysis, requiring models to identify sentiment polarity across various Arabic dialects. Subtask 2 introduces a generative task for Arabic sentiment swap, challenging models to invert sentiment polarity while preserving core semantics. In this overview paper, we present the motivation, dataset creation, and summarize the main findings from participating models.",
+  "abstract_zh": "情感分析是自然语言处理（NLP）中的一个基本问题。由于阿拉伯方言的数量庞大，标准的阿拉伯语情感分类仍然面临挑战。为了推动该领域的研究，本文提出了阿拉伯方言情感分析与情感交换共享任务（DialectSentEval），该任务将在阿拉伯自然语言处理会议（ArabicNLP 2026）上举办。该共享任务由两个子任务组成：子任务1专注于多类和多方言情感分析，要求模型识别不同阿拉伯方言中的情感极性。子任务2引入了阿拉伯情感交换的生成任务，挑战模型在保留核心语义的同时反转情感极性。在本文的概述中，我们介绍了研究动机、数据集创建，并总结了参与模型的主要发现。",
+  "arxiv_id": "2610.06298",
+  "arxiv_url": "https://arxiv.org/abs/2610.06298v1",
+  "authors": [
+    "Saad Ezzini",
+    "Shadi Abudalfa",
+    "Maram Alharbi",
+    "Salmane Chafik",
+    "Hind Alatawi",
+    "Mo El-Haj",
+    "Ahmed Abdelali",
+    "Osamah Alnahari",
+    "Salima Lamsiyah"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-06#paper-2610-06298",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-06T11:54:34.545162+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.06298v1",
+  "published_at": "2026-10-05T13:24:24Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "sentiment classification",
+      "情感分析",
+      "情感分类",
+      "classification",
+      "dataset",
+      "识别",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-06"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.06298v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "DialectSentEval 2026: Arabic Dialect Sentiment Analysis and Swapping Shared Task",
+  "title_zh": "DialectSentEval 2026：阿拉伯方言情感分析与情感交换共享任务",
+  "translation_url": "https://hjfy.top/arxiv/2610.06298"
+}

@@ -1,0 +1,57 @@
+{
+  "abstract": "Multimodal inputs are inherently heterogeneous, not only across modalities but also in the information pathways required for effective prediction. To address this limitation, we propose InstMoE, an adaptive expert routing framework for multimodal learning. InstMoE dynamically routes each input to specialized unimodal and cross-modal experts, allowing the model to adapt its information pathways to the characteristics of the input. However, routing can be misled when modality-specific variations obscure task-relevant semantics. Such irrelevant variations may distort routing decisions, causing inputs to be assigned to inappropriate experts. We therefore introduce a Contrastive Semantic Alignment module, which encourages semantically similar inputs to share task-relevant representations while suppressing irrelevant modality-specific variations. Experiments on multimodal sentiment analysis benchmarks demonstrate that InstMoE achieves state-of-the-art performance on CMU-MOSEI and CH-SIMS v2 while using substantially fewer parameters than competitive baselines. Further analysis shows that different inputs exhibit distinct expert preferences, demonstrating that InstMoE moves beyond fixed fusion toward adaptive multimodal computation.",
+  "abstract_zh": "多模态输入本质上是异构的，不仅在模态之间存在差异，而且在有效预测所需的信息路径上也有所不同。为了解决这一局限性，我们提出了InstMoE，一个用于多模态学习的自适应专家路由框架。InstMoE动态地将每个输入路由到专业的单模态和跨模态专家，使模型能够根据输入的特征调整其信息路径。然而，当模态特定的变异掩盖了与任务相关的语义时，路由可能会受到误导。这些无关的变异可能会扭曲路由决策，导致输入被分配给不适当的专家。因此，我们引入了对比语义对齐模块，鼓励语义相似的输入共享与任务相关的表示，同时抑制无关的模态特定变异。在多模态情感分析基准上的实验表明，InstMoE在CMU-MOSEI和CH-SIMS v2上实现了最先进的性能，同时使用的参数显著少于竞争基线。进一步的分析表明，不同的输入表现出不同的专家偏好，证明InstMoE超越了固定融合，朝着自适应多模态计算发展。",
+  "arxiv_id": "2610.05111",
+  "arxiv_url": "https://arxiv.org/abs/2610.05111v1",
+  "authors": [
+    "Guimin Hu",
+    "Xiang He",
+    "Yingjian Li",
+    "Zheng Lian",
+    "Boyan Xu",
+    "Ruichu Cai"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-06#paper-2610-05111",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-06T11:54:34.526644+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.05111v1",
+  "published_at": "2026-10-04T10:40:07Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "CMU MOSEI",
+      "multimodal",
+      "prediction",
+      "多模态",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 88.0
+  },
+  "seen_dates": [
+    "2026-10-06"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.05111v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "InstMoE: Adaptive Multimodal Routing with Specialized Experts",
+  "title_zh": "InstMoE：具有专业专家的自适应多模态路由",
+  "translation_url": "https://hjfy.top/arxiv/2610.05111"
+}
