@@ -1,6 +1,129 @@
 {
-  "generated_at": "2026-10-06T11:54:38.419034+00:00",
+  "generated_at": "2026-10-07T11:39:41.942319+00:00",
   "items": [
+    {
+      "abstract": "LLMs are increasingly deployed as autonomous agents in social environments, making it critical to study their ability to faithfully simulate human interactions. Central to this is grounding agents in realistic user personas, yet existing datasets rely on fictional personas and are limited to a handful of languages, lacking the empirical grounding necessary to evaluate behavioral fidelity across diverse populations. We introduce Wiki-Talkie, a multilingual dataset of real-world conversations from Wikipedia Talk pages across five languages spanning two language families: Germanic (German, English) and Romance (Spanish, French, Italian), paired with personas derived from real user communities and encompassing sociodemographic attributes, self-descriptions, and behaviorally grounded interaction traits. Using Wiki-Talkie, we evaluate agent interactional behavior on a next-turn generation task across various persona conditioning strategies. Our evaluation assesses whether agents collectively reproduce the distributional behavioral patterns observed in human discussions. Results show that user's comment history exemplifying interaction behavior consistently outperforms explicit persona information. In addition, models systematically underproduce negative or extreme sentiments, while over producing references and suggestions, revealing biases toward agreeableness and positivity. Crucially, these patterns hold robustly across languages, with small cross-lingual differences.",
+      "abstract_zh": "大型语言模型（LLMs）越来越多地作为自主代理在社交环境中部署，因此研究它们忠实模拟人类互动的能力变得至关重要。关键在于将代理与现实用户个性相结合，而现有的数据集依赖于虚构的个性，并且仅限于少数几种语言，缺乏评估不同人群行为忠实度所需的实证基础。我们引入了Wiki-Talkie，这是一个来自维基百科讨论页面的多语言真实对话数据集，涵盖五种语言，跨越两个语言家族：日耳曼语（德语、英语）和罗曼语（西班牙语、法语、意大利语），并配有来自真实用户社区的个性，涵盖社会人口特征、自我描述和行为基础的互动特征。利用Wiki-Talkie，我们评估了代理在各种个性条件策略下的下一轮生成任务中的互动行为。我们的评估检验了代理是否能够共同再现人类讨论中观察到的分布性行为模式。结果表明，用户的评论历史所体现的互动行为始终优于显式个性信息。此外，模型系统性地低估了负面或极端情绪的生成，同时过度生成参考和建议，揭示出对友好性和积极性的偏见。重要的是，这些模式在不同语言中稳健存在，且跨语言差异较小。",
+      "authors": [
+        "Dennis Fucci",
+        "Andrea Bacciu",
+        "Dong Liu",
+        "Weronika Łajewska",
+        "Saab Mansour"
+      ],
+      "date": "2026-10-07",
+      "id": "2610.08513",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions",
+      "title_zh": "Wiki-Talkie：基于真实讨论的个性化代理的多语言基准测试",
+      "url": "/daily/2026-10-07/#paper-2610-08513"
+    },
+    {
+      "abstract": "Facial affect models are trained almost entirely on adults, yet are increasingly applied to children in education, health, and developmental research. We present a controlled, multi-model audit of five AffectNet-pretrained expression models (EmoNet, EmotiEffLib, DDAMFN++, OpenFace 3.0, LibreFace) on children, across four child image datasets, the AffectNet-8 validation set, and two spontaneous child video datasets, through one shared harness. Three findings emerge. First, the child gap is model-agnostic: every architecture degrades from posed to naturalistic faces and shares the fear$\\rightarrow$surprise confusion. Second, it is concentrated and corroborated across all five models: open-mouth faces (read as surprise, correlating with the AU26 jaw drop) and South-Asian children degrade systematically, with a smaller averted-gaze penalty, while closed-mouth faces, White and Black children, and direct gaze do not; the bias tracks expression morphology and specific populations, not skin tone. Third, the gap is diagnosable: a linear probe on frozen features reaches 0.75-0.91 on unseen children versus 0.48-0.66 zero-shot, so it lies largely in the classifier head, not the representation, whereas dimensional valence/arousal regression degrades sharply under domain shift. Building on this, recalibrating only the head on a little target data recovers $+0.13$ to $+0.28$ on the two largest child sets across all five models at negligible adult cost, though the gain is in-distribution and does not transfer across child collections. We will release the harness, per-sample predictions, and analysis code; the child face data stays license-locked and is never redistributed.",
+      "abstract_zh": "面部情感模型几乎完全基于成年人进行训练，但在教育、健康和发展研究中越来越多地应用于儿童。我们对五个经过AffectNet预训练的表情模型（EmoNet、EmotiEffLib、DDAMFN++、OpenFace 3.0、LibreFace）在儿童图像数据集、AffectNet-8验证集以及两个自发儿童视频数据集上的表现进行了控制的多模型审计，采用一个共享的测试平台。研究得出了三个发现。首先，儿童差距与模型无关：每种架构在从摆拍到自然面孔的过程中表现下降，并且存在恐惧→惊讶的混淆。其次，这一现象在所有五个模型中都集中且得到证实：张嘴的面孔（被解读为惊讶，相关于AU26下巴下垂）和南亚儿童的表现系统性下降，且有较小的回避目光惩罚，而闭嘴的面孔、白人和黑人儿童以及直接目光则没有；这种偏差与表情形态和特定人群相关，而非肤色。第三，差距是可诊断的：在冻结特征上的线性探测器在未见儿童上达到0.75-0.91，而在零样本上仅为0.48-0.66，因此差距主要存在于分类器头部，而非表示层，而维度情感/唤醒回归在领域转移下急剧下降。在此基础上，仅在少量目标数据上重新校准头部，使所有五个模型在两个最大的儿童数据集上恢复了+0.13至+0.28的表现，且对成年人几乎没有成本，尽管增益是分布内的，并且无法在儿童集合之间转移。我们将发布测试平台、每个样本的预测结果和分析代码；儿童面部数据将保持许可锁定，且不会被重新分发。",
+      "authors": [
+        "Tobias Hallmen",
+        "Robin-Nico Kampa",
+        "Elisabeth André"
+      ],
+      "date": "2026-10-07",
+      "id": "2610.08279",
+      "tags": [
+        "情绪识别",
+        "面部表情",
+        "鲁棒性/偏差"
+      ],
+      "title": "Whose Face Is It Anyway? A Multi-Model Audit of Facial Affect Recognition on Children, and Why the Gap Is the Head, Not the Features",
+      "title_zh": "这是谁的脸？儿童面部情感识别的多模型审计，以及为何差距在于头部，而非特征",
+      "url": "/daily/2026-10-07/#paper-2610-08279"
+    },
+    {
+      "abstract": "Large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. Existing role-playing methods largely rely on static profile prompts and may exhibit persona drift, unrealistic cooperativeness, or inconsistent psychological states, communicative actions, and emotions. Existing evaluations also lack a unified testbed for both stable client characteristics and evolving psychological dynamics. We propose MASC, a Multi-Agent Self-Calibration framework with latent construct alignment for consistent client role-playing in psychological counseling. MASC combines construct-guided generation, collaborative refinement, consistency verification, and memory-based revision in a closed calibration loop that detects and corrects inconsistencies as dialogue unfolds. We further introduce CRPC-Bench, a benchmark covering session-level profile information and Big-Five personality traits, as well as turn-level psychological state, communicative action, and emotion expression. CRPC-Bench contains 38 motivational interviewing client profiles augmented with personality and emotion annotations. Experiments show that MASC outperforms existing methods across profile, personality, receptivity, and turn-level consistency, with the heterogeneous configuration achieving the strongest overall performance. MASC and CRPC-Bench provide a unified foundation for developing and evaluating psychologically coherent client simulations for AI-assisted counseling research and training.",
+      "abstract_zh": "大型语言模型越来越多地用于模拟客户，以进行咨询师培训和心理咨询研究，但可靠的模拟要求客户在长时间的互动中保持心理一致性。现有的角色扮演方法主要依赖于静态的个人档案提示，可能会出现角色漂移、不现实的合作性或不一致的心理状态、交流行为和情感。现有评估也缺乏一个统一的测试平台，以同时评估稳定的客户特征和不断变化的心理动态。我们提出了MASC，一种具有潜在构造对齐的多智能体自校准框架，用于心理咨询中一致的客户角色扮演。MASC结合了构造引导生成、协作优化、一致性验证和基于记忆的修正，形成一个闭环校准过程，在对话展开时检测和纠正不一致性。我们进一步介绍了CRPC-Bench，一个基准涵盖了会话级别的个人档案信息和大五人格特质，以及轮次级别的心理状态、交流行为和情感表达。CRPC-Bench包含38个动机访谈客户档案，附有个性和情感注释。实验表明，MASC在个人档案、个性、接受度和轮次级别一致性方面优于现有方法，其中异构配置实现了最强的整体性能。MASC和CRPC-Bench为开发和评估心理一致的客户模拟提供了统一的基础，支持AI辅助的咨询研究和培训。",
+      "authors": [
+        "Shixin Peng",
+        "Kun Jiang",
+        "Jiaxing Zheng",
+        "Qihao Yang",
+        "Jingying Chen"
+      ],
+      "date": "2026-10-07",
+      "id": "2610.08250",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+      "title_zh": "MASC：一种具有潜在构造对齐的多智能体自校准框架，用于心理咨询中一致的客户角色扮演",
+      "url": "/daily/2026-10-07/#paper-2610-08250"
+    },
+    {
+      "abstract": "Fine-grained emotion recognition supports therapy tools and social robots, but it needs facial data, which raises privacy and data-protection concerns. EmoNet-Face-HQ answers that with generated portraits, expert-rated over a $40$-category taxonomy far finer than the usual six to eight basic emotions. Under the protocol it ships with, vision-language models (VLMs) score poorly on that taxonomy, and the benchmark concludes that a dedicated fine-tuned model is necessary: Empathic-Insight-Face (EIF; Small/Large). We show that off-the-shelf VLMs match or beat that fine-tuned model when the answer is not generated but read from the logits, as one binary query per category. We keep the benchmark's images, taxonomy and ratings, and change only how the answer is read. Experts agree at $\\kappa_w = 0.468$ on the five categories they measure most reliably. Generatively, no interval among eleven open-weight VLMs lies entirely above that anchor ($\\kappa_w=0.268$-$0.486$). Under verification all eleven clear it, each of them significantly better at $\\kappa_w=0.507$-$0.586$. Three also significantly beat EIF sitting at $\\kappa_w = 0.551$ (Small; $0.534$ Large). The gain comes from the graded probability and not from asking a yes/no question: as a control, thresholding those same probabilities to yes/no costs 142% of the average gains and drops binarization below generative elicitation to $\\kappa_w=0.254$-$0.423$. A replication on real photographs (FACES) is weaker and mixed: of the ten models that pass a validity gate, six gain, three are neutral to positive and one is negative, so the effect is not confined to synthetic data.",
+      "abstract_zh": "细粒度情感识别支持治疗工具和社交机器人，但它需要面部数据，这引发了隐私和数据保护的担忧。EmoNet-Face-HQ 通过生成的肖像来解决这一问题，这些肖像在一个超过 $40$ 类别的分类法中经过专家评估，远比通常的六到八种基本情感更为细致。在其附带的协议下，视觉语言模型（VLMs）在该分类法上的得分较低，基准得出结论认为需要一个专门的微调模型：Empathic-Insight-Face (EIF; Small/Large)。我们展示了当答案不是生成的而是从 logits 中读取时，现成的 VLMs 可以与该微调模型相匹配或超越，作为每个类别的一个二元查询。我们保留基准的图像、分类法和评分，仅改变答案的读取方式。专家在他们最可靠测量的五个类别上达成一致，$ ext{kappa}_w = 0.468$。在十一种开放权重的 VLMs 中，没有一个区间完全高于该基准（$ ext{kappa}_w=0.268$-$0.486$）。在验证下，所有十一种模型均超过该基准，每种模型的表现显著提高，$ ext{kappa}_w=0.507$-$0.586$。其中三种模型的表现显著优于 EIF，后者的得分为 $ ext{kappa}_w = 0.551$（Small; $0.534$ Large）。这种提升来自于分级概率，而非简单的是/否问题：作为对照，将这些相同的概率阈值化为是/否问题，平均收益的成本为142%，并将二元化的得分降至 $ ext{kappa}_w=0.254$-$0.423$。在真实照片（FACES）上的复制实验结果较弱且混合：在通过有效性门的十个模型中，六个模型表现出提升，三个模型表现中性到积极，一个模型表现消极，因此这一效应并不局限于合成数据。",
+      "authors": [
+        "Tobias Hallmen",
+        "Fabian Deuser",
+        "Robin-Nico Kampa",
+        "Norbert Oswald",
+        "Elisabeth André"
+      ],
+      "date": "2026-10-07",
+      "id": "2610.08162",
+      "tags": [
+        "情绪识别",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "The Failure Is in the Readout: Fine-Grained Emotion Recognition Benchmarks Measure Elicitation, Not Perception",
+      "title_zh": "失败在于读取：细粒度情感识别基准测量引发，而非感知",
+      "url": "/daily/2026-10-07/#paper-2610-08162"
+    },
+    {
+      "abstract": "Speech-LLMs often exhibit prompt overfitting, where models solely trained on automatic speech recognition (ASR) instruction fail to generalize to new instructions such as speech translation and continue to behave primarily as ASR system. We propose DirectSpeech2LLM, a simple end-to-end framework that preserves the instruction-following ability of the LLM on unseen tasks when conditioned on speech. It computes distance-based CTC loss over the frozen LLM embedding matrix and uses greedy CTC labels to derive geometrically and temporally aligned speech embeddings respectively as an input to the LLM. Trained solely on 960 hours of LibriSpeech ASR data, DirectSpeech2LLM outperforms the cascaded system on ASR (seen task) and generalizes zero-shot to speech translation and emotion recognition (two unseen tasks), closely matching the cascaded system upper bound on these two new instructions despite seeing neither during training. We also find that geometric alignment strength plays a smaller role than previously assumed, as our modified CTC loss is shown to provide sufficient implicit geometric grounding without requiring an explicit regression loss. Results are consistent across two LLM families and scale with both more training data and model capacity.",
+      "abstract_zh": "语音大语言模型（Speech-LLMs）常常表现出提示过拟合的现象，即仅在自动语音识别（ASR）指令上训练的模型无法推广到新的指令，如语音翻译，并且主要仍表现为ASR系统。我们提出了DirectSpeech2LLM，这是一种简单的端到端框架，在基于语音的条件下，能够保持LLM在未见任务上的指令跟随能力。该框架在冻结的LLM嵌入矩阵上计算基于距离的CTC损失，并使用贪婪CTC标签分别导出几何和时间对齐的语音嵌入作为LLM的输入。DirectSpeech2LLM仅在960小时的LibriSpeech ASR数据上训练，在ASR（已见任务）上超越了级联系统，并在语音翻译和情感识别（两个未见任务）上实现零-shot泛化，尽管在训练过程中未见到这两种新指令，但其表现接近级联系统的上限。我们还发现，几何对齐强度的作用小于之前的假设，因为我们的改进CTC损失显示出在不需要显式回归损失的情况下提供了足够的隐式几何基础。结果在两个LLM家族中保持一致，并随着更多训练数据和模型容量的增加而扩展。",
+      "authors": [
+        "Hemant Yadav",
+        "Sunayana Sitaram",
+        "Roger Zimmermann",
+        "Rajiv Ratn Shah"
+      ],
+      "date": "2026-10-07",
+      "id": "2610.08085",
+      "tags": [
+        "情绪识别",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs",
+      "title_zh": "DirectSpeech2LLM：一种简单的端到端框架以减轻语音大语言模型中的提示过拟合",
+      "url": "/daily/2026-10-07/#paper-2610-08085"
+    },
+    {
+      "abstract": "Large speech language models have demonstrated strong capabilities in unified cross-modal understanding and generation, yet paralinguistic cues, especially emotion, remain difficult to preserve. Existing systems typically rely on entangled acoustic representations, which allow the underlying language model to depend excessively on recovered lexical content instead of grounding its behavior in acoustic-prosodic evidence. We address this limitation with EMODE, an emotion-aware speech language model built around \\textbf{Dynamic Para-Semantic Experts (DPSE)}. DPSE decomposes continuous speech features into semantic and paralinguistic pathways, routes them dynamically, and fuses them before integration into the language model. To turn this structural decomposition into functional specialization, EMODE is trained with a three-stage curriculum consisting of semantic warm-up, paralinguistic activation, and joint refinement, guided by Orthogonal Expert Guidance (OEG), Semantic-to-Acoustic Alignment (SAA), and Gating Diversity Regularization (GDR). Experiments on SER test, empathetic response evaluation, and the newly constructed bilingual MEPA benchmark show that EMODE improves the balance between lexical fidelity and emotional sensitivity, strengthens affect-grounded response generation, and exposes the value of explicit para-semantic factorization for robust cross-corpus emotion understanding.",
+      "abstract_zh": "大型语音语言模型在统一的跨模态理解与生成方面表现出强大能力，然而副语言线索，尤其是情感信息，仍难以有效保留。现有系统通常依赖于纠缠的声学表示，使得底层语言模型过度依赖恢复的词汇内容，而非基于声学韵律证据来指导其行为。我们提出了EMODE，一种基于动态副语义专家（Dynamic Para-Semantic Experts, DPSE）的情感感知语音语言模型。DPSE将连续语音特征分解为语义路径和副语言路径，动态路由并融合后再整合进语言模型。为了将这种结构分解转化为功能专门化，EMODE采用三阶段课程训练，包括语义预热、副语言激活和联合精炼，训练过程由正交专家指导（Orthogonal Expert Guidance, OEG）、语义到声学对齐（Semantic-to-Acoustic Alignment, SAA）和门控多样性正则化（Gating Diversity Regularization, GDR）引导。SER测试、共情响应评估及新构建的双语MEPA基准实验表明，EMODE在词汇保真度与情感敏感性之间实现更好平衡，增强了基于情感的响应生成能力，揭示了显式副语义因子分解在稳健跨语料情感理解中的价值。",
+      "authors": [
+        "Jianan Pan",
+        "Yiwen Gu",
+        "Xinze Li",
+        "Rui Wang",
+        "Kejie Huang"
+      ],
+      "date": "2026-10-07",
+      "id": "2610.06956",
+      "tags": [
+        "语音情感",
+        "共情交互",
+        "数据集/评测"
+      ],
+      "title": "EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling",
+      "title_zh": "EMODE：面向情感感知的动态副语义专家语音语言建模",
+      "url": "/daily/2026-10-07/#paper-2610-06956"
+    },
     {
       "abstract": "Sentiment analysis is a fundamental problem in Natural Language Processing (NLP). Standard sentiment classification for the Arabic language remains challenging due to the high volume of dialectal Arabic. To advance research in this area, this paper proposes the Shared Task on Sentiment Analysis and Swapping in Arabic Dialects (DialectSentEval), hosted with the Arabic Natural Language Processing Conference (ArabicNLP 2026). This shared task consists of two subtasks: Subtask 1 focuses on multi-class and multi-dialect sentiment analysis, requiring models to identify sentiment polarity across various Arabic dialects. Subtask 2 introduces a generative task for Arabic sentiment swap, challenging models to invert sentiment polarity while preserving core semantics. In this overview paper, we present the motivation, dataset creation, and summarize the main findings from participating models.",
       "abstract_zh": "情感分析是自然语言处理（NLP）中的一个基本问题。由于阿拉伯方言的数量庞大，标准的阿拉伯语情感分类仍然面临挑战。为了推动该领域的研究，本文提出了阿拉伯方言情感分析与情感交换共享任务（DialectSentEval），该任务将在阿拉伯自然语言处理会议（ArabicNLP 2026）上举办。该共享任务由两个子任务组成：子任务1专注于多类和多方言情感分析，要求模型识别不同阿拉伯方言中的情感极性。子任务2引入了阿拉伯情感交换的生成任务，挑战模型在保留核心语义的同时反转情感极性。在本文的概述中，我们介绍了研究动机、数据集创建，并总结了参与模型的主要发现。",

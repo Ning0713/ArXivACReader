@@ -1,0 +1,64 @@
+{
+  "abstract": "Large speech language models have demonstrated strong capabilities in unified cross-modal understanding and generation, yet paralinguistic cues, especially emotion, remain difficult to preserve. Existing systems typically rely on entangled acoustic representations, which allow the underlying language model to depend excessively on recovered lexical content instead of grounding its behavior in acoustic-prosodic evidence. We address this limitation with EMODE, an emotion-aware speech language model built around \\textbf{Dynamic Para-Semantic Experts (DPSE)}. DPSE decomposes continuous speech features into semantic and paralinguistic pathways, routes them dynamically, and fuses them before integration into the language model. To turn this structural decomposition into functional specialization, EMODE is trained with a three-stage curriculum consisting of semantic warm-up, paralinguistic activation, and joint refinement, guided by Orthogonal Expert Guidance (OEG), Semantic-to-Acoustic Alignment (SAA), and Gating Diversity Regularization (GDR). Experiments on SER test, empathetic response evaluation, and the newly constructed bilingual MEPA benchmark show that EMODE improves the balance between lexical fidelity and emotional sensitivity, strengthens affect-grounded response generation, and exposes the value of explicit para-semantic factorization for robust cross-corpus emotion understanding.",
+  "abstract_zh": "大型语音语言模型在统一的跨模态理解与生成方面表现出强大能力，然而副语言线索，尤其是情感信息，仍难以有效保留。现有系统通常依赖于纠缠的声学表示，使得底层语言模型过度依赖恢复的词汇内容，而非基于声学韵律证据来指导其行为。我们提出了EMODE，一种基于动态副语义专家（Dynamic Para-Semantic Experts, DPSE）的情感感知语音语言模型。DPSE将连续语音特征分解为语义路径和副语言路径，动态路由并融合后再整合进语言模型。为了将这种结构分解转化为功能专门化，EMODE采用三阶段课程训练，包括语义预热、副语言激活和联合精炼，训练过程由正交专家指导（Orthogonal Expert Guidance, OEG）、语义到声学对齐（Semantic-to-Acoustic Alignment, SAA）和门控多样性正则化（Gating Diversity Regularization, GDR）引导。SER测试、共情响应评估及新构建的双语MEPA基准实验表明，EMODE在词汇保真度与情感敏感性之间实现更好平衡，增强了基于情感的响应生成能力，揭示了显式副语义因子分解在稳健跨语料情感理解中的价值。",
+  "arxiv_id": "2610.06956",
+  "arxiv_url": "https://arxiv.org/abs/2610.06956v1",
+  "authors": [
+    "Jianan Pan",
+    "Yiwen Gu",
+    "Xinze Li",
+    "Rui Wang",
+    "Kejie Huang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-07#paper-2610-06956",
+  "categories": [
+    "cs.CL",
+    "cs.MM",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-10-07T11:39:37.130891+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.06956v1",
+  "published_at": "2026-10-03T14:33:36Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion understanding",
+      "emotion aware",
+      "empathetic response",
+      "情感理解",
+      "共情响应",
+      "emotion",
+      "emotional",
+      "empathetic",
+      "共情",
+      "generation",
+      "benchmark",
+      "speech",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-07"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.06956v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-07"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "共情交互",
+      "数据集/评测"
+    ]
+  },
+  "title": "EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling",
+  "title_zh": "EMODE：面向情感感知的动态副语义专家语音语言建模",
+  "translation_url": "https://hjfy.top/arxiv/2610.06956"
+}

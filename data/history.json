@@ -1183,8 +1183,80 @@
         "数据集/评测"
       ],
       "title": "DialectSentEval 2026: Arabic Dialect Sentiment Analysis and Swapping Shared Task"
+    },
+    "2610.06956": {
+      "dates": [
+        "2026-10-07"
+      ],
+      "first_seen": "2026-10-07",
+      "tags": [
+        "语音情感",
+        "共情交互",
+        "数据集/评测"
+      ],
+      "title": "EMODE: Dynamic Para-Semantic Experts for Emotion-Aware Speech Language Modeling"
+    },
+    "2610.08085": {
+      "dates": [
+        "2026-10-07"
+      ],
+      "first_seen": "2026-10-07",
+      "tags": [
+        "情绪识别",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs"
+    },
+    "2610.08162": {
+      "dates": [
+        "2026-10-07"
+      ],
+      "first_seen": "2026-10-07",
+      "tags": [
+        "情绪识别",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "The Failure Is in the Readout: Fine-Grained Emotion Recognition Benchmarks Measure Elicitation, Not Perception"
+    },
+    "2610.08250": {
+      "dates": [
+        "2026-10-07"
+      ],
+      "first_seen": "2026-10-07",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling"
+    },
+    "2610.08279": {
+      "dates": [
+        "2026-10-07"
+      ],
+      "first_seen": "2026-10-07",
+      "tags": [
+        "情绪识别",
+        "面部表情",
+        "鲁棒性/偏差"
+      ],
+      "title": "Whose Face Is It Anyway? A Multi-Model Audit of Facial Affect Recognition on Children, and Why the Gap Is the Head, Not the Features"
+    },
+    "2610.08513": {
+      "dates": [
+        "2026-10-07"
+      ],
+      "first_seen": "2026-10-07",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions"
     }
   },
-  "total": 103,
-  "updated_at": "2026-10-06T11:54:38.419034+00:00"
+  "total": 109,
+  "updated_at": "2026-10-07T11:39:41.942319+00:00"
 }

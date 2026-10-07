@@ -1,0 +1,54 @@
+{
+  "abstract": "Facial affect models are trained almost entirely on adults, yet are increasingly applied to children in education, health, and developmental research. We present a controlled, multi-model audit of five AffectNet-pretrained expression models (EmoNet, EmotiEffLib, DDAMFN++, OpenFace 3.0, LibreFace) on children, across four child image datasets, the AffectNet-8 validation set, and two spontaneous child video datasets, through one shared harness. Three findings emerge. First, the child gap is model-agnostic: every architecture degrades from posed to naturalistic faces and shares the fear$\\rightarrow$surprise confusion. Second, it is concentrated and corroborated across all five models: open-mouth faces (read as surprise, correlating with the AU26 jaw drop) and South-Asian children degrade systematically, with a smaller averted-gaze penalty, while closed-mouth faces, White and Black children, and direct gaze do not; the bias tracks expression morphology and specific populations, not skin tone. Third, the gap is diagnosable: a linear probe on frozen features reaches 0.75-0.91 on unseen children versus 0.48-0.66 zero-shot, so it lies largely in the classifier head, not the representation, whereas dimensional valence/arousal regression degrades sharply under domain shift. Building on this, recalibrating only the head on a little target data recovers $+0.13$ to $+0.28$ on the two largest child sets across all five models at negligible adult cost, though the gain is in-distribution and does not transfer across child collections. We will release the harness, per-sample predictions, and analysis code; the child face data stays license-locked and is never redistributed.",
+  "abstract_zh": "面部情感模型几乎完全基于成年人进行训练，但在教育、健康和发展研究中越来越多地应用于儿童。我们对五个经过AffectNet预训练的表情模型（EmoNet、EmotiEffLib、DDAMFN++、OpenFace 3.0、LibreFace）在儿童图像数据集、AffectNet-8验证集以及两个自发儿童视频数据集上的表现进行了控制的多模型审计，采用一个共享的测试平台。研究得出了三个发现。首先，儿童差距与模型无关：每种架构在从摆拍到自然面孔的过程中表现下降，并且存在恐惧→惊讶的混淆。其次，这一现象在所有五个模型中都集中且得到证实：张嘴的面孔（被解读为惊讶，相关于AU26下巴下垂）和南亚儿童的表现系统性下降，且有较小的回避目光惩罚，而闭嘴的面孔、白人和黑人儿童以及直接目光则没有；这种偏差与表情形态和特定人群相关，而非肤色。第三，差距是可诊断的：在冻结特征上的线性探测器在未见儿童上达到0.75-0.91，而在零样本上仅为0.48-0.66，因此差距主要存在于分类器头部，而非表示层，而维度情感/唤醒回归在领域转移下急剧下降。在此基础上，仅在少量目标数据上重新校准头部，使所有五个模型在两个最大的儿童数据集上恢复了+0.13至+0.28的表现，且对成年人几乎没有成本，尽管增益是分布内的，并且无法在儿童集合之间转移。我们将发布测试平台、每个样本的预测结果和分析代码；儿童面部数据将保持许可锁定，且不会被重新分发。",
+  "arxiv_id": "2610.08279",
+  "arxiv_url": "https://arxiv.org/abs/2610.08279v1",
+  "authors": [
+    "Tobias Hallmen",
+    "Robin-Nico Kampa",
+    "Elisabeth André"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-07#paper-2610-08279",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-07T11:39:36.966704+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08279v1",
+  "published_at": "2026-10-06T12:51:59Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affect recognition",
+      "情感识别",
+      "AffectNet",
+      "recognition",
+      "识别",
+      "分类",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 88.0
+  },
+  "seen_dates": [
+    "2026-10-07"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08279v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-07"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "面部表情",
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Whose Face Is It Anyway? A Multi-Model Audit of Facial Affect Recognition on Children, and Why the Gap Is the Head, Not the Features",
+  "title_zh": "这是谁的脸？儿童面部情感识别的多模型审计，以及为何差距在于头部，而非特征",
+  "translation_url": "https://hjfy.top/arxiv/2610.08279"
+}

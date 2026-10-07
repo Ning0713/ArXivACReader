@@ -1,0 +1,56 @@
+{
+  "abstract": "Speech-LLMs often exhibit prompt overfitting, where models solely trained on automatic speech recognition (ASR) instruction fail to generalize to new instructions such as speech translation and continue to behave primarily as ASR system. We propose DirectSpeech2LLM, a simple end-to-end framework that preserves the instruction-following ability of the LLM on unseen tasks when conditioned on speech. It computes distance-based CTC loss over the frozen LLM embedding matrix and uses greedy CTC labels to derive geometrically and temporally aligned speech embeddings respectively as an input to the LLM. Trained solely on 960 hours of LibriSpeech ASR data, DirectSpeech2LLM outperforms the cascaded system on ASR (seen task) and generalizes zero-shot to speech translation and emotion recognition (two unseen tasks), closely matching the cascaded system upper bound on these two new instructions despite seeing neither during training. We also find that geometric alignment strength plays a smaller role than previously assumed, as our modified CTC loss is shown to provide sufficient implicit geometric grounding without requiring an explicit regression loss. Results are consistent across two LLM families and scale with both more training data and model capacity.",
+  "abstract_zh": "语音大语言模型（Speech-LLMs）常常表现出提示过拟合的现象，即仅在自动语音识别（ASR）指令上训练的模型无法推广到新的指令，如语音翻译，并且主要仍表现为ASR系统。我们提出了DirectSpeech2LLM，这是一种简单的端到端框架，在基于语音的条件下，能够保持LLM在未见任务上的指令跟随能力。该框架在冻结的LLM嵌入矩阵上计算基于距离的CTC损失，并使用贪婪CTC标签分别导出几何和时间对齐的语音嵌入作为LLM的输入。DirectSpeech2LLM仅在960小时的LibriSpeech ASR数据上训练，在ASR（已见任务）上超越了级联系统，并在语音翻译和情感识别（两个未见任务）上实现零-shot泛化，尽管在训练过程中未见到这两种新指令，但其表现接近级联系统的上限。我们还发现，几何对齐强度的作用小于之前的假设，因为我们的改进CTC损失显示出在不需要显式回归损失的情况下提供了足够的隐式几何基础。结果在两个LLM家族中保持一致，并随着更多训练数据和模型容量的增加而扩展。",
+  "arxiv_id": "2610.08085",
+  "arxiv_url": "https://arxiv.org/abs/2610.08085v1",
+  "authors": [
+    "Hemant Yadav",
+    "Sunayana Sitaram",
+    "Roger Zimmermann",
+    "Rajiv Ratn Shah"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-07#paper-2610-08085",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-07T11:39:37.166502+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08085v1",
+  "published_at": "2026-10-06T10:16:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "LLM",
+      "LLMs",
+      "recognition",
+      "speech",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-10-07"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08085v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-07"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "DirectSpeech2LLM: A Simple End-to-End Framework to Mitigate Prompt Overfitting in Speech-LLMs",
+  "title_zh": "DirectSpeech2LLM：一种简单的端到端框架以减轻语音大语言模型中的提示过拟合",
+  "translation_url": "https://hjfy.top/arxiv/2610.08085"
+}

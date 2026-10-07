@@ -1,0 +1,57 @@
+{
+  "abstract": "Large language models are increasingly used to simulate clients for counselor training and psychological counseling research, but reliable simulation requires clients to remain psychologically coherent across extended interactions. Existing role-playing methods largely rely on static profile prompts and may exhibit persona drift, unrealistic cooperativeness, or inconsistent psychological states, communicative actions, and emotions. Existing evaluations also lack a unified testbed for both stable client characteristics and evolving psychological dynamics. We propose MASC, a Multi-Agent Self-Calibration framework with latent construct alignment for consistent client role-playing in psychological counseling. MASC combines construct-guided generation, collaborative refinement, consistency verification, and memory-based revision in a closed calibration loop that detects and corrects inconsistencies as dialogue unfolds. We further introduce CRPC-Bench, a benchmark covering session-level profile information and Big-Five personality traits, as well as turn-level psychological state, communicative action, and emotion expression. CRPC-Bench contains 38 motivational interviewing client profiles augmented with personality and emotion annotations. Experiments show that MASC outperforms existing methods across profile, personality, receptivity, and turn-level consistency, with the heterogeneous configuration achieving the strongest overall performance. MASC and CRPC-Bench provide a unified foundation for developing and evaluating psychologically coherent client simulations for AI-assisted counseling research and training.",
+  "abstract_zh": "大型语言模型越来越多地用于模拟客户，以进行咨询师培训和心理咨询研究，但可靠的模拟要求客户在长时间的互动中保持心理一致性。现有的角色扮演方法主要依赖于静态的个人档案提示，可能会出现角色漂移、不现实的合作性或不一致的心理状态、交流行为和情感。现有评估也缺乏一个统一的测试平台，以同时评估稳定的客户特征和不断变化的心理动态。我们提出了MASC，一种具有潜在构造对齐的多智能体自校准框架，用于心理咨询中一致的客户角色扮演。MASC结合了构造引导生成、协作优化、一致性验证和基于记忆的修正，形成一个闭环校准过程，在对话展开时检测和纠正不一致性。我们进一步介绍了CRPC-Bench，一个基准涵盖了会话级别的个人档案信息和大五人格特质，以及轮次级别的心理状态、交流行为和情感表达。CRPC-Bench包含38个动机访谈客户档案，附有个性和情感注释。实验表明，MASC在个人档案、个性、接受度和轮次级别一致性方面优于现有方法，其中异构配置实现了最强的整体性能。MASC和CRPC-Bench为开发和评估心理一致的客户模拟提供了统一的基础，支持AI辅助的咨询研究和培训。",
+  "arxiv_id": "2610.08250",
+  "arxiv_url": "https://arxiv.org/abs/2610.08250v1",
+  "authors": [
+    "Shixin Peng",
+    "Kun Jiang",
+    "Jiaxing Zheng",
+    "Qihao Yang",
+    "Jingying Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-07#paper-2610-08250",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-07T11:39:37.102918+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08250v1",
+  "published_at": "2026-10-06T12:31:05Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "large language models",
+      "generation",
+      "dialogue",
+      "benchmark",
+      "检测",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-10-07"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08250v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-07"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型",
+      "情感生成"
+    ]
+  },
+  "title": "MASC: A Multi-Agent Self-Calibration Framework with Latent Construct Alignment for Consistent Client Role-Playing in Psychological Counseling",
+  "title_zh": "MASC：一种具有潜在构造对齐的多智能体自校准框架，用于心理咨询中一致的客户角色扮演",
+  "translation_url": "https://hjfy.top/arxiv/2610.08250"
+}

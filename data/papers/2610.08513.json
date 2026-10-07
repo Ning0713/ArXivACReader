@@ -1,0 +1,55 @@
+{
+  "abstract": "LLMs are increasingly deployed as autonomous agents in social environments, making it critical to study their ability to faithfully simulate human interactions. Central to this is grounding agents in realistic user personas, yet existing datasets rely on fictional personas and are limited to a handful of languages, lacking the empirical grounding necessary to evaluate behavioral fidelity across diverse populations. We introduce Wiki-Talkie, a multilingual dataset of real-world conversations from Wikipedia Talk pages across five languages spanning two language families: Germanic (German, English) and Romance (Spanish, French, Italian), paired with personas derived from real user communities and encompassing sociodemographic attributes, self-descriptions, and behaviorally grounded interaction traits. Using Wiki-Talkie, we evaluate agent interactional behavior on a next-turn generation task across various persona conditioning strategies. Our evaluation assesses whether agents collectively reproduce the distributional behavioral patterns observed in human discussions. Results show that user's comment history exemplifying interaction behavior consistently outperforms explicit persona information. In addition, models systematically underproduce negative or extreme sentiments, while over producing references and suggestions, revealing biases toward agreeableness and positivity. Crucially, these patterns hold robustly across languages, with small cross-lingual differences.",
+  "abstract_zh": "大型语言模型（LLMs）越来越多地作为自主代理在社交环境中部署，因此研究它们忠实模拟人类互动的能力变得至关重要。关键在于将代理与现实用户个性相结合，而现有的数据集依赖于虚构的个性，并且仅限于少数几种语言，缺乏评估不同人群行为忠实度所需的实证基础。我们引入了Wiki-Talkie，这是一个来自维基百科讨论页面的多语言真实对话数据集，涵盖五种语言，跨越两个语言家族：日耳曼语（德语、英语）和罗曼语（西班牙语、法语、意大利语），并配有来自真实用户社区的个性，涵盖社会人口特征、自我描述和行为基础的互动特征。利用Wiki-Talkie，我们评估了代理在各种个性条件策略下的下一轮生成任务中的互动行为。我们的评估检验了代理是否能够共同再现人类讨论中观察到的分布性行为模式。结果表明，用户的评论历史所体现的互动行为始终优于显式个性信息。此外，模型系统性地低估了负面或极端情绪的生成，同时过度生成参考和建议，揭示出对友好性和积极性的偏见。重要的是，这些模式在不同语言中稳健存在，且跨语言差异较小。",
+  "arxiv_id": "2610.08513",
+  "arxiv_url": "https://arxiv.org/abs/2610.08513v1",
+  "authors": [
+    "Dennis Fucci",
+    "Andrea Bacciu",
+    "Dong Liu",
+    "Weronika Łajewska",
+    "Saab Mansour"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-07#paper-2610-08513",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-07T11:39:37.176746+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08513v1",
+  "published_at": "2026-10-06T15:17:46Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情绪",
+      "LLMs",
+      "generation",
+      "dataset",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-10-07"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08513v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-07"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型",
+      "情感生成"
+    ]
+  },
+  "title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions",
+  "title_zh": "Wiki-Talkie：基于真实讨论的个性化代理的多语言基准测试",
+  "translation_url": "https://hjfy.top/arxiv/2610.08513"
+}

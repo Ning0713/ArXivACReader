@@ -1,0 +1,61 @@
+{
+  "abstract": "Fine-grained emotion recognition supports therapy tools and social robots, but it needs facial data, which raises privacy and data-protection concerns. EmoNet-Face-HQ answers that with generated portraits, expert-rated over a $40$-category taxonomy far finer than the usual six to eight basic emotions. Under the protocol it ships with, vision-language models (VLMs) score poorly on that taxonomy, and the benchmark concludes that a dedicated fine-tuned model is necessary: Empathic-Insight-Face (EIF; Small/Large). We show that off-the-shelf VLMs match or beat that fine-tuned model when the answer is not generated but read from the logits, as one binary query per category. We keep the benchmark's images, taxonomy and ratings, and change only how the answer is read. Experts agree at $\\kappa_w = 0.468$ on the five categories they measure most reliably. Generatively, no interval among eleven open-weight VLMs lies entirely above that anchor ($\\kappa_w=0.268$-$0.486$). Under verification all eleven clear it, each of them significantly better at $\\kappa_w=0.507$-$0.586$. Three also significantly beat EIF sitting at $\\kappa_w = 0.551$ (Small; $0.534$ Large). The gain comes from the graded probability and not from asking a yes/no question: as a control, thresholding those same probabilities to yes/no costs 142% of the average gains and drops binarization below generative elicitation to $\\kappa_w=0.254$-$0.423$. A replication on real photographs (FACES) is weaker and mixed: of the ten models that pass a validity gate, six gain, three are neutral to positive and one is negative, so the effect is not confined to synthetic data.",
+  "abstract_zh": "细粒度情感识别支持治疗工具和社交机器人，但它需要面部数据，这引发了隐私和数据保护的担忧。EmoNet-Face-HQ 通过生成的肖像来解决这一问题，这些肖像在一个超过 $40$ 类别的分类法中经过专家评估，远比通常的六到八种基本情感更为细致。在其附带的协议下，视觉语言模型（VLMs）在该分类法上的得分较低，基准得出结论认为需要一个专门的微调模型：Empathic-Insight-Face (EIF; Small/Large)。我们展示了当答案不是生成的而是从 logits 中读取时，现成的 VLMs 可以与该微调模型相匹配或超越，作为每个类别的一个二元查询。我们保留基准的图像、分类法和评分，仅改变答案的读取方式。专家在他们最可靠测量的五个类别上达成一致，$ ext{kappa}_w = 0.468$。在十一种开放权重的 VLMs 中，没有一个区间完全高于该基准（$ ext{kappa}_w=0.268$-$0.486$）。在验证下，所有十一种模型均超过该基准，每种模型的表现显著提高，$ ext{kappa}_w=0.507$-$0.586$。其中三种模型的表现显著优于 EIF，后者的得分为 $ ext{kappa}_w = 0.551$（Small; $0.534$ Large）。这种提升来自于分级概率，而非简单的是/否问题：作为对照，将这些相同的概率阈值化为是/否问题，平均收益的成本为142%，并将二元化的得分降至 $ ext{kappa}_w=0.254$-$0.423$。在真实照片（FACES）上的复制实验结果较弱且混合：在通过有效性门的十个模型中，六个模型表现出提升，三个模型表现中性到积极，一个模型表现消极，因此这一效应并不局限于合成数据。",
+  "arxiv_id": "2610.08162",
+  "arxiv_url": "https://arxiv.org/abs/2610.08162v1",
+  "authors": [
+    "Tobias Hallmen",
+    "Fabian Deuser",
+    "Robin-Nico Kampa",
+    "Norbert Oswald",
+    "Elisabeth André"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-07#paper-2610-08162",
+  "categories": [
+    "cs.CV",
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-07T11:39:36.961801+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08162v1",
+  "published_at": "2026-10-06T11:14:23Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "emotions",
+      "empathic",
+      "vision language",
+      "recognition",
+      "benchmark",
+      "识别",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 92.0
+  },
+  "seen_dates": [
+    "2026-10-07"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08162v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-07"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "数据集/评测",
+      "情感大模型"
+    ]
+  },
+  "title": "The Failure Is in the Readout: Fine-Grained Emotion Recognition Benchmarks Measure Elicitation, Not Perception",
+  "title_zh": "失败在于读取：细粒度情感识别基准测量引发，而非感知",
+  "translation_url": "https://hjfy.top/arxiv/2610.08162"
+}
