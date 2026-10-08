@@ -1,0 +1,58 @@
+{
+  "abstract": "Large language models (LLMs) are increasingly used for emotional support, raising concern that sustained use may draw users away from their real-world relationships. Yet existing evaluations primarily focus on the safety, empathy, or helpfulness of responses, leaving under-examined a relational question: where does the model orient the user for continued support? To address this question, we introduce relational orientation, a property operationalized through two non-exclusive dimensions: inward-facing (IF) language, which positions the AI as the user's ongoing source of support, and outward-scaffolding (OS) language, which encourages real-world human connection. Grounded in psychological and sociological literature, we formalize a taxonomy of relational orientation and present RELATE, a persona-conditioned framework for measuring inward-facing and outward-scaffolding language at the sentence level in multi-turn dialogues. RELATE pairs 76 help-seeking situations adapted from naturally occurring questions with three simulated user styles, providing 228 evaluation stimuli. In our experiments, we evaluate seven LLMs using dialogues with six assistant turns each, yielding 1,596 dialogues and 69,194 assistant sentences. We assess these sentences using a primary rubric-based LLM judge and apply a secondary judge to a subset. Under automated evaluation, we find that the proportion of sentences labeled as IF is higher at the sixth assistant turn than at the first, while the proportion labeled as OS is substantially lower for hesitant, indirect simulated users than for explicit, reassurance-seeking users. RELATE provides a reproducible framework and a sentence-level signal for auditing and steering the relational orientation of supportive LLMs.",
+  "abstract_zh": "大型语言模型（LLMs）越来越多地被用于情感支持，这引发了人们的担忧，即持续使用可能会使用户远离现实世界的人际关系。然而，现有的评估主要集中在响应的安全性、同理心或有用性上，未能充分探讨一个关系性问题：模型将用户导向何处以获得持续支持？为了解决这个问题，我们引入了关系导向这一属性，通过两个非排他性维度进行操作化：内向（IF）语言，将人工智能定位为用户持续的支持来源，以及外向支撑（OS）语言，鼓励现实世界的人际连接。基于心理学和社会学文献，我们正式化了关系导向的分类法，并提出了RELATE，一个基于角色的框架，用于在多轮对话中逐句测量内向和外向支撑语言。RELATE将76个从自然发生问题中改编的求助情境与三种模拟用户风格相结合，提供228个评估刺激。在我们的实验中，我们使用每个对话六个助手轮次的对话评估七个LLM，产生了1,596个对话和69,194个助手句子。我们使用一个基于主要评分标准的LLM评审对这些句子进行评估，并对一个子集应用次要评审。在自动评估下，我们发现第六个助手轮次标记为IF的句子比例高于第一个，而对于犹豫、间接的模拟用户，标记为OS的句子比例显著低于明确、寻求安慰的用户。RELATE提供了一个可重复的框架和逐句信号，用于审计和引导支持性LLM的关系导向。",
+  "arxiv_id": "2610.09569",
+  "arxiv_url": "https://arxiv.org/abs/2610.09569v1",
+  "authors": [
+    "Shivam Shukla",
+    "Jihye Kim",
+    "Shubham Gaur",
+    "Mahnaz Roshanaei",
+    "Magy Seif El-Nasr"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-08#paper-2610-09569",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-08T11:54:19.243223+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.09569v1",
+  "published_at": "2026-10-07T07:10:10Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "empathy",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "分类",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 83.0
+  },
+  "seen_dates": [
+    "2026-10-08"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.09569v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-08"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "共情交互",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "RELATE: An Evaluation Framework for measuring Relational Orientation of Large Language Models",
+  "title_zh": "RELATE：用于测量大型语言模型关系导向的评估框架",
+  "translation_url": "https://hjfy.top/arxiv/2610.09569"
+}

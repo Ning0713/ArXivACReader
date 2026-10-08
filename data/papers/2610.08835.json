@@ -1,0 +1,56 @@
+{
+  "abstract": "The spread of fake news may cause severe social consequences. Existing fake news detection methods mainly focus on stylistic variations or incorporate external information such as explanations. However, news articles are often rewritten under different emotional backgrounds while preserving their underlying factual claims, which may affect the robustness of detection models. In this work, we investigate fake news detec- tion under fact-preserving emotional variations. To study this problem, we construct emotion-rewritten test sets and generate explanations from the original news articles as stable background knowledge. We then propose a Gated Cross Attention (GCA) framework that adaptively integrates emotionally rewritten news with the corresponding explanations, enabling the model to focus on informative explanation content while reducing potential mismatches caused by emotional reframing. Experiments on PolitiFact, GossipCop, and LUN demonstrate that the proposed method achieves notable improvements under multiple emotional conditions on PolitiFact and LUN, while maintaining competitive performance on GossipCop. We further analyze the effects of explanation guidance and gating mechanisms under different emotional conditions. Our code and data are available at: https://github.com/Flulike/fakenews gca .",
+  "abstract_zh": "假新闻的传播可能导致严重的社会后果。现有的假新闻检测方法主要关注风格变异或结合外部信息，例如解释。然而，新闻文章在不同情感背景下经常被重写，同时保留其基本事实主张，这可能影响检测模型的鲁棒性。在本研究中，我们探讨在保持事实的情感变异下进行假新闻检测。为研究这一问题，我们构建了情感重写测试集，并从原始新闻文章中生成解释作为稳定的背景知识。然后，我们提出了一种门控交叉注意力（Gated Cross Attention, GCA）框架，该框架自适应地将情感重写的新闻与相应的解释结合，使模型能够关注信息丰富的解释内容，同时减少因情感重构造成的潜在不匹配。在PolitiFact、GossipCop和LUN上的实验表明，所提出的方法在PolitiFact和LUN的多种情感条件下取得了显著的改进，同时在GossipCop上保持了竞争力的表现。我们进一步分析了在不同情感条件下解释指导和门控机制的效果。我们的代码和数据可在以下链接获取：https://github.com/Flulike/fakenews gca 。",
+  "arxiv_id": "2610.08835",
+  "arxiv_url": "https://arxiv.org/abs/2610.08835v1",
+  "authors": [
+    "Yupei Guo",
+    "Jiajun He",
+    "Xiaohan Shi",
+    "Tomoki Toda",
+    "Zekun Yang",
+    "Bowen Wang",
+    "Yukinobu Taniguchi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-08#paper-2610-08835",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-08T11:54:19.234467+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08835v1",
+  "published_at": "2026-09-29T11:50:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "LLM",
+      "detection",
+      "检测",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-10-08"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08835v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-08"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "鲁棒性/偏差",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News",
+  "title_zh": "利用大语言模型生成的解释检测情感重写的假新闻",
+  "translation_url": "https://hjfy.top/arxiv/2610.08835"
+}

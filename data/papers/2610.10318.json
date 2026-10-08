@@ -1,0 +1,56 @@
+{
+  "abstract": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understanding their limitations. In this study, we evaluate the inter-rater reliability of three bespoke sentiment analysis tools (TextBlob, VADER, and Twitter-roBERTa-base) and three large language models (LLMs: Qwen3-32B, GPT-OSS-120B, Llama-4-Maverick-17B) against six human raters across 100 tweets. We measured agreement using two statistical measures: Cohen's kappa for pairwise comparisons and Fleiss' kappa for multiple raters. Even among the human raters, our results showed only fair agreement, highlighting the subjectivity of sentiment analysis. Higher agreement was observed under the binary sentiment classification (negative vs. non-negative and positive vs. non-positive) than under the three-class classification across both humans and automated tools. The Twitter-roBERTa-base model showed the strongest alignment with human ratings, outperforming both bespoke sentiment tools and LLMs, particularly in distinguishing negative versus non-negative sentiment. LLMs showed substantial agreement among themselves and moderate to substantial alignment with humans, performing better in positive vs. non-positive classifications. Our findings underscore that domain-specific fine-tuning remains crucial for reliable social media sentiment analysis, and human-centered evaluation remains essential for establishing gold-standard labels.",
+  "abstract_zh": "社交媒体是实时公众情感的丰富来源，但广泛使用的情感分析工具往往在不理解其局限性的情况下被应用。在本研究中，我们评估了三种定制情感分析工具（TextBlob、VADER 和 Twitter-roBERTa-base）以及三种大型语言模型（LLMs：Qwen3-32B、GPT-OSS-120B、Llama-4-Maverick-17B）在100条推文中与六位人类评审者之间的评分一致性。我们使用两种统计指标来测量一致性：Cohen's kappa 用于成对比较，Fleiss' kappa 用于多评审者。即使在六位人类评审者之间，我们的结果也仅显示出一般的一致性，突显了情感分析的主观性。在二元情感分类（负面与非负面、正面与非正面）下，无论是人类还是自动工具，观察到的一致性高于三类分类。Twitter-roBERTa-base 模型与人类评分的对齐程度最高，超越了定制情感工具和大型语言模型，特别是在区分负面与非负面情感方面。大型语言模型之间表现出显著的一致性，并与人类的对齐程度中等到显著，在正面与非正面分类中表现更佳。我们的研究结果强调，领域特定的微调对于可靠的社交媒体情感分析仍然至关重要，而以人为中心的评估对于建立金标准标签仍然不可或缺。",
+  "arxiv_id": "2610.10318",
+  "arxiv_url": "https://arxiv.org/abs/2610.10318v1",
+  "authors": [
+    "Himarsha R. Jayanetti",
+    "Sivakanesan Dhanushkanda",
+    "Shuai Hao",
+    "Michael L. Nelson",
+    "Michele C. Weigle"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-08#paper-2610-10318",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-08T11:54:19.253836+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.10318v1",
+  "published_at": "2026-10-07T16:11:12Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "sentiment classification",
+      "情感分析",
+      "情感分类",
+      "large language models",
+      "LLMs",
+      "classification",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-08"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.10318v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-08"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "社交信号"
+    ]
+  },
+  "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts",
+  "title_zh": "情感分析并无真正共识：人类、定制工具与大型语言模型在社交媒体文本中的挑战",
+  "translation_url": "https://hjfy.top/arxiv/2610.10318"
+}

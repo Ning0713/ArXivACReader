@@ -1,0 +1,65 @@
+{
+  "abstract": "Jev offers an alternative interface for language understanding: given an input and predefined questions, it returns probabilistic decisions rather than free-form responses. Whether this interface can support effective reasoning for text classification against leading LLMs remains an open questions. We introduce Emo-Jev, a training-free framework with two complementary implementations. Emo-Jev-D decomposes classification into task-specific atomic judgments and composes their probabilities into a final prediction. Emo-Jev-SC constructs multiple judgment paths from complementary perspectives and aggregates their predictions into a consensus decision. We evaluate Emo-Jev on eight datasets spanning sentiment analysis, emotion recognition, sarcasm detection and humor detection, comparing against direct Jev classification and five SoTA LLMs under input/output and chain-of-thought reasoning. Standard Jev achieves 62.93\\% average macro-F1 versus 67.28\\% for the strongest LLM baseline, with lower observed latency and generally lower cost.",
+  "abstract_zh": "Jev 提供了一种替代的语言理解接口：给定输入和预定义问题，它返回概率决策而非自由形式的响应。该接口是否能够支持有效的文本分类推理，与领先的 LLM（大型语言模型）相比仍然是一个未解之谜。我们介绍了 Emo-Jev，这是一种无训练框架，具有两种互补的实现方式。Emo-Jev-D 将分类分解为特定任务的原子判断，并将其概率组合成最终预测。Emo-Jev-SC 从互补的角度构建多个判断路径，并将其预测汇总为共识决策。我们在八个数据集上评估 Emo-Jev，涵盖情感分析、情感识别、讽刺检测和幽默检测，并与直接的 Jev 分类和五个最先进的 LLM 进行比较，涉及输入/输出和思维链推理。标准 Jev 的平均宏 F1 达到 62.93\\%，而最强 LLM 基线为 67.28\\%，且观察到的延迟更低，成本通常也较低。",
+  "arxiv_id": "2610.08829",
+  "arxiv_url": "https://arxiv.org/abs/2610.08829v1",
+  "authors": [
+    "Yazhou Zhang",
+    "Junhao Yu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-08#paper-2610-08829",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-08T11:54:19.233740+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08829v1",
+  "published_at": "2026-09-27T01:35:32Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "emotion classification",
+      "sentiment analysis",
+      "情感识别",
+      "情感分析",
+      "情感分类",
+      "emotion",
+      "LLM",
+      "LLMs",
+      "recognition",
+      "classification",
+      "detection",
+      "prediction",
+      "reasoning",
+      "识别",
+      "分类",
+      "检测",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-08"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08829v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-08"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+  "title_zh": "Emo-Jev：基于Jev的情感分类概率推理",
+  "translation_url": "https://hjfy.top/arxiv/2610.08829"
+}

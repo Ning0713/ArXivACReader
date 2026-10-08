@@ -1,0 +1,50 @@
+{
+  "abstract": "Full-duplex voice agents need to modulate emotion and delivery during real-time conversations, when de-escalating a complaint, carrying urgency in dispatch, softening a clinical result. Emotion and delivery control is well studied for TTS and turn based models through prompt-conditioned synthesis, reference-conditioned synthesis and activation steering; PersonaPlex controls identity in a duplex model but not affect. We study emotion steering in Moshi, a fully open sourced full-duplex speech language model, across four emotions, using mean-difference activation steering, which costs only a few vector additions per frame and no retraining. We show that emotion is linearly decodable from Moshi's residual stream, but activation steering is only partially achievable, and unevenly so; as happy, angry and surprise steer towards a shared direction while sad is distinctly steerable. We also show that the shared component across the three emotions cannot simply be projected away from all the emotions equally.",
+  "abstract_zh": "全双工语音代理在实时对话中需要调节情感和表达，例如在降低投诉情绪、传达紧急情况或缓和临床结果时。情感和表达控制在文本转语音（TTS）和基于轮次的模型中通过提示条件合成、参考条件合成和激活引导得到了充分研究；PersonaPlex 在双工模型中控制身份，但不控制情感。我们研究了在 Moshi 这一完全开源的全双工语音语言模型中对四种情感的引导，采用均值差激活引导，这仅需每帧进行少量向量加法且无需重新训练。我们展示了情感可以从 Moshi 的残差流中线性解码，但激活引导只能部分实现，并且实现程度不均；快乐、愤怒和惊讶这三种情感朝向一个共同方向引导，而悲伤则可以明显地被引导。我们还表明，这三种情感之间的共享成分不能简单地从所有情感中等比例地投影去除。",
+  "arxiv_id": "2610.08887",
+  "arxiv_url": "https://arxiv.org/abs/2610.08887v1",
+  "authors": [
+    "Pulak Kuli"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-08#paper-2610-08887",
+  "categories": [
+    "cs.CL",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-10-08T11:54:19.236663+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.08887v1",
+  "published_at": "2026-10-06T15:29:37Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "情绪",
+      "speech",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-10-08"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.08887v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-08"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "情感生成",
+      "文本情感"
+    ]
+  },
+  "title": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model",
+  "title_zh": "引导遵循几何，而非标签：全双工语音模型中的情感方向",
+  "translation_url": "https://hjfy.top/arxiv/2610.08887"
+}

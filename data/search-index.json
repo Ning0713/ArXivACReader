@@ -1,6 +1,141 @@
 {
-  "generated_at": "2026-10-07T11:39:41.942319+00:00",
+  "generated_at": "2026-10-08T11:54:21.581370+00:00",
   "items": [
+    {
+      "abstract": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understanding their limitations. In this study, we evaluate the inter-rater reliability of three bespoke sentiment analysis tools (TextBlob, VADER, and Twitter-roBERTa-base) and three large language models (LLMs: Qwen3-32B, GPT-OSS-120B, Llama-4-Maverick-17B) against six human raters across 100 tweets. We measured agreement using two statistical measures: Cohen's kappa for pairwise comparisons and Fleiss' kappa for multiple raters. Even among the human raters, our results showed only fair agreement, highlighting the subjectivity of sentiment analysis. Higher agreement was observed under the binary sentiment classification (negative vs. non-negative and positive vs. non-positive) than under the three-class classification across both humans and automated tools. The Twitter-roBERTa-base model showed the strongest alignment with human ratings, outperforming both bespoke sentiment tools and LLMs, particularly in distinguishing negative versus non-negative sentiment. LLMs showed substantial agreement among themselves and moderate to substantial alignment with humans, performing better in positive vs. non-positive classifications. Our findings underscore that domain-specific fine-tuning remains crucial for reliable social media sentiment analysis, and human-centered evaluation remains essential for establishing gold-standard labels.",
+      "abstract_zh": "社交媒体是实时公众情感的丰富来源，但广泛使用的情感分析工具往往在不理解其局限性的情况下被应用。在本研究中，我们评估了三种定制情感分析工具（TextBlob、VADER 和 Twitter-roBERTa-base）以及三种大型语言模型（LLMs：Qwen3-32B、GPT-OSS-120B、Llama-4-Maverick-17B）在100条推文中与六位人类评审者之间的评分一致性。我们使用两种统计指标来测量一致性：Cohen's kappa 用于成对比较，Fleiss' kappa 用于多评审者。即使在六位人类评审者之间，我们的结果也仅显示出一般的一致性，突显了情感分析的主观性。在二元情感分类（负面与非负面、正面与非正面）下，无论是人类还是自动工具，观察到的一致性高于三类分类。Twitter-roBERTa-base 模型与人类评分的对齐程度最高，超越了定制情感工具和大型语言模型，特别是在区分负面与非负面情感方面。大型语言模型之间表现出显著的一致性，并与人类的对齐程度中等到显著，在正面与非正面分类中表现更佳。我们的研究结果强调，领域特定的微调对于可靠的社交媒体情感分析仍然至关重要，而以人为中心的评估对于建立金标准标签仍然不可或缺。",
+      "authors": [
+        "Himarsha R. Jayanetti",
+        "Sivakanesan Dhanushkanda",
+        "Shuai Hao",
+        "Michael L. Nelson",
+        "Michele C. Weigle"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.10318",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "社交信号"
+      ],
+      "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts",
+      "title_zh": "情感分析并无真正共识：人类、定制工具与大型语言模型在社交媒体文本中的挑战",
+      "url": "/daily/2026-10-08/#paper-2610-10318"
+    },
+    {
+      "abstract": "Large language models (LLMs) are increasingly used for emotional support, raising concern that sustained use may draw users away from their real-world relationships. Yet existing evaluations primarily focus on the safety, empathy, or helpfulness of responses, leaving under-examined a relational question: where does the model orient the user for continued support? To address this question, we introduce relational orientation, a property operationalized through two non-exclusive dimensions: inward-facing (IF) language, which positions the AI as the user's ongoing source of support, and outward-scaffolding (OS) language, which encourages real-world human connection. Grounded in psychological and sociological literature, we formalize a taxonomy of relational orientation and present RELATE, a persona-conditioned framework for measuring inward-facing and outward-scaffolding language at the sentence level in multi-turn dialogues. RELATE pairs 76 help-seeking situations adapted from naturally occurring questions with three simulated user styles, providing 228 evaluation stimuli. In our experiments, we evaluate seven LLMs using dialogues with six assistant turns each, yielding 1,596 dialogues and 69,194 assistant sentences. We assess these sentences using a primary rubric-based LLM judge and apply a secondary judge to a subset. Under automated evaluation, we find that the proportion of sentences labeled as IF is higher at the sixth assistant turn than at the first, while the proportion labeled as OS is substantially lower for hesitant, indirect simulated users than for explicit, reassurance-seeking users. RELATE provides a reproducible framework and a sentence-level signal for auditing and steering the relational orientation of supportive LLMs.",
+      "abstract_zh": "大型语言模型（LLMs）越来越多地被用于情感支持，这引发了人们的担忧，即持续使用可能会使用户远离现实世界的人际关系。然而，现有的评估主要集中在响应的安全性、同理心或有用性上，未能充分探讨一个关系性问题：模型将用户导向何处以获得持续支持？为了解决这个问题，我们引入了关系导向这一属性，通过两个非排他性维度进行操作化：内向（IF）语言，将人工智能定位为用户持续的支持来源，以及外向支撑（OS）语言，鼓励现实世界的人际连接。基于心理学和社会学文献，我们正式化了关系导向的分类法，并提出了RELATE，一个基于角色的框架，用于在多轮对话中逐句测量内向和外向支撑语言。RELATE将76个从自然发生问题中改编的求助情境与三种模拟用户风格相结合，提供228个评估刺激。在我们的实验中，我们使用每个对话六个助手轮次的对话评估七个LLM，产生了1,596个对话和69,194个助手句子。我们使用一个基于主要评分标准的LLM评审对这些句子进行评估，并对一个子集应用次要评审。在自动评估下，我们发现第六个助手轮次标记为IF的句子比例高于第一个，而对于犹豫、间接的模拟用户，标记为OS的句子比例显著低于明确、寻求安慰的用户。RELATE提供了一个可重复的框架和逐句信号，用于审计和引导支持性LLM的关系导向。",
+      "authors": [
+        "Shivam Shukla",
+        "Jihye Kim",
+        "Shubham Gaur",
+        "Mahnaz Roshanaei",
+        "Magy Seif El-Nasr"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.09569",
+      "tags": [
+        "情感大模型",
+        "共情交互",
+        "心理状态/福祉"
+      ],
+      "title": "RELATE: An Evaluation Framework for measuring Relational Orientation of Large Language Models",
+      "title_zh": "RELATE：用于测量大型语言模型关系导向的评估框架",
+      "url": "/daily/2026-10-08/#paper-2610-09569"
+    },
+    {
+      "abstract": "Political discourse often uses rhetorical and persuasive language to frame narratives, influence public opinion, and mobilize audiences. While Bangla natural language processing has made progress in sentiment analysis and opinion mining, systematic benchmarking of transformer models for fine-grained rhetorical and persuasion technique detection in Bangla political speech remains largely underexplored. This paper presents a benchmark study of transformer-based models for detecting rhetorical form and persuasive intent in Bangla political discourse. Using BanglaRhet, a manually annotated corpus of 30,289 Bangla political speech segments collected from publicly available political news sources, we formulate two supervised single-label classification tasks: rhetorical technique detection (contrast, repetition, exaggeration, metaphor, rhetorical questions) and persuasion technique detection (blame assignment, call to action, unity call, moral, emotional, and logical appeals). We evaluate four transformer-based models, BanglaBERT, BanglaBERT-Base, SahajBERT, and XLM-RoBERTa-Base, against classical TF-IDF baselines. BanglaBERT achieves the highest performance, with 65.40% macro-F1 for rhetorical technique detection and 66.46% for persuasion technique detection, outperforming the best tuned classical baseline by 19.2 and 13.8 macro-F1 points, respectively. Class-level analysis indicates that errors are mainly associated with semantic overlap among labels, figurative language, and class imbalance. The results provide initial benchmark baselines for Bangla rhetorical and persuasion-aware political discourse analysis and highlight the need for context-aware and multi-label modeling.",
+      "abstract_zh": "政治话语常常使用修辞和说服性语言来构建叙事、影响公众舆论和动员听众。尽管孟加拉自然语言处理在情感分析和观点挖掘方面取得了一定进展，但在孟加拉政治演讲中对变换器模型进行细粒度修辞和说服技巧检测的系统性基准研究仍然较少被探索。本文提出了一项基于变换器模型的基准研究，旨在检测孟加拉政治话语中的修辞形式和说服意图。我们使用BanglaRhet，一个手动标注的语料库，包含来自公开政治新闻来源的30,289个孟加拉政治演讲片段，制定了两个监督单标签分类任务：修辞技巧检测（对比、重复、夸张、隐喻、修辞性问题）和说服技巧检测（归责、行动号召、团结号召、道德、情感和逻辑诉求）。我们评估了四种基于变换器的模型：BanglaBERT、BanglaBERT-Base、SahajBERT和XLM-RoBERTa-Base，并与经典的TF-IDF基线进行比较。BanglaBERT在修辞技巧检测中取得了最高性能，宏观F1值为65.40%，在说服技巧检测中为66.46%，分别比最佳调优的经典基线高出19.2和13.8个宏观F1点。类级分析表明，错误主要与标签之间的语义重叠、比喻语言和类别不平衡有关。结果为孟加拉修辞和说服意识的政治话语分析提供了初步的基准基线，并强调了对上下文敏感和多标签建模的需求。",
+      "authors": [
+        "Rohit Kumar Sen",
+        "Anik Chowdhury"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.09464",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "语音情感"
+      ],
+      "title": "BanglaRhet: Benchmarking Classical and Transformer Models for Rhetorical and Persuasion Detection in Bangla Political Speech",
+      "title_zh": "BanglaRhet：经典模型与变换器模型在孟加拉政治演讲中修辞与说服检测的基准研究",
+      "url": "/daily/2026-10-08/#paper-2610-09464"
+    },
+    {
+      "abstract": "Full-duplex voice agents need to modulate emotion and delivery during real-time conversations, when de-escalating a complaint, carrying urgency in dispatch, softening a clinical result. Emotion and delivery control is well studied for TTS and turn based models through prompt-conditioned synthesis, reference-conditioned synthesis and activation steering; PersonaPlex controls identity in a duplex model but not affect. We study emotion steering in Moshi, a fully open sourced full-duplex speech language model, across four emotions, using mean-difference activation steering, which costs only a few vector additions per frame and no retraining. We show that emotion is linearly decodable from Moshi's residual stream, but activation steering is only partially achievable, and unevenly so; as happy, angry and surprise steer towards a shared direction while sad is distinctly steerable. We also show that the shared component across the three emotions cannot simply be projected away from all the emotions equally.",
+      "abstract_zh": "全双工语音代理在实时对话中需要调节情感和表达，例如在降低投诉情绪、传达紧急情况或缓和临床结果时。情感和表达控制在文本转语音（TTS）和基于轮次的模型中通过提示条件合成、参考条件合成和激活引导得到了充分研究；PersonaPlex 在双工模型中控制身份，但不控制情感。我们研究了在 Moshi 这一完全开源的全双工语音语言模型中对四种情感的引导，采用均值差激活引导，这仅需每帧进行少量向量加法且无需重新训练。我们展示了情感可以从 Moshi 的残差流中线性解码，但激活引导只能部分实现，并且实现程度不均；快乐、愤怒和惊讶这三种情感朝向一个共同方向引导，而悲伤则可以明显地被引导。我们还表明，这三种情感之间的共享成分不能简单地从所有情感中等比例地投影去除。",
+      "authors": [
+        "Pulak Kuli"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.08887",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "文本情感"
+      ],
+      "title": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model",
+      "title_zh": "引导遵循几何，而非标签：全双工语音模型中的情感方向",
+      "url": "/daily/2026-10-08/#paper-2610-08887"
+    },
+    {
+      "abstract": "Large language models (LLMs) often abandon a correct answer, or endorse a user's position, once the user pushes back. This behavior, called sycophancy, is usually reported as a single rate per model, which says little about when it happens or how a user can avoid it. We study the conditions that produce it with 103,939 graded replies from ten configurations: eight LLMs with reasoning disabled, and two of them again with maximum reasoning, all facing the same 200 items, 13 pressure conditions, and four-turn conversations, with every reply labeled by two independent LLM judges. We find that the dominant factors are how costly it is for the model to verify the user's claim, and whether a trained guardrail covers it. Removing this task factor from a logistic model costs 0.485 of McFadden $R^2$, against 0.139 for model family and 0.009 for pressure tactic. Anchored facts are almost never conceded (1.3%), while adoption on logic puzzles rises with the number of clues needed to refute the pushed answer. Personal choices are endorsed in 77.0% of conversations. Most concessions on hard items come from models that cannot reliably solve them; models that can solve them rarely give the answer up. For both models tested, maximum reasoning removes these concessions completely: adoption on deep puzzles falls from 19.2% and 12.5% to 0%. Fallacious or emotional framing adds nothing beyond plain repetition. Three human annotators agree with the judges' consensus on 118/120 calibration items. These results give practical rules for reliable use: simplify hard-to-verify problems and reason deeply, state the question rather than one's preferred answer, ask for evidence on open questions, and choose models by their measured guardrail profile.",
+      "abstract_zh": "大型语言模型（LLMs）在用户反驳时，往往会放弃正确答案或支持用户的立场。这种行为被称为谄媚，通常以每个模型的单一比率报告，这对其发生的时机或用户如何避免它几乎没有提供信息。我们通过分析来自十种配置的103,939条评分回复来研究产生这种行为的条件：八个禁用推理的LLM，以及其中两个在最大推理下的表现，所有模型面对相同的200个项目、13种压力条件和四轮对话，每条回复由两个独立的LLM评审标记。我们发现，主导因素是模型验证用户主张的成本，以及是否有训练好的保护措施覆盖该主张。从逻辑模型中移除这一任务因素导致McFadden $R^2$损失0.485，而模型家族的损失为0.139，压力策略的损失为0.009。锚定事实几乎从不被让步（1.3%），而在逻辑难题中，推翻被推动答案所需线索的数量越多，采纳率就越高。个人选择在77.0%的对话中得到支持。大多数在困难项目上的让步来自于无法可靠解决这些问题的模型；能够解决这些问题的模型则很少放弃答案。对于测试的两个模型，最大推理完全消除了这些让步：在深度难题上的采纳率从19.2%和12.5%降至0%。虚假或情感框架除了简单重复外没有增加任何内容。三位人类注释者在118/120个校准项目上与评审的共识达成一致。这些结果为可靠使用提供了实用规则：简化难以验证的问题并进行深入推理，陈述问题而非个人偏好答案，针对开放性问题请求证据，并根据测量的保护措施特征选择模型。",
+      "authors": [
+        "Guang Yang",
+        "Homa Hosseinmardi",
+        "Fengchen Liu",
+        "Amir Ghasemian"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.08840",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Beyond the Sycophancy Score: How Task, Model, and Pressure Shape LLM Yielding",
+      "title_zh": "超越谄媚评分：任务、模型和压力如何影响大型语言模型的表现",
+      "url": "/daily/2026-10-08/#paper-2610-08840"
+    },
+    {
+      "abstract": "The spread of fake news may cause severe social consequences. Existing fake news detection methods mainly focus on stylistic variations or incorporate external information such as explanations. However, news articles are often rewritten under different emotional backgrounds while preserving their underlying factual claims, which may affect the robustness of detection models. In this work, we investigate fake news detec- tion under fact-preserving emotional variations. To study this problem, we construct emotion-rewritten test sets and generate explanations from the original news articles as stable background knowledge. We then propose a Gated Cross Attention (GCA) framework that adaptively integrates emotionally rewritten news with the corresponding explanations, enabling the model to focus on informative explanation content while reducing potential mismatches caused by emotional reframing. Experiments on PolitiFact, GossipCop, and LUN demonstrate that the proposed method achieves notable improvements under multiple emotional conditions on PolitiFact and LUN, while maintaining competitive performance on GossipCop. We further analyze the effects of explanation guidance and gating mechanisms under different emotional conditions. Our code and data are available at: https://github.com/Flulike/fakenews gca .",
+      "abstract_zh": "假新闻的传播可能导致严重的社会后果。现有的假新闻检测方法主要关注风格变异或结合外部信息，例如解释。然而，新闻文章在不同情感背景下经常被重写，同时保留其基本事实主张，这可能影响检测模型的鲁棒性。在本研究中，我们探讨在保持事实的情感变异下进行假新闻检测。为研究这一问题，我们构建了情感重写测试集，并从原始新闻文章中生成解释作为稳定的背景知识。然后，我们提出了一种门控交叉注意力（Gated Cross Attention, GCA）框架，该框架自适应地将情感重写的新闻与相应的解释结合，使模型能够关注信息丰富的解释内容，同时减少因情感重构造成的潜在不匹配。在PolitiFact、GossipCop和LUN上的实验表明，所提出的方法在PolitiFact和LUN的多种情感条件下取得了显著的改进，同时在GossipCop上保持了竞争力的表现。我们进一步分析了在不同情感条件下解释指导和门控机制的效果。我们的代码和数据可在以下链接获取：https://github.com/Flulike/fakenews gca 。",
+      "authors": [
+        "Yupei Guo",
+        "Jiajun He",
+        "Xiaohan Shi",
+        "Tomoki Toda",
+        "Zekun Yang",
+        "Bowen Wang",
+        "Yukinobu Taniguchi"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.08835",
+      "tags": [
+        "鲁棒性/偏差",
+        "情感大模型"
+      ],
+      "title": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News",
+      "title_zh": "利用大语言模型生成的解释检测情感重写的假新闻",
+      "url": "/daily/2026-10-08/#paper-2610-08835"
+    },
+    {
+      "abstract": "Jev offers an alternative interface for language understanding: given an input and predefined questions, it returns probabilistic decisions rather than free-form responses. Whether this interface can support effective reasoning for text classification against leading LLMs remains an open questions. We introduce Emo-Jev, a training-free framework with two complementary implementations. Emo-Jev-D decomposes classification into task-specific atomic judgments and composes their probabilities into a final prediction. Emo-Jev-SC constructs multiple judgment paths from complementary perspectives and aggregates their predictions into a consensus decision. We evaluate Emo-Jev on eight datasets spanning sentiment analysis, emotion recognition, sarcasm detection and humor detection, comparing against direct Jev classification and five SoTA LLMs under input/output and chain-of-thought reasoning. Standard Jev achieves 62.93\\% average macro-F1 versus 67.28\\% for the strongest LLM baseline, with lower observed latency and generally lower cost.",
+      "abstract_zh": "Jev 提供了一种替代的语言理解接口：给定输入和预定义问题，它返回概率决策而非自由形式的响应。该接口是否能够支持有效的文本分类推理，与领先的 LLM（大型语言模型）相比仍然是一个未解之谜。我们介绍了 Emo-Jev，这是一种无训练框架，具有两种互补的实现方式。Emo-Jev-D 将分类分解为特定任务的原子判断，并将其概率组合成最终预测。Emo-Jev-SC 从互补的角度构建多个判断路径，并将其预测汇总为共识决策。我们在八个数据集上评估 Emo-Jev，涵盖情感分析、情感识别、讽刺检测和幽默检测，并与直接的 Jev 分类和五个最先进的 LLM 进行比较，涉及输入/输出和思维链推理。标准 Jev 的平均宏 F1 达到 62.93\\%，而最强 LLM 基线为 67.28\\%，且观察到的延迟更低，成本通常也较低。",
+      "authors": [
+        "Yazhou Zhang",
+        "Junhao Yu"
+      ],
+      "date": "2026-10-08",
+      "id": "2610.08829",
+      "tags": [
+        "情绪识别",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev",
+      "title_zh": "Emo-Jev：基于Jev的情感分类概率推理",
+      "url": "/daily/2026-10-08/#paper-2610-08829"
+    },
     {
       "abstract": "LLMs are increasingly deployed as autonomous agents in social environments, making it critical to study their ability to faithfully simulate human interactions. Central to this is grounding agents in realistic user personas, yet existing datasets rely on fictional personas and are limited to a handful of languages, lacking the empirical grounding necessary to evaluate behavioral fidelity across diverse populations. We introduce Wiki-Talkie, a multilingual dataset of real-world conversations from Wikipedia Talk pages across five languages spanning two language families: Germanic (German, English) and Romance (Spanish, French, Italian), paired with personas derived from real user communities and encompassing sociodemographic attributes, self-descriptions, and behaviorally grounded interaction traits. Using Wiki-Talkie, we evaluate agent interactional behavior on a next-turn generation task across various persona conditioning strategies. Our evaluation assesses whether agents collectively reproduce the distributional behavioral patterns observed in human discussions. Results show that user's comment history exemplifying interaction behavior consistently outperforms explicit persona information. In addition, models systematically underproduce negative or extreme sentiments, while over producing references and suggestions, revealing biases toward agreeableness and positivity. Crucially, these patterns hold robustly across languages, with small cross-lingual differences.",
       "abstract_zh": "大型语言模型（LLMs）越来越多地作为自主代理在社交环境中部署，因此研究它们忠实模拟人类互动的能力变得至关重要。关键在于将代理与现实用户个性相结合，而现有的数据集依赖于虚构的个性，并且仅限于少数几种语言，缺乏评估不同人群行为忠实度所需的实证基础。我们引入了Wiki-Talkie，这是一个来自维基百科讨论页面的多语言真实对话数据集，涵盖五种语言，跨越两个语言家族：日耳曼语（德语、英语）和罗曼语（西班牙语、法语、意大利语），并配有来自真实用户社区的个性，涵盖社会人口特征、自我描述和行为基础的互动特征。利用Wiki-Talkie，我们评估了代理在各种个性条件策略下的下一轮生成任务中的互动行为。我们的评估检验了代理是否能够共同再现人类讨论中观察到的分布性行为模式。结果表明，用户的评论历史所体现的互动行为始终优于显式个性信息。此外，模型系统性地低估了负面或极端情绪的生成，同时过度生成参考和建议，揭示出对友好性和积极性的偏见。重要的是，这些模式在不同语言中稳健存在，且跨语言差异较小。",

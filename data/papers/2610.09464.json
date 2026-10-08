@@ -1,0 +1,55 @@
+{
+  "abstract": "Political discourse often uses rhetorical and persuasive language to frame narratives, influence public opinion, and mobilize audiences. While Bangla natural language processing has made progress in sentiment analysis and opinion mining, systematic benchmarking of transformer models for fine-grained rhetorical and persuasion technique detection in Bangla political speech remains largely underexplored. This paper presents a benchmark study of transformer-based models for detecting rhetorical form and persuasive intent in Bangla political discourse. Using BanglaRhet, a manually annotated corpus of 30,289 Bangla political speech segments collected from publicly available political news sources, we formulate two supervised single-label classification tasks: rhetorical technique detection (contrast, repetition, exaggeration, metaphor, rhetorical questions) and persuasion technique detection (blame assignment, call to action, unity call, moral, emotional, and logical appeals). We evaluate four transformer-based models, BanglaBERT, BanglaBERT-Base, SahajBERT, and XLM-RoBERTa-Base, against classical TF-IDF baselines. BanglaBERT achieves the highest performance, with 65.40% macro-F1 for rhetorical technique detection and 66.46% for persuasion technique detection, outperforming the best tuned classical baseline by 19.2 and 13.8 macro-F1 points, respectively. Class-level analysis indicates that errors are mainly associated with semantic overlap among labels, figurative language, and class imbalance. The results provide initial benchmark baselines for Bangla rhetorical and persuasion-aware political discourse analysis and highlight the need for context-aware and multi-label modeling.",
+  "abstract_zh": "政治话语常常使用修辞和说服性语言来构建叙事、影响公众舆论和动员听众。尽管孟加拉自然语言处理在情感分析和观点挖掘方面取得了一定进展，但在孟加拉政治演讲中对变换器模型进行细粒度修辞和说服技巧检测的系统性基准研究仍然较少被探索。本文提出了一项基于变换器模型的基准研究，旨在检测孟加拉政治话语中的修辞形式和说服意图。我们使用BanglaRhet，一个手动标注的语料库，包含来自公开政治新闻来源的30,289个孟加拉政治演讲片段，制定了两个监督单标签分类任务：修辞技巧检测（对比、重复、夸张、隐喻、修辞性问题）和说服技巧检测（归责、行动号召、团结号召、道德、情感和逻辑诉求）。我们评估了四种基于变换器的模型：BanglaBERT、BanglaBERT-Base、SahajBERT和XLM-RoBERTa-Base，并与经典的TF-IDF基线进行比较。BanglaBERT在修辞技巧检测中取得了最高性能，宏观F1值为65.40%，在说服技巧检测中为66.46%，分别比最佳调优的经典基线高出19.2和13.8个宏观F1点。类级分析表明，错误主要与标签之间的语义重叠、比喻语言和类别不平衡有关。结果为孟加拉修辞和说服意识的政治话语分析提供了初步的基准基线，并强调了对上下文敏感和多标签建模的需求。",
+  "arxiv_id": "2610.09464",
+  "arxiv_url": "https://arxiv.org/abs/2610.09464v1",
+  "authors": [
+    "Rohit Kumar Sen",
+    "Anik Chowdhury"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-08#paper-2610-09464",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-08T11:54:19.242149+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.09464v1",
+  "published_at": "2026-10-07T05:22:19Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "emotional",
+      "classification",
+      "detection",
+      "benchmark",
+      "speech",
+      "分类",
+      "检测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-10-08"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.09464v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-08"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测",
+      "语音情感"
+    ]
+  },
+  "title": "BanglaRhet: Benchmarking Classical and Transformer Models for Rhetorical and Persuasion Detection in Bangla Political Speech",
+  "title_zh": "BanglaRhet：经典模型与变换器模型在孟加拉政治演讲中修辞与说服检测的基准研究",
+  "translation_url": "https://hjfy.top/arxiv/2610.09464"
+}

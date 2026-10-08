@@ -1255,8 +1255,89 @@
         "情感生成"
       ],
       "title": "Wiki-Talkie: Multilingual Benchmarking of Persona-Based Agents on Real-World Discussions"
+    },
+    "2610.08829": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "情绪识别",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Emo-Jev: Probabilistic Reasoning for Emotion Classification with Jev"
+    },
+    "2610.08835": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "鲁棒性/偏差",
+        "情感大模型"
+      ],
+      "title": "Leveraging LLM-Generated Explanations for Detecting Emotionally Rewritten Fake News"
+    },
+    "2610.08840": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Beyond the Sycophancy Score: How Task, Model, and Pressure Shape LLM Yielding"
+    },
+    "2610.08887": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "文本情感"
+      ],
+      "title": "Steering Follows Geometry, Not Labels: Emotion Directions in a Full-Duplex Speech Model"
+    },
+    "2610.09464": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "语音情感"
+      ],
+      "title": "BanglaRhet: Benchmarking Classical and Transformer Models for Rhetorical and Persuasion Detection in Bangla Political Speech"
+    },
+    "2610.09569": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "情感大模型",
+        "共情交互",
+        "心理状态/福祉"
+      ],
+      "title": "RELATE: An Evaluation Framework for measuring Relational Orientation of Large Language Models"
+    },
+    "2610.10318": {
+      "dates": [
+        "2026-10-08"
+      ],
+      "first_seen": "2026-10-08",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "社交信号"
+      ],
+      "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts"
     }
   },
-  "total": 109,
-  "updated_at": "2026-10-07T11:39:41.942319+00:00"
+  "total": 116,
+  "updated_at": "2026-10-08T11:54:21.581370+00:00"
 }
