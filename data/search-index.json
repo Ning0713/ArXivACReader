@@ -1,6 +1,107 @@
 {
-  "generated_at": "2026-10-08T11:54:21.581370+00:00",
+  "generated_at": "2026-10-09T11:46:21.276672+00:00",
   "items": [
+    {
+      "abstract": "Vision-language models (VLMs) show great potential for damage assessment after a disaster, but a recurring deficiency is that they are reluctant to declare a hazard; that is, recall is low even when overall accuracy appears adequate. This study examines that deficiency by using signal detection theory to decompose the decision behavior into perceptual capability and decision-criterion placement. We then propose a novel method for correcting the over-conservative decision policy, inspired by the finding that fear makes humans risk-averse, and ask whether an affective representation associated with fear can be causally manipulated to similarly alter a VLM's decision tendency. Using mechanistic interpretability, we localize a causally implicated affective circuit in the model and use activation steering to manipulate it while observing the effect on downstream prediction. The method is tested on a two-stage SeisMLLM pipeline built on Qwen2.5-VL-7B-Instruct, which flags only 27.0% of genuinely unsafe buildings on the SeisMLLM-1K test split and never issues a false Red, an SDT criterion of c = +1.354, despite adequate evidence quality (d' = 1.521). An affective direction is localized on emotion-rich natural scenes, causally validated by sparse-neuron knockout and distributed steering on held-out emotion data, and then injected into the building task. Fear-direction injection raises Red recall to 75.7% (p<0.001), and subtracting the same direction suppresses Red predictions entirely, whereas norm-matched random and matched happiness directions show no significant effect. The mechanism is a shift in criterion (c=-1.515) while discrimination is not improved (d'=-0.493). These results show that VLM decisions can be adjusted at inference time without retraining and demonstrate how mechanistic interpretability can be used to diagnose and control VLM decision behaviors in engineering applications.",
+      "abstract_zh": "视觉-语言模型（VLMs）在灾后损害评估中展现出巨大潜力，但一个反复出现的缺陷是它们不愿意宣告危险；也就是说，即使整体准确性看似足够，召回率仍然较低。本研究通过使用信号检测理论来分解决策行为，考察这一缺陷，将其分为感知能力和决策标准的设置。我们提出了一种新的方法来纠正过于保守的决策策略，灵感来自于恐惧使人类趋向于规避风险的发现，并探讨与恐惧相关的情感表征是否可以被因果操控，从而类似地改变VLM的决策倾向。通过机械可解释性，我们在模型中定位了一个因果相关的情感电路，并利用激活引导对其进行操控，同时观察对下游预测的影响。该方法在基于Qwen2.5-VL-7B-Instruct构建的两阶段SeisMLLM管道上进行了测试，该管道在SeisMLLM-1K测试集上仅标记了27.0%的真正不安全建筑，并且从未发出假红色警报，其信号检测理论标准为c = +1.354，尽管证据质量足够（d' = 1.521）。在情感丰富的自然场景中定位到一个情感方向，通过稀疏神经元敲除和在保留情感数据上的分布式引导进行因果验证，然后将其注入建筑任务中。恐惧方向的注入将红色召回率提高到75.7%（p<0.001），而去除相同方向则完全抑制了红色预测，而与规范匹配的随机方向和匹配的幸福方向则未显示出显著效果。该机制是标准的转变（c=-1.515），而区分能力并未改善（d'=-0.493）。这些结果表明，VLM的决策可以在推理时进行调整而无需重新训练，并展示了机械可解释性如何用于诊断和控制工程应用中的VLM决策行为。",
+      "authors": [
+        "Xiaoshan Zhou"
+      ],
+      "date": "2026-10-09",
+      "id": "2610.11986",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "FearCaut-Qwen: Affective Steering in a Vision-Language Model Shifts the Decision Criterion for Hazard Assessment",
+      "title_zh": "FearCaut-Qwen：情感引导在视觉-语言模型中的应用改变了危险评估的决策标准",
+      "url": "/daily/2026-10-09/#paper-2610-11986"
+    },
+    {
+      "abstract": "This study addresses the problem of structured sentiment analysis, whose goal is to obtain a fine-grained sentiment graph where the nodes represent spans of sentiment holders, targets, and expressions, while the arcs define the relationships among them. Our proposed approach casts the task as dependency graph parsing, but departs from traditional parsing methods by solving it through sequence labeling. To do so, we leverage recent advances in linearized graph encodings that allow each word in the input to be assigned a label, effectively capturing the structure of the dependency graph. We conducted experiments on seven datasets spanning five languages (English, Spanish, Norwegian, Basque, and Catalan), showing performance competitive with leading, more complex single-model approaches.",
+      "abstract_zh": "本研究解决了结构化情感分析的问题，其目标是获得一个细粒度的情感图，其中节点表示情感持有者、目标和表达的范围，而弧线定义它们之间的关系。我们提出的方法将该任务视为依赖图解析，但与传统的解析方法不同，通过序列标注来解决。为此，我们利用了线性化图编码的最新进展，使输入中的每个单词都可以被分配一个标签，从而有效捕捉依赖图的结构。我们在涵盖五种语言（英语、西班牙语、挪威语、巴斯克语和加泰罗尼亚语）的七个数据集上进行了实验，显示出与领先的、更复杂的单模型方法具有竞争力的性能。",
+      "authors": [
+        "Muhammad Imran",
+        "Ana Ezquerro",
+        "Carlos Gómez-Rodríguez",
+        "Anders Søgaard",
+        "David Vilares"
+      ],
+      "date": "2026-10-09",
+      "id": "2610.11695",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Structured Sentiment Analysis Using Sequence Labeling as Dependency Graph Parsing",
+      "title_zh": "基于序列标注的依赖图解析的结构化情感分析",
+      "url": "/daily/2026-10-09/#paper-2610-11695"
+    },
+    {
+      "abstract": "Affective computing has progressed from categorical emotion recognition to open-ended affective analysis with large multimodal models. Yet affective science describes emotion as an unfolding process shaped by appraisal, regulation, and social interpretation, which remains underexplored computationally. We propose TRACE, a cognition-oriented framework that formalizes an affective episode through three interrelated stages: Condition, Affect, and Effect, integrating observable cues with cognitive factors such as internal stance and regulation of emotional display. Based on this formulation, TRACE-Bench evaluates multimodal models in real-world social scenes through five tasks spanning grounded affect recognition, regulation decoding, cause reasoning, effect reasoning, and full-chain reconstruction, with 3,746 structured question-answer pairs over 646 videos. A matched human-model comparison reveals a substantial performance gap, while affect-specialized models also generally lag behind general-purpose MLLMs. Model outputs show recurring failures, including treating displayed behavior as genuine feeling and fabricating unsupported events during long-chain generation. We further propose TRACER, a cognition-grounded structured reasoning method that couples each inference with explicit premises from factual observations, cognitive appraisals, and established upstream conclusions, forming a traceable graph of intermediate and target conclusions. TRACER outperforms all evaluated model baselines on each of the five tasks. Project page: https://cogaffc.github.io/TRACE",
+      "abstract_zh": "情感计算已经从分类情感识别发展到基于大型多模态模型的开放式情感分析。然而，情感科学将情感描述为一个由评估、调节和社会解释塑造的展开过程，这在计算上仍然未得到充分探索。我们提出了TRACE，一个面向认知的框架，通过三个相互关联的阶段：条件、情感和效果，形式化情感事件，整合可观察的线索与内部立场和情感表现调节等认知因素。基于这一框架，TRACE-Bench通过五个任务评估真实世界社交场景中的多模态模型，这些任务涵盖了基础情感识别、调节解码、原因推理、效果推理和全链重建，共有3,746个结构化问答对，涉及646个视频。与人类模型的匹配比较显示出显著的性能差距，而专注于情感的模型通常也落后于通用的多语言大模型（MLLMs）。模型输出显示出反复出现的失败，包括将表现出的行为视为真实情感，以及在长链生成过程中虚构不支持的事件。我们进一步提出了TRACER，一种基于认知的结构化推理方法，将每个推理与来自事实观察、认知评估和已建立的上游结论的明确前提结合，形成一个可追踪的中间和目标结论图。TRACER在五个任务中超越了所有评估的模型基线。项目页面：https://cogaffc.github.io/TRACE",
+      "authors": [
+        "Hao Li",
+        "Jinye Zhang",
+        "Bobo Li",
+        "Mong-Li Lee",
+        "Wynne Hsu",
+        "Zheng Wang",
+        "Hao Fei",
+        "Min Zhang"
+      ],
+      "date": "2026-10-09",
+      "id": "2610.11410",
+      "tags": [
+        "情绪识别",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "Cognition-Oriented Emotion Tracing from Causes to Consequences in Real-World Social Scenes",
+      "title_zh": "面向认知的情感追踪：从原因到后果的真实世界社交场景",
+      "url": "/daily/2026-10-09/#paper-2610-11410"
+    },
+    {
+      "abstract": "Personalized conversational AI relies on long-term memory systems that extract facts from user utterances and store them in persistent vector stores. Despite progress in retrieval, deduplication, and lifecycle management, the formation stage, the moment a fact is first written to storage has received almost no principled attention. We identify this as the binding constraint on memory quality in production systems. Critical contextual signals, such as the distinction between a permanent user attribute and a transient situation, exist only in the original utterance and are irreversibly lost the moment extraction produces a subject-relation-object triple. No downstream process can recover them. We propose Gated Memory, a lightweight, modular formation framework that interposes two decision checkpoints between conversation and storage: an admission gate that evaluates every candidate fact against the full utterance context before extraction runs, and a conditional enrichment stage that grounds admitted facts through an entity scope taxonomy with privacy constraints. The gate evaluates only the current exchange while using prior turns as read-only reference context, and produces a structured formation record. Admitted content is decomposed into atomic facts, each categorized, tagged with provenance (directly stated versus inferred), scoped to its condition of applicability, and grounded in resolved time and place, subject to a constraint that no entity absent from the context may be asserted. On the LoCoMo-10 benchmark with atypical emotional density in utterance data, Gated Memory achieves an overall +2.6% relative improvement in LLM-judge accuracy over a strong baseline with identical retrieval and generation, establishing formation quality as a measurable constraint on memory performance.",
+      "abstract_zh": "个性化对话人工智能依赖于长期记忆系统，从用户的发言中提取事实并将其存储在持久的向量存储中。尽管在检索、去重和生命周期管理方面取得了进展，但形成阶段，即事实首次写入存储的时刻，几乎没有受到原则性的关注。我们将其视为生产系统中记忆质量的绑定约束。关键的上下文信号，例如永久用户属性与瞬时情况之间的区别，仅存在于原始发言中，并在提取生成主题-关系-对象三元组的瞬间不可逆转地丧失。没有下游过程能够恢复这些信息。我们提出了门控记忆（Gated Memory），这是一种轻量级、模块化的形成框架，在对话与存储之间设置了两个决策检查点：一个入场门，评估每个候选事实在提取运行之前与完整发言上下文的匹配情况，以及一个条件丰富阶段，通过具有隐私约束的实体范围分类法来确定被接受事实的基础。该门仅评估当前交流，同时将之前的轮次作为只读参考上下文，并生成结构化的形成记录。被接受的内容被分解为原子事实，每个事实都被分类、标记来源（直接陈述与推断）、限定适用条件，并在已解决的时间和地点中确定，受到一个约束，即不得断言上下文中缺失的任何实体。在具有非典型情感密度的发言数据的LoCoMo-10基准测试中，门控记忆在与强基线相同的检索和生成条件下，整体上实现了+2.6%的相对提高，确立了形成质量作为记忆性能的可测量约束。",
+      "authors": [
+        "Preeti Saraswat",
+        "Divya Neelagiri",
+        "Ajay Manoj"
+      ],
+      "date": "2026-10-09",
+      "id": "2610.11270",
+      "tags": [
+        "情感大模型",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Gated Memory: Admission-Controlled Memory Formation for Conversational AI",
+      "title_zh": "门控记忆：面向对话人工智能的入场控制记忆形成",
+      "url": "/daily/2026-10-09/#paper-2610-11270"
+    },
+    {
+      "abstract": "Non-suicidal self-injury (NSSI) is prevalent among adolescents with depression, but the rapid brain-state dynamics linking social distress to maladaptive behavior remain unclear. We combine an experimental pain paradigm, electroencephalography (EEG) microstate analysis, and interpretable deep sequence modeling to investigate NSSI-related neurodynamics in 106 adolescents with depression, including 67 with NSSI (DN+) and 39 without NSSI (DN-), during social pain, physical pain, and resting-state conditions. A model integrating disease-specific, domain-adversarial, consistency, and contrastive learning captures higher-order dependencies in microstate sequences. Social pain yields the strongest NSSI discrimination, with 68.55% accuracy, outperforming the best baseline by 8.94% points. Model interpretation and conventional microstate analyses reveal weakened bidirectional transitions between MS3 and MS5 in DN+ adolescents during social pain. Source reconstruction associates MS3 with emotional/interoceptive processing and MS5 with action preparation, suggesting disrupted emotion-action coupling. Time-resolved analyses show greater early-to-middle action-state recruitment and later emotion-state recruitment in DN+ adolescents. In DN- adolescents, MS5-to-MS3 dynamics mediate associations between social-evaluation sensitivity and affective outcomes, whereas this mediation is absent in DN+; conversely, MS3-to-MS5 transitions are associated with greater negative affect in DN+. Together, these findings identify disrupted emotion-action coupling as a key neurodynamic mechanism underlying altered social pain processing in adolescents with NSSI, providing a mechanistically interpretable neural signature for objective identification of NSSI.",
+      "abstract_zh": "非自杀性自伤（NSSI）在抑郁青少年中普遍存在，但社会痛苦与不适应行为之间快速的脑状态动态仍不清楚。我们结合实验性疼痛范式、电生理学（EEG）微状态分析和可解释的深度序列建模，研究106名抑郁青少年中与NSSI相关的神经动态，其中67名为NSSI（DN+），39名为无NSSI（DN-），在社会痛苦、身体疼痛和静息状态条件下进行研究。一个整合疾病特异性、领域对抗、一致性和对比学习的模型捕捉微状态序列中的高阶依赖关系。社会痛苦产生了最强的NSSI区分，准确率为68.55%，比最佳基线高出8.94个百分点。模型解释和常规微状态分析揭示DN+青少年在社会痛苦期间MS3和MS5之间的双向转变减弱。源重建将MS3与情感/内感处理相关联，将MS5与行动准备相关联，提示情绪-行动耦合受损。时间分辨分析显示DN+青少年在早期到中期的行动状态招募和后期情绪状态招募更为显著。在DN-青少年中，MS5到MS3的动态在社会评估敏感性与情感结果之间起到中介作用，而在DN+中则缺乏这种中介；相反，MS3到MS5的转变与DN+中的更大负性情感相关。综上所述，这些发现识别出情绪-行动耦合的干扰作为非自杀性自伤青少年社会痛苦处理改变的关键神经动态机制，为NSSI的客观识别提供了可机制解释的神经特征。",
+      "authors": [
+        "Ying Xu",
+        "Xiaojun Liang",
+        "Li Zhang",
+        "Yixuan Yuan",
+        "Gan Huang",
+        "Yongjie Zhou",
+        "Zhen Liang"
+      ],
+      "date": "2026-10-09",
+      "id": "2610.11155",
+      "tags": [
+        "心理状态/福祉",
+        "生理信号",
+        "数据集/评测"
+      ],
+      "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+      "title_zh": "社会痛苦干扰非自杀性自伤青少年的情绪-行动脑状态动态",
+      "url": "/daily/2026-10-09/#paper-2610-11155"
+    },
     {
       "abstract": "Social media is a rich source of real-time public sentiment, but widely used sentiment analysis tools are often applied without understanding their limitations. In this study, we evaluate the inter-rater reliability of three bespoke sentiment analysis tools (TextBlob, VADER, and Twitter-roBERTa-base) and three large language models (LLMs: Qwen3-32B, GPT-OSS-120B, Llama-4-Maverick-17B) against six human raters across 100 tweets. We measured agreement using two statistical measures: Cohen's kappa for pairwise comparisons and Fleiss' kappa for multiple raters. Even among the human raters, our results showed only fair agreement, highlighting the subjectivity of sentiment analysis. Higher agreement was observed under the binary sentiment classification (negative vs. non-negative and positive vs. non-positive) than under the three-class classification across both humans and automated tools. The Twitter-roBERTa-base model showed the strongest alignment with human ratings, outperforming both bespoke sentiment tools and LLMs, particularly in distinguishing negative versus non-negative sentiment. LLMs showed substantial agreement among themselves and moderate to substantial alignment with humans, performing better in positive vs. non-positive classifications. Our findings underscore that domain-specific fine-tuning remains crucial for reliable social media sentiment analysis, and human-centered evaluation remains essential for establishing gold-standard labels.",
       "abstract_zh": "社交媒体是实时公众情感的丰富来源，但广泛使用的情感分析工具往往在不理解其局限性的情况下被应用。在本研究中，我们评估了三种定制情感分析工具（TextBlob、VADER 和 Twitter-roBERTa-base）以及三种大型语言模型（LLMs：Qwen3-32B、GPT-OSS-120B、Llama-4-Maverick-17B）在100条推文中与六位人类评审者之间的评分一致性。我们使用两种统计指标来测量一致性：Cohen's kappa 用于成对比较，Fleiss' kappa 用于多评审者。即使在六位人类评审者之间，我们的结果也仅显示出一般的一致性，突显了情感分析的主观性。在二元情感分类（负面与非负面、正面与非正面）下，无论是人类还是自动工具，观察到的一致性高于三类分类。Twitter-roBERTa-base 模型与人类评分的对齐程度最高，超越了定制情感工具和大型语言模型，特别是在区分负面与非负面情感方面。大型语言模型之间表现出显著的一致性，并与人类的对齐程度中等到显著，在正面与非正面分类中表现更佳。我们的研究结果强调，领域特定的微调对于可靠的社交媒体情感分析仍然至关重要，而以人为中心的评估对于建立金标准标签仍然不可或缺。",

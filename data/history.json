@@ -1336,8 +1336,65 @@
         "社交信号"
       ],
       "title": "Nobody Truly Agrees on Sentiment: Humans, Bespoke Tools, and LLMs Struggle with Social Media Texts"
+    },
+    "2610.11155": {
+      "dates": [
+        "2026-10-09"
+      ],
+      "first_seen": "2026-10-09",
+      "tags": [
+        "心理状态/福祉",
+        "生理信号",
+        "数据集/评测"
+      ],
+      "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury"
+    },
+    "2610.11270": {
+      "dates": [
+        "2026-10-09"
+      ],
+      "first_seen": "2026-10-09",
+      "tags": [
+        "情感大模型",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "Gated Memory: Admission-Controlled Memory Formation for Conversational AI"
+    },
+    "2610.11410": {
+      "dates": [
+        "2026-10-09"
+      ],
+      "first_seen": "2026-10-09",
+      "tags": [
+        "情绪识别",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "Cognition-Oriented Emotion Tracing from Causes to Consequences in Real-World Social Scenes"
+    },
+    "2610.11695": {
+      "dates": [
+        "2026-10-09"
+      ],
+      "first_seen": "2026-10-09",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Structured Sentiment Analysis Using Sequence Labeling as Dependency Graph Parsing"
+    },
+    "2610.11986": {
+      "dates": [
+        "2026-10-09"
+      ],
+      "first_seen": "2026-10-09",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "FearCaut-Qwen: Affective Steering in a Vision-Language Model Shifts the Decision Criterion for Hazard Assessment"
     }
   },
-  "total": 116,
-  "updated_at": "2026-10-08T11:54:21.581370+00:00"
+  "total": 121,
+  "updated_at": "2026-10-09T11:46:21.276672+00:00"
 }

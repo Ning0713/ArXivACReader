@@ -1,0 +1,56 @@
+{
+  "abstract": "Non-suicidal self-injury (NSSI) is prevalent among adolescents with depression, but the rapid brain-state dynamics linking social distress to maladaptive behavior remain unclear. We combine an experimental pain paradigm, electroencephalography (EEG) microstate analysis, and interpretable deep sequence modeling to investigate NSSI-related neurodynamics in 106 adolescents with depression, including 67 with NSSI (DN+) and 39 without NSSI (DN-), during social pain, physical pain, and resting-state conditions. A model integrating disease-specific, domain-adversarial, consistency, and contrastive learning captures higher-order dependencies in microstate sequences. Social pain yields the strongest NSSI discrimination, with 68.55% accuracy, outperforming the best baseline by 8.94% points. Model interpretation and conventional microstate analyses reveal weakened bidirectional transitions between MS3 and MS5 in DN+ adolescents during social pain. Source reconstruction associates MS3 with emotional/interoceptive processing and MS5 with action preparation, suggesting disrupted emotion-action coupling. Time-resolved analyses show greater early-to-middle action-state recruitment and later emotion-state recruitment in DN+ adolescents. In DN- adolescents, MS5-to-MS3 dynamics mediate associations between social-evaluation sensitivity and affective outcomes, whereas this mediation is absent in DN+; conversely, MS3-to-MS5 transitions are associated with greater negative affect in DN+. Together, these findings identify disrupted emotion-action coupling as a key neurodynamic mechanism underlying altered social pain processing in adolescents with NSSI, providing a mechanistically interpretable neural signature for objective identification of NSSI.",
+  "abstract_zh": "非自杀性自伤（NSSI）在抑郁青少年中普遍存在，但社会痛苦与不适应行为之间快速的脑状态动态仍不清楚。我们结合实验性疼痛范式、电生理学（EEG）微状态分析和可解释的深度序列建模，研究106名抑郁青少年中与NSSI相关的神经动态，其中67名为NSSI（DN+），39名为无NSSI（DN-），在社会痛苦、身体疼痛和静息状态条件下进行研究。一个整合疾病特异性、领域对抗、一致性和对比学习的模型捕捉微状态序列中的高阶依赖关系。社会痛苦产生了最强的NSSI区分，准确率为68.55%，比最佳基线高出8.94个百分点。模型解释和常规微状态分析揭示DN+青少年在社会痛苦期间MS3和MS5之间的双向转变减弱。源重建将MS3与情感/内感处理相关联，将MS5与行动准备相关联，提示情绪-行动耦合受损。时间分辨分析显示DN+青少年在早期到中期的行动状态招募和后期情绪状态招募更为显著。在DN-青少年中，MS5到MS3的动态在社会评估敏感性与情感结果之间起到中介作用，而在DN+中则缺乏这种中介；相反，MS3到MS5的转变与DN+中的更大负性情感相关。综上所述，这些发现识别出情绪-行动耦合的干扰作为非自杀性自伤青少年社会痛苦处理改变的关键神经动态机制，为NSSI的客观识别提供了可机制解释的神经特征。",
+  "arxiv_id": "2610.11155",
+  "arxiv_url": "https://arxiv.org/abs/2610.11155v1",
+  "authors": [
+    "Ying Xu",
+    "Xiaojun Liang",
+    "Li Zhang",
+    "Yixuan Yuan",
+    "Gan Huang",
+    "Yongjie Zhou",
+    "Zhen Liang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-09#paper-2610-11155",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-09T11:46:16.422913+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.11155v1",
+  "published_at": "2026-10-08T03:16:45Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "affective",
+      "情绪",
+      "EEG",
+      "识别"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-10-09"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.11155v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-09"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "生理信号",
+      "数据集/评测"
+    ]
+  },
+  "title": "Social Pain Disrupts Emotion-Action Brain-State Dynamics in Adolescents with Non-Suicidal Self-Injury",
+  "title_zh": "社会痛苦干扰非自杀性自伤青少年的情绪-行动脑状态动态",
+  "translation_url": "https://hjfy.top/arxiv/2610.11155"
+}

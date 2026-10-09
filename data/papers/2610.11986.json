@@ -1,0 +1,50 @@
+{
+  "abstract": "Vision-language models (VLMs) show great potential for damage assessment after a disaster, but a recurring deficiency is that they are reluctant to declare a hazard; that is, recall is low even when overall accuracy appears adequate. This study examines that deficiency by using signal detection theory to decompose the decision behavior into perceptual capability and decision-criterion placement. We then propose a novel method for correcting the over-conservative decision policy, inspired by the finding that fear makes humans risk-averse, and ask whether an affective representation associated with fear can be causally manipulated to similarly alter a VLM's decision tendency. Using mechanistic interpretability, we localize a causally implicated affective circuit in the model and use activation steering to manipulate it while observing the effect on downstream prediction. The method is tested on a two-stage SeisMLLM pipeline built on Qwen2.5-VL-7B-Instruct, which flags only 27.0% of genuinely unsafe buildings on the SeisMLLM-1K test split and never issues a false Red, an SDT criterion of c = +1.354, despite adequate evidence quality (d' = 1.521). An affective direction is localized on emotion-rich natural scenes, causally validated by sparse-neuron knockout and distributed steering on held-out emotion data, and then injected into the building task. Fear-direction injection raises Red recall to 75.7% (p<0.001), and subtracting the same direction suppresses Red predictions entirely, whereas norm-matched random and matched happiness directions show no significant effect. The mechanism is a shift in criterion (c=-1.515) while discrimination is not improved (d'=-0.493). These results show that VLM decisions can be adjusted at inference time without retraining and demonstrate how mechanistic interpretability can be used to diagnose and control VLM decision behaviors in engineering applications.",
+  "abstract_zh": "视觉-语言模型（VLMs）在灾后损害评估中展现出巨大潜力，但一个反复出现的缺陷是它们不愿意宣告危险；也就是说，即使整体准确性看似足够，召回率仍然较低。本研究通过使用信号检测理论来分解决策行为，考察这一缺陷，将其分为感知能力和决策标准的设置。我们提出了一种新的方法来纠正过于保守的决策策略，灵感来自于恐惧使人类趋向于规避风险的发现，并探讨与恐惧相关的情感表征是否可以被因果操控，从而类似地改变VLM的决策倾向。通过机械可解释性，我们在模型中定位了一个因果相关的情感电路，并利用激活引导对其进行操控，同时观察对下游预测的影响。该方法在基于Qwen2.5-VL-7B-Instruct构建的两阶段SeisMLLM管道上进行了测试，该管道在SeisMLLM-1K测试集上仅标记了27.0%的真正不安全建筑，并且从未发出假红色警报，其信号检测理论标准为c = +1.354，尽管证据质量足够（d' = 1.521）。在情感丰富的自然场景中定位到一个情感方向，通过稀疏神经元敲除和在保留情感数据上的分布式引导进行因果验证，然后将其注入建筑任务中。恐惧方向的注入将红色召回率提高到75.7%（p<0.001），而去除相同方向则完全抑制了红色预测，而与规范匹配的随机方向和匹配的幸福方向则未显示出显著效果。该机制是标准的转变（c=-1.515），而区分能力并未改善（d'=-0.493）。这些结果表明，VLM的决策可以在推理时进行调整而无需重新训练，并展示了机械可解释性如何用于诊断和控制工程应用中的VLM决策行为。",
+  "arxiv_id": "2610.11986",
+  "arxiv_url": "https://arxiv.org/abs/2610.11986v1",
+  "authors": [
+    "Xiaoshan Zhou"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-09#paper-2610-11986",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-09T11:46:16.366910+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.11986v1",
+  "published_at": "2026-10-08T13:57:46Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "vision language",
+      "VLM",
+      "detection",
+      "prediction",
+      "检测",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-10-09"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.11986v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-09"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "FearCaut-Qwen: Affective Steering in a Vision-Language Model Shifts the Decision Criterion for Hazard Assessment",
+  "title_zh": "FearCaut-Qwen：情感引导在视觉-语言模型中的应用改变了危险评估的决策标准",
+  "translation_url": "https://hjfy.top/arxiv/2610.11986"
+}
