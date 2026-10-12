@@ -1,0 +1,59 @@
+{
+  "abstract": "Detecting communicative meaning in dialogue requires modeling not only lexical content but also the participant-role structures through which sentiment, emotion, politeness, and formality (SEPF) are expressed. Existing approaches rely on contextual language representations while leaving semantic roles implicit. We introduce a role-aware transformer architecture that maps the four SEPF dimensions to theory-grounded Semantic Role Labeling (SRL) configurations, incorporating these configurations directly into the transformer's self-attention mechanism. Role-aware attention models non-directional internal states (sentiment and emotion), while directional role-aware attention captures initiator-to-recipient relations for external cues (politeness and formality). The resulting role-aware representations are fused with contextual embeddings through a learned gate that adaptively weights how much role information each input contributes, rather than appending semantic roles as an auxiliary feature vector. Across four benchmark datasets, the framework yields statistically reliable gains over strong BERT-based baselines for emotion, politeness, and formality, with gains concentrated in theoretically predicted cases such as low-frequency, complex emotions and highly polite expressions; sentiment improvements are marginal and non-significant, suggesting that sentiment is conveyed more through lexical choice than participant-role structure. Additional evaluation on real-world data demonstrates that the framework improves both predictive performance and model traceability. These results demonstrate that linguistically grounded modifications to transformer self-attention improve the detection of communicative meaning, generalize beyond benchmark datasets to real-world mental-health data, and yield traceable, role-grounded explanations that extend beyond predictive performance to interpretability.",
+  "abstract_zh": "在对话中检测交际意义不仅需要建模词汇内容，还需要建模参与者角色结构，通过这些结构表达情感、情绪、礼貌和正式性（SEPF）。现有的方法依赖于上下文语言表示，而将语义角色隐含化。我们提出了一种角色感知的变换器架构，将四个SEPF维度映射到理论基础的语义角色标注（SRL）配置中，并将这些配置直接融入变换器的自注意力机制。角色感知注意力模型对非定向的内部状态（情感和情绪）进行建模，而定向的角色感知注意力则捕捉发起者与接收者之间的关系，以获取外部线索（礼貌和正式性）。生成的角色感知表示通过一个学习的门控机制与上下文嵌入融合，该机制自适应地加权每个输入所贡献的角色信息，而不是将语义角色附加为辅助特征向量。在四个基准数据集上，该框架在情绪、礼貌和正式性方面相较于强大的基于BERT的基线模型取得了统计上显著的提升，且这些提升集中在理论预测的情况，如低频复杂情绪和高度礼貌的表达；情感的改善则是边际的且不显著，这表明情感更多是通过词汇选择而非参与者角色结构来传达的。对现实世界数据的额外评估表明，该框架在预测性能和模型可追溯性方面都有所改善。这些结果表明，基于语言学的变换器自注意力修改提高了交际意义的检测，超越基准数据集推广到现实世界的心理健康数据，并提供可追溯的、基于角色的解释，这些解释超越了预测性能，增强了可解释性。",
+  "arxiv_id": "2610.13797",
+  "arxiv_url": "https://arxiv.org/abs/2610.13797v1",
+  "authors": [
+    "Sangpil Youm",
+    "Annabel Stocks Natalias",
+    "Hayden Heninger",
+    "Leah Jones",
+    "Xiaoyang Jin",
+    "Xiaoya Zhang",
+    "Bonnie Dorr"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-12#paper-2610-13797",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-12T12:57:54.628721+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.13797v1",
+  "published_at": "2026-10-09T16:10:25Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "情绪",
+      "detection",
+      "dialogue",
+      "benchmark",
+      "检测",
+      "预测",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 39.0
+  },
+  "seen_dates": [
+    "2026-10-12"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.13797v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-12"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "心理状态/福祉"
+    ]
+  },
+  "title": "REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality",
+  "title_zh": "REFLECT：角色感知的情感、情绪、礼貌和正式性的检测",
+  "translation_url": "https://hjfy.top/arxiv/2610.13797"
+}

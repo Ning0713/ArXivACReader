@@ -1393,8 +1393,63 @@
         "情感大模型"
       ],
       "title": "FearCaut-Qwen: Affective Steering in a Vision-Language Model Shifts the Decision Criterion for Hazard Assessment"
+    },
+    "2610.12703": {
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12",
+      "tags": [
+        "情绪识别",
+        "数据集/评测"
+      ],
+      "title": "Bridging Human and Model Attention: Explainability Analysis of CNN, Mamba, and ViT Architectures with Gaze-Based Validation"
+    },
+    "2610.12758": {
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models"
+    },
+    "2610.12841": {
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Fear Is Not Always Fear: Variation in Emotion Label Equivalence Across Datasets"
+    },
+    "2610.13558": {
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12",
+      "tags": [
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "What We Talk About When We Talk About Emotion Editing"
+    },
+    "2610.13797": {
+      "dates": [
+        "2026-10-12"
+      ],
+      "first_seen": "2026-10-12",
+      "tags": [
+        "数据集/评测",
+        "心理状态/福祉"
+      ],
+      "title": "REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality"
     }
   },
-  "total": 121,
-  "updated_at": "2026-10-09T11:46:21.276672+00:00"
+  "total": 126,
+  "updated_at": "2026-10-12T12:57:57.749130+00:00"
 }

@@ -1,0 +1,52 @@
+{
+  "abstract": "Emotional image editing aims to change the emotion a scene conveys while preserving its essential content. Because the same scene can support different emotional interpretations, achieving an emotional goal requires visual changes grounded in the source context. Motivated by the Component Process Model, which links emotional responses to event appraisal, we investigate neural representations as a reference for these editing decisions. Using TRIBE v2, an fMRI encoding model, we analyze 400 source-target pairs across eight emotion categories. Hidden states from EmoEdit, EmoEditor, and AffectDelta correspond more strongly to predicted target-image responses in visual regions than in affect-related regions. This imbalance motivates ROI-ReFT, which combines source visual responses as a content reference with a predicted affective response change as an editing direction. Two interacting branches use both conditions to guide a frozen editor throughout generation. Predicted responses of the generated image supervise affective change and constrain visual drift. On a post hoc selected subset of 400 editing requests, ROI-ReFT achieves 91.75% target-emotion accuracy and 83.25% joint success, with the same output both matching the target emotion and reaching source-output DINO-I of at least 0.80. Our code and dataset will be publicly released.",
+  "abstract_zh": "情感图像编辑旨在改变场景传达的情感，同时保留其基本内容。由于同一场景可以支持不同的情感解读，实现情感目标需要基于源上下文的视觉变化。受到成分过程模型（Component Process Model）的启发，该模型将情感反应与事件评估联系起来，我们研究神经表征作为这些编辑决策的参考。使用TRIBE v2，这是一种功能性磁共振成像（fMRI）编码模型，我们分析了跨越八个情感类别的400对源-目标图像。来自EmoEdit、EmoEditor和AffectDelta的隐藏状态在视觉区域与预测的目标图像反应之间的对应关系比在情感相关区域更强。这种不平衡促使我们提出ROI-ReFT，它将源视觉反应作为内容参考，并将预测的情感反应变化作为编辑方向。两个相互作用的分支利用这两种条件来指导一个冻结的编辑器进行生成。生成图像的预测反应监督情感变化并限制视觉漂移。在后期选择的400个编辑请求的子集上，ROI-ReFT实现了91.75%的目标情感准确率和83.25%的联合成功率，且输出同时匹配目标情感并达到源输出DINO-I至少为0.80。我们的代码和数据集将公开发布。",
+  "arxiv_id": "2610.13558",
+  "arxiv_url": "https://arxiv.org/abs/2610.13558v1",
+  "authors": [
+    "Xingzu Zhan",
+    "Lin Gu",
+    "Ruogu Fang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-12#paper-2610-13558",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-12T12:57:54.514093+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.13558v1",
+  "published_at": "2026-10-09T13:13:59Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "affective",
+      "generation",
+      "dataset",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-10-12"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.13558v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-12"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "What We Talk About When We Talk About Emotion Editing",
+  "title_zh": "我们谈论情感编辑时谈论的是什么",
+  "translation_url": "https://hjfy.top/arxiv/2610.13558"
+}

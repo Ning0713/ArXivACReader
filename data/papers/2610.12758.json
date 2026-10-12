@@ -1,0 +1,52 @@
+{
+  "abstract": "Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users disclose suicide and self-harm (SSH) crises. Existing safety benchmarks score models primarily on refusal, but refusal is not the desired behavior here; the conversation requires a substantive supportive response. We introduce DistressBench, 718 English conversations with clinician-authored user turns spanning 23 SSH subcategories, each paired with a task-specific rubric of weighted atomic criteria across seven dimensions of crisis support and a clinician reference response. A model's score is the weighted average over the criteria its reply satisfies, reading directly as the fraction of required care delivered. The best of 25 frontier models satisfies 88.4% of weighted criteria and the median model 71.4%, against 98.7% for clinician references scored on the same criteria. Pooled across all 25 models, in 35.3% of conversations where a model satisfied every criterion for recognizing the crisis, it failed to route the user toward human help. The shortfall concentrates in the dimensions requiring the model to act rather than withhold. Contrasting each dimension's median model against its best separates capability limits from choices: de-escalation reaches 74.6% in the strongest model against a median of 46.0%, and safety disclaimers 84.6% against 8.3%. Multi-turn conversations score below single-turn ones (68.5% against 74.2%). We release the corpus, rubrics, judge calibration labels, and a companion annex of 20 long-horizon red-team transcripts. These results argue for evaluating crisis safety on the care a model delivers rather than on what it declines to say, and for treating de-escalation and resource routing as deployment requirements.",
+  "abstract_zh": "语言模型的采用速度快于可靠评估其风险的实践，而其使用中越来越多的是情感性而非信息性。在这一过程中，用户披露了自杀和自残（SSH）危机。现有的安全基准主要通过拒绝来评估模型，但在这里，拒绝并不是期望的行为；对话需要实质性的支持性回应。我们引入了DistressBench，包含718个英语对话，其中用户发言由临床医生撰写，涵盖23个SSH子类别，每个对话都配有针对特定任务的加权原子标准的评分标准，涉及七个危机支持维度以及临床医生的参考回应。模型的得分是其回复满足的标准的加权平均值，直接反映所提供的必要关怀的比例。在25个前沿模型中，表现最佳的模型满足了88.4%的加权标准，而中位模型为71.4%，相比之下，临床医生参考的得分为98.7%。在所有25个模型中，在35.3%的对话中，当模型满足每个识别危机的标准时，它未能将用户引导至人类帮助。短缺主要集中在需要模型采取行动而非保持沉默的维度。对比每个维度的中位模型与最佳模型，可以区分能力限制与选择：在最强模型中，去激化的得分达到74.6%，而中位数为46.0%；安全免责声明的得分为84.6%，而中位数为8.3%。多轮对话的得分低于单轮对话（68.5%对74.2%）。我们发布了语料库、评分标准、评审校准标签，以及一份包含20个长时间范围红队转录的附录。这些结果表明，应根据模型提供的关怀来评估危机安全，而不是基于其拒绝说出的内容，并且应将去激化和资源引导视为部署要求。",
+  "arxiv_id": "2610.12758",
+  "arxiv_url": "https://arxiv.org/abs/2610.12758v1",
+  "authors": [
+    "Drew Rein",
+    "Patrick Oathout",
+    "Vishal Kumar",
+    "Udari Madhushani Sehwag"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-12#paper-2610-12758",
+  "categories": [
+    "cs.CL",
+    "cs.CY"
+  ],
+  "fetched_at": "2026-10-12T12:57:54.596019+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.12758v1",
+  "published_at": "2026-10-08T22:09:12Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "large language models",
+      "conversation",
+      "识别",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-12"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.12758v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-12"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
+  "title_zh": "DistressBench：评估大型语言模型中的多维危机支持",
+  "translation_url": "https://hjfy.top/arxiv/2610.12758"
+}

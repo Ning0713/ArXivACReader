@@ -1,0 +1,48 @@
+{
+  "abstract": "Emotion classifiers are routinely applied beyond their training data, on the assumption that same-named labels such as fear or surprise mean the same thing across resources. We test this assumption for five labels shared by GoEmotions, XED, and BRIGHTER, comparing models on identical inputs and under cross-corpus transfer. On the same texts, one fear classifier flags 71% as fearful and another 8%, yet the two largely agree on how the texts rank. Across 30 resource-label comparisons, training-label prevalence explains about half of this kind of scale mismatch, and a fitted intercept removes most of it. What recalibration cannot repair is larger: transferred models lose 55% of native discrimination in aggregate, agreement in ranking between classifiers is only weakly related to that loss, and for surprise the resources disagree about which texts express the emotion. The choice of training resource can therefore change conclusions: on two external tweet collections, BRIGHTER- and XED-trained classifiers give opposite answers about which shows more surprise, even after rank normalization, with intervals excluding zero in both directions. A shared emotion label name does not establish an interchangeable measurement target.",
+  "abstract_zh": "情感分类器通常在其训练数据之外应用，假设相同名称的标签（如恐惧或惊讶）在不同资源中具有相同的含义。我们测试了这一假设，针对 GoEmotions、XED 和 BRIGHTER 三个数据集中共享的五个标签，比较在相同输入下的模型表现以及跨语料库转移的效果。在相同文本上，一个恐惧分类器将 71% 的文本标记为恐惧，而另一个仅标记 8%，但这两个分类器在文本排名上大致一致。在 30 个资源标签比较中，训练标签的普遍性大约解释了这种规模不匹配的一半，而拟合的截距则消除了大部分不匹配。然而，重校准无法修复的问题更为严重：转移模型在总体上失去了 55% 的原生区分能力，分类器之间的排名一致性与这种损失的关系仅为微弱，而对于惊讶情感，各资源在哪些文本表达该情感上存在分歧。因此，训练资源的选择可能改变结论：在两个外部推文集合上，基于 BRIGHTER 和 XED 训练的分类器对哪个集合表现出更多惊讶给出了相反的答案，即使在排名归一化后，两个方向的置信区间均不包含零。共享的情感标签名称并不建立可互换的测量目标。",
+  "arxiv_id": "2610.12841",
+  "arxiv_url": "https://arxiv.org/abs/2610.12841v1",
+  "authors": [
+    "Emily Öhman",
+    "Anna Koufakou"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-12#paper-2610-12841",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-12T12:57:54.598719+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.12841v1",
+  "published_at": "2026-10-09T00:55:54Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分类",
+      "emotion",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 37.0
+  },
+  "seen_dates": [
+    "2026-10-12"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.12841v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-12"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Fear Is Not Always Fear: Variation in Emotion Label Equivalence Across Datasets",
+  "title_zh": "恐惧并不总是恐惧：跨数据集情感标签等价性的变异",
+  "translation_url": "https://hjfy.top/arxiv/2610.12841"
+}

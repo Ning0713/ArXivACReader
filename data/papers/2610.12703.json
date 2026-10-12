@@ -1,0 +1,61 @@
+{
+  "abstract": "High-risk applications of deep learning require precise characterization of model decision-making. We conduct a systematic explainability evaluation across Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), and Vision Mamba (ViM). Unlike predominantly qualitative studies, we quantify the alignment between model attention and human visual perception using eye-tracking ground truth. We formalize this comparison via a standardized normalization pipeline mapping post-hoc attribution maps and gaze heatmaps onto spatial probability distributions. Alignment is evaluated across fine-grained classification, medical imaging, and emotion recognition using architecture-specific XAI methods. We measure fidelity using Jensen-Shannon similarity, Chi-square similarity, and Pearson correlation, three complementary estimators capturing support overlap, mass discrepancy, and structural co-variation. Our results reveal distinct attention dynamics: CNNs tend to exhibit a more global focus, with spatially more diffuse saliency maps that correlate well with human perception in general contexts, while ViTs demonstrate fine-grained, patch-level attention, often focused on discriminative microfeatures. The Mamba architecture shows biased behavior: it achieves strong explainability in medical tasks but exhibits divergent intensity distributions in natural images; our analytical characterization of the metrics makes this dissociation explicit, since near-unit support overlap is attained simultaneously with a vanishing linear correlation. We further analyze the effect of backbone freezing and ensemble strategies on model interpretability. The results highlight how architectural and training choices influence the alignment between model saliency and human visual attention.",
+  "abstract_zh": "深度学习的高风险应用需要对模型决策进行精确表征。我们对卷积神经网络（CNN）、视觉变换器（ViT）和视觉Mamba（ViM）进行了系统的可解释性评估。与主要定性研究不同，我们量化了模型注意力与人类视觉感知之间的对齐程度，使用眼动追踪作为真实数据。我们通过标准化的归一化流程将后验归因图和注视热图映射到空间概率分布，从而形式化这一比较。我们在细粒度分类、医学成像和情感识别中使用特定架构的可解释人工智能（XAI）方法评估对齐情况。我们使用Jensen-Shannon相似性、卡方相似性和Pearson相关系数这三种互补估计量来测量保真度，捕捉支持重叠、质量差异和结构共变的情况。我们的结果揭示了不同的注意力动态：CNN倾向于表现出更全球的关注，具有空间上更分散的显著性图，与人类在一般上下文中的感知良好相关，而ViT则展示了细粒度的、基于补丁的注意力，通常集中于区分性微特征。Mamba架构表现出偏向行为：在医学任务中实现了强可解释性，但在自然图像中表现出不同的强度分布；我们对指标的分析特征使这种分离变得明确，因为几乎单位的支持重叠与消失的线性相关性同时出现。我们进一步分析了骨干网络冻结和集成策略对模型可解释性的影响。结果强调了架构和训练选择如何影响模型显著性与人类视觉注意力之间的对齐。",
+  "arxiv_id": "2610.12703",
+  "arxiv_url": "https://arxiv.org/abs/2610.12703v1",
+  "authors": [
+    "Marco Stefani",
+    "Edoardo Parpaiola",
+    "Matteo Bino",
+    "Gianluca Caregnato",
+    "Francesco Roncolato",
+    "Daniel Fusaro",
+    "Loris Nanni",
+    "Alberto Pretto"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-12#paper-2610-12703",
+  "categories": [
+    "cs.CV",
+    "cs.HC",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-12T12:57:54.458642+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.12703v1",
+  "published_at": "2026-10-08T20:33:38Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "recognition",
+      "classification",
+      "deep learning",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-10-12"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.12703v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-12"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Bridging Human and Model Attention: Explainability Analysis of CNN, Mamba, and ViT Architectures with Gaze-Based Validation",
+  "title_zh": "桥接人类与模型注意力：基于注视验证的CNN、Mamba和ViT架构的可解释性分析",
+  "translation_url": "https://hjfy.top/arxiv/2610.12703"
+}

@@ -1,6 +1,105 @@
 {
-  "generated_at": "2026-10-09T11:46:21.276672+00:00",
+  "generated_at": "2026-10-12T12:57:57.749130+00:00",
   "items": [
+    {
+      "abstract": "Detecting communicative meaning in dialogue requires modeling not only lexical content but also the participant-role structures through which sentiment, emotion, politeness, and formality (SEPF) are expressed. Existing approaches rely on contextual language representations while leaving semantic roles implicit. We introduce a role-aware transformer architecture that maps the four SEPF dimensions to theory-grounded Semantic Role Labeling (SRL) configurations, incorporating these configurations directly into the transformer's self-attention mechanism. Role-aware attention models non-directional internal states (sentiment and emotion), while directional role-aware attention captures initiator-to-recipient relations for external cues (politeness and formality). The resulting role-aware representations are fused with contextual embeddings through a learned gate that adaptively weights how much role information each input contributes, rather than appending semantic roles as an auxiliary feature vector. Across four benchmark datasets, the framework yields statistically reliable gains over strong BERT-based baselines for emotion, politeness, and formality, with gains concentrated in theoretically predicted cases such as low-frequency, complex emotions and highly polite expressions; sentiment improvements are marginal and non-significant, suggesting that sentiment is conveyed more through lexical choice than participant-role structure. Additional evaluation on real-world data demonstrates that the framework improves both predictive performance and model traceability. These results demonstrate that linguistically grounded modifications to transformer self-attention improve the detection of communicative meaning, generalize beyond benchmark datasets to real-world mental-health data, and yield traceable, role-grounded explanations that extend beyond predictive performance to interpretability.",
+      "abstract_zh": "在对话中检测交际意义不仅需要建模词汇内容，还需要建模参与者角色结构，通过这些结构表达情感、情绪、礼貌和正式性（SEPF）。现有的方法依赖于上下文语言表示，而将语义角色隐含化。我们提出了一种角色感知的变换器架构，将四个SEPF维度映射到理论基础的语义角色标注（SRL）配置中，并将这些配置直接融入变换器的自注意力机制。角色感知注意力模型对非定向的内部状态（情感和情绪）进行建模，而定向的角色感知注意力则捕捉发起者与接收者之间的关系，以获取外部线索（礼貌和正式性）。生成的角色感知表示通过一个学习的门控机制与上下文嵌入融合，该机制自适应地加权每个输入所贡献的角色信息，而不是将语义角色附加为辅助特征向量。在四个基准数据集上，该框架在情绪、礼貌和正式性方面相较于强大的基于BERT的基线模型取得了统计上显著的提升，且这些提升集中在理论预测的情况，如低频复杂情绪和高度礼貌的表达；情感的改善则是边际的且不显著，这表明情感更多是通过词汇选择而非参与者角色结构来传达的。对现实世界数据的额外评估表明，该框架在预测性能和模型可追溯性方面都有所改善。这些结果表明，基于语言学的变换器自注意力修改提高了交际意义的检测，超越基准数据集推广到现实世界的心理健康数据，并提供可追溯的、基于角色的解释，这些解释超越了预测性能，增强了可解释性。",
+      "authors": [
+        "Sangpil Youm",
+        "Annabel Stocks Natalias",
+        "Hayden Heninger",
+        "Leah Jones",
+        "Xiaoyang Jin",
+        "Xiaoya Zhang",
+        "Bonnie Dorr"
+      ],
+      "date": "2026-10-12",
+      "id": "2610.13797",
+      "tags": [
+        "数据集/评测",
+        "心理状态/福祉"
+      ],
+      "title": "REFLECT: Role-Aware Detection of Sentiment, Emotion, Politeness, and Formality",
+      "title_zh": "REFLECT：角色感知的情感、情绪、礼貌和正式性的检测",
+      "url": "/daily/2026-10-12/#paper-2610-13797"
+    },
+    {
+      "abstract": "Emotional image editing aims to change the emotion a scene conveys while preserving its essential content. Because the same scene can support different emotional interpretations, achieving an emotional goal requires visual changes grounded in the source context. Motivated by the Component Process Model, which links emotional responses to event appraisal, we investigate neural representations as a reference for these editing decisions. Using TRIBE v2, an fMRI encoding model, we analyze 400 source-target pairs across eight emotion categories. Hidden states from EmoEdit, EmoEditor, and AffectDelta correspond more strongly to predicted target-image responses in visual regions than in affect-related regions. This imbalance motivates ROI-ReFT, which combines source visual responses as a content reference with a predicted affective response change as an editing direction. Two interacting branches use both conditions to guide a frozen editor throughout generation. Predicted responses of the generated image supervise affective change and constrain visual drift. On a post hoc selected subset of 400 editing requests, ROI-ReFT achieves 91.75% target-emotion accuracy and 83.25% joint success, with the same output both matching the target emotion and reaching source-output DINO-I of at least 0.80. Our code and dataset will be publicly released.",
+      "abstract_zh": "情感图像编辑旨在改变场景传达的情感，同时保留其基本内容。由于同一场景可以支持不同的情感解读，实现情感目标需要基于源上下文的视觉变化。受到成分过程模型（Component Process Model）的启发，该模型将情感反应与事件评估联系起来，我们研究神经表征作为这些编辑决策的参考。使用TRIBE v2，这是一种功能性磁共振成像（fMRI）编码模型，我们分析了跨越八个情感类别的400对源-目标图像。来自EmoEdit、EmoEditor和AffectDelta的隐藏状态在视觉区域与预测的目标图像反应之间的对应关系比在情感相关区域更强。这种不平衡促使我们提出ROI-ReFT，它将源视觉反应作为内容参考，并将预测的情感反应变化作为编辑方向。两个相互作用的分支利用这两种条件来指导一个冻结的编辑器进行生成。生成图像的预测反应监督情感变化并限制视觉漂移。在后期选择的400个编辑请求的子集上，ROI-ReFT实现了91.75%的目标情感准确率和83.25%的联合成功率，且输出同时匹配目标情感并达到源输出DINO-I至少为0.80。我们的代码和数据集将公开发布。",
+      "authors": [
+        "Xingzu Zhan",
+        "Lin Gu",
+        "Ruogu Fang"
+      ],
+      "date": "2026-10-12",
+      "id": "2610.13558",
+      "tags": [
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "What We Talk About When We Talk About Emotion Editing",
+      "title_zh": "我们谈论情感编辑时谈论的是什么",
+      "url": "/daily/2026-10-12/#paper-2610-13558"
+    },
+    {
+      "abstract": "Emotion classifiers are routinely applied beyond their training data, on the assumption that same-named labels such as fear or surprise mean the same thing across resources. We test this assumption for five labels shared by GoEmotions, XED, and BRIGHTER, comparing models on identical inputs and under cross-corpus transfer. On the same texts, one fear classifier flags 71% as fearful and another 8%, yet the two largely agree on how the texts rank. Across 30 resource-label comparisons, training-label prevalence explains about half of this kind of scale mismatch, and a fitted intercept removes most of it. What recalibration cannot repair is larger: transferred models lose 55% of native discrimination in aggregate, agreement in ranking between classifiers is only weakly related to that loss, and for surprise the resources disagree about which texts express the emotion. The choice of training resource can therefore change conclusions: on two external tweet collections, BRIGHTER- and XED-trained classifiers give opposite answers about which shows more surprise, even after rank normalization, with intervals excluding zero in both directions. A shared emotion label name does not establish an interchangeable measurement target.",
+      "abstract_zh": "情感分类器通常在其训练数据之外应用，假设相同名称的标签（如恐惧或惊讶）在不同资源中具有相同的含义。我们测试了这一假设，针对 GoEmotions、XED 和 BRIGHTER 三个数据集中共享的五个标签，比较在相同输入下的模型表现以及跨语料库转移的效果。在相同文本上，一个恐惧分类器将 71% 的文本标记为恐惧，而另一个仅标记 8%，但这两个分类器在文本排名上大致一致。在 30 个资源标签比较中，训练标签的普遍性大约解释了这种规模不匹配的一半，而拟合的截距则消除了大部分不匹配。然而，重校准无法修复的问题更为严重：转移模型在总体上失去了 55% 的原生区分能力，分类器之间的排名一致性与这种损失的关系仅为微弱，而对于惊讶情感，各资源在哪些文本表达该情感上存在分歧。因此，训练资源的选择可能改变结论：在两个外部推文集合上，基于 BRIGHTER 和 XED 训练的分类器对哪个集合表现出更多惊讶给出了相反的答案，即使在排名归一化后，两个方向的置信区间均不包含零。共享的情感标签名称并不建立可互换的测量目标。",
+      "authors": [
+        "Emily Öhman",
+        "Anna Koufakou"
+      ],
+      "date": "2026-10-12",
+      "id": "2610.12841",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Fear Is Not Always Fear: Variation in Emotion Label Equivalence Across Datasets",
+      "title_zh": "恐惧并不总是恐惧：跨数据集情感标签等价性的变异",
+      "url": "/daily/2026-10-12/#paper-2610-12841"
+    },
+    {
+      "abstract": "Language models have been adopted faster than evaluation practices that reliably assess their risks, and a growing share of use is affective rather than informational. Within that traffic users disclose suicide and self-harm (SSH) crises. Existing safety benchmarks score models primarily on refusal, but refusal is not the desired behavior here; the conversation requires a substantive supportive response. We introduce DistressBench, 718 English conversations with clinician-authored user turns spanning 23 SSH subcategories, each paired with a task-specific rubric of weighted atomic criteria across seven dimensions of crisis support and a clinician reference response. A model's score is the weighted average over the criteria its reply satisfies, reading directly as the fraction of required care delivered. The best of 25 frontier models satisfies 88.4% of weighted criteria and the median model 71.4%, against 98.7% for clinician references scored on the same criteria. Pooled across all 25 models, in 35.3% of conversations where a model satisfied every criterion for recognizing the crisis, it failed to route the user toward human help. The shortfall concentrates in the dimensions requiring the model to act rather than withhold. Contrasting each dimension's median model against its best separates capability limits from choices: de-escalation reaches 74.6% in the strongest model against a median of 46.0%, and safety disclaimers 84.6% against 8.3%. Multi-turn conversations score below single-turn ones (68.5% against 74.2%). We release the corpus, rubrics, judge calibration labels, and a companion annex of 20 long-horizon red-team transcripts. These results argue for evaluating crisis safety on the care a model delivers rather than on what it declines to say, and for treating de-escalation and resource routing as deployment requirements.",
+      "abstract_zh": "语言模型的采用速度快于可靠评估其风险的实践，而其使用中越来越多的是情感性而非信息性。在这一过程中，用户披露了自杀和自残（SSH）危机。现有的安全基准主要通过拒绝来评估模型，但在这里，拒绝并不是期望的行为；对话需要实质性的支持性回应。我们引入了DistressBench，包含718个英语对话，其中用户发言由临床医生撰写，涵盖23个SSH子类别，每个对话都配有针对特定任务的加权原子标准的评分标准，涉及七个危机支持维度以及临床医生的参考回应。模型的得分是其回复满足的标准的加权平均值，直接反映所提供的必要关怀的比例。在25个前沿模型中，表现最佳的模型满足了88.4%的加权标准，而中位模型为71.4%，相比之下，临床医生参考的得分为98.7%。在所有25个模型中，在35.3%的对话中，当模型满足每个识别危机的标准时，它未能将用户引导至人类帮助。短缺主要集中在需要模型采取行动而非保持沉默的维度。对比每个维度的中位模型与最佳模型，可以区分能力限制与选择：在最强模型中，去激化的得分达到74.6%，而中位数为46.0%；安全免责声明的得分为84.6%，而中位数为8.3%。多轮对话的得分低于单轮对话（68.5%对74.2%）。我们发布了语料库、评分标准、评审校准标签，以及一份包含20个长时间范围红队转录的附录。这些结果表明，应根据模型提供的关怀来评估危机安全，而不是基于其拒绝说出的内容，并且应将去激化和资源引导视为部署要求。",
+      "authors": [
+        "Drew Rein",
+        "Patrick Oathout",
+        "Vishal Kumar",
+        "Udari Madhushani Sehwag"
+      ],
+      "date": "2026-10-12",
+      "id": "2610.12758",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "DistressBench: Evaluating Multi-Dimensional Crisis Support in Large Language Models",
+      "title_zh": "DistressBench：评估大型语言模型中的多维危机支持",
+      "url": "/daily/2026-10-12/#paper-2610-12758"
+    },
+    {
+      "abstract": "High-risk applications of deep learning require precise characterization of model decision-making. We conduct a systematic explainability evaluation across Convolutional Neural Networks (CNNs), Vision Transformers (ViTs), and Vision Mamba (ViM). Unlike predominantly qualitative studies, we quantify the alignment between model attention and human visual perception using eye-tracking ground truth. We formalize this comparison via a standardized normalization pipeline mapping post-hoc attribution maps and gaze heatmaps onto spatial probability distributions. Alignment is evaluated across fine-grained classification, medical imaging, and emotion recognition using architecture-specific XAI methods. We measure fidelity using Jensen-Shannon similarity, Chi-square similarity, and Pearson correlation, three complementary estimators capturing support overlap, mass discrepancy, and structural co-variation. Our results reveal distinct attention dynamics: CNNs tend to exhibit a more global focus, with spatially more diffuse saliency maps that correlate well with human perception in general contexts, while ViTs demonstrate fine-grained, patch-level attention, often focused on discriminative microfeatures. The Mamba architecture shows biased behavior: it achieves strong explainability in medical tasks but exhibits divergent intensity distributions in natural images; our analytical characterization of the metrics makes this dissociation explicit, since near-unit support overlap is attained simultaneously with a vanishing linear correlation. We further analyze the effect of backbone freezing and ensemble strategies on model interpretability. The results highlight how architectural and training choices influence the alignment between model saliency and human visual attention.",
+      "abstract_zh": "深度学习的高风险应用需要对模型决策进行精确表征。我们对卷积神经网络（CNN）、视觉变换器（ViT）和视觉Mamba（ViM）进行了系统的可解释性评估。与主要定性研究不同，我们量化了模型注意力与人类视觉感知之间的对齐程度，使用眼动追踪作为真实数据。我们通过标准化的归一化流程将后验归因图和注视热图映射到空间概率分布，从而形式化这一比较。我们在细粒度分类、医学成像和情感识别中使用特定架构的可解释人工智能（XAI）方法评估对齐情况。我们使用Jensen-Shannon相似性、卡方相似性和Pearson相关系数这三种互补估计量来测量保真度，捕捉支持重叠、质量差异和结构共变的情况。我们的结果揭示了不同的注意力动态：CNN倾向于表现出更全球的关注，具有空间上更分散的显著性图，与人类在一般上下文中的感知良好相关，而ViT则展示了细粒度的、基于补丁的注意力，通常集中于区分性微特征。Mamba架构表现出偏向行为：在医学任务中实现了强可解释性，但在自然图像中表现出不同的强度分布；我们对指标的分析特征使这种分离变得明确，因为几乎单位的支持重叠与消失的线性相关性同时出现。我们进一步分析了骨干网络冻结和集成策略对模型可解释性的影响。结果强调了架构和训练选择如何影响模型显著性与人类视觉注意力之间的对齐。",
+      "authors": [
+        "Marco Stefani",
+        "Edoardo Parpaiola",
+        "Matteo Bino",
+        "Gianluca Caregnato",
+        "Francesco Roncolato",
+        "Daniel Fusaro",
+        "Loris Nanni",
+        "Alberto Pretto"
+      ],
+      "date": "2026-10-12",
+      "id": "2610.12703",
+      "tags": [
+        "情绪识别",
+        "数据集/评测"
+      ],
+      "title": "Bridging Human and Model Attention: Explainability Analysis of CNN, Mamba, and ViT Architectures with Gaze-Based Validation",
+      "title_zh": "桥接人类与模型注意力：基于注视验证的CNN、Mamba和ViT架构的可解释性分析",
+      "url": "/daily/2026-10-12/#paper-2610-12703"
+    },
     {
       "abstract": "Vision-language models (VLMs) show great potential for damage assessment after a disaster, but a recurring deficiency is that they are reluctant to declare a hazard; that is, recall is low even when overall accuracy appears adequate. This study examines that deficiency by using signal detection theory to decompose the decision behavior into perceptual capability and decision-criterion placement. We then propose a novel method for correcting the over-conservative decision policy, inspired by the finding that fear makes humans risk-averse, and ask whether an affective representation associated with fear can be causally manipulated to similarly alter a VLM's decision tendency. Using mechanistic interpretability, we localize a causally implicated affective circuit in the model and use activation steering to manipulate it while observing the effect on downstream prediction. The method is tested on a two-stage SeisMLLM pipeline built on Qwen2.5-VL-7B-Instruct, which flags only 27.0% of genuinely unsafe buildings on the SeisMLLM-1K test split and never issues a false Red, an SDT criterion of c = +1.354, despite adequate evidence quality (d' = 1.521). An affective direction is localized on emotion-rich natural scenes, causally validated by sparse-neuron knockout and distributed steering on held-out emotion data, and then injected into the building task. Fear-direction injection raises Red recall to 75.7% (p<0.001), and subtracting the same direction suppresses Red predictions entirely, whereas norm-matched random and matched happiness directions show no significant effect. The mechanism is a shift in criterion (c=-1.515) while discrimination is not improved (d'=-0.493). These results show that VLM decisions can be adjusted at inference time without retraining and demonstrate how mechanistic interpretability can be used to diagnose and control VLM decision behaviors in engineering applications.",
       "abstract_zh": "视觉-语言模型（VLMs）在灾后损害评估中展现出巨大潜力，但一个反复出现的缺陷是它们不愿意宣告危险；也就是说，即使整体准确性看似足够，召回率仍然较低。本研究通过使用信号检测理论来分解决策行为，考察这一缺陷，将其分为感知能力和决策标准的设置。我们提出了一种新的方法来纠正过于保守的决策策略，灵感来自于恐惧使人类趋向于规避风险的发现，并探讨与恐惧相关的情感表征是否可以被因果操控，从而类似地改变VLM的决策倾向。通过机械可解释性，我们在模型中定位了一个因果相关的情感电路，并利用激活引导对其进行操控，同时观察对下游预测的影响。该方法在基于Qwen2.5-VL-7B-Instruct构建的两阶段SeisMLLM管道上进行了测试，该管道在SeisMLLM-1K测试集上仅标记了27.0%的真正不安全建筑，并且从未发出假红色警报，其信号检测理论标准为c = +1.354，尽管证据质量足够（d' = 1.521）。在情感丰富的自然场景中定位到一个情感方向，通过稀疏神经元敲除和在保留情感数据上的分布式引导进行因果验证，然后将其注入建筑任务中。恐惧方向的注入将红色召回率提高到75.7%（p<0.001），而去除相同方向则完全抑制了红色预测，而与规范匹配的随机方向和匹配的幸福方向则未显示出显著效果。该机制是标准的转变（c=-1.515），而区分能力并未改善（d'=-0.493）。这些结果表明，VLM的决策可以在推理时进行调整而无需重新训练，并展示了机械可解释性如何用于诊断和控制工程应用中的VLM决策行为。",
