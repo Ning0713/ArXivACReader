@@ -1,0 +1,55 @@
+{
+  "abstract": "The original EneMonIE proposal describes a Web-based semantic system for continuously monitoring energy trends through targeted information extraction from heterogeneous online media. This article presents EneMonIE-Backend, an implementation-derived redesign that converts that conceptual pipeline into a modular, executable, and application-independent backend. The architecture separates five concerns: data sources, acquisition and normalization, semantic processing, knowledge organization, and persistent storage. It operationalizes configurable connectors for RSS feeds, URL collections, arXiv, social-media JSON files, and open-data CSV files; it also introduces question-driven Web search and scraping. Relevant documents pass through energy categorization, named entity recognition, temporal and event extraction, source sensitive sentiment analysis, and extractive summarization. The resulting semantic representations support entity co-occurrence graphs, cross-document interlinking, cluster-level information fusion, and relational persistence in SQLite. Three grounded question-answering paths are exposed at the backend level: live Web evidence, the stored corpus, and selected configured resources. Answer generation uses a language model when configured and otherwise falls back to deterministic extractive output. Unlike the original proposal, the presented architecture deliberately excludes the user-interface and server-side application layers, allowing the semantic core to be embedded in different applications. A deterministic smoke validation confirms relevance filtering, persistence, clustering, evidence retrieval, and document deletion. The work provides a reproducible architectural basis for future evaluation on larger multilingual energy corpora.",
+  "abstract_zh": "原始的 EneMonIE 提案描述了一个基于网络的语义系统，通过从异构在线媒体中有针对性地提取信息，持续监测能源趋势。本文提出了 EneMonIE-Backend，这是一种基于实现的重新设计，将该概念管道转换为一个模块化、可执行且与应用无关的后端架构。该架构分离了五个关注点：数据源、获取与规范化、语义处理、知识组织和持久存储。它实现了可配置的连接器，用于 RSS 源、URL 集合、arXiv、社交媒体 JSON 文件和开放数据 CSV 文件；同时引入了基于问题的网络搜索和抓取。相关文档经过能源分类、命名实体识别、时间和事件提取、源敏感情感分析以及抽取式摘要处理。生成的语义表示支持实体共现图、跨文档互联、集群级信息融合和在 SQLite 中的关系持久性。在后端层面，提供了三条基于语境的问题回答路径：实时网络证据、存储语料库和选定的配置资源。答案生成在配置时使用语言模型，否则回退到确定性的抽取输出。与原始提案不同，所呈现的架构故意排除了用户界面和服务器端应用层，允许语义核心嵌入到不同的应用中。确定性的烟雾验证确认了相关性过滤、持久性、聚类、证据检索和文档删除。该工作为未来在更大多语言能源语料库上的评估提供了可重复的架构基础。",
+  "arxiv_id": "2610.17243",
+  "arxiv_url": "https://arxiv.org/abs/2610.17243v1",
+  "authors": [
+    "Janik Lesage",
+    "Khadim Lô",
+    "and Jean-Sébastien Dessureault"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-17243",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.IR"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.494703+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.17243v1",
+  "published_at": "2026-10-12T18:09:35Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "recognition",
+      "generation",
+      "识别",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 71.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.17243v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感生成",
+      "社交信号"
+    ]
+  },
+  "title": "From Conceptual EneMonIE to an Executable Backend: A Modular Architecture for Energy Information Extractionand Grounded Question Answering",
+  "title_zh": "从概念性 EneMonIE 到可执行后端：一种用于能源信息提取和基于语境的问题回答的模块化架构",
+  "translation_url": "https://hjfy.top/arxiv/2610.17243"
+}

@@ -1,0 +1,53 @@
+{
+  "abstract": "Emotion-Cause Pair Extraction (ECPE) requires identifying the causes associated with emotions expressed in a conversation. Accurate extraction can depend on evidence that is not initially available, making it important to decide when further information is worth acquiring. We study agent-guided evidence acquisition for ECPE, where a student agent selectively accesses expert judgments for borderline relations on both sides of its validation-selected F1 decision boundary and revises only queried predictions. Through controlled comparisons under different information-access conditions, we examine how delegation granularity, query selection, and response integration affect prediction quality. At a nominal 10% query rate, selective fusion improves mean pair F1 by 2.64-3.88 points over the student in our main experiments, reaching 65.14 on ECF and 49.74 on MEC4 across model families. Our analysis suggests that greater access does not always translate into better cause identification. These findings motivate acquisition strategies that consider both the relevance of newly available evidence and its effect on prediction revision, providing an empirical basis for more effective and efficient evidence acquisition in ECPE.",
+  "abstract_zh": "情感-原因对提取（ECPE）需要识别与对话中表达的情感相关的原因。准确的提取可能依赖于最初不可用的证据，因此决定何时获取进一步信息变得至关重要。我们研究了用于ECPE的代理引导证据获取，其中学生代理选择性地访问专家判断，以处理其验证选择的F1决策边界两侧的边界关系，并仅修正被查询的预测。通过在不同信息访问条件下的受控比较，我们考察了委托粒度、查询选择和响应整合如何影响预测质量。在名义上的10%查询率下，选择性融合在我们的主要实验中使平均对F1提高了2.64-3.88分，ECF达到了65.14，MEC4达到了49.74，涵盖了不同模型系列。我们的分析表明，更大的访问并不总是转化为更好的原因识别。这些发现激励了考虑新获取证据的相关性及其对预测修正影响的获取策略，为ECPE中更有效和高效的证据获取提供了实证基础。",
+  "arxiv_id": "2610.14886",
+  "arxiv_url": "https://arxiv.org/abs/2610.14886v1",
+  "authors": [
+    "Zhuangzhuang Pan",
+    "Yan Xia",
+    "Chee Seng Chan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-14886",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.397456+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.14886v1",
+  "published_at": "2026-10-10T12:59:03Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affect prediction",
+      "emotion cause",
+      "emotion",
+      "emotions",
+      "prediction",
+      "conversation",
+      "识别",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 83.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.14886v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "Agent-Guided Evidence Acquisition for Emotion-Cause Pair Extraction",
+  "title_zh": "基于代理的情感-原因对提取的证据获取",
+  "translation_url": "https://hjfy.top/arxiv/2610.14886"
+}

@@ -1,0 +1,54 @@
+{
+  "abstract": "Calibrated typed-decision (\"System One\") models return a label and a probability in a single forward pass at a small fraction of the cost of large language models (LLMs), yet their evaluation has been almost entirely English. We report a pre-registered evaluation of the commercial Jev model and the open Laya-multilingual model on Indonesian regional languages, using the parallel NusaX sentiment (12 languages) and NusaTranslation sentiment and emotion (7 languages) test sets. Jev is more often correct on sentences that are lexically closer to Indonesian in all three datasets, and presenting the human Indonesian translation instead raises its accuracy by up to 37.2 points, most in languages distant from Indonesian. Its expected calibration error does not grow on regional languages, but its ability to rank its own errors degrades in all three datasets. Retrained classifiers need more than 500 labels per language to match zero-shot Jev in 9 of 10 NusaX regional languages. A confidence-gated cascade that sends Jev's 10-30% least confident decisions to a local IndoBERT classifier matches or exceeds the better of the two systems, and routing to an LLM instead matches that LLM at 24-77% lower API cost. Of six further commercial LLMs (three Claude and three GPT models), five are 4-14 points more accurate than Jev, at several hundred times the API cost where it is reported, while the smallest (Claude Haiku) is less accurate. We release the pre-registration, code and all predictions.",
+  "abstract_zh": "校准的类型决策（“系统一”）模型在一次前向传递中返回标签和概率，其成本仅为大型语言模型（LLMs）的一个小部分，但其评估几乎完全基于英语。我们报告了对商业Jev模型和开放的Laya多语言模型在印尼地区语言上的预注册评估，使用了平行的NusaX情感（12种语言）和NusaTranslation情感与情绪（7种语言）测试集。Jev在所有三个数据集中对与印尼语在词汇上更接近的句子的判断更为准确，且呈现人类印尼语翻译后，其准确率提高了最多37.2个百分点，尤其是在与印尼语相距较远的语言中。其预期校准误差在地区语言上并未增长，但其对自身错误的排名能力在所有三个数据集中都有所下降。重新训练的分类器在10种NusaX地区语言中，有9种需要超过500个标签才能与零样本Jev相匹配。一个信心门控级联，将Jev的10-30%信心最低的决策发送到本地IndoBERT分类器，能够匹配或超过这两个系统中更好的一个，而转向LLM则在API成本上比该LLM低24-77%。在六个进一步的商业LLM中（三个Claude模型和三个GPT模型），五个的准确率比Jev高出4-14个百分点，API成本是其报告的几百倍，而最小的（Claude Haiku）准确率较低。我们发布了预注册、代码和所有预测结果。",
+  "arxiv_id": "2610.14112",
+  "arxiv_url": "https://arxiv.org/abs/2610.14112v1",
+  "authors": [
+    "Romi Fadli",
+    "Rusdah",
+    "Wahyu Ramadani Putri Utami",
+    "Zulfa Malika Amana"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-14112",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.374108+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.14112v1",
+  "published_at": "2026-10-09T04:12:51Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "情绪",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "分类",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.14112v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Does System One Transfer? Calibrated Typed-Decision Models, Label Budgets, and Translation for Indonesian Regional Languages",
+  "title_zh": "系统一能否迁移？校准的类型决策模型、标签预算与印尼地区语言的翻译",
+  "translation_url": "https://hjfy.top/arxiv/2610.14112"
+}

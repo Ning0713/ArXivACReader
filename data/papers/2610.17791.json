@@ -1,0 +1,55 @@
+{
+  "abstract": "Understanding facial behaviour in video requires answering three fundamental questions: when a key facial expression occurs, where the model attends on the face at that moment, and why that evidence is necessary rather than merely correlated. Today's multimodal large language models (MLLMs) can label and describe video, but they rarely provide faithful explanations, especially for small facial movements that change over time. We present VideoFace-X-LLM, a framework for explainable facial video understanding comprising two key components. First, we introduce ExplainFace, a weakly supervised video-text corpus for facial behaviour understanding, automatically constructed from CelebV-HQ videos and validated through human evaluation and a two-model audit (at most 2.3% contradictions), demonstrating consistent gains across two backbone architectures. Second, H-TCC (Hierarchical Temporal Spatial Causal Concepts), which finds the key temporal moments (When), the facial regions (Where), and verifies its causal necessity (Why) through targeted occlusion. Fine-tuning on ExplainFace raises appearance Macro F1 from 19.48% to 32.87% (+13.39), with gains of +4.38 on actions, +6.77 on temporal emotion, and +11.84 F1 on deepfake detection. We also measure the explanations pointing lift, face/edge lift, stability, an Adebayo sanity check, and a necessity test rather than only showing examples. Our models, code, and corpus are available on request for research use.",
+  "abstract_zh": "理解视频中的面部行为需要回答三个基本问题：关键面部表情何时出现（When）、模型在该时刻关注面部的哪些区域（Where），以及为何这些证据是必要的而不仅仅是相关的（Why）。如今的多模态大语言模型（MLLMs）能够对视频进行标注和描述，但它们很少提供真实的解释，尤其是在处理随时间变化的小面部动作时。我们提出了VideoFace-X-LLM，这是一个可解释的面部视频理解框架，包含两个关键组件。首先，我们引入了ExplainFace，这是一个用于面部行为理解的弱监督视频-文本语料库，自动构建于CelebV-HQ视频之上，并通过人工评估和双模型审计（最多2.3%的矛盾）进行验证，展示了在两种主干架构下的一致性提升。其次，H-TCC（层次时间空间因果概念）用于找到关键的时间时刻（When）、面部区域（Where），并通过针对性遮挡验证其因果必要性（Why）。在ExplainFace上进行微调后，外观的宏观F1从19.48%提升至32.87%（+13.39），在动作、时间情感和深伪检测上分别获得+4.38、+6.77和+11.84的F1提升。我们还测量了解释指向提升、面部/边缘提升、稳定性、Adebayo的合理性检查和必要性测试，而不仅仅是展示示例。我们的模型、代码和语料库可根据请求用于研究。",
+  "arxiv_id": "2610.17791",
+  "arxiv_url": "https://arxiv.org/abs/2610.17791v1",
+  "authors": [
+    "Anubhav Kataria",
+    "Shreya Ghosh",
+    "Jingwen Ye",
+    "Abhinav Dhall"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-17791",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.089555+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.17791v1",
+  "published_at": "2026-10-13T06:20:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "multimodal",
+      "large language models",
+      "MLLMs",
+      "LLM",
+      "detection",
+      "多模态",
+      "检测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.17791v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "多模态情感",
+      "面部表情"
+    ]
+  },
+  "title": "When, Where, and Why: Hierarchical Causal Explainability for Video Face Understanding with MLLMs",
+  "title_zh": "何时、何地以及为何：基于层次因果可解释性的面部视频理解框架与多模态大语言模型",
+  "translation_url": "https://hjfy.top/arxiv/2610.17791"
+}

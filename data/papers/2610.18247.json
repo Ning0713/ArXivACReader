@@ -1,0 +1,50 @@
+{
+  "abstract": "Speech-to-speech translation should preserve not only what is said, but also who says it and how it is said. Existing end-to-end S2ST, speech MLLM, and cascade systems can preserve content or timbre, but often struggle to realize emotion, tone, rhythm, pauses, and pragmatic attitude in the target language. We propose PACT, a target-space pragmatic prompting framework for expressive and voice-preserving S2ST. PACT extracts source pragmatic cues, projects them into the target-language expression space, calibrates the projected representation to a realizable target subspace, and converts it into continuous prompts for a frozen speech generator. On bidirectional Spanish-English TOPI evaluation, PACT achieves the best overall performance among evaluated systems across content fidelity, voice preservation, and expression preservation metrics.",
+  "abstract_zh": "语音到语音翻译不仅应当保留所说内容，还应保留说话者及其表达方式。现有的端到端语音到语音翻译（S2ST）、语音多模态大语言模型（MLLM）和级联系统能够保留内容或音色，但往往难以在目标语言中实现情感、语调、节奏、停顿和务实态度。我们提出了PACT，一种用于表达性和声音保留的语音到语音翻译的目标空间务实提示框架。PACT提取源语言的务实线索，将其投影到目标语言的表达空间，校准投影表示以适应可实现的目标子空间，并将其转换为连续提示，以供冻结的语音生成器使用。在双向西班牙语-英语TOPI评估中，PACT在内容保真度、声音保留和表达保留指标上实现了评估系统中最佳的整体性能。",
+  "arxiv_id": "2610.18247",
+  "arxiv_url": "https://arxiv.org/abs/2610.18247v1",
+  "authors": [
+    "Yuchen Song",
+    "Satoshi Nakamura"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-18247",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.542819+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.18247v1",
+  "published_at": "2026-10-13T12:14:59Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "MLLM",
+      "speech",
+      "多模态",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.18247v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "多模态情感",
+      "情感大模型"
+    ]
+  },
+  "title": "PACT: A Pragmatic Prompting Framework for Expressive and Voice-Preserving Speech-to-Speech Translation",
+  "title_zh": "PACT：一种用于表达性和声音保留的语音到语音翻译的务实提示框架",
+  "translation_url": "https://hjfy.top/arxiv/2610.18247"
+}

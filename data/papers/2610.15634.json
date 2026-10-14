@@ -1,0 +1,63 @@
+{
+  "abstract": "Sycophancy in large language models risks amplifying unsupported claims or beliefs across the knowledge ecosystem as these systems increasingly contribute to research synthesis, evaluation, and decision-making. A reliable model should revise its judgement when a user identifies a genuine flaw, but should resist pushback based on fallacies, emotion, or irrelevant appeals to authority. While sycophancy is usually measured on questions with a verifiable answer, the evaluative tasks in which it is most difficult to detect have no such ground truth. We introduce Big-Big-SycoBench, which measures sycophancy through argument discernment: the ability to revise an evaluation after valid criticism while resisting invalid pressure. The benchmark consists of 450 text artefacts with 5,400 arguments for raising or lowering their quality scores, each reviewed by one or more of twelve human annotators. An LLM scores each artefact twenty times to establish its baseline score and uncertainty. The model is then given a valid or invalid argument and asked to update its score. We only count a revision if it exceeds the model's own baseline variability. We use the resulting score delta to distinguish responsiveness to valid arguments from compliance with invalid ones. Across ten models, responsiveness is 88-95\\% for seven, 76-77\\% for Kimi K3 and GLM-5.3, and 32\\% for Opus 5.5. Compliance ranges from 0.2\\% for GPT-6 Astra to 95\\% for GPT-4o. Big-Big-SycoBench is intended to guide the development of models whose judgements can be corrected by sound arguments, but not displaced by unsupported pressure.",
+  "abstract_zh": "大型语言模型中的谄媚行为可能会在知识生态系统中放大不支持的主张或信念，因为这些系统越来越多地参与研究综合、评估和决策。一个可靠的模型应该在用户识别出真实缺陷时修正其判断，但应抵制基于谬误、情感或无关权威的反对。虽然谄媚行为通常在有可验证答案的问题上进行测量，但在最难以检测的评估任务中并没有这样的真实依据。我们引入了Big-Big-SycoBench，它通过论点辨识来测量谄媚行为：在有效批评后修正评估的能力，同时抵制无效压力。该基准测试由450个文本材料和5400个论点组成，用于提高或降低其质量评分，每个材料由12名人类注释者中的一名或多名进行审查。一个大型语言模型（LLM）对每个材料进行20次评分，以建立其基线分数和不确定性。然后，模型会收到一个有效或无效的论点，并被要求更新其分数。只有当修正超过模型自身的基线变异性时，我们才会计算该修正。我们使用得到的分数差异来区分对有效论点的响应与对无效论点的顺从。在十个模型中，七个模型的响应率为88-95%，Kimi K3和GLM-5.3的响应率为76-77%，而Opus 5.5的响应率为32%。顺从率从GPT-6 Astra的0.2%到GPT-4o的95%不等。Big-Big-SycoBench旨在指导模型的开发，使其判断能够通过合理的论点进行修正，而不会被不支持的压力所取代。",
+  "arxiv_id": "2610.15634",
+  "arxiv_url": "https://arxiv.org/abs/2610.15634v1",
+  "authors": [
+    "Marthe Ballon",
+    "Arne Vanhoyweghen",
+    "Seorin Kim",
+    "Francesca Carlon",
+    "Lynn Delcon",
+    "Melika Mobini",
+    "Vincent Holst",
+    "Lukas Van de Voorde",
+    "Tibo Vanleke",
+    "Mathieu Louis",
+    "Bert Verbruggen",
+    "Brecht F. Verbeken",
+    "Andres Algaba",
+    "Vincent Ginis"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15634",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.219794+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15634v1",
+  "published_at": "2026-10-11T14:08:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "large language models",
+      "LLM",
+      "benchmark",
+      "识别",
+      "检测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15634v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型",
+      "文本情感"
+    ]
+  },
+  "title": "Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments",
+  "title_zh": "Big-Big-SycoBench：通过模型对有效与无效论点的响应来检测谄媚行为的基准测试",
+  "translation_url": "https://hjfy.top/arxiv/2610.15634"
+}

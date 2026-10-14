@@ -1,0 +1,55 @@
+{
+  "abstract": "Language models are increasingly expected to support users in stressful or uncertain situations, where warmth and empathy are desirable. While recent work associates warmer models with reduced reliability, we show that this conclusion is incomplete. Prior studies often train primarily on empathetic dialogue, making it difficult to separate tone effects from SFT-induced distribution shift. We revisit this issue at both the model and evaluation levels. We study prompting, SFT, and RL for inducing warm behavior, and comprehensively evaluate capability preservation using an 11-dataset benchmark suite and EMOFACT under emotional contexts. Across multiple model families, we find that warmth effects are task- and model-dependent, while task-aligned adaptive tone can improve empathy and targeted reliability, although some capability trade-offs remain. We further introduce human-validated empathy evaluators specifically developed to assess empathetic model responses. Our results suggest that models can be more supportive in social interactions while remaining reliable.",
+  "abstract_zh": "语言模型越来越被期望在压力或不确定的情况下支持用户，此时温暖和同理心是可取的。尽管近期研究将更温暖的模型与降低的可靠性联系在一起，但我们表明这一结论是不完整的。之前的研究通常主要训练于同理心对话，这使得很难将语调效应与SFT（监督微调）引起的分布偏移区分开来。我们在模型和评估层面重新审视了这一问题。我们研究了提示、SFT和RL（强化学习）以诱导温暖行为，并使用11个数据集的基准套件和EMOFACT在情感背景下全面评估能力保留。在多个模型系列中，我们发现温暖效应依赖于任务和模型，而与任务对齐的自适应语调可以改善同理心和目标可靠性，尽管仍然存在一些能力权衡。我们进一步引入了经过人类验证的同理心评估工具，专门用于评估同理心模型的响应。我们的结果表明，模型在社会互动中可以更加支持用户，同时保持可靠性。",
+  "arxiv_id": "2610.18541",
+  "arxiv_url": "https://arxiv.org/abs/2610.18541v1",
+  "authors": [
+    "Letian Shi",
+    "Kanwal Mehreen",
+    "Deheng Zhang",
+    "Yuxia Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-18541",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.562617+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.18541v1",
+  "published_at": "2026-10-13T15:20:46Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathetic dialogue",
+      "emotional",
+      "empathy",
+      "empathetic",
+      "dialogue",
+      "benchmark",
+      "dataset",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 58.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.18541v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "共情交互"
+    ]
+  },
+  "title": "Empathy Is Not the Scapegoat for Declines in Factuality and Reliability",
+  "title_zh": "同理心并不是事实性和可靠性下降的替罪羊",
+  "translation_url": "https://hjfy.top/arxiv/2610.18541"
+}

@@ -1,6 +1,338 @@
 {
-  "generated_at": "2026-10-12T12:57:57.749130+00:00",
+  "generated_at": "2026-10-14T10:01:47.984626+00:00",
   "items": [
+    {
+      "abstract": "Dialogue and collaborative assistants repeatedly judge what a partner knows, believes, or intends. Typed decision models offer a potential alternative to generative large language models for bounded Theory of Mind (ToM) selection. We present Jev-ToM, comparing five typed decision models and seven generative baselines on 11,117 English text questions from nine ToM benchmarks across six capability groups. TypeSafe Jev reaches 73.2% source-balanced accuracy including native controls and ranks first or second across all six capabilities, leading beliefs, goals/desires/intentions, and emotions. Other typed models show distinct strengths across tasks. Separate resource comparisons suggest that Jev could reduce the cost and waiting time of repeated ToM selection. Confidence-based selection remains benchmark-dependent, and supplied reasons can repair errors or overturn correct answers depending on their attachment. Candidate expansion reveals distinct selection and output-validity problems. Related-question cues account for most of Jev's downstream gains, with task-dependent effects from predicted states. The findings motivate testing Jev as a ToM selection component in assistants, with task-specific confidence calibration, candidate design, and output validation as integration priorities.",
+      "abstract_zh": "对话和协作助手不断判断合作伙伴的知识、信念或意图。类型化决策模型为有限的心智理论（Theory of Mind, ToM）选择提供了一种潜在的替代方案，取代生成性大型语言模型。我们提出了Jev-ToM，比较了五种类型化决策模型和七个生成性基线模型在来自九个ToM基准的11,117个英语文本问题上的表现，涵盖六个能力组别。TypeSafe Jev在包括本地控制在内的源平衡准确率上达到了73.2%，并在所有六个能力组中排名第一或第二，尤其在信念、目标/欲望/意图和情感方面表现突出。其他类型化模型在不同任务中展现出独特的优势。单独的资源比较表明，Jev可能降低重复ToM选择的成本和等待时间。基于信心的选择仍然依赖于基准，而提供的理由可以修正错误或推翻正确答案，具体取决于其附加方式。候选扩展揭示了独特的选择和输出有效性问题。相关问题提示占据了Jev下游收益的大部分，且预测状态对任务的影响具有依赖性。这些发现激励我们在助手中测试Jev作为ToM选择组件，任务特定的信心校准、候选设计和输出验证被视为整合的优先事项。",
+      "authors": [
+        "Kawai Chung",
+        "Chunkit Chan",
+        "Yuxuan Liu",
+        "Yauwai Yim",
+        "Xi Yang",
+        "Wenbin Hu",
+        "Huihao Jing",
+        "Chiu Yeung Tang",
+        "Changxuan Fan",
+        "Ki Sen Hung",
+        "Tsun On Kwok",
+        "Haoran Li"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.18610",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Jev-ToM: Evaluating Theory of Mind in Typed Decision Models",
+      "title_zh": "Jev-ToM：在类型化决策模型中评估心智理论",
+      "url": "/daily/2026-10-14/#paper-2610-18610"
+    },
+    {
+      "abstract": "Language models are increasingly expected to support users in stressful or uncertain situations, where warmth and empathy are desirable. While recent work associates warmer models with reduced reliability, we show that this conclusion is incomplete. Prior studies often train primarily on empathetic dialogue, making it difficult to separate tone effects from SFT-induced distribution shift. We revisit this issue at both the model and evaluation levels. We study prompting, SFT, and RL for inducing warm behavior, and comprehensively evaluate capability preservation using an 11-dataset benchmark suite and EMOFACT under emotional contexts. Across multiple model families, we find that warmth effects are task- and model-dependent, while task-aligned adaptive tone can improve empathy and targeted reliability, although some capability trade-offs remain. We further introduce human-validated empathy evaluators specifically developed to assess empathetic model responses. Our results suggest that models can be more supportive in social interactions while remaining reliable.",
+      "abstract_zh": "语言模型越来越被期望在压力或不确定的情况下支持用户，此时温暖和同理心是可取的。尽管近期研究将更温暖的模型与降低的可靠性联系在一起，但我们表明这一结论是不完整的。之前的研究通常主要训练于同理心对话，这使得很难将语调效应与SFT（监督微调）引起的分布偏移区分开来。我们在模型和评估层面重新审视了这一问题。我们研究了提示、SFT和RL（强化学习）以诱导温暖行为，并使用11个数据集的基准套件和EMOFACT在情感背景下全面评估能力保留。在多个模型系列中，我们发现温暖效应依赖于任务和模型，而与任务对齐的自适应语调可以改善同理心和目标可靠性，尽管仍然存在一些能力权衡。我们进一步引入了经过人类验证的同理心评估工具，专门用于评估同理心模型的响应。我们的结果表明，模型在社会互动中可以更加支持用户，同时保持可靠性。",
+      "authors": [
+        "Letian Shi",
+        "Kanwal Mehreen",
+        "Deheng Zhang",
+        "Yuxia Wang"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.18541",
+      "tags": [
+        "数据集/评测",
+        "共情交互"
+      ],
+      "title": "Empathy Is Not the Scapegoat for Declines in Factuality and Reliability",
+      "title_zh": "同理心并不是事实性和可靠性下降的替罪羊",
+      "url": "/daily/2026-10-14/#paper-2610-18541"
+    },
+    {
+      "abstract": "Speech-to-speech translation should preserve not only what is said, but also who says it and how it is said. Existing end-to-end S2ST, speech MLLM, and cascade systems can preserve content or timbre, but often struggle to realize emotion, tone, rhythm, pauses, and pragmatic attitude in the target language. We propose PACT, a target-space pragmatic prompting framework for expressive and voice-preserving S2ST. PACT extracts source pragmatic cues, projects them into the target-language expression space, calibrates the projected representation to a realizable target subspace, and converts it into continuous prompts for a frozen speech generator. On bidirectional Spanish-English TOPI evaluation, PACT achieves the best overall performance among evaluated systems across content fidelity, voice preservation, and expression preservation metrics.",
+      "abstract_zh": "语音到语音翻译不仅应当保留所说内容，还应保留说话者及其表达方式。现有的端到端语音到语音翻译（S2ST）、语音多模态大语言模型（MLLM）和级联系统能够保留内容或音色，但往往难以在目标语言中实现情感、语调、节奏、停顿和务实态度。我们提出了PACT，一种用于表达性和声音保留的语音到语音翻译的目标空间务实提示框架。PACT提取源语言的务实线索，将其投影到目标语言的表达空间，校准投影表示以适应可实现的目标子空间，并将其转换为连续提示，以供冻结的语音生成器使用。在双向西班牙语-英语TOPI评估中，PACT在内容保真度、声音保留和表达保留指标上实现了评估系统中最佳的整体性能。",
+      "authors": [
+        "Yuchen Song",
+        "Satoshi Nakamura"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.18247",
+      "tags": [
+        "语音情感",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "PACT: A Pragmatic Prompting Framework for Expressive and Voice-Preserving Speech-to-Speech Translation",
+      "title_zh": "PACT：一种用于表达性和声音保留的语音到语音翻译的务实提示框架",
+      "url": "/daily/2026-10-14/#paper-2610-18247"
+    },
+    {
+      "abstract": "Typed decision models (TDMs) return a probability for each allowed answer instead of generating text, which makes them candidates for cheaply replacing LLM judges that compare two answers. Whether they share the biases of LLM judges is untested. We run the CALM benchmark's bias tests on eight TDMs and seven LLM judges of 2024 and 2026. Every TDM is biased, in three to eight of twelve tests. Emotional tone affects them most, and rewriting the better answer in such a tone lowers the accuracy of a typical TDM from 99% to 42%. TDMs are more biased than 2026 LLM judges. All eight change verdicts when the answers swap places, which the 2026 LLM judges hardly do, and several side with an answer that most people allegedly prefer or that a famous model allegedly wrote. Yet both kinds of judge are tripped up by the same prompts. The TDMs' probabilities show that most tests mainly flip verdicts the TDM was unsure of, and that good calibration does not protect against bias. As TDMs are more consistent and 37 times cheaper than 2026 LLM judges, our results suggest they can be attractive judges if their biases are tested for the task.",
+      "abstract_zh": "类型化决策模型（Typed Decision Models, TDMs）为每个允许的答案返回一个概率，而不是生成文本，这使它们成为廉价替代比较两个答案的LLM裁判的候选者。然而，它们是否与LLM裁判共享偏见尚未得到验证。我们对2024年和2026年的八个TDM和七个LLM裁判进行了CALM基准的偏见测试。每个TDM在十二个测试中都有三到八个测试显示出偏见。情感语调对它们的影响最大，而将较好的答案重写为这种语调会使典型TDM的准确率从99%降至42%。TDM的偏见程度高于2026年的LLM裁判。当答案位置互换时，所有八个TDM的裁决都会改变，而2026年的LLM裁判几乎不会这样做，且有几个TDM偏向于大多数人声称更喜欢的答案或声称由著名模型撰写的答案。然而，这两种裁判在相同的提示下都会受到困扰。TDM的概率显示，大多数测试主要翻转了TDM不确定的裁决，而良好的校准并不能保护其免受偏见。由于TDM比2026年的LLM裁判更一致且便宜37倍，我们的结果表明，如果对其偏见进行任务测试，TDM可能成为有吸引力的裁判。",
+      "authors": [
+        "Fabian Lukassen",
+        "Christoph Weisser",
+        "Alexander Silbersdorff"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.18122",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Cheap, Consistent, Calibrated, but Biased? Typed Decision Models as Judges",
+      "title_zh": "廉价、一致、经过校准，但有偏见？类型化决策模型作为裁判",
+      "url": "/daily/2026-10-14/#paper-2610-18122"
+    },
+    {
+      "abstract": "Understanding facial behaviour in video requires answering three fundamental questions: when a key facial expression occurs, where the model attends on the face at that moment, and why that evidence is necessary rather than merely correlated. Today's multimodal large language models (MLLMs) can label and describe video, but they rarely provide faithful explanations, especially for small facial movements that change over time. We present VideoFace-X-LLM, a framework for explainable facial video understanding comprising two key components. First, we introduce ExplainFace, a weakly supervised video-text corpus for facial behaviour understanding, automatically constructed from CelebV-HQ videos and validated through human evaluation and a two-model audit (at most 2.3% contradictions), demonstrating consistent gains across two backbone architectures. Second, H-TCC (Hierarchical Temporal Spatial Causal Concepts), which finds the key temporal moments (When), the facial regions (Where), and verifies its causal necessity (Why) through targeted occlusion. Fine-tuning on ExplainFace raises appearance Macro F1 from 19.48% to 32.87% (+13.39), with gains of +4.38 on actions, +6.77 on temporal emotion, and +11.84 F1 on deepfake detection. We also measure the explanations pointing lift, face/edge lift, stability, an Adebayo sanity check, and a necessity test rather than only showing examples. Our models, code, and corpus are available on request for research use.",
+      "abstract_zh": "理解视频中的面部行为需要回答三个基本问题：关键面部表情何时出现（When）、模型在该时刻关注面部的哪些区域（Where），以及为何这些证据是必要的而不仅仅是相关的（Why）。如今的多模态大语言模型（MLLMs）能够对视频进行标注和描述，但它们很少提供真实的解释，尤其是在处理随时间变化的小面部动作时。我们提出了VideoFace-X-LLM，这是一个可解释的面部视频理解框架，包含两个关键组件。首先，我们引入了ExplainFace，这是一个用于面部行为理解的弱监督视频-文本语料库，自动构建于CelebV-HQ视频之上，并通过人工评估和双模型审计（最多2.3%的矛盾）进行验证，展示了在两种主干架构下的一致性提升。其次，H-TCC（层次时间空间因果概念）用于找到关键的时间时刻（When）、面部区域（Where），并通过针对性遮挡验证其因果必要性（Why）。在ExplainFace上进行微调后，外观的宏观F1从19.48%提升至32.87%（+13.39），在动作、时间情感和深伪检测上分别获得+4.38、+6.77和+11.84的F1提升。我们还测量了解释指向提升、面部/边缘提升、稳定性、Adebayo的合理性检查和必要性测试，而不仅仅是展示示例。我们的模型、代码和语料库可根据请求用于研究。",
+      "authors": [
+        "Anubhav Kataria",
+        "Shreya Ghosh",
+        "Jingwen Ye",
+        "Abhinav Dhall"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.17791",
+      "tags": [
+        "情感大模型",
+        "多模态情感",
+        "面部表情"
+      ],
+      "title": "When, Where, and Why: Hierarchical Causal Explainability for Video Face Understanding with MLLMs",
+      "title_zh": "何时、何地以及为何：基于层次因果可解释性的面部视频理解框架与多模态大语言模型",
+      "url": "/daily/2026-10-14/#paper-2610-17791"
+    },
+    {
+      "abstract": "Driving digital head avatars is classically done by hand-crafted artist design or by image-based facial performance capture. In this work, we ask whether spatio-temporal tracking of the humans's head geometry and appearance can be performed solely from brain signals, i.e., Electroencephalography (EEG). Since prior work mostly focused on activity and emotion recognition, this task is relatively unexplored without even having publicly available high-quality datasets and benchmarks. Thus, we contribute a dataset featuring paired EEG and human head geometry as well as appearance annotations. We synchronize 64-channel EEG with per-frame expression latent codes of a personalized Gaussian head avatar. Second, we introduce a baseline to the task of expression recovery of a head avatar from EEG signals. To this end, we propose a dedicated EEG-to-expression model that takes a temporal sequence of EEG signals as input and regresses the latent expression parameters of the 3D Gaussian head avatar. Lastly, we validate our capture and algorithmic design choices through a benchmark protocol that we introduce to this task. We believe this work paves the way towards better understanding of the relation between EEG signals and facial surface as well as appearance changes.",
+      "abstract_zh": "数字头部虚拟形象的驱动传统上是通过手工设计或基于图像的面部表情捕捉来实现的。在本研究中，我们探讨是否可以仅通过脑信号（即脑电图，Electroencephalography, EEG）来进行人头几何形状和外观的时空跟踪。由于之前的研究主要集中在活动和情感识别上，这一任务相对较少被探索，甚至没有公开的高质量数据集和基准可用。因此，我们贡献了一个数据集，包含配对的EEG和人头几何形状以及外观注释。我们将64通道EEG与个性化高斯头部虚拟形象的每帧表情潜在代码进行同步。其次，我们为从EEG信号恢复头部虚拟形象表情的任务引入了一个基线。为此，我们提出了一个专门的EEG到表情模型，该模型将EEG信号的时间序列作为输入，并回归3D高斯头部虚拟形象的潜在表情参数。最后，我们通过为这一任务引入的基准协议验证了我们的捕捉和算法设计选择。我们相信这项工作为更好地理解EEG信号与面部表面及外观变化之间的关系铺平了道路。",
+      "authors": [
+        "Camilo Andrés Martínez Martínez",
+        "Olaf Dünkel",
+        "Kartik Teotia",
+        "Maurice Rekrut",
+        "Christian Theobalt",
+        "Marc Habermann"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.17356",
+      "tags": [
+        "数据集/评测",
+        "情绪识别",
+        "生理信号"
+      ],
+      "title": "Brain2Face: A Study on the Relation of EEG Signals and Spatio-temporal Head Avatars",
+      "title_zh": "Brain2Face：脑电信号与时空头部虚拟形象关系的研究",
+      "url": "/daily/2026-10-14/#paper-2610-17356"
+    },
+    {
+      "abstract": "The original EneMonIE proposal describes a Web-based semantic system for continuously monitoring energy trends through targeted information extraction from heterogeneous online media. This article presents EneMonIE-Backend, an implementation-derived redesign that converts that conceptual pipeline into a modular, executable, and application-independent backend. The architecture separates five concerns: data sources, acquisition and normalization, semantic processing, knowledge organization, and persistent storage. It operationalizes configurable connectors for RSS feeds, URL collections, arXiv, social-media JSON files, and open-data CSV files; it also introduces question-driven Web search and scraping. Relevant documents pass through energy categorization, named entity recognition, temporal and event extraction, source sensitive sentiment analysis, and extractive summarization. The resulting semantic representations support entity co-occurrence graphs, cross-document interlinking, cluster-level information fusion, and relational persistence in SQLite. Three grounded question-answering paths are exposed at the backend level: live Web evidence, the stored corpus, and selected configured resources. Answer generation uses a language model when configured and otherwise falls back to deterministic extractive output. Unlike the original proposal, the presented architecture deliberately excludes the user-interface and server-side application layers, allowing the semantic core to be embedded in different applications. A deterministic smoke validation confirms relevance filtering, persistence, clustering, evidence retrieval, and document deletion. The work provides a reproducible architectural basis for future evaluation on larger multilingual energy corpora.",
+      "abstract_zh": "原始的 EneMonIE 提案描述了一个基于网络的语义系统，通过从异构在线媒体中有针对性地提取信息，持续监测能源趋势。本文提出了 EneMonIE-Backend，这是一种基于实现的重新设计，将该概念管道转换为一个模块化、可执行且与应用无关的后端架构。该架构分离了五个关注点：数据源、获取与规范化、语义处理、知识组织和持久存储。它实现了可配置的连接器，用于 RSS 源、URL 集合、arXiv、社交媒体 JSON 文件和开放数据 CSV 文件；同时引入了基于问题的网络搜索和抓取。相关文档经过能源分类、命名实体识别、时间和事件提取、源敏感情感分析以及抽取式摘要处理。生成的语义表示支持实体共现图、跨文档互联、集群级信息融合和在 SQLite 中的关系持久性。在后端层面，提供了三条基于语境的问题回答路径：实时网络证据、存储语料库和选定的配置资源。答案生成在配置时使用语言模型，否则回退到确定性的抽取输出。与原始提案不同，所呈现的架构故意排除了用户界面和服务器端应用层，允许语义核心嵌入到不同的应用中。确定性的烟雾验证确认了相关性过滤、持久性、聚类、证据检索和文档删除。该工作为未来在更大多语言能源语料库上的评估提供了可重复的架构基础。",
+      "authors": [
+        "Janik Lesage",
+        "Khadim Lô",
+        "and Jean-Sébastien Dessureault"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.17243",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "社交信号"
+      ],
+      "title": "From Conceptual EneMonIE to an Executable Backend: A Modular Architecture for Energy Information Extractionand Grounded Question Answering",
+      "title_zh": "从概念性 EneMonIE 到可执行后端：一种用于能源信息提取和基于语境的问题回答的模块化架构",
+      "url": "/daily/2026-10-14/#paper-2610-17243"
+    },
+    {
+      "abstract": "Emotion datasets are routinely mapped onto positive and negative valence, by assigning each emotion category one polarity. We test where this works and where it fails, using SemEval-2018 Affect in Tweets (English, Arabic, Spanish), Affective Text aligned with EmoBank, raw GoEmotions annotations, naturalistic hashtag corpora, and a controlled annotation study. Fixed projection works well when a text carries labels of one valence. It fails on a subset identifiable from the labels alone: tweets whose emotion labels point in opposite directions. These are 9.0% of polar SemEval test tweets but cause 54.8% of the polarity errors of a learned projection, are more than twice as likely to receive a neutral-or-mixed gold label, and are not rescued by modeling the full label set. Annotators produce such configurations routinely: 16.3% of multilabel GoEmotions judgments combine emotions from the dataset's own positive and negative parents. In a controlled study holding word and reader constant, context changes the coarse valence judgment in 56.8% of cases, against 19.9% for controls. We recommend projecting label configurations rather than labels, abstaining or keeping a mixed class where labels conflict, and reporting coverage alongside accuracy.",
+      "abstract_zh": "情感数据集通常被映射到正向和负向极性，通过为每个情感类别分配一个极性。我们测试了这种方法在何处有效以及何处失效，使用了SemEval-2018推特情感（英语、阿拉伯语、西班牙语）、与EmoBank对齐的情感文本、原始GoEmotions注释、自然主义标签语料库以及一项受控注释研究。当文本仅携带一种极性的标签时，固定投影效果良好。然而，在仅通过标签即可识别的子集上，它失效：情感标签指向相反方向的推文。这些推文占极性SemEval测试推文的9.0%，但导致学习投影的54.8%的极性错误，且更有可能获得中性或混合的金标准标签，其概率是其他推文的两倍以上，并且通过建模完整标签集无法挽救。注释者经常产生这样的配置：16.3%的多标签GoEmotions判断结合了数据集中正向和负向父类的情感。在一项控制研究中，保持词汇和读者不变，背景在56.8%的案例中改变了粗略的极性判断，而对照组为19.9%。我们建议投影标签配置而不是标签，在标签冲突时选择不标注或保持混合类别，并在报告准确性时同时报告覆盖率。",
+      "authors": [
+        "Emily Öhman",
+        "Saif Mohammad"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15977",
+      "tags": [
+        "数据集/评测",
+        "文本情感"
+      ],
+      "title": "Mixed Feelings, Single Polarity",
+      "title_zh": "复杂情感，单一极性",
+      "url": "/daily/2026-10-14/#paper-2610-15977"
+    },
+    {
+      "abstract": "Phase-annotated conversational data is essential for studying the progression of online grooming of minors and for developing early warning tools. However, the only publicly available source (i.e., Perverted-Justice archive, which contains a subset coded using ChatCoder) is small, outdated, and frozen. We present a synthetic corpus of groomer-victim exchanges, generated using a retrieval-augmented pipeline running on institutional hardware. This pipeline uses an openly available, eight-billion-parameter, refusal-ablated language model. The corpus was created using the five stages of the responsible-generation protocol for synthetic datasets: ontology-driven design based on the ChatCoder luring-communication scheme (eight communicative tags mapped onto four grooming phases); multi-model prompt testing; human-in-the-loop supervision; semantic and feature-level validation; and modality-aware documentation. The released corpus contains 2,121 unique exchanges across seven tags and four phases, each accompanied by a Plutchik emotion field. Validation quantifies the integrity and lexical profile of the corpus, as well as the reproduction of real seed lines, in-domain label recoverability (tag accuracy: 0.85; phase accuracy: 0.93) and its transfer to real ChatCoder offender lines, which were coded automatically at the eight-tag level (31,640 lines) and by human coders at the three-construct level (10,876 posts). Accuracy was measured for lexical and sentence-embedding features, while a real-versus-synthetic discriminator was able to separate the two domains with 91% accuracy. The scope of the corpus includes controlled, phase-conditioned experimentation, pipeline development and augmentation alongside real data and awareness material. The corpus, its datasheet and the audit code are released with vetted access.",
+      "abstract_zh": "标注阶段的对话数据对于研究未成年人在线诱骗的进展以及开发早期预警工具至关重要。然而，唯一可公开获取的来源（即 Perverted-Justice 档案，其中包含使用 ChatCoder 编码的子集）规模小、过时且已被冻结。我们提出了一个诱骗者-受害者交流的合成语料库，该语料库是通过在机构硬件上运行的检索增强管道生成的。该管道使用一个公开可用的、拥有八十亿参数的拒绝消融语言模型。该语料库的创建遵循合成数据集的负责任生成协议的五个阶段：基于 ChatCoder 诱骗沟通方案的本体驱动设计（八个交际标签映射到四个诱骗阶段）；多模型提示测试；人类监督；语义和特征级验证；以及模态感知文档。发布的语料库包含 2,121 个独特的交流，涵盖七个标签和四个阶段，每个交流都附有 Plutchik 情感字段。验证量化了语料库的完整性和词汇特征，以及真实种子行的再现、领域内标签的可恢复性（标签准确率：0.85；阶段准确率：0.93）及其向真实 ChatCoder 罪犯行的转移，这些行在八标签级别上自动编码（31,640 行），在三构造级别上由人工编码（10,876 帖子）。准确性是针对词汇和句子嵌入特征进行测量的，而一个真实与合成的判别器能够以 91% 的准确率区分这两个领域。该语料库的范围包括受控的、阶段条件实验、管道开发和增强，以及与真实数据和意识材料的结合。该语料库、其数据表和审计代码已发布并提供经过审核的访问。",
+      "authors": [
+        "Emanuele Florindi",
+        "Valentina Franzoni",
+        "Ludovico Guercio",
+        "Alfredo Milani",
+        "Mattia Polticchia"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15908",
+      "tags": [
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "LURE: a Phase-Labelled Synthetic Corpus of Online-Grooming Exchanges",
+      "title_zh": "LURE：一个标记阶段的在线诱骗交流合成语料库",
+      "url": "/daily/2026-10-14/#paper-2610-15908"
+    },
+    {
+      "abstract": "Large language model (LLM) agents are increasingly deployed as teams, yet they fail in characteristically social ways: information holders stay silent, dominant speakers anchor groups on wrong answers, and norm violations go unsanctioned. We present Agent Sociodrama, a framework for modeling and validating evolving social dynamics in LLM agent teams. Under fixed personas, agents' emotional states and directed, asymmetric relationships are updated every round by a unified external LLM judge and shape their subsequent interactions. Across six LLM backbones and five social scenarios, we assess social fidelity through classical social-theory patterns and agreement with human judgments. The resulting trajectories exhibit structured social patterns and model-specific differences. We then introduce Trajectory-Guided Persona Recasting (TPR), which diagnoses group-dynamic failures from interaction transcripts and social trajectories and recasts agent personas before rerunning the task. Across four collaborative benchmarks, TPR improves performance from both heterogeneous and randomly initialized agent persona compositions, yielding up to 83.3%p of accuracy improvement over the initial casting. On representative distributed-information cooperation and mixed-motive bargaining tasks, we outperform SOTOPIA and AgentVerse in three of four comparisons, by up to 37.5%p in Pareto rate. These results show that validated social trajectories provide actionable signals for repairing LLM agent teams.",
+      "abstract_zh": "大型语言模型（LLM）代理越来越多地作为团队部署，但它们在社交方面常常表现不佳：信息持有者保持沉默，主导发言者将团队引向错误答案，规范违反行为未受到制裁。我们提出了代理社会剧（Agent Sociodrama），这是一个用于建模和验证LLM代理团队中不断演变的社会动态的框架。在固定角色下，代理的情感状态和有向的非对称关系在每一轮中由统一的外部LLM评判者更新，并影响其后续的互动。在六种LLM基础模型和五种社会场景中，我们通过经典社会理论模式和与人类判断的一致性评估社会忠实度。结果轨迹展示了结构化的社会模式和模型特定的差异。随后，我们引入了轨迹引导的角色重塑（Trajectory-Guided Persona Recasting, TPR），该方法通过互动记录和社会轨迹诊断群体动态失败，并在重新运行任务之前重塑代理角色。在四个协作基准测试中，TPR提高了来自异构和随机初始化的代理角色组合的性能，准确率相比初始角色提升了最高达83.3个百分点。在代表性的分布式信息合作和混合动机谈判任务中，我们在四次比较中有三次超越了SOTOPIA和AgentVerse，帕累托率提高了最高达37.5个百分点。这些结果表明，经过验证的社会轨迹为修复LLM代理团队提供了可操作的信号。",
+      "authors": [
+        "Yirui Qi",
+        "Xiaoming Zhang",
+        "Jaehong Yoon"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15788",
+      "tags": [
+        "情感大模型",
+        "社交信号",
+        "数据集/评测"
+      ],
+      "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+      "title_zh": "代理社会剧：基于社会动态的角色重塑用于大型语言模型代理团队",
+      "url": "/daily/2026-10-14/#paper-2610-15788"
+    },
+    {
+      "abstract": "For languages with limited resources, Sentiment Analysis remains a challenging problem due to limited annotated data and strong domain variability across textual sources. Marathi, despite being widely spoken, lacks extensive multi-domain sentiment analysis studies. Recent efforts by L3Cube have introduced multi-domain datasets in Marathi, enabling a better study of domain-aware sentiment classification. This study uses the pretrained MahaBERT model to improve sentiment classification for Marathi across different domains. Models are trained on individual domain datasets and domain-adaptive pretraining is applied using masked language modeling to help the model better understand domain-specific language. In addition, back-translation is used as a method of data augmentation to increase the diversity of training data. Results show that these methods lead to consistent improvements in accuracy across all domains. The improvements range from a minimum of about 0.12% to a maximum of about 1.74%, depending on the dataset. These results demonstrate that domain-adaptive pretraining and data augmentation are effective strategies for improving sentiment analysis models. This helps achieve more robust performance across different domains and makes the approach more suitable for low-resource languages like Marathi.",
+      "abstract_zh": "对于资源有限的语言，情感分析仍然是一个具有挑战性的问题，因为标注数据有限且文本来源之间存在较强的领域变异性。尽管马拉地语广泛使用，但缺乏广泛的多领域情感分析研究。L3Cube最近的努力引入了马拉地语的多领域数据集，使得领域感知情感分类的研究得以更好地进行。本研究使用预训练的MahaBERT模型来改善马拉地语在不同领域的情感分类。模型在各个领域的数据集上进行训练，并采用掩码语言建模进行领域自适应预训练，以帮助模型更好地理解领域特定语言。此外，反向翻译被用作数据增强的方法，以增加训练数据的多样性。结果表明，这些方法在所有领域的准确性上都带来了持续的改善。根据数据集的不同，改善幅度从约0.12%到约1.74%不等。这些结果表明，领域自适应预训练和数据增强是改善情感分析模型的有效策略。这有助于在不同领域实现更强的性能，并使该方法更适合像马拉地语这样的低资源语言。",
+      "authors": [
+        "Tanvi Somani",
+        "Aryan Babare",
+        "Samyak Bora",
+        "Raviraj Joshi",
+        "Abhinay Dhamankar"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15761",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches",
+      "title_zh": "基于领域自适应预训练和数据增强方法的鲁棒马拉地语情感分析",
+      "url": "/daily/2026-10-14/#paper-2610-15761"
+    },
+    {
+      "abstract": "Sentiment analysis is a key task in Natural Language Processing that determines the polarity of opinions in text. For low-resource languages like Marathi--where limited data prevents the direct use of standard statistical methods--models are often trained on single-domain datasets. While this yields strong in-domain performance, it leads to poor generalization to unseen domains. Recent studies highlight the need for domain-robust systems that can handle diverse real-world content through multi-domain modeling. This study investigates how multi-domain training improves sentiment classification for unseen Marathi domains. Models are trained using single-domain, two-domain, and three-domain dataset combinations. Results show that two-domain training improves accuracy on unseen domains by about 8\\% compared to single-domain training. Adding a third domain provides further improvement, though the gain is smaller, averaging around 2\\% for some domains. These results suggest that training with data from multiple domains helps build more robust sentiment analysis models for low-resource languages, though the benefits reduce as more domains are added.",
+      "abstract_zh": "情感分析是自然语言处理中的一项关键任务，旨在确定文本中意见的极性。对于像马拉地语这样的低资源语言，由于数据有限，无法直接使用标准统计方法，因此模型通常在单一领域数据集上进行训练。尽管这在领域内表现出色，但在未见领域的泛化能力较差。最近的研究强调了需要能够通过多领域建模处理多样化现实内容的领域稳健系统。本研究探讨了多领域训练如何改善未见马拉地语领域的情感分类。模型使用单领域、双领域和三领域数据集组合进行训练。结果表明，与单领域训练相比，双领域训练在未见领域的准确率提高了约8%。添加第三个领域进一步改善了结果，尽管增益较小，对于某些领域的平均提升约为2%。这些结果表明，使用来自多个领域的数据进行训练有助于构建更稳健的低资源语言情感分析模型，尽管随着领域数量的增加，收益会减少。",
+      "authors": [
+        "Tanvi Somani",
+        "Aryan Babare",
+        "Samyak Bora",
+        "Raviraj Joshi"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15757",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Enhancing Zero-Shot Domain Transfer in Low-Resource Sentiment Analysis: A Case Study in Marathi",
+      "title_zh": "增强低资源情感分析中的零样本领域迁移：以马拉地语为例",
+      "url": "/daily/2026-10-14/#paper-2610-15757"
+    },
+    {
+      "abstract": "Sycophancy in large language models risks amplifying unsupported claims or beliefs across the knowledge ecosystem as these systems increasingly contribute to research synthesis, evaluation, and decision-making. A reliable model should revise its judgement when a user identifies a genuine flaw, but should resist pushback based on fallacies, emotion, or irrelevant appeals to authority. While sycophancy is usually measured on questions with a verifiable answer, the evaluative tasks in which it is most difficult to detect have no such ground truth. We introduce Big-Big-SycoBench, which measures sycophancy through argument discernment: the ability to revise an evaluation after valid criticism while resisting invalid pressure. The benchmark consists of 450 text artefacts with 5,400 arguments for raising or lowering their quality scores, each reviewed by one or more of twelve human annotators. An LLM scores each artefact twenty times to establish its baseline score and uncertainty. The model is then given a valid or invalid argument and asked to update its score. We only count a revision if it exceeds the model's own baseline variability. We use the resulting score delta to distinguish responsiveness to valid arguments from compliance with invalid ones. Across ten models, responsiveness is 88-95\\% for seven, 76-77\\% for Kimi K3 and GLM-5.3, and 32\\% for Opus 5.5. Compliance ranges from 0.2\\% for GPT-6 Astra to 95\\% for GPT-4o. Big-Big-SycoBench is intended to guide the development of models whose judgements can be corrected by sound arguments, but not displaced by unsupported pressure.",
+      "abstract_zh": "大型语言模型中的谄媚行为可能会在知识生态系统中放大不支持的主张或信念，因为这些系统越来越多地参与研究综合、评估和决策。一个可靠的模型应该在用户识别出真实缺陷时修正其判断，但应抵制基于谬误、情感或无关权威的反对。虽然谄媚行为通常在有可验证答案的问题上进行测量，但在最难以检测的评估任务中并没有这样的真实依据。我们引入了Big-Big-SycoBench，它通过论点辨识来测量谄媚行为：在有效批评后修正评估的能力，同时抵制无效压力。该基准测试由450个文本材料和5400个论点组成，用于提高或降低其质量评分，每个材料由12名人类注释者中的一名或多名进行审查。一个大型语言模型（LLM）对每个材料进行20次评分，以建立其基线分数和不确定性。然后，模型会收到一个有效或无效的论点，并被要求更新其分数。只有当修正超过模型自身的基线变异性时，我们才会计算该修正。我们使用得到的分数差异来区分对有效论点的响应与对无效论点的顺从。在十个模型中，七个模型的响应率为88-95%，Kimi K3和GLM-5.3的响应率为76-77%，而Opus 5.5的响应率为32%。顺从率从GPT-6 Astra的0.2%到GPT-4o的95%不等。Big-Big-SycoBench旨在指导模型的开发，使其判断能够通过合理的论点进行修正，而不会被不支持的压力所取代。",
+      "authors": [
+        "Marthe Ballon",
+        "Arne Vanhoyweghen",
+        "Seorin Kim",
+        "Francesca Carlon",
+        "Lynn Delcon",
+        "Melika Mobini",
+        "Vincent Holst",
+        "Lukas Van de Voorde",
+        "Tibo Vanleke",
+        "Mathieu Louis",
+        "Bert Verbruggen",
+        "Brecht F. Verbeken",
+        "Andres Algaba",
+        "Vincent Ginis"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15634",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "文本情感"
+      ],
+      "title": "Big-Big-SycoBench: A Benchmark to Detect Sycophancy Through Model Responses to Valid vs. Invalid Arguments",
+      "title_zh": "Big-Big-SycoBench：通过模型对有效与无效论点的响应来检测谄媚行为的基准测试",
+      "url": "/daily/2026-10-14/#paper-2610-15634"
+    },
+    {
+      "abstract": "Text-to-video (T2V) models are increasingly used to generate videos with targeted emotional expressions, yet existing evaluation methods mainly rely on holistic video-text alignment and provide limited insight into whether failures arise from target-emotion expression, intensity control, or specific affective cues. We introduce EmoTrace-Bench, a fine-grained diagnostic benchmark that controls emotion intensity and selected affective cues in prompts and evaluates generated videos at multiple levels. EmoTrace-Bench contains 448 controlled prompts covering eight emotions, two intensity levels, and diverse cue conditions. Using 12 T2V models, we generate 5,376 videos and evaluate target-emotion presence, perceived intensity, and ten audiovisual dimensions of emotional expression with an automated evaluator calibrated and validated against human annotations on a subset of the data. Results reveal substantial differences across models and prompt designs. Prompts that explicitly describe a character's emotional reaction are followed more reliably than prompts that describe only events or scenes, whereas adding more affective cues or using more explicit cinematic audiovisual language does not consistently improve emotional generation. These results illustrate how aggregate alignment scores may overlook localized differences in target-emotion expression, intensity control, and cue realization. EmoTrace-Bench provides a traceable and interpretable framework for diagnosing emotional video generation without modifying existing generation pipelines, and we release the prompts and the automated evaluation rules.",
+      "abstract_zh": "文本到视频（T2V）模型越来越多地用于生成具有特定情感表达的视频，但现有的评估方法主要依赖于整体视频与文本的对齐，提供的洞察有限，无法明确失败是由于目标情感表达、强度控制还是特定情感线索造成的。我们提出了EmoTrace-Bench，这是一个细粒度的诊断基准，控制提示中的情感强度和选定的情感线索，并在多个层面上评估生成的视频。EmoTrace-Bench包含448个控制提示，涵盖八种情感、两个强度水平和多样的线索条件。使用12个T2V模型，我们生成了5,376个视频，并利用一个经过校准和验证的自动评估器评估目标情感的存在、感知强度以及情感表达的十个视听维度，该评估器是基于对数据子集的人类注释进行校准和验证的。结果显示模型和提示设计之间存在显著差异。明确描述角色情感反应的提示比仅描述事件或场景的提示更可靠，而增加更多情感线索或使用更明确的电影视听语言并不总是能一致地改善情感生成。这些结果表明，聚合对齐分数可能忽视目标情感表达、强度控制和线索实现中的局部差异。EmoTrace-Bench提供了一个可追踪和可解释的框架，用于诊断情感视频生成，而无需修改现有的生成流程，我们发布了提示和自动评估规则。",
+      "authors": [
+        "Yeheng Wang",
+        "Liudan Shi",
+        "Yi Zheng",
+        "Jingke Li",
+        "Shiyuan Liu",
+        "Xin Tao",
+        "Yuanxing Zhang",
+        "Guoyu Sun"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.15452",
+      "tags": [
+        "数据集/评测",
+        "情感生成",
+        "文本情感"
+      ],
+      "title": "EmoTrace-Bench: Diagnosing Emotional Expression in Text-to-Video Generation through Controlled Cues and Intensity",
+      "title_zh": "EmoTrace-Bench：通过控制线索和强度诊断文本到视频生成中的情感表达",
+      "url": "/daily/2026-10-14/#paper-2610-15452"
+    },
+    {
+      "abstract": "Emotion-Cause Pair Extraction (ECPE) requires identifying the causes associated with emotions expressed in a conversation. Accurate extraction can depend on evidence that is not initially available, making it important to decide when further information is worth acquiring. We study agent-guided evidence acquisition for ECPE, where a student agent selectively accesses expert judgments for borderline relations on both sides of its validation-selected F1 decision boundary and revises only queried predictions. Through controlled comparisons under different information-access conditions, we examine how delegation granularity, query selection, and response integration affect prediction quality. At a nominal 10% query rate, selective fusion improves mean pair F1 by 2.64-3.88 points over the student in our main experiments, reaching 65.14 on ECF and 49.74 on MEC4 across model families. Our analysis suggests that greater access does not always translate into better cause identification. These findings motivate acquisition strategies that consider both the relevance of newly available evidence and its effect on prediction revision, providing an empirical basis for more effective and efficient evidence acquisition in ECPE.",
+      "abstract_zh": "情感-原因对提取（ECPE）需要识别与对话中表达的情感相关的原因。准确的提取可能依赖于最初不可用的证据，因此决定何时获取进一步信息变得至关重要。我们研究了用于ECPE的代理引导证据获取，其中学生代理选择性地访问专家判断，以处理其验证选择的F1决策边界两侧的边界关系，并仅修正被查询的预测。通过在不同信息访问条件下的受控比较，我们考察了委托粒度、查询选择和响应整合如何影响预测质量。在名义上的10%查询率下，选择性融合在我们的主要实验中使平均对F1提高了2.64-3.88分，ECF达到了65.14，MEC4达到了49.74，涵盖了不同模型系列。我们的分析表明，更大的访问并不总是转化为更好的原因识别。这些发现激励了考虑新获取证据的相关性及其对预测修正影响的获取策略，为ECPE中更有效和高效的证据获取提供了实证基础。",
+      "authors": [
+        "Zhuangzhuang Pan",
+        "Yan Xia",
+        "Chee Seng Chan"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.14886",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Agent-Guided Evidence Acquisition for Emotion-Cause Pair Extraction",
+      "title_zh": "基于代理的情感-原因对提取的证据获取",
+      "url": "/daily/2026-10-14/#paper-2610-14886"
+    },
+    {
+      "abstract": "Calibrated typed-decision (\"System One\") models return a label and a probability in a single forward pass at a small fraction of the cost of large language models (LLMs), yet their evaluation has been almost entirely English. We report a pre-registered evaluation of the commercial Jev model and the open Laya-multilingual model on Indonesian regional languages, using the parallel NusaX sentiment (12 languages) and NusaTranslation sentiment and emotion (7 languages) test sets. Jev is more often correct on sentences that are lexically closer to Indonesian in all three datasets, and presenting the human Indonesian translation instead raises its accuracy by up to 37.2 points, most in languages distant from Indonesian. Its expected calibration error does not grow on regional languages, but its ability to rank its own errors degrades in all three datasets. Retrained classifiers need more than 500 labels per language to match zero-shot Jev in 9 of 10 NusaX regional languages. A confidence-gated cascade that sends Jev's 10-30% least confident decisions to a local IndoBERT classifier matches or exceeds the better of the two systems, and routing to an LLM instead matches that LLM at 24-77% lower API cost. Of six further commercial LLMs (three Claude and three GPT models), five are 4-14 points more accurate than Jev, at several hundred times the API cost where it is reported, while the smallest (Claude Haiku) is less accurate. We release the pre-registration, code and all predictions.",
+      "abstract_zh": "校准的类型决策（“系统一”）模型在一次前向传递中返回标签和概率，其成本仅为大型语言模型（LLMs）的一个小部分，但其评估几乎完全基于英语。我们报告了对商业Jev模型和开放的Laya多语言模型在印尼地区语言上的预注册评估，使用了平行的NusaX情感（12种语言）和NusaTranslation情感与情绪（7种语言）测试集。Jev在所有三个数据集中对与印尼语在词汇上更接近的句子的判断更为准确，且呈现人类印尼语翻译后，其准确率提高了最多37.2个百分点，尤其是在与印尼语相距较远的语言中。其预期校准误差在地区语言上并未增长，但其对自身错误的排名能力在所有三个数据集中都有所下降。重新训练的分类器在10种NusaX地区语言中，有9种需要超过500个标签才能与零样本Jev相匹配。一个信心门控级联，将Jev的10-30%信心最低的决策发送到本地IndoBERT分类器，能够匹配或超过这两个系统中更好的一个，而转向LLM则在API成本上比该LLM低24-77%。在六个进一步的商业LLM中（三个Claude模型和三个GPT模型），五个的准确率比Jev高出4-14个百分点，API成本是其报告的几百倍，而最小的（Claude Haiku）准确率较低。我们发布了预注册、代码和所有预测结果。",
+      "authors": [
+        "Romi Fadli",
+        "Rusdah",
+        "Wahyu Ramadani Putri Utami",
+        "Zulfa Malika Amana"
+      ],
+      "date": "2026-10-14",
+      "id": "2610.14112",
+      "tags": [
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Does System One Transfer? Calibrated Typed-Decision Models, Label Budgets, and Translation for Indonesian Regional Languages",
+      "title_zh": "系统一能否迁移？校准的类型决策模型、标签预算与印尼地区语言的翻译",
+      "url": "/daily/2026-10-14/#paper-2610-14112"
+    },
     {
       "abstract": "Detecting communicative meaning in dialogue requires modeling not only lexical content but also the participant-role structures through which sentiment, emotion, politeness, and formality (SEPF) are expressed. Existing approaches rely on contextual language representations while leaving semantic roles implicit. We introduce a role-aware transformer architecture that maps the four SEPF dimensions to theory-grounded Semantic Role Labeling (SRL) configurations, incorporating these configurations directly into the transformer's self-attention mechanism. Role-aware attention models non-directional internal states (sentiment and emotion), while directional role-aware attention captures initiator-to-recipient relations for external cues (politeness and formality). The resulting role-aware representations are fused with contextual embeddings through a learned gate that adaptively weights how much role information each input contributes, rather than appending semantic roles as an auxiliary feature vector. Across four benchmark datasets, the framework yields statistically reliable gains over strong BERT-based baselines for emotion, politeness, and formality, with gains concentrated in theoretically predicted cases such as low-frequency, complex emotions and highly polite expressions; sentiment improvements are marginal and non-significant, suggesting that sentiment is conveyed more through lexical choice than participant-role structure. Additional evaluation on real-world data demonstrates that the framework improves both predictive performance and model traceability. These results demonstrate that linguistically grounded modifications to transformer self-attention improve the detection of communicative meaning, generalize beyond benchmark datasets to real-world mental-health data, and yield traceable, role-grounded explanations that extend beyond predictive performance to interpretability.",
       "abstract_zh": "在对话中检测交际意义不仅需要建模词汇内容，还需要建模参与者角色结构，通过这些结构表达情感、情绪、礼貌和正式性（SEPF）。现有的方法依赖于上下文语言表示，而将语义角色隐含化。我们提出了一种角色感知的变换器架构，将四个SEPF维度映射到理论基础的语义角色标注（SRL）配置中，并将这些配置直接融入变换器的自注意力机制。角色感知注意力模型对非定向的内部状态（情感和情绪）进行建模，而定向的角色感知注意力则捕捉发起者与接收者之间的关系，以获取外部线索（礼貌和正式性）。生成的角色感知表示通过一个学习的门控机制与上下文嵌入融合，该机制自适应地加权每个输入所贡献的角色信息，而不是将语义角色附加为辅助特征向量。在四个基准数据集上，该框架在情绪、礼貌和正式性方面相较于强大的基于BERT的基线模型取得了统计上显著的提升，且这些提升集中在理论预测的情况，如低频复杂情绪和高度礼貌的表达；情感的改善则是边际的且不显著，这表明情感更多是通过词汇选择而非参与者角色结构来传达的。对现实世界数据的额外评估表明，该框架在预测性能和模型可追溯性方面都有所改善。这些结果表明，基于语言学的变换器自注意力修改提高了交际意义的检测，超越基准数据集推广到现实世界的心理健康数据，并提供可追溯的、基于角色的解释，这些解释超越了预测性能，增强了可解释性。",

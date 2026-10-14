@@ -1,0 +1,50 @@
+{
+  "abstract": "Typed decision models (TDMs) return a probability for each allowed answer instead of generating text, which makes them candidates for cheaply replacing LLM judges that compare two answers. Whether they share the biases of LLM judges is untested. We run the CALM benchmark's bias tests on eight TDMs and seven LLM judges of 2024 and 2026. Every TDM is biased, in three to eight of twelve tests. Emotional tone affects them most, and rewriting the better answer in such a tone lowers the accuracy of a typical TDM from 99% to 42%. TDMs are more biased than 2026 LLM judges. All eight change verdicts when the answers swap places, which the 2026 LLM judges hardly do, and several side with an answer that most people allegedly prefer or that a famous model allegedly wrote. Yet both kinds of judge are tripped up by the same prompts. The TDMs' probabilities show that most tests mainly flip verdicts the TDM was unsure of, and that good calibration does not protect against bias. As TDMs are more consistent and 37 times cheaper than 2026 LLM judges, our results suggest they can be attractive judges if their biases are tested for the task.",
+  "abstract_zh": "类型化决策模型（Typed Decision Models, TDMs）为每个允许的答案返回一个概率，而不是生成文本，这使它们成为廉价替代比较两个答案的LLM裁判的候选者。然而，它们是否与LLM裁判共享偏见尚未得到验证。我们对2024年和2026年的八个TDM和七个LLM裁判进行了CALM基准的偏见测试。每个TDM在十二个测试中都有三到八个测试显示出偏见。情感语调对它们的影响最大，而将较好的答案重写为这种语调会使典型TDM的准确率从99%降至42%。TDM的偏见程度高于2026年的LLM裁判。当答案位置互换时，所有八个TDM的裁决都会改变，而2026年的LLM裁判几乎不会这样做，且有几个TDM偏向于大多数人声称更喜欢的答案或声称由著名模型撰写的答案。然而，这两种裁判在相同的提示下都会受到困扰。TDM的概率显示，大多数测试主要翻转了TDM不确定的裁决，而良好的校准并不能保护其免受偏见。由于TDM比2026年的LLM裁判更一致且便宜37倍，我们的结果表明，如果对其偏见进行任务测试，TDM可能成为有吸引力的裁判。",
+  "arxiv_id": "2610.18122",
+  "arxiv_url": "https://arxiv.org/abs/2610.18122v1",
+  "authors": [
+    "Fabian Lukassen",
+    "Christoph Weisser",
+    "Alexander Silbersdorff"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-18122",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.536931+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.18122v1",
+  "published_at": "2026-10-13T10:35:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.18122v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "Cheap, Consistent, Calibrated, but Biased? Typed Decision Models as Judges",
+  "title_zh": "廉价、一致、经过校准，但有偏见？类型化决策模型作为裁判",
+  "translation_url": "https://hjfy.top/arxiv/2610.18122"
+}

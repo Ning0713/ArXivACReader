@@ -1,0 +1,53 @@
+{
+  "abstract": "Phase-annotated conversational data is essential for studying the progression of online grooming of minors and for developing early warning tools. However, the only publicly available source (i.e., Perverted-Justice archive, which contains a subset coded using ChatCoder) is small, outdated, and frozen. We present a synthetic corpus of groomer-victim exchanges, generated using a retrieval-augmented pipeline running on institutional hardware. This pipeline uses an openly available, eight-billion-parameter, refusal-ablated language model. The corpus was created using the five stages of the responsible-generation protocol for synthetic datasets: ontology-driven design based on the ChatCoder luring-communication scheme (eight communicative tags mapped onto four grooming phases); multi-model prompt testing; human-in-the-loop supervision; semantic and feature-level validation; and modality-aware documentation. The released corpus contains 2,121 unique exchanges across seven tags and four phases, each accompanied by a Plutchik emotion field. Validation quantifies the integrity and lexical profile of the corpus, as well as the reproduction of real seed lines, in-domain label recoverability (tag accuracy: 0.85; phase accuracy: 0.93) and its transfer to real ChatCoder offender lines, which were coded automatically at the eight-tag level (31,640 lines) and by human coders at the three-construct level (10,876 posts). Accuracy was measured for lexical and sentence-embedding features, while a real-versus-synthetic discriminator was able to separate the two domains with 91% accuracy. The scope of the corpus includes controlled, phase-conditioned experimentation, pipeline development and augmentation alongside real data and awareness material. The corpus, its datasheet and the audit code are released with vetted access.",
+  "abstract_zh": "标注阶段的对话数据对于研究未成年人在线诱骗的进展以及开发早期预警工具至关重要。然而，唯一可公开获取的来源（即 Perverted-Justice 档案，其中包含使用 ChatCoder 编码的子集）规模小、过时且已被冻结。我们提出了一个诱骗者-受害者交流的合成语料库，该语料库是通过在机构硬件上运行的检索增强管道生成的。该管道使用一个公开可用的、拥有八十亿参数的拒绝消融语言模型。该语料库的创建遵循合成数据集的负责任生成协议的五个阶段：基于 ChatCoder 诱骗沟通方案的本体驱动设计（八个交际标签映射到四个诱骗阶段）；多模型提示测试；人类监督；语义和特征级验证；以及模态感知文档。发布的语料库包含 2,121 个独特的交流，涵盖七个标签和四个阶段，每个交流都附有 Plutchik 情感字段。验证量化了语料库的完整性和词汇特征，以及真实种子行的再现、领域内标签的可恢复性（标签准确率：0.85；阶段准确率：0.93）及其向真实 ChatCoder 罪犯行的转移，这些行在八标签级别上自动编码（31,640 行），在三构造级别上由人工编码（10,876 帖子）。准确性是针对词汇和句子嵌入特征进行测量的，而一个真实与合成的判别器能够以 91% 的准确率区分这两个领域。该语料库的范围包括受控的、阶段条件实验、管道开发和增强，以及与真实数据和意识材料的结合。该语料库、其数据表和审计代码已发布并提供经过审核的访问。",
+  "arxiv_id": "2610.15908",
+  "arxiv_url": "https://arxiv.org/abs/2610.15908v1",
+  "authors": [
+    "Emanuele Florindi",
+    "Valentina Franzoni",
+    "Ludovico Guercio",
+    "Alfredo Milani",
+    "Mattia Polticchia"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15908",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.234689+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15908v1",
+  "published_at": "2026-10-11T20:41:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "SEED",
+      "emotion",
+      "generation",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 35.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15908v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "LURE: a Phase-Labelled Synthetic Corpus of Online-Grooming Exchanges",
+  "title_zh": "LURE：一个标记阶段的在线诱骗交流合成语料库",
+  "translation_url": "https://hjfy.top/arxiv/2610.15908"
+}

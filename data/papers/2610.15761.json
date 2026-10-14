@@ -1,0 +1,56 @@
+{
+  "abstract": "For languages with limited resources, Sentiment Analysis remains a challenging problem due to limited annotated data and strong domain variability across textual sources. Marathi, despite being widely spoken, lacks extensive multi-domain sentiment analysis studies. Recent efforts by L3Cube have introduced multi-domain datasets in Marathi, enabling a better study of domain-aware sentiment classification. This study uses the pretrained MahaBERT model to improve sentiment classification for Marathi across different domains. Models are trained on individual domain datasets and domain-adaptive pretraining is applied using masked language modeling to help the model better understand domain-specific language. In addition, back-translation is used as a method of data augmentation to increase the diversity of training data. Results show that these methods lead to consistent improvements in accuracy across all domains. The improvements range from a minimum of about 0.12% to a maximum of about 1.74%, depending on the dataset. These results demonstrate that domain-adaptive pretraining and data augmentation are effective strategies for improving sentiment analysis models. This helps achieve more robust performance across different domains and makes the approach more suitable for low-resource languages like Marathi.",
+  "abstract_zh": "对于资源有限的语言，情感分析仍然是一个具有挑战性的问题，因为标注数据有限且文本来源之间存在较强的领域变异性。尽管马拉地语广泛使用，但缺乏广泛的多领域情感分析研究。L3Cube最近的努力引入了马拉地语的多领域数据集，使得领域感知情感分类的研究得以更好地进行。本研究使用预训练的MahaBERT模型来改善马拉地语在不同领域的情感分类。模型在各个领域的数据集上进行训练，并采用掩码语言建模进行领域自适应预训练，以帮助模型更好地理解领域特定语言。此外，反向翻译被用作数据增强的方法，以增加训练数据的多样性。结果表明，这些方法在所有领域的准确性上都带来了持续的改善。根据数据集的不同，改善幅度从约0.12%到约1.74%不等。这些结果表明，领域自适应预训练和数据增强是改善情感分析模型的有效策略。这有助于在不同领域实现更强的性能，并使该方法更适合像马拉地语这样的低资源语言。",
+  "arxiv_id": "2610.15761",
+  "arxiv_url": "https://arxiv.org/abs/2610.15761v1",
+  "authors": [
+    "Tanvi Somani",
+    "Aryan Babare",
+    "Samyak Bora",
+    "Raviraj Joshi",
+    "Abhinay Dhamankar"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15761",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.434706+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15761v1",
+  "published_at": "2026-10-11T16:40:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "sentiment classification",
+      "情感分析",
+      "情感分类",
+      "classification",
+      "dataset",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15761v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测",
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Robust Marathi Sentiment Analysis using Domain-Adaptive Pre-training and Data Augmentation Approaches",
+  "title_zh": "基于领域自适应预训练和数据增强方法的鲁棒马拉地语情感分析",
+  "translation_url": "https://hjfy.top/arxiv/2610.15761"
+}

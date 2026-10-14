@@ -1,0 +1,59 @@
+{
+  "abstract": "Driving digital head avatars is classically done by hand-crafted artist design or by image-based facial performance capture. In this work, we ask whether spatio-temporal tracking of the humans's head geometry and appearance can be performed solely from brain signals, i.e., Electroencephalography (EEG). Since prior work mostly focused on activity and emotion recognition, this task is relatively unexplored without even having publicly available high-quality datasets and benchmarks. Thus, we contribute a dataset featuring paired EEG and human head geometry as well as appearance annotations. We synchronize 64-channel EEG with per-frame expression latent codes of a personalized Gaussian head avatar. Second, we introduce a baseline to the task of expression recovery of a head avatar from EEG signals. To this end, we propose a dedicated EEG-to-expression model that takes a temporal sequence of EEG signals as input and regresses the latent expression parameters of the 3D Gaussian head avatar. Lastly, we validate our capture and algorithmic design choices through a benchmark protocol that we introduce to this task. We believe this work paves the way towards better understanding of the relation between EEG signals and facial surface as well as appearance changes.",
+  "abstract_zh": "数字头部虚拟形象的驱动传统上是通过手工设计或基于图像的面部表情捕捉来实现的。在本研究中，我们探讨是否可以仅通过脑信号（即脑电图，Electroencephalography, EEG）来进行人头几何形状和外观的时空跟踪。由于之前的研究主要集中在活动和情感识别上，这一任务相对较少被探索，甚至没有公开的高质量数据集和基准可用。因此，我们贡献了一个数据集，包含配对的EEG和人头几何形状以及外观注释。我们将64通道EEG与个性化高斯头部虚拟形象的每帧表情潜在代码进行同步。其次，我们为从EEG信号恢复头部虚拟形象表情的任务引入了一个基线。为此，我们提出了一个专门的EEG到表情模型，该模型将EEG信号的时间序列作为输入，并回归3D高斯头部虚拟形象的潜在表情参数。最后，我们通过为这一任务引入的基准协议验证了我们的捕捉和算法设计选择。我们相信这项工作为更好地理解EEG信号与面部表面及外观变化之间的关系铺平了道路。",
+  "arxiv_id": "2610.17356",
+  "arxiv_url": "https://arxiv.org/abs/2610.17356v1",
+  "authors": [
+    "Camilo Andrés Martínez Martínez",
+    "Olaf Dünkel",
+    "Kartik Teotia",
+    "Maurice Rekrut",
+    "Christian Theobalt",
+    "Marc Habermann"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-17356",
+  "categories": [
+    "cs.CV",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.066166+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.17356v1",
+  "published_at": "2026-10-12T20:13:29Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "recognition",
+      "benchmark",
+      "dataset",
+      "EEG",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.17356v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情绪识别",
+      "生理信号"
+    ]
+  },
+  "title": "Brain2Face: A Study on the Relation of EEG Signals and Spatio-temporal Head Avatars",
+  "title_zh": "Brain2Face：脑电信号与时空头部虚拟形象关系的研究",
+  "translation_url": "https://hjfy.top/arxiv/2610.17356"
+}

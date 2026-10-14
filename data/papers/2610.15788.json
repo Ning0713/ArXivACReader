@@ -1,0 +1,51 @@
+{
+  "abstract": "Large language model (LLM) agents are increasingly deployed as teams, yet they fail in characteristically social ways: information holders stay silent, dominant speakers anchor groups on wrong answers, and norm violations go unsanctioned. We present Agent Sociodrama, a framework for modeling and validating evolving social dynamics in LLM agent teams. Under fixed personas, agents' emotional states and directed, asymmetric relationships are updated every round by a unified external LLM judge and shape their subsequent interactions. Across six LLM backbones and five social scenarios, we assess social fidelity through classical social-theory patterns and agreement with human judgments. The resulting trajectories exhibit structured social patterns and model-specific differences. We then introduce Trajectory-Guided Persona Recasting (TPR), which diagnoses group-dynamic failures from interaction transcripts and social trajectories and recasts agent personas before rerunning the task. Across four collaborative benchmarks, TPR improves performance from both heterogeneous and randomly initialized agent persona compositions, yielding up to 83.3%p of accuracy improvement over the initial casting. On representative distributed-information cooperation and mixed-motive bargaining tasks, we outperform SOTOPIA and AgentVerse in three of four comparisons, by up to 37.5%p in Pareto rate. These results show that validated social trajectories provide actionable signals for repairing LLM agent teams.",
+  "abstract_zh": "大型语言模型（LLM）代理越来越多地作为团队部署，但它们在社交方面常常表现不佳：信息持有者保持沉默，主导发言者将团队引向错误答案，规范违反行为未受到制裁。我们提出了代理社会剧（Agent Sociodrama），这是一个用于建模和验证LLM代理团队中不断演变的社会动态的框架。在固定角色下，代理的情感状态和有向的非对称关系在每一轮中由统一的外部LLM评判者更新，并影响其后续的互动。在六种LLM基础模型和五种社会场景中，我们通过经典社会理论模式和与人类判断的一致性评估社会忠实度。结果轨迹展示了结构化的社会模式和模型特定的差异。随后，我们引入了轨迹引导的角色重塑（Trajectory-Guided Persona Recasting, TPR），该方法通过互动记录和社会轨迹诊断群体动态失败，并在重新运行任务之前重塑代理角色。在四个协作基准测试中，TPR提高了来自异构和随机初始化的代理角色组合的性能，准确率相比初始角色提升了最高达83.3个百分点。在代表性的分布式信息合作和混合动机谈判任务中，我们在四次比较中有三次超越了SOTOPIA和AgentVerse，帕累托率提高了最高达37.5个百分点。这些结果表明，经过验证的社会轨迹为修复LLM代理团队提供了可操作的信号。",
+  "arxiv_id": "2610.15788",
+  "arxiv_url": "https://arxiv.org/abs/2610.15788v1",
+  "authors": [
+    "Yirui Qi",
+    "Xiaoming Zhang",
+    "Jaehong Yoon"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15788",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.MA"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.229501+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15788v1",
+  "published_at": "2026-10-11T17:23:24Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language model",
+      "LLM"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15788v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "社交信号",
+      "数据集/评测"
+    ]
+  },
+  "title": "Agent Sociodrama: Social-Dynamics-Guided Persona Recasting for LLM Agent Teams",
+  "title_zh": "代理社会剧：基于社会动态的角色重塑用于大型语言模型代理团队",
+  "translation_url": "https://hjfy.top/arxiv/2610.15788"
+}

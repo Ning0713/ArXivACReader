@@ -1,0 +1,58 @@
+{
+  "abstract": "Text-to-video (T2V) models are increasingly used to generate videos with targeted emotional expressions, yet existing evaluation methods mainly rely on holistic video-text alignment and provide limited insight into whether failures arise from target-emotion expression, intensity control, or specific affective cues. We introduce EmoTrace-Bench, a fine-grained diagnostic benchmark that controls emotion intensity and selected affective cues in prompts and evaluates generated videos at multiple levels. EmoTrace-Bench contains 448 controlled prompts covering eight emotions, two intensity levels, and diverse cue conditions. Using 12 T2V models, we generate 5,376 videos and evaluate target-emotion presence, perceived intensity, and ten audiovisual dimensions of emotional expression with an automated evaluator calibrated and validated against human annotations on a subset of the data. Results reveal substantial differences across models and prompt designs. Prompts that explicitly describe a character's emotional reaction are followed more reliably than prompts that describe only events or scenes, whereas adding more affective cues or using more explicit cinematic audiovisual language does not consistently improve emotional generation. These results illustrate how aggregate alignment scores may overlook localized differences in target-emotion expression, intensity control, and cue realization. EmoTrace-Bench provides a traceable and interpretable framework for diagnosing emotional video generation without modifying existing generation pipelines, and we release the prompts and the automated evaluation rules.",
+  "abstract_zh": "文本到视频（T2V）模型越来越多地用于生成具有特定情感表达的视频，但现有的评估方法主要依赖于整体视频与文本的对齐，提供的洞察有限，无法明确失败是由于目标情感表达、强度控制还是特定情感线索造成的。我们提出了EmoTrace-Bench，这是一个细粒度的诊断基准，控制提示中的情感强度和选定的情感线索，并在多个层面上评估生成的视频。EmoTrace-Bench包含448个控制提示，涵盖八种情感、两个强度水平和多样的线索条件。使用12个T2V模型，我们生成了5,376个视频，并利用一个经过校准和验证的自动评估器评估目标情感的存在、感知强度以及情感表达的十个视听维度，该评估器是基于对数据子集的人类注释进行校准和验证的。结果显示模型和提示设计之间存在显著差异。明确描述角色情感反应的提示比仅描述事件或场景的提示更可靠，而增加更多情感线索或使用更明确的电影视听语言并不总是能一致地改善情感生成。这些结果表明，聚合对齐分数可能忽视目标情感表达、强度控制和线索实现中的局部差异。EmoTrace-Bench提供了一个可追踪和可解释的框架，用于诊断情感视频生成，而无需修改现有的生成流程，我们发布了提示和自动评估规则。",
+  "arxiv_id": "2610.15452",
+  "arxiv_url": "https://arxiv.org/abs/2610.15452v1",
+  "authors": [
+    "Yeheng Wang",
+    "Liudan Shi",
+    "Yi Zheng",
+    "Jingke Li",
+    "Shiyuan Liu",
+    "Xin Tao",
+    "Yuanxing Zhang",
+    "Guoyu Sun"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15452",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-14T10:01:36.935430+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15452v1",
+  "published_at": "2026-10-11T08:54:23Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "generation",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15452v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感生成",
+      "文本情感"
+    ]
+  },
+  "title": "EmoTrace-Bench: Diagnosing Emotional Expression in Text-to-Video Generation through Controlled Cues and Intensity",
+  "title_zh": "EmoTrace-Bench：通过控制线索和强度诊断文本到视频生成中的情感表达",
+  "translation_url": "https://hjfy.top/arxiv/2610.15452"
+}

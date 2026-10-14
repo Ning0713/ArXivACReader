@@ -1,0 +1,55 @@
+{
+  "abstract": "Sentiment analysis is a key task in Natural Language Processing that determines the polarity of opinions in text. For low-resource languages like Marathi--where limited data prevents the direct use of standard statistical methods--models are often trained on single-domain datasets. While this yields strong in-domain performance, it leads to poor generalization to unseen domains. Recent studies highlight the need for domain-robust systems that can handle diverse real-world content through multi-domain modeling. This study investigates how multi-domain training improves sentiment classification for unseen Marathi domains. Models are trained using single-domain, two-domain, and three-domain dataset combinations. Results show that two-domain training improves accuracy on unseen domains by about 8\\% compared to single-domain training. Adding a third domain provides further improvement, though the gain is smaller, averaging around 2\\% for some domains. These results suggest that training with data from multiple domains helps build more robust sentiment analysis models for low-resource languages, though the benefits reduce as more domains are added.",
+  "abstract_zh": "情感分析是自然语言处理中的一项关键任务，旨在确定文本中意见的极性。对于像马拉地语这样的低资源语言，由于数据有限，无法直接使用标准统计方法，因此模型通常在单一领域数据集上进行训练。尽管这在领域内表现出色，但在未见领域的泛化能力较差。最近的研究强调了需要能够通过多领域建模处理多样化现实内容的领域稳健系统。本研究探讨了多领域训练如何改善未见马拉地语领域的情感分类。模型使用单领域、双领域和三领域数据集组合进行训练。结果表明，与单领域训练相比，双领域训练在未见领域的准确率提高了约8%。添加第三个领域进一步改善了结果，尽管增益较小，对于某些领域的平均提升约为2%。这些结果表明，使用来自多个领域的数据进行训练有助于构建更稳健的低资源语言情感分析模型，尽管随着领域数量的增加，收益会减少。",
+  "arxiv_id": "2610.15757",
+  "arxiv_url": "https://arxiv.org/abs/2610.15757v1",
+  "authors": [
+    "Tanvi Somani",
+    "Aryan Babare",
+    "Samyak Bora",
+    "Raviraj Joshi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15757",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.433867+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15757v1",
+  "published_at": "2026-10-11T16:38:20Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "sentiment classification",
+      "情感分析",
+      "情感分类",
+      "classification",
+      "dataset",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15757v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测",
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Enhancing Zero-Shot Domain Transfer in Low-Resource Sentiment Analysis: A Case Study in Marathi",
+  "title_zh": "增强低资源情感分析中的零样本领域迁移：以马拉地语为例",
+  "translation_url": "https://hjfy.top/arxiv/2610.15757"
+}

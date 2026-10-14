@@ -1,0 +1,51 @@
+{
+  "abstract": "Emotion datasets are routinely mapped onto positive and negative valence, by assigning each emotion category one polarity. We test where this works and where it fails, using SemEval-2018 Affect in Tweets (English, Arabic, Spanish), Affective Text aligned with EmoBank, raw GoEmotions annotations, naturalistic hashtag corpora, and a controlled annotation study. Fixed projection works well when a text carries labels of one valence. It fails on a subset identifiable from the labels alone: tweets whose emotion labels point in opposite directions. These are 9.0% of polar SemEval test tweets but cause 54.8% of the polarity errors of a learned projection, are more than twice as likely to receive a neutral-or-mixed gold label, and are not rescued by modeling the full label set. Annotators produce such configurations routinely: 16.3% of multilabel GoEmotions judgments combine emotions from the dataset's own positive and negative parents. In a controlled study holding word and reader constant, context changes the coarse valence judgment in 56.8% of cases, against 19.9% for controls. We recommend projecting label configurations rather than labels, abstaining or keeping a mixed class where labels conflict, and reporting coverage alongside accuracy.",
+  "abstract_zh": "情感数据集通常被映射到正向和负向极性，通过为每个情感类别分配一个极性。我们测试了这种方法在何处有效以及何处失效，使用了SemEval-2018推特情感（英语、阿拉伯语、西班牙语）、与EmoBank对齐的情感文本、原始GoEmotions注释、自然主义标签语料库以及一项受控注释研究。当文本仅携带一种极性的标签时，固定投影效果良好。然而，在仅通过标签即可识别的子集上，它失效：情感标签指向相反方向的推文。这些推文占极性SemEval测试推文的9.0%，但导致学习投影的54.8%的极性错误，且更有可能获得中性或混合的金标准标签，其概率是其他推文的两倍以上，并且通过建模完整标签集无法挽救。注释者经常产生这样的配置：16.3%的多标签GoEmotions判断结合了数据集中正向和负向父类的情感。在一项控制研究中，保持词汇和读者不变，背景在56.8%的案例中改变了粗略的极性判断，而对照组为19.9%。我们建议投影标签配置而不是标签，在标签冲突时选择不标注或保持混合类别，并在报告准确性时同时报告覆盖率。",
+  "arxiv_id": "2610.15977",
+  "arxiv_url": "https://arxiv.org/abs/2610.15977v1",
+  "authors": [
+    "Emily Öhman",
+    "Saif Mohammad"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-14#paper-2610-15977",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-14T10:01:37.444260+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.15977v1",
+  "published_at": "2026-10-11T23:25:56Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "SemEval",
+      "emotion",
+      "emotions",
+      "affective",
+      "dataset",
+      "识别"
+    ],
+    "reasons": [
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 44.0
+  },
+  "seen_dates": [
+    "2026-10-14"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.15977v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-14"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感"
+    ]
+  },
+  "title": "Mixed Feelings, Single Polarity",
+  "title_zh": "复杂情感，单一极性",
+  "translation_url": "https://hjfy.top/arxiv/2610.15977"
+}
