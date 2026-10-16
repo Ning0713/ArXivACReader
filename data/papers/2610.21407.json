@@ -1,0 +1,69 @@
+{
+  "abstract": "Early stress detection and risk prediction are crucial for timely mental health assessment and support. While large language models have recently shown promise for social media stress prediction, relying on accuracy can obscure false positives. Also, prompt revisions yield inconsistent gains across models and tasks, with unclear links to strategy combinations and instruction changes. By comparing six methods on social media stress and emotion data across two model sizes, we found that GEPA and its extension combining instructions from two prompts (GEPA+merge) improved prediction over initial prompts in several settings. We also identified five prompting strategies associated with development gains. These strategies included directing attention to emotional evidence, distinguishing current from past distress, illustrating indirect cues, requiring emotional context, and guiding label selection. Moreover, we documented four observations across tasks and evaluation settings. In a separate set of searches, binary stress prediction improved early, whereas multilabel emotion prediction initially declined and partly recovered. The other three concerned incorrect or conflicting instructions, gains on small comparison samples that did not hold on full development data, and changes in selected prompts' development and reported test rankings. These findings identify effective prompt evolution methods, strategy combinations associated with gains, and task and evaluation limits, providing guidance for applying prompt evolution methods to social media stress detection.",
+  "abstract_zh": "早期压力检测和风险预测对于及时的心理健康评估和支持至关重要。尽管大型语言模型最近在社交媒体压力预测中显示出潜力，但依赖准确性可能会掩盖假阳性。此外，提示修订在不同模型和任务中产生的不一致收益，与策略组合和指令变化之间的关系不明确。通过比较六种方法在两种模型规模下的社交媒体压力和情绪数据，我们发现GEPA及其扩展版本（GEPA+merge）在多个设置中改善了初始提示的预测效果。我们还确定了与发展收益相关的五种提示策略。这些策略包括引导注意力关注情绪证据、区分当前与过去的痛苦、说明间接线索、要求提供情绪背景以及指导标签选择。此外，我们在任务和评估设置中记录了四个观察结果。在另一组搜索中，二元压力预测早期有所改善，而多标签情绪预测最初下降并部分恢复。其他三个观察结果涉及不正确或冲突的指令、在小样本比较中获得的收益在完整开发数据上未能保持，以及所选提示的发展变化和报告的测试排名。这些发现识别了有效的提示演变方法、与收益相关的策略组合以及任务和评估的限制，为将提示演变方法应用于社交媒体压力检测提供了指导。",
+  "arxiv_id": "2610.21407",
+  "arxiv_url": "https://arxiv.org/abs/2610.21407v1",
+  "authors": [
+    "SeungHyun Yi",
+    "Seungjun Yi",
+    "Sriram Sattiraju",
+    "Haeun Park",
+    "Joakim Nguyen",
+    "Terence Lim",
+    "Joseph Skrovan",
+    "Mehak Beri",
+    "Hitakshi Modi",
+    "Eloy Carrion",
+    "Andrew Well",
+    "Carlos M. Mery",
+    "Alexander Rasgon",
+    "Mia K Markey",
+    "Ying Ding"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-16#paper-2610-21407",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-16T09:37:28.902402+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.21407v1",
+  "published_at": "2026-10-15T07:24:24Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion prediction",
+      "emotion",
+      "emotional",
+      "情绪",
+      "large language models",
+      "detection",
+      "prediction",
+      "识别",
+      "检测",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 64.0
+  },
+  "seen_dates": [
+    "2026-10-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.21407v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型",
+      "社交信号"
+    ]
+  },
+  "title": "Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction",
+  "title_zh": "识别压力和情绪预测中有效的提示演变策略",
+  "translation_url": "https://hjfy.top/arxiv/2610.21407"
+}

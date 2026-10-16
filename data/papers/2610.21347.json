@@ -1,0 +1,54 @@
+{
+  "abstract": "Large Language Models (LLMs) increasingly operate in multi-turn interactions that require maintaining latent conversational states, not only explicit facts. We study affective state as an implicit state inferred from sparse contextual cues that remain relevant after topic shifts, and ask whether LLMs expose internal attention signals for routing such evidence at inference time. Prior attention interventions rely on labeled in-domain head profiles and externally specified target spans, limiting transfer across affective-evidence distributions. We propose Self-targeted Internal Attention Boosting (SIAB), which localizes sparse affective heads via causal localization (in detail activation patching) on synthetic minimal pairs and boosts, at the answer position, the content tokens these heads already attend to; both edited heads and target tokens are derived from the model's own behavior, enabling the same head set to be reused across tasks.We evaluate on ECC and GoEmotions across three LLMs and multiple prompting settings. Across settings, SIAB improves prompt-matched baselines by up to +10.3 macro-F1 on ECC and +5.5 on GoEmotions. Combined with PASTA-style external supervision, it achieves up to +13.84 accuracy points and +12.51 macro-F1 points, while mechanistic analyses trace the gains to sparse, emotion-enriched heads and show that layer proximity affects additivity.",
+  "abstract_zh": "大型语言模型（LLMs）越来越多地在需要维持潜在对话状态的多轮交互中运作，而不仅仅是显式事实。我们研究情感状态作为一种隐式状态，它是从在主题转换后仍然相关的稀疏上下文线索中推断出来的，并询问LLMs是否在推理时暴露出用于路由此类证据的内部注意信号。先前的注意干预依赖于标记的领域内头部特征和外部指定的目标范围，这限制了在情感证据分布之间的迁移。我们提出了自目标内部注意增强（Self-targeted Internal Attention Boosting, SIAB），它通过因果定位（详细的激活补丁）在合成最小对上定位稀疏情感头，并在答案位置增强这些头部已经关注的内容标记；编辑的头部和目标标记均源自模型自身的行为，使得同一头部集可以在不同任务中重复使用。我们在ECC和GoEmotions上对三个LLMs和多种提示设置进行了评估。在各种设置中，SIAB使得与提示匹配的基线在ECC上提高了最高+10.3的宏F1分数，在GoEmotions上提高了+5.5。结合PASTA风格的外部监督，它实现了最高+13.84的准确率和+12.51的宏F1分数，同时机械分析将增益追溯到稀疏的、富含情感的头部，并显示层的接近性影响叠加性。",
+  "arxiv_id": "2610.21347",
+  "arxiv_url": "https://arxiv.org/abs/2610.21347v1",
+  "authors": [
+    "Wenqiu Tang",
+    "Zhen Wan",
+    "Yihui Wang",
+    "Takahiro Komamizu",
+    "Ichiro Ide"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-16#paper-2610-21347",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-16T09:37:28.898307+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.21347v1",
+  "published_at": "2026-10-15T06:29:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "large language models",
+      "LLMs",
+      "reasoning",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.21347v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "情感生成"
+    ]
+  },
+  "title": "Emotion Is Not External Knowledge: Internal Attention Signals for Affective State Reasoning",
+  "title_zh": "情感不是外部知识：情感状态推理的内部注意信号",
+  "translation_url": "https://hjfy.top/arxiv/2610.21347"
+}

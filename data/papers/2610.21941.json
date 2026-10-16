@@ -1,0 +1,52 @@
+{
+  "abstract": "Recent post-training approaches have shown that self-supervised speech encoders can be adapted to learn a single utterance-level speech attribute through knowledge distillation. In this work, we investigate whether a single speech encoder can simultaneously preserve multiple complementary utterance-level speech representations. We propose a multi-attribute multi-teacher distillation framework that learns semantic, speaker, language, and emotion representations from four frozen teacher models using a shared SSL backbone and attribute-specific branches. Experiments on multilingual semantic retrieval, speaker verification, language identification, and speech emotion recognition show that the proposed model achieves performance close to dedicated single-task students while requiring only a single shared encoder. Furthermore, the learned layer aggregation strategies reveal that different speech attributes naturally emerge at different depths of the SSL encoder, providing new insights into the organization of speech representations.",
+  "abstract_zh": "近期的后训练方法表明，自监督语音编码器可以通过知识蒸馏适应学习单一的发声级语音属性。在本研究中，我们探讨了单一语音编码器是否能够同时保留多个互补的发声级语音表示。我们提出了一种多属性多教师蒸馏框架，该框架利用共享的自监督学习（SSL）主干和特定属性的分支，从四个冻结的教师模型中学习语义、说话者、语言和情感表示。在多语言语义检索、说话者验证、语言识别和语音情感识别的实验中，所提模型的性能接近于专门的单任务学生，同时只需一个共享编码器。此外，学习到的层聚合策略揭示了不同的语音属性自然地在SSL编码器的不同深度中出现，为语音表示的组织提供了新的见解。",
+  "arxiv_id": "2610.21941",
+  "arxiv_url": "https://arxiv.org/abs/2610.21941v1",
+  "authors": [
+    "Maryem Bouziane",
+    "Salima Mdhaffar",
+    "Yannick Estève"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-16#paper-2610-21941",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-16T09:37:28.919023+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.21941v1",
+  "published_at": "2026-10-15T14:15:32Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "recognition",
+      "speech",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 71.0
+  },
+  "seen_dates": [
+    "2026-10-16"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.21941v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-16"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "语音情感"
+    ]
+  },
+  "title": "Learning Speech Attribute Representations via Multi-Teacher Distillation",
+  "title_zh": "通过多教师蒸馏学习语音属性表示",
+  "translation_url": "https://hjfy.top/arxiv/2610.21941"
+}

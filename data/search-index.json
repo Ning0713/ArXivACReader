@@ -1,6 +1,75 @@
 {
-  "generated_at": "2026-10-15T09:43:42.952476+00:00",
+  "generated_at": "2026-10-16T09:37:32.686455+00:00",
   "items": [
+    {
+      "abstract": "Recent post-training approaches have shown that self-supervised speech encoders can be adapted to learn a single utterance-level speech attribute through knowledge distillation. In this work, we investigate whether a single speech encoder can simultaneously preserve multiple complementary utterance-level speech representations. We propose a multi-attribute multi-teacher distillation framework that learns semantic, speaker, language, and emotion representations from four frozen teacher models using a shared SSL backbone and attribute-specific branches. Experiments on multilingual semantic retrieval, speaker verification, language identification, and speech emotion recognition show that the proposed model achieves performance close to dedicated single-task students while requiring only a single shared encoder. Furthermore, the learned layer aggregation strategies reveal that different speech attributes naturally emerge at different depths of the SSL encoder, providing new insights into the organization of speech representations.",
+      "abstract_zh": "近期的后训练方法表明，自监督语音编码器可以通过知识蒸馏适应学习单一的发声级语音属性。在本研究中，我们探讨了单一语音编码器是否能够同时保留多个互补的发声级语音表示。我们提出了一种多属性多教师蒸馏框架，该框架利用共享的自监督学习（SSL）主干和特定属性的分支，从四个冻结的教师模型中学习语义、说话者、语言和情感表示。在多语言语义检索、说话者验证、语言识别和语音情感识别的实验中，所提模型的性能接近于专门的单任务学生，同时只需一个共享编码器。此外，学习到的层聚合策略揭示了不同的语音属性自然地在SSL编码器的不同深度中出现，为语音表示的组织提供了新的见解。",
+      "authors": [
+        "Maryem Bouziane",
+        "Salima Mdhaffar",
+        "Yannick Estève"
+      ],
+      "date": "2026-10-16",
+      "id": "2610.21941",
+      "tags": [
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "Learning Speech Attribute Representations via Multi-Teacher Distillation",
+      "title_zh": "通过多教师蒸馏学习语音属性表示",
+      "url": "/daily/2026-10-16/#paper-2610-21941"
+    },
+    {
+      "abstract": "Early stress detection and risk prediction are crucial for timely mental health assessment and support. While large language models have recently shown promise for social media stress prediction, relying on accuracy can obscure false positives. Also, prompt revisions yield inconsistent gains across models and tasks, with unclear links to strategy combinations and instruction changes. By comparing six methods on social media stress and emotion data across two model sizes, we found that GEPA and its extension combining instructions from two prompts (GEPA+merge) improved prediction over initial prompts in several settings. We also identified five prompting strategies associated with development gains. These strategies included directing attention to emotional evidence, distinguishing current from past distress, illustrating indirect cues, requiring emotional context, and guiding label selection. Moreover, we documented four observations across tasks and evaluation settings. In a separate set of searches, binary stress prediction improved early, whereas multilabel emotion prediction initially declined and partly recovered. The other three concerned incorrect or conflicting instructions, gains on small comparison samples that did not hold on full development data, and changes in selected prompts' development and reported test rankings. These findings identify effective prompt evolution methods, strategy combinations associated with gains, and task and evaluation limits, providing guidance for applying prompt evolution methods to social media stress detection.",
+      "abstract_zh": "早期压力检测和风险预测对于及时的心理健康评估和支持至关重要。尽管大型语言模型最近在社交媒体压力预测中显示出潜力，但依赖准确性可能会掩盖假阳性。此外，提示修订在不同模型和任务中产生的不一致收益，与策略组合和指令变化之间的关系不明确。通过比较六种方法在两种模型规模下的社交媒体压力和情绪数据，我们发现GEPA及其扩展版本（GEPA+merge）在多个设置中改善了初始提示的预测效果。我们还确定了与发展收益相关的五种提示策略。这些策略包括引导注意力关注情绪证据、区分当前与过去的痛苦、说明间接线索、要求提供情绪背景以及指导标签选择。此外，我们在任务和评估设置中记录了四个观察结果。在另一组搜索中，二元压力预测早期有所改善，而多标签情绪预测最初下降并部分恢复。其他三个观察结果涉及不正确或冲突的指令、在小样本比较中获得的收益在完整开发数据上未能保持，以及所选提示的发展变化和报告的测试排名。这些发现识别了有效的提示演变方法、与收益相关的策略组合以及任务和评估的限制，为将提示演变方法应用于社交媒体压力检测提供了指导。",
+      "authors": [
+        "SeungHyun Yi",
+        "Seungjun Yi",
+        "Sriram Sattiraju",
+        "Haeun Park",
+        "Joakim Nguyen",
+        "Terence Lim",
+        "Joseph Skrovan",
+        "Mehak Beri",
+        "Hitakshi Modi",
+        "Eloy Carrion",
+        "Andrew Well",
+        "Carlos M. Mery",
+        "Alexander Rasgon",
+        "Mia K Markey",
+        "Ying Ding"
+      ],
+      "date": "2026-10-16",
+      "id": "2610.21407",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "社交信号"
+      ],
+      "title": "Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction",
+      "title_zh": "识别压力和情绪预测中有效的提示演变策略",
+      "url": "/daily/2026-10-16/#paper-2610-21407"
+    },
+    {
+      "abstract": "Large Language Models (LLMs) increasingly operate in multi-turn interactions that require maintaining latent conversational states, not only explicit facts. We study affective state as an implicit state inferred from sparse contextual cues that remain relevant after topic shifts, and ask whether LLMs expose internal attention signals for routing such evidence at inference time. Prior attention interventions rely on labeled in-domain head profiles and externally specified target spans, limiting transfer across affective-evidence distributions. We propose Self-targeted Internal Attention Boosting (SIAB), which localizes sparse affective heads via causal localization (in detail activation patching) on synthetic minimal pairs and boosts, at the answer position, the content tokens these heads already attend to; both edited heads and target tokens are derived from the model's own behavior, enabling the same head set to be reused across tasks.We evaluate on ECC and GoEmotions across three LLMs and multiple prompting settings. Across settings, SIAB improves prompt-matched baselines by up to +10.3 macro-F1 on ECC and +5.5 on GoEmotions. Combined with PASTA-style external supervision, it achieves up to +13.84 accuracy points and +12.51 macro-F1 points, while mechanistic analyses trace the gains to sparse, emotion-enriched heads and show that layer proximity affects additivity.",
+      "abstract_zh": "大型语言模型（LLMs）越来越多地在需要维持潜在对话状态的多轮交互中运作，而不仅仅是显式事实。我们研究情感状态作为一种隐式状态，它是从在主题转换后仍然相关的稀疏上下文线索中推断出来的，并询问LLMs是否在推理时暴露出用于路由此类证据的内部注意信号。先前的注意干预依赖于标记的领域内头部特征和外部指定的目标范围，这限制了在情感证据分布之间的迁移。我们提出了自目标内部注意增强（Self-targeted Internal Attention Boosting, SIAB），它通过因果定位（详细的激活补丁）在合成最小对上定位稀疏情感头，并在答案位置增强这些头部已经关注的内容标记；编辑的头部和目标标记均源自模型自身的行为，使得同一头部集可以在不同任务中重复使用。我们在ECC和GoEmotions上对三个LLMs和多种提示设置进行了评估。在各种设置中，SIAB使得与提示匹配的基线在ECC上提高了最高+10.3的宏F1分数，在GoEmotions上提高了+5.5。结合PASTA风格的外部监督，它实现了最高+13.84的准确率和+12.51的宏F1分数，同时机械分析将增益追溯到稀疏的、富含情感的头部，并显示层的接近性影响叠加性。",
+      "authors": [
+        "Wenqiu Tang",
+        "Zhen Wan",
+        "Yihui Wang",
+        "Takahiro Komamizu",
+        "Ichiro Ide"
+      ],
+      "date": "2026-10-16",
+      "id": "2610.21347",
+      "tags": [
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "Emotion Is Not External Knowledge: Internal Attention Signals for Affective State Reasoning",
+      "title_zh": "情感不是外部知识：情感状态推理的内部注意信号",
+      "url": "/daily/2026-10-16/#paper-2610-21347"
+    },
     {
       "abstract": "Dialogue and collaborative assistants repeatedly judge what a partner knows, believes, or intends. Typed decision models offer a potential alternative to generative large language models for bounded Theory of Mind (ToM) selection. We present Jev-ToM, comparing five typed decision models and seven generative baselines on 11,117 English text questions from nine ToM benchmarks across six capability groups. TypeSafe Jev reaches 73.2% source-balanced accuracy including native controls and ranks first or second across all six capabilities, leading beliefs, goals/desires/intentions, and emotions. Other typed models show distinct strengths across tasks. Separate resource comparisons suggest that Jev could reduce the cost and waiting time of repeated ToM selection. Confidence-based selection remains benchmark-dependent, and supplied reasons can repair errors or overturn correct answers depending on their attachment. Candidate expansion reveals distinct selection and output-validity problems. Related-question cues account for most of Jev's downstream gains, with task-dependent effects from predicted states. The findings motivate testing Jev as a ToM selection component in assistants, with task-specific confidence calibration, candidate design, and output validation as integration priorities.",
       "abstract_zh": "对话和协作助手不断判断合作伙伴的知识、信念或意图。类型化决策模型为有限的心智理论（Theory of Mind, ToM）选择提供了一种潜在的替代方案，取代生成性大型语言模型。我们提出了Jev-ToM，比较了五种类型化决策模型和七个生成性基线模型在来自九个ToM基准的11,117个英语文本问题上的表现，涵盖六个能力组别。TypeSafe Jev在包括本地控制在内的源平衡准确率上达到了73.2%，并在所有六个能力组中排名第一或第二，尤其在信念、目标/欲望/意图和情感方面表现突出。其他类型化模型在不同任务中展现出独特的优势。单独的资源比较表明，Jev可能降低重复ToM选择的成本和等待时间。基于信心的选择仍然依赖于基准，而提供的理由可以修正错误或推翻正确答案，具体取决于其附加方式。候选扩展揭示了独特的选择和输出有效性问题。相关问题提示占据了Jev下游收益的大部分，且预测状态对任务的影响具有依赖性。这些发现激励我们在助手中测试Jev作为ToM选择组件，任务特定的信心校准、候选设计和输出验证被视为整合的优先事项。",

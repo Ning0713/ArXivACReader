@@ -1634,8 +1634,42 @@
         "情感大模型"
       ],
       "title": "Jev-ToM: Evaluating Theory of Mind in Typed Decision Models"
+    },
+    "2610.21347": {
+      "dates": [
+        "2026-10-16"
+      ],
+      "first_seen": "2026-10-16",
+      "tags": [
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "Emotion Is Not External Knowledge: Internal Attention Signals for Affective State Reasoning"
+    },
+    "2610.21407": {
+      "dates": [
+        "2026-10-16"
+      ],
+      "first_seen": "2026-10-16",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "社交信号"
+      ],
+      "title": "Identifying Effective Strategies in Prompt Evolution for Stress and Emotion Prediction"
+    },
+    "2610.21941": {
+      "dates": [
+        "2026-10-16"
+      ],
+      "first_seen": "2026-10-16",
+      "tags": [
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "Learning Speech Attribute Representations via Multi-Teacher Distillation"
     }
   },
-  "total": 142,
-  "updated_at": "2026-10-15T09:43:42.952476+00:00"
+  "total": 145,
+  "updated_at": "2026-10-16T09:37:32.686455+00:00"
 }
