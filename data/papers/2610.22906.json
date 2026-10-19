@@ -1,0 +1,55 @@
+{
+  "abstract": "Federated Learning (FL) is a powerful machine learning framework that allows building a global model from the contributions of multiple, distributed clients, while ensuring the privacy of their local data. However, its heavy computational and communication overheads challenge its use for contemporary AI workloads such as natural language processing (NLP) and multimodal analysis. For this reason, this paper presents a novel small language model that leverages byte-level text and multimodal data processing, enhanced by a linear attention mechanism, to enable manageable Federated Learning of NLP and multimodal analysis tasks. The proposed model, nicknamed FederatedBytes, manages to process text and any other data types, including images, by treating its input as a mere sequence of bytes, while its lean linear attention mechanism allows abating the overall memory and computational footprint. To prove the effectiveness of the proposed model we have carried out an extensive performance evaluation on sentiment analysis tasks in multilingual and multimodal settings over the Multilingual Amazon Reviews and ScienceQA datasets. The experimental results show that FederatedBytes has been able to outperform comparable models such as ByT5 and LSTM, achieving higher accuracy while significantly reducing memory and communication overheads.",
+  "abstract_zh": "联邦学习（Federated Learning, FL）是一种强大的机器学习框架，它允许通过多个分布式客户端的贡献构建全球模型，同时确保其本地数据的隐私。然而，其巨大的计算和通信开销对当代人工智能工作负载（如自然语言处理（NLP）和多模态分析）的应用构成了挑战。为此，本文提出了一种新颖的小型语言模型，利用字节级文本和多模态数据处理，并通过线性注意力机制增强，以实现可管理的NLP和多模态分析任务的联邦学习。所提出的模型被称为FederatedBytes，能够将文本和其他数据类型（包括图像）视为字节序列进行处理，同时其精简的线性注意力机制使得整体内存和计算开销得以降低。为了证明所提模型的有效性，我们在多语言和多模态环境下对Multilingual Amazon Reviews和ScienceQA数据集的情感分析任务进行了广泛的性能评估。实验结果表明，FederatedBytes在准确性上优于可比模型，如ByT5和LSTM，同时显著降低了内存和通信开销。",
+  "arxiv_id": "2610.22906",
+  "arxiv_url": "https://arxiv.org/abs/2610.22906v1",
+  "authors": [
+    "Ali Sarabadani",
+    "Massimo Piccardi",
+    "Mehran Abolhasan",
+    "Farzad Tofigh",
+    "Ian Zhou",
+    "Justin Lipman"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-19#paper-2610-22906",
+  "categories": [
+    "cs.CL",
+    "cs.DC",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-19T10:39:09.218965+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.22906v1",
+  "published_at": "2026-10-16T04:14:35Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "multimodal",
+      "多模态"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 62.0
+  },
+  "seen_dates": [
+    "2026-10-19"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.22906v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-19"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "多模态情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "FederatedBytes: Tokenizer-Free, Byte-Level Small Language Models for Efficient Multimodal Federated Learning",
+  "title_zh": "FederatedBytes：无Tokenizer的字节级小型语言模型用于高效的多模态联邦学习",
+  "translation_url": "https://hjfy.top/arxiv/2610.22906"
+}

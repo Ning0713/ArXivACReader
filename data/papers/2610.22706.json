@@ -1,0 +1,61 @@
+{
+  "abstract": "Multimodal large language models (MLLMs) offer scalable annotations of social and affective content, but their temporal agreement with human judgments and neural predictive value require further evaluation. We compared diffusion-based and autoregressive MLLMs with continuous human Theory of Mind (ToM) and affective valence ratings across three short cartoon movies. Behavioral analyses assessed temporally aligned Pearson correlations, rating distributions, and the effects of preceding scene descriptions. Ratings from each source were separately used in subject-specific regression models to predict regional fMRI responses. Model ratings captured aspects of human temporal variation despite systematic distributional differences, with generally stronger alignment for valence than ToM. Preceding context improved alignment in some conditions, depending on the model and movie. In \\emph{The Present}, more regions showed significant encoding for MLLM ratings than for human ratings, whereas effects were more limited in the other movies. Spatial overlap across rating sources occurred mainly among MLLMs; overlap between human and model ratings was limited and involved primarily visual, dorsal-attention, and posterior default-mode regions. These findings support MLLMs as scalable tools for generating brain-predictive annotations of social and emotional content, while highlighting systematic rating differences and model- and stimulus-dependent alignment with human judgments.",
+  "abstract_zh": "多模态大型语言模型（MLLMs）提供了对社会和情感内容的可扩展注释，但它们与人类判断的时间一致性和神经预测价值仍需进一步评估。我们比较了基于扩散和自回归的MLLMs在三部短片卡通电影中与人类的理论心智（Theory of Mind, ToM）和情感效价评分的连续性。行为分析评估了时间对齐的皮尔逊相关性、评分分布以及前景场景描述的影响。每个来源的评分分别用于特定受试者的回归模型，以预测区域fMRI反应。尽管存在系统性的分布差异，模型评分捕捉到了人类时间变化的某些方面，且对情感效价的对齐通常强于对ToM的对齐。在某些条件下，前景上下文改善了对齐效果，这取决于模型和电影。在《现在》（The Present）中，更多区域显示出对MLLM评分的显著编码，而对人类评分的效果则较为有限。不同评分来源之间的空间重叠主要发生在MLLMs之间；人类评分与模型评分之间的重叠有限，主要涉及视觉、背侧注意和后默认模式区域。这些发现支持MLLMs作为生成社会和情感内容的大脑预测注释的可扩展工具，同时突显了系统性的评分差异以及与人类判断的模型和刺激依赖性对齐。",
+  "arxiv_id": "2610.22706",
+  "arxiv_url": "https://arxiv.org/abs/2610.22706v1",
+  "authors": [
+    "Yiran Huang",
+    "Zeyong Zhang",
+    "Bharat Biswal",
+    "Xin Di",
+    "Mengjia Xu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-19#paper-2610-22706",
+  "categories": [
+    "cs.AI",
+    "q-bio.NC"
+  ],
+  "fetched_at": "2026-10-19T10:39:09.126564+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.22706v1",
+  "published_at": "2026-10-15T22:22:03Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感理解",
+      "emotional",
+      "affective",
+      "multimodal",
+      "large language models",
+      "MLLM",
+      "MLLMs",
+      "LLMs",
+      "多模态",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 64.0
+  },
+  "seen_dates": [
+    "2026-10-19"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.22706v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-19"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "多模态情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies",
+  "title_zh": "与大脑对齐的多模态大型语言模型用于卡通电影的社会与情感理解",
+  "translation_url": "https://hjfy.top/arxiv/2610.22706"
+}

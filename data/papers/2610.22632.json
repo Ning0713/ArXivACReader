@@ -1,0 +1,54 @@
+{
+  "abstract": "Understanding people often requires inferring what they feel or want from how they behave rather than from what they state outright. We ask whether language models can make these inferences, and how they do so. We introduce Theory-of-Mind Stories (ToMStories), an evaluation dataset of ~6,000 short synthetically generated narrative vignettes, each paired with a multiple-choice or open-ended question about a character's emotion, fear, motivation, or emotional wound. These psychological states are conveyed implicitly (showing), explicitly (telling), or with conflict between dialogue and description. Evaluating thirteen open-weight models (1B-72B parameters), we find that the largest models match humans on multiple choice but not open-ended questions. Our analyses point to simplifications models make in both interpretation and generation of implicit psychological states, indicating that synthetic data can help us understand how models perform interpretation, but likely overestimates how well models interpret humans.",
+  "abstract_zh": "理解他人往往需要从他们的行为中推断出他们的感受或需求，而不是仅仅依赖于他们的直接陈述。我们探讨语言模型是否能够进行这些推断，以及它们是如何做到的。我们引入了心智理论故事（ToMStories），这是一个评估数据集，包含约6000个短小的合成生成叙事片段，每个片段都配有关于角色情感、恐惧、动机或情感创伤的多项选择或开放式问题。这些心理状态通过隐含（展示）、明确（叙述）或对话与描述之间的冲突来传达。对十三个开放权重模型（参数范围从1B到72B）的评估显示，最大的模型在多项选择题上与人类表现相当，但在开放式问题上则不然。我们的分析指出，模型在对隐含心理状态的解释和生成上存在简化，表明合成数据可以帮助我们理解模型的解释能力，但可能高估了模型对人类的理解能力。",
+  "arxiv_id": "2610.22632",
+  "arxiv_url": "https://arxiv.org/abs/2610.22632v1",
+  "authors": [
+    "Melanie Subbiah",
+    "Chia-En Jacklyn Tsai",
+    "Kathleen McKeown"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-19#paper-2610-22632",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-19T10:39:09.198476+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.22632v1",
+  "published_at": "2026-10-15T20:38:58Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "generation",
+      "dialogue",
+      "dataset",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-19"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.22632v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-19"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感生成",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "ToMStories: Interpreting Theory-of-Mind in Synthetic Narratives",
+  "title_zh": "ToMStories：在合成叙事中解释心智理论",
+  "translation_url": "https://hjfy.top/arxiv/2610.22632"
+}

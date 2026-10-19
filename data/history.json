@@ -1668,8 +1668,44 @@
         "语音情感"
       ],
       "title": "Learning Speech Attribute Representations via Multi-Teacher Distillation"
+    },
+    "2610.22632": {
+      "dates": [
+        "2026-10-19"
+      ],
+      "first_seen": "2026-10-19",
+      "tags": [
+        "数据集/评测",
+        "情感生成",
+        "心理状态/福祉"
+      ],
+      "title": "ToMStories: Interpreting Theory-of-Mind in Synthetic Narratives"
+    },
+    "2610.22706": {
+      "dates": [
+        "2026-10-19"
+      ],
+      "first_seen": "2026-10-19",
+      "tags": [
+        "情感大模型",
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "Brain-Aligned Multimodal LLMs for Social and Emotional Understanding of Cartoon Movies"
+    },
+    "2610.22906": {
+      "dates": [
+        "2026-10-19"
+      ],
+      "first_seen": "2026-10-19",
+      "tags": [
+        "文本情感",
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "FederatedBytes: Tokenizer-Free, Byte-Level Small Language Models for Efficient Multimodal Federated Learning"
     }
   },
-  "total": 145,
-  "updated_at": "2026-10-16T09:37:32.686455+00:00"
+  "total": 148,
+  "updated_at": "2026-10-19T10:39:12.926911+00:00"
 }
