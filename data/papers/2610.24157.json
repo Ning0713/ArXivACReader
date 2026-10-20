@@ -1,0 +1,59 @@
+{
+  "abstract": "We present CoDA, an open-source human-LM collaborative codebook development assistant that helps domain experts develop annotation guidelines for annotating new variables in unstructured text with language models. Existing language model annotation systems primarily focus on downstream classification performance, while assuming the availability of high-quality annotation guidelines, or codebooks. In practice, developing these codebooks is time-consuming and challenging, particularly for concepts that require expert knowledge. CoDA addresses this gap by collaborating with domain experts to iteratively develop codebooks through targeted review of incorrect language model predictions and incorporating expert feedback into the evolving codebook. We demonstrate CoDA on two real-world case studies: extracting health indicators from homelessness case management notes and classifying sentiment of wildlife trafficking posts on social media. Across both domains, CoDA produces codebooks that achieve downstream classification performance comparable to expert codebooks while reducing codebook development time from several weeks to two hours and requiring 5X fewer manually annotated examples. Applying CoDA to generate annotations at scale, we identified 2,410 case notes that contained health discussions or referrals and 10,196 social media posts expressing negative sentiment that may warrant investigation for potential wildlife trafficking. By accelerating codebook development, CoDA helps practitioners use language models to extract domain-specific insights from unstructured text at scale.",
+  "abstract_zh": "我们提出了CoDA，一个开源的人类-LM协作代码本开发助手，帮助领域专家为使用语言模型对非结构化文本中的新变量进行注释开发注释指南。现有的语言模型注释系统主要关注下游分类性能，同时假设高质量的注释指南或代码本是可用的。实际上，开发这些代码本既耗时又具有挑战性，尤其是对于需要专家知识的概念。CoDA通过与领域专家合作，针对性地审查语言模型预测错误并将专家反馈纳入不断发展的代码本，来填补这一空白。我们在两个真实案例研究中展示了CoDA：从无家可归者案例管理记录中提取健康指标，以及对社交媒体上野生动物贩运帖子进行情感分类。在这两个领域中，CoDA生成的代码本在下游分类性能上可与专家代码本相媲美，同时将代码本开发时间从几周缩短至两个小时，并且所需的手动注释示例减少了5倍。通过将CoDA应用于大规模生成注释，我们识别了2410条包含健康讨论或转介的案例记录，以及10196条表达负面情绪的社交媒体帖子，这些帖子可能需要调查以确定潜在的野生动物贩运。通过加速代码本开发，CoDA帮助从业者利用语言模型从非结构化文本中大规模提取领域特定的见解。",
+  "arxiv_id": "2610.24157",
+  "arxiv_url": "https://arxiv.org/abs/2610.24157v1",
+  "authors": [
+    "Jaspreet Ranjit",
+    "Swaminathan Chellappa",
+    "Augusto Rivas Costante",
+    "Chandan Manjunath",
+    "Laura Onasch-Vera",
+    "Hailey Winetrobe Nadel",
+    "Eric Rice",
+    "Swabha Swayamdipta"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-24157",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-20T09:55:37.996446+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.24157v1",
+  "published_at": "2026-10-16T19:30:26Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分类",
+      "情绪",
+      "classification",
+      "识别",
+      "分类",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 49.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.24157v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "社交信号"
+    ]
+  },
+  "title": "CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation",
+  "title_zh": "CoDA：一种人类-LM协作的领域特定文本注释代码本开发助手",
+  "translation_url": "https://hjfy.top/arxiv/2610.24157"
+}

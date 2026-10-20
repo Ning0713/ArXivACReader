@@ -1,0 +1,55 @@
+{
+  "abstract": "The Chinese idiom \"kou mi fu jian\" (\"honeyed words, hidden daggers\") names speech that is polite in form but hostile in function. We present ZhenhuanBench, a 1,592-item benchmark built from expert commentary on Empresses in the Palace, covering speaker intent, emotion-language mismatch, and per-listener uptake. Text-only evaluation covers 34 LLMs. GPT-6 Astra leads the leaderboard at 73.48% overall, while its listener-reaction score is 58.37%. The annotations also supply supervised traces and string-verifiable training rewards. With 338 gold traces, an 8B model outperforms teacher distillation on identical items. Subsequent RL saturates, and chance correction reduces the estimated recoverable performance gap by a factor of 7.5. Our CPR-GRPO loop (Compress-Probe-Replenish) uses this estimate to weight gold supervision, reaching 67.0 on public multiple-choice tasks and 74.5 under the training-matched hidden protocol. Without target-task training, CPR outperforms Base, SFT, and GRPO across six Chinese and English pragmatic and sarcasm evaluations. On three external datasets, training with CPR yields higher mean Macro-F1 than SFT and GRPO.",
+  "abstract_zh": "中国成语“口蜜腹剑”形容表面上礼貌但实则敌意的言辞。我们提出了ZhenhuanBench，这是一个由对《宫中的皇后》专家评论构建的1592项基准，涵盖了说话者意图、情感与语言的不匹配以及每位听众的接受度。仅文本评估涵盖了34个大型语言模型（LLMs）。GPT-6 Astra在总分上以73.48%领先于排行榜，而其听众反应得分为58.37%。这些注释还提供了监督轨迹和可字符串验证的训练奖励。凭借338条金标准轨迹，一个8B模型在相同项目上超越了教师蒸馏。随后的强化学习饱和，机会修正将估计的可恢复性能差距缩小了7.5倍。我们的CPR-GRPO循环（Compress-Probe-Replenish）利用这一估计来加权金标准监督，在公共多项选择任务中达到67.0，在与训练匹配的隐性协议下达到74.5。在没有目标任务训练的情况下，CPR在六个中文和英文的语用与讽刺评估中超越了Base、SFT和GRPO。在三个外部数据集上，使用CPR进行训练的平均宏F1得分高于SFT和GRPO。",
+  "arxiv_id": "2610.26059",
+  "arxiv_url": "https://arxiv.org/abs/2610.26059v1",
+  "authors": [
+    "Caixin Kang",
+    "Sitong Gong",
+    "Tianyu Yan",
+    "Kaipeng Zhang",
+    "Yoichi Sato",
+    "Yifei Huang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-26059",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-20T09:55:38.040838+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.26059v1",
+  "published_at": "2026-10-19T09:19:38Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "LLMs",
+      "benchmark",
+      "speech",
+      "识别"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.26059v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "语音情感",
+      "文本情感"
+    ]
+  },
+  "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness",
+  "title_zh": "甜言蜜语，暗藏利刃：基准测试与训练大型语言模型以识别虚伪的礼貌",
+  "translation_url": "https://hjfy.top/arxiv/2610.26059"
+}

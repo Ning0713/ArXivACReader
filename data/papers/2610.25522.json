@@ -1,0 +1,56 @@
+{
+  "abstract": "Conversational large language models can respond with warmth and reassurance while failing to advance the user's stated goal. We conceptualize this failure as $\\textbf{goal displacement}$, the substitution of persona-maintenance content for goal-relevant substance. To measure it, we introduce $\\textbf{GDB}$ (Goal Displacement Benchmark), comprising 230 scenarios across nine domains and $4{,}134$ human-scored responses from 18 models. A $2 \\times 2$ taxonomy crosses hard constraints with emotional distress, distinguishing failures to confront infeasible goals or combine empathy with practical guidance from reverse displacement, where unsolicited problem-solving replaces requested emotional support. A deletion-test rubric assesses whether substantive help remains after purely supportive sentences are removed. Independent raters achieve weighted $\\kappa = 0.82$ against author scores for displacement severity. Trap displacement ranges from $0.0\\%$ to $37.7\\%$ and is strongly negatively correlated with Chatbot Arena Elo ($\\rho = -0.706$, $n = 15$). Reverse displacement reaches $41.9\\%$, including substantial rates in models with negligible trap displacement. A factorial probe supports a distinction from social sycophancy. Human-scored responses in the high-complexity, low-pressure condition exhibit $35.0\\%$ sycophancy but $7.5\\%$ displacement, with little association between the constructs. Matched OLMo-2 checkpoints show that mixed empathy-with-constraints displacement remains at $52.3\\%$ after supervised fine-tuning and falls to $13.8\\%$ after direct preference optimization. GDB provides a reproducible diagnostic of whether responses advance the operationalized user goal, supporting model comparison, post-training evaluation, and regression testing. We release the dataset, annotations, and rubric under CC-BY-4.0 and the evaluation code under MIT.",
+  "abstract_zh": "对话型大型语言模型能够以温暖和安慰的方式回应，但却未能推进用户所陈述的目标。我们将这种失败概念化为$ extbf{目标转移}$，即将维持角色的内容替代与目标相关的实质内容。为了衡量这一点，我们引入了$ extbf{GDB}$（目标转移基准），包括来自九个领域的230个场景和18个模型的4,134个人工评分的响应。一个$2 imes 2$的分类法将严格约束与情感困扰交叉，区分未能面对不可行目标或将同理心与实际指导结合的失败，和反向转移，其中未经请求的问题解决替代了请求的情感支持。删除测试标准评估在纯支持性句子被移除后，是否仍然存在实质性帮助。独立评审者在转移严重性方面与作者评分的加权$ ext{kappa} = 0.82$。陷阱转移的范围从$0.0\\%$到$37.7\\\\%$，与Chatbot Arena Elo呈强负相关（$ ho = -0.706$, $n = 15$）。反向转移达到$41.9\\\\%$，在陷阱转移微不足道的模型中也存在显著比例。一个因子探测支持与社交谄媚的区分。在高复杂度、低压力条件下，人工评分的响应显示出$35.0\\\\%$的谄媚但$7.5\\\\%$的转移，两个构念之间几乎没有关联。匹配的OLMo-2检查点显示，在监督微调后，混合同理心与约束的转移仍为$52.3\\\\%$，而在直接偏好优化后降至$13.8\\\\%$。GDB提供了一种可重复的诊断方法，以判断响应是否推进了操作化的用户目标，支持模型比较、训练后评估和回归测试。我们在CC-BY-4.0下发布数据集、注释和标准，并在MIT下发布评估代码。",
+  "arxiv_id": "2610.25522",
+  "arxiv_url": "https://arxiv.org/abs/2610.25522v1",
+  "authors": [
+    "Dean Ariel",
+    "Guy Laban"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-25522",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-20T09:55:37.949020+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.25522v1",
+  "published_at": "2026-10-18T20:35:11Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "empathy",
+      "large language models",
+      "LLM",
+      "benchmark",
+      "dataset",
+      "分类",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 86.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.25522v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "When Empathy Misses the Goal: A Benchmark for Goal Displacement in LLM Advice",
+  "title_zh": "当同理心未能达到目标：大型语言模型建议中的目标转移基准",
+  "translation_url": "https://hjfy.top/arxiv/2610.25522"
+}

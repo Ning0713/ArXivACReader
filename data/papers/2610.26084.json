@@ -1,0 +1,64 @@
+{
+  "abstract": "EEG-eye movement emotion recognition can support mental-health monitoring and adaptive interfaces, but most fusion models treat the two signals as parallel features, classify each window alone and degrade when eye data are lost. We propose the Context-Aware Topological Distillation Graph Network (CTD-GNet), in which EEG features form the nodes of an electrode graph, and eye movements and preceding windows modulate its edges, nodes and readout, the edges through electrode-specific prompts. Bidirectional distillation of the graph, node relations and predictions couples this multimodal teacher with a single-window EEG student, improving the teacher and aligning the two graphs 35-fold. In leave-one-subject-out tests on SEED and SEED-IV against 17 baselines, CTD-GNet has the highest mean accuracy, 84.91% and 76.17%, significantly above 9 and 6 of 13 eye-based baselines after Holm correction, the smallest cross-subject spread among multimodal models and the highest worst-subject accuracy. It is the most accurate model at every rate of missing eye data on SEED-IV, keeps 66.1% on SEED without eye data, more than any EEG-only model, and stays 9.3 and 11.9 points above all single-window fusion models under eye-movement noise of one standard deviation. On film clips unseen in training, it leads on SEED with 77.1%.",
+  "abstract_zh": "EEG-眼动情感识别可以支持心理健康监测和自适应接口，但大多数融合模型将这两种信号视为并行特征，单独对每个窗口进行分类，并在眼动数据丢失时性能下降。我们提出了上下文感知的拓扑蒸馏图网络（CTD-GNet），其中EEG特征构成电极图的节点，眼动和前置窗口调制其边缘、节点和输出，通过电极特定的提示来实现边缘的调制。图的双向蒸馏、节点关系和预测将这一多模态教师与单窗口EEG学生相结合，提升了教师的性能，并将两个图的对齐提升了35倍。在对SEED和SEED-IV进行的留一法受试者测试中，CTD-GNet的平均准确率最高，分别为84.91%和76.17%，在经过霍尔姆校正后显著高于13个基于眼动的基线中的9个和6个，且在多模态模型中具有最小的跨受试者差异和最高的最差受试者准确率。它在SEED-IV上是每个缺失眼动数据率下最准确的模型，在没有眼动数据的情况下保持66.1%的准确率，超过任何仅基于EEG的模型，并在眼动噪声为一个标准差的情况下，保持比所有单窗口融合模型高出9.3和11.9个百分点。在训练中未见过的电影片段上，它在SEED上以77.1%的准确率领先。",
+  "arxiv_id": "2610.26084",
+  "arxiv_url": "https://arxiv.org/abs/2610.26084v1",
+  "authors": [
+    "Peijun Shi",
+    "Xiujin Zhu",
+    "Zhenguo Lao",
+    "Chee-Onn Chow",
+    "Wei Ru Wong",
+    "Zhen Liu",
+    "Xiaobing Jiang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-26084",
+  "categories": [
+    "cs.CV",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-10-20T09:55:37.855641+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.26084v1",
+  "published_at": "2026-10-19T09:43:01Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "SEED",
+      "emotion",
+      "multimodal",
+      "recognition",
+      "EEG",
+      "多模态",
+      "识别",
+      "分类",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.26084v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "Context-Aware Topological Distillation Graph Network for Asymmetric EEG-Eye Movement Emotion Recognition",
+  "title_zh": "基于上下文感知的拓扑蒸馏图网络用于非对称EEG-眼动情感识别",
+  "translation_url": "https://hjfy.top/arxiv/2610.26084"
+}

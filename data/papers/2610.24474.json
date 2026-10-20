@@ -1,0 +1,56 @@
+{
+  "abstract": "Gender based hate speech research in Bengali has focused almost exclusively on misogyny, leaving anti male hate, or misandry, entirely unstudied for this language and creating a systematic blind spot in moderation systems trained to catch attacks on women but not on men. We introduce Ben-Misandry, the first Bengali misandry detection dataset: 5,000 comments across six taxonomy classes, including a novel category for mocking male emotional vulnerability with no direct analogue in existing misogyny taxonomies. The corpus is taxonomy-controlled synthetic data generated with GPT-4.1, spot-checked by four human reviewers on a 500-comment sample who confirmed the large majority of assigned labels; a full inter-annotator- agreement study is left to future work. We benchmark it with a classical pipeline (seven classifiers over four text representations) and a transformer pipeline (BanglaBERT, XLM-RoBERTa, and two fusion strategies). The best classical model, a linear SVM over character-level TF-IDF, reaches 91.8% accuracy; a late fusion ensemble averaging BanglaBERT and XLM-RoBERTa softmax outputs reaches 96.6% accuracy and macro ROC-AUC above 99%, nominally ahead of every single model and early fusion, though we have not run significance testing to confirm these margins are meaningful. We relate this to classifier combination theory, under which averaging encoders with decorrelated errors is expected to reduce variance, and corroborate the decision boundary with Shapley explanations that recover the same class- discriminative vocabulary found in our exploratory analysis, while noting this cannot rule out the model partly keying on synthetic-generation artifacts. Our results indicate misandry detection in Bengali is feasible and measurable on this synthetic corpus, offered as an initial public resource pending validation on real-world data.",
+  "abstract_zh": "孟加拉语的基于性别的仇恨言论研究几乎完全专注于厌女症，导致反男性仇恨或厌男症在该语言中完全未被研究，从而在训练以捕捉对女性攻击的审查系统中形成了系统性的盲点。我们介绍了Ben-Misandry，这是第一个孟加拉语厌男症检测数据集：包含5000条评论，涵盖六个分类类别，其中包括一个新类别，用于嘲笑男性情感脆弱性，这在现有的厌女症分类中没有直接对应。该语料库是使用GPT-4.1生成的受控合成数据，经过四位人工审阅者对500条评论样本进行抽查，确认大多数分配标签的准确性；完整的标注者一致性研究留待未来工作。我们使用经典管道（七个分类器和四种文本表示）和变换器管道（BanglaBERT、XLM-RoBERTa及两种融合策略）进行基准测试。最佳经典模型，即基于字符级TF-IDF的线性支持向量机（SVM），达到了91.8%的准确率；晚融合集成模型平均BanglaBERT和XLM-RoBERTa的softmax输出，达到了96.6%的准确率和超过99%的宏ROC-AUC，名义上优于每个单一模型和早期融合，尽管我们尚未进行显著性测试以确认这些差距的意义。我们将此与分类器组合理论相关联，根据该理论，平均具有去相关错误的编码器预计会减少方差，并通过Shapley解释验证决策边界，恢复我们探索性分析中发现的相同类别区分词汇，同时指出这并不能排除模型部分依赖于合成生成伪影。我们的结果表明，在孟加拉语中检测厌男症是可行的，并且在这个合成语料库上是可测量的，作为一个初步公共资源，待在真实世界数据上进行验证。",
+  "arxiv_id": "2610.24474",
+  "arxiv_url": "https://arxiv.org/abs/2610.24474v1",
+  "authors": [
+    "Md Mehedi Hasan Nipu",
+    "Chinmoy Mitra",
+    "Tarannum Ahmed Nowshin",
+    "Israt Moyeen Noumi"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-24474",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-20T09:55:38.004043+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.24474v1",
+  "published_at": "2026-10-17T05:42:02Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "detection",
+      "generation",
+      "benchmark",
+      "dataset",
+      "speech",
+      "分类",
+      "检测",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.24474v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感生成",
+      "语音情感"
+    ]
+  },
+  "title": "Ben-Misandry: A Bengali Dataset and Late-Fusion Transformer Framework for Detecting Anti-Male Gender Hate",
+  "title_zh": "反男性厌女症：一个孟加拉语数据集及晚融合变换器框架用于检测反男性性别仇恨",
+  "translation_url": "https://hjfy.top/arxiv/2610.24474"
+}

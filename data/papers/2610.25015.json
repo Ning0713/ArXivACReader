@@ -1,0 +1,54 @@
+{
+  "abstract": "Affective image editing (AIE) aims to evoke a target emotion while preserving the content and structure of a source image. Existing methods improve emotional expression or visual fidelity, but the target emotion alone does not reveal which source regions should be changed and which should remain intact, especially in complex scenes. We introduce Interpretable Emotion Contribution Learning for Affective Image Editing (IECLA), a framework that separates source-emotion attribution from target-aware editing. IECLA constructs signed object-level supervision through counterfactual interventions and trains a context-conditioned contribution predictor to localize evidence that supports or opposes the source emotion. At inference, an image-level evaluator estimates the source emotion directly from the input, while the predictor identifies editable and preservation evidence without repeated interventions. A target-aware editing agent then translates this evidence and the desired emotion into localized, content-aware operations for existing editors. Extensive evaluations show that IECLA predicts counterfactual contributions more faithfully on both in-domain and cross-dataset tests, while external VLM and independent human references support the quality of its localized evidence. Across six editing backbones, IECLA consistently strengthens target-emotion expression while preserving image content and structure, and user studies further show improved perceived target expression and naturalness.",
+  "abstract_zh": "情感图像编辑（Affective Image Editing, AIE）旨在在保留源图像的内容和结构的同时，唤起目标情感。现有方法提高了情感表达或视觉保真度，但目标情感本身并不能揭示哪些源区域应该被改变，哪些应该保持不变，尤其是在复杂场景中。我们提出了可解释的情感贡献学习框架（Interpretable Emotion Contribution Learning for Affective Image Editing, IECLA），该框架将源情感归因与目标感知编辑分开。IECLA通过反事实干预构建带符号的对象级监督，并训练一个上下文条件的贡献预测器，以定位支持或反对源情感的证据。在推理阶段，图像级评估器直接从输入中估计源情感，而预测器在没有重复干预的情况下识别可编辑和保留的证据。随后，目标感知编辑代理将这些证据和期望情感转化为针对现有编辑器的局部、内容感知操作。广泛的评估表明，IECLA在领域内和跨数据集测试中更忠实地预测反事实贡献，同时外部视觉语言模型（VLM）和独立的人类参考支持其局部证据的质量。在六个编辑骨干网络中，IECLA始终增强目标情感的表达，同时保留图像的内容和结构，用户研究进一步显示了感知目标表达和自然性的改善。",
+  "arxiv_id": "2610.25015",
+  "arxiv_url": "https://arxiv.org/abs/2610.25015v1",
+  "authors": [
+    "Yijie Guo",
+    "Dexiang Hong",
+    "Weidong Chen",
+    "Xinyan Liu",
+    "Zhendong Mao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-25015",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-20T09:55:37.817218+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.25015v1",
+  "published_at": "2026-10-18T04:49:23Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "affective",
+      "VLM",
+      "dataset",
+      "识别",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.25015v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": []
+  },
+  "title": "IECLA: Interpretable Emotion Contribution Learning for Affective Image Editing",
+  "title_zh": "IECLA：可解释的情感贡献学习用于情感图像编辑",
+  "translation_url": "https://hjfy.top/arxiv/2610.25015"
+}

@@ -1,6 +1,197 @@
 {
-  "generated_at": "2026-10-19T10:39:12.926911+00:00",
+  "generated_at": "2026-10-20T09:55:42.019598+00:00",
   "items": [
+    {
+      "abstract": "EEG-eye movement emotion recognition can support mental-health monitoring and adaptive interfaces, but most fusion models treat the two signals as parallel features, classify each window alone and degrade when eye data are lost. We propose the Context-Aware Topological Distillation Graph Network (CTD-GNet), in which EEG features form the nodes of an electrode graph, and eye movements and preceding windows modulate its edges, nodes and readout, the edges through electrode-specific prompts. Bidirectional distillation of the graph, node relations and predictions couples this multimodal teacher with a single-window EEG student, improving the teacher and aligning the two graphs 35-fold. In leave-one-subject-out tests on SEED and SEED-IV against 17 baselines, CTD-GNet has the highest mean accuracy, 84.91% and 76.17%, significantly above 9 and 6 of 13 eye-based baselines after Holm correction, the smallest cross-subject spread among multimodal models and the highest worst-subject accuracy. It is the most accurate model at every rate of missing eye data on SEED-IV, keeps 66.1% on SEED without eye data, more than any EEG-only model, and stays 9.3 and 11.9 points above all single-window fusion models under eye-movement noise of one standard deviation. On film clips unseen in training, it leads on SEED with 77.1%.",
+      "abstract_zh": "EEG-眼动情感识别可以支持心理健康监测和自适应接口，但大多数融合模型将这两种信号视为并行特征，单独对每个窗口进行分类，并在眼动数据丢失时性能下降。我们提出了上下文感知的拓扑蒸馏图网络（CTD-GNet），其中EEG特征构成电极图的节点，眼动和前置窗口调制其边缘、节点和输出，通过电极特定的提示来实现边缘的调制。图的双向蒸馏、节点关系和预测将这一多模态教师与单窗口EEG学生相结合，提升了教师的性能，并将两个图的对齐提升了35倍。在对SEED和SEED-IV进行的留一法受试者测试中，CTD-GNet的平均准确率最高，分别为84.91%和76.17%，在经过霍尔姆校正后显著高于13个基于眼动的基线中的9个和6个，且在多模态模型中具有最小的跨受试者差异和最高的最差受试者准确率。它在SEED-IV上是每个缺失眼动数据率下最准确的模型，在没有眼动数据的情况下保持66.1%的准确率，超过任何仅基于EEG的模型，并在眼动噪声为一个标准差的情况下，保持比所有单窗口融合模型高出9.3和11.9个百分点。在训练中未见过的电影片段上，它在SEED上以77.1%的准确率领先。",
+      "authors": [
+        "Peijun Shi",
+        "Xiujin Zhu",
+        "Zhenguo Lao",
+        "Chee-Onn Chow",
+        "Wei Ru Wong",
+        "Zhen Liu",
+        "Xiaobing Jiang"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.26084",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "心理状态/福祉"
+      ],
+      "title": "Context-Aware Topological Distillation Graph Network for Asymmetric EEG-Eye Movement Emotion Recognition",
+      "title_zh": "基于上下文感知的拓扑蒸馏图网络用于非对称EEG-眼动情感识别",
+      "url": "/daily/2026-10-20/#paper-2610-26084"
+    },
+    {
+      "abstract": "The Chinese idiom \"kou mi fu jian\" (\"honeyed words, hidden daggers\") names speech that is polite in form but hostile in function. We present ZhenhuanBench, a 1,592-item benchmark built from expert commentary on Empresses in the Palace, covering speaker intent, emotion-language mismatch, and per-listener uptake. Text-only evaluation covers 34 LLMs. GPT-6 Astra leads the leaderboard at 73.48% overall, while its listener-reaction score is 58.37%. The annotations also supply supervised traces and string-verifiable training rewards. With 338 gold traces, an 8B model outperforms teacher distillation on identical items. Subsequent RL saturates, and chance correction reduces the estimated recoverable performance gap by a factor of 7.5. Our CPR-GRPO loop (Compress-Probe-Replenish) uses this estimate to weight gold supervision, reaching 67.0 on public multiple-choice tasks and 74.5 under the training-matched hidden protocol. Without target-task training, CPR outperforms Base, SFT, and GRPO across six Chinese and English pragmatic and sarcasm evaluations. On three external datasets, training with CPR yields higher mean Macro-F1 than SFT and GRPO.",
+      "abstract_zh": "中国成语“口蜜腹剑”形容表面上礼貌但实则敌意的言辞。我们提出了ZhenhuanBench，这是一个由对《宫中的皇后》专家评论构建的1592项基准，涵盖了说话者意图、情感与语言的不匹配以及每位听众的接受度。仅文本评估涵盖了34个大型语言模型（LLMs）。GPT-6 Astra在总分上以73.48%领先于排行榜，而其听众反应得分为58.37%。这些注释还提供了监督轨迹和可字符串验证的训练奖励。凭借338条金标准轨迹，一个8B模型在相同项目上超越了教师蒸馏。随后的强化学习饱和，机会修正将估计的可恢复性能差距缩小了7.5倍。我们的CPR-GRPO循环（Compress-Probe-Replenish）利用这一估计来加权金标准监督，在公共多项选择任务中达到67.0，在与训练匹配的隐性协议下达到74.5。在没有目标任务训练的情况下，CPR在六个中文和英文的语用与讽刺评估中超越了Base、SFT和GRPO。在三个外部数据集上，使用CPR进行训练的平均宏F1得分高于SFT和GRPO。",
+      "authors": [
+        "Caixin Kang",
+        "Sitong Gong",
+        "Tianyu Yan",
+        "Kaipeng Zhang",
+        "Yoichi Sato",
+        "Yifei Huang"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.26059",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness",
+      "title_zh": "甜言蜜语，暗藏利刃：基准测试与训练大型语言模型以识别虚伪的礼貌",
+      "url": "/daily/2026-10-20/#paper-2610-26059"
+    },
+    {
+      "abstract": "The user experience of speech interaction models has improved, benefiting from the modeling of paralinguistic attributes and advances in speech reconstruction paradigms. However, human communication follows extensive norms regarding non-verbal vocalizations (NVVs) spanning respiratory, affective, and discourse. The omission of these events imposes inherent limitations on the naturalness of current approaches. In this work, we cover 13 major types of NVVs and construct a natural dialogue dataset that conforms to human conversational norms through an automated synthesis pipeline. We enhance the ability of speech interaction models to generate contextually appropriate NVV events through multi-stage fine-tuning and NVV-aware GRPO (Group Relative Policy Optimization). Based on distinct modeling paradigms, we substantially improve the expressiveness of VocalNet and VITA-Qinyu in empathy interactions and role-play dialogues, and further discuss the architectural necessity for achieving high-quality natural speech generation.",
+      "abstract_zh": "语音交互模型的用户体验得到了改善，这得益于对副语言属性的建模和语音重建范式的进步。然而，人类沟通遵循关于非语言发声（NVVs）的广泛规范，这些规范涵盖了呼吸、情感和话语。忽略这些事件会对当前方法的自然性造成固有的限制。在本研究中，我们涵盖了13种主要类型的NVVs，并通过自动化合成管道构建了符合人类对话规范的自然对话数据集。我们通过多阶段微调和NVV感知的GRPO（Group Relative Policy Optimization）增强了语音交互模型生成上下文适当的NVV事件的能力。基于不同的建模范式，我们在同理心交互和角色扮演对话中显著提高了VocalNet和VITA-Qinyu的表现力，并进一步讨论了实现高质量自然语音生成的架构必要性。",
+      "authors": [
+        "Heyang Liu",
+        "Lixin Zhang",
+        "Jiayi Huang",
+        "Ziyang Cheng",
+        "Yuhao Wang",
+        "Ronghua Wu",
+        "Qunshan Gu",
+        "Yanfeng Wang",
+        "Yu Wang"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.25942",
+      "tags": [
+        "情感生成",
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "Speech LLMs That Breathe: Modeling Non-Verbal Vocalizations in Dialogue",
+      "title_zh": "呼吸的语音大型语言模型：对话中的非语言发声建模",
+      "url": "/daily/2026-10-20/#paper-2610-25942"
+    },
+    {
+      "abstract": "Emotion classification from text is challenging because many affective states are distinguished by subtle linguistic signals and semantically overlapping boundaries. We investigate whether compact quantum modules can serve as targeted residual specialists that assist traditional classifiers on difficult emotion decisions. We introduce EmotiQ, a residual specialist framework for text emotion classification using a frozen transformer classifier as the primary decision maker, identifies challenging emotion boundaries from validation behavior, and trains boundary specialists, including quantum encodings, data re-uploading specialists, prototype and fidelity specialists, and kernel-based specialists. Specialists are permitted to intervene only when they satisfy validation-based admission criteria. We evaluate the framework across six text emotion classification datasets and establish traditional model baselines. Experimental results show that the admitted EmotiQ policy improves mean macro-F1 metrics over the baseline, and achieves positive gains on five of six datasets. Among the quantum components, ZZ interaction feature maps are the most consistently effective, yielding a mean macro-F1 improvement of +0.0030 and positive gains on four datasets. These findings suggest that current quantum NLP methods can be deployed as residual specialists that provide localized improvements under strong classical supervision.",
+      "abstract_zh": "从文本中进行情感分类是一项具有挑战性的任务，因为许多情感状态通过微妙的语言信号和语义重叠的边界来区分。我们研究了紧凑的量子模块是否可以作为针对性的残差专家，帮助传统分类器在困难的情感决策中。我们引入了EmotiQ，这是一种用于文本情感分类的残差专家框架，使用冻结的变换器分类器作为主要决策者，从验证行为中识别具有挑战性的情感边界，并训练边界专家，包括量子编码、数据重上传专家、原型和保真度专家，以及基于核的专家。专家仅在满足基于验证的准入标准时才被允许介入。我们在六个文本情感分类数据集上评估了该框架，并建立了传统模型基准。实验结果表明，经过验证的EmotiQ策略在平均宏F1指标上优于基准，并在六个数据集中的五个上取得了正向增益。在量子组件中，ZZ交互特征图是最一致有效的，带来了+0.0030的平均宏F1提升，并在四个数据集上取得了正向增益。这些发现表明，当前的量子自然语言处理方法可以作为残差专家，在强大的经典监督下提供局部改进。",
+      "authors": [
+        "Carlton Kigonya",
+        "Tanaka Chirara",
+        "Yunting Yin"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.25549",
+      "tags": [
+        "数据集/评测",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "EmotiQ: A Quantum Residual Specialist Framework for Text Emotion Classification",
+      "title_zh": "EmotiQ：一种用于文本情感分类的量子残差专家框架",
+      "url": "/daily/2026-10-20/#paper-2610-25549"
+    },
+    {
+      "abstract": "Conversational large language models can respond with warmth and reassurance while failing to advance the user's stated goal. We conceptualize this failure as $\\textbf{goal displacement}$, the substitution of persona-maintenance content for goal-relevant substance. To measure it, we introduce $\\textbf{GDB}$ (Goal Displacement Benchmark), comprising 230 scenarios across nine domains and $4{,}134$ human-scored responses from 18 models. A $2 \\times 2$ taxonomy crosses hard constraints with emotional distress, distinguishing failures to confront infeasible goals or combine empathy with practical guidance from reverse displacement, where unsolicited problem-solving replaces requested emotional support. A deletion-test rubric assesses whether substantive help remains after purely supportive sentences are removed. Independent raters achieve weighted $\\kappa = 0.82$ against author scores for displacement severity. Trap displacement ranges from $0.0\\%$ to $37.7\\%$ and is strongly negatively correlated with Chatbot Arena Elo ($\\rho = -0.706$, $n = 15$). Reverse displacement reaches $41.9\\%$, including substantial rates in models with negligible trap displacement. A factorial probe supports a distinction from social sycophancy. Human-scored responses in the high-complexity, low-pressure condition exhibit $35.0\\%$ sycophancy but $7.5\\%$ displacement, with little association between the constructs. Matched OLMo-2 checkpoints show that mixed empathy-with-constraints displacement remains at $52.3\\%$ after supervised fine-tuning and falls to $13.8\\%$ after direct preference optimization. GDB provides a reproducible diagnostic of whether responses advance the operationalized user goal, supporting model comparison, post-training evaluation, and regression testing. We release the dataset, annotations, and rubric under CC-BY-4.0 and the evaluation code under MIT.",
+      "abstract_zh": "对话型大型语言模型能够以温暖和安慰的方式回应，但却未能推进用户所陈述的目标。我们将这种失败概念化为$ extbf{目标转移}$，即将维持角色的内容替代与目标相关的实质内容。为了衡量这一点，我们引入了$ extbf{GDB}$（目标转移基准），包括来自九个领域的230个场景和18个模型的4,134个人工评分的响应。一个$2 imes 2$的分类法将严格约束与情感困扰交叉，区分未能面对不可行目标或将同理心与实际指导结合的失败，和反向转移，其中未经请求的问题解决替代了请求的情感支持。删除测试标准评估在纯支持性句子被移除后，是否仍然存在实质性帮助。独立评审者在转移严重性方面与作者评分的加权$ ext{kappa} = 0.82$。陷阱转移的范围从$0.0\\%$到$37.7\\\\%$，与Chatbot Arena Elo呈强负相关（$ ho = -0.706$, $n = 15$）。反向转移达到$41.9\\\\%$，在陷阱转移微不足道的模型中也存在显著比例。一个因子探测支持与社交谄媚的区分。在高复杂度、低压力条件下，人工评分的响应显示出$35.0\\\\%$的谄媚但$7.5\\\\%$的转移，两个构念之间几乎没有关联。匹配的OLMo-2检查点显示，在监督微调后，混合同理心与约束的转移仍为$52.3\\\\%$，而在直接偏好优化后降至$13.8\\\\%$。GDB提供了一种可重复的诊断方法，以判断响应是否推进了操作化的用户目标，支持模型比较、训练后评估和回归测试。我们在CC-BY-4.0下发布数据集、注释和标准，并在MIT下发布评估代码。",
+      "authors": [
+        "Dean Ariel",
+        "Guy Laban"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.25522",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "When Empathy Misses the Goal: A Benchmark for Goal Displacement in LLM Advice",
+      "title_zh": "当同理心未能达到目标：大型语言模型建议中的目标转移基准",
+      "url": "/daily/2026-10-20/#paper-2610-25522"
+    },
+    {
+      "abstract": "Affective image editing (AIE) aims to evoke a target emotion while preserving the content and structure of a source image. Existing methods improve emotional expression or visual fidelity, but the target emotion alone does not reveal which source regions should be changed and which should remain intact, especially in complex scenes. We introduce Interpretable Emotion Contribution Learning for Affective Image Editing (IECLA), a framework that separates source-emotion attribution from target-aware editing. IECLA constructs signed object-level supervision through counterfactual interventions and trains a context-conditioned contribution predictor to localize evidence that supports or opposes the source emotion. At inference, an image-level evaluator estimates the source emotion directly from the input, while the predictor identifies editable and preservation evidence without repeated interventions. A target-aware editing agent then translates this evidence and the desired emotion into localized, content-aware operations for existing editors. Extensive evaluations show that IECLA predicts counterfactual contributions more faithfully on both in-domain and cross-dataset tests, while external VLM and independent human references support the quality of its localized evidence. Across six editing backbones, IECLA consistently strengthens target-emotion expression while preserving image content and structure, and user studies further show improved perceived target expression and naturalness.",
+      "abstract_zh": "情感图像编辑（Affective Image Editing, AIE）旨在在保留源图像的内容和结构的同时，唤起目标情感。现有方法提高了情感表达或视觉保真度，但目标情感本身并不能揭示哪些源区域应该被改变，哪些应该保持不变，尤其是在复杂场景中。我们提出了可解释的情感贡献学习框架（Interpretable Emotion Contribution Learning for Affective Image Editing, IECLA），该框架将源情感归因与目标感知编辑分开。IECLA通过反事实干预构建带符号的对象级监督，并训练一个上下文条件的贡献预测器，以定位支持或反对源情感的证据。在推理阶段，图像级评估器直接从输入中估计源情感，而预测器在没有重复干预的情况下识别可编辑和保留的证据。随后，目标感知编辑代理将这些证据和期望情感转化为针对现有编辑器的局部、内容感知操作。广泛的评估表明，IECLA在领域内和跨数据集测试中更忠实地预测反事实贡献，同时外部视觉语言模型（VLM）和独立的人类参考支持其局部证据的质量。在六个编辑骨干网络中，IECLA始终增强目标情感的表达，同时保留图像的内容和结构，用户研究进一步显示了感知目标表达和自然性的改善。",
+      "authors": [
+        "Yijie Guo",
+        "Dexiang Hong",
+        "Weidong Chen",
+        "Xinyan Liu",
+        "Zhendong Mao"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.25015",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "IECLA: Interpretable Emotion Contribution Learning for Affective Image Editing",
+      "title_zh": "IECLA：可解释的情感贡献学习用于情感图像编辑",
+      "url": "/daily/2026-10-20/#paper-2610-25015"
+    },
+    {
+      "abstract": "Gender based hate speech research in Bengali has focused almost exclusively on misogyny, leaving anti male hate, or misandry, entirely unstudied for this language and creating a systematic blind spot in moderation systems trained to catch attacks on women but not on men. We introduce Ben-Misandry, the first Bengali misandry detection dataset: 5,000 comments across six taxonomy classes, including a novel category for mocking male emotional vulnerability with no direct analogue in existing misogyny taxonomies. The corpus is taxonomy-controlled synthetic data generated with GPT-4.1, spot-checked by four human reviewers on a 500-comment sample who confirmed the large majority of assigned labels; a full inter-annotator- agreement study is left to future work. We benchmark it with a classical pipeline (seven classifiers over four text representations) and a transformer pipeline (BanglaBERT, XLM-RoBERTa, and two fusion strategies). The best classical model, a linear SVM over character-level TF-IDF, reaches 91.8% accuracy; a late fusion ensemble averaging BanglaBERT and XLM-RoBERTa softmax outputs reaches 96.6% accuracy and macro ROC-AUC above 99%, nominally ahead of every single model and early fusion, though we have not run significance testing to confirm these margins are meaningful. We relate this to classifier combination theory, under which averaging encoders with decorrelated errors is expected to reduce variance, and corroborate the decision boundary with Shapley explanations that recover the same class- discriminative vocabulary found in our exploratory analysis, while noting this cannot rule out the model partly keying on synthetic-generation artifacts. Our results indicate misandry detection in Bengali is feasible and measurable on this synthetic corpus, offered as an initial public resource pending validation on real-world data.",
+      "abstract_zh": "孟加拉语的基于性别的仇恨言论研究几乎完全专注于厌女症，导致反男性仇恨或厌男症在该语言中完全未被研究，从而在训练以捕捉对女性攻击的审查系统中形成了系统性的盲点。我们介绍了Ben-Misandry，这是第一个孟加拉语厌男症检测数据集：包含5000条评论，涵盖六个分类类别，其中包括一个新类别，用于嘲笑男性情感脆弱性，这在现有的厌女症分类中没有直接对应。该语料库是使用GPT-4.1生成的受控合成数据，经过四位人工审阅者对500条评论样本进行抽查，确认大多数分配标签的准确性；完整的标注者一致性研究留待未来工作。我们使用经典管道（七个分类器和四种文本表示）和变换器管道（BanglaBERT、XLM-RoBERTa及两种融合策略）进行基准测试。最佳经典模型，即基于字符级TF-IDF的线性支持向量机（SVM），达到了91.8%的准确率；晚融合集成模型平均BanglaBERT和XLM-RoBERTa的softmax输出，达到了96.6%的准确率和超过99%的宏ROC-AUC，名义上优于每个单一模型和早期融合，尽管我们尚未进行显著性测试以确认这些差距的意义。我们将此与分类器组合理论相关联，根据该理论，平均具有去相关错误的编码器预计会减少方差，并通过Shapley解释验证决策边界，恢复我们探索性分析中发现的相同类别区分词汇，同时指出这并不能排除模型部分依赖于合成生成伪影。我们的结果表明，在孟加拉语中检测厌男症是可行的，并且在这个合成语料库上是可测量的，作为一个初步公共资源，待在真实世界数据上进行验证。",
+      "authors": [
+        "Md Mehedi Hasan Nipu",
+        "Chinmoy Mitra",
+        "Tarannum Ahmed Nowshin",
+        "Israt Moyeen Noumi"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.24474",
+      "tags": [
+        "数据集/评测",
+        "情感生成",
+        "语音情感"
+      ],
+      "title": "Ben-Misandry: A Bengali Dataset and Late-Fusion Transformer Framework for Detecting Anti-Male Gender Hate",
+      "title_zh": "反男性厌女症：一个孟加拉语数据集及晚融合变换器框架用于检测反男性性别仇恨",
+      "url": "/daily/2026-10-20/#paper-2610-24474"
+    },
+    {
+      "abstract": "We present CoDA, an open-source human-LM collaborative codebook development assistant that helps domain experts develop annotation guidelines for annotating new variables in unstructured text with language models. Existing language model annotation systems primarily focus on downstream classification performance, while assuming the availability of high-quality annotation guidelines, or codebooks. In practice, developing these codebooks is time-consuming and challenging, particularly for concepts that require expert knowledge. CoDA addresses this gap by collaborating with domain experts to iteratively develop codebooks through targeted review of incorrect language model predictions and incorporating expert feedback into the evolving codebook. We demonstrate CoDA on two real-world case studies: extracting health indicators from homelessness case management notes and classifying sentiment of wildlife trafficking posts on social media. Across both domains, CoDA produces codebooks that achieve downstream classification performance comparable to expert codebooks while reducing codebook development time from several weeks to two hours and requiring 5X fewer manually annotated examples. Applying CoDA to generate annotations at scale, we identified 2,410 case notes that contained health discussions or referrals and 10,196 social media posts expressing negative sentiment that may warrant investigation for potential wildlife trafficking. By accelerating codebook development, CoDA helps practitioners use language models to extract domain-specific insights from unstructured text at scale.",
+      "abstract_zh": "我们提出了CoDA，一个开源的人类-LM协作代码本开发助手，帮助领域专家为使用语言模型对非结构化文本中的新变量进行注释开发注释指南。现有的语言模型注释系统主要关注下游分类性能，同时假设高质量的注释指南或代码本是可用的。实际上，开发这些代码本既耗时又具有挑战性，尤其是对于需要专家知识的概念。CoDA通过与领域专家合作，针对性地审查语言模型预测错误并将专家反馈纳入不断发展的代码本，来填补这一空白。我们在两个真实案例研究中展示了CoDA：从无家可归者案例管理记录中提取健康指标，以及对社交媒体上野生动物贩运帖子进行情感分类。在这两个领域中，CoDA生成的代码本在下游分类性能上可与专家代码本相媲美，同时将代码本开发时间从几周缩短至两个小时，并且所需的手动注释示例减少了5倍。通过将CoDA应用于大规模生成注释，我们识别了2410条包含健康讨论或转介的案例记录，以及10196条表达负面情绪的社交媒体帖子，这些帖子可能需要调查以确定潜在的野生动物贩运。通过加速代码本开发，CoDA帮助从业者利用语言模型从非结构化文本中大规模提取领域特定的见解。",
+      "authors": [
+        "Jaspreet Ranjit",
+        "Swaminathan Chellappa",
+        "Augusto Rivas Costante",
+        "Chandan Manjunath",
+        "Laura Onasch-Vera",
+        "Hailey Winetrobe Nadel",
+        "Eric Rice",
+        "Swabha Swayamdipta"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.24157",
+      "tags": [
+        "文本情感",
+        "社交信号"
+      ],
+      "title": "CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation",
+      "title_zh": "CoDA：一种人类-LM协作的领域特定文本注释代码本开发助手",
+      "url": "/daily/2026-10-20/#paper-2610-24157"
+    },
+    {
+      "abstract": "Recognizing micro-expressions in real-world conversations is challenging, as these facial movements are brief and faint, and their interpretations are strongly dependent on the contextual circumstances of their occurrence. Most existing methods are de-contextualized, as they analyze isolated video clips while disregarding the semantic and acoustic cues in the surrounding dialogue that help explain the emergence of an expression. Decades of psychological studies have shown that social context exerts influences on facial behavior over two key dimensions: how an expression is interpreted and how strongly it is generated to begin with. However, existing micro-expression research rarely incorporates such contextual factors into its models. As an example, provocative utterances from an interlocutor may elicit suppressed negative affective reactions, which isolated silent clips are unable to account for. We propose TriCoME, a trimodal dataset consisting of visual, audio and text data sourced from real-world conversations. In this dataset, each micro-expression is paired with its concurrent utterance and preceding context. We further annotate the context based on conversational role to denote two categories: external stimuli from an interlocutor's utterance and internal background from the subject's own utterance. On this basis, we propose the Hierarchical Focusing Fusion Network (HFFNet), which aligns acoustic and semantic streams at fine granularity, compresses long dialogue sequences, modulates attention toward conversational roles via a context-type embedding, and routes each sample between visual-only and multimodal decisions based on visual confidence to prevent noisy context from degrading recognition performance.",
+      "abstract_zh": "在真实世界的对话中识别微表情具有挑战性，因为这些面部动作短暂且微弱，其解释强烈依赖于发生时的上下文环境。现有的大多数方法缺乏上下文考虑，因为它们分析的是孤立的视频片段，而忽视了周围对话中的语义和声学线索，这些线索有助于解释表情的出现。几十年的心理学研究表明，社会背景在两个关键维度上影响面部行为：表情的解释方式和表情生成的强度。然而，现有的微表情研究很少将这些上下文因素纳入其模型。例如，交谈者的挑衅性言论可能引发被抑制的负面情感反应，而孤立的静默片段无法解释这一点。我们提出了TriCoME，一个由真实世界对话中获取的视觉、音频和文本数据组成的三模态数据集。在该数据集中，每个微表情都与其同时发生的言论和之前的上下文配对。我们进一步根据对话角色对上下文进行注释，以标识两类：来自交谈者言论的外部刺激和来自主体自身言论的内部背景。在此基础上，我们提出了层次聚焦融合网络（Hierarchical Focusing Fusion Network, HFFNet），该网络在细粒度上对声学和语义流进行对齐，压缩长对话序列，通过上下文类型嵌入调节对话角色的注意力，并根据视觉置信度在视觉单一决策和多模态决策之间路由每个样本，以防止噪声上下文降低识别性能。",
+      "authors": [
+        "Junbo Wang",
+        "Yan Zhao",
+        "Shigang Wang",
+        "Jian Wei",
+        "Qiming Zhang",
+        "Yu Wu"
+      ],
+      "date": "2026-10-20",
+      "id": "2610.23930",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "面部表情"
+      ],
+      "title": "Trimodal Context-Aware Micro-Expression Recognition in Real-World Conversations: A Dataset and a Hierarchical Fusion Network",
+      "title_zh": "三模态上下文感知微表情识别在真实世界对话中的应用：数据集与层次融合网络",
+      "url": "/daily/2026-10-20/#paper-2610-23930"
+    },
     {
       "abstract": "Federated Learning (FL) is a powerful machine learning framework that allows building a global model from the contributions of multiple, distributed clients, while ensuring the privacy of their local data. However, its heavy computational and communication overheads challenge its use for contemporary AI workloads such as natural language processing (NLP) and multimodal analysis. For this reason, this paper presents a novel small language model that leverages byte-level text and multimodal data processing, enhanced by a linear attention mechanism, to enable manageable Federated Learning of NLP and multimodal analysis tasks. The proposed model, nicknamed FederatedBytes, manages to process text and any other data types, including images, by treating its input as a mere sequence of bytes, while its lean linear attention mechanism allows abating the overall memory and computational footprint. To prove the effectiveness of the proposed model we have carried out an extensive performance evaluation on sentiment analysis tasks in multilingual and multimodal settings over the Multilingual Amazon Reviews and ScienceQA datasets. The experimental results show that FederatedBytes has been able to outperform comparable models such as ByT5 and LSTM, achieving higher accuracy while significantly reducing memory and communication overheads.",
       "abstract_zh": "联邦学习（Federated Learning, FL）是一种强大的机器学习框架，它允许通过多个分布式客户端的贡献构建全球模型，同时确保其本地数据的隐私。然而，其巨大的计算和通信开销对当代人工智能工作负载（如自然语言处理（NLP）和多模态分析）的应用构成了挑战。为此，本文提出了一种新颖的小型语言模型，利用字节级文本和多模态数据处理，并通过线性注意力机制增强，以实现可管理的NLP和多模态分析任务的联邦学习。所提出的模型被称为FederatedBytes，能够将文本和其他数据类型（包括图像）视为字节序列进行处理，同时其精简的线性注意力机制使得整体内存和计算开销得以降低。为了证明所提模型的有效性，我们在多语言和多模态环境下对Multilingual Amazon Reviews和ScienceQA数据集的情感分析任务进行了广泛的性能评估。实验结果表明，FederatedBytes在准确性上优于可比模型，如ByT5和LSTM，同时显著降低了内存和通信开销。",

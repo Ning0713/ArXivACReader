@@ -1,0 +1,64 @@
+{
+  "abstract": "Recognizing micro-expressions in real-world conversations is challenging, as these facial movements are brief and faint, and their interpretations are strongly dependent on the contextual circumstances of their occurrence. Most existing methods are de-contextualized, as they analyze isolated video clips while disregarding the semantic and acoustic cues in the surrounding dialogue that help explain the emergence of an expression. Decades of psychological studies have shown that social context exerts influences on facial behavior over two key dimensions: how an expression is interpreted and how strongly it is generated to begin with. However, existing micro-expression research rarely incorporates such contextual factors into its models. As an example, provocative utterances from an interlocutor may elicit suppressed negative affective reactions, which isolated silent clips are unable to account for. We propose TriCoME, a trimodal dataset consisting of visual, audio and text data sourced from real-world conversations. In this dataset, each micro-expression is paired with its concurrent utterance and preceding context. We further annotate the context based on conversational role to denote two categories: external stimuli from an interlocutor's utterance and internal background from the subject's own utterance. On this basis, we propose the Hierarchical Focusing Fusion Network (HFFNet), which aligns acoustic and semantic streams at fine granularity, compresses long dialogue sequences, modulates attention toward conversational roles via a context-type embedding, and routes each sample between visual-only and multimodal decisions based on visual confidence to prevent noisy context from degrading recognition performance.",
+  "abstract_zh": "在真实世界的对话中识别微表情具有挑战性，因为这些面部动作短暂且微弱，其解释强烈依赖于发生时的上下文环境。现有的大多数方法缺乏上下文考虑，因为它们分析的是孤立的视频片段，而忽视了周围对话中的语义和声学线索，这些线索有助于解释表情的出现。几十年的心理学研究表明，社会背景在两个关键维度上影响面部行为：表情的解释方式和表情生成的强度。然而，现有的微表情研究很少将这些上下文因素纳入其模型。例如，交谈者的挑衅性言论可能引发被抑制的负面情感反应，而孤立的静默片段无法解释这一点。我们提出了TriCoME，一个由真实世界对话中获取的视觉、音频和文本数据组成的三模态数据集。在该数据集中，每个微表情都与其同时发生的言论和之前的上下文配对。我们进一步根据对话角色对上下文进行注释，以标识两类：来自交谈者言论的外部刺激和来自主体自身言论的内部背景。在此基础上，我们提出了层次聚焦融合网络（Hierarchical Focusing Fusion Network, HFFNet），该网络在细粒度上对声学和语义流进行对齐，压缩长对话序列，通过上下文类型嵌入调节对话角色的注意力，并根据视觉置信度在视觉单一决策和多模态决策之间路由每个样本，以防止噪声上下文降低识别性能。",
+  "arxiv_id": "2610.23930",
+  "arxiv_url": "https://arxiv.org/abs/2610.23930v1",
+  "authors": [
+    "Junbo Wang",
+    "Yan Zhao",
+    "Shigang Wang",
+    "Jian Wei",
+    "Qiming Zhang",
+    "Yu Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-23930",
+  "categories": [
+    "cs.CV",
+    "cs.MM"
+  ],
+  "fetched_at": "2026-10-20T09:55:37.780753+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.23930v1",
+  "published_at": "2026-10-07T08:44:22Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "micro expression",
+      "表情识别",
+      "微表情",
+      "affective",
+      "multimodal",
+      "recognition",
+      "dialogue",
+      "dataset",
+      "audio",
+      "多模态",
+      "识别",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.23930v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "语音情感",
+      "面部表情"
+    ]
+  },
+  "title": "Trimodal Context-Aware Micro-Expression Recognition in Real-World Conversations: A Dataset and a Hierarchical Fusion Network",
+  "title_zh": "三模态上下文感知微表情识别在真实世界对话中的应用：数据集与层次融合网络",
+  "translation_url": "https://hjfy.top/arxiv/2610.23930"
+}

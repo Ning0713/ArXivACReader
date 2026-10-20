@@ -1704,8 +1704,113 @@
         "数据集/评测"
       ],
       "title": "FederatedBytes: Tokenizer-Free, Byte-Level Small Language Models for Efficient Multimodal Federated Learning"
+    },
+    "2610.23930": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "面部表情"
+      ],
+      "title": "Trimodal Context-Aware Micro-Expression Recognition in Real-World Conversations: A Dataset and a Hierarchical Fusion Network"
+    },
+    "2610.24157": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "文本情感",
+        "社交信号"
+      ],
+      "title": "CoDA: A Human-LM Collaborative Codebook Development Assistant for Domain-Specific Text Annotation"
+    },
+    "2610.24474": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "数据集/评测",
+        "情感生成",
+        "语音情感"
+      ],
+      "title": "Ben-Misandry: A Bengali Dataset and Late-Fusion Transformer Framework for Detecting Anti-Male Gender Hate"
+    },
+    "2610.25015": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "IECLA: Interpretable Emotion Contribution Learning for Affective Image Editing"
+    },
+    "2610.25522": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "数据集/评测",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "When Empathy Misses the Goal: A Benchmark for Goal Displacement in LLM Advice"
+    },
+    "2610.25549": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "数据集/评测",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "EmotiQ: A Quantum Residual Specialist Framework for Text Emotion Classification"
+    },
+    "2610.25942": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "情感生成",
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "Speech LLMs That Breathe: Modeling Non-Verbal Vocalizations in Dialogue"
+    },
+    "2610.26059": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "文本情感"
+      ],
+      "title": "Honeyed Words, Hidden Daggers: Benchmarking and Training LLMs to See Through Mock Politeness"
+    },
+    "2610.26084": {
+      "dates": [
+        "2026-10-20"
+      ],
+      "first_seen": "2026-10-20",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "心理状态/福祉"
+      ],
+      "title": "Context-Aware Topological Distillation Graph Network for Asymmetric EEG-Eye Movement Emotion Recognition"
     }
   },
-  "total": 148,
-  "updated_at": "2026-10-19T10:39:12.926911+00:00"
+  "total": 157,
+  "updated_at": "2026-10-20T09:55:42.019598+00:00"
 }

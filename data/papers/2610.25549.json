@@ -1,0 +1,54 @@
+{
+  "abstract": "Emotion classification from text is challenging because many affective states are distinguished by subtle linguistic signals and semantically overlapping boundaries. We investigate whether compact quantum modules can serve as targeted residual specialists that assist traditional classifiers on difficult emotion decisions. We introduce EmotiQ, a residual specialist framework for text emotion classification using a frozen transformer classifier as the primary decision maker, identifies challenging emotion boundaries from validation behavior, and trains boundary specialists, including quantum encodings, data re-uploading specialists, prototype and fidelity specialists, and kernel-based specialists. Specialists are permitted to intervene only when they satisfy validation-based admission criteria. We evaluate the framework across six text emotion classification datasets and establish traditional model baselines. Experimental results show that the admitted EmotiQ policy improves mean macro-F1 metrics over the baseline, and achieves positive gains on five of six datasets. Among the quantum components, ZZ interaction feature maps are the most consistently effective, yielding a mean macro-F1 improvement of +0.0030 and positive gains on four datasets. These findings suggest that current quantum NLP methods can be deployed as residual specialists that provide localized improvements under strong classical supervision.",
+  "abstract_zh": "从文本中进行情感分类是一项具有挑战性的任务，因为许多情感状态通过微妙的语言信号和语义重叠的边界来区分。我们研究了紧凑的量子模块是否可以作为针对性的残差专家，帮助传统分类器在困难的情感决策中。我们引入了EmotiQ，这是一种用于文本情感分类的残差专家框架，使用冻结的变换器分类器作为主要决策者，从验证行为中识别具有挑战性的情感边界，并训练边界专家，包括量子编码、数据重上传专家、原型和保真度专家，以及基于核的专家。专家仅在满足基于验证的准入标准时才被允许介入。我们在六个文本情感分类数据集上评估了该框架，并建立了传统模型基准。实验结果表明，经过验证的EmotiQ策略在平均宏F1指标上优于基准，并在六个数据集中的五个上取得了正向增益。在量子组件中，ZZ交互特征图是最一致有效的，带来了+0.0030的平均宏F1提升，并在四个数据集上取得了正向增益。这些发现表明，当前的量子自然语言处理方法可以作为残差专家，在强大的经典监督下提供局部改进。",
+  "arxiv_id": "2610.25549",
+  "arxiv_url": "https://arxiv.org/abs/2610.25549v1",
+  "authors": [
+    "Carlton Kigonya",
+    "Tanaka Chirara",
+    "Yunting Yin"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-25549",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-20T09:55:38.030004+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.25549v1",
+  "published_at": "2026-10-18T21:43:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion classification",
+      "情感分类",
+      "emotion",
+      "affective",
+      "classification",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.25549v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情绪识别",
+      "文本情感"
+    ]
+  },
+  "title": "EmotiQ: A Quantum Residual Specialist Framework for Text Emotion Classification",
+  "title_zh": "EmotiQ：一种用于文本情感分类的量子残差专家框架",
+  "translation_url": "https://hjfy.top/arxiv/2610.25549"
+}

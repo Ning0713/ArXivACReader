@@ -1,0 +1,61 @@
+{
+  "abstract": "The user experience of speech interaction models has improved, benefiting from the modeling of paralinguistic attributes and advances in speech reconstruction paradigms. However, human communication follows extensive norms regarding non-verbal vocalizations (NVVs) spanning respiratory, affective, and discourse. The omission of these events imposes inherent limitations on the naturalness of current approaches. In this work, we cover 13 major types of NVVs and construct a natural dialogue dataset that conforms to human conversational norms through an automated synthesis pipeline. We enhance the ability of speech interaction models to generate contextually appropriate NVV events through multi-stage fine-tuning and NVV-aware GRPO (Group Relative Policy Optimization). Based on distinct modeling paradigms, we substantially improve the expressiveness of VocalNet and VITA-Qinyu in empathy interactions and role-play dialogues, and further discuss the architectural necessity for achieving high-quality natural speech generation.",
+  "abstract_zh": "语音交互模型的用户体验得到了改善，这得益于对副语言属性的建模和语音重建范式的进步。然而，人类沟通遵循关于非语言发声（NVVs）的广泛规范，这些规范涵盖了呼吸、情感和话语。忽略这些事件会对当前方法的自然性造成固有的限制。在本研究中，我们涵盖了13种主要类型的NVVs，并通过自动化合成管道构建了符合人类对话规范的自然对话数据集。我们通过多阶段微调和NVV感知的GRPO（Group Relative Policy Optimization）增强了语音交互模型生成上下文适当的NVV事件的能力。基于不同的建模范式，我们在同理心交互和角色扮演对话中显著提高了VocalNet和VITA-Qinyu的表现力，并进一步讨论了实现高质量自然语音生成的架构必要性。",
+  "arxiv_id": "2610.25942",
+  "arxiv_url": "https://arxiv.org/abs/2610.25942v1",
+  "authors": [
+    "Heyang Liu",
+    "Lixin Zhang",
+    "Jiayi Huang",
+    "Ziyang Cheng",
+    "Yuhao Wang",
+    "Ronghua Wu",
+    "Qunshan Gu",
+    "Yanfeng Wang",
+    "Yu Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-20#paper-2610-25942",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-20T09:55:38.038591+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.25942v1",
+  "published_at": "2026-10-19T07:36:52Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "empathy",
+      "LLMs",
+      "generation",
+      "dialogue",
+      "dataset",
+      "speech",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-10-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.25942v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "语音情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "Speech LLMs That Breathe: Modeling Non-Verbal Vocalizations in Dialogue",
+  "title_zh": "呼吸的语音大型语言模型：对话中的非语言发声建模",
+  "translation_url": "https://hjfy.top/arxiv/2610.25942"
+}
