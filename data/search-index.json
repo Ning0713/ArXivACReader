@@ -1,6 +1,208 @@
 {
-  "generated_at": "2026-10-20T09:55:42.019598+00:00",
+  "generated_at": "2026-10-21T09:59:11.034121+00:00",
   "items": [
+    {
+      "abstract": "Emoji are widely treated as compact affective tokens whose meaning is summarised by a single sentiment score. We argue that this picture is incomplete. From a corpus of 16{,}575 English tweets and a per-emoji metric we call \\emph{stability delta} (within-class minus between-class cosine similarity of sentence embeddings), we show that emojis used in tightly clustered topical contexts also exhibit \\emph{more} polarised crowd-sourced sentiment, not less. Validated against the Kralj Novak et al.\\ (2015) sentiment lexicon, the central correlation is Spearman $\\rho = +0.361$ (Holm $p = 0.015$, 95\\% bootstrap CI $[+0.10, +0.59]$); against the independent Ferr\\'{e} et al.\\ (2025) Spanish 13-emotion ratings, $\\rho = +0.509$ ($p = 0.0003$). The result survives permutation testing, BCa bootstrap, leave-one-out jackknife, partial correlation controlling for emoji frequency, and Holm correction across a four-test family. Topical coherence and affective dispersion are distinct dimensions of emoji meaning. As a downstream check we report leakage-free five-fold cross-validation results for sarcasm classification on the Emoji Sarcasm Dataset; all three baselines (a gated multimodal architecture, fine-tuned BERTweet features, and fine-tuned RoBERTa features) score above 0.97 macro F1, indicating the dataset has saturating emoji-label cues. We frame the classifier as supporting evidence rather than the contribution.",
+      "abstract_zh": "表情符号通常被视为紧凑的情感符号，其意义由单一的情感评分来概括。我们认为这种看法是不完整的。通过对16,575条英文推文的语料库以及我们称之为 extit{稳定性增量}（同类内减去类间句子嵌入的余弦相似度）的每个表情符号指标，我们展示了在紧密聚类的主题上下文中使用的表情符号也表现出 extit{更}极化的众包情感，而不是更少。经过Kralj Novak等人（2015）情感词典的验证，中心相关性为Spearman $ ho = +0.361$（Holm $p = 0.015$，95 ext{%自助法置信区间} $[+0.10, +0.59]$）；与独立的Ferré等人（2025）西班牙13种情感评分相比，$ ho = +0.509$（$p = 0.0003$）。该结果在置换测试、BCa自助法、留一法自助法、控制表情符号频率的偏相关以及Holm校正的四项测试家族中均得以保持。主题一致性和情感分散是表情符号意义的不同维度。作为下游检查，我们报告了在Emoji Sarcasm Dataset上进行的无泄漏五折交叉验证结果；所有三个基线（一个门控多模态架构、微调的BERTweet特征和微调的RoBERTa特征）得分均超过0.97宏F1，表明该数据集具有饱和的表情符号标签线索。我们将分类器视为支持证据，而非贡献。",
+      "authors": [
+        "Rohan James",
+        "Ioannis Christofilogiannis",
+        "Yuuv Jauhari",
+        "Shreya Shah",
+        "Gauri Pethkar"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.28337",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "面部表情"
+      ],
+      "title": "Beyond a Single Sentiment Score: Topical and Affective Dimensions of Emoji Meaning on Twitter",
+      "title_zh": "超越单一情感评分：Twitter上表情符号意义的主题和情感维度",
+      "url": "/daily/2026-10-21/#paper-2610-28337"
+    },
+    {
+      "abstract": "Oddly Satisfying Videos (OSVs) can evoke strong viewer responses through repetitive motion, visual tactility, and ASMR-like sounds despite containing few explicit semantic emotion cues. This makes OSVs a challenging setting for Video Emotion Analysis (VEA), since most existing methods focus on semantic video content and under-model the physical sensory dynamics that shape viewer responses. To support Oddly Satisfying Video Emotion Analysis (OSVEA), we construct the Oddly Satisfying Video Dataset (OSVD), comprising 12,000 annotated 5-second clips. Each clip provides viewer-emotion labels under video-only, audio-only, and audio-visual conditions, together with explanations grounded in visual and acoustic sensory evidence. Building on OSVD, we propose PI-MLLM, a psychophysics-inspired multimodal large language model that integrates Modality-Specific Dynamics Alignment (MSDA) and Coalition-Based Audio-Visual Attribution (CAVA). MSDA uses auxiliary prediction objectives to align modality representations with visual motion and acoustic energy-onset dynamics. CAVA evaluates emotion scores across modality coalitions and applies Shapley attribution to identify the dominant modality and determine whether visual and auditory evidence is synergistic or conflicting. Experiments show that PI-MLLM improves both viewer-side emotion prediction and sensory-grounded explanation quality, suggesting the value of physical sensory cues to video emotion analysis.",
+      "abstract_zh": "奇妙满足视频（OSVs）通过重复的运动、视觉触感和类似ASMR的声音能够引发观众强烈的反应，尽管其包含的显性语义情感线索较少。这使得奇妙满足视频情感分析（VEA）成为一个具有挑战性的领域，因为大多数现有方法集中于语义视频内容，而对塑造观众反应的物理感官动态建模不足。为了支持奇妙满足视频情感分析（OSVEA），我们构建了奇妙满足视频数据集（OSVD），该数据集包含12,000个标注的5秒片段。每个片段在仅视频、仅音频和视听条件下提供观众情感标签，并结合基于视觉和听觉感官证据的解释。在OSVD的基础上，我们提出了PI-MLLM，一种基于心理物理学的多模态大型语言模型，集成了特定模态动态对齐（MSDA）和基于联盟的视听归因（CAVA）。MSDA使用辅助预测目标将模态表示与视觉运动和声学能量起始动态对齐。CAVA评估跨模态联盟的情感评分，并应用Shapley归因来识别主导模态，并确定视觉和听觉证据是协同的还是冲突的。实验表明，PI-MLLM在观众情感预测和基于感官的解释质量方面均有所提升，表明物理感官线索对视频情感分析的价值。",
+      "authors": [
+        "Yuheng Zhang",
+        "Jie Zhang",
+        "Yuecong Min",
+        "Yunwei Zhao",
+        "Meichen Liu",
+        "Qiankun Li",
+        "Shiguang Shan"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.28264",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "PI-MLLM: Psychophysics-Inspired Multimodal Large Language Model for Oddly Satisfying Video Emotion Analysis",
+      "title_zh": "PI-MLLM：基于心理物理学的多模态大型语言模型用于奇妙满足视频情感分析",
+      "url": "/daily/2026-10-21/#paper-2610-28264"
+    },
+    {
+      "abstract": "Large Language Models (LLMs) are increasingly used for interpersonal advice, potentially shaping how users interpret ambiguous social encounters. Existing Theory of Mind evaluations typically rely on predefined answers, while uncertainty research overlooks LLMs' preferred explanations and confidence under psychological distress. To address these gaps, we introduce MentalLoom, a novel evaluation of LLM mentalisation comprising 604 ambiguous social episodes, matched depression and social anxiety disclosures, and four-turn dialogues with unchanged event evidence. Across eight LLMs, disclosures initially elicited more negative explanations overall but more positive narrator-directed interpretations. Scripted repeated questioning showed greater emotional support, stronger positive narrator-directed endorsement, and higher certainty without new event evidence. These findings show that user context can reshape interpretive preferences and commitment while the underlying ambiguity remains unresolved.",
+      "abstract_zh": "大型语言模型（LLMs）越来越多地用于人际建议，可能影响用户对模糊社会遭遇的解读。现有的心智理论评估通常依赖于预定义的答案，而不确定性研究则忽视了LLMs在心理压力下的偏好解释和信心。为了解决这些问题，我们引入了MentalLoom，这是一个新颖的LLM心理化评估工具，包含604个模糊的社会情节、匹配的抑郁和社交焦虑披露，以及四轮对话，事件证据保持不变。在八个LLM中，披露最初引发了更多的负面解释，但更多的积极叙述者导向的解读。经过脚本化的重复提问显示出更大的情感支持、更强的积极叙述者导向的认可和更高的确定性，而没有新的事件证据。这些发现表明，用户的背景可以重塑解释偏好和承诺，同时潜在的模糊性仍未得到解决。",
+      "authors": [
+        "Stephanie Fong",
+        "Yiwen Jiang",
+        "Qingyang Xu",
+        "Zimu Wang",
+        "Yaling Shen",
+        "Xiangyu Zhao",
+        "Jiahe Liu",
+        "Yinghao Zhang",
+        "Vincent Lee",
+        "Dominic Dwyer"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.28105",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "Reading Too Much Into It? Interpretive Preferences and Commitment in LLM Mentalisation under Ambiguity",
+      "title_zh": "过度解读？模糊情况下的解释偏好与大型语言模型的心理化承诺",
+      "url": "/daily/2026-10-21/#paper-2610-28105"
+    },
+    {
+      "abstract": "Model compression makes large language models deployable, but today's evaluation tells an incomplete story. Standard practice measures retained task performance and stops there. This misses a critical fact: compression perturbs the distributed knowledge embedded across billions of weights, and task scores alone cannot reveal which underlying abilities survive and which quietly collapse. To solve this question, we introduce ACE-Compression, an ability-centric evaluation framework. Instead of asking only \"does the compressed model still answer correctly?\", we ask \"which of its core abilities remain intact?\" Our framework probes four deployment-facing dimensions: procedural reasoning and constraint execution, knowledge grounding and truthfulness, social cognition and affective understanding, and persona fidelity and stylistic consistency. Across more than 35 compressed checkpoints from six open-weight LLMs-covering quantization and pruning-we find that compression redistributes ability profiles. Coarse, local, and surface-level signals often persist, while fine-grained, long-tail, and context-dependent abilities become fragile. Quantization consistently outperforms pruning in retention, but the practical meaning of that gap depends entirely on which ability an application requires. Based on our findings, deployers can choose compression methods by the ability profile their application needs, not just by a leaderboard average. And algorithm designers gain diagnostic signals to build compression methods that preserve what matters. We believe that ACE-Compression turns compression from a black-box accuracy drop into an interpretable intervention-one we can measure, understand, and ultimately improve.",
+      "abstract_zh": "模型压缩使大型语言模型可部署，但当前的评估方式讲述了一个不完整的故事。标准做法仅测量保留的任务性能，并止步于此。这忽略了一个关键事实：压缩扰动了嵌入在数十亿权重中的分布知识，仅凭任务得分无法揭示哪些基础能力得以保留，哪些则悄然崩溃。为了解决这个问题，我们引入了ACE-压缩（ACE-Compression），一个以能力为中心的评估框架。我们不仅仅问“压缩模型是否仍然能正确回答？”，而是问“它的哪些核心能力仍然完好？”我们的框架探讨了四个面向部署的维度：程序推理与约束执行、知识基础与真实性、社会认知与情感理解，以及个性忠实度与风格一致性。在来自六个开放权重大型语言模型（LLM）的35个以上压缩检查点中——涵盖量化和剪枝——我们发现压缩重新分配了能力特征。粗略的、本地的和表层的信号往往持续存在，而细粒度的、长尾的和上下文依赖的能力则变得脆弱。量化在保留能力方面始终优于剪枝，但这一差距的实际意义完全取决于应用所需的能力。基于我们的发现，部署者可以根据其应用所需的能力特征选择压缩方法，而不仅仅依赖于排行榜的平均值。同时，算法设计者获得了诊断信号，以构建能够保留重要内容的压缩方法。我们相信，ACE-压缩将压缩从一个黑箱的准确性下降转变为一个可解释的干预——一个我们可以测量、理解并最终改进的过程。",
+      "authors": [
+        "Jiahui Ning",
+        "Liang Chen",
+        "Yuchen Liang",
+        "Yi Zhang",
+        "Fenglei Fan"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.27913",
+      "tags": [
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "ACE-Compression: An Ability-Centric Evaluation of Compressed Large Language Models",
+      "title_zh": "ACE-压缩：一种以能力为中心的压缩大型语言模型评估",
+      "url": "/daily/2026-10-21/#paper-2610-27913"
+    },
+    {
+      "abstract": "Empathetic interaction involves two distinguishable capacities: representing another person's emotional state (cognitive empathy) and generating an appropriate response to that state (affective empathy). We apply this distinction to examine how emotion-related information is internally organized, selectively attended to, and carried through response generation in Llama-3.2-3B-Instruct across 10 emotion categories from the EmpatheticDialogues dataset. Layer-wise linear probing revealed a broad middle-layer region of peak emotion-category decodability, with the layer-11 L2 probe achieving 63.6% held-out accuracy against a 10% chance level and a 54.6% TF-IDF lexical baseline. During response generation, emotion-related user tokens received 1.89 times as much attention per token as other utterance tokens, concentrated across layers 10-15. Target-emotion alignment then decreased from a mean cosine similarity of 0.239 for input representations to 0.125 for generated responses, with positive drift in 77% of examples and the largest shifts for angry and furious. Emotion-category representation, attention allocation, and response-level alignment therefore emerge as distinguishable components of model processing that can be analyzed through a functional cognitive-affective empathy framework. These findings provide a foundation for monitoring emotion representations during generation and leveraging models' existing affective structure to support more naturally empathetic responses without relying on external prompting or explicit emotion conditioning.",
+      "abstract_zh": "同理心互动涉及两个可区分的能力：代表他人的情感状态（认知同理心）和对该状态生成适当的反应（情感同理心）。我们应用这一区分来考察情感相关信息在 Llama-3.2-3B-Instruct 中的内部组织、选择性关注及其在响应生成中的传递，分析了来自 EmpatheticDialogues 数据集的 10 种情感类别。逐层线性探测揭示了一个广泛的中间层区域，情感类别的解码能力达到峰值，其中第 11 层 L2 探测器在持出准确率上达到了 63.6%，高于 10% 的随机水平和 54.6% 的 TF-IDF 词汇基线。在响应生成过程中，情感相关的用户标记每个标记获得的关注度是其他话语标记的 1.89 倍，集中在第 10 到第 15 层。目标情感的对齐从输入表示的平均余弦相似度 0.239 降低到生成响应的 0.125，其中 77% 的示例出现了正向漂移，愤怒和狂怒的变化幅度最大。因此，情感类别的表示、注意力分配和响应级别的对齐显现为模型处理的可区分组成部分，可以通过功能性认知-情感同理心框架进行分析。这些发现为在生成过程中监测情感表示提供了基础，并利用模型现有的情感结构支持更自然的同理心反应，而无需依赖外部提示或明确的情感条件。",
+      "authors": [
+        "Samhita Bollepally",
+        "Takashi Yamauchi",
+        "Marissa West"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.27603",
+      "tags": [
+        "共情交互",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "From Encoding to Generation: Towards Empathetic Large Language Models",
+      "title_zh": "从编码到生成：迈向具同理心的大型语言模型",
+      "url": "/daily/2026-10-21/#paper-2610-27603"
+    },
+    {
+      "abstract": "Multimodal sentiment analysis (MSA) aims to understand user-generated videos by integrating multiple modalities. Existing methods often treat modalities as symmetric, overlooking the fact that language provides a dominant semantic prior while nonverbal signals are complementary and noise-prone. To address this, we propose a Text-Anchored Modality Experts with Uncertainty-Guided Routing, termed TAME, that reformulates MSA as an uncertainty-guided refinement paradigm, where the language prior is calibrated and enhanced by selectively trusted nonverbal evidence. Specifically, TAME adopts an asymmetric Mixture-of-Modality-Experts framework, in which textual features act as a fixed and always-activated shared expert, while audio-textual and video-textual cross-modal branches serve as dynamically routed auxiliary experts. Furthermore, we introduce lightweight Prophet Heads to quantify the sample-level predictive uncertainty of each individual modality, and this uncertainty metric is further incorporated into the modality router to realize reliability-aware expert aggregation and fusion. Experiments on CMU-MOSI, CMU-MOSEI, and CH-SIMS datasets demonstrate that TAME achieves state-of-the-art performance on the majority of metrics while reducing parameter count by up to 78.7% and FLOPs by up to 41.2% over the mixture-of-expert baseline. %These results confirm that asymmetric expert construction with uncertainty-guided routing is an effective paradigm for MSA.",
+      "abstract_zh": "多模态情感分析（MSA）旨在通过整合多种模态来理解用户生成的视频。现有方法通常将模态视为对称的，忽视了语言提供主导语义先验的事实，而非语言信号则是互补且易受噪声影响的。为此，我们提出了一种基于文本锚定的模态专家与不确定性引导路由的方法，称为 TAME，该方法将 MSA 重新构建为一种不确定性引导的精炼范式，其中语言先验通过选择性信任的非语言证据进行校准和增强。具体而言，TAME 采用不对称的混合模态专家框架，其中文本特征作为固定且始终激活的共享专家，而音频-文本和视频-文本的跨模态分支则作为动态路由的辅助专家。此外，我们引入轻量级的 Prophet Heads 来量化每个单独模态的样本级预测不确定性，并将这一不确定性度量进一步纳入模态路由器，以实现可靠性感知的专家聚合与融合。在 CMU-MOSI、CMU-MOSEI 和 CH-SIMS 数据集上的实验表明，TAME 在大多数指标上达到了最先进的性能，同时将参数数量减少了多达 78.7%，FLOPs 减少了多达 41.2%，相较于混合专家基线。这些结果确认了不对称专家构建与不确定性引导路由的有效性为 MSA 提供了一种有效的范式。",
+      "authors": [
+        "Xiaohua Huang",
+        "Bingrui Lei",
+        "Xiuyan hao",
+        "Ling Zhou",
+        "Yuan Zong",
+        "Wenming Zheng",
+        "Guoying Zhao"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.27571",
+      "tags": [
+        "文本情感",
+        "多模态情感",
+        "社交信号"
+      ],
+      "title": "Text-Anchored Modality Experts with Uncertainty-Guided Routing for Multimodal Sentiment Analysis",
+      "title_zh": "基于文本锚定的模态专家与不确定性引导路由的多模态情感分析",
+      "url": "/daily/2026-10-21/#paper-2610-27571"
+    },
+    {
+      "abstract": "Depression assessment from counseling speech requires integrating textual and acoustic psychological evidence across turns, yet existing end-to-end classification approaches lack explicit multimodal evidence interpretation and context-aware reasoning. We propose AudiPsy, an evidence-grounded omni-LLM for depression assessment over spoken counseling conversations. AudiPsy employs an Observation-Assessment-Summary (OAS) paradigm to integrate dialogue transcripts, textual and acoustic emotions, and textual-acoustic emotion incongruence into structured reasoning. OAS incrementally organizes multimodal observations, performs contextualized assessment, and maintains an evolving dialogue summary for subsequent turns. To support this framework, we construct AudiPsy-Counsel, a synthetic spoken counseling conversation corpus with multimodal context augmentation, and develop a unified three-stage curriculum for depression-oriented reasoning. Experiments on DAIC-WOZ demonstrate superior depression assessment performance over specialized depression detection methods and general-purpose speech/omni-LLMs, along with improved reasoning quality, while supplementary evaluation on EATD-Corpus supports AudiPsy's applicability to naturalistic conversations.",
+      "abstract_zh": "从咨询对话中评估抑郁症需要整合跨轮次的文本和声学心理证据，然而现有的端到端分类方法缺乏明确的多模态证据解释和上下文感知推理。我们提出了AudiPsy，一种基于证据的全方位大语言模型（omni-LLM），用于口语咨询对话中的抑郁评估。AudiPsy采用观察-评估-总结（Observation-Assessment-Summary, OAS）范式，将对话记录、文本和声学情感以及文本-声学情感不一致性整合到结构化推理中。OAS逐步组织多模态观察，进行上下文化评估，并为后续轮次维护一个不断演变的对话摘要。为了支持这一框架，我们构建了AudiPsy-Counsel，一个具有多模态上下文增强的合成口语咨询对话语料库，并开发了一个统一的三阶段课程，以支持针对抑郁的推理。对DAIC-WOZ的实验表明，AudiPsy在抑郁评估性能上优于专门的抑郁检测方法和通用的语音/全方位大语言模型，同时推理质量也得到了改善，而在EATD-Corpus上的补充评估进一步支持了AudiPsy在自然对话中的适用性。",
+      "authors": [
+        "Chuanbo Zhu",
+        "Run Luo",
+        "Weibo Zhao",
+        "Yue Li",
+        "Kun Qian",
+        "Qiang Qu",
+        "Yike Guo",
+        "Minghuan Tan",
+        "Wei Xue"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.27567",
+      "tags": [
+        "语音情感",
+        "心理状态/福祉",
+        "多模态情感"
+      ],
+      "title": "AudiPsy: Evidence-Grounded Multimodal Reasoning over Spoken Counseling Conversations for Depression Assessment",
+      "title_zh": "AudiPsy：基于证据的多模态推理在口语咨询对话中的抑郁评估",
+      "url": "/daily/2026-10-21/#paper-2610-27567"
+    },
+    {
+      "abstract": "Multimodal physiological signals provide complementary cues for emotion recognition. They also raise two related challenges. Emotion-related EEG patterns vary across time, frequency bands, electrodes, and brain regions. Different physiological modalities also contain both modality-specific and shared affective information. This paper presents GMSI-Net, an EEG-centered multimodal emotion recognition framework. It has three key components. The temporal-spatial-spectral-region (TSSR) encoder models multiscale temporal-channel patterns, differential entropy features, and local-to-global brain-region relations. The modality-specific representation (MSR) branch uses bidirectional cross-modal attention and learnable gates. It controls information transfer while retaining modality-specific cues. The modality-invariant representation (MIR) branch learns a shared affective representation. An adaptively weighted contrastive loss aligns this representation across modalities. Independent multiscale Conv-Transformer encoders process the peripheral physiological signals. GMSI-Net is evaluated on DEAP and MAHNOB-HCI using within-subject random ten-fold cross-validation. The model reaches 96.21 (1.47) and 96.41 (1.60) for valence and arousal on DEAP. It reaches 94.10 (2.86) and 94.48 (3.77) on MAHNOB-HCI. These results indicate that combining EEG features with complementary physiological information can improve emotion recognition.",
+      "abstract_zh": "多模态生理信号为情感识别提供了互补线索，同时也带来了两个相关的挑战。与情感相关的EEG模式在时间、频率带、电极和脑区之间存在差异。不同的生理模态也包含模态特异性和共享的情感信息。本文提出了GMSI-Net，一个以EEG为中心的多模态情感识别框架。该框架具有三个关键组件。时间-空间-频谱-区域（TSSR）编码器建模多尺度时间通道模式、差异熵特征和局部到全局的脑区关系。模态特异性表示（MSR）分支使用双向跨模态注意力和可学习的门控机制，控制信息传递的同时保留模态特异性线索。模态不变表示（MIR）分支学习共享的情感表示。自适应加权对比损失在模态之间对齐该表示。独立的多尺度卷积-变换器编码器处理外围生理信号。GMSI-Net在DEAP和MAHNOB-HCI上使用被试内随机十折交叉验证进行评估。该模型在DEAP上对情感的愉悦度和唤醒度分别达到了96.21（1.47）和96.41（1.60），在MAHNOB-HCI上达到了94.10（2.86）和94.48（3.77）。这些结果表明，将EEG特征与互补的生理信息结合可以提高情感识别的效果。",
+      "authors": [
+        "Jian Zhang",
+        "Manrong Liu",
+        "Yilei Huang",
+        "Wenhua Liu",
+        "Xiaohui Yang",
+        "Lijun Yang"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.27521",
+      "tags": [
+        "多模态情感",
+        "生理信号",
+        "情绪识别"
+      ],
+      "title": "Multiscale Temporal-Spectral-Spatial EEG Learning With Modality-Specific and Modality-Invariant Representations for Emotion Recognition",
+      "title_zh": "基于模态特异性和模态不变表示的多尺度时间-频谱-空间EEG学习用于情感识别",
+      "url": "/daily/2026-10-21/#paper-2610-27521"
+    },
+    {
+      "abstract": "Despite advances in photorealism, semantic fidelity, and aesthetics, text-to-image generation and image editing remain understudied in a human-centered dimension: whether their outputs feel psychologically comforting. Grounded in cognitive evaluation theory, we define psychological comfort as an affective response shaped by viewers' appraisal of restorative and emotionally supportive visual cues. We introduce HealBench, a fine-grained benchmark of 30,000 high-quality image-text pairs spanning 19 categories and 92 subcategories, selected from 100,000 candidates through a human- and expert-in-the-loop pipeline combining vision-language model matching, human preference models, expert filtering, and exemplar-guided augmentation. We also construct HealBench-Eval, a feature-clustered evaluation set of 1,095 instances. Using HealBench-Eval, we conduct objective and subjective evaluations of 14 representative image generation models and prompt-rewriting strategies. Results reveal a gap between conventional visual quality and perceived comfort: strong semantic alignment and aesthetics do not guarantee emotionally restorative images. Reinforcement learning experiments further show that HealScorer can serve as a reward signal for assessing and improving the emotional and restorative quality of generated images. These findings establish psychological comfort as a distinct dimension of human-centered image generation and position HealBench as a foundation for affect-aware generative models.",
+      "abstract_zh": "尽管在照片真实感、语义忠实度和美学方面取得了进展，文本到图像生成和图像编辑在以人为本的维度上仍然缺乏研究：它们的输出是否让人感到心理上的舒适。基于认知评估理论，我们将心理舒适定义为一种情感反应，受到观众对恢复性和情感支持视觉线索的评估所影响。我们引入了HealBench，这是一个包含30,000对高质量图像-文本对的细粒度基准，涵盖19个类别和92个子类别，从100,000个候选中通过结合视觉-语言模型匹配、人类偏好模型、专家筛选和示例引导增强的人工和专家参与流程中选出。我们还构建了HealBench-Eval，这是一个包含1,095个实例的特征聚类评估集。利用HealBench-Eval，我们对14个代表性的图像生成模型和提示重写策略进行了客观和主观评估。结果揭示了传统视觉质量与感知舒适度之间的差距：强语义对齐和美学并不保证情感恢复性图像的生成。强化学习实验进一步表明，HealScorer可以作为评估和改善生成图像情感和恢复质量的奖励信号。这些发现确立了心理舒适作为以人为本的图像生成的一个独特维度，并将HealBench定位为情感感知生成模型的基础。",
+      "authors": [
+        "Junjie Xu",
+        "Yuzhe Yang",
+        "Rui Yang",
+        "Luwei Xiao",
+        "Wenxin Wu",
+        "Xingjiao Wu",
+        "Liang He"
+      ],
+      "date": "2026-10-21",
+      "id": "2610.27516",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "HealBench: A Fine-Grained Benchmark for Evaluating Psychological Comfort in Text-to-Image Generation",
+      "title_zh": "HealBench：评估文本到图像生成中的心理舒适度的细粒度基准",
+      "url": "/daily/2026-10-21/#paper-2610-27516"
+    },
     {
       "abstract": "EEG-eye movement emotion recognition can support mental-health monitoring and adaptive interfaces, but most fusion models treat the two signals as parallel features, classify each window alone and degrade when eye data are lost. We propose the Context-Aware Topological Distillation Graph Network (CTD-GNet), in which EEG features form the nodes of an electrode graph, and eye movements and preceding windows modulate its edges, nodes and readout, the edges through electrode-specific prompts. Bidirectional distillation of the graph, node relations and predictions couples this multimodal teacher with a single-window EEG student, improving the teacher and aligning the two graphs 35-fold. In leave-one-subject-out tests on SEED and SEED-IV against 17 baselines, CTD-GNet has the highest mean accuracy, 84.91% and 76.17%, significantly above 9 and 6 of 13 eye-based baselines after Holm correction, the smallest cross-subject spread among multimodal models and the highest worst-subject accuracy. It is the most accurate model at every rate of missing eye data on SEED-IV, keeps 66.1% on SEED without eye data, more than any EEG-only model, and stays 9.3 and 11.9 points above all single-window fusion models under eye-movement noise of one standard deviation. On film clips unseen in training, it leads on SEED with 77.1%.",
       "abstract_zh": "EEG-眼动情感识别可以支持心理健康监测和自适应接口，但大多数融合模型将这两种信号视为并行特征，单独对每个窗口进行分类，并在眼动数据丢失时性能下降。我们提出了上下文感知的拓扑蒸馏图网络（CTD-GNet），其中EEG特征构成电极图的节点，眼动和前置窗口调制其边缘、节点和输出，通过电极特定的提示来实现边缘的调制。图的双向蒸馏、节点关系和预测将这一多模态教师与单窗口EEG学生相结合，提升了教师的性能，并将两个图的对齐提升了35倍。在对SEED和SEED-IV进行的留一法受试者测试中，CTD-GNet的平均准确率最高，分别为84.91%和76.17%，在经过霍尔姆校正后显著高于13个基于眼动的基线中的9个和6个，且在多模态模型中具有最小的跨受试者差异和最高的最差受试者准确率。它在SEED-IV上是每个缺失眼动数据率下最准确的模型，在没有眼动数据的情况下保持66.1%的准确率，超过任何仅基于EEG的模型，并在眼动噪声为一个标准差的情况下，保持比所有单窗口融合模型高出9.3和11.9个百分点。在训练中未见过的电影片段上，它在SEED上以77.1%的准确率领先。",

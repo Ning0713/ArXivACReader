@@ -1,0 +1,57 @@
+{
+  "abstract": "Empathetic interaction involves two distinguishable capacities: representing another person's emotional state (cognitive empathy) and generating an appropriate response to that state (affective empathy). We apply this distinction to examine how emotion-related information is internally organized, selectively attended to, and carried through response generation in Llama-3.2-3B-Instruct across 10 emotion categories from the EmpatheticDialogues dataset. Layer-wise linear probing revealed a broad middle-layer region of peak emotion-category decodability, with the layer-11 L2 probe achieving 63.6% held-out accuracy against a 10% chance level and a 54.6% TF-IDF lexical baseline. During response generation, emotion-related user tokens received 1.89 times as much attention per token as other utterance tokens, concentrated across layers 10-15. Target-emotion alignment then decreased from a mean cosine similarity of 0.239 for input representations to 0.125 for generated responses, with positive drift in 77% of examples and the largest shifts for angry and furious. Emotion-category representation, attention allocation, and response-level alignment therefore emerge as distinguishable components of model processing that can be analyzed through a functional cognitive-affective empathy framework. These findings provide a foundation for monitoring emotion representations during generation and leveraging models' existing affective structure to support more naturally empathetic responses without relying on external prompting or explicit emotion conditioning.",
+  "abstract_zh": "同理心互动涉及两个可区分的能力：代表他人的情感状态（认知同理心）和对该状态生成适当的反应（情感同理心）。我们应用这一区分来考察情感相关信息在 Llama-3.2-3B-Instruct 中的内部组织、选择性关注及其在响应生成中的传递，分析了来自 EmpatheticDialogues 数据集的 10 种情感类别。逐层线性探测揭示了一个广泛的中间层区域，情感类别的解码能力达到峰值，其中第 11 层 L2 探测器在持出准确率上达到了 63.6%，高于 10% 的随机水平和 54.6% 的 TF-IDF 词汇基线。在响应生成过程中，情感相关的用户标记每个标记获得的关注度是其他话语标记的 1.89 倍，集中在第 10 到第 15 层。目标情感的对齐从输入表示的平均余弦相似度 0.239 降低到生成响应的 0.125，其中 77% 的示例出现了正向漂移，愤怒和狂怒的变化幅度最大。因此，情感类别的表示、注意力分配和响应级别的对齐显现为模型处理的可区分组成部分，可以通过功能性认知-情感同理心框架进行分析。这些发现为在生成过程中监测情感表示提供了基础，并利用模型现有的情感结构支持更自然的同理心反应，而无需依赖外部提示或明确的情感条件。",
+  "arxiv_id": "2610.27603",
+  "arxiv_url": "https://arxiv.org/abs/2610.27603v1",
+  "authors": [
+    "Samhita Bollepally",
+    "Takashi Yamauchi",
+    "Marissa West"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-27603",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.159227+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.27603v1",
+  "published_at": "2026-10-20T04:10:24Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "EmpatheticDialogues",
+      "emotion",
+      "emotional",
+      "affective",
+      "empathy",
+      "empathetic",
+      "large language models",
+      "generation",
+      "dataset",
+      "生成"
+    ],
+    "reasons": [
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 62.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.27603v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "共情交互",
+    "secondary": [
+      "数据集/评测",
+      "情感大模型"
+    ]
+  },
+  "title": "From Encoding to Generation: Towards Empathetic Large Language Models",
+  "title_zh": "从编码到生成：迈向具同理心的大型语言模型",
+  "translation_url": "https://hjfy.top/arxiv/2610.27603"
+}

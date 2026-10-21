@@ -1,0 +1,61 @@
+{
+  "abstract": "Large Language Models (LLMs) are increasingly used for interpersonal advice, potentially shaping how users interpret ambiguous social encounters. Existing Theory of Mind evaluations typically rely on predefined answers, while uncertainty research overlooks LLMs' preferred explanations and confidence under psychological distress. To address these gaps, we introduce MentalLoom, a novel evaluation of LLM mentalisation comprising 604 ambiguous social episodes, matched depression and social anxiety disclosures, and four-turn dialogues with unchanged event evidence. Across eight LLMs, disclosures initially elicited more negative explanations overall but more positive narrator-directed interpretations. Scripted repeated questioning showed greater emotional support, stronger positive narrator-directed endorsement, and higher certainty without new event evidence. These findings show that user context can reshape interpretive preferences and commitment while the underlying ambiguity remains unresolved.",
+  "abstract_zh": "大型语言模型（LLMs）越来越多地用于人际建议，可能影响用户对模糊社会遭遇的解读。现有的心智理论评估通常依赖于预定义的答案，而不确定性研究则忽视了LLMs在心理压力下的偏好解释和信心。为了解决这些问题，我们引入了MentalLoom，这是一个新颖的LLM心理化评估工具，包含604个模糊的社会情节、匹配的抑郁和社交焦虑披露，以及四轮对话，事件证据保持不变。在八个LLM中，披露最初引发了更多的负面解释，但更多的积极叙述者导向的解读。经过脚本化的重复提问显示出更大的情感支持、更强的积极叙述者导向的认可和更高的确定性，而没有新的事件证据。这些发现表明，用户的背景可以重塑解释偏好和承诺，同时潜在的模糊性仍未得到解决。",
+  "arxiv_id": "2610.28105",
+  "arxiv_url": "https://arxiv.org/abs/2610.28105v1",
+  "authors": [
+    "Stephanie Fong",
+    "Yiwen Jiang",
+    "Qingyang Xu",
+    "Zimu Wang",
+    "Yaling Shen",
+    "Xiangyu Zhao",
+    "Jiahe Liu",
+    "Yinghao Zhang",
+    "Vincent Lee",
+    "Dominic Dwyer"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-28105",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.284487+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.28105v1",
+  "published_at": "2026-10-20T12:18:11Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.28105v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "Reading Too Much Into It? Interpretive Preferences and Commitment in LLM Mentalisation under Ambiguity",
+  "title_zh": "过度解读？模糊情况下的解释偏好与大型语言模型的心理化承诺",
+  "translation_url": "https://hjfy.top/arxiv/2610.28105"
+}

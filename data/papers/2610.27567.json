@@ -1,0 +1,69 @@
+{
+  "abstract": "Depression assessment from counseling speech requires integrating textual and acoustic psychological evidence across turns, yet existing end-to-end classification approaches lack explicit multimodal evidence interpretation and context-aware reasoning. We propose AudiPsy, an evidence-grounded omni-LLM for depression assessment over spoken counseling conversations. AudiPsy employs an Observation-Assessment-Summary (OAS) paradigm to integrate dialogue transcripts, textual and acoustic emotions, and textual-acoustic emotion incongruence into structured reasoning. OAS incrementally organizes multimodal observations, performs contextualized assessment, and maintains an evolving dialogue summary for subsequent turns. To support this framework, we construct AudiPsy-Counsel, a synthetic spoken counseling conversation corpus with multimodal context augmentation, and develop a unified three-stage curriculum for depression-oriented reasoning. Experiments on DAIC-WOZ demonstrate superior depression assessment performance over specialized depression detection methods and general-purpose speech/omni-LLMs, along with improved reasoning quality, while supplementary evaluation on EATD-Corpus supports AudiPsy's applicability to naturalistic conversations.",
+  "abstract_zh": "从咨询对话中评估抑郁症需要整合跨轮次的文本和声学心理证据，然而现有的端到端分类方法缺乏明确的多模态证据解释和上下文感知推理。我们提出了AudiPsy，一种基于证据的全方位大语言模型（omni-LLM），用于口语咨询对话中的抑郁评估。AudiPsy采用观察-评估-总结（Observation-Assessment-Summary, OAS）范式，将对话记录、文本和声学情感以及文本-声学情感不一致性整合到结构化推理中。OAS逐步组织多模态观察，进行上下文化评估，并为后续轮次维护一个不断演变的对话摘要。为了支持这一框架，我们构建了AudiPsy-Counsel，一个具有多模态上下文增强的合成口语咨询对话语料库，并开发了一个统一的三阶段课程，以支持针对抑郁的推理。对DAIC-WOZ的实验表明，AudiPsy在抑郁评估性能上优于专门的抑郁检测方法和通用的语音/全方位大语言模型，同时推理质量也得到了改善，而在EATD-Corpus上的补充评估进一步支持了AudiPsy在自然对话中的适用性。",
+  "arxiv_id": "2610.27567",
+  "arxiv_url": "https://arxiv.org/abs/2610.27567v1",
+  "authors": [
+    "Chuanbo Zhu",
+    "Run Luo",
+    "Weibo Zhao",
+    "Yue Li",
+    "Kun Qian",
+    "Qiang Qu",
+    "Yike Guo",
+    "Minghuan Tan",
+    "Wei Xue"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-27567",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.258734+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.27567v1",
+  "published_at": "2026-10-20T03:31:15Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "multimodal",
+      "LLM",
+      "LLMs",
+      "classification",
+      "detection",
+      "reasoning",
+      "dialogue",
+      "conversation",
+      "speech",
+      "多模态",
+      "分类",
+      "检测",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 54.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.27567v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "心理状态/福祉",
+      "多模态情感"
+    ]
+  },
+  "title": "AudiPsy: Evidence-Grounded Multimodal Reasoning over Spoken Counseling Conversations for Depression Assessment",
+  "title_zh": "AudiPsy：基于证据的多模态推理在口语咨询对话中的抑郁评估",
+  "translation_url": "https://hjfy.top/arxiv/2610.27567"
+}

@@ -1,0 +1,60 @@
+{
+  "abstract": "Multimodal physiological signals provide complementary cues for emotion recognition. They also raise two related challenges. Emotion-related EEG patterns vary across time, frequency bands, electrodes, and brain regions. Different physiological modalities also contain both modality-specific and shared affective information. This paper presents GMSI-Net, an EEG-centered multimodal emotion recognition framework. It has three key components. The temporal-spatial-spectral-region (TSSR) encoder models multiscale temporal-channel patterns, differential entropy features, and local-to-global brain-region relations. The modality-specific representation (MSR) branch uses bidirectional cross-modal attention and learnable gates. It controls information transfer while retaining modality-specific cues. The modality-invariant representation (MIR) branch learns a shared affective representation. An adaptively weighted contrastive loss aligns this representation across modalities. Independent multiscale Conv-Transformer encoders process the peripheral physiological signals. GMSI-Net is evaluated on DEAP and MAHNOB-HCI using within-subject random ten-fold cross-validation. The model reaches 96.21 (1.47) and 96.41 (1.60) for valence and arousal on DEAP. It reaches 94.10 (2.86) and 94.48 (3.77) on MAHNOB-HCI. These results indicate that combining EEG features with complementary physiological information can improve emotion recognition.",
+  "abstract_zh": "多模态生理信号为情感识别提供了互补线索，同时也带来了两个相关的挑战。与情感相关的EEG模式在时间、频率带、电极和脑区之间存在差异。不同的生理模态也包含模态特异性和共享的情感信息。本文提出了GMSI-Net，一个以EEG为中心的多模态情感识别框架。该框架具有三个关键组件。时间-空间-频谱-区域（TSSR）编码器建模多尺度时间通道模式、差异熵特征和局部到全局的脑区关系。模态特异性表示（MSR）分支使用双向跨模态注意力和可学习的门控机制，控制信息传递的同时保留模态特异性线索。模态不变表示（MIR）分支学习共享的情感表示。自适应加权对比损失在模态之间对齐该表示。独立的多尺度卷积-变换器编码器处理外围生理信号。GMSI-Net在DEAP和MAHNOB-HCI上使用被试内随机十折交叉验证进行评估。该模型在DEAP上对情感的愉悦度和唤醒度分别达到了96.21（1.47）和96.41（1.60），在MAHNOB-HCI上达到了94.10（2.86）和94.48（3.77）。这些结果表明，将EEG特征与互补的生理信息结合可以提高情感识别的效果。",
+  "arxiv_id": "2610.27521",
+  "arxiv_url": "https://arxiv.org/abs/2610.27521v1",
+  "authors": [
+    "Jian Zhang",
+    "Manrong Liu",
+    "Yilei Huang",
+    "Wenhua Liu",
+    "Xiaohui Yang",
+    "Lijun Yang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-27521",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.014399+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.27521v1",
+  "published_at": "2026-10-20T02:35:16Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "affective",
+      "multimodal",
+      "recognition",
+      "EEG",
+      "physiological",
+      "多模态",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 86.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.27521v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "生理信号",
+      "情绪识别"
+    ]
+  },
+  "title": "Multiscale Temporal-Spectral-Spatial EEG Learning With Modality-Specific and Modality-Invariant Representations for Emotion Recognition",
+  "title_zh": "基于模态特异性和模态不变表示的多尺度时间-频谱-空间EEG学习用于情感识别",
+  "translation_url": "https://hjfy.top/arxiv/2610.27521"
+}

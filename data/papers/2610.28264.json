@@ -1,0 +1,66 @@
+{
+  "abstract": "Oddly Satisfying Videos (OSVs) can evoke strong viewer responses through repetitive motion, visual tactility, and ASMR-like sounds despite containing few explicit semantic emotion cues. This makes OSVs a challenging setting for Video Emotion Analysis (VEA), since most existing methods focus on semantic video content and under-model the physical sensory dynamics that shape viewer responses. To support Oddly Satisfying Video Emotion Analysis (OSVEA), we construct the Oddly Satisfying Video Dataset (OSVD), comprising 12,000 annotated 5-second clips. Each clip provides viewer-emotion labels under video-only, audio-only, and audio-visual conditions, together with explanations grounded in visual and acoustic sensory evidence. Building on OSVD, we propose PI-MLLM, a psychophysics-inspired multimodal large language model that integrates Modality-Specific Dynamics Alignment (MSDA) and Coalition-Based Audio-Visual Attribution (CAVA). MSDA uses auxiliary prediction objectives to align modality representations with visual motion and acoustic energy-onset dynamics. CAVA evaluates emotion scores across modality coalitions and applies Shapley attribution to identify the dominant modality and determine whether visual and auditory evidence is synergistic or conflicting. Experiments show that PI-MLLM improves both viewer-side emotion prediction and sensory-grounded explanation quality, suggesting the value of physical sensory cues to video emotion analysis.",
+  "abstract_zh": "奇妙满足视频（OSVs）通过重复的运动、视觉触感和类似ASMR的声音能够引发观众强烈的反应，尽管其包含的显性语义情感线索较少。这使得奇妙满足视频情感分析（VEA）成为一个具有挑战性的领域，因为大多数现有方法集中于语义视频内容，而对塑造观众反应的物理感官动态建模不足。为了支持奇妙满足视频情感分析（OSVEA），我们构建了奇妙满足视频数据集（OSVD），该数据集包含12,000个标注的5秒片段。每个片段在仅视频、仅音频和视听条件下提供观众情感标签，并结合基于视觉和听觉感官证据的解释。在OSVD的基础上，我们提出了PI-MLLM，一种基于心理物理学的多模态大型语言模型，集成了特定模态动态对齐（MSDA）和基于联盟的视听归因（CAVA）。MSDA使用辅助预测目标将模态表示与视觉运动和声学能量起始动态对齐。CAVA评估跨模态联盟的情感评分，并应用Shapley归因来识别主导模态，并确定视觉和听觉证据是协同的还是冲突的。实验表明，PI-MLLM在观众情感预测和基于感官的解释质量方面均有所提升，表明物理感官线索对视频情感分析的价值。",
+  "arxiv_id": "2610.28264",
+  "arxiv_url": "https://arxiv.org/abs/2610.28264v1",
+  "authors": [
+    "Yuheng Zhang",
+    "Jie Zhang",
+    "Yuecong Min",
+    "Yunwei Zhao",
+    "Meichen Liu",
+    "Qiankun Li",
+    "Shiguang Shan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-28264",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.073269+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.28264v1",
+  "published_at": "2026-10-20T14:20:39Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion prediction",
+      "emotion analysis",
+      "情感分析",
+      "情感预测",
+      "emotion",
+      "multimodal",
+      "large language model",
+      "MLLM",
+      "prediction",
+      "dataset",
+      "audio",
+      "多模态",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.28264v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "PI-MLLM: Psychophysics-Inspired Multimodal Large Language Model for Oddly Satisfying Video Emotion Analysis",
+  "title_zh": "PI-MLLM：基于心理物理学的多模态大型语言模型用于奇妙满足视频情感分析",
+  "translation_url": "https://hjfy.top/arxiv/2610.28264"
+}

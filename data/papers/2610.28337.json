@@ -1,0 +1,57 @@
+{
+  "abstract": "Emoji are widely treated as compact affective tokens whose meaning is summarised by a single sentiment score. We argue that this picture is incomplete. From a corpus of 16{,}575 English tweets and a per-emoji metric we call \\emph{stability delta} (within-class minus between-class cosine similarity of sentence embeddings), we show that emojis used in tightly clustered topical contexts also exhibit \\emph{more} polarised crowd-sourced sentiment, not less. Validated against the Kralj Novak et al.\\ (2015) sentiment lexicon, the central correlation is Spearman $\\rho = +0.361$ (Holm $p = 0.015$, 95\\% bootstrap CI $[+0.10, +0.59]$); against the independent Ferr\\'{e} et al.\\ (2025) Spanish 13-emotion ratings, $\\rho = +0.509$ ($p = 0.0003$). The result survives permutation testing, BCa bootstrap, leave-one-out jackknife, partial correlation controlling for emoji frequency, and Holm correction across a four-test family. Topical coherence and affective dispersion are distinct dimensions of emoji meaning. As a downstream check we report leakage-free five-fold cross-validation results for sarcasm classification on the Emoji Sarcasm Dataset; all three baselines (a gated multimodal architecture, fine-tuned BERTweet features, and fine-tuned RoBERTa features) score above 0.97 macro F1, indicating the dataset has saturating emoji-label cues. We frame the classifier as supporting evidence rather than the contribution.",
+  "abstract_zh": "表情符号通常被视为紧凑的情感符号，其意义由单一的情感评分来概括。我们认为这种看法是不完整的。通过对16,575条英文推文的语料库以及我们称之为 extit{稳定性增量}（同类内减去类间句子嵌入的余弦相似度）的每个表情符号指标，我们展示了在紧密聚类的主题上下文中使用的表情符号也表现出 extit{更}极化的众包情感，而不是更少。经过Kralj Novak等人（2015）情感词典的验证，中心相关性为Spearman $ ho = +0.361$（Holm $p = 0.015$，95 ext{%自助法置信区间} $[+0.10, +0.59]$）；与独立的Ferré等人（2025）西班牙13种情感评分相比，$ ho = +0.509$（$p = 0.0003$）。该结果在置换测试、BCa自助法、留一法自助法、控制表情符号频率的偏相关以及Holm校正的四项测试家族中均得以保持。主题一致性和情感分散是表情符号意义的不同维度。作为下游检查，我们报告了在Emoji Sarcasm Dataset上进行的无泄漏五折交叉验证结果；所有三个基线（一个门控多模态架构、微调的BERTweet特征和微调的RoBERTa特征）得分均超过0.97宏F1，表明该数据集具有饱和的表情符号标签线索。我们将分类器视为支持证据，而非贡献。",
+  "arxiv_id": "2610.28337",
+  "arxiv_url": "https://arxiv.org/abs/2610.28337v1",
+  "authors": [
+    "Rohan James",
+    "Ioannis Christofilogiannis",
+    "Yuuv Jauhari",
+    "Shreya Shah",
+    "Gauri Pethkar"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-28337",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.SI"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.292627+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.28337v1",
+  "published_at": "2026-10-20T15:03:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "multimodal",
+      "classification",
+      "dataset",
+      "多模态",
+      "分类"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.28337v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "数据集/评测",
+      "面部表情"
+    ]
+  },
+  "title": "Beyond a Single Sentiment Score: Topical and Affective Dimensions of Emoji Meaning on Twitter",
+  "title_zh": "超越单一情感评分：Twitter上表情符号意义的主题和情感维度",
+  "translation_url": "https://hjfy.top/arxiv/2610.28337"
+}

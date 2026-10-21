@@ -1,0 +1,59 @@
+{
+  "abstract": "Despite advances in photorealism, semantic fidelity, and aesthetics, text-to-image generation and image editing remain understudied in a human-centered dimension: whether their outputs feel psychologically comforting. Grounded in cognitive evaluation theory, we define psychological comfort as an affective response shaped by viewers' appraisal of restorative and emotionally supportive visual cues. We introduce HealBench, a fine-grained benchmark of 30,000 high-quality image-text pairs spanning 19 categories and 92 subcategories, selected from 100,000 candidates through a human- and expert-in-the-loop pipeline combining vision-language model matching, human preference models, expert filtering, and exemplar-guided augmentation. We also construct HealBench-Eval, a feature-clustered evaluation set of 1,095 instances. Using HealBench-Eval, we conduct objective and subjective evaluations of 14 representative image generation models and prompt-rewriting strategies. Results reveal a gap between conventional visual quality and perceived comfort: strong semantic alignment and aesthetics do not guarantee emotionally restorative images. Reinforcement learning experiments further show that HealScorer can serve as a reward signal for assessing and improving the emotional and restorative quality of generated images. These findings establish psychological comfort as a distinct dimension of human-centered image generation and position HealBench as a foundation for affect-aware generative models.",
+  "abstract_zh": "尽管在照片真实感、语义忠实度和美学方面取得了进展，文本到图像生成和图像编辑在以人为本的维度上仍然缺乏研究：它们的输出是否让人感到心理上的舒适。基于认知评估理论，我们将心理舒适定义为一种情感反应，受到观众对恢复性和情感支持视觉线索的评估所影响。我们引入了HealBench，这是一个包含30,000对高质量图像-文本对的细粒度基准，涵盖19个类别和92个子类别，从100,000个候选中通过结合视觉-语言模型匹配、人类偏好模型、专家筛选和示例引导增强的人工和专家参与流程中选出。我们还构建了HealBench-Eval，这是一个包含1,095个实例的特征聚类评估集。利用HealBench-Eval，我们对14个代表性的图像生成模型和提示重写策略进行了客观和主观评估。结果揭示了传统视觉质量与感知舒适度之间的差距：强语义对齐和美学并不保证情感恢复性图像的生成。强化学习实验进一步表明，HealScorer可以作为评估和改善生成图像情感和恢复质量的奖励信号。这些发现确立了心理舒适作为以人为本的图像生成的一个独特维度，并将HealBench定位为情感感知生成模型的基础。",
+  "arxiv_id": "2610.27516",
+  "arxiv_url": "https://arxiv.org/abs/2610.27516v1",
+  "authors": [
+    "Junjie Xu",
+    "Yuzhe Yang",
+    "Rui Yang",
+    "Luwei Xiao",
+    "Wenxin Wu",
+    "Xingjiao Wu",
+    "Liang He"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-21#paper-2610-27516",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-21T09:59:06.013460+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.27516v1",
+  "published_at": "2026-10-20T02:31:31Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感支持",
+      "emotional",
+      "affective",
+      "vision language",
+      "generation",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 52.0
+  },
+  "seen_dates": [
+    "2026-10-21"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.27516v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-21"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "HealBench: A Fine-Grained Benchmark for Evaluating Psychological Comfort in Text-to-Image Generation",
+  "title_zh": "HealBench：评估文本到图像生成中的心理舒适度的细粒度基准",
+  "translation_url": "https://hjfy.top/arxiv/2610.27516"
+}
