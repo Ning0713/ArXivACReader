@@ -1,0 +1,56 @@
+{
+  "abstract": "Vietnamese pre-trained encoders have improved rapidly, but the strongest ones are large, multilingual-vocabulary models or depend on external word segmentation, which makes them costly to deploy. We present GoiBERT, a family of two compact Vietnamese encoders with 26M and 49M parameters that operate directly on raw text. GoiBERT learns from two complementary teachers. A same-tokenizer Vietnamese encoder first teaches general-purpose representations. A much larger teacher then provides task-level guidance through soft labels that are generated without ever labeling its own training data. Across eight benchmarks covering text classification, aspect-based sentiment analysis, natural language inference, and named entity recognition, GoiBERT-large achieves the highest average score among non-teacher models. It does so with fewer than half the parameters of the strongest compact baseline and twice its throughput. GoiBERT-base retains 99% of that baseline's performance at a quarter of its size. Our analysis shows that compression is nearly lossless for sentiment and classification tasks but remains costly for inference and entity recognition, which points to clear directions for future work. Our code and models are available at: https://github.com/Nhantran65/GoiBERT.git",
+  "abstract_zh": "越南预训练编码器的快速发展显著提升了其性能，但最强大的模型通常是大型的多语言词汇模型，或依赖于外部词语分割，这使得它们在部署时成本较高。我们提出了GoiBERT，一个包含26M和49M参数的两种紧凑型越南编码器系列，能够直接处理原始文本。GoiBERT从两个互补的教师中学习。首先，一个使用相同分词器的越南编码器教授通用表示。然后，一个更大的教师通过生成软标签提供任务级指导，而这些软标签是在未标记其自身训练数据的情况下生成的。在涵盖文本分类、基于方面的情感分析、自然语言推理和命名实体识别的八个基准测试中，GoiBERT-large在非教师模型中取得了最高的平均分。它的参数数量不到最强紧凑基线的一半，但吞吐量是其两倍。GoiBERT-base在其大小仅为基线的四分之一时，保留了99%的基线性能。我们的分析表明，对于情感和分类任务，压缩几乎是无损的，但对于推理和实体识别仍然代价高昂，这为未来的研究指明了明确的方向。我们的代码和模型可在以下链接获取：https://github.com/Nhantran65/GoiBERT.git",
+  "arxiv_id": "2610.30067",
+  "arxiv_url": "https://arxiv.org/abs/2610.30067v1",
+  "authors": [
+    "Quang Anh Kiet Tran",
+    "Nam Anh Tran",
+    "Manh Hung Trinh",
+    "Thanh Danh Le",
+    "Khang Nhat Hoang Vo",
+    "Huynh Dai Nhan Tran"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-22#paper-2610-30067",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-22T09:59:01.136512+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.30067v1",
+  "published_at": "2026-10-21T17:24:36Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "recognition",
+      "classification",
+      "识别",
+      "分类",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-10-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.30067v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation",
+  "title_zh": "GoiBERT：通过两阶段知识蒸馏构建紧凑的越南语言模型",
+  "translation_url": "https://hjfy.top/arxiv/2610.30067"
+}

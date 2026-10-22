@@ -1916,8 +1916,54 @@
         "面部表情"
       ],
       "title": "Beyond a Single Sentiment Score: Topical and Affective Dimensions of Emoji Meaning on Twitter"
+    },
+    "2610.29254": {
+      "dates": [
+        "2026-10-22"
+      ],
+      "first_seen": "2026-10-22",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "Intergroup Bias Predicts Expressions of Social Judgment and Empathy in the r/AmITheAsshole Reddit Community"
+    },
+    "2610.29413": {
+      "dates": [
+        "2026-10-22"
+      ],
+      "first_seen": "2026-10-22",
+      "tags": [
+        "数据集/评测",
+        "共情交互"
+      ],
+      "title": "Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation"
+    },
+    "2610.29430": {
+      "dates": [
+        "2026-10-22"
+      ],
+      "first_seen": "2026-10-22",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "MERP: A Latent-Bottleneck Framework for Robust Multi-Modal Multi-Label Emotion Recognition"
+    },
+    "2610.30067": {
+      "dates": [
+        "2026-10-22"
+      ],
+      "first_seen": "2026-10-22",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation"
     }
   },
-  "total": 166,
-  "updated_at": "2026-10-21T09:59:11.034121+00:00"
+  "total": 170,
+  "updated_at": "2026-10-22T09:59:04.122075+00:00"
 }

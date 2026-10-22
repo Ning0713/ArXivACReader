@@ -1,6 +1,93 @@
 {
-  "generated_at": "2026-10-21T09:59:11.034121+00:00",
+  "generated_at": "2026-10-22T09:59:04.122075+00:00",
   "items": [
+    {
+      "abstract": "Vietnamese pre-trained encoders have improved rapidly, but the strongest ones are large, multilingual-vocabulary models or depend on external word segmentation, which makes them costly to deploy. We present GoiBERT, a family of two compact Vietnamese encoders with 26M and 49M parameters that operate directly on raw text. GoiBERT learns from two complementary teachers. A same-tokenizer Vietnamese encoder first teaches general-purpose representations. A much larger teacher then provides task-level guidance through soft labels that are generated without ever labeling its own training data. Across eight benchmarks covering text classification, aspect-based sentiment analysis, natural language inference, and named entity recognition, GoiBERT-large achieves the highest average score among non-teacher models. It does so with fewer than half the parameters of the strongest compact baseline and twice its throughput. GoiBERT-base retains 99% of that baseline's performance at a quarter of its size. Our analysis shows that compression is nearly lossless for sentiment and classification tasks but remains costly for inference and entity recognition, which points to clear directions for future work. Our code and models are available at: https://github.com/Nhantran65/GoiBERT.git",
+      "abstract_zh": "越南预训练编码器的快速发展显著提升了其性能，但最强大的模型通常是大型的多语言词汇模型，或依赖于外部词语分割，这使得它们在部署时成本较高。我们提出了GoiBERT，一个包含26M和49M参数的两种紧凑型越南编码器系列，能够直接处理原始文本。GoiBERT从两个互补的教师中学习。首先，一个使用相同分词器的越南编码器教授通用表示。然后，一个更大的教师通过生成软标签提供任务级指导，而这些软标签是在未标记其自身训练数据的情况下生成的。在涵盖文本分类、基于方面的情感分析、自然语言推理和命名实体识别的八个基准测试中，GoiBERT-large在非教师模型中取得了最高的平均分。它的参数数量不到最强紧凑基线的一半，但吞吐量是其两倍。GoiBERT-base在其大小仅为基线的四分之一时，保留了99%的基线性能。我们的分析表明，对于情感和分类任务，压缩几乎是无损的，但对于推理和实体识别仍然代价高昂，这为未来的研究指明了明确的方向。我们的代码和模型可在以下链接获取：https://github.com/Nhantran65/GoiBERT.git",
+      "authors": [
+        "Quang Anh Kiet Tran",
+        "Nam Anh Tran",
+        "Manh Hung Trinh",
+        "Thanh Danh Le",
+        "Khang Nhat Hoang Vo",
+        "Huynh Dai Nhan Tran"
+      ],
+      "date": "2026-10-22",
+      "id": "2610.30067",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation",
+      "title_zh": "GoiBERT：通过两阶段知识蒸馏构建紧凑的越南语言模型",
+      "url": "/daily/2026-10-22/#paper-2610-30067"
+    },
+    {
+      "abstract": "Multimodal multi-label emotion recognition is important for affect-aware systems, but models trained with complete text, visual, and acoustic streams often degrade sharply when some streams are unavailable at deployment. We address this train-test gap by learning a compact representation that preserves emotion-specific evidence from any available subset of modalities. We propose the Multi-modal Emotion Recognition Perceiver (MERP), which maps the joint sequence into a fixed-size latent bank, thereby keeping repeated reasoning independent of raw input length; it extracts label-specific evidence before and after latent reasoning and aligns the two levels through reconstruction. MERP further uses positive and negative class prototypes, a noise-gated feature enhancer with frequency-shaped perturbations during training, and confidence-aware class-wise fusion to strengthen separability, reduce sensitivity to missing inputs, and combine complementary predictors. Under 20 percent test-time random modality drop, MERP achieves micro-F1 scores of 0.563 on CMU-MOSEI and 0.780 on M3ED, exceeding the strongest evaluated baselines by 0.004 and 0.005, respectively; in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU. These results show that fixed latent reasoning provides a practical, testable route to robust multimodal emotion recognition without requiring missing-modality examples during training. Code is available at https://github.com/Creative-zcx/MERP.",
+      "abstract_zh": "多模态多标签情感识别对于情感感知系统至关重要，但使用完整文本、视觉和声学流训练的模型在部署时某些流不可用时往往会急剧下降。我们通过学习一种紧凑的表示来解决这一训练-测试差距，该表示能够保留来自任何可用模态子集的情感特定证据。我们提出了多模态情感识别感知器（Multi-modal Emotion Recognition Perceiver, MERP），它将联合序列映射到固定大小的潜在库，从而使重复推理独立于原始输入长度；在潜在推理之前和之后提取标签特定证据，并通过重构对齐这两个层次。MERP进一步使用正负类原型、带有频率形状扰动的噪声门控特征增强器进行训练，以及基于置信度的类级融合，以增强可分离性，降低对缺失输入的敏感性，并结合互补预测器。在20%的测试时间随机模态丢失下，MERP在CMU-MOSEI数据集上获得了0.563的微F1分数，在M3ED数据集上获得了0.780，分别超过了最强评估基线0.004和0.005；在严重的CMU-MOSEI仅音频设置中，它保持了0.473的微F1，而LDDU仅为0.022。这些结果表明，固定的潜在推理为鲁棒的多模态情感识别提供了一条实用且可测试的途径，而无需在训练期间要求缺失模态的示例。代码可在https://github.com/Creative-zcx/MERP获取。",
+      "authors": [
+        "Chuangxin Zhao",
+        "Meimei Zhang",
+        "Canran Xiao",
+        "Jiachen Luo",
+        "Jiajun He",
+        "Kaijie Chen",
+        "Huy Phan",
+        "Tomoki Toda",
+        "Biörn W. Schuller"
+      ],
+      "date": "2026-10-22",
+      "id": "2610.29430",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "MERP: A Latent-Bottleneck Framework for Robust Multi-Modal Multi-Label Emotion Recognition",
+      "title_zh": "MERP：一种用于鲁棒多模态多标签情感识别的潜在瓶颈框架",
+      "url": "/daily/2026-10-22/#paper-2610-29430"
+    },
+    {
+      "abstract": "Recently, we see a rise in conversational agents as a form of social and emotional support, where disclosure will unfold over time. Yet, current evaluations of these agents typically examine isolated conversational states. In analyses of naturally occurring conversations, disclosure history and current disclosure are confounded which tends to make their effects difficult to isolate. We thus introduce Trajectory-based Disclosure Evaluation (TraDE), an evaluation framework grounded in Social Penetration Theory that utilizes predefined disclosure trajectories and evaluates how preceding disclosure history shapes model behavior under matched current disclosure. Through the use of TraDE, we demonstrate across multiple models and relational behavior benchmarks that responses to disclosures matched on depth can differ depending on the preceding trajectory, particularly in whether models accept or challenge the user's framing. We also observed that these differences track accumulated exposure to deeper disclosure rather than any single moment of vulnerability or the order of disclosures. It also tends to persists for several turns after disclosure returns to shallow levels. For several behaviors, we also demonstrate that models diverge most consistently from human supporters in the Emotional Support Conversation corpus (ESConv) not when users open up but rather when they step back in their disclosure. TraDE thus provides a systematic way to expose history-dependent relational behavior that evaluations of isolated conversational states would otherwise miss.",
+      "abstract_zh": "近年来，我们看到对话代理作为一种社会和情感支持的形式逐渐兴起，其中披露会随着时间的推移而展开。然而，目前对这些代理的评估通常只考察孤立的对话状态。在对自然发生的对话进行分析时，披露历史和当前披露往往是混淆的，这使得它们的影响难以分离。因此，我们引入了基于轨迹的披露评估（Trajectory-based Disclosure Evaluation, TraDE），这是一个基于社会渗透理论的评估框架，利用预定义的披露轨迹并评估先前的披露历史如何在匹配的当前披露下塑造模型行为。通过使用TraDE，我们展示了在多个模型和关系行为基准中，基于深度匹配的披露响应可能因先前轨迹的不同而有所不同，特别是在模型是否接受或挑战用户的框架方面。我们还观察到，这些差异与对更深披露的累积接触相关，而不是与任何单一的脆弱时刻或披露顺序相关。它还往往在披露回归到浅层水平后持续数轮。对于几种行为，我们还表明，模型在情感支持对话语料库（Emotional Support Conversation corpus, ESConv）中与人类支持者的偏离最为一致，并不是在用户开放时，而是在他们退回披露时。因此，TraDE提供了一种系统的方法来揭示依赖历史的关系行为，而孤立对话状态的评估则可能会错过这些行为。",
+      "authors": [
+        "Keith Kwok",
+        "Wanting Ning",
+        "Tej Deep Pala",
+        "Desmond C. Ong",
+        "S. Supraja",
+        "Renwen Zhang",
+        "Soujanya Poria"
+      ],
+      "date": "2026-10-22",
+      "id": "2610.29413",
+      "tags": [
+        "数据集/评测",
+        "共情交互"
+      ],
+      "title": "Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation",
+      "title_zh": "超越闲聊：人机对话中的披露轨迹建模",
+      "url": "/daily/2026-10-22/#paper-2610-29413"
+    },
+    {
+      "abstract": "People share and understand others' experiences differently based on their social identities; often, people empathize more when the other person belongs to their ingroup compared to an outgroup. While this intergroup empathy gap is well-studied in social psychology, it remains unclear how it manifests in naturally occurring online social interactions. To this end, we measure how commenters express social judgments, as an indirect outcome of their understanding towards the posters, and empathy in text, based on whether commenters share the poster's gender or are of similar ages. We focus on posts where the poster self-reports these demographics, and analyze 126,716 comments associated with 36,163 posts from 18,111 commenters in r/AmItheAsshole, while controlling for commenter and poster group identities, post features (topic, length, and score), and both commenter- and post-level variance. Our results show that when commenters and posters are ingroup, in either gender or age, commenters are more likely to provide a Not the Asshole verdict and show greater text-based understanding as measured by LLMs. We also observe that older commenters behave differently from younger ones. Furthermore, in a subset of posts where the gender and age of the other party in the conflict are explicitly mentioned, we find that commenter-poster ingroup effects are moderated by the group relationships between the poster and the other party when commenters make social judgments. Our work highlights the importance of intergroup context and social group nuances in understanding online discourse.",
+      "abstract_zh": "人们基于社会身份以不同的方式分享和理解他人的经历；通常，当他人属于自己的内群体时，人们的同理心会更强于外群体。尽管这种群体间的同理心差距在社会心理学中得到了充分研究，但其在自然发生的在线社交互动中的表现仍不清楚。为此，我们测量评论者如何表达社会判断，作为他们对发帖者理解的间接结果，以及基于评论者是否与发帖者共享性别或年龄相似的文本中的同理心。我们关注那些发帖者自我报告这些人口统计特征的帖子，并分析了来自 18,111 名评论者的 36,163 个帖子相关的 126,716 条评论，同时控制评论者和发帖者的群体身份、帖子特征（主题、长度和评分）以及评论者和帖子层面的方差。我们的结果显示，当评论者和发帖者在性别或年龄上属于同一群体时，评论者更可能给出“不是混蛋”的裁决，并且在文本理解方面表现出更高的理解能力，这一理解能力通过大型语言模型（LLMs）进行测量。我们还观察到，年长的评论者与年轻的评论者的行为存在差异。此外，在一部分明确提到冲突中另一方性别和年龄的帖子中，我们发现评论者与发帖者的内群体效应在评论者进行社会判断时受到发帖者与另一方之间的群体关系的调节。我们的研究强调了理解在线话语中群体间背景和社会群体细微差别的重要性。",
+      "authors": [
+        "Yu Hou",
+        "Hal Daumé",
+        "Rachel Rudinger"
+      ],
+      "date": "2026-10-22",
+      "id": "2610.29254",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "Intergroup Bias Predicts Expressions of Social Judgment and Empathy in the r/AmITheAsshole Reddit Community",
+      "title_zh": "群体偏见预测 r/AmITheAsshole Reddit 社区中社会判断和同理心的表达",
+      "url": "/daily/2026-10-22/#paper-2610-29254"
+    },
     {
       "abstract": "Emoji are widely treated as compact affective tokens whose meaning is summarised by a single sentiment score. We argue that this picture is incomplete. From a corpus of 16{,}575 English tweets and a per-emoji metric we call \\emph{stability delta} (within-class minus between-class cosine similarity of sentence embeddings), we show that emojis used in tightly clustered topical contexts also exhibit \\emph{more} polarised crowd-sourced sentiment, not less. Validated against the Kralj Novak et al.\\ (2015) sentiment lexicon, the central correlation is Spearman $\\rho = +0.361$ (Holm $p = 0.015$, 95\\% bootstrap CI $[+0.10, +0.59]$); against the independent Ferr\\'{e} et al.\\ (2025) Spanish 13-emotion ratings, $\\rho = +0.509$ ($p = 0.0003$). The result survives permutation testing, BCa bootstrap, leave-one-out jackknife, partial correlation controlling for emoji frequency, and Holm correction across a four-test family. Topical coherence and affective dispersion are distinct dimensions of emoji meaning. As a downstream check we report leakage-free five-fold cross-validation results for sarcasm classification on the Emoji Sarcasm Dataset; all three baselines (a gated multimodal architecture, fine-tuned BERTweet features, and fine-tuned RoBERTa features) score above 0.97 macro F1, indicating the dataset has saturating emoji-label cues. We frame the classifier as supporting evidence rather than the contribution.",
       "abstract_zh": "表情符号通常被视为紧凑的情感符号，其意义由单一的情感评分来概括。我们认为这种看法是不完整的。通过对16,575条英文推文的语料库以及我们称之为 extit{稳定性增量}（同类内减去类间句子嵌入的余弦相似度）的每个表情符号指标，我们展示了在紧密聚类的主题上下文中使用的表情符号也表现出 extit{更}极化的众包情感，而不是更少。经过Kralj Novak等人（2015）情感词典的验证，中心相关性为Spearman $ ho = +0.361$（Holm $p = 0.015$，95 ext{%自助法置信区间} $[+0.10, +0.59]$）；与独立的Ferré等人（2025）西班牙13种情感评分相比，$ ho = +0.509$（$p = 0.0003$）。该结果在置换测试、BCa自助法、留一法自助法、控制表情符号频率的偏相关以及Holm校正的四项测试家族中均得以保持。主题一致性和情感分散是表情符号意义的不同维度。作为下游检查，我们报告了在Emoji Sarcasm Dataset上进行的无泄漏五折交叉验证结果；所有三个基线（一个门控多模态架构、微调的BERTweet特征和微调的RoBERTa特征）得分均超过0.97宏F1，表明该数据集具有饱和的表情符号标签线索。我们将分类器视为支持证据，而非贡献。",

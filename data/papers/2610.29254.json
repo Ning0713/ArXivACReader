@@ -1,0 +1,50 @@
+{
+  "abstract": "People share and understand others' experiences differently based on their social identities; often, people empathize more when the other person belongs to their ingroup compared to an outgroup. While this intergroup empathy gap is well-studied in social psychology, it remains unclear how it manifests in naturally occurring online social interactions. To this end, we measure how commenters express social judgments, as an indirect outcome of their understanding towards the posters, and empathy in text, based on whether commenters share the poster's gender or are of similar ages. We focus on posts where the poster self-reports these demographics, and analyze 126,716 comments associated with 36,163 posts from 18,111 commenters in r/AmItheAsshole, while controlling for commenter and poster group identities, post features (topic, length, and score), and both commenter- and post-level variance. Our results show that when commenters and posters are ingroup, in either gender or age, commenters are more likely to provide a Not the Asshole verdict and show greater text-based understanding as measured by LLMs. We also observe that older commenters behave differently from younger ones. Furthermore, in a subset of posts where the gender and age of the other party in the conflict are explicitly mentioned, we find that commenter-poster ingroup effects are moderated by the group relationships between the poster and the other party when commenters make social judgments. Our work highlights the importance of intergroup context and social group nuances in understanding online discourse.",
+  "abstract_zh": "人们基于社会身份以不同的方式分享和理解他人的经历；通常，当他人属于自己的内群体时，人们的同理心会更强于外群体。尽管这种群体间的同理心差距在社会心理学中得到了充分研究，但其在自然发生的在线社交互动中的表现仍不清楚。为此，我们测量评论者如何表达社会判断，作为他们对发帖者理解的间接结果，以及基于评论者是否与发帖者共享性别或年龄相似的文本中的同理心。我们关注那些发帖者自我报告这些人口统计特征的帖子，并分析了来自 18,111 名评论者的 36,163 个帖子相关的 126,716 条评论，同时控制评论者和发帖者的群体身份、帖子特征（主题、长度和评分）以及评论者和帖子层面的方差。我们的结果显示，当评论者和发帖者在性别或年龄上属于同一群体时，评论者更可能给出“不是混蛋”的裁决，并且在文本理解方面表现出更高的理解能力，这一理解能力通过大型语言模型（LLMs）进行测量。我们还观察到，年长的评论者与年轻的评论者的行为存在差异。此外，在一部分明确提到冲突中另一方性别和年龄的帖子中，我们发现评论者与发帖者的内群体效应在评论者进行社会判断时受到发帖者与另一方之间的群体关系的调节。我们的研究强调了理解在线话语中群体间背景和社会群体细微差别的重要性。",
+  "arxiv_id": "2610.29254",
+  "arxiv_url": "https://arxiv.org/abs/2610.29254v1",
+  "authors": [
+    "Yu Hou",
+    "Hal Daumé",
+    "Rachel Rudinger"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-22#paper-2610-29254",
+  "categories": [
+    "cs.CL",
+    "cs.SI"
+  ],
+  "fetched_at": "2026-10-22T09:59:01.109428+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.29254v1",
+  "published_at": "2026-10-21T06:02:37Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathy",
+      "LLMs",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-10-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.29254v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "Intergroup Bias Predicts Expressions of Social Judgment and Empathy in the r/AmITheAsshole Reddit Community",
+  "title_zh": "群体偏见预测 r/AmITheAsshole Reddit 社区中社会判断和同理心的表达",
+  "translation_url": "https://hjfy.top/arxiv/2610.29254"
+}

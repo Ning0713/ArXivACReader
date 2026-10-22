@@ -1,0 +1,57 @@
+{
+  "abstract": "Recently, we see a rise in conversational agents as a form of social and emotional support, where disclosure will unfold over time. Yet, current evaluations of these agents typically examine isolated conversational states. In analyses of naturally occurring conversations, disclosure history and current disclosure are confounded which tends to make their effects difficult to isolate. We thus introduce Trajectory-based Disclosure Evaluation (TraDE), an evaluation framework grounded in Social Penetration Theory that utilizes predefined disclosure trajectories and evaluates how preceding disclosure history shapes model behavior under matched current disclosure. Through the use of TraDE, we demonstrate across multiple models and relational behavior benchmarks that responses to disclosures matched on depth can differ depending on the preceding trajectory, particularly in whether models accept or challenge the user's framing. We also observed that these differences track accumulated exposure to deeper disclosure rather than any single moment of vulnerability or the order of disclosures. It also tends to persists for several turns after disclosure returns to shallow levels. For several behaviors, we also demonstrate that models diverge most consistently from human supporters in the Emotional Support Conversation corpus (ESConv) not when users open up but rather when they step back in their disclosure. TraDE thus provides a systematic way to expose history-dependent relational behavior that evaluations of isolated conversational states would otherwise miss.",
+  "abstract_zh": "近年来，我们看到对话代理作为一种社会和情感支持的形式逐渐兴起，其中披露会随着时间的推移而展开。然而，目前对这些代理的评估通常只考察孤立的对话状态。在对自然发生的对话进行分析时，披露历史和当前披露往往是混淆的，这使得它们的影响难以分离。因此，我们引入了基于轨迹的披露评估（Trajectory-based Disclosure Evaluation, TraDE），这是一个基于社会渗透理论的评估框架，利用预定义的披露轨迹并评估先前的披露历史如何在匹配的当前披露下塑造模型行为。通过使用TraDE，我们展示了在多个模型和关系行为基准中，基于深度匹配的披露响应可能因先前轨迹的不同而有所不同，特别是在模型是否接受或挑战用户的框架方面。我们还观察到，这些差异与对更深披露的累积接触相关，而不是与任何单一的脆弱时刻或披露顺序相关。它还往往在披露回归到浅层水平后持续数轮。对于几种行为，我们还表明，模型在情感支持对话语料库（Emotional Support Conversation corpus, ESConv）中与人类支持者的偏离最为一致，并不是在用户开放时，而是在他们退回披露时。因此，TraDE提供了一种系统的方法来揭示依赖历史的关系行为，而孤立对话状态的评估则可能会错过这些行为。",
+  "arxiv_id": "2610.29413",
+  "arxiv_url": "https://arxiv.org/abs/2610.29413v1",
+  "authors": [
+    "Keith Kwok",
+    "Wanting Ning",
+    "Tej Deep Pala",
+    "Desmond C. Ong",
+    "S. Supraja",
+    "Renwen Zhang",
+    "Soujanya Poria"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-22#paper-2610-29413",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-10-22T09:59:01.116654+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.29413v1",
+  "published_at": "2026-10-21T08:36:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "conversation",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 68.0
+  },
+  "seen_dates": [
+    "2026-10-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.29413v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "共情交互"
+    ]
+  },
+  "title": "Beyond Small Talk: Modeling Disclosure Trajectories in Human-AI Conversation",
+  "title_zh": "超越闲聊：人机对话中的披露轨迹建模",
+  "translation_url": "https://hjfy.top/arxiv/2610.29413"
+}

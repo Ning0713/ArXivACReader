@@ -1,0 +1,68 @@
+{
+  "abstract": "Multimodal multi-label emotion recognition is important for affect-aware systems, but models trained with complete text, visual, and acoustic streams often degrade sharply when some streams are unavailable at deployment. We address this train-test gap by learning a compact representation that preserves emotion-specific evidence from any available subset of modalities. We propose the Multi-modal Emotion Recognition Perceiver (MERP), which maps the joint sequence into a fixed-size latent bank, thereby keeping repeated reasoning independent of raw input length; it extracts label-specific evidence before and after latent reasoning and aligns the two levels through reconstruction. MERP further uses positive and negative class prototypes, a noise-gated feature enhancer with frequency-shaped perturbations during training, and confidence-aware class-wise fusion to strengthen separability, reduce sensitivity to missing inputs, and combine complementary predictors. Under 20 percent test-time random modality drop, MERP achieves micro-F1 scores of 0.563 on CMU-MOSEI and 0.780 on M3ED, exceeding the strongest evaluated baselines by 0.004 and 0.005, respectively; in the severe CMU-MOSEI audio-only setting, it retains 0.473 micro-F1 versus 0.022 for LDDU. These results show that fixed latent reasoning provides a practical, testable route to robust multimodal emotion recognition without requiring missing-modality examples during training. Code is available at https://github.com/Creative-zcx/MERP.",
+  "abstract_zh": "多模态多标签情感识别对于情感感知系统至关重要，但使用完整文本、视觉和声学流训练的模型在部署时某些流不可用时往往会急剧下降。我们通过学习一种紧凑的表示来解决这一训练-测试差距，该表示能够保留来自任何可用模态子集的情感特定证据。我们提出了多模态情感识别感知器（Multi-modal Emotion Recognition Perceiver, MERP），它将联合序列映射到固定大小的潜在库，从而使重复推理独立于原始输入长度；在潜在推理之前和之后提取标签特定证据，并通过重构对齐这两个层次。MERP进一步使用正负类原型、带有频率形状扰动的噪声门控特征增强器进行训练，以及基于置信度的类级融合，以增强可分离性，降低对缺失输入的敏感性，并结合互补预测器。在20%的测试时间随机模态丢失下，MERP在CMU-MOSEI数据集上获得了0.563的微F1分数，在M3ED数据集上获得了0.780，分别超过了最强评估基线0.004和0.005；在严重的CMU-MOSEI仅音频设置中，它保持了0.473的微F1，而LDDU仅为0.022。这些结果表明，固定的潜在推理为鲁棒的多模态情感识别提供了一条实用且可测试的途径，而无需在训练期间要求缺失模态的示例。代码可在https://github.com/Creative-zcx/MERP获取。",
+  "arxiv_id": "2610.29430",
+  "arxiv_url": "https://arxiv.org/abs/2610.29430v1",
+  "authors": [
+    "Chuangxin Zhao",
+    "Meimei Zhang",
+    "Canran Xiao",
+    "Jiachen Luo",
+    "Jiajun He",
+    "Kaijie Chen",
+    "Huy Phan",
+    "Tomoki Toda",
+    "Biörn W. Schuller"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-22#paper-2610-29430",
+  "categories": [
+    "cs.AI",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-10-22T09:59:01.083291+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.29430v1",
+  "published_at": "2026-10-21T08:54:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "CMU MOSEI",
+      "emotion",
+      "multimodal",
+      "multi modal",
+      "recognition",
+      "reasoning",
+      "audio",
+      "多模态",
+      "识别",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-22"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.29430v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-22"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "语音情感"
+    ]
+  },
+  "title": "MERP: A Latent-Bottleneck Framework for Robust Multi-Modal Multi-Label Emotion Recognition",
+  "title_zh": "MERP：一种用于鲁棒多模态多标签情感识别的潜在瓶颈框架",
+  "translation_url": "https://hjfy.top/arxiv/2610.29430"
+}
