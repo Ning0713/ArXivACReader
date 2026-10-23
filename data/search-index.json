@@ -1,6 +1,68 @@
 {
-  "generated_at": "2026-10-22T09:59:04.122075+00:00",
+  "generated_at": "2026-10-23T09:54:00.130216+00:00",
   "items": [
+    {
+      "abstract": "Recognizing facial expressions in unconstrained video suffers from two coupled problems: self-attention grows quadratically in cost with clip length, and crowdsourced labels are noisy. We present GM-GReFEL, a spatiotemporal state-space network with a geometry-aware decision stage. Its Modulated GroupMamba backbone replaces a spatiotemporal Vision Transformer. Six channel groups are scanned separately, four over the frame plane and two over time, so the cost grows linearly with sequence length ($\\mathcal{O}(N)$); after each layer, a Channel Affinity Modulation gate mixes the groups again. On top of the backbone, a GReFEL reliability module turns the normalized entropy of each prediction into a mixing weight between the classifier output and a vote from trainable geometric anchors, so that facial geometry counts for more when the network is unsure. The model is initialized by static-to-dynamic weight transfer and trained with a Triple Loss. In five-fold cross-validation, the best fold scores 66.57\\%/76.46\\% UAR/WAR on DFEW, 0.3 points or less below the strongest compared method, and 45.66\\%/62.27\\% on MAFW, ahead of all compared methods; on FERV39k the mean over five splits, 42.30\\%/52.66\\%, is competitive. The five-fold means are 64.07\\%/74.54\\% on DFEW, on par with recent large pre-trained models, and 38.90\\%/54.37\\% on MAFW, below the best of them. A paired $t$-test on DFEW indicates a modest benefit of temporal modeling (+1.61 UAR points, one-sided $p=0.031$). Attention stays on plausible facial regions, and latency is close to a ViT-B/16 baseline (47.4 vs.\\ 46.8 ms per clip). Code: https://github.com/ardiytama/GroupMamba-DFER.",
+      "abstract_zh": "在非约束视频中识别面部表情面临两个相互关联的问题：自注意力随着剪辑长度呈二次增长，众包标签存在噪声。我们提出了GM-GReFEL，一种具有几何感知决策阶段的时空状态空间网络。其调制组Mamba主干网络替代了时空视觉变换器。六个通道组分别进行扫描，其中四个在帧平面上，两个在时间上，因此成本随着序列长度线性增长（$ extmath{O}(N)$）；在每一层之后，通道亲和调制门再次混合这些组。在主干网络之上，GReFEL可靠性模块将每个预测的归一化熵转化为分类器输出与可训练几何锚点投票之间的混合权重，以便在网络不确定时面部几何信息的权重更高。该模型通过静态到动态的权重转移进行初始化，并采用三重损失进行训练。在五折交叉验证中，最佳折的DFEW得分为66.57\\%/76.46\\\\% UAR/WAR，低于最强比较方法0.3分或更少，而在MAFW上得分为45.66\\\\%/62.27\\\\%，领先于所有比较方法；在FERV39k上，五个分割的平均值为42.30\\\\%/52.66\\\\%，具有竞争力。五折的平均值在DFEW上为64.07\\\\%/74.54\\\\%，与最近的大型预训练模型相当，而在MAFW上为38.90\\\\%/54.37\\\\%，低于它们中的最佳模型。对DFEW的配对$t$-检验表明时间建模有适度的益处（+1.61 UAR点，单侧$p=0.031$）。注意力集中在合理的面部区域，延迟接近ViT-B/16基线（每个剪辑47.4毫秒对比46.8毫秒）。代码：https://github.com/ardiytama/GroupMamba-DFER。",
+      "authors": [
+        "Yudhistira Arditya Pratama",
+        "Yi-Zeng Hsieh"
+      ],
+      "date": "2026-10-23",
+      "id": "2610.31140",
+      "tags": [
+        "面部表情",
+        "鲁棒性/偏差"
+      ],
+      "title": "GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust Dynamic Facial Expression Recognition",
+      "title_zh": "GM-GReFEL：基于几何引导的时空状态空间学习用于鲁棒动态面部表情识别",
+      "url": "/daily/2026-10-23/#paper-2610-31140"
+    },
+    {
+      "abstract": "Multimodal sentiment analysis (MSA) aims to infer sentiment by integrating linguistic, acoustic, and visual information. However, many fusion methods integrate modality-specific representations and cross-modal interactions into joint representations, making it difficult to determine whether predictive utility arises from a modality itself or from its interactions with others. More fundamentally, a modality's standalone predictive utility may not faithfully reflect its interaction-conditioned predictive utility. To address this issue, we propose I$^2$-KAN, an interpretable multi-pathway framework that explicitly maintains intra-modal and pairwise inter-modal information in separate structural pathways. Each pathway is refined by a Task-Decoupled Linear-Gated Denoising Bottleneck (TDL-GDB) to learn compact and task-relevant representations, followed by structured Kolmogorov-Arnold Network fusion that retains explicit pathway associations and supports multi-level interpretation. Extensive experiments on CMU-MOSI, CMU-MOSEI, and CH-SIMS v2 demonstrate strong overall performance. Ablation and interpretability analyses consistently show across the three benchmarks that low standalone predictive utility does not necessarily imply low interaction-conditioned predictive utility: a modality that appears weak in isolation can remain informative through pairwise interactions. These findings highlight the interaction-dependent nature of multimodal utility and suggest that modality utility should be characterized from both standalone and interaction-conditioned perspectives.",
+      "abstract_zh": "多模态情感分析（MSA）旨在通过整合语言、声学和视觉信息来推断情感。然而，许多融合方法将特定模态的表示和跨模态的交互整合为联合表示，这使得难以确定预测效用是源于某一模态本身还是其与其他模态的交互。更根本地，一个模态的独立预测效用可能无法真实反映其在交互条件下的预测效用。为了解决这一问题，我们提出了I$^2$-KAN，这是一种可解释的多路径框架，明确地将内部模态信息和成对的跨模态信息保持在不同的结构路径中。每条路径通过任务解耦线性门控去噪瓶颈（TDL-GDB）进行优化，以学习紧凑且与任务相关的表示，随后通过结构化的Kolmogorov-Arnold网络融合，保留明确的路径关联并支持多层次的解释。在CMU-MOSI、CMU-MOSEI和CH-SIMS v2上的大量实验表明了整体性能的强大。消融和可解释性分析在这三个基准上始终显示，低独立预测效用并不一定意味着低交互条件下的预测效用：一个在孤立状态下看似弱的模态可以通过成对交互保持信息量。这些发现突显了多模态效用的交互依赖性，并建议模态效用应从独立和交互条件两个角度进行表征。",
+      "authors": [
+        "Xiaoting Xie",
+        "Feng Qiao",
+        "Xianwei Zhang",
+        "Hailong Chen",
+        "Kaiwen Zheng",
+        "Joemon M. Jose",
+        "Xuri Ge",
+        "Yujun Li"
+      ],
+      "date": "2026-10-23",
+      "id": "2610.31087",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "语音情感"
+      ],
+      "title": "I$^2$-KAN: Interpretable Intra- and Inter-Modal Multi-Pathway Representation Learning for Multimodal Sentiment Analysis",
+      "title_zh": "I$^2$-KAN：可解释的多通道内部和跨模态多路径表示学习用于多模态情感分析",
+      "url": "/daily/2026-10-23/#paper-2610-31087"
+    },
+    {
+      "abstract": "LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn, English-only benchmarks that primarily test the chatbots' knowledge. In practice, users are often confused, overwhelmed, or emotionally vulnerable, giving unclear, misspelled single-word answers or long messages in regional dialects, and the context of a conversation can shift rapidly. We propose SIM-UT (Simulation of User Behaviour for Triage), a multi-turn, simulation-based evaluation method that identifies ecologically valid, contextually relevant failure modes of LLM-based triage chat agents. Using SIM-UT, we evaluated three real-world WhatsApp-based health chatbots: a respiratory screening programme in India, a hearing health support programme in South Africa, and a diabetes and lifestyle coaching agent in Kenya. We compared a medically fine-tuned open model (MedGemma) against general-purpose frontier models (ChatGPT and Claude) across 5,000+ multilingual simulated conversation turns grounded in the personas, constraints, and communication patterns of the real user populations, over 2-4 iterative rounds. A key failure mode emerged in both model families: de-escalation risk. The agents initially identified medical emergencies correctly, but when the user minimised the symptoms without introducing new clinical information, they de-escalated, exhibiting clinically dangerous sycophancy, for example agreeing that vaginal bleeding in pregnancy was \"not a problem\" or that decreased fetal movements at 32 weeks \"can be normal\". We recommend user simulation-based behavioural evaluation, grounded in real user context and covering adversarial and edge cases, as standard practice for triage chatbots in production, so that safeguards can be added before deployment or in subsequent iterations.",
+      "abstract_zh": "基于大型语言模型（LLM）的聊天代理在低收入和中等收入国家（LMICs）中越来越多地用于复杂的多轮、多语言医疗分诊，然而现有评估方法主要集中在单轮、仅限英语的基准测试，这些测试主要评估聊天机器人的知识。在实际应用中，用户常常感到困惑、压力过大或情绪脆弱，可能会给出不清晰、拼写错误的单词答案或使用地方方言发送长消息，且对话的上下文可能迅速变化。我们提出了SIM-UT（分诊用户行为模拟），这是一种多轮、基于模拟的评估方法，旨在识别基于LLM的分诊聊天代理的生态有效性和上下文相关的失败模式。通过使用SIM-UT，我们评估了三个基于WhatsApp的真实健康聊天机器人：印度的呼吸筛查项目、南非的听力健康支持项目以及肯尼亚的糖尿病和生活方式指导代理。我们在超过5,000个多语言模拟对话轮次中，比较了经过医学微调的开放模型（MedGemma）与通用前沿模型（ChatGPT和Claude），这些对话基于真实用户群体的角色、约束和沟通模式，进行了2-4轮的迭代比较。在两个模型系列中出现了一个关键的失败模式：去激化风险。这些代理最初正确识别了医疗紧急情况，但当用户在没有引入新的临床信息的情况下减轻症状时，它们却进行了去激化，表现出临床危险的迎合行为，例如同意认为怀孕期间的阴道出血“不是问题”或在32周时胎动减少“可以是正常的”。我们建议将基于用户模拟的行为评估作为生产中分诊聊天机器人的标准实践，基于真实用户上下文并覆盖对抗性和边缘案例，以便在部署前或后续迭代中添加安全保障。",
+      "authors": [
+        "Deepali Mittal",
+        "Dheeraj Mundhra",
+        "Yulia Sidorova",
+        "Tersia de Kock",
+        "Oli Munns",
+        "Sofie S Meyer"
+      ],
+      "date": "2026-10-23",
+      "id": "2610.30412",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
+      "title_zh": "SIM-UT：基于用户模拟的医疗分诊聊天机器人评估框架",
+      "url": "/daily/2026-10-23/#paper-2610-30412"
+    },
     {
       "abstract": "Vietnamese pre-trained encoders have improved rapidly, but the strongest ones are large, multilingual-vocabulary models or depend on external word segmentation, which makes them costly to deploy. We present GoiBERT, a family of two compact Vietnamese encoders with 26M and 49M parameters that operate directly on raw text. GoiBERT learns from two complementary teachers. A same-tokenizer Vietnamese encoder first teaches general-purpose representations. A much larger teacher then provides task-level guidance through soft labels that are generated without ever labeling its own training data. Across eight benchmarks covering text classification, aspect-based sentiment analysis, natural language inference, and named entity recognition, GoiBERT-large achieves the highest average score among non-teacher models. It does so with fewer than half the parameters of the strongest compact baseline and twice its throughput. GoiBERT-base retains 99% of that baseline's performance at a quarter of its size. Our analysis shows that compression is nearly lossless for sentiment and classification tasks but remains costly for inference and entity recognition, which points to clear directions for future work. Our code and models are available at: https://github.com/Nhantran65/GoiBERT.git",
       "abstract_zh": "越南预训练编码器的快速发展显著提升了其性能，但最强大的模型通常是大型的多语言词汇模型，或依赖于外部词语分割，这使得它们在部署时成本较高。我们提出了GoiBERT，一个包含26M和49M参数的两种紧凑型越南编码器系列，能够直接处理原始文本。GoiBERT从两个互补的教师中学习。首先，一个使用相同分词器的越南编码器教授通用表示。然后，一个更大的教师通过生成软标签提供任务级指导，而这些软标签是在未标记其自身训练数据的情况下生成的。在涵盖文本分类、基于方面的情感分析、自然语言推理和命名实体识别的八个基准测试中，GoiBERT-large在非教师模型中取得了最高的平均分。它的参数数量不到最强紧凑基线的一半，但吞吐量是其两倍。GoiBERT-base在其大小仅为基线的四分之一时，保留了99%的基线性能。我们的分析表明，对于情感和分类任务，压缩几乎是无损的，但对于推理和实体识别仍然代价高昂，这为未来的研究指明了明确的方向。我们的代码和模型可在以下链接获取：https://github.com/Nhantran65/GoiBERT.git",

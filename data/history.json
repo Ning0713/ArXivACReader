@@ -1962,8 +1962,42 @@
         "数据集/评测"
       ],
       "title": "GoiBERT: Compact Vietnamese Language Models via Two-Stage Knowledge Distillation"
+    },
+    "2610.30412": {
+      "dates": [
+        "2026-10-23"
+      ],
+      "first_seen": "2026-10-23",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots"
+    },
+    "2610.31087": {
+      "dates": [
+        "2026-10-23"
+      ],
+      "first_seen": "2026-10-23",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "语音情感"
+      ],
+      "title": "I$^2$-KAN: Interpretable Intra- and Inter-Modal Multi-Pathway Representation Learning for Multimodal Sentiment Analysis"
+    },
+    "2610.31140": {
+      "dates": [
+        "2026-10-23"
+      ],
+      "first_seen": "2026-10-23",
+      "tags": [
+        "面部表情",
+        "鲁棒性/偏差"
+      ],
+      "title": "GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust Dynamic Facial Expression Recognition"
     }
   },
-  "total": 170,
-  "updated_at": "2026-10-22T09:59:04.122075+00:00"
+  "total": 173,
+  "updated_at": "2026-10-23T09:54:00.130216+00:00"
 }

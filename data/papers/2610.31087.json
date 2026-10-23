@@ -1,0 +1,59 @@
+{
+  "abstract": "Multimodal sentiment analysis (MSA) aims to infer sentiment by integrating linguistic, acoustic, and visual information. However, many fusion methods integrate modality-specific representations and cross-modal interactions into joint representations, making it difficult to determine whether predictive utility arises from a modality itself or from its interactions with others. More fundamentally, a modality's standalone predictive utility may not faithfully reflect its interaction-conditioned predictive utility. To address this issue, we propose I$^2$-KAN, an interpretable multi-pathway framework that explicitly maintains intra-modal and pairwise inter-modal information in separate structural pathways. Each pathway is refined by a Task-Decoupled Linear-Gated Denoising Bottleneck (TDL-GDB) to learn compact and task-relevant representations, followed by structured Kolmogorov-Arnold Network fusion that retains explicit pathway associations and supports multi-level interpretation. Extensive experiments on CMU-MOSI, CMU-MOSEI, and CH-SIMS v2 demonstrate strong overall performance. Ablation and interpretability analyses consistently show across the three benchmarks that low standalone predictive utility does not necessarily imply low interaction-conditioned predictive utility: a modality that appears weak in isolation can remain informative through pairwise interactions. These findings highlight the interaction-dependent nature of multimodal utility and suggest that modality utility should be characterized from both standalone and interaction-conditioned perspectives.",
+  "abstract_zh": "多模态情感分析（MSA）旨在通过整合语言、声学和视觉信息来推断情感。然而，许多融合方法将特定模态的表示和跨模态的交互整合为联合表示，这使得难以确定预测效用是源于某一模态本身还是其与其他模态的交互。更根本地，一个模态的独立预测效用可能无法真实反映其在交互条件下的预测效用。为了解决这一问题，我们提出了I$^2$-KAN，这是一种可解释的多路径框架，明确地将内部模态信息和成对的跨模态信息保持在不同的结构路径中。每条路径通过任务解耦线性门控去噪瓶颈（TDL-GDB）进行优化，以学习紧凑且与任务相关的表示，随后通过结构化的Kolmogorov-Arnold网络融合，保留明确的路径关联并支持多层次的解释。在CMU-MOSI、CMU-MOSEI和CH-SIMS v2上的大量实验表明了整体性能的强大。消融和可解释性分析在这三个基准上始终显示，低独立预测效用并不一定意味着低交互条件下的预测效用：一个在孤立状态下看似弱的模态可以通过成对交互保持信息量。这些发现突显了多模态效用的交互依赖性，并建议模态效用应从独立和交互条件两个角度进行表征。",
+  "arxiv_id": "2610.31087",
+  "arxiv_url": "https://arxiv.org/abs/2610.31087v1",
+  "authors": [
+    "Xiaoting Xie",
+    "Feng Qiao",
+    "Xianwei Zhang",
+    "Hailong Chen",
+    "Kaiwen Zheng",
+    "Joemon M. Jose",
+    "Xuri Ge",
+    "Yujun Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-23#paper-2610-31087",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-23T09:53:57.249402+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.31087v1",
+  "published_at": "2026-10-22T10:57:20Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "CMU MOSI",
+      "CMU MOSEI",
+      "multimodal",
+      "多模态",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.31087v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "语音情感"
+    ]
+  },
+  "title": "I$^2$-KAN: Interpretable Intra- and Inter-Modal Multi-Pathway Representation Learning for Multimodal Sentiment Analysis",
+  "title_zh": "I$^2$-KAN：可解释的多通道内部和跨模态多路径表示学习用于多模态情感分析",
+  "translation_url": "https://hjfy.top/arxiv/2610.31087"
+}

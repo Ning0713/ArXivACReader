@@ -1,0 +1,53 @@
+{
+  "abstract": "LLM-based chat agents are increasingly used for complex, multi-turn, multilingual medical triage in low- and middle-income countries (LMICs), yet evaluation methods focus on single-turn, English-only benchmarks that primarily test the chatbots' knowledge. In practice, users are often confused, overwhelmed, or emotionally vulnerable, giving unclear, misspelled single-word answers or long messages in regional dialects, and the context of a conversation can shift rapidly. We propose SIM-UT (Simulation of User Behaviour for Triage), a multi-turn, simulation-based evaluation method that identifies ecologically valid, contextually relevant failure modes of LLM-based triage chat agents. Using SIM-UT, we evaluated three real-world WhatsApp-based health chatbots: a respiratory screening programme in India, a hearing health support programme in South Africa, and a diabetes and lifestyle coaching agent in Kenya. We compared a medically fine-tuned open model (MedGemma) against general-purpose frontier models (ChatGPT and Claude) across 5,000+ multilingual simulated conversation turns grounded in the personas, constraints, and communication patterns of the real user populations, over 2-4 iterative rounds. A key failure mode emerged in both model families: de-escalation risk. The agents initially identified medical emergencies correctly, but when the user minimised the symptoms without introducing new clinical information, they de-escalated, exhibiting clinically dangerous sycophancy, for example agreeing that vaginal bleeding in pregnancy was \"not a problem\" or that decreased fetal movements at 32 weeks \"can be normal\". We recommend user simulation-based behavioural evaluation, grounded in real user context and covering adversarial and edge cases, as standard practice for triage chatbots in production, so that safeguards can be added before deployment or in subsequent iterations.",
+  "abstract_zh": "基于大型语言模型（LLM）的聊天代理在低收入和中等收入国家（LMICs）中越来越多地用于复杂的多轮、多语言医疗分诊，然而现有评估方法主要集中在单轮、仅限英语的基准测试，这些测试主要评估聊天机器人的知识。在实际应用中，用户常常感到困惑、压力过大或情绪脆弱，可能会给出不清晰、拼写错误的单词答案或使用地方方言发送长消息，且对话的上下文可能迅速变化。我们提出了SIM-UT（分诊用户行为模拟），这是一种多轮、基于模拟的评估方法，旨在识别基于LLM的分诊聊天代理的生态有效性和上下文相关的失败模式。通过使用SIM-UT，我们评估了三个基于WhatsApp的真实健康聊天机器人：印度的呼吸筛查项目、南非的听力健康支持项目以及肯尼亚的糖尿病和生活方式指导代理。我们在超过5,000个多语言模拟对话轮次中，比较了经过医学微调的开放模型（MedGemma）与通用前沿模型（ChatGPT和Claude），这些对话基于真实用户群体的角色、约束和沟通模式，进行了2-4轮的迭代比较。在两个模型系列中出现了一个关键的失败模式：去激化风险。这些代理最初正确识别了医疗紧急情况，但当用户在没有引入新的临床信息的情况下减轻症状时，它们却进行了去激化，表现出临床危险的迎合行为，例如同意认为怀孕期间的阴道出血“不是问题”或在32周时胎动减少“可以是正常的”。我们建议将基于用户模拟的行为评估作为生产中分诊聊天机器人的标准实践，基于真实用户上下文并覆盖对抗性和边缘案例，以便在部署前或后续迭代中添加安全保障。",
+  "arxiv_id": "2610.30412",
+  "arxiv_url": "https://arxiv.org/abs/2610.30412v1",
+  "authors": [
+    "Deepali Mittal",
+    "Dheeraj Mundhra",
+    "Yulia Sidorova",
+    "Tersia de Kock",
+    "Oli Munns",
+    "Sofie S Meyer"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-23#paper-2610-30412",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-23T09:53:57.334426+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.30412v1",
+  "published_at": "2026-10-21T20:14:16Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情绪",
+      "LLM",
+      "conversation",
+      "识别",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.30412v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "SIM-UT: A User Simulation based Evaluation Framework for Medical Triage Chatbots",
+  "title_zh": "SIM-UT：基于用户模拟的医疗分诊聊天机器人评估框架",
+  "translation_url": "https://hjfy.top/arxiv/2610.30412"
+}

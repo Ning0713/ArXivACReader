@@ -1,0 +1,55 @@
+{
+  "abstract": "Recognizing facial expressions in unconstrained video suffers from two coupled problems: self-attention grows quadratically in cost with clip length, and crowdsourced labels are noisy. We present GM-GReFEL, a spatiotemporal state-space network with a geometry-aware decision stage. Its Modulated GroupMamba backbone replaces a spatiotemporal Vision Transformer. Six channel groups are scanned separately, four over the frame plane and two over time, so the cost grows linearly with sequence length ($\\mathcal{O}(N)$); after each layer, a Channel Affinity Modulation gate mixes the groups again. On top of the backbone, a GReFEL reliability module turns the normalized entropy of each prediction into a mixing weight between the classifier output and a vote from trainable geometric anchors, so that facial geometry counts for more when the network is unsure. The model is initialized by static-to-dynamic weight transfer and trained with a Triple Loss. In five-fold cross-validation, the best fold scores 66.57\\%/76.46\\% UAR/WAR on DFEW, 0.3 points or less below the strongest compared method, and 45.66\\%/62.27\\% on MAFW, ahead of all compared methods; on FERV39k the mean over five splits, 42.30\\%/52.66\\%, is competitive. The five-fold means are 64.07\\%/74.54\\% on DFEW, on par with recent large pre-trained models, and 38.90\\%/54.37\\% on MAFW, below the best of them. A paired $t$-test on DFEW indicates a modest benefit of temporal modeling (+1.61 UAR points, one-sided $p=0.031$). Attention stays on plausible facial regions, and latency is close to a ViT-B/16 baseline (47.4 vs.\\ 46.8 ms per clip). Code: https://github.com/ardiytama/GroupMamba-DFER.",
+  "abstract_zh": "在非约束视频中识别面部表情面临两个相互关联的问题：自注意力随着剪辑长度呈二次增长，众包标签存在噪声。我们提出了GM-GReFEL，一种具有几何感知决策阶段的时空状态空间网络。其调制组Mamba主干网络替代了时空视觉变换器。六个通道组分别进行扫描，其中四个在帧平面上，两个在时间上，因此成本随着序列长度线性增长（$ extmath{O}(N)$）；在每一层之后，通道亲和调制门再次混合这些组。在主干网络之上，GReFEL可靠性模块将每个预测的归一化熵转化为分类器输出与可训练几何锚点投票之间的混合权重，以便在网络不确定时面部几何信息的权重更高。该模型通过静态到动态的权重转移进行初始化，并采用三重损失进行训练。在五折交叉验证中，最佳折的DFEW得分为66.57\\%/76.46\\\\% UAR/WAR，低于最强比较方法0.3分或更少，而在MAFW上得分为45.66\\\\%/62.27\\\\%，领先于所有比较方法；在FERV39k上，五个分割的平均值为42.30\\\\%/52.66\\\\%，具有竞争力。五折的平均值在DFEW上为64.07\\\\%/74.54\\\\%，与最近的大型预训练模型相当，而在MAFW上为38.90\\\\%/54.37\\\\%，低于它们中的最佳模型。对DFEW的配对$t$-检验表明时间建模有适度的益处（+1.61 UAR点，单侧$p=0.031$）。注意力集中在合理的面部区域，延迟接近ViT-B/16基线（每个剪辑47.4毫秒对比46.8毫秒）。代码：https://github.com/ardiytama/GroupMamba-DFER。",
+  "arxiv_id": "2610.31140",
+  "arxiv_url": "https://arxiv.org/abs/2610.31140v1",
+  "authors": [
+    "Yudhistira Arditya Pratama",
+    "Yi-Zeng Hsieh"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-23#paper-2610-31140",
+  "categories": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-23T09:53:57.252546+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.31140v1",
+  "published_at": "2026-10-22T11:59:56Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "MAFW",
+      "DFEW",
+      "recognition",
+      "prediction",
+      "识别",
+      "分类",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.31140v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust Dynamic Facial Expression Recognition",
+  "title_zh": "GM-GReFEL：基于几何引导的时空状态空间学习用于鲁棒动态面部表情识别",
+  "translation_url": "https://hjfy.top/arxiv/2610.31140"
+}
