@@ -1,6 +1,108 @@
 {
-  "generated_at": "2026-10-23T09:54:00.130216+00:00",
+  "generated_at": "2026-10-26T10:56:10.713654+00:00",
   "items": [
+    {
+      "abstract": "Multimodal large language models (MLLMs) have substantially advanced Multimodal Emotion Recognition (MER) by enabling fine-grained emotion understanding through reasoning over multimodal evidence. However, they still exhibit systematic confusion between semantically adjacent emotions with highly overlapping multimodal cues. Existing approaches typically address these errors through global parameter adaptation, making confusion correction costly and inflexible. We instead observe that emotion confusion is highly localized and therefore better addressed through reusable pair-specific expertise. Building on this insight, we propose Confusion-Aware Skill Evolution (CASE), the first agent-skill framework for MER. CASE maintains a sparse, self-evolving library of pair-specific EmotionSkills that externalize affective expertise from model parameters, enabling the learned expertise to be continuously refined and readily transferred across diverse frozen MLLM backbones. During inference, CASE dynamically retrieves the appropriate EmotionSkill to reinforce boundary-aware reasoning while keeping the MLLM backbone frozen. Extensive experiments on CA-MER, DFEW, and EMER demonstrate the effectiveness and transferability of CASE across both general-purpose and emotion-specialized MLLMs. Notably, CASE improves the average accuracy of Qwen3-VL-8B on the CA-MER benchmark from 46.80% to 59.13%, while achieving consistent gains across MLLMs.",
+      "abstract_zh": "多模态大型语言模型（MLLMs）通过对多模态证据进行推理，显著推动了多模态情感识别（MER）的发展，实现了对情感的细粒度理解。然而，它们在语义相近且多模态线索高度重叠的情感之间仍然表现出系统性的混淆。现有的方法通常通过全局参数适应来解决这些错误，这使得混淆纠正成本高且不灵活。我们观察到情感混淆是高度局部化的，因此更适合通过可重用的特定对的专业知识来解决。基于这一见解，我们提出了混淆感知技能演化（CASE），这是针对MER的第一个代理技能框架。CASE维护一个稀疏的、自我演化的特定对情感技能（EmotionSkills）库，将情感专业知识从模型参数中外部化，使得学习到的专业知识能够持续被细化，并在各种冷冻的MLLM骨干网络之间轻松转移。在推理过程中，CASE动态检索适当的情感技能，以增强边界感知推理，同时保持MLLM骨干网络的冻结。在CA-MER、DFEW和EMER上的大量实验表明，CASE在通用和情感专用的MLLMs中都表现出了有效性和可转移性。值得注意的是，CASE将Qwen3-VL-8B在CA-MER基准上的平均准确率从46.80%提高到59.13%，同时在MLLMs中实现了一致的提升。",
+      "authors": [
+        "Siyu Wu",
+        "Zeyu Liang",
+        "Linghao Wang",
+        "Qiyun Zheng",
+        "Yi Yao",
+        "Ling Lo",
+        "Hongxia Xie"
+      ],
+      "date": "2026-10-26",
+      "id": "2610.32481",
+      "tags": [
+        "情感大模型",
+        "多模态情感",
+        "情绪识别"
+      ],
+      "title": "CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models",
+      "title_zh": "CASE：面向混淆感知的冷冻多模态情感模型技能演化",
+      "url": "/daily/2026-10-26/#paper-2610-32481"
+    },
+    {
+      "abstract": "In modern financial markets, more than 3/4th of the large volume trade is executed by algorithmic trading based on advanced trading strategies to attain higher precision and speed than traditional human traders. The conventional strategies focused on price-based indicators are inadequate in capturing the market dynamism arising from real-world events such as social sentiments, political instability, or sudden economic shifts. With the rise of Deep Reinforcement Learning (DRL) and data availability, there is a requirement for more efficient algorithms that can incorporate these external factors in trading strategies. DRL has shown potential in simulating real-world scenarios and in simplifying complex decision-making since DRL agents can automate the trading process i.e. executing trades in a manner comparable to human traders. They have shown reliable performance since they can update their policies based on risk and quantitative factors. In this paper, we propose a DRL approach based on partial and deep-infusion of sentimental analysis. It features distinct policy designs of actor-critic-based agents: only policy optimization (A2C & PPO) and policy optimization along with Q-learning principles (DDPG, TD3 & SAC). Our findings reveal, that the agents based on policy optimization combined with Q-learning, significantly and consistently demonstrate improved performance upon sentiment deep-infusion in profit maximization as well as risk-averse trading.",
+      "abstract_zh": "在现代金融市场中，超过四分之三的大宗交易是通过基于先进交易策略的算法交易执行的，以实现比传统人类交易者更高的精度和速度。传统的基于价格指标的策略在捕捉因社会情绪、政治不稳定或突发经济变化等现实事件引起的市场动态方面显得不足。随着深度强化学习（Deep Reinforcement Learning, DRL）的兴起和数据可用性的增加，迫切需要能够将这些外部因素纳入交易策略的更高效算法。DRL在模拟现实场景和简化复杂决策方面表现出潜力，因为DRL代理能够自动化交易过程，即以与人类交易者相当的方式执行交易。由于能够基于风险和量化因素更新其策略，它们表现出可靠的性能。在本文中，我们提出了一种基于部分和深度情感分析融合的DRL方法。该方法具有演员-评论家代理的独特策略设计：仅进行策略优化（A2C & PPO）和结合Q学习原则的策略优化（DDPG, TD3 & SAC）。我们的研究结果表明，基于策略优化结合Q学习的代理在利润最大化和风险规避交易中，显著且持续地表现出在情感深度融合下的改进性能。",
+      "authors": [
+        "Hrishikesh Singh",
+        "Aarti Sharma",
+        "Millie Pant"
+      ],
+      "date": "2026-10-26",
+      "id": "2610.32237",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement Learning Approach for Stock Trading",
+      "title_zh": "基于金融语境丰富策略的演员-评论家代理：一种用于股票交易的深度强化学习方法",
+      "url": "/daily/2026-10-26/#paper-2610-32237"
+    },
+    {
+      "abstract": "Affective computing is an interdisciplinary field that studies computational methods that relate to or influence emotion. These methods have been applied to interactive media artworks, but they have focused on affect detection rather than affect generation. For affect generation, computationally creative methods need to be explored that have recently been driven by the use of Generative Adversarial Networks (GANs), a deep learning method. The experiment presented in this paper, Forging Emotions, explores the use of visual emotion datasets and the working processes of GANs for visual affect generation, that is, for generating images that can convey or trigger specified emotions. This experiment concludes that the methodology used so far by computer science researchers to build image datasets for describing high-level concepts such as emotions is insufficient and proposes utilizing emotional networks of associations according to psychology research. Forging Emotions also concludes that to generate affect visually, merely corresponding to basic psychology findings, such as bright or dark colours, does not seem adequate. Therefore, research efforts should aim to understand the structure of trained GANs and compositional GANs in order to produce genuinely novel compositions that can convey or trigger emotions through the subject matter of generated images.",
+      "abstract_zh": "情感计算是一个跨学科领域，研究与情感相关或影响情感的计算方法。这些方法已被应用于互动媒体艺术作品，但主要集中在情感检测而非情感生成。对于情感生成，需要探索计算创意方法，这些方法最近受到生成对抗网络（Generative Adversarial Networks, GANs）这一深度学习方法的推动。本文所呈现的实验《锻造情感》探讨了视觉情感数据集的使用及GANs在视觉情感生成中的工作过程，即生成能够传达或触发特定情感的图像。实验得出结论，目前计算机科学研究者用于构建描述高层次概念（如情感）的图像数据集的方法是不够的，并建议根据心理学研究利用情感联想网络。《锻造情感》还得出结论，单纯对应基本心理学发现（如明亮或暗淡的颜色）来进行视觉情感生成似乎是不够的。因此，研究工作应旨在理解训练好的GANs和组合GANs的结构，以便产生真正新颖的作品，通过生成图像的主题传达或触发情感。",
+      "authors": [
+        "Amalia Foka"
+      ],
+      "date": "2026-10-26",
+      "id": "2610.32163",
+      "tags": [
+        "情感生成",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "Forging Emotions: a deep learning experiment on emotions and art",
+      "title_zh": "锻造情感：关于情感与艺术的深度学习实验",
+      "url": "/daily/2026-10-26/#paper-2610-32163"
+    },
+    {
+      "abstract": "LLM-based multimodal emotion reasoning systems perform well on standard benchmarks, but improving them through instruction tuning can be computationally expensive. Agentic pipelines built from frozen models avoid this cost, but introduce a different challenge: when a prediction is wrong, the system must identify which agent or stage caused the error. We address this problem with an agentic framework for traceable multimodal emotion reasoning and prompt-space adaptation. Modality-specific perception agents analyze visual, acoustic, and lexical inputs and post evidence-cited observations to a shared board. An integration agent combines these observations with retrieved multimodal examples to produce an emotion description, label set, and supporting citations, while an MLLM critic can request one revision before the output is finalized. For incorrect predictions, a separate evidence-grounded verification stage applies deterministic checks to verify that cited evidence and references are valid, and an entailment check to determine whether the final claims are supported by that evidence. Detected failures are then grouped by the responsible component and failure type, converted into targeted prompt patches, and accepted only after validation on a held-out set. This adapts the agent prompts without updating model weights. On the MER2025 dataset, targeted prompt adaptation outperforms the frozen static pipeline on all four MLLMs, ranging from 2B to 38B parameters, and matches or outperforms undifferentiated reflection baselines on each of them: VideoLLaMA3-2B, Phi-3.5-vision-instruct, Qwen2.5-VL-7B-Instruct, and InternVL2.5-38B. It improves F-score by 0.6--2.2 points depending on the backbone, including an increase from 52.3 to 54.5 on Qwen2.5-VL-7B.",
+      "abstract_zh": "基于大规模语言模型（LLM）的多模态情感推理系统在标准基准测试中表现良好，但通过指令调优来提升其性能可能会导致高昂的计算成本。由冻结模型构建的代理管道避免了这一成本，但引入了另一种挑战：当预测错误时，系统必须识别出是哪个代理或阶段导致了错误。我们通过一个可追溯的多模态情感推理和提示空间适应的代理框架来解决这个问题。特定模态的感知代理分析视觉、声学和词汇输入，并将引用证据的观察结果发布到共享板上。整合代理将这些观察结果与检索到的多模态示例结合，以生成情感描述、标签集和支持性引用，而多模态大语言模型（MLLM）评论者可以在输出最终确定之前请求一次修订。对于不正确的预测，一个单独的基于证据的验证阶段应用确定性检查，以验证引用的证据和参考文献是否有效，并进行蕴涵检查以确定最终主张是否得到该证据的支持。检测到的失败随后按责任组件和失败类型进行分组，转换为针对性的提示补丁，并仅在持出集上验证通过后接受。这种方法在不更新模型权重的情况下适应代理提示。在MER2025数据集上，针对性的提示适应在所有四个参数范围从2B到38B的多模态大语言模型上都优于冻结静态管道，并在每个模型上与未区分的反思基线相匹配或超越：VideoLLaMA3-2B、Phi-3.5-vision-instruct、Qwen2.5-VL-7B-Instruct和InternVL2.5-38B。根据主干的不同，F-score提高了0.6到2.2分，其中Qwen2.5-VL-7B的提升从52.3增加到54.5。",
+      "authors": [
+        "Elyas Rashno",
+        "Farhana Zulkernine"
+      ],
+      "date": "2026-10-26",
+      "id": "2610.31685",
+      "tags": [
+        "情感大模型",
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation",
+      "title_zh": "基于代理的方法与证据基础的验证用于对话中的多模态情感推理",
+      "url": "/daily/2026-10-26/#paper-2610-31685"
+    },
+    {
+      "abstract": "Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present the Schema Coherence Inventory (SCI): 96 forced-choice items at eight levels of Beck's cognitive model, each offering six replies keyed to three negative self-schemas and their positive counterparts, scored by length-normalized log-likelihood so that nothing is generated or parsed. Affect alone can move a model onto a default belief, so the discriminant criterion is target specificity: a condition built for one belief must select that belief more often than conditions built for the other beliefs of its pole. Six validation studies over 107 conditions on five backbones (1.7B-14B parameters) support this reading. Nine clinically trained raters recover the keyed belief at 79.5% (chance 16.7%). Belief adapters are target-specific on every backbone (+17.7 points; 30/30 belief cells positive), and a condition's SCI profile identifies its own free generations in 24/30 cases against 5 expected by chance. A 48-item short form correlates r = 0.73 with the other 48 items. Applied to six published patient simulators, none carries its formulation's core belief better than a one-sentence statement of it. The validation route, which separates a construct from the affect that accompanies it and checks model judges against clinicians, offers a template for affective measurement in language models; we outline its extension across task types, raters, sites and languages. We release the items, scoring code and short form.",
+      "abstract_zh": "基于角色的语言模型被用作模拟患者和情感代理，但目前尚无经过验证的方法来询问分配给此类模型的信念是否组织其行为，或者模型是否仅仅采纳了一种情绪。我们提出了模式一致性清单（Schema Coherence Inventory, SCI）：96个强制选择项，涵盖贝克（Beck）认知模型的八个层级，每个层级提供六个与三种负面自我模式及其正面对应物相关的回复，得分通过长度归一化的对数似然计算，以确保不生成或解析任何内容。情感本身可以使模型转向默认信念，因此区分标准是目标特异性：为一种信念构建的条件必须比为其对立的其他信念构建的条件更频繁地选择该信念。六项验证研究涵盖107个条件，涉及五个基础模型（1.7B-14B参数），支持这一解读。九名经过临床培训的评审者以79.5%的准确率恢复了关键信念（机会为16.7%）。信念适配器在每个基础模型上都是目标特异性的（+17.7个百分点；30/30信念单元为正），而一个条件的SCI特征在24/30个案例中识别出其自身的自由生成，超出5个由机会预期的结果。48项短表与其他48项的相关性为r = 0.73。应用于六个已发布的患者模拟器，没有一个能比其核心信念的一句陈述更好地传达其表述。验证路径将构念与伴随的情感分开，并将模型评审者与临床医生进行比较，为语言模型中的情感测量提供了模板；我们概述了其在任务类型、评审者、地点和语言上的扩展。我们发布了这些项目、评分代码和短表。",
+      "authors": [
+        "Yuqi Wu",
+        "Deyang Li",
+        "Katharine Hibbard",
+        "Ron Oswald",
+        "David Sinclair",
+        "Adegboyega Sapara",
+        "Kalutota Kuruwe Arachchige Sajana Indula Samarasinghe",
+        "Abhinav Pillai",
+        "Reham Shalaby",
+        "Riffat Alam",
+        "Xin-Min Li",
+        "Yanbo Zhang",
+        "Jie Chen"
+      ],
+      "date": "2026-10-26",
+      "id": "2610.31683",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
+      "title_zh": "模式一致性清单：测量分配给信念是否组织语言模型的认知",
+      "url": "/daily/2026-10-26/#paper-2610-31683"
+    },
     {
       "abstract": "Recognizing facial expressions in unconstrained video suffers from two coupled problems: self-attention grows quadratically in cost with clip length, and crowdsourced labels are noisy. We present GM-GReFEL, a spatiotemporal state-space network with a geometry-aware decision stage. Its Modulated GroupMamba backbone replaces a spatiotemporal Vision Transformer. Six channel groups are scanned separately, four over the frame plane and two over time, so the cost grows linearly with sequence length ($\\mathcal{O}(N)$); after each layer, a Channel Affinity Modulation gate mixes the groups again. On top of the backbone, a GReFEL reliability module turns the normalized entropy of each prediction into a mixing weight between the classifier output and a vote from trainable geometric anchors, so that facial geometry counts for more when the network is unsure. The model is initialized by static-to-dynamic weight transfer and trained with a Triple Loss. In five-fold cross-validation, the best fold scores 66.57\\%/76.46\\% UAR/WAR on DFEW, 0.3 points or less below the strongest compared method, and 45.66\\%/62.27\\% on MAFW, ahead of all compared methods; on FERV39k the mean over five splits, 42.30\\%/52.66\\%, is competitive. The five-fold means are 64.07\\%/74.54\\% on DFEW, on par with recent large pre-trained models, and 38.90\\%/54.37\\% on MAFW, below the best of them. A paired $t$-test on DFEW indicates a modest benefit of temporal modeling (+1.61 UAR points, one-sided $p=0.031$). Attention stays on plausible facial regions, and latency is close to a ViT-B/16 baseline (47.4 vs.\\ 46.8 ms per clip). Code: https://github.com/ardiytama/GroupMamba-DFER.",
       "abstract_zh": "在非约束视频中识别面部表情面临两个相互关联的问题：自注意力随着剪辑长度呈二次增长，众包标签存在噪声。我们提出了GM-GReFEL，一种具有几何感知决策阶段的时空状态空间网络。其调制组Mamba主干网络替代了时空视觉变换器。六个通道组分别进行扫描，其中四个在帧平面上，两个在时间上，因此成本随着序列长度线性增长（$ extmath{O}(N)$）；在每一层之后，通道亲和调制门再次混合这些组。在主干网络之上，GReFEL可靠性模块将每个预测的归一化熵转化为分类器输出与可训练几何锚点投票之间的混合权重，以便在网络不确定时面部几何信息的权重更高。该模型通过静态到动态的权重转移进行初始化，并采用三重损失进行训练。在五折交叉验证中，最佳折的DFEW得分为66.57\\%/76.46\\\\% UAR/WAR，低于最强比较方法0.3分或更少，而在MAFW上得分为45.66\\\\%/62.27\\\\%，领先于所有比较方法；在FERV39k上，五个分割的平均值为42.30\\\\%/52.66\\\\%，具有竞争力。五折的平均值在DFEW上为64.07\\\\%/74.54\\\\%，与最近的大型预训练模型相当，而在MAFW上为38.90\\\\%/54.37\\\\%，低于它们中的最佳模型。对DFEW的配对$t$-检验表明时间建模有适度的益处（+1.61 UAR点，单侧$p=0.031$）。注意力集中在合理的面部区域，延迟接近ViT-B/16基线（每个剪辑47.4毫秒对比46.8毫秒）。代码：https://github.com/ardiytama/GroupMamba-DFER。",

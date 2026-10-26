@@ -1,0 +1,66 @@
+{
+  "abstract": "LLM-based multimodal emotion reasoning systems perform well on standard benchmarks, but improving them through instruction tuning can be computationally expensive. Agentic pipelines built from frozen models avoid this cost, but introduce a different challenge: when a prediction is wrong, the system must identify which agent or stage caused the error. We address this problem with an agentic framework for traceable multimodal emotion reasoning and prompt-space adaptation. Modality-specific perception agents analyze visual, acoustic, and lexical inputs and post evidence-cited observations to a shared board. An integration agent combines these observations with retrieved multimodal examples to produce an emotion description, label set, and supporting citations, while an MLLM critic can request one revision before the output is finalized. For incorrect predictions, a separate evidence-grounded verification stage applies deterministic checks to verify that cited evidence and references are valid, and an entailment check to determine whether the final claims are supported by that evidence. Detected failures are then grouped by the responsible component and failure type, converted into targeted prompt patches, and accepted only after validation on a held-out set. This adapts the agent prompts without updating model weights. On the MER2025 dataset, targeted prompt adaptation outperforms the frozen static pipeline on all four MLLMs, ranging from 2B to 38B parameters, and matches or outperforms undifferentiated reflection baselines on each of them: VideoLLaMA3-2B, Phi-3.5-vision-instruct, Qwen2.5-VL-7B-Instruct, and InternVL2.5-38B. It improves F-score by 0.6--2.2 points depending on the backbone, including an increase from 52.3 to 54.5 on Qwen2.5-VL-7B.",
+  "abstract_zh": "基于大规模语言模型（LLM）的多模态情感推理系统在标准基准测试中表现良好，但通过指令调优来提升其性能可能会导致高昂的计算成本。由冻结模型构建的代理管道避免了这一成本，但引入了另一种挑战：当预测错误时，系统必须识别出是哪个代理或阶段导致了错误。我们通过一个可追溯的多模态情感推理和提示空间适应的代理框架来解决这个问题。特定模态的感知代理分析视觉、声学和词汇输入，并将引用证据的观察结果发布到共享板上。整合代理将这些观察结果与检索到的多模态示例结合，以生成情感描述、标签集和支持性引用，而多模态大语言模型（MLLM）评论者可以在输出最终确定之前请求一次修订。对于不正确的预测，一个单独的基于证据的验证阶段应用确定性检查，以验证引用的证据和参考文献是否有效，并进行蕴涵检查以确定最终主张是否得到该证据的支持。检测到的失败随后按责任组件和失败类型进行分组，转换为针对性的提示补丁，并仅在持出集上验证通过后接受。这种方法在不更新模型权重的情况下适应代理提示。在MER2025数据集上，针对性的提示适应在所有四个参数范围从2B到38B的多模态大语言模型上都优于冻结静态管道，并在每个模型上与未区分的反思基线相匹配或超越：VideoLLaMA3-2B、Phi-3.5-vision-instruct、Qwen2.5-VL-7B-Instruct和InternVL2.5-38B。根据主干的不同，F-score提高了0.6到2.2分，其中Qwen2.5-VL-7B的提升从52.3增加到54.5。",
+  "arxiv_id": "2610.31685",
+  "arxiv_url": "https://arxiv.org/abs/2610.31685v1",
+  "authors": [
+    "Elyas Rashno",
+    "Farhana Zulkernine"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-26#paper-2610-31685",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.MM",
+    "eess.IV"
+  ],
+  "fetched_at": "2026-10-26T10:56:07.107195+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.31685v1",
+  "published_at": "2026-10-03T23:36:10Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion reasoning",
+      "emotion",
+      "multimodal",
+      "MLLM",
+      "MLLMs",
+      "LLM",
+      "prediction",
+      "reasoning",
+      "conversation",
+      "dataset",
+      "多模态",
+      "识别",
+      "检测",
+      "预测",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 79.0
+  },
+  "seen_dates": [
+    "2026-10-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.31685v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "多模态情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation",
+  "title_zh": "基于代理的方法与证据基础的验证用于对话中的多模态情感推理",
+  "translation_url": "https://hjfy.top/arxiv/2610.31685"
+}

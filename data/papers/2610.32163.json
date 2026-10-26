@@ -1,0 +1,59 @@
+{
+  "abstract": "Affective computing is an interdisciplinary field that studies computational methods that relate to or influence emotion. These methods have been applied to interactive media artworks, but they have focused on affect detection rather than affect generation. For affect generation, computationally creative methods need to be explored that have recently been driven by the use of Generative Adversarial Networks (GANs), a deep learning method. The experiment presented in this paper, Forging Emotions, explores the use of visual emotion datasets and the working processes of GANs for visual affect generation, that is, for generating images that can convey or trigger specified emotions. This experiment concludes that the methodology used so far by computer science researchers to build image datasets for describing high-level concepts such as emotions is insufficient and proposes utilizing emotional networks of associations according to psychology research. Forging Emotions also concludes that to generate affect visually, merely corresponding to basic psychology findings, such as bright or dark colours, does not seem adequate. Therefore, research efforts should aim to understand the structure of trained GANs and compositional GANs in order to produce genuinely novel compositions that can convey or trigger emotions through the subject matter of generated images.",
+  "abstract_zh": "情感计算是一个跨学科领域，研究与情感相关或影响情感的计算方法。这些方法已被应用于互动媒体艺术作品，但主要集中在情感检测而非情感生成。对于情感生成，需要探索计算创意方法，这些方法最近受到生成对抗网络（Generative Adversarial Networks, GANs）这一深度学习方法的推动。本文所呈现的实验《锻造情感》探讨了视觉情感数据集的使用及GANs在视觉情感生成中的工作过程，即生成能够传达或触发特定情感的图像。实验得出结论，目前计算机科学研究者用于构建描述高层次概念（如情感）的图像数据集的方法是不够的，并建议根据心理学研究利用情感联想网络。《锻造情感》还得出结论，单纯对应基本心理学发现（如明亮或暗淡的颜色）来进行视觉情感生成似乎是不够的。因此，研究工作应旨在理解训练好的GANs和组合GANs的结构，以便产生真正新颖的作品，通过生成图像的主题传达或触发情感。",
+  "arxiv_id": "2610.32163",
+  "arxiv_url": "https://arxiv.org/abs/2610.32163v1",
+  "authors": [
+    "Amalia Foka"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-26#paper-2610-32163",
+  "categories": [
+    "cs.CV",
+    "cs.CY",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-10-26T10:56:06.976275+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.32163v1",
+  "published_at": "2026-10-23T04:54:00Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective computing",
+      "affect detection",
+      "情感计算",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "detection",
+      "generation",
+      "deep learning",
+      "检测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.32163v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "心理状态/福祉",
+      "数据集/评测"
+    ]
+  },
+  "title": "Forging Emotions: a deep learning experiment on emotions and art",
+  "title_zh": "锻造情感：关于情感与艺术的深度学习实验",
+  "translation_url": "https://hjfy.top/arxiv/2610.32163"
+}

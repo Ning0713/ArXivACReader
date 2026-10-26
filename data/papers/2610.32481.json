@@ -1,0 +1,69 @@
+{
+  "abstract": "Multimodal large language models (MLLMs) have substantially advanced Multimodal Emotion Recognition (MER) by enabling fine-grained emotion understanding through reasoning over multimodal evidence. However, they still exhibit systematic confusion between semantically adjacent emotions with highly overlapping multimodal cues. Existing approaches typically address these errors through global parameter adaptation, making confusion correction costly and inflexible. We instead observe that emotion confusion is highly localized and therefore better addressed through reusable pair-specific expertise. Building on this insight, we propose Confusion-Aware Skill Evolution (CASE), the first agent-skill framework for MER. CASE maintains a sparse, self-evolving library of pair-specific EmotionSkills that externalize affective expertise from model parameters, enabling the learned expertise to be continuously refined and readily transferred across diverse frozen MLLM backbones. During inference, CASE dynamically retrieves the appropriate EmotionSkill to reinforce boundary-aware reasoning while keeping the MLLM backbone frozen. Extensive experiments on CA-MER, DFEW, and EMER demonstrate the effectiveness and transferability of CASE across both general-purpose and emotion-specialized MLLMs. Notably, CASE improves the average accuracy of Qwen3-VL-8B on the CA-MER benchmark from 46.80% to 59.13%, while achieving consistent gains across MLLMs.",
+  "abstract_zh": "多模态大型语言模型（MLLMs）通过对多模态证据进行推理，显著推动了多模态情感识别（MER）的发展，实现了对情感的细粒度理解。然而，它们在语义相近且多模态线索高度重叠的情感之间仍然表现出系统性的混淆。现有的方法通常通过全局参数适应来解决这些错误，这使得混淆纠正成本高且不灵活。我们观察到情感混淆是高度局部化的，因此更适合通过可重用的特定对的专业知识来解决。基于这一见解，我们提出了混淆感知技能演化（CASE），这是针对MER的第一个代理技能框架。CASE维护一个稀疏的、自我演化的特定对情感技能（EmotionSkills）库，将情感专业知识从模型参数中外部化，使得学习到的专业知识能够持续被细化，并在各种冷冻的MLLM骨干网络之间轻松转移。在推理过程中，CASE动态检索适当的情感技能，以增强边界感知推理，同时保持MLLM骨干网络的冻结。在CA-MER、DFEW和EMER上的大量实验表明，CASE在通用和情感专用的MLLMs中都表现出了有效性和可转移性。值得注意的是，CASE将Qwen3-VL-8B在CA-MER基准上的平均准确率从46.80%提高到59.13%，同时在MLLMs中实现了一致的提升。",
+  "arxiv_id": "2610.32481",
+  "arxiv_url": "https://arxiv.org/abs/2610.32481v1",
+  "authors": [
+    "Siyu Wu",
+    "Zeyu Liang",
+    "Linghao Wang",
+    "Qiyun Zheng",
+    "Yi Yao",
+    "Ling Lo",
+    "Hongxia Xie"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-26#paper-2610-32481",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-26T10:56:07.085599+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.32481v1",
+  "published_at": "2026-10-23T10:50:03Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "emotion understanding",
+      "情感识别",
+      "DFEW",
+      "emotion",
+      "emotions",
+      "affective",
+      "multimodal",
+      "large language models",
+      "MLLM",
+      "MLLMs",
+      "recognition",
+      "reasoning",
+      "benchmark",
+      "多模态",
+      "识别",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-10-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.32481v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "多模态情感",
+      "情绪识别"
+    ]
+  },
+  "title": "CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models",
+  "title_zh": "CASE：面向混淆感知的冷冻多模态情感模型技能演化",
+  "translation_url": "https://hjfy.top/arxiv/2610.32481"
+}

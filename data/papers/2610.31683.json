@@ -1,0 +1,58 @@
+{
+  "abstract": "Persona-conditioned language models are used as simulated patients and affective agents, but there is no validated way to ask whether a belief assigned to such a model organizes its behaviour or whether the model has merely adopted a mood. We present the Schema Coherence Inventory (SCI): 96 forced-choice items at eight levels of Beck's cognitive model, each offering six replies keyed to three negative self-schemas and their positive counterparts, scored by length-normalized log-likelihood so that nothing is generated or parsed. Affect alone can move a model onto a default belief, so the discriminant criterion is target specificity: a condition built for one belief must select that belief more often than conditions built for the other beliefs of its pole. Six validation studies over 107 conditions on five backbones (1.7B-14B parameters) support this reading. Nine clinically trained raters recover the keyed belief at 79.5% (chance 16.7%). Belief adapters are target-specific on every backbone (+17.7 points; 30/30 belief cells positive), and a condition's SCI profile identifies its own free generations in 24/30 cases against 5 expected by chance. A 48-item short form correlates r = 0.73 with the other 48 items. Applied to six published patient simulators, none carries its formulation's core belief better than a one-sentence statement of it. The validation route, which separates a construct from the affect that accompanies it and checks model judges against clinicians, offers a template for affective measurement in language models; we outline its extension across task types, raters, sites and languages. We release the items, scoring code and short form.",
+  "abstract_zh": "基于角色的语言模型被用作模拟患者和情感代理，但目前尚无经过验证的方法来询问分配给此类模型的信念是否组织其行为，或者模型是否仅仅采纳了一种情绪。我们提出了模式一致性清单（Schema Coherence Inventory, SCI）：96个强制选择项，涵盖贝克（Beck）认知模型的八个层级，每个层级提供六个与三种负面自我模式及其正面对应物相关的回复，得分通过长度归一化的对数似然计算，以确保不生成或解析任何内容。情感本身可以使模型转向默认信念，因此区分标准是目标特异性：为一种信念构建的条件必须比为其对立的其他信念构建的条件更频繁地选择该信念。六项验证研究涵盖107个条件，涉及五个基础模型（1.7B-14B参数），支持这一解读。九名经过临床培训的评审者以79.5%的准确率恢复了关键信念（机会为16.7%）。信念适配器在每个基础模型上都是目标特异性的（+17.7个百分点；30/30信念单元为正），而一个条件的SCI特征在24/30个案例中识别出其自身的自由生成，超出5个由机会预期的结果。48项短表与其他48项的相关性为r = 0.73。应用于六个已发布的患者模拟器，没有一个能比其核心信念的一句陈述更好地传达其表述。验证路径将构念与伴随的情感分开，并将模型评审者与临床医生进行比较，为语言模型中的情感测量提供了模板；我们概述了其在任务类型、评审者、地点和语言上的扩展。我们发布了这些项目、评分代码和短表。",
+  "arxiv_id": "2610.31683",
+  "arxiv_url": "https://arxiv.org/abs/2610.31683v1",
+  "authors": [
+    "Yuqi Wu",
+    "Deyang Li",
+    "Katharine Hibbard",
+    "Ron Oswald",
+    "David Sinclair",
+    "Adegboyega Sapara",
+    "Kalutota Kuruwe Arachchige Sajana Indula Samarasinghe",
+    "Abhinav Pillai",
+    "Reham Shalaby",
+    "Riffat Alam",
+    "Xin-Min Li",
+    "Yanbo Zhang",
+    "Jie Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-26#paper-2610-31683",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-26T10:56:07.105616+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.31683v1",
+  "published_at": "2026-10-03T09:53:07Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "mood",
+      "情绪",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-10-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.31683v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition",
+  "title_zh": "模式一致性清单：测量分配给信念是否组织语言模型的认知",
+  "translation_url": "https://hjfy.top/arxiv/2610.31683"
+}

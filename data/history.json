@@ -1996,8 +1996,64 @@
         "鲁棒性/偏差"
       ],
       "title": "GM-GReFEL: Geometry-Guided Spatiotemporal State-Space Learning for Robust Dynamic Facial Expression Recognition"
+    },
+    "2610.31683": {
+      "dates": [
+        "2026-10-26"
+      ],
+      "first_seen": "2026-10-26",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "The Schema Coherence Inventory: Measuring Whether an Assigned Belief Organizes a Language Model's Cognition"
+    },
+    "2610.31685": {
+      "dates": [
+        "2026-10-26"
+      ],
+      "first_seen": "2026-10-26",
+      "tags": [
+        "情感大模型",
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "An Agentic Approach with Evidence-Grounded Verification for Multimodal Emotion Reasoning in Conversation"
+    },
+    "2610.32163": {
+      "dates": [
+        "2026-10-26"
+      ],
+      "first_seen": "2026-10-26",
+      "tags": [
+        "情感生成",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "Forging Emotions: a deep learning experiment on emotions and art"
+    },
+    "2610.32237": {
+      "dates": [
+        "2026-10-26"
+      ],
+      "first_seen": "2026-10-26",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Financial Context-Rich Strategy for Actor-Critic based Agents: A Deep Reinforcement Learning Approach for Stock Trading"
+    },
+    "2610.32481": {
+      "dates": [
+        "2026-10-26"
+      ],
+      "first_seen": "2026-10-26",
+      "tags": [
+        "情感大模型",
+        "多模态情感",
+        "情绪识别"
+      ],
+      "title": "CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models"
     }
   },
-  "total": 173,
-  "updated_at": "2026-10-23T09:54:00.130216+00:00"
+  "total": 178,
+  "updated_at": "2026-10-26T10:56:10.713654+00:00"
 }
