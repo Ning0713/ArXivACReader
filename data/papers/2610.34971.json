@@ -1,0 +1,60 @@
+{
+  "abstract": "Pretrained transformers spend a large share of their inference compute inside self-attention, yet the per-head query-key interaction is structurally low-rank by construction. We ask a diagnostic question: across layers and architectures, which heads actually use the full rank budget on real data, and which do not? We propose SVD-Attention, a post-hoc method that decomposes the per-head interaction matrix $M_h$ and scores every singular mode by both its spectral magnitude and its activation variance across tokens on a small calibration set. The score keeps the modes the head can amplify and that real data actually activates, and discards the rest; the resulting factorization is exact for the retained modes and needs no finetuning. Across seven pretrained models and five task types, the diagnostic finds a task-dependent pattern: redundancy sits in the early to middle layers for sentiment and image classification and for generation, and in the late layers for dense prediction and extractive question answering. It is also predictive: truncating the layers it flags costs at most $1.75$ F1, while truncating the same number of layers elsewhere in the same model costs up to $50$ F1. SVD-Attention is an analysis tool rather than a compression method: acting on it reduces inference FLOPs by $0.8$-$1.5\\%$ on its own and by $8$-$11\\%$ when composed with weight pruning, with $0$-$4\\%$ change in task quality.",
+  "abstract_zh": "预训练的变换器在自注意力中的推理计算占据了很大一部分，然而每个头的查询-键交互在结构上是低秩的。我们提出一个诊断性问题：在不同层和架构中，哪些头在真实数据上实际上使用了完整的秩预算，哪些则没有？我们提出了SVD-注意力（SVD-Attention），这是一种事后分析方法，它分解每个头的交互矩阵$M_h$，并通过其谱幅度和在小型校准集上跨标记的激活方差对每个奇异模式进行评分。该评分保留了头部可以放大且真实数据实际激活的模式，丢弃其余部分；对于保留的模式，得到的分解是精确的，并且不需要微调。在七个预训练模型和五种任务类型中，诊断发现了一种任务依赖的模式：冗余存在于情感分析和图像分类的早期到中层，以及生成任务中，而在密集预测和抽取式问答的后期层中。它也是可预测的：截断其标记的层最多损失$1.75$ F1，而在同一模型的其他地方截断相同数量的层则损失高达$50$ F1。SVD-注意力是一个分析工具，而不是压缩方法：单独作用时减少推理FLOPs $0.8$-$1.5 ext{%}$，与权重剪枝组合时减少$8$-$11 ext{%}$，任务质量变化为$0$-$4 ext{%}$。",
+  "arxiv_id": "2610.34971",
+  "arxiv_url": "https://arxiv.org/abs/2610.34971v1",
+  "authors": [
+    "Debopam Sanyal",
+    "Hongjie Chen",
+    "Riya Elizabeth Kuriyan",
+    "Arth Tak",
+    "Divya Kothandaraman",
+    "Akshay Mehra",
+    "Joshua Kimball",
+    "Alexey Tumanov"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-34971",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.579283+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.34971v1",
+  "published_at": "2026-10-26T07:40:43Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分析",
+      "classification",
+      "prediction",
+      "generation",
+      "分类",
+      "预测",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 49.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.34971v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感生成"
+    ]
+  },
+  "title": "SVD-Attention: Efficiently Analyzing Attention Blocks in Transformers",
+  "title_zh": "SVD-注意力：高效分析变换器中的注意力块",
+  "translation_url": "https://hjfy.top/arxiv/2610.34971"
+}

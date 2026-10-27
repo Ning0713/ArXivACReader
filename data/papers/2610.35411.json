@@ -1,0 +1,47 @@
+{
+  "abstract": "We measure the emotion geometry of six LLMs spanning Google's Gemma 2 family. Using an extraction pipeline established by Sofroniew et al. (2026) on Claude Sonnet 4.5 and replicated by Hollowell (2026) on Gemma 2 27B base, we compare emotion geometry across base and instruction-tuned variants of Gemma 2 2B, 9B, and 27B. First, all six model cells exhibit the core emotion geometry. A linear map fit between two cells places held-out emotions nearest their own vectors in the target model. Across all fifteen model pairs, fit in one direction each, this failed exactly once, and the median rank was 1 in every pair. Linear maps refit on cleaned embedding-table vectors recover every held-out emotion at rank 1 in all thirty ordered pairs. Second, scale spreads the geometry's variance across more directions without weakening its tie to valence. The leading component's share of variance falls from 31.6 percent (2B) to 29.8 (9B) to 26.7 (27B) in the base models and from 31.9 (2B) to 29.2 (9B) to 27.3 (27B) in the tuned ones, while its correlation with human valence ratings stays between .71 and .78 in all six models. Third, we project each emotion vector onto the output vocabulary and ask at what depth the vector's own emotion word enters the top 10,000 of the 256,000 tokens. In the 2B and 9B models the median emotion word is there from layer 0, while in the 27B models it begins near chance, stays outside the top 10,000 for half the network, and enters at layer 23 in one step. Fourth, tuning leaves every registered analysis-layer measure within its floor. At every size, valence correlation rises and arousal correlation falls by amounts within their floors, the latter against prediction. PC2's variance share also falls, with a pooled decrease significant after correction. Mid-late layer stability exceeds its floor and traces to base 27B's final layer. Code, data, and audit reports are released.",
+  "abstract_zh": "我们测量了涵盖谷歌Gemma 2系列的六个大型语言模型（LLMs）的情感几何结构。使用Sofroniew等人（2026）在Claude Sonnet 4.5上建立的提取管道，并由Hollowell（2026）在Gemma 2 27B基础模型上复制，我们比较了Gemma 2的2B、9B和27B基础模型及其指令调优变体的情感几何结构。首先，所有六个模型单元都展现了核心情感几何结构。两个单元之间的线性映射拟合使得被保留的情感在目标模型中最接近其自身向量。在所有十五对模型中，每个方向的拟合仅失败一次，且每对的中位排名均为1。在线性映射在清理后的嵌入表向量上重新拟合后，所有被保留的情感在所有三十个有序对中均以排名1被恢复。其次，规模将几何的方差扩展到更多方向，而不削弱其与价效（valence）的关联。基础模型中，主成分的方差占比从31.6%（2B）降至29.8%（9B）和26.7%（27B），而调优模型中则从31.9%（2B）降至29.2%（9B）和27.3%（27B），同时其与人类价效评分的相关性在所有六个模型中保持在0.71至0.78之间。第三，我们将每个情感向量投影到输出词汇中，并询问该向量自身的情感词在256,000个标记的前10,000中进入的深度。在2B和9B模型中，中位情感词从第0层开始存在，而在27B模型中，它起初接近随机，前半部分网络保持在前10,000之外，并在第23层以一步进入。第四，调优使每个注册的分析层度量保持在其底线之内。在每个规模中，价效相关性上升而唤醒相关性下降，幅度均在其底线之内，后者与预测相反。PC2的方差占比也下降，经过校正后 pooled decrease 显著。中后层的稳定性超过其底线，并追溯到基础27B的最终层。代码、数据和审计报告已发布。",
+  "arxiv_id": "2610.35411",
+  "arxiv_url": "https://arxiv.org/abs/2610.35411v1",
+  "authors": [
+    "Adam Hollowell"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-35411",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.588702+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.35411v1",
+  "published_at": "2026-10-26T13:23:07Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "LLMs",
+      "prediction",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.35411v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "The Geometry of Emotion Representations Across Scale, Depth, and Instruction Tuning",
+  "title_zh": "情感表征的几何结构：跨尺度、深度与指令调优",
+  "translation_url": "https://hjfy.top/arxiv/2610.35411"
+}

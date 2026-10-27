@@ -1,0 +1,50 @@
+{
+  "abstract": "Chain-of-thought TTS systems rely on language-model planners to translate persona and context into vocal delivery, but it is unclear where this intent is lost when the requested affect conflicts with lexical sentiment. We introduce a bilingual Japanese--English persona--line conflict benchmark in which each item pairs one line with congruent and conflicting personas and pre-declares the expected acoustic direction. We probe this direction in the planner-generated delivery phrase, the planner-written emotion vector, the QwenEmotion-generated vector, and the rendered waveform. Planner outputs are usually direction-correct, while downstream agreement can be substantially lower. Bypassing QwenEmotion provides only modest gains over the full planner-controlled Base. Supervising QwenEmotion raises the direction rate to 75% in Japanese and 84% in English. A learned text-to-latent interface reaches the highest English rate of 89% and the highest Japanese arousal rate of 88%. These results show that learned repair of the plan-to-synthesis interface can recover counter-textual delivery, although its effect differs across languages and acoustic axes.",
+  "abstract_zh": "链式思维文本到语音合成（TTS）系统依赖语言模型规划者将角色和上下文转化为语音表达，但当请求的情感与词汇情感相冲突时，意图丧失的具体位置尚不明确。我们引入了一种日英双语的角色与台词冲突基准，其中每个项目将一行台词与一致和冲突的角色配对，并预先声明预期的声学方向。我们探讨了在规划者生成的交付短语、规划者撰写的情感向量、QwenEmotion生成的向量和渲染波形中的这个方向。规划者的输出通常是方向正确的，而下游一致性可能显著较低。绕过QwenEmotion仅能在完全由规划者控制的基准上获得适度的提升。监督QwenEmotion使得日语的方向率提高到75%，英语提高到84%。一个学习的文本到潜在接口达到了最高的英语方向率89%和最高的日语唤醒率88%。这些结果表明，学习修复计划与合成接口能够恢复反文本的表达，尽管其效果在不同语言和声学维度上有所不同。",
+  "arxiv_id": "2610.35008",
+  "arxiv_url": "https://arxiv.org/abs/2610.35008v1",
+  "authors": [
+    "Joonyong Park",
+    "Jerry Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-35008",
+  "categories": [
+    "cs.CL",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.580451+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.35008v1",
+  "published_at": "2026-10-26T08:20:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.35008v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "When the Persona Contradicts the Line: Diagnosing Plan-to-Synthesis Failures in Chain-of-Thought TTS",
+  "title_zh": "当角色与台词相悖：诊断链式思维文本到语音合成中的计划与合成失败",
+  "translation_url": "https://hjfy.top/arxiv/2610.35008"
+}

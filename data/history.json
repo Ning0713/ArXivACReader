@@ -2052,8 +2052,121 @@
         "情绪识别"
       ],
       "title": "CASE: Confusion-Aware Skill Evolution for Frozen Multimodal Emotion Models"
+    },
+    "2610.33036": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "A Benchmark for Controllable Speaking-Style Captioning in Audio-Language Models"
+    },
+    "2610.33460": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "情感生成"
+      ],
+      "title": "Semantic-First MixGRPO: Reliable Emotional Image Generation via Temporal Decoupling"
+    },
+    "2610.33713": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "情绪识别",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Traffic-Context-Aware Driver Emotion Recognition with Expectation-Deviation-Driven Inference"
+    },
+    "2610.33726": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "Human-Feedback-Guided Multi-Agent Inverse Reinforcement Learning for Interactive Driving Behavior Modeling"
+    },
+    "2610.34971": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "SVD-Attention: Efficiently Analyzing Attention Blocks in Transformers"
+    },
+    "2610.35008": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "When the Persona Contradicts the Line: Diagnosing Plan-to-Synthesis Failures in Chain-of-Thought TTS"
+    },
+    "2610.35244": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "情感大模型"
+      ],
+      "title": "Beyond Vision-Language Models: Visual-Semantic Affect Graphs for Emotion Recognition in Artworks"
+    },
+    "2610.35411": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "The Geometry of Emotion Representations Across Scale, Depth, and Instruction Tuning"
+    },
+    "2610.35475": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "数据集/评测",
+        "鲁棒性/偏差",
+        "文本情感"
+      ],
+      "title": "MANTIS: Multi-Axis News Transformations for Instance-Wise Stress Testing and Worst-Case Training in Fake News Detection"
+    },
+    "2610.35512": {
+      "dates": [
+        "2026-10-27"
+      ],
+      "first_seen": "2026-10-27",
+      "tags": [
+        "心理状态/福祉",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "MATCHA: A Chinese Multi-Disorder Mental Health Dataset with Cross-Lingual Analyses on Social Media"
     }
   },
-  "total": 178,
-  "updated_at": "2026-10-26T10:56:10.713654+00:00"
+  "total": 188,
+  "updated_at": "2026-10-27T10:20:11.037003+00:00"
 }

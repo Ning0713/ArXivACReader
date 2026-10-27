@@ -1,0 +1,53 @@
+{
+  "abstract": "Mental health research on social media has been dominated by English-language datasets and DSM-5-centered resources, limiting cross-lingual and cross-cultural understanding of online mental health expression. We introduce MATCHA, the first Chinese multi-disorder mental health dataset that links disorder-specific Weibo Super-Topic communities with users' broader public timelines. MATCHA covers seven DSM-5 disorders and a control group, comprising 46,025 cohort-level users and 1.8 million posts. The dataset distinguishes users with explicit self-disclosure evidence from broader disorder-related participants through an LLM-assisted annotation pipeline, and is released in a rigorously de-identified, controlled-access format. Using MATCHA, we analyze behavioral, linguistic, symptom-related, and life-event-related patterns across disorders, and conduct cross-lingual comparisons with Twitter-STMHD. Our analyses show that Weibo Super-Topics function as concentrated spaces for affective and health-related expression, while cross-platform differences between Weibo and Twitter often exceed cross-disorder variation. MATCHA provides a new resource for community-aware and cross-lingual mental health NLP research.",
+  "abstract_zh": "社交媒体上的心理健康研究主要由英语数据集和以DSM-5为中心的资源主导，这限制了对在线心理健康表达的跨语言和跨文化理解。我们介绍了MATCHA，这是第一个将特定障碍的微博超级话题社区与用户更广泛的公共时间线相连接的中国多障碍心理健康数据集。MATCHA涵盖了七种DSM-5障碍和一个对照组，包含46,025名群体级用户和180万条帖子。该数据集通过一个基于大型语言模型（LLM）辅助的注释流程，将具有明确自我披露证据的用户与更广泛的障碍相关参与者区分开，并以严格去标识化和受控访问的格式发布。利用MATCHA，我们分析了不同障碍之间的行为、语言、症状相关和生活事件相关模式，并与Twitter-STMHD进行了跨语言比较。我们的分析表明，微博超级话题作为情感和健康相关表达的集中空间，而微博与Twitter之间的跨平台差异往往超过跨障碍的变异。MATCHA为关注社区和跨语言的心理健康自然语言处理研究提供了新的资源。",
+  "arxiv_id": "2610.35512",
+  "arxiv_url": "https://arxiv.org/abs/2610.35512v1",
+  "authors": [
+    "Bingrui Jin",
+    "Baihan Li",
+    "Zitong Li",
+    "Kunyao Lan",
+    "Shimeng Li",
+    "Kenny Q. Zhu",
+    "Mengyue Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-35512",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.591424+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.35512v1",
+  "published_at": "2026-10-26T14:36:43Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "LLM",
+      "dataset"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.35512v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "数据集/评测",
+      "情感大模型"
+    ]
+  },
+  "title": "MATCHA: A Chinese Multi-Disorder Mental Health Dataset with Cross-Lingual Analyses on Social Media",
+  "title_zh": "MATCHA：一个包含跨语言分析的中国多障碍心理健康数据集",
+  "translation_url": "https://hjfy.top/arxiv/2610.35512"
+}

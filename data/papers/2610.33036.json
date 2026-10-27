@@ -1,0 +1,62 @@
+{
+  "abstract": "Speaking-style captioning (SSC) aims to generate natural language descriptions of how speech is delivered, capturing paralinguistic attributes such as vocal timbre, prosody, and expressivity. Many downstream applications, including conversational AI agents, controllable speech generation, and large-scale audio annotation, require dimension-specific style captions that describe targeted aspects of speech (e.g., speaker traits, emotion, or delivery style), rather than a single undifferentiated description. However, existing work lacks a unified formulation for controllable speaking-style captioning. We address this gap by formulating SSC as an instruction-following audio-language task, where explicit instructions specify the speaking-style dimensions to be described. We introduce StyleInstructCaps, the first standardized benchmark for controllable speaking-style captioning in audio-language models. StyleInstructCaps provides a dataset and evaluation framework that measures metadata groundedness, hallucination, instruction-following ability, generalization to unseen instructions and audio datasets, and speaker-style consistency. Across nine state-of-the-art audio-language models, we find that strong instruction-following ability does not necessarily imply grounded speaking-style understanding, and that SSC-specific instruction-diverse training substantially improves groundedness, controllability, and speaker consistency.",
+  "abstract_zh": "说话风格字幕生成（SSC）旨在生成自然语言描述，说明语音的传递方式，捕捉诸如声音音色、韵律和表现力等副语言属性。许多下游应用，包括对话式人工智能代理、可控语音生成和大规模音频注释，要求维度特定的风格字幕，以描述语音的特定方面（例如，发言者特征、情感或传递风格），而不是单一的无差别描述。然而，现有研究缺乏对可控说话风格字幕生成的统一表述。我们通过将SSC表述为遵循指令的音频语言任务来填补这一空白，其中明确的指令指定要描述的说话风格维度。我们引入了StyleInstructCaps，这是第一个针对音频语言模型中可控说话风格字幕生成的标准化基准。StyleInstructCaps提供了一个数据集和评估框架，用于衡量元数据的基础性、幻觉、遵循指令的能力、对未见指令和音频数据集的泛化能力，以及发言者风格的一致性。在九个最先进的音频语言模型中，我们发现强大的遵循指令能力并不一定意味着对说话风格的理解是扎实的，并且SSC特定的指令多样性训练显著提高了基础性、可控性和发言者一致性。",
+  "arxiv_id": "2610.33036",
+  "arxiv_url": "https://arxiv.org/abs/2610.33036v1",
+  "authors": [
+    "Shreeram Suresh Chandra",
+    "Ashwyn Sharma",
+    "Liang Lu",
+    "Xiutian Zhao",
+    "Leda Sari",
+    "Björn Schuller",
+    "Berrak Sisman"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-33036",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.544363+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.33036v1",
+  "published_at": "2026-10-15T00:17:09Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "audio language",
+      "generation",
+      "benchmark",
+      "dataset",
+      "speech",
+      "audio",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.33036v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "A Benchmark for Controllable Speaking-Style Captioning in Audio-Language Models",
+  "title_zh": "可控说话风格字幕在音频语言模型中的基准测试",
+  "translation_url": "https://hjfy.top/arxiv/2610.33036"
+}

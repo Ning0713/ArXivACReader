@@ -1,0 +1,45 @@
+{
+  "abstract": "Controllable image synthesis should modify visual affect without replacing the objects, layout, or relations specified by a prompt. Existing methods address this tension through conditioning architectures or auxiliary losses, while mixed ordinary differential equation (ODE) and stochastic differential equation (SDE) sampling has mainly been used to accelerate group relative policy optimization (GRPO). We instead study stochastic-window position as an attribute-control variable for flow-based image generation. Using FLUX.1-dev with EmotiCrafter-style valence-arousal conditioning, we compare fixed early, middle, and late four-transition SDE windows, progressive MixGRPO, and full-path Flow-GRPO under matched settings. Because step 0 has the highest noise, our semantic-first schedule uses deterministic ODE sampling at steps 0-19 to establish content, then confines stochastic exploration and policy updates to steps 20-23. Across three seeds, it achieves a CLIPScore of $29.662\\pm0.276$, cross-affect DINO consistency of $80.1\\pm0.9$, and semantic drift of 2.9%, while reducing training cost by 33.5% relative to full-path Flow-GRPO. Full-path stochastic training remains more accurate on valence-arousal targets, revealing a genuine trade-off. Semantic-first nevertheless improves both affect and semantic metrics over progressive scheduling, preserves the principal subject in 95.98% of images at five extreme or neutral targets, and receives the highest semantic-preservation and overall-preference ratings in a 30-participant study. These results identify probability-flow time as a practical graphics control dimension for reliable affective appearance manipulation.",
+  "abstract_zh": "可控图像合成应在不替换提示中指定的对象、布局或关系的情况下修改视觉情感。现有方法通过条件架构或辅助损失来解决这一矛盾，而混合常微分方程（ODE）和随机微分方程（SDE）采样主要用于加速群体相对策略优化（GRPO）。我们则研究随机窗口位置作为基于流的图像生成的属性控制变量。使用带有EmotiCrafter风格的效价-唤醒条件的FLUX.1-dev，我们在匹配设置下比较了固定的早期、中期和晚期四次转换SDE窗口、渐进式MixGRPO和全路径Flow-GRPO。由于步骤0的噪声最高，我们的语义优先调度在步骤0-19使用确定性ODE采样以建立内容，然后将随机探索和策略更新限制在步骤20-23。在三个种子下，它实现了$29.662 ext{±}0.276$的CLIPScore，$80.1 ext{±}0.9$的跨情感DINO一致性，以及2.9%的语义漂移，同时相对于全路径Flow-GRPO减少了33.5%的训练成本。全路径随机训练在效价-唤醒目标上仍然更准确，揭示了真实的权衡。然而，语义优先在情感和语义指标上均优于渐进调度，在五个极端或中性目标下保留了95.98%的主要主题，并在一项30名参与者的研究中获得了最高的语义保留和整体偏好评分。这些结果确定了概率流时间作为可靠情感外观操控的实用图形控制维度。",
+  "arxiv_id": "2610.33460",
+  "arxiv_url": "https://arxiv.org/abs/2610.33460v1",
+  "authors": [
+    "Zhenxuan Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-33460",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.396522+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.33460v1",
+  "published_at": "2026-10-24T05:32:15Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "affective",
+      "generation",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.33460v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": []
+  },
+  "title": "Semantic-First MixGRPO: Reliable Emotional Image Generation via Temporal Decoupling",
+  "title_zh": "语义优先的混合GRPO：通过时间解耦实现可靠的情感图像生成",
+  "translation_url": "https://hjfy.top/arxiv/2610.33460"
+}

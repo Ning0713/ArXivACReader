@@ -1,0 +1,56 @@
+{
+  "abstract": "Automated fake news detection is vital on social media, where fake news is easily rewritten to fool detectors. However, existing approaches typically rely on superficial writing cues or single-style text rewrites, resulting in poor robustness under diverse cosmetic modifications. We construct MANTIS-Bench, a multi-axis presentation-attack benchmark that pairs original news with rewritten views across writing style, emotional expression, and dissemination framing. We further propose MANTIS, an instance-adaptive adversarial framework enabling dynamic worst-case training tailored to each news article with zero inference-time overhead. This reframes fake news defense from heuristic format smoothing into targeted, fact-invariant credibility assessment. Experiments on MANTIS-Bench show that MANTIS reduces the Union Attack Success Rate (UASR) by 3.55 percentage points relative to SheepDog on GossipCop and consistently outperforms prior single-axis defenses on Macro-F1 while maintaining competitive clean accuracy, demonstrating the effectiveness of multi-axis and instance-adaptive worst-case training.",
+  "abstract_zh": "自动化假新闻检测在社交媒体上至关重要，因为假新闻很容易被重写以欺骗检测器。然而，现有的方法通常依赖于表面的写作线索或单一风格的文本重写，导致在各种外观修改下的鲁棒性较差。我们构建了MANTIS-Bench，这是一个多轴展示攻击基准，将原始新闻与在写作风格、情感表达和传播框架上重写的视角配对。我们进一步提出了MANTIS，一个实例自适应的对抗框架，能够为每篇新闻文章提供动态的最坏情况训练，且在推理时间上没有额外开销。这将假新闻防御从启发式格式平滑重新构建为针对性的、事实不变的可信度评估。在MANTIS-Bench上的实验表明，MANTIS相较于GossipCop上的SheepDog将联合攻击成功率（UASR）降低了3.55个百分点，并且在Macro-F1上始终优于之前的单轴防御，同时保持竞争力的清晰准确度，展示了多轴和实例自适应最坏情况训练的有效性。",
+  "arxiv_id": "2610.35475",
+  "arxiv_url": "https://arxiv.org/abs/2610.35475v1",
+  "authors": [
+    "Dexin Liu",
+    "Fan Yang",
+    "Zimu Wang",
+    "Xunfei Zhu",
+    "Bolin Ren",
+    "Bingyan Zhang",
+    "Wei Wang",
+    "Qi Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-27#paper-2610-35475",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-27T10:20:07.590654+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.35475v1",
+  "published_at": "2026-10-26T14:09:10Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "detection",
+      "benchmark",
+      "检测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-27"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.35475v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-27"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "鲁棒性/偏差",
+      "文本情感"
+    ]
+  },
+  "title": "MANTIS: Multi-Axis News Transformations for Instance-Wise Stress Testing and Worst-Case Training in Fake News Detection",
+  "title_zh": "MANTIS：针对假新闻检测的实例级压力测试和最坏情况训练的多轴新闻转换",
+  "translation_url": "https://hjfy.top/arxiv/2610.35475"
+}

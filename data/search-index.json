@@ -1,6 +1,202 @@
 {
-  "generated_at": "2026-10-26T10:56:10.713654+00:00",
+  "generated_at": "2026-10-27T10:20:11.037003+00:00",
   "items": [
+    {
+      "abstract": "Mental health research on social media has been dominated by English-language datasets and DSM-5-centered resources, limiting cross-lingual and cross-cultural understanding of online mental health expression. We introduce MATCHA, the first Chinese multi-disorder mental health dataset that links disorder-specific Weibo Super-Topic communities with users' broader public timelines. MATCHA covers seven DSM-5 disorders and a control group, comprising 46,025 cohort-level users and 1.8 million posts. The dataset distinguishes users with explicit self-disclosure evidence from broader disorder-related participants through an LLM-assisted annotation pipeline, and is released in a rigorously de-identified, controlled-access format. Using MATCHA, we analyze behavioral, linguistic, symptom-related, and life-event-related patterns across disorders, and conduct cross-lingual comparisons with Twitter-STMHD. Our analyses show that Weibo Super-Topics function as concentrated spaces for affective and health-related expression, while cross-platform differences between Weibo and Twitter often exceed cross-disorder variation. MATCHA provides a new resource for community-aware and cross-lingual mental health NLP research.",
+      "abstract_zh": "社交媒体上的心理健康研究主要由英语数据集和以DSM-5为中心的资源主导，这限制了对在线心理健康表达的跨语言和跨文化理解。我们介绍了MATCHA，这是第一个将特定障碍的微博超级话题社区与用户更广泛的公共时间线相连接的中国多障碍心理健康数据集。MATCHA涵盖了七种DSM-5障碍和一个对照组，包含46,025名群体级用户和180万条帖子。该数据集通过一个基于大型语言模型（LLM）辅助的注释流程，将具有明确自我披露证据的用户与更广泛的障碍相关参与者区分开，并以严格去标识化和受控访问的格式发布。利用MATCHA，我们分析了不同障碍之间的行为、语言、症状相关和生活事件相关模式，并与Twitter-STMHD进行了跨语言比较。我们的分析表明，微博超级话题作为情感和健康相关表达的集中空间，而微博与Twitter之间的跨平台差异往往超过跨障碍的变异。MATCHA为关注社区和跨语言的心理健康自然语言处理研究提供了新的资源。",
+      "authors": [
+        "Bingrui Jin",
+        "Baihan Li",
+        "Zitong Li",
+        "Kunyao Lan",
+        "Shimeng Li",
+        "Kenny Q. Zhu",
+        "Mengyue Wu"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.35512",
+      "tags": [
+        "心理状态/福祉",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "MATCHA: A Chinese Multi-Disorder Mental Health Dataset with Cross-Lingual Analyses on Social Media",
+      "title_zh": "MATCHA：一个包含跨语言分析的中国多障碍心理健康数据集",
+      "url": "/daily/2026-10-27/#paper-2610-35512"
+    },
+    {
+      "abstract": "Automated fake news detection is vital on social media, where fake news is easily rewritten to fool detectors. However, existing approaches typically rely on superficial writing cues or single-style text rewrites, resulting in poor robustness under diverse cosmetic modifications. We construct MANTIS-Bench, a multi-axis presentation-attack benchmark that pairs original news with rewritten views across writing style, emotional expression, and dissemination framing. We further propose MANTIS, an instance-adaptive adversarial framework enabling dynamic worst-case training tailored to each news article with zero inference-time overhead. This reframes fake news defense from heuristic format smoothing into targeted, fact-invariant credibility assessment. Experiments on MANTIS-Bench show that MANTIS reduces the Union Attack Success Rate (UASR) by 3.55 percentage points relative to SheepDog on GossipCop and consistently outperforms prior single-axis defenses on Macro-F1 while maintaining competitive clean accuracy, demonstrating the effectiveness of multi-axis and instance-adaptive worst-case training.",
+      "abstract_zh": "自动化假新闻检测在社交媒体上至关重要，因为假新闻很容易被重写以欺骗检测器。然而，现有的方法通常依赖于表面的写作线索或单一风格的文本重写，导致在各种外观修改下的鲁棒性较差。我们构建了MANTIS-Bench，这是一个多轴展示攻击基准，将原始新闻与在写作风格、情感表达和传播框架上重写的视角配对。我们进一步提出了MANTIS，一个实例自适应的对抗框架，能够为每篇新闻文章提供动态的最坏情况训练，且在推理时间上没有额外开销。这将假新闻防御从启发式格式平滑重新构建为针对性的、事实不变的可信度评估。在MANTIS-Bench上的实验表明，MANTIS相较于GossipCop上的SheepDog将联合攻击成功率（UASR）降低了3.55个百分点，并且在Macro-F1上始终优于之前的单轴防御，同时保持竞争力的清晰准确度，展示了多轴和实例自适应最坏情况训练的有效性。",
+      "authors": [
+        "Dexin Liu",
+        "Fan Yang",
+        "Zimu Wang",
+        "Xunfei Zhu",
+        "Bolin Ren",
+        "Bingyan Zhang",
+        "Wei Wang",
+        "Qi Chen"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.35475",
+      "tags": [
+        "数据集/评测",
+        "鲁棒性/偏差",
+        "文本情感"
+      ],
+      "title": "MANTIS: Multi-Axis News Transformations for Instance-Wise Stress Testing and Worst-Case Training in Fake News Detection",
+      "title_zh": "MANTIS：针对假新闻检测的实例级压力测试和最坏情况训练的多轴新闻转换",
+      "url": "/daily/2026-10-27/#paper-2610-35475"
+    },
+    {
+      "abstract": "We measure the emotion geometry of six LLMs spanning Google's Gemma 2 family. Using an extraction pipeline established by Sofroniew et al. (2026) on Claude Sonnet 4.5 and replicated by Hollowell (2026) on Gemma 2 27B base, we compare emotion geometry across base and instruction-tuned variants of Gemma 2 2B, 9B, and 27B. First, all six model cells exhibit the core emotion geometry. A linear map fit between two cells places held-out emotions nearest their own vectors in the target model. Across all fifteen model pairs, fit in one direction each, this failed exactly once, and the median rank was 1 in every pair. Linear maps refit on cleaned embedding-table vectors recover every held-out emotion at rank 1 in all thirty ordered pairs. Second, scale spreads the geometry's variance across more directions without weakening its tie to valence. The leading component's share of variance falls from 31.6 percent (2B) to 29.8 (9B) to 26.7 (27B) in the base models and from 31.9 (2B) to 29.2 (9B) to 27.3 (27B) in the tuned ones, while its correlation with human valence ratings stays between .71 and .78 in all six models. Third, we project each emotion vector onto the output vocabulary and ask at what depth the vector's own emotion word enters the top 10,000 of the 256,000 tokens. In the 2B and 9B models the median emotion word is there from layer 0, while in the 27B models it begins near chance, stays outside the top 10,000 for half the network, and enters at layer 23 in one step. Fourth, tuning leaves every registered analysis-layer measure within its floor. At every size, valence correlation rises and arousal correlation falls by amounts within their floors, the latter against prediction. PC2's variance share also falls, with a pooled decrease significant after correction. Mid-late layer stability exceeds its floor and traces to base 27B's final layer. Code, data, and audit reports are released.",
+      "abstract_zh": "我们测量了涵盖谷歌Gemma 2系列的六个大型语言模型（LLMs）的情感几何结构。使用Sofroniew等人（2026）在Claude Sonnet 4.5上建立的提取管道，并由Hollowell（2026）在Gemma 2 27B基础模型上复制，我们比较了Gemma 2的2B、9B和27B基础模型及其指令调优变体的情感几何结构。首先，所有六个模型单元都展现了核心情感几何结构。两个单元之间的线性映射拟合使得被保留的情感在目标模型中最接近其自身向量。在所有十五对模型中，每个方向的拟合仅失败一次，且每对的中位排名均为1。在线性映射在清理后的嵌入表向量上重新拟合后，所有被保留的情感在所有三十个有序对中均以排名1被恢复。其次，规模将几何的方差扩展到更多方向，而不削弱其与价效（valence）的关联。基础模型中，主成分的方差占比从31.6%（2B）降至29.8%（9B）和26.7%（27B），而调优模型中则从31.9%（2B）降至29.2%（9B）和27.3%（27B），同时其与人类价效评分的相关性在所有六个模型中保持在0.71至0.78之间。第三，我们将每个情感向量投影到输出词汇中，并询问该向量自身的情感词在256,000个标记的前10,000中进入的深度。在2B和9B模型中，中位情感词从第0层开始存在，而在27B模型中，它起初接近随机，前半部分网络保持在前10,000之外，并在第23层以一步进入。第四，调优使每个注册的分析层度量保持在其底线之内。在每个规模中，价效相关性上升而唤醒相关性下降，幅度均在其底线之内，后者与预测相反。PC2的方差占比也下降，经过校正后 pooled decrease 显著。中后层的稳定性超过其底线，并追溯到基础27B的最终层。代码、数据和审计报告已发布。",
+      "authors": [
+        "Adam Hollowell"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.35411",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "The Geometry of Emotion Representations Across Scale, Depth, and Instruction Tuning",
+      "title_zh": "情感表征的几何结构：跨尺度、深度与指令调优",
+      "url": "/daily/2026-10-27/#paper-2610-35411"
+    },
+    {
+      "abstract": "Emotion recognition in artworks remains challenging because affective meaning is often subjective, implicit, and shaped by relationships between visual form and semantic associations. While vision-language models provide strong multimodal representations, direct image-to-emotion prediction may overlook explicit relations among formal, semantic, and affective cues that support emotional interpretation. This paper proposes Visual-Semantic Affect Graphs (VSAG), a graph-based framework that represents artworks through interpretable feature nodes, including color, brushstroke, composition, light-shadow, line quality, and extracted visual entities. The graph learns feature-emotion associations for dominant emotion prediction, with valence-arousal structure modeled through an optional hierarchical auxiliary affect module. We evaluate VSAG and VSAG-TopK against direct VLM inference using Qwen3-VL and InternVL3.5 on EmoArt-5k. Results show that direct VLMs provide useful but modest baselines, while graph-based models improve dominant emotion prediction. In particular, the hierarchical valence-arousal variant of VSAG achieves the best overall performance, improving accuracy, macro-F1, and weighted-F1 over both direct VLM inference and the emotion-only VSAG baseline. Per-class results indicate that graph-based models and VLMs capture partly complementary signals, while valence-arousal structure is most useful when integrated as a coarse-to-fine affect hierarchy rather than as a simple post-hoc correction. These findings suggest that explicit visual-semantic structure can support both prediction and interpretation in artwork emotion recognition.",
+      "abstract_zh": "艺术作品中的情感识别仍然具有挑战性，因为情感意义往往是主观的、隐含的，并且受到视觉形式与语义关联之间关系的影响。虽然视觉-语言模型提供了强大的多模态表示，但直接的图像到情感预测可能忽视了支持情感解释的形式、语义和情感线索之间的显性关系。本文提出了视觉-语义情感图（Visual-Semantic Affect Graphs，VSAG），这是一种基于图的框架，通过可解释的特征节点（包括颜色、笔触、构图、光影、线条质量和提取的视觉实体）来表示艺术作品。该图学习特征与情感的关联，以进行主导情感预测，同时通过可选的层次辅助情感模块建模效价-唤醒结构。我们在EmoArt-5k数据集上评估了VSAG和VSAG-TopK，与使用Qwen3-VL和InternVL3.5的直接视觉-语言模型推断进行比较。结果表明，直接视觉-语言模型提供了有用但适度的基准，而基于图的模型改善了主导情感预测。特别是，VSAG的层次效价-唤醒变体在整体性能上表现最佳，在准确性、宏观F1和加权F1上均优于直接视觉-语言模型推断和仅情感的VSAG基准。每类结果表明，基于图的模型和视觉-语言模型捕捉到部分互补的信号，而效价-唤醒结构在作为粗到细的情感层次整合时最为有效，而不是作为简单的事后修正。这些发现表明，显性的视觉-语义结构可以支持艺术作品情感识别中的预测和解释。",
+      "authors": [
+        "Ngoc-Duy Mai",
+        "Ha-Thanh Nguyen",
+        "Hideaki Takeda"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.35244",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "情感大模型"
+      ],
+      "title": "Beyond Vision-Language Models: Visual-Semantic Affect Graphs for Emotion Recognition in Artworks",
+      "title_zh": "超越视觉-语言模型：用于艺术作品情感识别的视觉-语义情感图",
+      "url": "/daily/2026-10-27/#paper-2610-35244"
+    },
+    {
+      "abstract": "Chain-of-thought TTS systems rely on language-model planners to translate persona and context into vocal delivery, but it is unclear where this intent is lost when the requested affect conflicts with lexical sentiment. We introduce a bilingual Japanese--English persona--line conflict benchmark in which each item pairs one line with congruent and conflicting personas and pre-declares the expected acoustic direction. We probe this direction in the planner-generated delivery phrase, the planner-written emotion vector, the QwenEmotion-generated vector, and the rendered waveform. Planner outputs are usually direction-correct, while downstream agreement can be substantially lower. Bypassing QwenEmotion provides only modest gains over the full planner-controlled Base. Supervising QwenEmotion raises the direction rate to 75% in Japanese and 84% in English. A learned text-to-latent interface reaches the highest English rate of 89% and the highest Japanese arousal rate of 88%. These results show that learned repair of the plan-to-synthesis interface can recover counter-textual delivery, although its effect differs across languages and acoustic axes.",
+      "abstract_zh": "链式思维文本到语音合成（TTS）系统依赖语言模型规划者将角色和上下文转化为语音表达，但当请求的情感与词汇情感相冲突时，意图丧失的具体位置尚不明确。我们引入了一种日英双语的角色与台词冲突基准，其中每个项目将一行台词与一致和冲突的角色配对，并预先声明预期的声学方向。我们探讨了在规划者生成的交付短语、规划者撰写的情感向量、QwenEmotion生成的向量和渲染波形中的这个方向。规划者的输出通常是方向正确的，而下游一致性可能显著较低。绕过QwenEmotion仅能在完全由规划者控制的基准上获得适度的提升。监督QwenEmotion使得日语的方向率提高到75%，英语提高到84%。一个学习的文本到潜在接口达到了最高的英语方向率89%和最高的日语唤醒率88%。这些结果表明，学习修复计划与合成接口能够恢复反文本的表达，尽管其效果在不同语言和声学维度上有所不同。",
+      "authors": [
+        "Joonyong Park",
+        "Jerry Li"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.35008",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "When the Persona Contradicts the Line: Diagnosing Plan-to-Synthesis Failures in Chain-of-Thought TTS",
+      "title_zh": "当角色与台词相悖：诊断链式思维文本到语音合成中的计划与合成失败",
+      "url": "/daily/2026-10-27/#paper-2610-35008"
+    },
+    {
+      "abstract": "Pretrained transformers spend a large share of their inference compute inside self-attention, yet the per-head query-key interaction is structurally low-rank by construction. We ask a diagnostic question: across layers and architectures, which heads actually use the full rank budget on real data, and which do not? We propose SVD-Attention, a post-hoc method that decomposes the per-head interaction matrix $M_h$ and scores every singular mode by both its spectral magnitude and its activation variance across tokens on a small calibration set. The score keeps the modes the head can amplify and that real data actually activates, and discards the rest; the resulting factorization is exact for the retained modes and needs no finetuning. Across seven pretrained models and five task types, the diagnostic finds a task-dependent pattern: redundancy sits in the early to middle layers for sentiment and image classification and for generation, and in the late layers for dense prediction and extractive question answering. It is also predictive: truncating the layers it flags costs at most $1.75$ F1, while truncating the same number of layers elsewhere in the same model costs up to $50$ F1. SVD-Attention is an analysis tool rather than a compression method: acting on it reduces inference FLOPs by $0.8$-$1.5\\%$ on its own and by $8$-$11\\%$ when composed with weight pruning, with $0$-$4\\%$ change in task quality.",
+      "abstract_zh": "预训练的变换器在自注意力中的推理计算占据了很大一部分，然而每个头的查询-键交互在结构上是低秩的。我们提出一个诊断性问题：在不同层和架构中，哪些头在真实数据上实际上使用了完整的秩预算，哪些则没有？我们提出了SVD-注意力（SVD-Attention），这是一种事后分析方法，它分解每个头的交互矩阵$M_h$，并通过其谱幅度和在小型校准集上跨标记的激活方差对每个奇异模式进行评分。该评分保留了头部可以放大且真实数据实际激活的模式，丢弃其余部分；对于保留的模式，得到的分解是精确的，并且不需要微调。在七个预训练模型和五种任务类型中，诊断发现了一种任务依赖的模式：冗余存在于情感分析和图像分类的早期到中层，以及生成任务中，而在密集预测和抽取式问答的后期层中。它也是可预测的：截断其标记的层最多损失$1.75$ F1，而在同一模型的其他地方截断相同数量的层则损失高达$50$ F1。SVD-注意力是一个分析工具，而不是压缩方法：单独作用时减少推理FLOPs $0.8$-$1.5 ext{%}$，与权重剪枝组合时减少$8$-$11 ext{%}$，任务质量变化为$0$-$4 ext{%}$。",
+      "authors": [
+        "Debopam Sanyal",
+        "Hongjie Chen",
+        "Riya Elizabeth Kuriyan",
+        "Arth Tak",
+        "Divya Kothandaraman",
+        "Akshay Mehra",
+        "Joshua Kimball",
+        "Alexey Tumanov"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.34971",
+      "tags": [
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "SVD-Attention: Efficiently Analyzing Attention Blocks in Transformers",
+      "title_zh": "SVD-注意力：高效分析变换器中的注意力块",
+      "url": "/daily/2026-10-27/#paper-2610-34971"
+    },
+    {
+      "abstract": "Modeling human driving behavior is fundamental to understanding driver decision-making and supporting autonomous vehicles (AVs) in mixed traffic. Reward learning offers a principled way to infer the latent objectives behind driving behaviors, yet most existing methods are formulated in single-agent settings and treat surrounding vehicles as dynamic obstacles. Directly extending reward learning to multi-agent scenarios is difficult because the joint action space grows exponentially with the number of interacting vehicles. In addition, existing approaches mainly rely on physical demonstrations and rarely exploit human feedback during reward recovery. To address these limitations, this paper proposes a Human-Feedback-Guided Multi-Agent Inverse Reinforcement Learning (HFG-MAIRL) framework for interactive driving behavior modeling. First, we develop a multi-agent maximum-entropy inverse reinforcement learning module that explicitly models each vehicle and its directly interacting neighbors in a localized Markov game, while using aggregated traffic states to capture the influence of the broader traffic environment. The resulting coupled multi-vehicle responses are approximated through finite marginal-response iterations over factorized vehicle-level policies, avoiding explicit enumeration of the full joint action space. Second, we incorporate human feedback as ordinal preference supervision through a Bradley-Terry likelihood. In our experiments, driver emotion labels are used as one instantiation of such feedback and converted into pairwise ordinal preference constraints. Experiments on the AIDE dataset show that HFG-MAIRL outperforms representative IRL baselines in decision modeling and produces interpretable feedback-aligned reward patterns.",
+      "abstract_zh": "建模人类驾驶行为对于理解驾驶者决策过程和支持混合交通中的自动驾驶车辆（AVs）至关重要。奖励学习提供了一种推断驾驶行为背后潜在目标的原则性方法，然而大多数现有方法是在单智能体环境中制定的，并将周围车辆视为动态障碍物。直接将奖励学习扩展到多智能体场景是困难的，因为随着交互车辆数量的增加，联合动作空间呈指数级增长。此外，现有方法主要依赖于物理演示，鲜有利用人类反馈进行奖励恢复。为了解决这些局限性，本文提出了一种基于人类反馈的多智能体逆强化学习（HFG-MAIRL）框架，用于交互驾驶行为建模。首先，我们开发了一个多智能体最大熵逆强化学习模块，该模块在局部马尔可夫博弈中显式建模每辆车及其直接交互的邻居，同时使用聚合的交通状态来捕捉更广泛交通环境的影响。通过对分解的车辆级策略进行有限边际响应迭代，近似得到的耦合多车辆响应，避免了对完整联合动作空间的显式枚举。其次，我们通过Bradley-Terry似然将人类反馈作为序数偏好监督纳入模型。在我们的实验中，驾驶者情感标签被用作这种反馈的一种实例，并转化为成对的序数偏好约束。在AIDE数据集上的实验表明，HFG-MAIRL在决策建模方面优于代表性的逆强化学习基线，并生成可解释的与反馈对齐的奖励模式。",
+      "authors": [
+        "Longhao Yan",
+        "Jinhao Liang",
+        "Kaidi Yang"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.33726",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "Human-Feedback-Guided Multi-Agent Inverse Reinforcement Learning for Interactive Driving Behavior Modeling",
+      "title_zh": "基于人类反馈的多智能体逆强化学习用于交互驾驶行为建模",
+      "url": "/daily/2026-10-27/#paper-2610-33726"
+    },
+    {
+      "abstract": "Driver emotion provides an important indication of how drivers perceive and evaluate ongoing traffic situations, making reliable emotion recognition an important capability for effective human-vehicle interaction. Yet, most existing driver emotion recognition approaches rely primarily on in-cabin images and overlook how surrounding traffic interactions shape driver emotional responses. To address this limitation, we propose a traffic-context-aware driver emotion recognition (TADER) framework that integrates in-cabin signals with out-of-cabin traffic scenarios, modeling driver emotions as arising from expectation deviation represented by the discrepancy between predicted and observed vehicle trajectories. The proposed framework comprises two key components: (1) a vision-based base recognizer that extracts spatiotemporal representations from in-cabin facial images to infer driver emotions, and (2) a traffic-context-aware fusion module that quantifies expectation deviation from external traffic scenarios and integrates it into the base recognizer via attention-based embedding fusion. To overcome the scarcity of paired in-cabin and out-of-cabin data, we introduce a transfer learning strategy that transfers a trajectory prediction model trained on large-scale naturalistic datasets to smaller paired datasets. Extensive experiments demonstrate that TADER consistently outperforms state-of-the-art methods across both naturalistic and simulated driving environments by incorporating traffic context information into emotion recognition, resulting in improvements of 5% in accuracy on the AIDE and manD datasets.",
+      "abstract_zh": "驾驶员情绪是驾驶员如何感知和评估当前交通情况的重要指示，因此可靠的情绪识别是有效人车交互的重要能力。然而，大多数现有的驾驶员情绪识别方法主要依赖于车内图像，忽视了周围交通互动如何影响驾驶员的情绪反应。为了解决这一局限性，我们提出了一种基于交通情境的驾驶员情绪识别框架（Traffic-Context-Aware Driver Emotion Recognition，TADER），该框架将车内信号与车外交通场景相结合，将驾驶员情绪建模为期望偏差，这种偏差由预测的车辆轨迹与实际观察到的轨迹之间的差异表示。该框架包括两个关键组件：（1）一个基于视觉的基础识别器，从车内面部图像中提取时空表示以推断驾驶员情绪；（2）一个交通情境感知融合模块，量化来自外部交通场景的期望偏差，并通过基于注意力的嵌入融合将其整合到基础识别器中。为了克服车内和车外配对数据的稀缺性，我们引入了一种迁移学习策略，将在大规模自然驾驶数据集上训练的轨迹预测模型迁移到较小的配对数据集上。大量实验表明，TADER在自然驾驶和模拟驾驶环境中均优于最先进的方法，通过将交通情境信息纳入情绪识别，AIDE和manD数据集上的准确率提高了5%。",
+      "authors": [
+        "Longhao Yan",
+        "Jinhao Liang",
+        "Kaidi Yang"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.33713",
+      "tags": [
+        "情绪识别",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Traffic-Context-Aware Driver Emotion Recognition with Expectation-Deviation-Driven Inference",
+      "title_zh": "基于交通情境的驾驶员情绪识别：期望-偏差驱动推理",
+      "url": "/daily/2026-10-27/#paper-2610-33713"
+    },
+    {
+      "abstract": "Controllable image synthesis should modify visual affect without replacing the objects, layout, or relations specified by a prompt. Existing methods address this tension through conditioning architectures or auxiliary losses, while mixed ordinary differential equation (ODE) and stochastic differential equation (SDE) sampling has mainly been used to accelerate group relative policy optimization (GRPO). We instead study stochastic-window position as an attribute-control variable for flow-based image generation. Using FLUX.1-dev with EmotiCrafter-style valence-arousal conditioning, we compare fixed early, middle, and late four-transition SDE windows, progressive MixGRPO, and full-path Flow-GRPO under matched settings. Because step 0 has the highest noise, our semantic-first schedule uses deterministic ODE sampling at steps 0-19 to establish content, then confines stochastic exploration and policy updates to steps 20-23. Across three seeds, it achieves a CLIPScore of $29.662\\pm0.276$, cross-affect DINO consistency of $80.1\\pm0.9$, and semantic drift of 2.9%, while reducing training cost by 33.5% relative to full-path Flow-GRPO. Full-path stochastic training remains more accurate on valence-arousal targets, revealing a genuine trade-off. Semantic-first nevertheless improves both affect and semantic metrics over progressive scheduling, preserves the principal subject in 95.98% of images at five extreme or neutral targets, and receives the highest semantic-preservation and overall-preference ratings in a 30-participant study. These results identify probability-flow time as a practical graphics control dimension for reliable affective appearance manipulation.",
+      "abstract_zh": "可控图像合成应在不替换提示中指定的对象、布局或关系的情况下修改视觉情感。现有方法通过条件架构或辅助损失来解决这一矛盾，而混合常微分方程（ODE）和随机微分方程（SDE）采样主要用于加速群体相对策略优化（GRPO）。我们则研究随机窗口位置作为基于流的图像生成的属性控制变量。使用带有EmotiCrafter风格的效价-唤醒条件的FLUX.1-dev，我们在匹配设置下比较了固定的早期、中期和晚期四次转换SDE窗口、渐进式MixGRPO和全路径Flow-GRPO。由于步骤0的噪声最高，我们的语义优先调度在步骤0-19使用确定性ODE采样以建立内容，然后将随机探索和策略更新限制在步骤20-23。在三个种子下，它实现了$29.662 ext{±}0.276$的CLIPScore，$80.1 ext{±}0.9$的跨情感DINO一致性，以及2.9%的语义漂移，同时相对于全路径Flow-GRPO减少了33.5%的训练成本。全路径随机训练在效价-唤醒目标上仍然更准确，揭示了真实的权衡。然而，语义优先在情感和语义指标上均优于渐进调度，在五个极端或中性目标下保留了95.98%的主要主题，并在一项30名参与者的研究中获得了最高的语义保留和整体偏好评分。这些结果确定了概率流时间作为可靠情感外观操控的实用图形控制维度。",
+      "authors": [
+        "Zhenxuan Wang"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.33460",
+      "tags": [
+        "情感生成"
+      ],
+      "title": "Semantic-First MixGRPO: Reliable Emotional Image Generation via Temporal Decoupling",
+      "title_zh": "语义优先的混合GRPO：通过时间解耦实现可靠的情感图像生成",
+      "url": "/daily/2026-10-27/#paper-2610-33460"
+    },
+    {
+      "abstract": "Speaking-style captioning (SSC) aims to generate natural language descriptions of how speech is delivered, capturing paralinguistic attributes such as vocal timbre, prosody, and expressivity. Many downstream applications, including conversational AI agents, controllable speech generation, and large-scale audio annotation, require dimension-specific style captions that describe targeted aspects of speech (e.g., speaker traits, emotion, or delivery style), rather than a single undifferentiated description. However, existing work lacks a unified formulation for controllable speaking-style captioning. We address this gap by formulating SSC as an instruction-following audio-language task, where explicit instructions specify the speaking-style dimensions to be described. We introduce StyleInstructCaps, the first standardized benchmark for controllable speaking-style captioning in audio-language models. StyleInstructCaps provides a dataset and evaluation framework that measures metadata groundedness, hallucination, instruction-following ability, generalization to unseen instructions and audio datasets, and speaker-style consistency. Across nine state-of-the-art audio-language models, we find that strong instruction-following ability does not necessarily imply grounded speaking-style understanding, and that SSC-specific instruction-diverse training substantially improves groundedness, controllability, and speaker consistency.",
+      "abstract_zh": "说话风格字幕生成（SSC）旨在生成自然语言描述，说明语音的传递方式，捕捉诸如声音音色、韵律和表现力等副语言属性。许多下游应用，包括对话式人工智能代理、可控语音生成和大规模音频注释，要求维度特定的风格字幕，以描述语音的特定方面（例如，发言者特征、情感或传递风格），而不是单一的无差别描述。然而，现有研究缺乏对可控说话风格字幕生成的统一表述。我们通过将SSC表述为遵循指令的音频语言任务来填补这一空白，其中明确的指令指定要描述的说话风格维度。我们引入了StyleInstructCaps，这是第一个针对音频语言模型中可控说话风格字幕生成的标准化基准。StyleInstructCaps提供了一个数据集和评估框架，用于衡量元数据的基础性、幻觉、遵循指令的能力、对未见指令和音频数据集的泛化能力，以及发言者风格的一致性。在九个最先进的音频语言模型中，我们发现强大的遵循指令能力并不一定意味着对说话风格的理解是扎实的，并且SSC特定的指令多样性训练显著提高了基础性、可控性和发言者一致性。",
+      "authors": [
+        "Shreeram Suresh Chandra",
+        "Ashwyn Sharma",
+        "Liang Lu",
+        "Xiutian Zhao",
+        "Leda Sari",
+        "Björn Schuller",
+        "Berrak Sisman"
+      ],
+      "date": "2026-10-27",
+      "id": "2610.33036",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "A Benchmark for Controllable Speaking-Style Captioning in Audio-Language Models",
+      "title_zh": "可控说话风格字幕在音频语言模型中的基准测试",
+      "url": "/daily/2026-10-27/#paper-2610-33036"
+    },
     {
       "abstract": "Multimodal large language models (MLLMs) have substantially advanced Multimodal Emotion Recognition (MER) by enabling fine-grained emotion understanding through reasoning over multimodal evidence. However, they still exhibit systematic confusion between semantically adjacent emotions with highly overlapping multimodal cues. Existing approaches typically address these errors through global parameter adaptation, making confusion correction costly and inflexible. We instead observe that emotion confusion is highly localized and therefore better addressed through reusable pair-specific expertise. Building on this insight, we propose Confusion-Aware Skill Evolution (CASE), the first agent-skill framework for MER. CASE maintains a sparse, self-evolving library of pair-specific EmotionSkills that externalize affective expertise from model parameters, enabling the learned expertise to be continuously refined and readily transferred across diverse frozen MLLM backbones. During inference, CASE dynamically retrieves the appropriate EmotionSkill to reinforce boundary-aware reasoning while keeping the MLLM backbone frozen. Extensive experiments on CA-MER, DFEW, and EMER demonstrate the effectiveness and transferability of CASE across both general-purpose and emotion-specialized MLLMs. Notably, CASE improves the average accuracy of Qwen3-VL-8B on the CA-MER benchmark from 46.80% to 59.13%, while achieving consistent gains across MLLMs.",
       "abstract_zh": "多模态大型语言模型（MLLMs）通过对多模态证据进行推理，显著推动了多模态情感识别（MER）的发展，实现了对情感的细粒度理解。然而，它们在语义相近且多模态线索高度重叠的情感之间仍然表现出系统性的混淆。现有的方法通常通过全局参数适应来解决这些错误，这使得混淆纠正成本高且不灵活。我们观察到情感混淆是高度局部化的，因此更适合通过可重用的特定对的专业知识来解决。基于这一见解，我们提出了混淆感知技能演化（CASE），这是针对MER的第一个代理技能框架。CASE维护一个稀疏的、自我演化的特定对情感技能（EmotionSkills）库，将情感专业知识从模型参数中外部化，使得学习到的专业知识能够持续被细化，并在各种冷冻的MLLM骨干网络之间轻松转移。在推理过程中，CASE动态检索适当的情感技能，以增强边界感知推理，同时保持MLLM骨干网络的冻结。在CA-MER、DFEW和EMER上的大量实验表明，CASE在通用和情感专用的MLLMs中都表现出了有效性和可转移性。值得注意的是，CASE将Qwen3-VL-8B在CA-MER基准上的平均准确率从46.80%提高到59.13%，同时在MLLMs中实现了一致的提升。",
