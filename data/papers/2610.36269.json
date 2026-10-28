@@ -1,0 +1,54 @@
+{
+  "abstract": "Are concepts and mechanisms unified across modalities in current AI models, or instead implemented separately for each one? We operationalize this broad question of modality unification by studying cross-modal steering: 1) finding vectors that successfully steer generation on tokens of one modality, which then 2) transfer zero-shot to steer generation when added to tokens of another modality. Our study goes beyond simple correlational alignment (e.g. representational similarity) because steering is fundamentally causal. We study cross-modal steering in several unified multimodal models (UMMs), since they possess shared parameters for language and image generation, focusing on these two modalities. Across diverse steered concepts such as emotion and object size, we show that steering vectors transfer zero-shot in both directions (text-to-image & image-to-text). Even for concepts that are highly unique to one modality (e.g. formal vs. colloquial language), steering vectors often induce a consistent, interpretable effect in the other modality, such as formal clothing and design. This transfer has a geometric signature too: despite a clear modality gap separating text and image representations, steering vectors with strong cross-modal transferability tend to point in similar directions for the same concept. Our findings shed light on how vision and language interact inside unified multimodal models and point towards more general, modality-agnostic approaches for controlling their behavior.",
+  "abstract_zh": "当前人工智能模型中的概念和机制是否在不同模态间统一，还是为每种模态单独实现？我们通过研究跨模态引导来操作化这一广泛的问题：1）寻找能够成功引导一种模态的生成的向量，然后2）将其转移到另一种模态的生成中，以实现零样本引导。我们的研究超越了简单的相关对齐（例如，表征相似性），因为引导在根本上是因果的。我们在几个统一的多模态模型（UMMs）中研究跨模态引导，因为它们在语言和图像生成中具有共享参数，重点关注这两种模态。在情感和物体大小等多样化的引导概念中，我们展示了引导向量在两个方向上（文本到图像和图像到文本）实现零样本转移。即使对于高度独特于某一模态的概念（例如正式与口语语言），引导向量通常也会在另一模态中产生一致且可解释的效果，例如正式的服装和设计。这种转移也具有几何特征：尽管文本和图像表征之间存在明显的模态差距，但具有强跨模态可转移性的引导向量往往指向相同概念的相似方向。我们的发现揭示了视觉和语言在统一的多模态模型内部如何相互作用，并指向更一般的、与模态无关的控制其行为的方法。",
+  "arxiv_id": "2610.36269",
+  "arxiv_url": "https://arxiv.org/abs/2610.36269v1",
+  "authors": [
+    "Donghao Zeng",
+    "Nishant Subramani",
+    "Tamar Rott Shaham",
+    "Benno Krojer"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-28#paper-2610-36269",
+  "categories": [
+    "cs.CV",
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-10-28T11:11:37.542817+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.36269v1",
+  "published_at": "2026-10-26T20:42:35Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "multimodal",
+      "generation",
+      "多模态",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-28"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.36269v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-28"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "Cross-modal Steering Vectors Exist Across Both Image and Text Generation",
+  "title_zh": "跨模态引导向量在图像和文本生成中均存在",
+  "translation_url": "https://hjfy.top/arxiv/2610.36269"
+}

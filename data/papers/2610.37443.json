@@ -1,0 +1,51 @@
+{
+  "abstract": "Long-term memory enables Large Language Models (LLMs) to maintain coherent and personalized interactions across extended conversations. However, existing memory systems face two key challenges: (1) Information Entanglement, where heterogeneous information is mixed within coarse-grained memory units; and (2) Organizational Mismatch, where memory structures based primarily on semantic similarity may overlook other associations. To address these challenges, we propose ETAMem, a multi-view memory framework that decouples heterogeneous conversational information and aligns memory representations and organization with its distinct characteristics. Specifically, heterogeneous information parsing extracts atomic memory units and identifies affective information. View-specific memory structuring then organizes these units into three complementary hierarchical views: Event, Affect, and Time. ETAMem incrementally maintains memory structures with adaptively calibrated thresholds. For retrieval, entropy-based retrieval allocates query-specific budgets across views and performs hierarchical search within each view. Experiments on LoCoMo and LongMemEval-S demonstrate that ETAMem outperforms state-of-the-art baselines, achieving relative accuracy improvements of 12.46% and 7.96%, respectively, while maintaining competitive token efficiency. Further analyses demonstrate the complementary benefits of different memory views.",
+  "abstract_zh": "长期记忆使大型语言模型（LLMs）能够在延续的对话中保持连贯和个性化的互动。然而，现有的记忆系统面临两个主要挑战：（1）信息纠缠，即异构信息混合在粗粒度记忆单元中；（2）组织不匹配，即基于语义相似性构建的记忆结构可能忽视其他关联。为了解决这些挑战，我们提出了ETAMem，一个多视角记忆框架，旨在解耦异构对话信息，并根据其独特特征对记忆表示和组织进行对齐。具体而言，异构信息解析提取原子记忆单元并识别情感信息。视角特定的记忆结构将这些单元组织为三个互补的层次视图：事件、情感和时间。ETAMem通过自适应校准的阈值逐步维护记忆结构。在检索方面，基于熵的检索在视图之间分配查询特定的预算，并在每个视图内执行层次搜索。在LoCoMo和LongMemEval-S上的实验表明，ETAMem在相对准确性上分别超过了最先进的基线，提升幅度为12.46%和7.96%，同时保持了竞争力的令牌效率。进一步的分析展示了不同记忆视图的互补优势。",
+  "arxiv_id": "2610.37443",
+  "arxiv_url": "https://arxiv.org/abs/2610.37443v1",
+  "authors": [
+    "Xinying Qian",
+    "Ying Zhang",
+    "Yu Zhao",
+    "Xubo Liu",
+    "Baohang Zhou",
+    "Jeff Z. Pan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-28#paper-2610-37443",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-28T11:11:37.749607+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.37443v1",
+  "published_at": "2026-10-27T15:51:42Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "large language models",
+      "LLMs",
+      "识别",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-28"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.37443v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-28"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents",
+  "title_zh": "ETAMem：解耦和对齐异构记忆以支持长期对话代理",
+  "translation_url": "https://hjfy.top/arxiv/2610.37443"
+}

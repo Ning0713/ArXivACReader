@@ -1,0 +1,58 @@
+{
+  "abstract": "Dyadic relationship recognition aims to identify the latent social relationship between two individuals from their multimodal interactions. Existing methods typically project heterogeneous cues into a shared representation and optimise a flat classification objective, overlooking that relationships may rely on different interaction patterns. For instance, distant relationships can often be inferred from direct behavioural correspondence, whereas close relationships are better reflected by coordinated affective, behavioural, and multimodal responses. To address this limitation, we propose HiRe-DRR, a Hierarchical Multimodal Interaction Reasoning framework that organises relationship evidence from three complementary perspectives: feature level, interaction type, and relationship hierarchy. HiRe-DRR decomposes facial, bodily, acoustic, and textual cues into low- and high-level representations and constructs homogeneous and heterogeneous cross-participant interactions. We further introduce the Mixture-of-Interaction Transformer (MoI-Former), which treats diverse interactions as specialised experts and employs relation-aware sparse routing to identify relationship-relevant evidence while preserving contextual interaction information. The proposed Hierarchical Conditional Loss (HC-Loss) exploits the hierarchical nature of social relationships through coarse-to-fine supervision, enabling structured relationship reasoning. Extensive experiments on three dyadic relationship benchmarks demonstrate that HiRe-DRR outperforms recent representative image-, video-, and multimodal methods. Our routing analysis further reveals that distant relationships tend to rely on low-level homogeneous interactions, whereas closer relationships focus on high-level heterogeneous interactions. Our code is publicly available at: https://github.com/tw-repository/HiRe-DRR.",
+  "abstract_zh": "二人关系识别旨在从两个人的多模态交互中识别潜在的社会关系。现有方法通常将异构线索投影到共享表示中，并优化平坦的分类目标，忽视了关系可能依赖于不同的交互模式。例如，远距离关系通常可以通过直接的行为对应推断，而近距离关系则更好地反映在协调的情感、行为和多模态反应中。为了解决这一局限性，我们提出了HiRe-DRR，一个层次化多模态交互推理框架，从特征层、交互类型和关系层次三个互补的视角组织关系证据。HiRe-DRR将面部、身体、声学和文本线索分解为低层次和高层次表示，并构建同质和异质的跨参与者交互。我们进一步引入了交互混合变换器（Mixture-of-Interaction Transformer, MoI-Former），该模型将多样化的交互视为专业专家，并采用关系感知的稀疏路由来识别与关系相关的证据，同时保留上下文交互信息。所提出的层次条件损失（Hierarchical Conditional Loss, HC-Loss）通过粗到细的监督利用社会关系的层次特性，促进结构化关系推理。在三个二人关系基准上的广泛实验表明，HiRe-DRR优于最近的代表性图像、视频和多模态方法。我们的路由分析进一步揭示，远距离关系往往依赖于低层次的同质交互，而近距离关系则集中于高层次的异质交互。我们的代码已公开发布在：https://github.com/tw-repository/HiRe-DRR。",
+  "arxiv_id": "2610.36249",
+  "arxiv_url": "https://arxiv.org/abs/2610.36249v1",
+  "authors": [
+    "Wang Tang",
+    "Fethiye Irmak Dogan",
+    "Linbo Qing",
+    "Ce Zhu",
+    "Hatice Gunes"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-28#paper-2610-36249",
+  "categories": [
+    "cs.CV",
+    "cs.MM"
+  ],
+  "fetched_at": "2026-10-28T11:11:37.542003+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.36249v1",
+  "published_at": "2026-10-26T20:30:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "multimodal",
+      "recognition",
+      "classification",
+      "reasoning",
+      "多模态",
+      "识别",
+      "分类",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-10-28"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.36249v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-28"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感",
+      "语音情感"
+    ]
+  },
+  "title": "Hierarchical Multimodal Interaction Reasoning for Dyadic Relationship Recognition",
+  "title_zh": "用于二人关系识别的层次化多模态交互推理",
+  "translation_url": "https://hjfy.top/arxiv/2610.36249"
+}

@@ -1,0 +1,44 @@
+{
+  "abstract": "Do LLMs have valenced states, i.e. states that feel pleasant or unpleasant? Recent empirical work has claimed to show that LLMs possess functional valenced states (e.g. ``functional pleasure and pain'' [Ren et al. 2026], ``functional emotions'' [Sofroniew et al. 2026], and ``functional welfare'' [Han et al. 2026]) that play the same causal role as valenced states in cognition and action, without necessarily being consciously experienced. But it remains unexplored how well the identified states fit the functional role of valence as understood in the philosophical and cognitive science literature. Here, I assess the current body of evidence, and argue (i) that key aspects of valence remain untested in LLMs, and (ii) that extant empirical paradigms inadequately distinguish (functional) valence from neighbouring constructs like preferences, value-judgments, valence attributions and role-play. I conclude by sketching some novel experimental approaches to better target (functional) valence itself.",
+  "abstract_zh": "大型语言模型（LLMs）是否具有效价状态，即感到愉快或不愉快的状态？近期的实证研究声称显示，LLMs 具备功能性效价状态（例如，“功能性愉悦与痛苦” [Ren et al. 2026]，“功能性情感” [Sofroniew et al. 2026]，以及“功能性福利” [Han et al. 2026]），这些状态在认知和行动中发挥着与效价状态相同的因果作用，而不一定需要被有意识地体验。然而，目前尚未探讨所识别的状态与哲学和认知科学文献中理解的效价的功能角色之间的契合程度。在此，我评估现有的证据，并论证（i）效价的关键方面在 LLMs 中仍未经过检验，以及（ii）现有的实证范式未能充分区分（功能性）效价与邻近构念，如偏好、价值判断、效价归因和角色扮演。我最后勾勒出一些新的实验方法，以更好地针对（功能性）效价本身。",
+  "arxiv_id": "2610.36962",
+  "arxiv_url": "https://arxiv.org/abs/2610.36962v1",
+  "authors": [
+    "Iwan Williams"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-28#paper-2610-36962",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-28T11:11:37.684877+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.36962v1",
+  "published_at": "2026-10-27T10:19:45Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotions",
+      "LLMs",
+      "识别"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-10-28"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.36962v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-28"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "Do bots feel bad? Assessing empirical evidence for functional valence in LLMs",
+  "title_zh": "机器人会感到不适吗？评估大型语言模型中功能性效价的实证证据",
+  "translation_url": "https://hjfy.top/arxiv/2610.36962"
+}

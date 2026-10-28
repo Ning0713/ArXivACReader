@@ -1,6 +1,82 @@
 {
-  "generated_at": "2026-10-27T10:20:11.037003+00:00",
+  "generated_at": "2026-10-28T11:11:41.511264+00:00",
   "items": [
+    {
+      "abstract": "Long-term memory enables Large Language Models (LLMs) to maintain coherent and personalized interactions across extended conversations. However, existing memory systems face two key challenges: (1) Information Entanglement, where heterogeneous information is mixed within coarse-grained memory units; and (2) Organizational Mismatch, where memory structures based primarily on semantic similarity may overlook other associations. To address these challenges, we propose ETAMem, a multi-view memory framework that decouples heterogeneous conversational information and aligns memory representations and organization with its distinct characteristics. Specifically, heterogeneous information parsing extracts atomic memory units and identifies affective information. View-specific memory structuring then organizes these units into three complementary hierarchical views: Event, Affect, and Time. ETAMem incrementally maintains memory structures with adaptively calibrated thresholds. For retrieval, entropy-based retrieval allocates query-specific budgets across views and performs hierarchical search within each view. Experiments on LoCoMo and LongMemEval-S demonstrate that ETAMem outperforms state-of-the-art baselines, achieving relative accuracy improvements of 12.46% and 7.96%, respectively, while maintaining competitive token efficiency. Further analyses demonstrate the complementary benefits of different memory views.",
+      "abstract_zh": "长期记忆使大型语言模型（LLMs）能够在延续的对话中保持连贯和个性化的互动。然而，现有的记忆系统面临两个主要挑战：（1）信息纠缠，即异构信息混合在粗粒度记忆单元中；（2）组织不匹配，即基于语义相似性构建的记忆结构可能忽视其他关联。为了解决这些挑战，我们提出了ETAMem，一个多视角记忆框架，旨在解耦异构对话信息，并根据其独特特征对记忆表示和组织进行对齐。具体而言，异构信息解析提取原子记忆单元并识别情感信息。视角特定的记忆结构将这些单元组织为三个互补的层次视图：事件、情感和时间。ETAMem通过自适应校准的阈值逐步维护记忆结构。在检索方面，基于熵的检索在视图之间分配查询特定的预算，并在每个视图内执行层次搜索。在LoCoMo和LongMemEval-S上的实验表明，ETAMem在相对准确性上分别超过了最先进的基线，提升幅度为12.46%和7.96%，同时保持了竞争力的令牌效率。进一步的分析展示了不同记忆视图的互补优势。",
+      "authors": [
+        "Xinying Qian",
+        "Ying Zhang",
+        "Yu Zhao",
+        "Xubo Liu",
+        "Baohang Zhou",
+        "Jeff Z. Pan"
+      ],
+      "date": "2026-10-28",
+      "id": "2610.37443",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents",
+      "title_zh": "ETAMem：解耦和对齐异构记忆以支持长期对话代理",
+      "url": "/daily/2026-10-28/#paper-2610-37443"
+    },
+    {
+      "abstract": "Do LLMs have valenced states, i.e. states that feel pleasant or unpleasant? Recent empirical work has claimed to show that LLMs possess functional valenced states (e.g. ``functional pleasure and pain'' [Ren et al. 2026], ``functional emotions'' [Sofroniew et al. 2026], and ``functional welfare'' [Han et al. 2026]) that play the same causal role as valenced states in cognition and action, without necessarily being consciously experienced. But it remains unexplored how well the identified states fit the functional role of valence as understood in the philosophical and cognitive science literature. Here, I assess the current body of evidence, and argue (i) that key aspects of valence remain untested in LLMs, and (ii) that extant empirical paradigms inadequately distinguish (functional) valence from neighbouring constructs like preferences, value-judgments, valence attributions and role-play. I conclude by sketching some novel experimental approaches to better target (functional) valence itself.",
+      "abstract_zh": "大型语言模型（LLMs）是否具有效价状态，即感到愉快或不愉快的状态？近期的实证研究声称显示，LLMs 具备功能性效价状态（例如，“功能性愉悦与痛苦” [Ren et al. 2026]，“功能性情感” [Sofroniew et al. 2026]，以及“功能性福利” [Han et al. 2026]），这些状态在认知和行动中发挥着与效价状态相同的因果作用，而不一定需要被有意识地体验。然而，目前尚未探讨所识别的状态与哲学和认知科学文献中理解的效价的功能角色之间的契合程度。在此，我评估现有的证据，并论证（i）效价的关键方面在 LLMs 中仍未经过检验，以及（ii）现有的实证范式未能充分区分（功能性）效价与邻近构念，如偏好、价值判断、效价归因和角色扮演。我最后勾勒出一些新的实验方法，以更好地针对（功能性）效价本身。",
+      "authors": [
+        "Iwan Williams"
+      ],
+      "date": "2026-10-28",
+      "id": "2610.36962",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Do bots feel bad? Assessing empirical evidence for functional valence in LLMs",
+      "title_zh": "机器人会感到不适吗？评估大型语言模型中功能性效价的实证证据",
+      "url": "/daily/2026-10-28/#paper-2610-36962"
+    },
+    {
+      "abstract": "Are concepts and mechanisms unified across modalities in current AI models, or instead implemented separately for each one? We operationalize this broad question of modality unification by studying cross-modal steering: 1) finding vectors that successfully steer generation on tokens of one modality, which then 2) transfer zero-shot to steer generation when added to tokens of another modality. Our study goes beyond simple correlational alignment (e.g. representational similarity) because steering is fundamentally causal. We study cross-modal steering in several unified multimodal models (UMMs), since they possess shared parameters for language and image generation, focusing on these two modalities. Across diverse steered concepts such as emotion and object size, we show that steering vectors transfer zero-shot in both directions (text-to-image & image-to-text). Even for concepts that are highly unique to one modality (e.g. formal vs. colloquial language), steering vectors often induce a consistent, interpretable effect in the other modality, such as formal clothing and design. This transfer has a geometric signature too: despite a clear modality gap separating text and image representations, steering vectors with strong cross-modal transferability tend to point in similar directions for the same concept. Our findings shed light on how vision and language interact inside unified multimodal models and point towards more general, modality-agnostic approaches for controlling their behavior.",
+      "abstract_zh": "当前人工智能模型中的概念和机制是否在不同模态间统一，还是为每种模态单独实现？我们通过研究跨模态引导来操作化这一广泛的问题：1）寻找能够成功引导一种模态的生成的向量，然后2）将其转移到另一种模态的生成中，以实现零样本引导。我们的研究超越了简单的相关对齐（例如，表征相似性），因为引导在根本上是因果的。我们在几个统一的多模态模型（UMMs）中研究跨模态引导，因为它们在语言和图像生成中具有共享参数，重点关注这两种模态。在情感和物体大小等多样化的引导概念中，我们展示了引导向量在两个方向上（文本到图像和图像到文本）实现零样本转移。即使对于高度独特于某一模态的概念（例如正式与口语语言），引导向量通常也会在另一模态中产生一致且可解释的效果，例如正式的服装和设计。这种转移也具有几何特征：尽管文本和图像表征之间存在明显的模态差距，但具有强跨模态可转移性的引导向量往往指向相同概念的相似方向。我们的发现揭示了视觉和语言在统一的多模态模型内部如何相互作用，并指向更一般的、与模态无关的控制其行为的方法。",
+      "authors": [
+        "Donghao Zeng",
+        "Nishant Subramani",
+        "Tamar Rott Shaham",
+        "Benno Krojer"
+      ],
+      "date": "2026-10-28",
+      "id": "2610.36269",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Cross-modal Steering Vectors Exist Across Both Image and Text Generation",
+      "title_zh": "跨模态引导向量在图像和文本生成中均存在",
+      "url": "/daily/2026-10-28/#paper-2610-36269"
+    },
+    {
+      "abstract": "Dyadic relationship recognition aims to identify the latent social relationship between two individuals from their multimodal interactions. Existing methods typically project heterogeneous cues into a shared representation and optimise a flat classification objective, overlooking that relationships may rely on different interaction patterns. For instance, distant relationships can often be inferred from direct behavioural correspondence, whereas close relationships are better reflected by coordinated affective, behavioural, and multimodal responses. To address this limitation, we propose HiRe-DRR, a Hierarchical Multimodal Interaction Reasoning framework that organises relationship evidence from three complementary perspectives: feature level, interaction type, and relationship hierarchy. HiRe-DRR decomposes facial, bodily, acoustic, and textual cues into low- and high-level representations and constructs homogeneous and heterogeneous cross-participant interactions. We further introduce the Mixture-of-Interaction Transformer (MoI-Former), which treats diverse interactions as specialised experts and employs relation-aware sparse routing to identify relationship-relevant evidence while preserving contextual interaction information. The proposed Hierarchical Conditional Loss (HC-Loss) exploits the hierarchical nature of social relationships through coarse-to-fine supervision, enabling structured relationship reasoning. Extensive experiments on three dyadic relationship benchmarks demonstrate that HiRe-DRR outperforms recent representative image-, video-, and multimodal methods. Our routing analysis further reveals that distant relationships tend to rely on low-level homogeneous interactions, whereas closer relationships focus on high-level heterogeneous interactions. Our code is publicly available at: https://github.com/tw-repository/HiRe-DRR.",
+      "abstract_zh": "二人关系识别旨在从两个人的多模态交互中识别潜在的社会关系。现有方法通常将异构线索投影到共享表示中，并优化平坦的分类目标，忽视了关系可能依赖于不同的交互模式。例如，远距离关系通常可以通过直接的行为对应推断，而近距离关系则更好地反映在协调的情感、行为和多模态反应中。为了解决这一局限性，我们提出了HiRe-DRR，一个层次化多模态交互推理框架，从特征层、交互类型和关系层次三个互补的视角组织关系证据。HiRe-DRR将面部、身体、声学和文本线索分解为低层次和高层次表示，并构建同质和异质的跨参与者交互。我们进一步引入了交互混合变换器（Mixture-of-Interaction Transformer, MoI-Former），该模型将多样化的交互视为专业专家，并采用关系感知的稀疏路由来识别与关系相关的证据，同时保留上下文交互信息。所提出的层次条件损失（Hierarchical Conditional Loss, HC-Loss）通过粗到细的监督利用社会关系的层次特性，促进结构化关系推理。在三个二人关系基准上的广泛实验表明，HiRe-DRR优于最近的代表性图像、视频和多模态方法。我们的路由分析进一步揭示，远距离关系往往依赖于低层次的同质交互，而近距离关系则集中于高层次的异质交互。我们的代码已公开发布在：https://github.com/tw-repository/HiRe-DRR。",
+      "authors": [
+        "Wang Tang",
+        "Fethiye Irmak Dogan",
+        "Linbo Qing",
+        "Ce Zhu",
+        "Hatice Gunes"
+      ],
+      "date": "2026-10-28",
+      "id": "2610.36249",
+      "tags": [
+        "多模态情感",
+        "文本情感",
+        "语音情感"
+      ],
+      "title": "Hierarchical Multimodal Interaction Reasoning for Dyadic Relationship Recognition",
+      "title_zh": "用于二人关系识别的层次化多模态交互推理",
+      "url": "/daily/2026-10-28/#paper-2610-36249"
+    },
     {
       "abstract": "Mental health research on social media has been dominated by English-language datasets and DSM-5-centered resources, limiting cross-lingual and cross-cultural understanding of online mental health expression. We introduce MATCHA, the first Chinese multi-disorder mental health dataset that links disorder-specific Weibo Super-Topic communities with users' broader public timelines. MATCHA covers seven DSM-5 disorders and a control group, comprising 46,025 cohort-level users and 1.8 million posts. The dataset distinguishes users with explicit self-disclosure evidence from broader disorder-related participants through an LLM-assisted annotation pipeline, and is released in a rigorously de-identified, controlled-access format. Using MATCHA, we analyze behavioral, linguistic, symptom-related, and life-event-related patterns across disorders, and conduct cross-lingual comparisons with Twitter-STMHD. Our analyses show that Weibo Super-Topics function as concentrated spaces for affective and health-related expression, while cross-platform differences between Weibo and Twitter often exceed cross-disorder variation. MATCHA provides a new resource for community-aware and cross-lingual mental health NLP research.",
       "abstract_zh": "社交媒体上的心理健康研究主要由英语数据集和以DSM-5为中心的资源主导，这限制了对在线心理健康表达的跨语言和跨文化理解。我们介绍了MATCHA，这是第一个将特定障碍的微博超级话题社区与用户更广泛的公共时间线相连接的中国多障碍心理健康数据集。MATCHA涵盖了七种DSM-5障碍和一个对照组，包含46,025名群体级用户和180万条帖子。该数据集通过一个基于大型语言模型（LLM）辅助的注释流程，将具有明确自我披露证据的用户与更广泛的障碍相关参与者区分开，并以严格去标识化和受控访问的格式发布。利用MATCHA，我们分析了不同障碍之间的行为、语言、症状相关和生活事件相关模式，并与Twitter-STMHD进行了跨语言比较。我们的分析表明，微博超级话题作为情感和健康相关表达的集中空间，而微博与Twitter之间的跨平台差异往往超过跨障碍的变异。MATCHA为关注社区和跨语言的心理健康自然语言处理研究提供了新的资源。",
