@@ -1,0 +1,52 @@
+{
+  "abstract": "Current Large Language Models (LLMs)-based mental health chatbots often lack sufficient empathy, contextual awareness, and safety mechanisms, potentially leading to ineffective or harmful interactions. This paper proposes a novel framework that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference. By dynamically constructing prompts based on emotional and risk-related insights, the framework aims to significantly improve the contextual relevance, empathy, and risk-aware of model-generated responses. We evaluated four model strategies and two prompt engineered variants across qualitative metrics such as empathy, helpfulness, clarity, relevance, safety, as well as toxicity assessments using the Perspective API. Experimental results indicate that the prompt engineering approaches outperforms DSFT and RLAIF by 1.8\\% and 1.1\\% respectively.",
+  "abstract_zh": "当前基于大型语言模型（LLMs）的心理健康聊天机器人往往缺乏足够的同理心、上下文意识和安全机制，可能导致无效或有害的互动。本文提出了一种新颖的框架，该框架在模型推理之前整合了情感和抑郁分析与基于规则的过滤机制。通过根据情感和风险相关的见解动态构建提示，该框架旨在显著提高模型生成响应的上下文相关性、同理心和风险意识。我们评估了四种模型策略和两种提示工程变体，使用了同理心、帮助性、清晰度、相关性、安全性以及使用Perspective API的毒性评估等定性指标。实验结果表明，提示工程方法分别比DSFT和RLAIF提高了1.8%和1.1%。",
+  "arxiv_id": "2610.38044",
+  "arxiv_url": "https://arxiv.org/abs/2610.38044v1",
+  "authors": [
+    "Sugi Lee",
+    "Jianlong Zhou",
+    "Jing sUN"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-30#paper-2610-38044",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-10-30T11:16:35.744945+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.38044v1",
+  "published_at": "2026-10-27T22:57:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "empathy",
+      "large language models",
+      "LLMs",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-10-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.38044v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
+  "title_zh": "PromptSense：具有情感感知的动态提示心理健康聊天机器人",
+  "translation_url": "https://hjfy.top/arxiv/2610.38044"
+}

@@ -1,0 +1,53 @@
+{
+  "abstract": "Large language models (LLMs) are increasingly explored for mental health support, yet existing benchmarks primarily focus on supportive capabilities rather than whether models consistently adhere to professional ethical boundaries. This issue is particularly important in multi-turn interactions, where users may introduce new information or exert emotional pressure over time. We introduce MindEth-Bench, a benchmark for evaluating ethical boundary adherence in multi-turn mental health interactions. Grounded in professional ethical standards for mental health services in China, MindEth-Bench covers multiple dimensions of ethical conduct and uses Monte Carlo Tree Search (MCTS) to systematically explore interaction trajectories that stress-test model boundaries. Experiments across nine LLMs show that models that initially respond appropriately can shift toward ethical violations over extended interactions, with substantial variation across models and ethical dimensions. These results show that single-turn evaluations may overestimate the ethical reliability of LLM-based mental health support systems and highlight the need to evaluate ethical behavior throughout multi-turn interaction.",
+  "abstract_zh": "大型语言模型（LLMs）在心理健康支持方面的应用日益受到关注，但现有的基准主要集中在支持能力上，而非模型是否始终遵循专业伦理边界。这个问题在多轮互动中尤为重要，因为用户可能会随着时间的推移引入新信息或施加情感压力。我们引入了MindEth-Bench，这是一个用于评估多轮心理健康互动中伦理边界遵循情况的基准。MindEth-Bench基于中国心理健康服务的专业伦理标准，涵盖了伦理行为的多个维度，并使用蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS）系统性地探索压力测试模型边界的互动轨迹。在对九个LLM的实验中，结果显示，最初适当响应的模型在长时间的互动中可能会转向伦理违规，不同模型和伦理维度之间存在显著差异。这些结果表明，单轮评估可能高估基于LLM的心理健康支持系统的伦理可靠性，并强调了在多轮互动中评估伦理行为的必要性。",
+  "arxiv_id": "2610.38452",
+  "arxiv_url": "https://arxiv.org/abs/2610.38452v1",
+  "authors": [
+    "Bichen Wang",
+    "Yufeng Jin",
+    "Yixin Sun",
+    "Yanyan Zhao",
+    "Bing Qin"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-30#paper-2610-38452",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-10-30T11:16:35.840662+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.38452v1",
+  "published_at": "2026-10-28T08:30:26Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "benchmark"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-10-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.38452v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "心理状态/福祉",
+      "数据集/评测"
+    ]
+  },
+  "title": "When Support Crosses the Line: Evaluating Ethical Boundaries in LLM-Based Mental Health Support in the Chinese Context",
+  "title_zh": "当支持越界：评估中国背景下基于大语言模型的心理健康支持的伦理边界",
+  "translation_url": "https://hjfy.top/arxiv/2610.38452"
+}

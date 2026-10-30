@@ -2209,8 +2209,44 @@
         "情感大模型"
       ],
       "title": "ETAMem: Decoupling and Aligning Heterogeneous Memory for Long-Term Conversational Agents"
+    },
+    "2610.38044": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "first_seen": "2026-10-30",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting"
+    },
+    "2610.38452": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "first_seen": "2026-10-30",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "When Support Crosses the Line: Evaluating Ethical Boundaries in LLM-Based Mental Health Support in the Chinese Context"
+    },
+    "2610.40196": {
+      "dates": [
+        "2026-10-30"
+      ],
+      "first_seen": "2026-10-30",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Towards Full-Text Scholarly Argument Mining using Entity-Anchored Claim Extraction"
     }
   },
-  "total": 192,
-  "updated_at": "2026-10-28T11:11:41.511264+00:00"
+  "total": 195,
+  "updated_at": "2026-10-30T11:16:40.555418+00:00"
 }

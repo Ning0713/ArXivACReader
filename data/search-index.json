@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-10-28T11:11:41.511264+00:00",
+  "generated_at": "2026-10-30T11:16:40.555418+00:00",
   "items": [
+    {
+      "abstract": "Argument mining in full-text scholarly articles remains an important yet challenging task. This difficulty stems not only from the need to model long-distance dependencies but also from the substantial effort required to annotate sentence-level argumentative components throughout lengthy documents. To address these challenges, we introduce a novel approach that leverages scientific entity mentions (e.g., tasks, datasets, and models) to identify and structure claims in scholarly literature. We validate our approach through a case study involving 50 full-text research papers on sentiment analysis. We first establish a reliable human gold standard (Krippendorff's $\\alpha = 0.80$), identifying 113 claim-bearing sentences and extracting 199 structured claim records from 300 candidate sentences. To address the annotation bottleneck, we employ a majority-voting ensemble of large language models (LLMs) to generate a silver-standard dataset comprising 1,487 claims. Encoders fine-tuned exclusively on the silver-standard dataset outperform those trained on a small human-annotated gold-standard dataset and demonstrate strong zero-shot transfer to NLP papers outside the training corpus.",
+      "abstract_zh": "在全文学术文章中进行论证挖掘仍然是一项重要而具有挑战性的任务。这一困难不仅源于需要建模长距离依赖关系，还源于在冗长文档中对句子级论证成分进行标注所需的巨大努力。为了解决这些挑战，我们提出了一种新颖的方法，该方法利用科学实体提及（例如，任务、数据集和模型）来识别和构建学术文献中的论点。我们通过对50篇关于情感分析的全文研究论文进行案例研究来验证我们的方法。我们首先建立了一个可靠的人类黄金标准（Krippendorff's $\beta = 0.80$），识别出113个包含论点的句子，并从300个候选句子中提取出199个结构化的论点记录。为了解决标注瓶颈，我们采用了大型语言模型（LLMs）的多数投票集成方法，生成了一个包含1,487个论点的银标准数据集。仅在银标准数据集上微调的编码器在性能上优于那些在小型人类标注的黄金标准数据集上训练的编码器，并在训练语料库之外的自然语言处理论文中表现出强大的零样本迁移能力。",
+      "authors": [
+        "Bhuvanesh Verma",
+        "Andy Lüking",
+        "Mounika Marreddy",
+        "Leon Lukas Hammerla",
+        "Alexander Mehler"
+      ],
+      "date": "2026-10-30",
+      "id": "2610.40196",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Towards Full-Text Scholarly Argument Mining using Entity-Anchored Claim Extraction",
+      "title_zh": "基于实体锚定的论点提取实现全文学术论证挖掘",
+      "url": "/daily/2026-10-30/#paper-2610-40196"
+    },
+    {
+      "abstract": "Large language models (LLMs) are increasingly explored for mental health support, yet existing benchmarks primarily focus on supportive capabilities rather than whether models consistently adhere to professional ethical boundaries. This issue is particularly important in multi-turn interactions, where users may introduce new information or exert emotional pressure over time. We introduce MindEth-Bench, a benchmark for evaluating ethical boundary adherence in multi-turn mental health interactions. Grounded in professional ethical standards for mental health services in China, MindEth-Bench covers multiple dimensions of ethical conduct and uses Monte Carlo Tree Search (MCTS) to systematically explore interaction trajectories that stress-test model boundaries. Experiments across nine LLMs show that models that initially respond appropriately can shift toward ethical violations over extended interactions, with substantial variation across models and ethical dimensions. These results show that single-turn evaluations may overestimate the ethical reliability of LLM-based mental health support systems and highlight the need to evaluate ethical behavior throughout multi-turn interaction.",
+      "abstract_zh": "大型语言模型（LLMs）在心理健康支持方面的应用日益受到关注，但现有的基准主要集中在支持能力上，而非模型是否始终遵循专业伦理边界。这个问题在多轮互动中尤为重要，因为用户可能会随着时间的推移引入新信息或施加情感压力。我们引入了MindEth-Bench，这是一个用于评估多轮心理健康互动中伦理边界遵循情况的基准。MindEth-Bench基于中国心理健康服务的专业伦理标准，涵盖了伦理行为的多个维度，并使用蒙特卡洛树搜索（Monte Carlo Tree Search, MCTS）系统性地探索压力测试模型边界的互动轨迹。在对九个LLM的实验中，结果显示，最初适当响应的模型在长时间的互动中可能会转向伦理违规，不同模型和伦理维度之间存在显著差异。这些结果表明，单轮评估可能高估基于LLM的心理健康支持系统的伦理可靠性，并强调了在多轮互动中评估伦理行为的必要性。",
+      "authors": [
+        "Bichen Wang",
+        "Yufeng Jin",
+        "Yixin Sun",
+        "Yanyan Zhao",
+        "Bing Qin"
+      ],
+      "date": "2026-10-30",
+      "id": "2610.38452",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "When Support Crosses the Line: Evaluating Ethical Boundaries in LLM-Based Mental Health Support in the Chinese Context",
+      "title_zh": "当支持越界：评估中国背景下基于大语言模型的心理健康支持的伦理边界",
+      "url": "/daily/2026-10-30/#paper-2610-38452"
+    },
+    {
+      "abstract": "Current Large Language Models (LLMs)-based mental health chatbots often lack sufficient empathy, contextual awareness, and safety mechanisms, potentially leading to ineffective or harmful interactions. This paper proposes a novel framework that integrates sentiment and depression analysis with a rule-based filtering mechanism prior to model inference. By dynamically constructing prompts based on emotional and risk-related insights, the framework aims to significantly improve the contextual relevance, empathy, and risk-aware of model-generated responses. We evaluated four model strategies and two prompt engineered variants across qualitative metrics such as empathy, helpfulness, clarity, relevance, safety, as well as toxicity assessments using the Perspective API. Experimental results indicate that the prompt engineering approaches outperforms DSFT and RLAIF by 1.8\\% and 1.1\\% respectively.",
+      "abstract_zh": "当前基于大型语言模型（LLMs）的心理健康聊天机器人往往缺乏足够的同理心、上下文意识和安全机制，可能导致无效或有害的互动。本文提出了一种新颖的框架，该框架在模型推理之前整合了情感和抑郁分析与基于规则的过滤机制。通过根据情感和风险相关的见解动态构建提示，该框架旨在显著提高模型生成响应的上下文相关性、同理心和风险意识。我们评估了四种模型策略和两种提示工程变体，使用了同理心、帮助性、清晰度、相关性、安全性以及使用Perspective API的毒性评估等定性指标。实验结果表明，提示工程方法分别比DSFT和RLAIF提高了1.8%和1.1%。",
+      "authors": [
+        "Sugi Lee",
+        "Jianlong Zhou",
+        "Jing sUN"
+      ],
+      "date": "2026-10-30",
+      "id": "2610.38044",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "PromptSense: Sentiment-Aware Mental Health Chatbot with Dynamic Prompting",
+      "title_zh": "PromptSense：具有情感感知的动态提示心理健康聊天机器人",
+      "url": "/daily/2026-10-30/#paper-2610-38044"
+    },
     {
       "abstract": "Long-term memory enables Large Language Models (LLMs) to maintain coherent and personalized interactions across extended conversations. However, existing memory systems face two key challenges: (1) Information Entanglement, where heterogeneous information is mixed within coarse-grained memory units; and (2) Organizational Mismatch, where memory structures based primarily on semantic similarity may overlook other associations. To address these challenges, we propose ETAMem, a multi-view memory framework that decouples heterogeneous conversational information and aligns memory representations and organization with its distinct characteristics. Specifically, heterogeneous information parsing extracts atomic memory units and identifies affective information. View-specific memory structuring then organizes these units into three complementary hierarchical views: Event, Affect, and Time. ETAMem incrementally maintains memory structures with adaptively calibrated thresholds. For retrieval, entropy-based retrieval allocates query-specific budgets across views and performs hierarchical search within each view. Experiments on LoCoMo and LongMemEval-S demonstrate that ETAMem outperforms state-of-the-art baselines, achieving relative accuracy improvements of 12.46% and 7.96%, respectively, while maintaining competitive token efficiency. Further analyses demonstrate the complementary benefits of different memory views.",
       "abstract_zh": "长期记忆使大型语言模型（LLMs）能够在延续的对话中保持连贯和个性化的互动。然而，现有的记忆系统面临两个主要挑战：（1）信息纠缠，即异构信息混合在粗粒度记忆单元中；（2）组织不匹配，即基于语义相似性构建的记忆结构可能忽视其他关联。为了解决这些挑战，我们提出了ETAMem，一个多视角记忆框架，旨在解耦异构对话信息，并根据其独特特征对记忆表示和组织进行对齐。具体而言，异构信息解析提取原子记忆单元并识别情感信息。视角特定的记忆结构将这些单元组织为三个互补的层次视图：事件、情感和时间。ETAMem通过自适应校准的阈值逐步维护记忆结构。在检索方面，基于熵的检索在视图之间分配查询特定的预算，并在每个视图内执行层次搜索。在LoCoMo和LongMemEval-S上的实验表明，ETAMem在相对准确性上分别超过了最先进的基线，提升幅度为12.46%和7.96%，同时保持了竞争力的令牌效率。进一步的分析展示了不同记忆视图的互补优势。",

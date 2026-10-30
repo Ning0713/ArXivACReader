@@ -1,0 +1,56 @@
+{
+  "abstract": "Argument mining in full-text scholarly articles remains an important yet challenging task. This difficulty stems not only from the need to model long-distance dependencies but also from the substantial effort required to annotate sentence-level argumentative components throughout lengthy documents. To address these challenges, we introduce a novel approach that leverages scientific entity mentions (e.g., tasks, datasets, and models) to identify and structure claims in scholarly literature. We validate our approach through a case study involving 50 full-text research papers on sentiment analysis. We first establish a reliable human gold standard (Krippendorff's $\\alpha = 0.80$), identifying 113 claim-bearing sentences and extracting 199 structured claim records from 300 candidate sentences. To address the annotation bottleneck, we employ a majority-voting ensemble of large language models (LLMs) to generate a silver-standard dataset comprising 1,487 claims. Encoders fine-tuned exclusively on the silver-standard dataset outperform those trained on a small human-annotated gold-standard dataset and demonstrate strong zero-shot transfer to NLP papers outside the training corpus.",
+  "abstract_zh": "在全文学术文章中进行论证挖掘仍然是一项重要而具有挑战性的任务。这一困难不仅源于需要建模长距离依赖关系，还源于在冗长文档中对句子级论证成分进行标注所需的巨大努力。为了解决这些挑战，我们提出了一种新颖的方法，该方法利用科学实体提及（例如，任务、数据集和模型）来识别和构建学术文献中的论点。我们通过对50篇关于情感分析的全文研究论文进行案例研究来验证我们的方法。我们首先建立了一个可靠的人类黄金标准（Krippendorff's $\beta = 0.80$），识别出113个包含论点的句子，并从300个候选句子中提取出199个结构化的论点记录。为了解决标注瓶颈，我们采用了大型语言模型（LLMs）的多数投票集成方法，生成了一个包含1,487个论点的银标准数据集。仅在银标准数据集上微调的编码器在性能上优于那些在小型人类标注的黄金标准数据集上训练的编码器，并在训练语料库之外的自然语言处理论文中表现出强大的零样本迁移能力。",
+  "arxiv_id": "2610.40196",
+  "arxiv_url": "https://arxiv.org/abs/2610.40196v1",
+  "authors": [
+    "Bhuvanesh Verma",
+    "Andy Lüking",
+    "Mounika Marreddy",
+    "Leon Lukas Hammerla",
+    "Alexander Mehler"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-10-30#paper-2610-40196",
+  "categories": [
+    "cs.CL",
+    "cs.IR"
+  ],
+  "fetched_at": "2026-10-30T11:16:35.861895+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.40196v1",
+  "published_at": "2026-10-29T14:50:41Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "large language models",
+      "LLMs",
+      "dataset",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 71.0
+  },
+  "seen_dates": [
+    "2026-10-30"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.40196v1",
+    "axi": "https://paper.axi404.top/daily/2026-10-30"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "Towards Full-Text Scholarly Argument Mining using Entity-Anchored Claim Extraction",
+  "title_zh": "基于实体锚定的论点提取实现全文学术论证挖掘",
+  "translation_url": "https://hjfy.top/arxiv/2610.40196"
+}
