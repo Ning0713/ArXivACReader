@@ -1,0 +1,55 @@
+{
+  "abstract": "Stickers are widely used in social media dialogues to express affect, stance, and intent beyond literal text. Their meanings are often non-literal and context-dependent, making them difficult to handle with generic visual fusion or standalone captioning. We propose Sticker-to-Text Dialogue Reconstruction (S2TDR), a structured multimodal reconstruction framework that converts sticker turns into contextually appropriate textual utterances. S2TDR decomposes sticker interpretation into visual cue extraction, affective-intent inference, and context-aware dialogue reconstruction, using OCR text only as an auxiliary cue when available. The reconstructed dialogue can then be consumed by existing text-based dialogue models. Experiments on sentiment analysis, intent recognition, and dialogue summarization show that S2TDR generally improves multiple downstream models over direct sticker integration methods. Further analyses on component ablations, OCR-empty stickers, and reconstruction quality indicate that structured reconstruction provides an interpretable and effective way to integrate sticker semantics into dialogue understanding.",
+  "abstract_zh": "贴纸在社交媒体对话中被广泛使用，以表达超越字面文本的情感、立场和意图。它们的含义通常是非字面的且依赖于上下文，这使得使用通用视觉融合或独立字幕处理它们变得困难。我们提出了贴纸到文本对话重构（Sticker-to-Text Dialogue Reconstruction, S2TDR），这是一个结构化的多模态重构框架，旨在将贴纸回合转换为上下文适当的文本发言。S2TDR将贴纸解释分解为视觉线索提取、情感意图推断和上下文感知的对话重构，仅在可用时使用光学字符识别（OCR）文本作为辅助线索。重构后的对话可以被现有的基于文本的对话模型使用。在情感分析、意图识别和对话摘要的实验中，S2TDR通常在多个下游模型上优于直接的贴纸集成方法。对组件消融、OCR空贴纸和重构质量的进一步分析表明，结构化重构提供了一种可解释且有效的方式，将贴纸语义整合到对话理解中。",
+  "arxiv_id": "2610.41176",
+  "arxiv_url": "https://arxiv.org/abs/2610.41176v1",
+  "authors": [
+    "Yuanchen Shi",
+    "Fang Kong"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-02#paper-2610-41176",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-02T13:19:32.092080+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.41176v1",
+  "published_at": "2026-10-30T02:57:24Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "affective",
+      "multimodal",
+      "recognition",
+      "dialogue",
+      "多模态",
+      "识别",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-11-02"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.41176v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-02"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "多模态情感",
+      "社交信号"
+    ]
+  },
+  "title": "S2TDR: Structured Multimodal Reconstruction for Sticker-Aware Dialogue Understanding",
+  "title_zh": "S2TDR：面向贴纸的对话理解的结构化多模态重构",
+  "translation_url": "https://hjfy.top/arxiv/2610.41176"
+}

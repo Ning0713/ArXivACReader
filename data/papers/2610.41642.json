@@ -1,0 +1,56 @@
+{
+  "abstract": "We present TADP, a temporally adaptive differential privacy (DP) framework for inference-time privacy-preserving video generation under fixed-length clip-replacement adjacency. TADP uses a dual-branch design to extract identity and expression representations, clips and privatizes both branches with temporally adaptive Gaussian mechanisms whose noise scales depend only on preceding privatized releases within the same clip and are bounded below by history-uniform calibrated minima, and accounts for their joint release via adaptive R\\'{e}nyi Differential Privacy (RDP) composition. The clip-level RDP guarantee is converted to $(\\varepsilon,\\delta)$-differential privacy, while soft quantization and subsequent temporal processing are applied only after privatization as DP post-processing. Experiments on facial expression datasets show reduced identity leakage under evaluated attacks, usable perceptual quality and temporal stability, and high facial expression recognition utility relative to the evaluated privacy-preserving baselines. TADP formally satisfies clip-level DP and empirically provides a favorable privacy--utility trade-off under the evaluated threat models and datasets.",
+  "abstract_zh": "我们提出了TADP，一个用于推理时隐私保护视频生成的时间自适应差分隐私（DP）框架，适用于固定长度剪辑替换邻接。TADP采用双分支设计来提取身份和表情表示，剪辑并对两个分支进行隐私处理，使用时间自适应的高斯机制，其噪声规模仅依赖于同一剪辑内先前的隐私发布，并且下限由历史均匀校准的最小值约束，同时通过自适应Rényi差分隐私（RDP）组合考虑它们的联合发布。剪辑级RDP保证被转换为$( ext{ε}, ext{δ})$-差分隐私，而软量化和后续的时间处理仅在隐私处理后作为DP后处理应用。对面部表情数据集的实验表明，在评估的攻击下身份泄漏减少，感知质量可用且时间稳定性良好，相较于评估的隐私保护基线具有较高的面部表情识别效用。TADP在形式上满足剪辑级DP，并在评估的威胁模型和数据集下经验上提供了良好的隐私-效用权衡。",
+  "arxiv_id": "2610.41642",
+  "arxiv_url": "https://arxiv.org/abs/2610.41642v1",
+  "authors": [
+    "Feng Xu",
+    "Xun Li",
+    "Lars Petersson",
+    "Yulei Sui",
+    "David Ahmedt-Aristizabal",
+    "Dadong Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-02#paper-2610-41642",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-02T13:19:31.978618+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.41642v1",
+  "published_at": "2026-10-30T12:16:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "recognition",
+      "generation",
+      "识别",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 71.0
+  },
+  "seen_dates": [
+    "2026-11-02"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.41642v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-02"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+  "title_zh": "TADP：双分支时间自适应差分隐私用于表达感知的视频匿名化",
+  "translation_url": "https://hjfy.top/arxiv/2610.41642"
+}

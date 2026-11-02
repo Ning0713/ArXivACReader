@@ -1,0 +1,54 @@
+{
+  "abstract": "Variable interaction distances continuously degrade facial resolution in edge-based affective interaction, making low-resolution facial expression recognition (FER) difficult under limited computation. Full-face image or feature restoration incurs substantial overhead, whereas lightweight recognition pipelines may miss local cues that remain discriminative after degradation. We propose STAR-FER, a scale-and-task-adaptive selective restoration framework that balances recognition performance and resource constraints. A lightweight image-scale conditioned Gate jointly predicts a pixel-wise spatial ranking and a continuous restoration budget, then applies exact-support projection to obtain an input-dependent free-form mask. The mask-conditioned restorer retains complete facial context while concentrating sparse restoration and residual insertion on the selected support. Across seven degradation scales from x2 to x8 on the complete RAF-DB test set, STAR-FER achieves 80.92% mean accuracy and 71.64% Macro-F1, improving the low-resolution ResNet-18 baseline by 2.25 and 2.71 percentage points, respectively. It surpasses SR-FER by 1.04 accuracy points while requiring 8.84 GFLOPs, a 54.29% reduction, with 28.01% mean mask coverage, and maintains effective recognition at unseen non-integer scales. These results show that spatial-ranking and continuous-budget driven selective restoration reduces spatial modification and computation while maintaining low-resolution FER performance, offering an efficient path to resource-constrained affective interaction.",
+  "abstract_zh": "可变的交互距离持续降低基于边缘的情感交互中的面部分辨率，使得在计算资源有限的情况下，低分辨率的面部表情识别（FER）变得困难。完整的面部图像或特征恢复会产生大量开销，而轻量级的识别流程可能会错过在降级后仍然具有区分性的局部线索。我们提出了STAR-FER，一个尺度和任务自适应的选择性恢复框架，旨在平衡识别性能和资源限制。轻量级的图像尺度条件门控共同预测逐像素的空间排名和连续的恢复预算，然后应用精确支持投影以获得输入依赖的自由形式掩码。掩码条件的恢复器在集中稀疏恢复和残差插入于选定支持的同时，保留了完整的面部上下文。在完整的RAF-DB测试集上，STAR-FER在从x2到x8的七个降级尺度下实现了80.92%的平均准确率和71.64%的宏观F1分数，分别提高了低分辨率ResNet-18基线2.25和2.71个百分点。它在需要8.84 GFLOPs的情况下超越了SR-FER，准确率提高了1.04个百分点，且减少了54.29%的计算量，平均掩码覆盖率为28.01%，并在未见的非整数尺度下保持有效识别。这些结果表明，基于空间排名和连续预算驱动的选择性恢复在保持低分辨率FER性能的同时，减少了空间修改和计算，提供了一条高效的资源受限情感交互路径。",
+  "arxiv_id": "2610.41310",
+  "arxiv_url": "https://arxiv.org/abs/2610.41310v1",
+  "authors": [
+    "ZhongYang Wu",
+    "ZhenFeng Gan",
+    "Di Zhao",
+    "XiaoJun Zhu",
+    "HouDe Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-02#paper-2610-41310",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-02T13:19:31.964083+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.41310v1",
+  "published_at": "2026-10-30T06:18:27Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "RAF DB",
+      "affective",
+      "recognition",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 91.0
+  },
+  "seen_dates": [
+    "2026-11-02"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.41310v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-02"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": []
+  },
+  "title": "STAR-FER: Adaptive Selective Restoration for Edge-Based Low-Resolution Facial Expression Recognition",
+  "title_zh": "STAR-FER：基于边缘的低分辨率面部表情识别的自适应选择性恢复",
+  "translation_url": "https://hjfy.top/arxiv/2610.41310"
+}

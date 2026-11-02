@@ -1,6 +1,83 @@
 {
-  "generated_at": "2026-10-30T11:16:40.555418+00:00",
+  "generated_at": "2026-11-02T13:19:35.107235+00:00",
   "items": [
+    {
+      "abstract": "We present TADP, a temporally adaptive differential privacy (DP) framework for inference-time privacy-preserving video generation under fixed-length clip-replacement adjacency. TADP uses a dual-branch design to extract identity and expression representations, clips and privatizes both branches with temporally adaptive Gaussian mechanisms whose noise scales depend only on preceding privatized releases within the same clip and are bounded below by history-uniform calibrated minima, and accounts for their joint release via adaptive R\\'{e}nyi Differential Privacy (RDP) composition. The clip-level RDP guarantee is converted to $(\\varepsilon,\\delta)$-differential privacy, while soft quantization and subsequent temporal processing are applied only after privatization as DP post-processing. Experiments on facial expression datasets show reduced identity leakage under evaluated attacks, usable perceptual quality and temporal stability, and high facial expression recognition utility relative to the evaluated privacy-preserving baselines. TADP formally satisfies clip-level DP and empirically provides a favorable privacy--utility trade-off under the evaluated threat models and datasets.",
+      "abstract_zh": "我们提出了TADP，一个用于推理时隐私保护视频生成的时间自适应差分隐私（DP）框架，适用于固定长度剪辑替换邻接。TADP采用双分支设计来提取身份和表情表示，剪辑并对两个分支进行隐私处理，使用时间自适应的高斯机制，其噪声规模仅依赖于同一剪辑内先前的隐私发布，并且下限由历史均匀校准的最小值约束，同时通过自适应Rényi差分隐私（RDP）组合考虑它们的联合发布。剪辑级RDP保证被转换为$( ext{ε}, ext{δ})$-差分隐私，而软量化和后续的时间处理仅在隐私处理后作为DP后处理应用。对面部表情数据集的实验表明，在评估的攻击下身份泄漏减少，感知质量可用且时间稳定性良好，相较于评估的隐私保护基线具有较高的面部表情识别效用。TADP在形式上满足剪辑级DP，并在评估的威胁模型和数据集下经验上提供了良好的隐私-效用权衡。",
+      "authors": [
+        "Feng Xu",
+        "Xun Li",
+        "Lars Petersson",
+        "Yulei Sui",
+        "David Ahmedt-Aristizabal",
+        "Dadong Wang"
+      ],
+      "date": "2026-11-02",
+      "id": "2610.41642",
+      "tags": [
+        "面部表情",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization",
+      "title_zh": "TADP：双分支时间自适应差分隐私用于表达感知的视频匿名化",
+      "url": "/daily/2026-11-02/#paper-2610-41642"
+    },
+    {
+      "abstract": "Variable interaction distances continuously degrade facial resolution in edge-based affective interaction, making low-resolution facial expression recognition (FER) difficult under limited computation. Full-face image or feature restoration incurs substantial overhead, whereas lightweight recognition pipelines may miss local cues that remain discriminative after degradation. We propose STAR-FER, a scale-and-task-adaptive selective restoration framework that balances recognition performance and resource constraints. A lightweight image-scale conditioned Gate jointly predicts a pixel-wise spatial ranking and a continuous restoration budget, then applies exact-support projection to obtain an input-dependent free-form mask. The mask-conditioned restorer retains complete facial context while concentrating sparse restoration and residual insertion on the selected support. Across seven degradation scales from x2 to x8 on the complete RAF-DB test set, STAR-FER achieves 80.92% mean accuracy and 71.64% Macro-F1, improving the low-resolution ResNet-18 baseline by 2.25 and 2.71 percentage points, respectively. It surpasses SR-FER by 1.04 accuracy points while requiring 8.84 GFLOPs, a 54.29% reduction, with 28.01% mean mask coverage, and maintains effective recognition at unseen non-integer scales. These results show that spatial-ranking and continuous-budget driven selective restoration reduces spatial modification and computation while maintaining low-resolution FER performance, offering an efficient path to resource-constrained affective interaction.",
+      "abstract_zh": "可变的交互距离持续降低基于边缘的情感交互中的面部分辨率，使得在计算资源有限的情况下，低分辨率的面部表情识别（FER）变得困难。完整的面部图像或特征恢复会产生大量开销，而轻量级的识别流程可能会错过在降级后仍然具有区分性的局部线索。我们提出了STAR-FER，一个尺度和任务自适应的选择性恢复框架，旨在平衡识别性能和资源限制。轻量级的图像尺度条件门控共同预测逐像素的空间排名和连续的恢复预算，然后应用精确支持投影以获得输入依赖的自由形式掩码。掩码条件的恢复器在集中稀疏恢复和残差插入于选定支持的同时，保留了完整的面部上下文。在完整的RAF-DB测试集上，STAR-FER在从x2到x8的七个降级尺度下实现了80.92%的平均准确率和71.64%的宏观F1分数，分别提高了低分辨率ResNet-18基线2.25和2.71个百分点。它在需要8.84 GFLOPs的情况下超越了SR-FER，准确率提高了1.04个百分点，且减少了54.29%的计算量，平均掩码覆盖率为28.01%，并在未见的非整数尺度下保持有效识别。这些结果表明，基于空间排名和连续预算驱动的选择性恢复在保持低分辨率FER性能的同时，减少了空间修改和计算，提供了一条高效的资源受限情感交互路径。",
+      "authors": [
+        "ZhongYang Wu",
+        "ZhenFeng Gan",
+        "Di Zhao",
+        "XiaoJun Zhu",
+        "HouDe Liu"
+      ],
+      "date": "2026-11-02",
+      "id": "2610.41310",
+      "tags": [
+        "面部表情"
+      ],
+      "title": "STAR-FER: Adaptive Selective Restoration for Edge-Based Low-Resolution Facial Expression Recognition",
+      "title_zh": "STAR-FER：基于边缘的低分辨率面部表情识别的自适应选择性恢复",
+      "url": "/daily/2026-11-02/#paper-2610-41310"
+    },
+    {
+      "abstract": "Stickers are widely used in social media dialogues to express affect, stance, and intent beyond literal text. Their meanings are often non-literal and context-dependent, making them difficult to handle with generic visual fusion or standalone captioning. We propose Sticker-to-Text Dialogue Reconstruction (S2TDR), a structured multimodal reconstruction framework that converts sticker turns into contextually appropriate textual utterances. S2TDR decomposes sticker interpretation into visual cue extraction, affective-intent inference, and context-aware dialogue reconstruction, using OCR text only as an auxiliary cue when available. The reconstructed dialogue can then be consumed by existing text-based dialogue models. Experiments on sentiment analysis, intent recognition, and dialogue summarization show that S2TDR generally improves multiple downstream models over direct sticker integration methods. Further analyses on component ablations, OCR-empty stickers, and reconstruction quality indicate that structured reconstruction provides an interpretable and effective way to integrate sticker semantics into dialogue understanding.",
+      "abstract_zh": "贴纸在社交媒体对话中被广泛使用，以表达超越字面文本的情感、立场和意图。它们的含义通常是非字面的且依赖于上下文，这使得使用通用视觉融合或独立字幕处理它们变得困难。我们提出了贴纸到文本对话重构（Sticker-to-Text Dialogue Reconstruction, S2TDR），这是一个结构化的多模态重构框架，旨在将贴纸回合转换为上下文适当的文本发言。S2TDR将贴纸解释分解为视觉线索提取、情感意图推断和上下文感知的对话重构，仅在可用时使用光学字符识别（OCR）文本作为辅助线索。重构后的对话可以被现有的基于文本的对话模型使用。在情感分析、意图识别和对话摘要的实验中，S2TDR通常在多个下游模型上优于直接的贴纸集成方法。对组件消融、OCR空贴纸和重构质量的进一步分析表明，结构化重构提供了一种可解释且有效的方式，将贴纸语义整合到对话理解中。",
+      "authors": [
+        "Yuanchen Shi",
+        "Fang Kong"
+      ],
+      "date": "2026-11-02",
+      "id": "2610.41176",
+      "tags": [
+        "文本情感",
+        "多模态情感",
+        "社交信号"
+      ],
+      "title": "S2TDR: Structured Multimodal Reconstruction for Sticker-Aware Dialogue Understanding",
+      "title_zh": "S2TDR：面向贴纸的对话理解的结构化多模态重构",
+      "url": "/daily/2026-11-02/#paper-2610-41176"
+    },
+    {
+      "abstract": "Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three audiocapable models on acted, conversational and spontaneous speech (eNTERFACE'05, MELD and CMU-MOSEI). With the model held constant across modalities, incongruence raises the odds of error whenever audio is present, in every corpus, after controlling for the ground-truth emotion and for distance in the feature space. Supervised classifiers trained on the same features behave in the opposite way, which suggests that the difficulty lies in how these models combine raw evidence rather than in the signal itself. Text-only effects are unreliable: swapping only the model that reads the transcript reverses their sign on one corpus. Rebuilding the score without the emotion lexicon reproduces the central result, and among six simpler alternatives it is the only label-free score that predicts error in all three corpora. Code, data tables and prompts are released.",
+      "abstract_zh": "语音交互的大型语言模型处理说话者所说的内容及其表达方式，但这两个通道并不总是一致。我们探讨这种不一致是否会降低语音情感识别的准确性。通过将文本和音频映射到一个共享的情感-唤醒-主导空间，我们将它们之间的距离转换为一个连续的、无阈值的不一致性评分，该评分采用双成分高斯混合模型，并通过与人类判断的对比来验证。我们在表演、对话和自发语音（eNTERFACE'05、MELD 和 CMU-MOSEI）上评估了三种具备音频能力的模型。在保持模型在不同模态间一致的情况下，不一致性在每个语料库中都提高了错误的概率，尤其是在音频存在的情况下，这一结果在控制了真实情感和特征空间距离后依然成立。基于相同特征训练的监督分类器则表现出相反的趋势，这表明问题在于这些模型如何结合原始证据，而不是信号本身。仅基于文本的效果不可靠：仅更换读取转录文本的模型就会在一个语料库中反转其符号。去除情感词典后重建评分仍能再现核心结果，在六种更简单的替代方案中，它是唯一一个在所有三个语料库中预测错误的无标签评分。代码、数据表和提示已发布。",
+      "authors": [
+        "Fengji Jing",
+        "Guy Laban"
+      ],
+      "date": "2026-11-02",
+      "id": "2610.40883",
+      "tags": [
+        "语音情感",
+        "多模态情感",
+        "情绪识别"
+      ],
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "title_zh": "考虑不一致性的多模态语音情感识别评估在音频大型语言模型中的应用",
+      "url": "/daily/2026-11-02/#paper-2610-40883"
+    },
     {
       "abstract": "Argument mining in full-text scholarly articles remains an important yet challenging task. This difficulty stems not only from the need to model long-distance dependencies but also from the substantial effort required to annotate sentence-level argumentative components throughout lengthy documents. To address these challenges, we introduce a novel approach that leverages scientific entity mentions (e.g., tasks, datasets, and models) to identify and structure claims in scholarly literature. We validate our approach through a case study involving 50 full-text research papers on sentiment analysis. We first establish a reliable human gold standard (Krippendorff's $\\alpha = 0.80$), identifying 113 claim-bearing sentences and extracting 199 structured claim records from 300 candidate sentences. To address the annotation bottleneck, we employ a majority-voting ensemble of large language models (LLMs) to generate a silver-standard dataset comprising 1,487 claims. Encoders fine-tuned exclusively on the silver-standard dataset outperform those trained on a small human-annotated gold-standard dataset and demonstrate strong zero-shot transfer to NLP papers outside the training corpus.",
       "abstract_zh": "在全文学术文章中进行论证挖掘仍然是一项重要而具有挑战性的任务。这一困难不仅源于需要建模长距离依赖关系，还源于在冗长文档中对句子级论证成分进行标注所需的巨大努力。为了解决这些挑战，我们提出了一种新颖的方法，该方法利用科学实体提及（例如，任务、数据集和模型）来识别和构建学术文献中的论点。我们通过对50篇关于情感分析的全文研究论文进行案例研究来验证我们的方法。我们首先建立了一个可靠的人类黄金标准（Krippendorff's $\beta = 0.80$），识别出113个包含论点的句子，并从300个候选句子中提取出199个结构化的论点记录。为了解决标注瓶颈，我们采用了大型语言模型（LLMs）的多数投票集成方法，生成了一个包含1,487个论点的银标准数据集。仅在银标准数据集上微调的编码器在性能上优于那些在小型人类标注的黄金标准数据集上训练的编码器，并在训练语料库之外的自然语言处理论文中表现出强大的零样本迁移能力。",

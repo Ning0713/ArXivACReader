@@ -2245,8 +2245,54 @@
         "数据集/评测"
       ],
       "title": "Towards Full-Text Scholarly Argument Mining using Entity-Anchored Claim Extraction"
+    },
+    "2610.40883": {
+      "dates": [
+        "2026-11-02"
+      ],
+      "first_seen": "2026-11-02",
+      "tags": [
+        "语音情感",
+        "多模态情感",
+        "情绪识别"
+      ],
+      "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models"
+    },
+    "2610.41176": {
+      "dates": [
+        "2026-11-02"
+      ],
+      "first_seen": "2026-11-02",
+      "tags": [
+        "文本情感",
+        "多模态情感",
+        "社交信号"
+      ],
+      "title": "S2TDR: Structured Multimodal Reconstruction for Sticker-Aware Dialogue Understanding"
+    },
+    "2610.41310": {
+      "dates": [
+        "2026-11-02"
+      ],
+      "first_seen": "2026-11-02",
+      "tags": [
+        "面部表情"
+      ],
+      "title": "STAR-FER: Adaptive Selective Restoration for Edge-Based Low-Resolution Facial Expression Recognition"
+    },
+    "2610.41642": {
+      "dates": [
+        "2026-11-02"
+      ],
+      "first_seen": "2026-11-02",
+      "tags": [
+        "面部表情",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization"
     }
   },
-  "total": 195,
-  "updated_at": "2026-10-30T11:16:40.555418+00:00"
+  "total": 199,
+  "updated_at": "2026-11-02T13:19:35.107235+00:00"
 }

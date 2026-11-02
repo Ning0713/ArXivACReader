@@ -1,0 +1,66 @@
+{
+  "abstract": "Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three audiocapable models on acted, conversational and spontaneous speech (eNTERFACE'05, MELD and CMU-MOSEI). With the model held constant across modalities, incongruence raises the odds of error whenever audio is present, in every corpus, after controlling for the ground-truth emotion and for distance in the feature space. Supervised classifiers trained on the same features behave in the opposite way, which suggests that the difficulty lies in how these models combine raw evidence rather than in the signal itself. Text-only effects are unreliable: swapping only the model that reads the transcript reverses their sign on one corpus. Rebuilding the score without the emotion lexicon reproduces the central result, and among six simpler alternatives it is the only label-free score that predicts error in all three corpora. Code, data tables and prompts are released.",
+  "abstract_zh": "语音交互的大型语言模型处理说话者所说的内容及其表达方式，但这两个通道并不总是一致。我们探讨这种不一致是否会降低语音情感识别的准确性。通过将文本和音频映射到一个共享的情感-唤醒-主导空间，我们将它们之间的距离转换为一个连续的、无阈值的不一致性评分，该评分采用双成分高斯混合模型，并通过与人类判断的对比来验证。我们在表演、对话和自发语音（eNTERFACE'05、MELD 和 CMU-MOSEI）上评估了三种具备音频能力的模型。在保持模型在不同模态间一致的情况下，不一致性在每个语料库中都提高了错误的概率，尤其是在音频存在的情况下，这一结果在控制了真实情感和特征空间距离后依然成立。基于相同特征训练的监督分类器则表现出相反的趋势，这表明问题在于这些模型如何结合原始证据，而不是信号本身。仅基于文本的效果不可靠：仅更换读取转录文本的模型就会在一个语料库中反转其符号。去除情感词典后重建评分仍能再现核心结果，在六种更简单的替代方案中，它是唯一一个在所有三个语料库中预测错误的无标签评分。代码、数据表和提示已发布。",
+  "arxiv_id": "2610.40883",
+  "arxiv_url": "https://arxiv.org/abs/2610.40883v1",
+  "authors": [
+    "Fengji Jing",
+    "Guy Laban"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-02#paper-2610-40883",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.MM",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-11-02T13:19:32.003564+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2610.40883v1",
+  "published_at": "2026-10-29T19:04:50Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "CMU MOSEI",
+      "MELD",
+      "emotion",
+      "multimodal",
+      "large language models",
+      "recognition",
+      "speech",
+      "audio",
+      "多模态",
+      "识别",
+      "分类",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-02"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2610.40883v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-02"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "多模态情感",
+      "情绪识别"
+    ]
+  },
+  "title": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+  "title_zh": "考虑不一致性的多模态语音情感识别评估在音频大型语言模型中的应用",
+  "translation_url": "https://hjfy.top/arxiv/2610.40883"
+}
