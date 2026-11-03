@@ -1,0 +1,62 @@
+{
+  "abstract": "Multimodal emotion recognition commonly combines textual, acoustic, and visual signals to infer affective states. Recent work has begun to study conflicts among modalities, but a conflict does not necessarily indicate that a person is concealing an emotion. It may also result from mixed emotions, individual expressive styles, or contextual factors. This proposal aims to distinguish ordinary emotional inconsistency from emotion concealment and to infer the underlying emotion when supported by evidence. We plan to construct a multimodal benchmark with explicit annotations of expressed emotion, internal emotion, and concealment conditions, and to develop an MLLM-based framework that integrates fine-grained facial Action Units (AUs), cross-modal features, and temporal context.",
+  "abstract_zh": "多模态情感识别通常结合文本、声学和视觉信号来推断情感状态。近期的研究开始探讨模态之间的冲突，但冲突并不一定表明一个人正在隐藏情感。它也可能源于混合情感、个体表达风格或上下文因素。本提案旨在区分普通情感不一致与情感隐藏，并在有证据支持的情况下推断潜在情感。我们计划构建一个多模态基准，明确标注表达情感、内心情感和隐藏条件，并开发一个基于MLLM（多模态大型语言模型）的框架，整合细粒度面部动作单元（Action Units, AUs）、跨模态特征和时间上下文。",
+  "arxiv_id": "2611.01943",
+  "arxiv_url": "https://arxiv.org/abs/2611.01943v1",
+  "authors": [
+    "Yonghao Wang",
+    "Jiaxin Zhou"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-01943",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.514054+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.01943v1",
+  "published_at": "2026-11-01T14:24:51Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "emotion detection",
+      "情感识别",
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "multimodal",
+      "large language models",
+      "MLLM",
+      "recognition",
+      "detection",
+      "benchmark",
+      "多模态",
+      "识别",
+      "检测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.01943v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "文本情感"
+    ]
+  },
+  "title": "Beyond Multimodal Emotion Conflict: Temporal Context-Aware Hidden Emotion Detection with Multimodal Large Language Models",
+  "title_zh": "超越多模态情感冲突：基于时间上下文的隐性情感检测与多模态大型语言模型",
+  "translation_url": "https://hjfy.top/arxiv/2611.01943"
+}

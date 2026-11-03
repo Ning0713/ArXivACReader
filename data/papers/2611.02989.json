@@ -1,0 +1,54 @@
+{
+  "abstract": "Improving a sentiment classifier with limited resources involves more than simply deciding how much data to collect or which model to train. A labelled collection may lack examples of an important class. Once trained, a classifier may benefit from another model even when that model is weaker on its own. We study these decisions in document-level Entity-Level Sentiment Analysis (ELSA), primarily using South Slavic news. We first compare acquisition orders as collections grow. We then use uncertainty to choose which predictions to revisit, how many to process, and whether an alternative encoder or local LLM can correct them. Finally, we select complete routing policies on development data for held-out evaluation. Minority-prioritised acquisition helps at some very small training sizes, but not consistently thereafter. On SentiCoref, an oracle correcting all errors in the least-confident 10% without harming correct predictions would add 9.14 Macro-F1 points; however the best evaluated action gains only 0.90. Encoder averaging helps on AspectBench and NewsMTSC but harms SentiCoref, where selective LLM assistance is more promising. Both development-selected policies route 30% of records to the encoder-assisted LLM, yielding observed gains of 1.02 points on SentiCoref (interval includes zero) and 1.71 on NewsMTSC, at substantially different inference costs.",
+  "abstract_zh": "在资源有限的情况下，提高情感分类器不仅仅是决定收集多少数据或训练哪个模型。标注的集合可能缺乏重要类别的示例。一旦训练完成，分类器即使在单独使用时表现较弱，也可能受益于其他模型。我们在文档级实体情感分析（Entity-Level Sentiment Analysis, ELSA）中研究这些决策，主要使用南斯拉夫新闻。我们首先比较随着集合增长的获取顺序。然后，我们利用不确定性来选择哪些预测需要重新审视、处理多少以及是否可以通过替代编码器或本地大语言模型（Local LLM）来纠正它们。最后，我们在开发数据上选择完整的路由策略进行保留评估。在一些非常小的训练规模下，优先考虑少数类的获取有帮助，但此后并不一致。在 SentiCoref 上，一个能够纠正所有在最不自信的 10% 中错误的预言者，而不损害正确预测的效果，将增加 9.14 个宏观 F1 点；然而，最佳评估的行动仅获得 0.90。编码器平均在 AspectBench 和 NewsMTSC 上有帮助，但在 SentiCoref 上则有害，选择性 LLM 辅助更具前景。两个开发选择的策略将 30% 的记录路由到编码器辅助的 LLM，观察到在 SentiCoref 上获得 1.02 点的提升（区间包括零）和在 NewsMTSC 上获得 1.71 点的提升，推理成本大相径庭。",
+  "arxiv_id": "2611.02989",
+  "arxiv_url": "https://arxiv.org/abs/2611.02989v1",
+  "authors": [
+    "Nishan Chatterjee",
+    "Matthew Purver",
+    "Antoine Doucet",
+    "Senja Pollak"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-02989",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.682363+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.02989v1",
+  "published_at": "2026-11-02T11:59:44Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "情感分类",
+      "LLM",
+      "分类",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 96.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.02989v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "Finding Errors Is Not Enough: Selective Model Escalation for Entity-Targeted Sentiment Analysis",
+  "title_zh": "发现错误是不够的：面向实体的情感分析的选择性模型升级",
+  "translation_url": "https://hjfy.top/arxiv/2611.02989"
+}

@@ -1,0 +1,54 @@
+{
+  "abstract": "Cross-country sentiment analysis faces three fundamental challenges: language-specific biases distort comparisons, compositional data constraints invalidate standard statistics and temporal dynamics lack rigorous testing frameworks. We introduce sentiment sensing, a framework that addresses these gaps through integrated statistical methods. By combining compositional data analysis, functional data methods, and non-parametric inference, sentiment sensing enables valid multilingual comparisons and statistically defensible detection of sentiment shifts. Our framework has been tested in two case studies, analyzing news articles from the 27 countries of the European Union on the topics of energy and artificial intelligence. Sentiment sensing focuses on multilingual sentiment analysis enabling rigorous comparative science.",
+  "abstract_zh": "跨国情感分析面临三个基本挑战：特定语言的偏见扭曲了比较，组合数据的限制使标准统计失效，时间动态缺乏严格的测试框架。我们提出了情感感知（sentiment sensing），一个通过综合统计方法解决这些问题的框架。通过结合组合数据分析、函数数据方法和非参数推断，情感感知能够实现有效的多语言比较和统计上合理的情感变化检测。我们的框架在两个案例研究中进行了测试，分析了来自欧盟27个国家关于能源和人工智能主题的新闻文章。情感感知专注于多语言情感分析，促进严格的比较科学。",
+  "arxiv_id": "2611.01348",
+  "arxiv_url": "https://arxiv.org/abs/2611.01348v1",
+  "authors": [
+    "Mara Sabina Bernardi",
+    "Elisa Di Nuovo",
+    "Francesca Torti",
+    "Giuseppe Tirone",
+    "Nicolas Stefanovitch",
+    "Zsuzsanna Pasztor",
+    "Charles Macmillan",
+    "Domenico Perrotta",
+    "Bertrand De Longueville"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-01348",
+  "categories": [
+    "cs.CL",
+    "stat.AP"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.640385+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.01348v1",
+  "published_at": "2026-10-31T23:34:38Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "detection",
+      "检测"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 62.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.01348v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": []
+  },
+  "title": "Sentiment sensing: comparative analysis of multilingual sentiment dynamics",
+  "title_zh": "情感感知：多语言情感动态的比较分析",
+  "translation_url": "https://hjfy.top/arxiv/2611.01348"
+}

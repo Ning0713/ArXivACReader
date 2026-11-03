@@ -1,0 +1,65 @@
+{
+  "abstract": "Understanding what happens in a video is not sufficient for socially responsive multimodal systems: such systems also aim to relate what a person observes to how that person responds. Existing video benchmarks largely evaluate events, temporal reasoning, or people depicted in the video, while affective and viewer-response datasets often focus on emotion labels, aggregate responses, or prediction from the stimulus alone. This leaves an underexplored question: can current multimodal models ground an observed viewer reaction in the stimulus context associated with it? We introduce ReactionBench, a human-anchored benchmark for reaction-specific video understanding. Built from a candidate pool of 31,834 synchronized stimulus-reaction clips spanning 433 hours and eight domains, ReactionBench evaluates three complementary abilities: ranking the intensity of a viewer's reactions within a video, matching a reaction to its temporally aligned stimulus, and explaining the concrete stimulus cues linked to that reaction. Human annotation provides 14,894 ratings over 3,257 moments, and the frozen evaluation comprises 250 intensity profiles, 112 matching items, and 200 rationale items with 447 blind-written human references. Across seven multimodal models, reaction-specific grounding remains challenging: the best model reaches 50.9% accuracy on four-way stimulus-reaction matching, while GPT-5 shows no detectable loss under reaction substitution. Performance is also sensitive to evaluation protocol. Project page: https://yibozh.github.io/ReactionBench-page/",
+  "abstract_zh": "理解视频中的事件不足以满足社会响应的多模态系统的需求：这些系统还旨在将一个人观察到的内容与该人如何回应联系起来。现有的视频基准主要评估事件、时间推理或视频中描绘的人物，而情感和观众反应数据集通常集中于情感标签、汇总反应或仅从刺激中进行预测。这留下了一个未被充分探索的问题：当前的多模态模型能否将观察到的观众反应与其相关的刺激上下文相结合？我们提出了ReactionBench，一个专注于反应的视频理解的人为基准。ReactionBench基于31,834个同步的刺激-反应片段，涵盖433小时和八个领域，评估三种互补能力：在视频中对观众反应强度的排名，将反应与其时间上对齐的刺激匹配，以及解释与该反应相关的具体刺激线索。人类注释提供了3,257个时刻的14,894个评分，冻结评估包括250个强度轮廓、112个匹配项目和200个理由项目，附有447个盲写的人类参考。在七个多模态模型中，反应特定的基础仍然具有挑战性：最佳模型在四向刺激-反应匹配上达到50.9%的准确率，而GPT-5在反应替换下没有检测到损失。性能对评估协议也很敏感。项目页面：https://yibozh.github.io/ReactionBench-page/",
+  "arxiv_id": "2611.00050",
+  "arxiv_url": "https://arxiv.org/abs/2611.00050v1",
+  "authors": [
+    "Yibo Zhao",
+    "Ao Qu",
+    "Xuan Jiang",
+    "Jiahao Xu",
+    "Keane Ong",
+    "Hang Jiang",
+    "Zhaofeng Wu",
+    "Dingyi Zhuang",
+    "Yihong Tang",
+    "Kaichen Zhou",
+    "Jinhua Zhao",
+    "Paul Pu Liang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-00050",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.315337+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.00050v1",
+  "published_at": "2026-10-11T06:19:29Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "multimodal",
+      "prediction",
+      "reasoning",
+      "benchmark",
+      "多模态",
+      "检测",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 36.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.00050v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "多模态情感"
+    ]
+  },
+  "title": "ReactionBench: A Human-Anchored Benchmark for Modeling Reactions to Video",
+  "title_zh": "ReactionBench：一个以人为中心的视频反应建模基准",
+  "translation_url": "https://hjfy.top/arxiv/2611.00050"
+}

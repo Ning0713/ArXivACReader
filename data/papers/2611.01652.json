@@ -1,0 +1,61 @@
+{
+  "abstract": "Electroencephalography (EEG) provides a non-invasive means for neurological and mental health assessment, yet existing EEG models are typically developed for individual tasks and are difficult to unify across heterogeneous signal configurations and assessment objectives. Large language models (LLMs) offer a common interface for multiple tasks, but adapting heterogeneous EEG signals to a shared LLM raises a key challenge: how to preserve task-specific signal characteristics while enabling effective language-side parameter sharing. To address this problem, we propose EEG-HealthLLM, a unified and parameter-efficient framework for heterogeneous EEG health assessment. We introduce an Asymmetric Hierarchical Adaptation Strategy: task-specific EEG adapters preserve heterogeneous spatio-temporal dynamics, while a unified shared LoRA is injected into the LLM backbone (e.g., Phi-3) to capture shared high-level assessment semantics across tasks. We further establish EEG-HealthBench by reorganizing five existing EEG resources into paradigms covering epileptic seizure detection, major depressive disorder assessment, anxiety risk assessment, depressive symptom risk assessment, and emotional state assessment under a unified subject-independent protocol. Extensive experiments show that EEG-HealthLLM achieves an average balanced accuracy (BAC) of 69.58%, ranking first among the evaluated methods in both average BAC and macro-F1. Compared with independent single-task LoRA adaptation, it improves average BAC from 67.70% to 69.58% while reducing the aggregate language-side adapter footprint by 80.0%. Further analyses reveal task-dependent cross-task interactions and trade-offs, supporting the proposed hierarchical adaptation strategy. The implementation is publicly available at https://github.com/Marui-88/EEG-HealthLLM.",
+  "abstract_zh": "脑电图（EEG）提供了一种非侵入性的神经和心理健康评估手段，但现有的EEG模型通常是针对单一任务开发的，难以在异构信号配置和评估目标之间实现统一。大语言模型（LLMs）为多任务提供了一个共同接口，但将异构EEG信号适配到共享的LLM中面临一个关键挑战：如何在有效的语言侧参数共享的同时，保留任务特定的信号特征。为了解决这个问题，我们提出了EEG-HealthLLM，这是一个用于异构EEG健康评估的统一且参数高效的框架。我们引入了一种不对称的分层适应策略：任务特定的EEG适配器保留异构的时空动态，而统一的共享LoRA被注入到LLM主干（例如，Phi-3）中，以捕捉跨任务的共享高层评估语义。我们进一步通过将五个现有EEG资源重新组织为涵盖癫痫发作检测、重度抑郁症评估、焦虑风险评估、抑郁症状风险评估和情绪状态评估的范式，建立了EEG-HealthBench，采用统一的无关主题协议。大量实验表明，EEG-HealthLLM在平均平衡准确率（BAC）上达到了69.58%，在评估的所有方法中在平均BAC和宏F1上均排名第一。与独立的单任务LoRA适配相比，它将平均BAC从67.70%提高到69.58%，同时将语言侧适配器的整体占用减少了80.0%。进一步分析揭示了任务依赖的跨任务交互和权衡，支持所提出的分层适应策略。该实现已在https://github.com/Marui-88/EEG-HealthLLM上公开发布。",
+  "arxiv_id": "2611.01652",
+  "arxiv_url": "https://arxiv.org/abs/2611.01652v1",
+  "authors": [
+    "Ruidong Ma",
+    "Jisheng Dang",
+    "Ronghao Lin",
+    "Bimei Wang",
+    "Jingwen Zhao",
+    "Wenjun Ma",
+    "Wei-Shi Zheng",
+    "Meng Wang",
+    "Qi Tian",
+    "Tat-Seng Chua"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-01652",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.649724+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.01652v1",
+  "published_at": "2026-11-01T07:01:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "情绪",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "detection",
+      "EEG",
+      "检测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.01652v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型",
+      "生理信号"
+    ]
+  },
+  "title": "EEG-HealthLLM: Hierarchical Adaptation of Large Language Models for Unified Heterogeneous EEG Health Assessment",
+  "title_zh": "EEG-HealthLLM：大语言模型的分层适应用于统一异构脑电图健康评估",
+  "translation_url": "https://hjfy.top/arxiv/2611.01652"
+}

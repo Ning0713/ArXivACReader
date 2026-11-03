@@ -1,0 +1,50 @@
+{
+  "abstract": "The scarcity of human-annotated literary corpora limits the development of domain-specific sentiment analysis models. This study investigates whether LLM-generated annotations can supervise smaller models for literary sentiment analysis. We fine-tune five BERT models using ordinal regression on 10,889 literary sentences annotated by Gemma 4 31B on a ten-point sentiment scale. The models are evaluated against 1,923 human-annotated sentences from Hemingway's \"The Old Man and the Sea\", alongside the teacher model and conventional baselines. BERT-large achieves a Kendall's $\\tau$ of 0.589, approaching the teacher's 0.604. Although a constant-neutral predictor achieves the lowest overall mean absolute error (MAE), BERT-base outperforms the teacher on non-neutral sentences, achieving an MAE of 0.726 versus 1.116. These findings demonstrate the potential of LLM-generated supervision for developing smaller literary sentiment models, while highlighting the limitations of aggregate error metrics on predominantly neutral datasets.",
+  "abstract_zh": "人类注释的文学语料库稀缺限制了特定领域情感分析模型的发展。本研究探讨了大型语言模型（LLM）生成的注释是否可以监督较小的模型进行文学情感分析。我们对使用Gemma 4 31B在十点情感评分上标注的10,889个文学句子进行了五个BERT模型的序数回归微调。模型的评估基于来自海明威《老人与海》的1,923个人工标注句子，以及教师模型和传统基线。BERT-large的Kendall's τ为0.589，接近教师模型的0.604。尽管常数中性预测器的总体平均绝对误差（MAE）最低，但BERT-base在非中性句子上的表现优于教师模型，MAE为0.726，而教师模型为1.116。这些发现展示了LLM生成的监督在开发较小的文学情感模型中的潜力，同时突显了在以中性数据集为主的情况下，聚合误差指标的局限性。",
+  "arxiv_id": "2611.02985",
+  "arxiv_url": "https://arxiv.org/abs/2611.02985v1",
+  "authors": [
+    "Artem Suslov",
+    "Takehiro Hashimoto"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-02985",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.681872+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.02985v1",
+  "published_at": "2026-11-02T11:56:12Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "LLM",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 65.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.02985v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "数据集/评测"
+    ]
+  },
+  "title": "Distilling Literary Sentiment from LLM Annotations into an Ordinal BERT Model",
+  "title_zh": "从大型语言模型注释中提炼文学情感至序数BERT模型",
+  "translation_url": "https://hjfy.top/arxiv/2611.02985"
+}

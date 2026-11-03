@@ -1,0 +1,65 @@
+{
+  "abstract": "Understanding emotion in realistic social interactions requires more than recognizing facial expressions or assigning affective labels. The same event can elicit different emotions depending on what each participant knows, what they believe others know or feel, and how these nested mental states evolve over time. Existing benchmarks largely study higher-order epistemic Theory of Mind (ToM) and multimodal emotion reasoning in isolation, leaving recursive affective reasoning under asymmetric and dynamically changing information underexplored. Therefore, we introduce AffToM, a benchmark for affective ToM with 1,922 test pairs and 19,759 training pairs. AffToM evaluates Individual Affective Reasoning (IAR), which infers emotions from events and socio-cognitive context, and Multi-party Affective Reasoning (MPAR), which recursively tracks participants' nested beliefs and emotions as new evidence emerges. We develop an event-driven multi-agent generation pipeline grounded in dynamic character interaction graphs that explicitly capture event sequences, interpersonal relations, and mental-state updates. Furthermore, we propose AffToM-R1, a two-stage post-training framework combining supervised fine-tuning with perspective-aware rubric-guided reinforcement learning. Experiments show that MPAR remains challenging, with even the strongest evaluated MLLM achieving less than 60% accuracy, while AffToM-R1 improves MPAR accuracy by 13.38 percentage points over its base model. Our dataset is available at: https://github.com/MindIntLab-HFUT/AffToM.",
+  "abstract_zh": "理解现实社会互动中的情感不仅仅需要识别面部表情或赋予情感标签。同一事件可能会根据每个参与者所知、他们相信他人所知或感受的内容，以及这些嵌套的心理状态如何随时间演变而引发不同的情感。现有的基准测试主要孤立地研究高阶认知心智理论（ToM）和多模态情感推理，导致在不对称和动态变化的信息下的递归情感推理研究不足。因此，我们引入了AffToM，这是一个包含1,922个测试对和19,759个训练对的情感心智理论基准。AffToM评估个体情感推理（IAR），即从事件和社会认知背景中推断情感，以及多方情感推理（MPAR），即在新证据出现时递归追踪参与者的嵌套信念和情感。我们开发了一个基于动态角色互动图的事件驱动多智能体生成管道，明确捕捉事件序列、人际关系和心理状态更新。此外，我们提出了AffToM-R1，一个结合监督微调与基于视角的评分指导强化学习的两阶段后训练框架。实验表明，MPAR仍然具有挑战性，即使是评估中最强的多语言大模型（MLLM）也仅达到不到60%的准确率，而AffToM-R1在其基础模型上提高了13.38个百分点的MPAR准确率。我们的数据集可在以下网址获取：https://github.com/MindIntLab-HFUT/AffToM。",
+  "arxiv_id": "2611.02725",
+  "arxiv_url": "https://arxiv.org/abs/2611.02725v1",
+  "authors": [
+    "Jinpeng Hu",
+    "Yiduo Jin",
+    "Erqiang Wang",
+    "Jia Li",
+    "Jingjing Wu",
+    "Peipei Song"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-02725",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.543195+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.02725v1",
+  "published_at": "2026-11-02T08:19:23Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion reasoning",
+      "emotion",
+      "emotions",
+      "affective",
+      "multimodal",
+      "MLLM",
+      "reasoning",
+      "generation",
+      "benchmark",
+      "dataset",
+      "多模态",
+      "大模型",
+      "识别",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 79.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.02725v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "多模态情感",
+      "情感大模型"
+    ]
+  },
+  "title": "AffToM: Benchmarking Recursive Affective Theory of Mind in Dynamic Multi-Party Interactions",
+  "title_zh": "AffToM：动态多方互动中递归情感心智理论的基准测试",
+  "translation_url": "https://hjfy.top/arxiv/2611.02725"
+}

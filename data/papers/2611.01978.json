@@ -1,0 +1,58 @@
+{
+  "abstract": "Automated pain recognition is a fundamental challenge for the advancement of clinical care and empathetic human-computer interaction, due to the subjective and dynamic nature of pain. In this study, we propose a deep learning framework for objective pain assessment based on multimodal physiological signals from the AI4Pain dataset. The approach focuses on Blood Volume Pulse (BVP) and Respiration (RESP), capturing complementary aspects of autonomic responses to nociceptive stimulation. To explicitly model their temporal dynamics, the signals are transformed into structured trajectory representations using Hankel matrix embeddings, enabling the learning of dynamical patterns beyond conventional time-series representations. These embeddings are processed by modality-specific Fully Convolutional Networks, and their outputs are integrated through a late fusion strategy for three-class classification (No Pain, Low Pain, High Pain). Experimental results demonstrate that the proposed method achieves an accuracy of 67.09% and an F1-score of 66.41%, providing competitive performance compared to existing approaches, while relying on no handcrafted feature engineering. Multimodal fusion significantly outperformed either modality alone, and the Hankel embedding showed a trend towards further improvement. Further validation is required to establish generalisability to broader populations and clinical settings.",
+  "abstract_zh": "自动化疼痛识别是临床护理和富有同情心的人机交互发展的一个基本挑战，因为疼痛的主观性和动态特性。在本研究中，我们提出了一种基于AI4Pain数据集中多模态生理信号的深度学习框架，用于客观疼痛评估。该方法重点关注血容量脉搏（BVP）和呼吸（RESP），捕捉自主反应对伤害刺激的互补方面。为了明确建模它们的时间动态，这些信号通过Hankel矩阵嵌入转换为结构化轨迹表示，从而能够学习超越传统时间序列表示的动态模式。这些嵌入通过特定模态的全卷积网络进行处理，并通过后期融合策略整合其输出，以进行三类分类（无痛、轻度疼痛、高度疼痛）。实验结果表明，所提出的方法实现了67.09%的准确率和66.41%的F1-score，提供了与现有方法相比具有竞争力的性能，同时不依赖于任何手工特征工程。多模态融合显著优于单一模态，Hankel嵌入显示出进一步改善的趋势。需要进一步验证以建立对更广泛人群和临床环境的普遍适用性。",
+  "arxiv_id": "2611.01978",
+  "arxiv_url": "https://arxiv.org/abs/2611.01978v1",
+  "authors": [
+    "Valentina Becchetti",
+    "Muhammad Umar Khan",
+    "Stefanos Gkikas",
+    "Alessandro Giuseppi",
+    "Raul Fernandez Rojas"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-01978",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.403818+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.01978v1",
+  "published_at": "2026-11-01T15:15:56Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathetic",
+      "multimodal",
+      "recognition",
+      "classification",
+      "dataset",
+      "physiological",
+      "deep learning",
+      "多模态",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.01978v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "生理信号",
+      "共情交互"
+    ]
+  },
+  "title": "Multimodal BVP and Respiration for Automated Pain Recognition with Hankel-FCN",
+  "title_zh": "基于Hankel-FCN的多模态血容量脉搏和呼吸信号自动化疼痛识别",
+  "translation_url": "https://hjfy.top/arxiv/2611.01978"
+}

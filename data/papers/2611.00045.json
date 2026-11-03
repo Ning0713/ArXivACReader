@@ -1,0 +1,52 @@
+{
+  "abstract": "Facial expression recognition (FER) systems are increasingly used in elder care, yet their accuracy on older faces is rarely measured. This study evaluated five open-source FER models on the FACES database, which holds 2,052 posed photographs of 171 adults aged 19 to 80. The models cross three architectures (ResNet-18, POSTER++ and QCS) with two training datasets (RAF-DB and AffectNet). All models lost accuracy on older faces by 11.7 to 15.2 percentage points. Older faces were harder for people too: human raters lost 8.6 points, a classifier using only facial geometry lost 8.3, and for anger, fear, and happiness older adults differed more from one another when posing. On specific expressions the models fell much further than people did. AffectNet-trained models misread older neutral faces as sad or angry 62% of the time. RAF-DB-trained models lost fear, disgust, and anger instead. The gap persisted after controlling for architecture, image quality, cropping, and expression intensity. When only the final classification layer was refitted on older faces, the gap shrank from 11 to 21 points to 4 points or less, suggesting that the models' learned features can represent older faces and that the deficit lies in how the final layer was trained.",
+  "abstract_zh": "面部表情识别（FER）系统在老年护理中越来越多地被使用，但其在老年面孔上的准确性却很少被测量。本研究评估了五个开源FER模型在FACES数据库上的表现，该数据库包含171名年龄在19至80岁之间的成人的2052张摆姿照片。这些模型跨越三种架构（ResNet-18、POSTER++和QCS），并使用两个训练数据集（RAF-DB和AffectNet）。所有模型在老年面孔上的准确性下降了11.7到15.2个百分点。人类评估者在识别老年面孔时的准确性也下降了8.6个百分点，仅使用面部几何特征的分类器下降了8.3个百分点，并且在愤怒、恐惧和快乐的表情中，老年人之间的差异更大。在特定表情上，模型的表现远低于人类。AffectNet训练的模型将老年中性面孔错误识别为悲伤或愤怒的比例高达62%。而RAF-DB训练的模型则在恐惧、厌恶和愤怒的识别上表现不佳。即使在控制了架构、图像质量、裁剪和表情强度后，这一差距依然存在。当仅对最终分类层在老年面孔上进行重新训练时，差距从11到21个百分点缩小至4个百分点或更少，这表明模型学习的特征能够代表老年面孔，而问题出在最终层的训练方式上。",
+  "arxiv_id": "2611.00045",
+  "arxiv_url": "https://arxiv.org/abs/2611.00045v1",
+  "authors": [
+    "Jessica Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-00045",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.312749+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.00045v1",
+  "published_at": "2026-10-08T23:07:57Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "AffectNet",
+      "RAF DB",
+      "recognition",
+      "classification",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.00045v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Faces or Models? Where the Age Gap in Facial Expression Recognition Comes From",
+  "title_zh": "面孔还是模型？面部表情识别中的年龄差距来源",
+  "translation_url": "https://hjfy.top/arxiv/2611.00045"
+}

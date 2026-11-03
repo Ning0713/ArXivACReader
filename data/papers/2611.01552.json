@@ -1,0 +1,59 @@
+{
+  "abstract": "Goal pursuit in open-ended dialogue requires agents to adapt their actions to interaction feedback across successive exchanges. We investigate whether agentic capabilities developed for multi-step tool use carry over to dialogue organized through the model's native tool interface, and how this changes interaction behavior. We define Tool-Mediated Interaction (TMI) as a training-free protocol that represents dialogue actions as tool calls and counterpart responses as tool results, maintaining a continuous reasoning-action-observation loop with retained reasoning and interaction history. We evaluate TMI across social interaction, emotional support, persuasion, and price negotiation using two models and 15,678 main-experiment episodes. Across both models, TMI improves social goal attainment, emotional-support preference, donation amounts, and buyer negotiation margins over conversational baselines with and without thinking. A Qwen ablation further shows that TMI outperforms ordinary conversation with retained reasoning on all four primary outcomes. Behavioral analyses associate the improvements with task-specific patterns in initial proposals and responses to interaction feedback. Alongside these gains, TMI reduces mean reasoning tokens per decision by 42.0-81.5% relative to the thinking baseline and lowers mean cross-turn phrase reuse across all eight model-environment pairs. These findings show that interaction organization shapes both goal attainment and reasoning across dialogue turns.",
+  "abstract_zh": "在开放式对话中，目标追求要求代理根据连续交流的反馈调整其行动。我们研究了为多步骤工具使用开发的代理能力是否能够转移到通过模型的原生工具接口组织的对话中，以及这如何改变互动行为。我们将工具中介互动（Tool-Mediated Interaction, TMI）定义为一种无训练协议，该协议将对话行为表示为工具调用，将对方响应表示为工具结果，保持一个连续的推理-行动-观察循环，并保留推理和互动历史。我们使用两个模型和15,678个主要实验回合评估TMI在社交互动、情感支持、劝说和价格谈判中的表现。在两个模型中，TMI在社交目标达成、情感支持偏好、捐赠金额和买方谈判利润方面，相较于有无思考的对话基线均有所提升。Qwen消融实验进一步表明，TMI在所有四个主要结果上均优于保留推理的普通对话。行为分析将这些改进与初始提案和对互动反馈的响应中的任务特定模式相关联。除了这些收益，TMI还相较于思考基线将每个决策的平均推理令牌减少了42.0%-81.5%，并降低了所有八个模型-环境对中的平均跨轮短语重用。这些发现表明，互动组织在对话轮次中塑造了目标达成和推理。",
+  "arxiv_id": "2611.01552",
+  "arxiv_url": "https://arxiv.org/abs/2611.01552v1",
+  "authors": [
+    "Mingyu Chen",
+    "Jingkai Lin",
+    "Xiaofen Xing",
+    "Liankai Huang",
+    "Ruiqi Xiong",
+    "Xiangmin Xu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-01552",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.647619+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.01552v1",
+  "published_at": "2026-11-01T04:23:27Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional",
+      "large language models",
+      "reasoning",
+      "dialogue",
+      "conversation",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.01552v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "社交信号",
+    "secondary": [
+      "情感大模型",
+      "共情交互"
+    ]
+  },
+  "title": "Can Large Language Models Extend Their Agentic Capabilities to Goal Pursuit in Open-Ended Multi-Turn Interaction?",
+  "title_zh": "大型语言模型能否将其代理能力扩展到开放式多轮互动中的目标追求？",
+  "translation_url": "https://hjfy.top/arxiv/2611.01552"
+}

@@ -1,0 +1,54 @@
+{
+  "abstract": "Nowadays, interaction with AI requires caution not only regarding the factual reliability of generated content but also regarding personality markers that models may implicitly transmit during dialogue that can subtly influence users' perception of information. In this paper, we conduct a large-scale experimental study in which 22 large language models complete 11 psychological inventories. Furthermore, we investigate correlations between human and model responses to track the adjustments made for the users who interact with them on a daily basis. The results show that LLMs exhibit coherent and relatively stable psychological patterns. Personality traits remain largely consistent, whereas emotional and symptomatic dimensions are more variable, with anxiety and neuroticism emerging as dominant tendencies. Model explanations further suggest that LLMs generate internally consistent and safety-oriented profiles while also reflecting correlations with the users they regularly interact with.",
+  "abstract_zh": "如今，与人工智能的互动不仅需要谨慎对待生成内容的事实可靠性，还需要关注模型在对话中可能隐含传递的人格特征，这些特征可能会微妙地影响用户对信息的感知。本文进行了一项大规模实验研究，22个大型语言模型完成了11个心理测评。此外，我们还研究了人类与模型响应之间的相关性，以追踪与其日常互动的用户所做的调整。结果表明，大型语言模型表现出一致且相对稳定的心理模式。人格特征基本保持一致，而情感和症状维度则更为多变，焦虑和神经质成为主导倾向。模型的解释进一步表明，大型语言模型生成内部一致且以安全为导向的画像，同时也反映出与其定期互动的用户之间的相关性。",
+  "arxiv_id": "2611.02757",
+  "arxiv_url": "https://arxiv.org/abs/2611.02757v1",
+  "authors": [
+    "Polina Fedorinina",
+    "Anna Fattakhova",
+    "Nadezhda Romanova",
+    "Ekaterina Lezina",
+    "Irina Nikishina"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-02757",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.543703+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.02757v1",
+  "published_at": "2026-11-02T08:39:40Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "dialogue",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.02757v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Is your LLM an Agressive Narcissist with Depression? Analyzing Psychological Portraits of Large Language Models",
+  "title_zh": "你的大型语言模型是一个具有攻击性自恋和抑郁的个体吗？对大型语言模型心理画像的分析",
+  "translation_url": "https://hjfy.top/arxiv/2611.02757"
+}

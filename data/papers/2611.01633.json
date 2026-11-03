@@ -1,0 +1,54 @@
+{
+  "abstract": "Depression affects millions of Bengali speakers across South Asia, yet automated detection systems have relied almost entirely on datasets translated from English. Such datasets cannot capture the emoticons, romanized Bengali words, and elongated spellings that characterize real expressions of distress. We introduce BanglishDepYT, a Bengali depression dataset collected natively from YouTube, comprising 191,000 unlabeled comments and 1,000 samples verified through dual bilingual annotation. We propose EPH (Emotion-Preserving Hybrid preprocessing), which converts emoticons to semantic tags, preserves Banglish tokens, protects negation words, and normalizes emotional elongation. A key finding is that preprocessing choice substantially affects performance on informal text: standard cleaning reduces the Banglish Survival Rate to zero (SVM F1: 0.7062), while EPH preserves signals (CESS: 0.9996 vs. 0.6694) and raises SVM F1 to 0.8570, an improvement of 0.1508. We further apply domain-adaptive pretraining (DAPT), continuing SahajBERT pretraining on unlabeled in-domain comments. DAPT-SahajBERT achieves the highest mean F1 (0.8161) and MCC (0.6272), significantly outperforming the baseline (F1: 0.7805, p = 0.0013, d = 1.450) and matching MuRIL (p = 0.589). These results suggest that targeted domain pretraining is a competitive alternative to large-scale multilingual pretraining. LLM-assisted annotation using Qwen2.5-7B achieves substantial human agreement (kappa = 0.611), enabling pseudo-labeling of 96,071 comments. Semi-supervised training improves AUC from 0.8499 to 0.8731 (p = 0.044), offering a scalable path to expanding annotation. All code, models, and datasets are publicly released to support reproducible research.",
+  "abstract_zh": "抑郁症影响着南亚数百万孟加拉语使用者，但自动检测系统几乎完全依赖于从英语翻译而来的数据集。这些数据集无法捕捉到真实痛苦表达中所特有的表情符号、罗马化的孟加拉词汇和延长拼写。我们引入了BanglishDepYT，这是一个从YouTube本土收集的孟加拉抑郁数据集，包含191,000条未标记的评论和1,000个通过双语标注验证的样本。我们提出了EPH（情感保留混合预处理），该方法将表情符号转换为语义标签，保留Banglish标记，保护否定词，并规范化情感延长。一个关键发现是，预处理选择对非正式文本的性能有显著影响：标准清理将Banglish生存率降低至零（SVM F1: 0.7062），而EPH保留了信号（CESS: 0.9996对比0.6694），并将SVM F1提升至0.8570，改进幅度为0.1508。我们进一步应用领域自适应预训练（DAPT），在未标记的领域内评论上继续SahajBERT的预训练。DAPT-SahajBERT实现了最高的平均F1（0.8161）和MCC（0.6272），显著优于基线（F1: 0.7805, p = 0.0013, d = 1.450），并与MuRIL相匹配（p = 0.589）。这些结果表明，针对特定领域的预训练是大规模多语言预训练的一个有竞争力的替代方案。使用Qwen2.5-7B的LLM辅助标注实现了显著的人类一致性（kappa = 0.611），使得96,071条评论的伪标注成为可能。半监督训练将AUC从0.8499提高到0.8731（p = 0.044），为扩展标注提供了可扩展的路径。所有代码、模型和数据集均已公开发布，以支持可重复的研究。",
+  "arxiv_id": "2611.01633",
+  "arxiv_url": "https://arxiv.org/abs/2611.01633v1",
+  "authors": [
+    "Ayon Roy",
+    "Sadman Sharif",
+    "Syed Shams Islam"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-03#paper-2611-01633",
+  "categories": [
+    "cs.CL",
+    "cs.CY",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-03T12:42:38.649185+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.01633v1",
+  "published_at": "2026-11-01T06:37:38Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "LLM",
+      "detection",
+      "dataset",
+      "检测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-03"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.01633v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-03"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "数据集/评测",
+      "面部表情"
+    ]
+  },
+  "title": "BanglishDepYT: Depression Detection in Native Bengali Social Media with Emotion-Preserving Preprocessing and Domain-Adaptive Pretraining",
+  "title_zh": "BanglishDepYT：基于情感保留预处理和领域自适应预训练的本土孟加拉社交媒体抑郁检测",
+  "translation_url": "https://hjfy.top/arxiv/2611.01633"
+}

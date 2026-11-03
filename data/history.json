@@ -2291,8 +2291,157 @@
         "数据集/评测"
       ],
       "title": "TADP: Dual-Branch Temporally Adaptive Differential Privacy for Expression-Aware Video Anonymization"
+    },
+    "2611.00045": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "Faces or Models? Where the Age Gap in Facial Expression Recognition Comes From"
+    },
+    "2611.00050": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "数据集/评测",
+        "多模态情感"
+      ],
+      "title": "ReactionBench: A Human-Anchored Benchmark for Modeling Reactions to Video"
+    },
+    "2611.01348": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "Sentiment sensing: comparative analysis of multilingual sentiment dynamics"
+    },
+    "2611.01552": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "社交信号",
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "Can Large Language Models Extend Their Agentic Capabilities to Goal Pursuit in Open-Ended Multi-Turn Interaction?"
+    },
+    "2611.01626": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "情感生成"
+      ],
+      "title": "Special and General Computational Aesthetics"
+    },
+    "2611.01633": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "心理状态/福祉",
+        "数据集/评测",
+        "面部表情"
+      ],
+      "title": "BanglishDepYT: Depression Detection in Native Bengali Social Media with Emotion-Preserving Preprocessing and Domain-Adaptive Pretraining"
+    },
+    "2611.01652": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "生理信号"
+      ],
+      "title": "EEG-HealthLLM: Hierarchical Adaptation of Large Language Models for Unified Heterogeneous EEG Health Assessment"
+    },
+    "2611.01943": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "Beyond Multimodal Emotion Conflict: Temporal Context-Aware Hidden Emotion Detection with Multimodal Large Language Models"
+    },
+    "2611.01978": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "多模态情感",
+        "生理信号",
+        "共情交互"
+      ],
+      "title": "Multimodal BVP and Respiration for Automated Pain Recognition with Hankel-FCN"
+    },
+    "2611.02725": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "AffToM: Benchmarking Recursive Affective Theory of Mind in Dynamic Multi-Party Interactions"
+    },
+    "2611.02757": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型"
+      ],
+      "title": "Is your LLM an Agressive Narcissist with Depression? Analyzing Psychological Portraits of Large Language Models"
+    },
+    "2611.02985": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Distilling Literary Sentiment from LLM Annotations into an Ordinal BERT Model"
+    },
+    "2611.02989": {
+      "dates": [
+        "2026-11-03"
+      ],
+      "first_seen": "2026-11-03",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "Finding Errors Is Not Enough: Selective Model Escalation for Entity-Targeted Sentiment Analysis"
     }
   },
-  "total": 199,
-  "updated_at": "2026-11-02T13:19:35.107235+00:00"
+  "total": 212,
+  "updated_at": "2026-11-03T12:42:45.952596+00:00"
 }
