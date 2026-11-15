@@ -25,6 +25,8 @@ class UpdateReport:
     source_url: str = ""
     warnings: list[str] = field(default_factory=list)
     changed: bool = False
+    updated_dates: list[str] = field(default_factory=list)
+    upstream_latest: str = ""
 
     def to_dict(self) -> dict[str, object]:
         return asdict(self)
@@ -45,6 +47,49 @@ class UpdatePipeline:
             domain_name=self.plugin.display_name,
             allowed_tags=self.plugin.tags,
         )
+
+    def sync(
+        self,
+        until: str,
+        *,
+        since: str | None = None,
+        dry_run: bool = False,
+    ) -> UpdateReport:
+        """Fill missing published dates, including days missed by scheduled runs."""
+        validate_date(until)
+        if since:
+            validate_date(since)
+            if since > until:
+                raise ValueError("--since must not be later than --until")
+        report = UpdateReport(status="unchanged", date=until)
+        report.source_url = f"{self.config.sources.axi_base_url.rstrip('/')}/api/dates"
+        try:
+            available = [day for day in self.axi.available_dates() if day <= until]
+        except Exception as exc:
+            report.status = "failed"
+            report.warnings.append(f"Unable to list Axi dates: {exc}")
+            return report
+        existing = set(self.repository.dates())
+        report.upstream_latest = max(available, default="")
+        start = since or min(existing, default=report.upstream_latest or until)
+        targets = sorted(day for day in available if start <= day and day not in existing)
+        for day in targets:
+            result = self.run(day, dry_run=dry_run)
+            report.candidate_count += result.candidate_count
+            report.selected_count += result.selected_count
+            report.raw_count += result.raw_count
+            report.warnings.extend(f"{day}: {warning}" for warning in result.warnings)
+            if result.status == "failed":
+                report.status = "failed"
+                return report
+            if result.changed or result.status == "preview":
+                report.updated_dates.append(day)
+                report.changed = report.changed or result.changed
+        if report.updated_dates:
+            report.status = "preview" if dry_run else "updated"
+        elif dry_run:
+            report.status = "preview"
+        return report
 
     def run(
         self,

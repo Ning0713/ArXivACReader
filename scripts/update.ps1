@@ -9,4 +9,5 @@ $args = @("-m", "adpaper", "--config", $Config, "update", "--date", $Date)
 if ($Force) { $args += "--force" }
 if ($AllowArxivDiscovery) { $args += "--allow-arxiv-discovery" }
 python @args
+exit $LASTEXITCODE
 

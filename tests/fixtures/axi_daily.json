@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-13",
+  "format": 2,
+  "total_papers": 2,
+  "status": {"done_at": "2026-11-13T07:50:34"},
+  "papers_by_category": {
+    "cs.CV": [
+      {
+        "arxiv_id": "2611.14685v2",
+        "title": "Multimodal Emotion Recognition",
+        "authors": ["Jane Doe", "Alex Smith"],
+        "abstract": "An affective computing benchmark for multimodal emotion recognition.",
+        "title_zh": null,
+        "abstract_zh": null,
+        "categories": ["cs.CV"],
+        "primary_category": "cs.CV",
+        "published": "2026-11-13",
+        "kind": "new"
+      }
+    ],
+    "cs.CL": [
+      {
+        "arxiv_id": "2611.14685",
+        "title": "Multimodal Emotion Recognition",
+        "abstract": "An affective computing benchmark for multimodal emotion recognition.",
+        "title_zh": "多模态情绪识别",
+        "abstract_zh": "面向情感计算的多模态情绪识别基准。",
+        "hjfy_url": "https://hjfy.top/arxiv/2611.14685",
+        "kind": "cross"
+      },
+      {
+        "arxiv_id": "2611.14686",
+        "title": "Efficient Matrix Multiplication",
+        "authors": [],
+        "abstract": "We optimize numerical matrix multiplication.",
+        "kind": "new"
+      }
+    ]
+  }
+}

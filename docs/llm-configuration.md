@@ -92,7 +92,7 @@ Remove-Item Env:LLM_MODEL -ErrorAction SilentlyContinue
 - 填有真实值的 `.env`、YAML、JSON 或脚本；
 - 包含密钥的终端输出、Actions 日志、截图或调试文件；
 - 将密钥嵌入 `site/`、HTML、JavaScript 或其他浏览器可下载文件的代码；
-- 个人聊天记录、QQ Bot 凭据或本地工作区内容。
+- 个人聊天记录、服务凭据或本地工作区内容。
 
 提交前至少执行：
 

@@ -1,7 +1,7 @@
 # Contributing
 
 Bug reports and pull requests are welcome. Please keep changes reproducible
-without private API keys and do not commit raw personal AutoClaw workspaces,
+without private API keys and do not commit raw personal workspaces,
 chat history, tokens, PDFs, or generated caches.
 
 Before opening a pull request:

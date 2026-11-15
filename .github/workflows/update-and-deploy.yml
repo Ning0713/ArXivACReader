@@ -6,12 +6,14 @@ on:
   schedule:
     # GitHub cron uses UTC: 05:00 UTC is 13:00 on weekdays in Asia/Shanghai.
     - cron: "0 5 * * 1-5"
+    # Retry after upstream publication; sync skips dates already stored.
+    - cron: "17 9 * * 1-5"
   workflow_dispatch:
     inputs:
       date:
-        description: "Target date (YYYY-MM-DD or today)"
+        description: "auto = sync missing published dates; or YYYY-MM-DD / today"
         required: false
-        default: "today"
+        default: "auto"
         type: string
       force:
         description: "Refetch an existing date"
@@ -42,7 +44,7 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     outputs:
       should_deploy: ${{ steps.deployment-plan.outputs.should_deploy }}
       target_date: ${{ steps.update.outputs.target_date }}
@@ -61,7 +63,7 @@ jobs:
         id: update
         if: ${{ github.event_name != 'push' }}
         env:
-          TARGET_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.date || 'today' }}
+          TARGET_DATE: ${{ github.event_name == 'workflow_dispatch' && inputs.date || 'auto' }}
           FORCE_UPDATE: ${{ github.event_name == 'workflow_dispatch' && inputs.force || 'false' }}
           DRY_RUN: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run || 'false' }}
           ARXIV_FALLBACK: ${{ github.event_name == 'workflow_dispatch' && inputs.allow_arxiv_discovery || 'false' }}
@@ -69,14 +71,18 @@ jobs:
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
         run: |
-          args=(--date "$TARGET_DATE")
-          if [[ "$FORCE_UPDATE" == "true" ]]; then args+=(--force); fi
-          if [[ "$ARXIV_FALLBACK" == "true" ]]; then args+=(--allow-arxiv-discovery); fi
+          if [[ "$TARGET_DATE" == "auto" ]]; then
+            args=(sync --until today)
+          else
+            args=(update --date "$TARGET_DATE")
+            if [[ "$FORCE_UPDATE" == "true" ]]; then args+=(--force); fi
+            if [[ "$ARXIV_FALLBACK" == "true" ]]; then args+=(--allow-arxiv-discovery); fi
+          fi
           if [[ "$DRY_RUN" == "true" ]]; then args+=(--dry-run); fi
           report_file="$RUNNER_TEMP/adpaper-update-report.json"
           : > "$report_file"
           set +e
-          python -m adpaper update "${args[@]}" >"$report_file"
+          python -m adpaper "${args[@]}" >"$report_file"
           exit_code=$?
           set -e
           cat "$report_file"
@@ -99,6 +105,7 @@ jobs:
               echo "- Status: \`$status\`"
               echo "- Candidates: \`$candidate_count\`; selected: \`$selected_count\`"
               echo "- Changed data: \`$changed\`"
+              jq -r '"- Upstream latest: " + (.upstream_latest // ""), "- Updated dates: " + ((.updated_dates // []) | join(", "))' "$report_file"
               if [[ "$status" == "failed" ]]; then
                 echo "- Warnings:"
                 jq -r '.warnings[]? | "  - " + .' "$report_file"
@@ -111,6 +118,9 @@ jobs:
             echo "### Paper update" >> "$GITHUB_STEP_SUMMARY"
             echo "Update command did not produce a valid JSON report." >> "$GITHUB_STEP_SUMMARY"
           fi
+          # Defend against a CLI regression or invalid report turning a failed
+          # source fetch into a green run with deployment silently skipped.
+          if [[ "${status:-failed}" == "failed" ]]; then exit 1; fi
           exit "$exit_code"
       - name: Stop after preview
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.dry_run }}

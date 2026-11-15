@@ -2,7 +2,7 @@
 
 ## Sensitive information
 
-Do not report or commit API keys, QQ bot credentials, GitHub tokens, private
+Do not report or commit API keys, service credentials, GitHub tokens, private
 chat logs, or local filesystem paths. Use GitHub Security Advisories for a
 security issue in the code, or open a minimal issue without sensitive data for
 operational problems.
@@ -16,11 +16,6 @@ for setup instructions and the pre-commit checklist.
 Forks do not inherit repository Secrets. Contributors must use their own API
 credentials for local testing and must keep changes reproducible when no LLM
 credential is available.
-
-## AutoClaw
-
-The AutoClaw integration intentionally accepts only a fixed command set and
-must never be changed to pass arbitrary QQ text to a shell.
 
 ## Reporting and credential exposure
 

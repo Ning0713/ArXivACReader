@@ -4,13 +4,10 @@ import argparse
 import json
 import logging
 import sys
-from dataclasses import asdict
 from datetime import datetime
-from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from adpaper.config import load_config
-from adpaper.migration import migrate
 from adpaper.pipeline import UpdatePipeline
 from adpaper.site import SiteBuilder
 from adpaper.storage import Repository, validate_date
@@ -38,15 +35,17 @@ def build_parser() -> argparse.ArgumentParser:
     update.add_argument("--allow-arxiv-discovery", action="store_true")
     update.add_argument("--dry-run", action="store_true")
 
+    sync = sub.add_parser("sync", help="Update missing dates published by Axi")
+    sync.add_argument("--since", type=_date_arg)
+    sync.add_argument("--until", default="today", type=_date_arg)
+    sync.add_argument("--dry-run", action="store_true")
+
     build = sub.add_parser("build", help="Render the static site")
     build.set_defaults(command="build")
 
     validate = sub.add_parser("validate", help="Validate stored data")
     validate.set_defaults(command="validate")
 
-    migration = sub.add_parser("migrate", help="Import an existing AutoClaw workspace")
-    migration.add_argument("--legacy-root", required=True, type=Path)
-    migration.add_argument("--no-refetch", action="store_true")
     return parser
 
 
@@ -56,6 +55,11 @@ def main(argv: list[str] | None = None) -> int:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     config = load_config(args.config)
     pipeline = UpdatePipeline(config)
+
+    if args.command == "sync":
+        report = pipeline.sync(args.until, since=args.since, dry_run=args.dry_run)
+        print(json.dumps(report.to_dict(), ensure_ascii=False, indent=2))
+        return 0 if report.status in {"updated", "unchanged", "preview"} else 1
 
     if args.command == "update":
         report = pipeline.run(
@@ -81,11 +85,6 @@ def main(argv: list[str] | None = None) -> int:
             return 1
         print(json.dumps({"status": "valid"}, ensure_ascii=False))
         return 0
-
-    if args.command == "migrate":
-        report = migrate(args.legacy_root, pipeline, refetch=not args.no_refetch)
-        print(json.dumps({"status": "migrated", **asdict(report)}, ensure_ascii=False, indent=2))
-        return 0 if not report.warnings else 0
 
     parser.error(f"Unknown command: {args.command}")
     return 2
