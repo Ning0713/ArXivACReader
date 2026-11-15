@@ -1,0 +1,56 @@
+{
+  "abstract": "User-generated videos, including opinion vlogs and video reviews, provide a rich source of people's attitudes toward products, services, and social topics. Understanding the sentiment expressed by speakers is important for analyzing online opinions, as transcripts alone may not capture the attitude and intensity conveyed through vocal tone and facial expressions. Multimodal sentiment analysis (MSA) addresses this need by integrating textual, acoustic, and visual cues. However, these cues are often subtle, noisy, and inconsistent across modalities. Existing local affective cue modeling methods typically operate within individual modalities and overlook global contexts from other modalities. This may cause cross-modal affective cue inconsistency. Hierarchical global-local fusion methods integrate global semantics with fine-grained local affective cues. However, they commonly determine the relative contributions of the two representations implicitly, preventing the global-local contributions from adapting to the sample-dependent reliability of local cues and resulting in either insufficient use of informative local cues or excessive interference from unreliable ones. To address these issues, we propose DGC-Net, a Dynamic Gating and Global-Guided Compensation Network for MSA. DGC-Net mitigates cross-modal affective cue inconsistency through cross-modal contribution-aware dynamic expert routing. This mechanism uses auxiliary global contexts to guide local expert selection. Moreover, global-guided dynamic compensation fusion alleviates sample-dependent global-local contribution imbalance while preserving global semantic as the primary anchor and adaptively incorporating expert-refined local cues. Experiments on five multimodal benchmark datasets demonstrate the effectiveness and general applicability of DGC-Net, and ablation studies verify the contribution of each proposed component.",
+  "abstract_zh": "用户生成的视频，包括意见博客和视频评论，为人们对产品、服务和社会话题的态度提供了丰富的来源。理解发言者表达的情感对于分析在线意见至关重要，因为仅仅依靠文字记录可能无法捕捉通过声调和面部表情传达的态度和强度。多模态情感分析（MSA）通过整合文本、声学和视觉线索来满足这一需求。然而，这些线索往往是微妙的、嘈杂的，并且在不同模态之间不一致。现有的局部情感线索建模方法通常在单一模态内操作，忽视了来自其他模态的全局上下文。这可能导致跨模态情感线索的不一致。分层全局-局部融合方法将全局语义与细粒度的局部情感线索整合在一起。然而，它们通常隐式地确定这两种表征的相对贡献，导致全局-局部贡献无法适应局部线索的样本依赖可靠性，从而导致信息丰富的局部线索使用不足或不可靠线索的过度干扰。为了解决这些问题，我们提出了DGC-Net，一种用于MSA的动态门控和全局引导补偿网络。DGC-Net通过跨模态贡献感知的动态专家路由来减轻跨模态情感线索的不一致性。该机制利用辅助全局上下文来指导局部专家的选择。此外，全局引导的动态补偿融合缓解了样本依赖的全局-局部贡献不平衡，同时保留全局语义作为主要锚点，并自适应地整合专家精炼的局部线索。在五个多模态基准数据集上的实验表明了DGC-Net的有效性和广泛适用性，消融研究验证了每个提出组件的贡献。",
+  "arxiv_id": "2611.04841",
+  "arxiv_url": "https://arxiv.org/abs/2611.04841",
+  "authors": [
+    "Linan Zhu",
+    "Huaijing Wu",
+    "Xiao Han",
+    "Yuhao Wang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-04",
+  "categories": [
+    "cs.AI",
+    "cs.MM"
+  ],
+  "fetched_at": "2026-11-15T03:54:39.840788+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.04841",
+  "published_at": "2026-11-04",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "affective",
+      "multimodal",
+      "benchmark",
+      "多模态",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-11-04"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-04",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-04"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "多模态情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "DGC-Net: Cross-Modal Dynamic Routing with Global-Guided Compensation in Multimodal Sentiment Analysis",
+  "title_zh": "DGC-Net：在多模态情感分析中的跨模态动态路由与全局引导补偿",
+  "translation_url": "https://hjfy.top/arxiv/2611.04841"
+}

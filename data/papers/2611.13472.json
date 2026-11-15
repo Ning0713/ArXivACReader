@@ -1,0 +1,59 @@
+{
+  "abstract": "Co-speech gestures can increase engagement and improve speech understanding. Yet, most data-driven robot systems generate either rhythmic beat-like motion or semantically meaningful iconic gestures, but not both. We present an emotion-aware rhythmic-semantic co-speech gesture system that generates iconic and beat behaviors in real time from text and the robot's internal emotional state. We formalize the task of beat-iconic gesture generation using emotion and propose lightweight models that predict iconic timing and intensity, then fill the remaining spans with emotion-conditioned beats at an appropriate intensity level. We train on the BEAT2 dataset and deploy the system on the social robot Haru. In an online user study with 60 participants, our method shows stronger speech-gesture alignment and is preferred over baseline methods.",
+  "abstract_zh": "共语手势可以增加参与感并改善语音理解。然而，大多数基于数据的机器人系统要么生成节奏感的打击动作，要么生成具有语义意义的标志性手势，但两者兼而有之的情况较少。我们提出了一种情感感知的节奏-语义共语手势系统，该系统能够实时从文本和机器人的内部情感状态生成标志性和节奏行为。我们通过情感形式化了节奏-标志性手势生成的任务，并提出了轻量级模型来预测标志性手势的时机和强度，然后以适当的强度水平填充剩余的时间段，以情感为条件生成节奏。我们在BEAT2数据集上进行训练，并将该系统部署在社交机器人Haru上。在一项包含60名参与者的在线用户研究中，我们的方法显示出更强的语音-手势对齐，并且优于基线方法。",
+  "arxiv_id": "2611.13472",
+  "arxiv_url": "https://arxiv.org/abs/2611.13472",
+  "authors": [
+    "Christian Arzate Cruz",
+    "Edwin C. Montiel-Vázquez",
+    "Stefanos Gkikas",
+    "Miguel Mejia Tobar",
+    "Randy Gomez"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-11",
+  "categories": [
+    "cs.RO"
+  ],
+  "fetched_at": "2026-11-15T04:00:22.126796+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.13472",
+  "published_at": "2026-11-11",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion aware",
+      "emotion",
+      "emotional",
+      "generation",
+      "dialogue",
+      "dataset",
+      "speech",
+      "预测",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 61.0
+  },
+  "seen_dates": [
+    "2026-11-11"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-11",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-11"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "Rhythmic-Semantic Co-Speech Gestures for Emotional Dialogue in Robots",
+  "title_zh": "机器人情感对话中的节奏-语义共语手势",
+  "translation_url": "https://hjfy.top/arxiv/2611.13472"
+}

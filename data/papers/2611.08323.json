@@ -1,0 +1,53 @@
+{
+  "abstract": "Sentiment Analysis (SA) is a fundamental NLP task concerned with the identification and categorization of subjective information in text. While lexicon-based methods offer transparency, they often struggle with linguistic phenomena such as negation and intensification. Syntactic parsing has been integrated into SA pipelines to address this, but conventional parsers introduce significant computational overhead. Recent work shows that reformulating dependency parsing as a Sequence Labeling (SEL) task can improve efficiency. We propose and compare two strategies for integrating syntactic knowledge into a neural sentiment analysis model under unified Multi-Task Learning (MTL). The first, Standard-MTL, jointly learns dependency parsing (via sequence labeling) and sentiment polarity classification using a shared encoder with two task-specific heads. The second, Contrastive-MTL, provides implicit syntactic guidance through a contrastive auxiliary objective and a syntax-biased attention pooling mechanism, without requiring explicit label prediction. Both rely on syntactic annotations during training and eliminate need for hand-crafted compositional rules or external parsing at inference. We evaluate eleven datasets spanning seven languages---the MARC corpus (English, Spanish, French, German) and seven datasets from SemEval-2022 Task 10 (English, Spanish, Norwegian, Basque, Catalan)---using four established SEL encodings. With the relative encoding, Contrastive-MTL outperforms a syntax-naive baseline on 10 of 11 datasets and surpasses the external rule-based pipeline (SELSP) that parses at inference on all six datasets where the latter applies, while being 1.5--9$\\times$ faster at evaluation. Standard-MTL is more dataset- and encoding-dependent. These results show implicit syntactic supervision during training can match or exceed explicit parsing at inference without computational overhead.",
+  "abstract_zh": "情感分析（SA）是自然语言处理（NLP）中的一项基础任务，涉及对文本中主观信息的识别和分类。虽然基于词典的方法提供了透明性，但它们在处理否定和强化等语言现象时常常面临困难。语法解析已被整合到情感分析流程中以解决这一问题，但传统解析器引入了显著的计算开销。最近的研究表明，将依存解析重新表述为序列标注（SEL）任务可以提高效率。我们提出并比较了两种将语法知识整合到统一的多任务学习（MTL）神经情感分析模型中的策略。第一种是标准多任务学习（Standard-MTL），它通过共享编码器和两个特定任务的头部，联合学习依存解析（通过序列标注）和情感极性分类。第二种是对比多任务学习（Contrastive-MTL），通过对比辅助目标和语法偏向的注意力池化机制提供隐式语法指导，而无需显式标签预测。两者在训练过程中都依赖于语法注释，并消除了在推理时对手工构造的组合规则或外部解析的需求。我们评估了涵盖七种语言的十一组数据集——MARC 语料库（英语、西班牙语、法语、德语）和来自 SemEval-2022 任务 10 的七个数据集（英语、西班牙语、挪威语、巴斯克语、加泰罗尼亚语）——使用四种已建立的 SEL 编码。在相对编码下，对比多任务学习在 11 个数据集中的 10 个上超越了无语法基线，并在所有六个适用数据集上超过了在推理时进行解析的外部基于规则的管道（SELSP），同时在评估时速度提高了 1.5 到 9 倍。标准多任务学习则更依赖于数据集和编码。这些结果表明，在训练过程中进行隐式语法监督可以在不增加计算开销的情况下，与推理时的显式解析相匹配或超越。",
+  "arxiv_id": "2611.08323",
+  "arxiv_url": "https://arxiv.org/abs/2611.08323",
+  "authors": [
+    "Muhammad Imran",
+    "Carlos Gómez-Rodríguez"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-06",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T03:56:48.222836+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.08323",
+  "published_at": "2026-11-06",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "classification",
+      "prediction",
+      "dataset",
+      "识别",
+      "分类",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-11-06"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-06",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Polarity Classification with Multitask Learning Syntax Augmentation",
+  "title_zh": "基于多任务学习的极性分类与语法增强",
+  "translation_url": "https://hjfy.top/arxiv/2611.08323"
+}

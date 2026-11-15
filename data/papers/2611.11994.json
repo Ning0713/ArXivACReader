@@ -1,0 +1,64 @@
+{
+  "abstract": "Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which runs such a model, the frozen student, inside a harness: the prompts, settings, and verification code around its calls. A human-written starting harness, the scaffold, numbers the student's visual observations, transcript, and prosody descriptions as citable evidence and has the student weigh candidate emotions against it. In Meta-Harness Evolving (MHE), a stronger LLM, the Builder, reads the student's errors and execution traces offline and edits the harness; static checks and validation gates decide which edits are kept, and the Builder never sees evaluation items. On 5,507 MME-Emotion items, EmoHarness raises task-macro Recognition by 7.6-13.4 points over a single video-only call for all four students and both Builders. Transcripts and prosody descriptions supply most of this boost (+5.38 to +10.71); the scaffold changes the audio-augmented call by -0.79 to +2.54, partly through extra multi-label predictions, and evolved edits add at most +0.95, although no evolved increment survives Holm correction. The harness's emotion context also transfers to IntentQA, with small gains for three of four students, none of which survives correction. EmoHarness thus boosts small multimodal students chiefly by supplying and organizing audio-derived evidence.",
+  "abstract_zh": "当语言、声音和视觉线索相互冲突时，小型多模态模型可能会误判情感。我们提出了EmoHarness，它在一个哈希框架内运行这样的模型，即冻结的学生模型：围绕其调用的提示、设置和验证代码。一个人类编写的起始哈希框架，即支架，给学生的视觉观察、转录和韵律描述编号，作为可引用的证据，并让学生根据这些证据权衡候选情感。在元哈希演化（Meta-Harness Evolving, MHE）中，一个更强大的大语言模型（LLM），即构建者（Builder），离线读取学生的错误和执行轨迹，并编辑哈希框架；静态检查和验证门决定保留哪些编辑，而构建者从未看到评估项目。在5507个MME-Emotion项目中，EmoHarness使任务宏观识别率提高了7.6-13.4个百分点，适用于所有四个学生和两个构建者。转录和韵律描述提供了大部分提升（+5.38到+10.71）；支架将音频增强调用的变化范围调整为-0.79到+2.54，部分原因是额外的多标签预测，而演化编辑最多增加+0.95，尽管没有演化增量经过Holm校正。哈希框架的情感上下文也转移到IntentQA，三个学生有小幅提升，但没有一个经过校正。因此，EmoHarness主要通过提供和组织音频衍生证据来提升小型多模态学生的表现。",
+  "arxiv_id": "2611.11994",
+  "arxiv_url": "https://arxiv.org/abs/2611.11994",
+  "authors": [
+    "Fenghai Li",
+    "Bingxuan Li",
+    "Jiawen Zhang",
+    "Yifan Shen",
+    "Jiateng Liu",
+    "Yutong Zhang",
+    "Yue Guo"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.887453+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.11994",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion understanding",
+      "情感理解",
+      "emotion",
+      "emotions",
+      "multimodal",
+      "LLM",
+      "recognition",
+      "audio",
+      "多模态",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 89.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving",
+  "title_zh": "EmoHarness：通过元哈希演化提升多模态情感理解",
+  "translation_url": "https://hjfy.top/arxiv/2611.11994"
+}

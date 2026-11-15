@@ -1,0 +1,56 @@
+{
+  "abstract": "Animal focused computer vision datasets are of a growing interest in the fields of both Computer Vision and Animal behaviour. The ability to make sense of complex scenes via a variety of Computer Vision tasks has substantial implications for behavioural understanding and welfare. The perfection of these tasks will help lead to better health and emotional outcomes for wild and domestic animals. In this work we present the Cat Royale Comprehensive Dataset (CRCD), a large, comprehensive, multi-modal dataset for feline understanding, based on a huge database of over 500 hours of video captured during the Cat Royale artwork and research project. Our dataset contains annotations for a range of computer vision problems including 20,000 images with instance segmentation masks, 5000 images with multi-subject pose coordinates, over 800 video clips with action classes, and over 800 clips with detailed text description. This is the first such dataset to link this wide range of annotation types together for multi-modal use. We release this entire dataset, and our custom annotation tools will also be made available, in order to allow for ongoing expansion. We also provide a series of benchmarks for the tasks of Instance Segmentation, Pose detection, Temporal Action Localisation, and finally video-text retrieval. The totality of this multi-modal dataset is the data needed to solve both these individual computer vision tasks as well as enabling more complex multi-modal tasks making use of a combination of annotations.",
+  "abstract_zh": "以动物为中心的计算机视觉数据集在计算机视觉和动物行为领域越来越受到关注。通过各种计算机视觉任务理解复杂场景的能力对行为理解和动物福利具有重要影响。这些任务的完善将有助于改善野生和家养动物的健康和情感结果。在本研究中，我们介绍了猫王综合数据集（Cat Royale Comprehensive Dataset, CRCD），这是一个大型、全面的多模态数据集，旨在促进对猫科动物的理解，基于在猫王艺术和研究项目中捕获的超过500小时的视频构建而成。我们的数据集包含一系列计算机视觉问题的注释，包括20,000张带有实例分割掩码的图像、5,000张带有多主体姿态坐标的图像、超过800个带有动作类别的视频片段，以及超过800个带有详细文本描述的片段。这是第一个将如此广泛的注释类型链接在一起以供多模态使用的数据集。我们将发布整个数据集，并提供我们的自定义注释工具，以便进行持续扩展。我们还提供了一系列基准，用于实例分割、姿态检测、时间动作定位以及视频-文本检索等任务。这个多模态数据集的整体性为解决这些单独的计算机视觉任务提供了所需的数据，同时也使得利用组合注释进行更复杂的多模态任务成为可能。",
+  "arxiv_id": "2611.15601",
+  "arxiv_url": "https://arxiv.org/abs/2611.15601",
+  "authors": [
+    "Zane K. J. Hartley",
+    "Joseph Ho",
+    "Alan Chamberlain",
+    "Michael P. Pound",
+    "Steve Benford"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-13",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-15T04:01:04.562428+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.15601",
+  "published_at": "2026-11-13",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "multi modal",
+      "recognition",
+      "detection",
+      "dataset",
+      "多模态",
+      "识别",
+      "检测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-11-13"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-13",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-13"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "多模态情感",
+      "文本情感"
+    ]
+  },
+  "title": "Cat Royale Comprehensive Dataset: A Dataset for Pose Detection, Segmentation, Animal Action Recognition and Scene Understanding",
+  "title_zh": "猫王综合数据集：用于姿态检测、分割、动物行为识别和场景理解的数据集",
+  "translation_url": "https://hjfy.top/arxiv/2611.15601"
+}

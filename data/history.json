@@ -2440,8 +2440,400 @@
         "数据集/评测"
       ],
       "title": "Finding Errors Is Not Enough: Selective Model Escalation for Entity-Targeted Sentiment Analysis"
+    },
+    "2611.04627": {
+      "dates": [
+        "2026-11-04"
+      ],
+      "first_seen": "2026-11-04",
+      "tags": [
+        "情感大模型",
+        "语音情感",
+        "心理状态/福祉"
+      ],
+      "title": "Evaluating LLMs as Judges of Counterspeech Quality Against Online Hate Speech"
+    },
+    "2611.04841": {
+      "dates": [
+        "2026-11-04"
+      ],
+      "first_seen": "2026-11-04",
+      "tags": [
+        "文本情感",
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "DGC-Net: Cross-Modal Dynamic Routing with Global-Guided Compensation in Multimodal Sentiment Analysis"
+    },
+    "2611.05383": {
+      "dates": [
+        "2026-11-05"
+      ],
+      "first_seen": "2026-11-05",
+      "tags": [
+        "共情交互",
+        "情感生成"
+      ],
+      "title": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue"
+    },
+    "2611.05711": {
+      "dates": [
+        "2026-11-05"
+      ],
+      "first_seen": "2026-11-05",
+      "tags": [
+        "面部表情",
+        "心理状态/福祉"
+      ],
+      "title": "Self-Supervised Pretraining for Label-Efficient Facial Expression Recognition using Smart Glasses"
+    },
+    "2611.05895": {
+      "dates": [
+        "2026-11-05"
+      ],
+      "first_seen": "2026-11-05",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Information-Matched Auditing of Conversational Emotion-Shift Forecasting: A Leakage-Safe Evaluation Protocol"
+    },
+    "2611.05896": {
+      "dates": [
+        "2026-11-05"
+      ],
+      "first_seen": "2026-11-05",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Selective, Risk-Controlled Emotion Forecasting in Conversation: From a Persistence Barrier to Departure Detection with Conformal Guarantees"
+    },
+    "2611.06518": {
+      "dates": [
+        "2026-11-05"
+      ],
+      "first_seen": "2026-11-05",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL"
+    },
+    "2611.07554": {
+      "dates": [
+        "2026-11-06"
+      ],
+      "first_seen": "2026-11-06",
+      "tags": [
+        "共情交互",
+        "鲁棒性/偏差"
+      ],
+      "title": "The Memory Trap: Language Agents Overgeneralize from Benign Interactions"
+    },
+    "2611.07836": {
+      "dates": [
+        "2026-11-06"
+      ],
+      "first_seen": "2026-11-06",
+      "tags": [
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "THG-Omni: Traceable Human-Centric Graph Supervision for Video Reasoning"
+    },
+    "2611.08138": {
+      "dates": [
+        "2026-11-06"
+      ],
+      "first_seen": "2026-11-06",
+      "tags": [
+        "面部表情",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "Describe Your Facial Expressions by Linking Image Encoders and Large Language Models"
+    },
+    "2611.08323": {
+      "dates": [
+        "2026-11-06"
+      ],
+      "first_seen": "2026-11-06",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Polarity Classification with Multitask Learning Syntax Augmentation"
+    },
+    "2611.08398": {
+      "dates": [
+        "2026-11-06"
+      ],
+      "first_seen": "2026-11-06",
+      "tags": [
+        "多模态情感"
+      ],
+      "title": "A Multimodal Haptic Interface for Simultaneous Softness and Thermal Modulation"
+    },
+    "2611.08683": {
+      "dates": [
+        "2026-11-09"
+      ],
+      "first_seen": "2026-11-09",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "文本情感"
+      ],
+      "title": "Compression of Emotion in Language Model Representations"
+    },
+    "2611.08860": {
+      "dates": [
+        "2026-11-09"
+      ],
+      "first_seen": "2026-11-09",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "Mind the Divergence: Divergence-Guided Reliability-Aware Fusion and Adaptive LLM Prompting for Conversational Emotion Recognition"
+    },
+    "2611.09074": {
+      "dates": [
+        "2026-11-09"
+      ],
+      "first_seen": "2026-11-09",
+      "tags": [
+        "情感生成",
+        "语音情感"
+      ],
+      "title": "Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control"
+    },
+    "2611.09900": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "情绪识别"
+      ],
+      "title": "KR A1: Design and Preliminary Evaluation of a Humanoid-Robot Interaction Prototype Integrating Personalized Voice Synthesis, Contextual Dialogue, and Emotion-Aware Response Generation"
+    },
+    "2611.09941": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "心理状态/福祉",
+        "社交信号",
+        "数据集/评测"
+      ],
+      "title": "Topic-Aware Multi-Task Mental Health Classification with Active Learning-Based Stepwise Relabeling for Social Media Conversations"
+    },
+    "2611.10097": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "情绪识别",
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "A Privacy-Aware Deep Learning Benchmark for Facial Emotion Recognition"
+    },
+    "2611.10109": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "社交信号"
+      ],
+      "title": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit"
+    },
+    "2611.10797": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "情绪识别",
+        "心理状态/福祉",
+        "文本情感"
+      ],
+      "title": "Adapting Large Language Models via Multi-Task Learning for Mental Health Problem, Emotion, and Sentiment Detection"
+    },
+    "2611.11064": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "GARP: Real-Time Generative Agents on Local Hardware in a Game Engine"
+    },
+    "2611.11573": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "Beyond the Transcript: Measuring and Improving the Use of Acoustic Information in Audio Language Models"
+    },
+    "2611.11843": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "Aggregation-Induced Calibration Failure in Sum-Based Label Expansion for Multi-Label Facial Expression Recognition: A Diagnostic Study"
+    },
+    "2611.11907": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "Layer Roles Matter: Mitigating Modality Imbalance in Multimodal Emotion Reasoning via Adaptive Layer Profiling"
+    },
+    "2611.11987": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "语音情感",
+        "数据集/评测",
+        "多模态情感"
+      ],
+      "title": "When Audio and Video Mislead: Evaluating Multimodal AI for Conversational Emotion Recognition"
+    },
+    "2611.11994": {
+      "dates": [
+        "2026-11-10"
+      ],
+      "first_seen": "2026-11-10",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving"
+    },
+    "2611.13012": {
+      "dates": [
+        "2026-11-11"
+      ],
+      "first_seen": "2026-11-11",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "khammoon: From a Linguistic Guideline to a Thai Morpheme Segmenter"
+    },
+    "2611.13472": {
+      "dates": [
+        "2026-11-11"
+      ],
+      "first_seen": "2026-11-11",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Rhythmic-Semantic Co-Speech Gestures for Emotional Dialogue in Robots"
+    },
+    "2611.13744": {
+      "dates": [
+        "2026-11-11"
+      ],
+      "first_seen": "2026-11-11",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Do Language Models Feel the Sentiment? Investigating Emotion Vectors"
+    },
+    "2611.14247": {
+      "dates": [
+        "2026-11-11"
+      ],
+      "first_seen": "2026-11-11",
+      "tags": [
+        "面部表情",
+        "社交信号"
+      ],
+      "title": "Personalized Affective Perception via Continual Learning in Human-Agent Negotiation"
+    },
+    "2611.15306": {
+      "dates": [
+        "2026-11-13"
+      ],
+      "first_seen": "2026-11-13",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "语音情感"
+      ],
+      "title": "Beyond the Explicit: Benchmarking and Detecting Implicit Harm in Short Videos"
+    },
+    "2611.15601": {
+      "dates": [
+        "2026-11-13"
+      ],
+      "first_seen": "2026-11-13",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "文本情感"
+      ],
+      "title": "Cat Royale Comprehensive Dataset: A Dataset for Pose Detection, Segmentation, Animal Action Recognition and Scene Understanding"
+    },
+    "2611.15655": {
+      "dates": [
+        "2026-11-13"
+      ],
+      "first_seen": "2026-11-13",
+      "tags": [
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Can Agents Relive Past Experiences? Diagnosing Event-Affect Decoupling in Affective-Episodic Retrospection"
+    },
+    "2611.16647": {
+      "dates": [
+        "2026-11-13"
+      ],
+      "first_seen": "2026-11-13",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "心理状态/福祉"
+      ],
+      "title": "InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling"
     }
   },
-  "total": 212,
-  "updated_at": "2026-11-03T12:42:45.952596+00:00"
+  "total": 246,
+  "updated_at": "2026-11-15T04:01:47.025573+00:00"
 }

@@ -1,0 +1,66 @@
+{
+  "abstract": "Multimodal emotion recognition in conversations (MERC) integrates textual, acoustic, and visual cues to identify utterance-level emotions. However, existing approaches generally do not explicitly adapt multimodal processing to the degree of inter-modal predictive disagreement. In real conversations, semantic incongruity, concealed emotion, noisy observations, and ambiguity can affect modality-specific emotional evidence differently, while the reliability of individual modalities varies across samples. Rather than identifying each source of inconsistency separately, we model their common consequence for emotion recognition as predictive disagreement among unimodal emotion distributions over the same emotion-label set. Such disagreement makes indiscriminate fusion prone to propagating unreliable or competing evidence. Inspired by the Brunswik Lens Model, we propose MiD-ERC, a divergence-centric framework that quantifies inter-modal predictive disagreement using a normalized divergence score and estimates sample-specific modality reliability. MiD-ERC uses these signals to coordinate divergence-guided cross-modal gating, divergence-modulated reliability weighting, and divergence-conditioned adaptive LLM prompting. The framework is trained end-to-end using only standard emotion annotations, without requiring additional conflict labels, auxiliary data construction, or external retrieval modules. Experiments on IEMOCAP and MELD demonstrate that MiD-ERC achieves state-of-the-art performance, with particularly pronounced improvements on high-divergence samples.",
+  "abstract_zh": "对话中的多模态情感识别（MERC）整合了文本、声学和视觉线索，以识别发言级别的情感。然而，现有的方法通常未能明确根据模态间预测不一致的程度来调整多模态处理。在真实对话中，语义不一致、隐藏情感、噪声观察和模糊性可能会对特定模态的情感证据产生不同的影响，而各个模态的可靠性在样本之间也存在差异。我们并不是单独识别每个不一致的来源，而是将它们对情感识别的共同影响建模为同一情感标签集上单模态情感分布之间的预测不一致。这种不一致使得无差别融合容易传播不可靠或相互竞争的证据。受到布伦斯维克透镜模型（Brunswik Lens Model）的启发，我们提出了MiD-ERC，一个以差异为中心的框架，通过归一化差异评分量化模态间的预测不一致，并估计样本特定的模态可靠性。MiD-ERC利用这些信号协调差异引导的跨模态门控、差异调制的可靠性加权和差异条件的自适应大语言模型提示。该框架采用端到端训练，仅使用标准情感注释，无需额外的冲突标签、辅助数据构建或外部检索模块。在IEMOCAP和MELD上的实验表明，MiD-ERC实现了最先进的性能，尤其在高差异样本上表现出显著的改善。",
+  "arxiv_id": "2611.08860",
+  "arxiv_url": "https://arxiv.org/abs/2611.08860v1",
+  "authors": [
+    "Jingwen Wang",
+    "Jiao Li",
+    "Yuhang Qian",
+    "Yuyin Wang",
+    "Min Zhang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-09",
+  "categories": [
+    "cs.AI",
+    "cs.SD"
+  ],
+  "fetched_at": "2026-11-15T03:58:29.510580+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.08860v1",
+  "published_at": "2026-11-06T01:37:20Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "IEMOCAP",
+      "MELD",
+      "emotion",
+      "emotions",
+      "emotional",
+      "multimodal",
+      "LLM",
+      "recognition",
+      "多模态",
+      "识别",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-09"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.08860v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-09",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-09"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "语音情感"
+    ]
+  },
+  "title": "Mind the Divergence: Divergence-Guided Reliability-Aware Fusion and Adaptive LLM Prompting for Conversational Emotion Recognition",
+  "title_zh": "注意差异：基于差异引导的可靠性感知融合与自适应大语言模型提示在对话情感识别中的应用",
+  "translation_url": "https://hjfy.top/arxiv/2611.08860"
+}

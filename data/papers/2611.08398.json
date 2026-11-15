@@ -1,0 +1,48 @@
+{
+  "abstract": "Haptic interactions, such as touching an object in virtual reality, involve detecting a plethora of sensations through the skin. Whilst tactile displays exist to simulate and manipulate all of these cues individually, little progress has been made constructing devices that can control multiple cues simultaneously. This paper presents a tactile display technology that offers both softness and temperature change. A prototype display, based on particle jamming and the thermal transfer of heated and cooled water, is evaluated in terms of its ability to change both stiffness and temperature. Mechanical evaluations demonstrate controllable stiffness increase of 300%, whilst thermal characterisation showed strong surface uniformity and a range of achievable temperatures from 10°C up to 50°C, with closed-loop control maintaining a 0.2°C error from a setpoint. This work advances the design of multimodal tactile displays with applications to perceptual research, medical simulation, and affective haptics.",
+  "abstract_zh": "触觉交互，例如在虚拟现实中触摸物体，涉及通过皮肤感知大量的感觉信号。尽管已有触觉显示器存在以单独模拟和操控这些感觉信号，但在构建能够同时控制多种感觉信号的设备方面进展甚微。本文提出了一种触觉显示技术，能够同时提供柔软度和温度变化。基于颗粒堵塞和加热及冷却水的热传递的原型显示器，在其改变刚度和温度的能力方面进行了评估。机械评估表明，刚度可控增加300%，而热特性显示出良好的表面均匀性，且可实现的温度范围从10°C到50°C，闭环控制保持与设定点的误差为0.2°C。该研究推动了多模态触觉显示器的设计，具有在感知研究、医学模拟和情感触觉等领域的应用潜力。",
+  "arxiv_id": "2611.08398",
+  "arxiv_url": "https://arxiv.org/abs/2611.08398",
+  "authors": [
+    "Joshua Brown",
+    "Fernando Bello",
+    "Lynette Jones"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-06",
+  "categories": [
+    "cs.RO",
+    "cs.HC",
+    "eess.SY"
+  ],
+  "fetched_at": "2026-11-15T03:56:48.211136+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.08398",
+  "published_at": "2026-11-06",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "multimodal",
+      "多模态"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-11-06"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-06",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": []
+  },
+  "title": "A Multimodal Haptic Interface for Simultaneous Softness and Thermal Modulation",
+  "title_zh": "一种用于同时调节柔软度和温度的多模态触觉接口",
+  "translation_url": "https://hjfy.top/arxiv/2611.08398"
+}

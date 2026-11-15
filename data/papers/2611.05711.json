@@ -1,0 +1,56 @@
+{
+  "abstract": "Facial Expression Recognition (FER) on optomyographic (OMG) smart glasses such as OCOsense enables privacy-preserving, camera-free affect sensing for health and well-being. Most FER systems are fully supervised, i.e., they rely either on hand-crafted expert features with classical machine learning, or on end-to-end deep models trained from labelled data. Both depend on large quantities of labelled expressions, which are costly to collect and limit deployment in real-world, personalized settings. We investigate Self-Supervised Learning (SSL) as a route to label-efficient FER on these glasses. We pretrain a Vision Transformer with a masked-autoencoder objective on unlabelled OCOsense recordings and finetune it for five-class FER under person-independent cross-validation. Across label budgets from 5% to 100%, pretraining consistently improves performance; with only 5% of the labels, the pretrained model outperforms the from-scratch model trained with all labels. Our results show that SSL pretraining is a practical way to reduce labelling cost for smart eyewear FER, and we discuss the implications for future personalization and continual adaptation.",
+  "abstract_zh": "在光肌电（OMG）智能眼镜（如OCOsense）上进行的面部表情识别（FER）能够实现隐私保护的、无摄像头的情感感知，促进健康与福祉。大多数FER系统是完全监督的，即它们依赖于手工设计的专家特征与经典机器学习，或依赖于从标注数据中训练的端到端深度模型。这两者均依赖于大量的标注表情，而这些表情的收集成本高昂，限制了其在真实世界个性化环境中的应用。我们研究了自监督学习（SSL）作为在这些眼镜上实现标签高效FER的一种途径。我们在未标注的OCOsense录音上，使用掩码自编码器目标对视觉变换器进行预训练，并在独立于个体的交叉验证下对其进行五类FER的微调。在从5%到100%的标签预算范围内，预训练始终提高了性能；仅使用5%的标签，预训练模型的表现优于使用所有标签从头训练的模型。我们的结果表明，SSL预训练是一种降低智能眼镜FER标注成本的实用方法，并且我们讨论了其对未来个性化和持续适应的影响。",
+  "arxiv_id": "2611.05711",
+  "arxiv_url": "https://arxiv.org/abs/2611.05711v1",
+  "authors": [
+    "Zhengtao Gao",
+    "Francesco Bombassei De Bona",
+    "Leonardo Alchieri",
+    "Ivana Kiprijanovska",
+    "Simon Stankoski",
+    "Bojan Sofronievski",
+    "Hristijan Gjoreski",
+    "Marc Langheinrich",
+    "Martin Gjoreski"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-05",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:55:36.393755+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.05711v1",
+  "published_at": "2026-11-03T22:37:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "recognition",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 62.0
+  },
+  "seen_dates": [
+    "2026-11-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.05711v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-05",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "心理状态/福祉"
+    ]
+  },
+  "title": "Self-Supervised Pretraining for Label-Efficient Facial Expression Recognition using Smart Glasses",
+  "title_zh": "基于自监督预训练的标签高效面部表情识别方法：以智能眼镜为例",
+  "translation_url": "https://hjfy.top/arxiv/2611.05711"
+}

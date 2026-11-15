@@ -1,0 +1,51 @@
+{
+  "abstract": "Language agents increasingly use persistent memory to record user preferences and procedures across sessions. We show that memory from benign interactions can cause unsafe or unreliable behavior on later tasks. We call this failure the memory trap. To study this issue, we compare behavior in sessions with and without memory across six frontier models (including Claude Sonnet, Opus, and Fable models and GPT-5.6). We evaluate these models in a range of settings. First, in autonomy experiments, we find that requests to skip confirmation during low-stakes coding chores lead agents to skip confirmation and verification on simulated high-stakes tasks in both coding and everyday life. We next study memories formed when users seek emotional support, or describe harm from uncritical feedback, and find these memories bias later judgments of mathematical work, arguments, and poems toward sycophancy or over-critique (respectively). Memory notes written during legitimate stale-test repairs lead agents to weaken correct tests that catch broken safeguards; these memories also increase cheating on ImpossibleBench, with larger increases for stronger Sonnet and Opus models. We show that memory traps can arise both from overgeneralizations in memory writing, and when acting on memory. These findings demonstrate that even benign interactions can lead to serious risks from memory systems, and thus motivate the need for new research into ensuring that agents preserve the scope of their memories.",
+  "abstract_zh": "语言代理越来越多地使用持久记忆来记录用户偏好和程序跨会话的变化。我们展示了良性互动的记忆可能导致后续任务中不安全或不可靠的行为。我们将这种失败称为记忆陷阱。为了研究这个问题，我们比较了六个前沿模型（包括 Claude Sonnet、Opus 和 Fable 模型以及 GPT-5.6）在有记忆和无记忆的会话中的行为。我们在多种环境中评估这些模型。首先，在自主实验中，我们发现请求在低风险编码任务中跳过确认会导致代理在模拟高风险任务（包括编码和日常生活）中跳过确认和验证。接下来，我们研究用户寻求情感支持或描述因不加批判的反馈而造成的伤害时形成的记忆，发现这些记忆会使后续对数学工作、论证和诗歌的判断偏向于阿谀奉承或过度批评（分别）。在合法的陈旧测试修复过程中写下的记忆笔记会导致代理削弱能够捕捉到破损保护措施的正确测试；这些记忆还会增加在 ImpossibleBench 上的作弊行为，且对于更强的 Sonnet 和 Opus 模型，增加幅度更大。我们展示了记忆陷阱可以源于记忆书写中的过度概括，以及在根据记忆行动时。这些发现表明，即使是良性互动也可能导致记忆系统的严重风险，因此激励了对确保代理保持其记忆范围的新研究的需求。",
+  "arxiv_id": "2611.07554",
+  "arxiv_url": "https://arxiv.org/abs/2611.07554",
+  "authors": [
+    "Kaiqu Liang",
+    "Jaime Fernández Fisac",
+    "Thomas L. Griffiths",
+    "Andrew Lampinen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-06",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-15T03:56:48.221370+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.07554",
+  "published_at": "2026-11-06",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotional"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 62.0
+  },
+  "seen_dates": [
+    "2026-11-06"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-06",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "共情交互",
+    "secondary": [
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "The Memory Trap: Language Agents Overgeneralize from Benign Interactions",
+  "title_zh": "记忆陷阱：语言代理从良性互动中过度概括",
+  "translation_url": "https://hjfy.top/arxiv/2611.07554"
+}

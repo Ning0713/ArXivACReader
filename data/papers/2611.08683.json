@@ -1,0 +1,60 @@
+{
+  "abstract": "Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on GoEmotions, an English Reddit dataset annotated with 27 fine-grained emotion categories plus neutral. We compare model predictions and emotion-prompted final-token representations with the 28 GoEmotions categories and with coarser emotion-family and sentiment groupings. We find a consistent pattern of $\\textit{overcompression}$ relative to the fine-grained GoEmotions taxonomy. Under the tested KMeans protocol, when we cluster their hidden representations without using emotion labels, the clearest split is into two groups that largely separate positive from negative emotion. Coarser emotion groupings are also recovered with fewer clusters than the full 28-category taxonomy. Yet linear probes retain substantial fine-grained predictive information. These results suggest that fine-grained emotion information remains accessible even though broader affective structure more strongly organizes the unsupervised geometry.",
+  "abstract_zh": "大型语言模型（LLMs）已被评估其识别文本中表达的情感和生成流畅情感语言的能力。然而，仅凭输出预测并不能揭示细粒度情感区分在内部是如何组织的。我们研究了七个LLM在GoEmotions数据集上的表现，该数据集是一个用27个细粒度情感类别及中性标注的英文Reddit数据集。我们将模型预测和情感提示的最终标记表示与28个GoEmotions类别以及更粗略的情感家族和情感分组进行比较。我们发现相对于细粒度的GoEmotions分类法，存在一种一致的$ extit{过度压缩}$模式。在测试的KMeans协议下，当我们在不使用情感标签的情况下对其隐藏表示进行聚类时，最明显的分裂是将正面情感与负面情感大致分为两组。更粗略的情感分组也以比完整的28类别分类法更少的聚类被恢复。然而，线性探测器仍然保留了大量细粒度的预测信息。这些结果表明，尽管更广泛的情感结构更强烈地组织了无监督几何，但细粒度情感信息仍然是可访问的。",
+  "arxiv_id": "2611.08683",
+  "arxiv_url": "https://arxiv.org/abs/2611.08683v1",
+  "authors": [
+    "Laya Iyer",
+    "Sanmi Koyejo",
+    "Chen Shani"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-09",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:58:29.513875+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.08683v1",
+  "published_at": "2026-11-05T20:42:47Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotions",
+      "emotional",
+      "affective",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "dataset",
+      "识别",
+      "分类",
+      "预测",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 48.0
+  },
+  "seen_dates": [
+    "2026-11-09"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.08683v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-09",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-09"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "数据集/评测",
+      "文本情感"
+    ]
+  },
+  "title": "Compression of Emotion in Language Model Representations",
+  "title_zh": "语言模型表示中的情感压缩",
+  "translation_url": "https://hjfy.top/arxiv/2611.08683"
+}

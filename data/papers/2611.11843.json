@@ -1,0 +1,51 @@
+{
+  "abstract": "Label-space expansion - predicting a larger joint space and summing back to the original labels - is a natural design for multi-label facial expression recognition, but its failure modes have not been characterised. We evaluate Condition-Aware Label Expansion (CALE) on a self-built dataset (30,240 training images, 3,460 multi-label test images), on seven backbones, and on the public RAF-DB and RAF-ML benchmarks. The central finding is that the aggregation rule, not the representation, decides whether the method works. With a fixed threshold of 0.5, the aggregate score spans 28x across five backbones at 10% of the training data (0.24 to 6.79) and collapses to a 1.9x range at full data, while threshold-free mAP stays within 1.28x over the same backbones, which localises the fault to the summation step. The mechanism is the uncalibrated aggregation rule, which adds the main-branch score to half the sum of the three non-main branches; we verify it by measuring main- and non-main-branch activations. Two plain seven-dimensional sigmoid baselines (BCE, ASL) reach mAP 0.5055 and 0.5175; ASL exceeds three of the five CALE configurations and falls within 0.03 of the best. On single-label FER the gain over a seven-dimensional baseline is nominally significant (paired t-test, p = 0.0436) but does not survive Benjamini-Hochberg correction (p_BH = 0.2055) or a Wilcoxon test (p = 0.1250). We conclude that sum-based label expansion requires threshold calibration at the deployment data scale, or a learned aggregation, before it can support multi-label decisions.",
+  "abstract_zh": "标签空间扩展——预测更大的联合空间并汇总回原始标签——是多标签面部表情识别的自然设计，但其失败模式尚未被表征。我们在自建数据集（30,240张训练图像，3,460张多标签测试图像）、七个主干网络以及公共的RAF-DB和RAF-ML基准上评估了条件感知标签扩展（Condition-Aware Label Expansion, CALE）。核心发现是，聚合规则而非表示决定了该方法的有效性。在固定阈值0.5下，在10%的训练数据下，五个主干网络的聚合得分跨度为28倍（0.24到6.79），而在全数据下则收缩至1.9倍范围，而无阈值的平均精度均值（mean Average Precision, mAP）在相同主干网络上保持在1.28倍之内，这将故障局限于求和步骤。其机制是未校准的聚合规则，该规则将主干得分与三条非主干的得分之和的一半相加；我们通过测量主干和非主干的激活来验证这一点。两个简单的七维sigmoid基线（BCE, ASL）分别达到mAP 0.5055和0.5175；ASL超越了五个CALE配置中的三个，并在最佳值之内相差0.03。在单标签面部表情识别中，相较于七维基线的增益在名义上显著（配对t检验，p = 0.0436），但未能通过Benjamini-Hochberg校正（p_BH = 0.2055）或Wilcoxon检验（p = 0.1250）。我们得出结论，基于求和的标签扩展在部署数据规模上需要进行阈值校准或学习聚合，才能支持多标签决策。",
+  "arxiv_id": "2611.11843",
+  "arxiv_url": "https://arxiv.org/abs/2611.11843",
+  "authors": [
+    "Weihang Yuan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.873132+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.11843",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "RAF DB",
+      "recognition",
+      "dataset",
+      "识别",
+      "预测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 88.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "Aggregation-Induced Calibration Failure in Sum-Based Label Expansion for Multi-Label Facial Expression Recognition: A Diagnostic Study",
+  "title_zh": "基于求和的标签扩展中的聚合引发的校准失败：多标签面部表情识别的诊断研究",
+  "translation_url": "https://hjfy.top/arxiv/2611.11843"
+}

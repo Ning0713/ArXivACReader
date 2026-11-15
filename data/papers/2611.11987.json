@@ -1,0 +1,63 @@
+{
+  "abstract": "Multimodal Emotion Recognition in Conversation (MERC) combines lexical, acoustic, visual and conversational cues, but accepting audio and video does not establish their effective or robust use. We audit off-the-shelf Omni models while holding the target transcript and prior textual context fixed and adding, removing or replacing target audio and video. In the primary evaluation of Qwen2.5-Omni-7B, Baichuan-Omni-1.5 and MiniCPM-o 2.6 on MELD and the full five-session six-class IEMOCAP set, T+A improves Accuracy in all six model-dataset pairs, with four gains significant after false discovery rate (FDR) correction. Across three source mappings, unrelated A/V (RandA/V) lowers Accuracy relative to Full in all 18 comparisons; all 18 remain significant under dialogue-cluster inference and BH-FDR correction, both on common-valid pairs and when invalid/OOM outcomes are treated as incorrect. Comparisons with modality-omission baselines further distinguish replacement penalties from mismatch-specific harm. A Qwen/MELD case study finds significantly greater gold-vs-best-candidate margin recovery in Late than Early or Middle under decision-query audio knockout, relative to an edge-count-matched Video-Sham control, using Holm-corrected tests. These results distinguish genuine-modality benefit from sensitivity and vulnerability to misleading input.",
+  "abstract_zh": "多模态对话情感识别（MERC）结合了词汇、声学、视觉和对话线索，但接受音频和视频并不意味着它们的有效或稳健使用。我们在固定目标转录文本和先前文本上下文的情况下，对现成的Omni模型进行审计，并添加、移除或替换目标音频和视频。在对Qwen2.5-Omni-7B、Baichuan-Omni-1.5和MiniCPM-o 2.6在MELD和完整的五会话六类IEMOCAP数据集的初步评估中，T+A在所有六个模型-数据集对中提高了准确率，其中四个在假发现率（FDR）校正后显著提升。在三个源映射中，无关音频/视频（RandA/V）相对于完整数据集在所有18个比较中降低了准确率；在对话聚类推断和BH-FDR校正下，所有18个比较仍然显著，无论是在常见有效对还是在无效/内存溢出结果被视为错误的情况下。与模态省略基线的比较进一步区分了替换惩罚与特定不匹配的危害。Qwen/MELD案例研究发现，在决策查询音频失效的情况下，Late的金标准与最佳候选者的差距恢复显著大于Early或Middle，相较于边缘计数匹配的Video-Sham控制组，使用了Holm校正的测试。这些结果区分了真正模态的益处与对误导输入的敏感性和脆弱性。",
+  "arxiv_id": "2611.11987",
+  "arxiv_url": "https://arxiv.org/abs/2611.11987",
+  "authors": [
+    "Youngseok Kim",
+    "Minjae Kim",
+    "Eunsoo Lee",
+    "Jihie Kim"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.887414+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.11987",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "IEMOCAP",
+      "MELD",
+      "emotion",
+      "multimodal",
+      "recognition",
+      "dialogue",
+      "conversation",
+      "dataset",
+      "audio",
+      "多模态",
+      "识别",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "数据集/评测",
+      "多模态情感"
+    ]
+  },
+  "title": "When Audio and Video Mislead: Evaluating Multimodal AI for Conversational Emotion Recognition",
+  "title_zh": "当音频和视频误导时：评估多模态人工智能在对话情感识别中的应用",
+  "translation_url": "https://hjfy.top/arxiv/2611.11987"
+}

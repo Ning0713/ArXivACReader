@@ -1,0 +1,61 @@
+{
+  "abstract": "Comparisons in conversational emotion-shift forecasting are easily distorted when a learned model receives rich features but its transition baseline is given a noisy or unavailable current-emotion label, when hyperparameter budgets differ, or when target-turn information enters the representation. We present an information-matched, leakage-safe auditing protocol that closes these gaps with an explicit commitment point, executable causality tests, equal four-configuration validation searches, and seed-dialogue-aware inference. Applying it to six causal model families on four text corpora and two feature-source sensitivity configurations shows that a deployable train-only current-emotion classifier feeding the transition baseline yields a different verdict than an oracle diagnostic where both sides receive gold current emotion. Under the deployable condition, learned models improve over the predicted-label baseline on all four primary corpora; DailyDialog gains are large and survive a 72-comparison Holm correction (best ROC-AUC gain = +0.167, adjusted p=.0144). Under matched gold information, the baseline remains competitive on IEMOCAP and stronger on MELD, while every model retains a large DailyDialog advantage. We additionally report precision-recall AUC, calibration, a strictly utterance-local feature control, same-person self-shift forecasting, and a future-access dose-response test. An eight-item leakage checklist accompanies the protocol. Code, raw seed predictions, and reporting artifacts are available from the corresponding author upon request.",
+  "abstract_zh": "在对话情感转变预测中，当学习的模型接收到丰富特征但其转变基线被赋予嘈杂或不可用的当前情感标签时，比较结果容易失真，尤其是在超参数预算不同或目标轮次信息进入表示时。我们提出了一种信息匹配的、安全泄漏的审计协议，通过明确的承诺点、可执行的因果性测试、平等的四配置验证搜索和种子对话感知推理来弥补这些差距。将其应用于四个文本语料库上的六个因果模型系列和两种特征源敏感性配置，结果表明，采用可部署的仅训练当前情感分类器作为转变基线，与双方均接收真实当前情感的神谕诊断相比，得出的结论有所不同。在可部署条件下，学习模型在所有四个主要语料库上均优于预测标签基线；DailyDialog的增益显著，并且经过72次比较的Holm校正后仍然有效（最佳ROC-AUC增益 = +0.167，调整后的p=.0144）。在匹配的真实信息下，基线在IEMOCAP上仍具竞争力，在MELD上更强，而每个模型在DailyDialog上保持较大的优势。此外，我们还报告了精确率-召回曲线下的面积（AUC）、校准、严格的发言局部特征控制、同人自转变预测以及未来访问剂量反应测试。该协议附带一个八项泄漏检查清单。代码、原始种子预测和报告文档可根据请求从通讯作者处获得。",
+  "arxiv_id": "2611.05895",
+  "arxiv_url": "https://arxiv.org/abs/2611.05895v1",
+  "authors": [
+    "Bin Wen",
+    "Dai-Qiao Zhang",
+    "Tien-Ping Tan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-05",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-15T03:55:36.398262+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.05895v1",
+  "published_at": "2026-11-04T03:36:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感分类",
+      "IEMOCAP",
+      "MELD",
+      "SEED",
+      "DailyDialog",
+      "emotion",
+      "dialogue",
+      "分类",
+      "预测",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.05895v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-05",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "Information-Matched Auditing of Conversational Emotion-Shift Forecasting: A Leakage-Safe Evaluation Protocol",
+  "title_zh": "信息匹配的对话情感转变预测审计：一种安全泄漏评估协议",
+  "translation_url": "https://hjfy.top/arxiv/2611.05895"
+}

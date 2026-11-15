@@ -1,0 +1,70 @@
+{
+  "abstract": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent and can invite reward hacking, while RLHF is difficult to scale and subject to individual aesthetic differences that complicate the calibration of facial, body motion, and chromatic cues across narrative contexts. We introduce EmoReward, a new self-evolving training mechanism that distills evidence reliability from reward traces collected during an actual training run to adaptively guide multi-reward weight allocation in subsequent training by determining which emotional evidence to trust and how much to weight it. EmoReward first plans specific grounding cues from the emotional prompt to guide evaluation, then uses heterogeneous signal primitives to score the generated video during the act stage. Reflective Reward Gating calibrates their contributions through instance-level gates for phase, face confidence, conflict, and subtlety, then renormalizes weights over the active set to produce the sample's fused reward. RewardMemory then estimates each primitive's reliability from rollout scores and outcomes within each emotional regime in the finished training run, then fixes bounded multipliers that calibrate fusion weights in the next training run without updating reward models. Experiments on HunyuanVideo 1.5 show improvements across multiple RL algorithms and compare EmoReward with other agentic reward methods under SAGE-GRPO. Ablations and transfer experiments on SD 3.5 and FLUX further support adaptive reward calibration for visual generation.",
+  "abstract_zh": "群体相对策略优化（GRPO）在可验证领域如代码和数学的生成模型后训练中取得了进展，但视频质量的评估，尤其是情感表达，往往依赖于主观美学，并没有唯一正确的目标。现有方法通常依赖于固定的视觉质量、运动质量和文本对齐的奖励，这些奖励难以准确捕捉情感意图，并可能导致奖励操控，而基于人类反馈的强化学习（RLHF）难以扩展，并受到个体美学差异的影响，这使得在叙事上下文中校准面部、身体运动和色彩线索变得复杂。我们提出了EmoReward，一种新的自我演化训练机制，它从实际训练过程中收集的奖励轨迹中提取证据可靠性，以自适应地指导后续训练中的多重奖励权重分配，确定信任哪些情感证据以及如何加权。EmoReward首先根据情感提示规划特定的基础线索以指导评估，然后在执行阶段使用异构信号原语对生成的视频进行评分。反思奖励门控通过实例级门控校准其在阶段、面部置信度、冲突和细微差别方面的贡献，然后在活跃集合上重新归一化权重，以生成样本的融合奖励。奖励记忆随后根据每个情感状态中的回滚分数和结果估计每个原语的可靠性，并在下一个训练运行中固定界限乘数，以校准融合权重，而无需更新奖励模型。在HunyuanVideo 1.5上的实验显示了多个强化学习算法的改进，并在SAGE-GRPO下将EmoReward与其他代理奖励方法进行了比较。对SD 3.5和FLUX的消融实验和迁移实验进一步支持了视觉生成的自适应奖励校准。",
+  "arxiv_id": "2611.06518",
+  "arxiv_url": "https://arxiv.org/abs/2611.06518v1",
+  "authors": [
+    "Mingzhe Zheng",
+    "Yue Wu",
+    "Jing Tan",
+    "Chang Zou",
+    "Dengyang Jiang",
+    "Zeyue Tian",
+    "Xuanhua He",
+    "Ryan Xu",
+    "Yunyang Ge",
+    "Sihui Ji",
+    "Yunlong Lin",
+    "Kaihang Pan",
+    "Hongru Yan",
+    "Sixiang Chen",
+    "Dianyi Wang",
+    "Julian Zhang",
+    "Weijie Kong",
+    "Changlin Li",
+    "Lanqing Guo",
+    "Zhao Zhong",
+    "Qifeng Chen",
+    "Harry Yang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-05",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:55:36.390918+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.06518v1",
+  "published_at": "2026-11-04T13:43:09Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "generation",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-11-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.06518v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-05",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+  "title_zh": "EmoReward：情感视频生成强化学习的自我演化奖励校准",
+  "translation_url": "https://hjfy.top/arxiv/2611.06518"
+}

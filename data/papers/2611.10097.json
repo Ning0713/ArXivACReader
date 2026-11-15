@@ -1,0 +1,67 @@
+{
+  "abstract": "Facial Expression Recognition (FER) traditionally relies on raw RGB images, introducing privacy risks, sensitivity to illumination variations, and susceptibility to identity-confounding visual shortcuts. As an alternative, this work proposes a lightweight, privacy-aware pipeline using exclusively geometric representations-facial landmarks (478 points) and blendshapes (52 coefficients, ARKit standard)-eliminating persistent raw video storage. Six neural architectures trained from scratch on fused CREMA-D and RAVDESS datasets were benchmarked against an ImageNet-pretrained ResNet50 baseline under a 5-fold subject-independent cross-validation protocol. Geometric models consistently outperformed the pixel baseline on unseen subjects with 12-124 times fewer parameters, while demonstrating superior robustness on subtle emotional expressions such as sadness. Ablation studies reveal that blendshapes capture the primary discriminative signal, while landmarks provide essential complementary spatial topology. These results demonstrate that compact geometric representations preserve affective semantics, eliminate downstream transfer learning dependency on visual backbones, and enable efficient, privacy-aware emotion recognition.",
+  "abstract_zh": "面部表情识别（FER）传统上依赖于原始RGB图像，这引入了隐私风险、对光照变化的敏感性以及对身份混淆视觉捷径的易感性。作为替代，本研究提出了一种轻量级的隐私意识管道，仅使用几何表示——面部地标（478个点）和混合形状（52个系数，ARKit标准）——消除了持久的原始视频存储。对从头开始在融合的CREMA-D和RAVDESS数据集上训练的六种神经网络架构进行了基准测试，与在5折受试者独立交叉验证协议下的ImageNet预训练ResNet50基线进行了比较。几何模型在未见过的受试者上始终优于像素基线，参数量减少了12-124倍，同时在微妙的情感表达（如悲伤）上表现出更强的鲁棒性。消融研究表明，混合形状捕捉了主要的区分信号，而地标提供了必要的互补空间拓扑。这些结果表明，紧凑的几何表示保留了情感语义，消除了下游迁移学习对视觉骨干的依赖，并实现了高效的隐私意识情感识别。",
+  "arxiv_id": "2611.10097",
+  "arxiv_url": "https://arxiv.org/abs/2611.10097",
+  "authors": [
+    "Larissa Palhares",
+    "Maria Machado",
+    "Hudson Bruno",
+    "Raphael Ramos",
+    "Andrew Vale",
+    "Barbara Barbosa",
+    "Inara Souza",
+    "Fabio Grassiotto"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.865946+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.10097",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "facial expression recognition",
+      "情感识别",
+      "表情识别",
+      "RAVDESS",
+      "CREMA D",
+      "emotion",
+      "emotional",
+      "affective",
+      "recognition",
+      "benchmark",
+      "deep learning",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": [
+      "面部表情",
+      "数据集/评测"
+    ]
+  },
+  "title": "A Privacy-Aware Deep Learning Benchmark for Facial Emotion Recognition",
+  "title_zh": "一种隐私意识的深度学习基准用于面部情感识别",
+  "translation_url": "https://hjfy.top/arxiv/2611.10097"
+}

@@ -1,0 +1,65 @@
+{
+  "abstract": "This paper presents the design and preliminary evaluation of KR A1, a humanoid-robot interaction prototype that integrates personalized voice synthesis, contextual dialogue processing, and emotion-aware response generation for potential mental-healthcare applications. The system architecture combines a locally hosted large language model (Qwen2.5-3B-Instruct, served via Ollama) for natural-language understanding and response generation, OpenVoice v2 for zero-shot speaker-adaptive speech synthesis, and a two-tier emotion-processing pipeline comprising a keyword heuristic and LLM-based inference. Face recognition (InsightFace) and vector memory retrieval (FAISS with sentence-transformer embeddings) enable user-personalized interaction. The experimental evaluation reported here is limited to the voice-cloning component: cloned voices were evaluated against reference recordings using eight acoustic similarity measures - mel-frequency cepstral coefficients, pitch, spectral centroid, spectral contrast, spectral rolloff, zero-crossing rate, formants, and speaker-embedding cosine similarity - supplemented by a same-speaker versus cross-speaker baseline comparison. All tests were conducted on a small, informal development sample; no statistical significance testing against a held-out baseline was performed. The emotion-recognition accuracy, end-to-end response latency, and therapeutic or clinical impact of the integrated system have not yet been formally evaluated and are identified as directions for future work. All testing was informal and self-conducted by the development team; no patients or external human participants were involved, and the system has not been evaluated or deployed in a clinical setting.",
+  "abstract_zh": "本文介绍了KR A1的设计与初步评估，这是一种人形机器人交互原型，集成了个性化语音合成、上下文对话处理和情感感知响应生成，旨在潜在的心理健康护理应用中使用。该系统架构结合了本地托管的大型语言模型（Qwen2.5-3B-Instruct，通过Ollama提供服务）用于自然语言理解和响应生成，OpenVoice v2用于零样本说话人自适应语音合成，以及一个由关键词启发式和基于LLM的推理组成的双层情感处理管道。人脸识别（InsightFace）和向量记忆检索（FAISS与句子变换器嵌入）使用户个性化交互成为可能。本文报道的实验评估仅限于语音克隆组件：克隆语音通过八种声学相似性度量（梅尔频率倒谱系数、音高、谱质心、谱对比、谱滚降、零交叉率、共振峰和说话人嵌入余弦相似度）与参考录音进行评估，并补充了同说话人与异说话人的基线比较。所有测试均在一个小型非正式开发样本上进行；未对保留基线进行统计显著性测试。集成系统的情感识别准确性、端到端响应延迟以及治疗或临床影响尚未正式评估，并被确定为未来工作的方向。所有测试均为非正式且由开发团队自行进行；未涉及患者或外部人类参与者，系统尚未在临床环境中进行评估或部署。",
+  "arxiv_id": "2611.09900",
+  "arxiv_url": "https://arxiv.org/abs/2611.09900",
+  "authors": [
+    "Mahek Aanthu",
+    "Om Aanthu",
+    "Aaryan AK Aanthu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.HC",
+    "cs.CL",
+    "cs.RO",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.862704+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.09900",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "emotion aware",
+      "情感识别",
+      "emotion",
+      "large language model",
+      "LLM",
+      "recognition",
+      "generation",
+      "dialogue",
+      "speech",
+      "识别",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "情感生成",
+      "情绪识别"
+    ]
+  },
+  "title": "KR A1: Design and Preliminary Evaluation of a Humanoid-Robot Interaction Prototype Integrating Personalized Voice Synthesis, Contextual Dialogue, and Emotion-Aware Response Generation",
+  "title_zh": "KR A1：集成个性化语音合成、上下文对话和情感感知响应生成的人形机器人交互原型的设计与初步评估",
+  "translation_url": "https://hjfy.top/arxiv/2611.09900"
+}

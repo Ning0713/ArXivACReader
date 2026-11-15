@@ -1,0 +1,52 @@
+{
+  "abstract": "Emotion vectors are directions in a language model's internal representations that are associated with emotional concepts. Prior work shows that these vectors can influence model behavior, but their role in sentiment classification remains unclear. This study investigates emotion directions in Qwen2.5-0.5B-Instruct and Qwen2.5-3B-Instruct. Eight directions extracted from GoEmotions are evaluated through sentiment probing, activation interventions, and supervised correction. Emotion-only probes achieve 88.66% and 90.70% accuracy on binary TweetEval. In exploratory matched-ablation experiments, raw emotion-space removal causes 2.39 and 1.10 percentage points more accuracy loss than matched isotropic random-subspace removal for 0.5B and 3B, respectively. All four TweetEval raw and denoised effects are significant after Holm adjustment across eight comparisons. An exploratory SST-2 extension shows smaller raw excess losses of 0.66 and 0.57 points, with no effects surviving Holm adjustment. Frozen sentiment-correction classifiers are also tested on 20,000 Amazon Polarity reviews. Emotion-based correction improves accuracy over uncorrected Qwen, but does not consistently outperform margin-only baselines. These results distinguish sentiment information available in model representations, the effects of changing those representations, and their practical value for classification. They do not establish a uniquely emotional mechanism.",
+  "abstract_zh": "情感向量是与情感概念相关联的语言模型内部表征中的方向。先前的研究表明，这些向量可以影响模型行为，但它们在情感分类中的作用仍不明确。本研究调查了 Qwen2.5-0.5B-Instruct 和 Qwen2.5-3B-Instruct 中的情感方向。通过情感探测、激活干预和监督校正评估了从 GoEmotions 提取的八个方向。仅使用情感探测器在二元 TweetEval 上达到了 88.66% 和 90.70% 的准确率。在探索性匹配消融实验中，原始情感空间的移除导致 0.5B 和 3B 的准确率损失分别比匹配的各向同性随机子空间移除多出 2.39 和 1.10 个百分点。经过 Holm 调整后，所有四个 TweetEval 原始和去噪效果在八个比较中均显著。探索性 SST-2 扩展显示原始超额损失较小，分别为 0.66 和 0.57 分，且没有效果在 Holm 调整后存活。还对 20,000 条亚马逊极性评论测试了冻结的情感校正分类器。基于情感的校正提高了未校正 Qwen 的准确率，但并未始终优于仅基于边际的基线。这些结果区分了模型表征中可用的情感信息、改变这些表征的效果及其在分类中的实际价值。它们并未建立独特的情感机制。",
+  "arxiv_id": "2611.13744",
+  "arxiv_url": "https://arxiv.org/abs/2611.13744",
+  "authors": [
+    "Ali Hassan Khan",
+    "Saad Bin Ather",
+    "Muhammad Saif",
+    "Maryam Bashir",
+    "Hajra Waheed"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-11",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T04:00:22.140243+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.13744",
+  "published_at": "2026-11-11",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment classification",
+      "情感分类",
+      "emotion",
+      "emotional",
+      "classification",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-11-11"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-11",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-11"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "Do Language Models Feel the Sentiment? Investigating Emotion Vectors",
+  "title_zh": "语言模型是否感知情感？情感向量的研究",
+  "translation_url": "https://hjfy.top/arxiv/2611.13744"
+}

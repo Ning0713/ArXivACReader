@@ -1,0 +1,52 @@
+{
+  "abstract": "As memory-augmented agents increasingly support long-term and personalized interactions, reliable recall of emotional experiences while preserving their associated affect becomes necessary. However, existing evaluations usually assess emotion accuracy and factual memory grounding separately, overlooking event-affect correspondence. In this work, we formulate Affective-Episodic Retrospection (AER) as a task that explicitly evaluates the recovery of past events, associated affects, and their correspondence, and define Event-Affect Decoupling as a failure mode where the correct emotion is recalled but associated with the wrong episode. To diagnose Event-Affect Decoupling, we propose EM-TRACE, a stage-wise framework that decomposes AER into retrieval, affect recovery, and realization. On a controlled GoEmotions-based benchmark, Emotion-only retrieval achieves 28.65% affect recovery but retrieves the target episode for only 4.44% of queries, yielding a UAR of 24.21%. Further analysis reveals that event retrieval and affect assignment introduce distinct binding failures. These findings show that reliable AER requires grounded recall of emotional experiences, where episode retrieval, affect recovery, event-affect binding, and generation quality should be evaluated jointly. Our code is available at https://anonymous.4open.science/r/A412/.",
+  "abstract_zh": "随着记忆增强代理越来越多地支持长期和个性化的互动，可靠地回忆情感经历并保持其相关情感变得必要。然而，现有评估通常分别评估情感准确性和事实记忆基础，忽视了事件-情感的一致性。在本研究中，我们将情感-情节回顾（Affective-Episodic Retrospection, AER）定义为一项明确评估过去事件、相关情感及其一致性的任务，并将事件-情感解耦（Event-Affect Decoupling）定义为一种失败模式，其中正确的情感被回忆但与错误的情节相关。为了诊断事件-情感解耦，我们提出了EM-TRACE，一个分阶段框架，将AER分解为检索、情感恢复和实现。在一个基于GoEmotions的控制基准上，仅情感检索的情感恢复率为28.65%，但仅有4.44%的查询成功检索到目标情节，导致无偏准确率（UAR）为24.21%。进一步分析表明，事件检索和情感分配引入了不同的绑定失败。这些发现表明，可靠的AER需要对情感经历的基础回忆，其中情节检索、情感恢复、事件-情感绑定和生成质量应共同评估。我们的代码可在 https://anonymous.4open.science/r/A412/ 获取。",
+  "arxiv_id": "2611.15655",
+  "arxiv_url": "https://arxiv.org/abs/2611.15655",
+  "authors": [
+    "Tingna Xie",
+    "Ming Wang",
+    "Shi Feng",
+    "Yongkang Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-13",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T04:01:04.582908+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.15655",
+  "published_at": "2026-11-13",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "affective",
+      "generation",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-11-13"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-13",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-13"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感生成"
+    ]
+  },
+  "title": "Can Agents Relive Past Experiences? Diagnosing Event-Affect Decoupling in Affective-Episodic Retrospection",
+  "title_zh": "代理能重温过去的经历吗？诊断情感-事件解耦在情感-情节回顾中的表现",
+  "translation_url": "https://hjfy.top/arxiv/2611.15655"
+}

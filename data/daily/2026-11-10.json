@@ -1,0 +1,27 @@
+{
+  "candidate_count": 693,
+  "date": "2026-11-10",
+  "filter_version": "affective-computing-v3",
+  "generated_at": "2026-11-15T04:00:21.528064+00:00",
+  "paper_ids": [
+    "2611.09900",
+    "2611.10097",
+    "2611.11843",
+    "2611.10109",
+    "2611.11064",
+    "2611.11907",
+    "2611.09941",
+    "2611.10797",
+    "2611.11573",
+    "2611.11987",
+    "2611.11994"
+  ],
+  "raw_count": 708,
+  "selected_count": 11,
+  "source_hash": "6a2665f94a5046ac6903927bfd099c12802f56018eb92917876bde24adcc717e",
+  "source_mode": "axi",
+  "source_url": "https://paper.axi404.top/api/daily/2026-11-10",
+  "warnings": [
+    "arXiv metadata enrichment failed: Unable to fetch arXiv API (id_list=2611.09900%2C2611.10097%2C2611.11843%2C2611.10109%2C2611.11064%2C2611.11907%2C2611.09941%2C2611.10797%2C2611.11573%2C2611.11987%2C2611.11994&max_results=11): Client error '429 Unknown Error' for url 'https://export.arxiv.org/api/query?id_list=2611.09900%2C2611.10097%2C2611.11843%2C2611.10109%2C2611.11064%2C2611.11907%2C2611.09941%2C2611.10797%2C2611.11573%2C2611.11987%2C2611.11994&max_results=11'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}

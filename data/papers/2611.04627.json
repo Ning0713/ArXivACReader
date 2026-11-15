@@ -1,0 +1,51 @@
+{
+  "abstract": "Prolonged exposure to hate speech on social media can cause lasting psychological distress among users. Counterspeech has emerged as an effective, non-censorial mitigation strategy, but its deployment requires rigorous quality assessment. Manual assessment is unscalable due to the large volume of content on the Web and imposes severe emotional strain on human annotators. Large Language Models (LLMs) offer a scalable alternative, yet concerns remain regarding their reliability. In this paper, we investigate the extent to which LLMs can effectively perform this task. We test 12 open-weight LLMs of different sizes and families under zero-shot, few-shot, and chain-of-thought prompting, to approximate pointwise and pairwise human expert assessment of counterspeech quality across four dimensions: relevance, coherence, aggressiveness, and suitableness. We find that (i) LLMs show low agreement and moderate rank correlations with human experts: our best configuration, Qwen 2.5 72B on coherence, achieves up to a linear-weighted Cohen's $\\kappa_l = 0.19$ and Spearman's $\\rho = 0.42$ in pointwise evaluation and an unweighted Cohen's $\\kappa = 0.25$ in pairwise evaluation. (ii) Converting pointwise scores into pairwise labels substantially improves human--LLM agreement for selected configurations. For same-instance coherence, Qwen 2.5 72B under zero-shot prompting achieves $\\kappa = 0.35$ with converted labels, compared with $\\kappa = 0.25$ when judging pairs directly, and Mixtral 8$\\times$7B under few-shot prompting improves from $\\kappa = 0.07$ to $\\kappa = 0.34$. (iii) LLMs agree more with one another than with human experts, particularly in pairwise evaluation, where the strongest model pair, OLMo 2 32B and Llama 3.3 70B on coherence, reaches substantial agreement with $\\kappa = 0.76$, whereas their agreement with the experts in the same configuration does not exceed $\\kappa = 0.21$.",
+  "abstract_zh": "在社交媒体上长期接触仇恨言论可能导致用户产生持久的心理困扰。反言论作为一种有效的非审查性缓解策略应运而生，但其实施需要严格的质量评估。由于网络内容量庞大，人工评估难以扩展，并对人类标注者造成严重的情感压力。大型语言模型（LLMs）提供了一种可扩展的替代方案，但其可靠性仍然存在担忧。本文探讨了LLMs在执行此任务方面的有效性。我们在零样本、少样本和思维链提示下测试了12个不同规模和类别的开放权重LLMs，以近似人类专家在四个维度（相关性、连贯性、攻击性和适宜性）上的逐点和成对反言论质量评估。我们发现：（i）LLMs与人类专家之间的协议较低，秩相关性中等：我们最佳配置Qwen 2.5 72B在连贯性方面的逐点评估中达到了线性加权Cohen's $ ext{kappa}_l = 0.19$和Spearman's $ ho = 0.42$，而成对评估中未加权Cohen's $ ext{kappa} = 0.25$。（ii）将逐点分数转换为成对标签显著提高了选定配置下人类与LLM之间的协议。在同一实例的连贯性方面，Qwen 2.5 72B在零样本提示下使用转换标签时达到了$ ext{kappa} = 0.35$，而直接评估成对时为$ ext{kappa} = 0.25$，Mixtral 8$ imes$7B在少样本提示下从$ ext{kappa} = 0.07$提高到$ ext{kappa} = 0.34$。（iii）LLMs之间的协议高于与人类专家之间的协议，尤其是在成对评估中，最强模型对OLMo 2 32B和Llama 3.3 70B在连贯性方面达到了显著协议，$ ext{kappa} = 0.76$，而在相同配置下与专家的协议不超过$ ext{kappa} = 0.21$。",
+  "arxiv_id": "2611.04627",
+  "arxiv_url": "https://arxiv.org/abs/2611.04627",
+  "authors": [
+    "Johnny Alali",
+    "Nicolás Benjamín Ocampo",
+    "Davide Ceolin"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-04",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T03:54:39.842820+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.04627",
+  "published_at": "2026-11-04",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "speech"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-11-04"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-04",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-04"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "语音情感",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "Evaluating LLMs as Judges of Counterspeech Quality Against Online Hate Speech",
+  "title_zh": "评估大型语言模型（LLMs）作为反言论质量评判者对抗网络仇恨言论",
+  "translation_url": "https://hjfy.top/arxiv/2611.04627"
+}

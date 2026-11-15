@@ -1,0 +1,55 @@
+{
+  "abstract": "Cognitive Behavioral Therapy (CBT) demands more than empathic validation, requiring instead a structured formulation of the interplay among situations, automatic thoughts, emotions, and behaviors. Therapists formalize this interplay through a Cognitive Conceptualization Diagram, where maintaining longitudinal coherence necessitates continuous evidential adjudication to separate tentative hypotheses from established findings. Current dialogue systems track conversational history via retrieval or static profiles but lack the representational capacity to encode epistemic status. Consequently, provisional interpretations are often prematurely reified as established facts, inadvertently biasing downstream interventions. Addressing this limitation, CCDWiki is introduced as a plug-and-play advisor conceptualizing longitudinal therapy as evidence-grounded hypothesis adjudication. The approach encodes each clinical hypothesis as a mutable entry bound to corroborating and contradicting evidence. Across sessions, accumulating data strengthens supported entries, preserves provisional ones, and retracts contradicted assumptions. The resulting formulation distills into concise guidance for unmodified therapeutic language models. Experiments demonstrate substantial improvements in both conceptualization and intervention quality without requiring backbone retraining.",
+  "abstract_zh": "认知行为治疗（CBT）不仅仅需要同理心的验证，还需要对情境、自动思维、情感和行为之间相互作用的结构化构建。治疗师通过认知概念图（Cognitive Conceptualization Diagram）来形式化这种相互作用，而维持纵向一致性则需要持续的证据裁定，以区分暂定假设与已建立的发现。目前的对话系统通过检索或静态档案跟踪对话历史，但缺乏编码认知状态的表征能力。因此，临时解释往往被过早地固化为已建立的事实，从而无意中影响后续干预。为了解决这一局限性，本文提出了CCDWiki作为一种即插即用的顾问，将纵向治疗概念化为基于证据的假设裁定。这种方法将每个临床假设编码为一个可变条目，绑定于支持和反驳的证据。在多个会话中，累积的数据增强了支持条目的有效性，保留了临时条目，并撤回了被反驳的假设。最终的构建提炼为对未修改的治疗语言模型的简明指导。实验表明，在不需要重新训练基础模型的情况下，概念化和干预质量均有显著改善。",
+  "arxiv_id": "2611.05383",
+  "arxiv_url": "https://arxiv.org/abs/2611.05383v1",
+  "authors": [
+    "Mingwen Zhang",
+    "Ruiyang Song",
+    "Qinying Wang",
+    "Yuchen Wang",
+    "Changsheng Ma",
+    "Minqiang Yang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-05",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T03:55:36.397588+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.05383v1",
+  "published_at": "2026-07-31T16:14:18Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotions",
+      "empathic",
+      "generation",
+      "dialogue",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.05383v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-05",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "共情交互",
+    "secondary": [
+      "情感生成"
+    ]
+  },
+  "title": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue",
+  "title_zh": "CCDWIKI：将案例构建与响应生成解耦的纵向认知行为治疗对话",
+  "translation_url": "https://hjfy.top/arxiv/2611.05383"
+}

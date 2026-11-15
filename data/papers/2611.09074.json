@@ -1,0 +1,53 @@
+{
+  "abstract": "Lip synchronization, the task of generating realistic lip movements synchronized with audio signals, is fundamental to applications such as film dubbing, virtual avatars, and digital content creation. Recent GAN-based methods offer computational efficiency but often lack visual fidelity, while diffusion-based approaches achieve high-quality results at the cost of substantial computational overhead. Moreover, most existing methods are limited to photo-realistic human faces, restricting their applicability to stylized characters and non-human entities. In this paper, we propose an efficient universal lip-sync video generation framework that achieves high-quality results without compromising computational efficiency. We build on LivePortrait, a warp-based portrait animation model, and introduce a training strategy that aligns audio signals to an implicit motion space by distilling knowledge from a pre-trained video-to-motion model. This enables real-time inference while maintaining high visual fidelity, and naturally generalizes to diverse stylistic characters beyond photo-realistic humans. Furthermore, we introduce an expressive control gate that enables explicit manipulation of emotional expressions for content enrichment. Extensive experiments demonstrate that our method achieves state-of-the-art performance in both visual quality and lip-sync accuracy while ensuring real-time inference.",
+  "abstract_zh": "唇动同步是生成与音频信号同步的真实唇部动作的任务，这对于电影配音、虚拟化身和数字内容创作等应用至关重要。近期基于生成对抗网络（GAN）的方法提供了计算效率，但往往缺乏视觉真实感，而基于扩散的方法则在高质量结果的实现上付出了相当大的计算开销。此外，大多数现有方法仅限于照片真实的人脸，限制了它们在风格化角色和非人类实体中的应用。在本文中，我们提出了一种高效的通用唇动同步视频生成框架，能够在不妥协计算效率的情况下实现高质量的结果。我们基于LivePortrait，一个基于变形的肖像动画模型，提出了一种训练策略，通过从预训练的视频到运动模型中提取知识，将音频信号对齐到隐式运动空间。这使得在保持高视觉真实感的同时实现实时推理，并自然地推广到超越照片真实人类的多样化风格角色。此外，我们引入了一个表现力控制门，能够明确操控情感表达以丰富内容。大量实验表明，我们的方法在视觉质量和唇动同步精度上均实现了最先进的性能，同时确保了实时推理。",
+  "arxiv_id": "2611.09074",
+  "arxiv_url": "https://arxiv.org/abs/2611.09074v1",
+  "authors": [
+    "Sangjoon Yu",
+    "Seungeun Lee",
+    "JoonHeyok Shin",
+    "Ji-Su Kang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-09",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-15T03:58:29.507312+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.09074v1",
+  "published_at": "2026-11-06T07:01:35Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "generation",
+      "audio",
+      "推理",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-09"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.09074v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-09",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-09"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": [
+      "语音情感"
+    ]
+  },
+  "title": "Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control",
+  "title_zh": "Emo-LiveSync：具有明确情感控制的实时通用唇动同步",
+  "translation_url": "https://hjfy.top/arxiv/2611.09074"
+}

@@ -1,0 +1,51 @@
+{
+  "abstract": "The rapid expansion of AI-driven data center construction has outpaced public engagement: an estimated $64 billion in U.S. data center projects were blocked or delayed by local opposition between May 2024 and March 2025, yet the concerns driving this resistance remain poorly characterized. Prior engagement methods such as surveys and hearings are introduced late in the planning process, and no study has systematically mined social media to measure community stance at scale. To address this gap, this study presents an LLM-powered opinion-mining framework and applies it to 798 Reddit posts and 102,328 associated comments spanning a decade. An open-source large language model, guided by a Chain-of-Stance prompting framework and three domain-specific labeling rules, classified stance at 83% of the human inter-reviewer agreement ceiling. Opposition dominated discourse volume rather than disapproval: against posts outnumbered favor posts 2.6:1 and generated 8.5 times more comments, and this gap widened significantly over 86 weeks. Topic modeling of opposition arguments resolved into four reproducible clusters, resource consumption and scarcity (42.8%), contested siting processes and secrecy (34.2%), political opposition to data centers (13%), and political and corporate accountability (8%). Engagement analysis revealed that posts with emotional or provocative political framing attracted the most engagement, while key technical concerns (e.g., water, power) were dispersed across lower-engagement comment threads. These findings give local leaders, developers, and policy makers a quantified, continuously updatable basis for prioritizing concerns and policy levers, supporting a shift from opposition to negotiated, verifiable partnership for data center development.",
+  "abstract_zh": "人工智能驱动的数据中心建设的快速扩张已经超出了公众参与的步伐：在2024年5月至2025年3月期间，估计有640亿美元的美国数据中心项目因地方反对而被阻止或延迟，但推动这种抵制的担忧仍然缺乏明确的特征。以往的参与方法，如调查和听证会，通常在规划过程中较晚引入，且尚无研究系统性地挖掘社交媒体以大规模测量社区态度。为了解决这一空白，本研究提出了一种基于大型语言模型（LLM）的意见挖掘框架，并将其应用于798条Reddit帖子及其102,328条相关评论，涵盖十年时间。一个开源的大型语言模型，结合链式立场提示框架和三条特定领域的标注规则，将态度分类达到人类互评者一致性上限的83%。反对意见在话语量上占主导地位，而非单纯的不赞成：反对帖子数量是赞成帖子的2.6倍，生成的评论数量是其8.5倍，并且这一差距在86周内显著扩大。反对论点的主题建模分为四个可重复的聚类：资源消耗与稀缺性（42.8%）、争议选址过程与保密性（34.2%）、对数据中心的政治反对（13%）以及政治与企业问责（8%）。参与分析显示，带有情感或挑衅性政治框架的帖子吸引了最多的参与，而关键技术问题（如水、电）则分散在参与度较低的评论线程中。这些发现为地方领导者、开发者和政策制定者提供了一个量化的、可持续更新的基础，以优先考虑关切和政策杠杆，支持从反对转向协商、可验证的合作伙伴关系以推动数据中心发展。",
+  "arxiv_id": "2611.10109",
+  "arxiv_url": "https://arxiv.org/abs/2611.10109",
+  "authors": [
+    "Yoko Koyama",
+    "Gongfan Chen",
+    "Mansi Saxena"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.876285+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.10109",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language model",
+      "LLM",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "文本情感",
+      "社交信号"
+    ]
+  },
+  "title": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
+  "title_zh": "基础设施分歧：通过Reddit分析社区对数据中心发展的态度",
+  "translation_url": "https://hjfy.top/arxiv/2611.10109"
+}

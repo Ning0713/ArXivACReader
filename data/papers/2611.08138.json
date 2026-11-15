@@ -1,0 +1,57 @@
+{
+  "abstract": "This paper presents a novel task of describing human facial expressions of a facial image in natural language, which captures the nuances of facial actions and emotional states beyond traditional emotion categories or facial action units (AUs). To achieve the facial expression captioning model, we propose a three-stage training framework that trains a vision-to-language model using synthesized image-text pairs and the BLIP-2 pre-training techniques. To overcome the challenge of missing training image-text pairs for facial expression captioning, we propose a strategy that involves synthesizing and combining captions using GPT-3.5 and existing annotations on either emotion categories or AUs. Experiments demonstrate the effectiveness of our method in generating captions that describe details of facial actions and emotions, as well as the inferential relationship between them, even when those emotions are not present in the training data. It is also demonstrated that the vision-to-language task enhances the performance of the intermediate visual features on both AU detection and emotion classification tasks.",
+  "abstract_zh": "本文提出了一项新任务，即用自然语言描述面部图像中的人类面部表情，捕捉面部动作和情感状态的细微差别，超越传统的情感类别或面部动作单元（AUs）。为了实现面部表情描述模型，我们提出了一个三阶段的训练框架，该框架使用合成的图像-文本对和BLIP-2预训练技术来训练视觉到语言模型。为了克服面部表情描述训练中缺失图像-文本对的挑战，我们提出了一种策略，通过使用GPT-3.5和现有的情感类别或AUs注释合成和组合描述。实验表明，我们的方法在生成描述面部动作和情感细节的描述方面有效，并且能够推断它们之间的关系，即使这些情感在训练数据中并不存在。还证明了视觉到语言任务提升了中间视觉特征在AUs检测和情感分类任务上的表现。",
+  "arxiv_id": "2611.08138",
+  "arxiv_url": "https://arxiv.org/abs/2611.08138",
+  "authors": [
+    "Yujian Yuan",
+    "Jiabei Zeng",
+    "Shiguang Shan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-06",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-15T03:56:48.216038+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.08138",
+  "published_at": "2026-11-06",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion classification",
+      "情感分类",
+      "emotion",
+      "emotions",
+      "emotional",
+      "large language models",
+      "classification",
+      "detection",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 89.0
+  },
+  "seen_dates": [
+    "2026-11-06"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-06",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "情绪识别",
+      "文本情感"
+    ]
+  },
+  "title": "Describe Your Facial Expressions by Linking Image Encoders and Large Language Models",
+  "title_zh": "通过连接图像编码器和大型语言模型描述面部表情",
+  "translation_url": "https://hjfy.top/arxiv/2611.08138"
+}

@@ -1,0 +1,54 @@
+{
+  "abstract": "Forecasting emotion in conversation is increasingly framed as predicting the next emotional state's value. We show this targets a hard quantity in a state-observed testbed and propose a learnable, deployable reformulation instead. On valence-arousal-dominance trajectories from a dyadic corpus, repeating a speaker's own previous state sets a persistence baseline that no frozen-encoder correction meaningfully improves upon and a state-space filter exceeds; the floor requires the historical state to be observed, since an estimated anchor collapses persistence below a direct forecaster. What survives is the timing of a departure from persistence, learnable on three of four corpora and near chance on the highest-base-rate corpus, a negative result we report. We recast the task as selective departure forecasting: a lead-time-weighted metric with a leakage protocol, and commitment policies whose best choice switches with the departure rate. A dialogue-level conformal risk control bounds the expected loss of committed predictions, meeting the target in all twelve configurations tested, though the guarantee is bought through abstention, with coverage and alarm recall falling sharply on the hardest corpus. One tested language model's confidence fails as a ranking signal where another succeeds, a model-dependent failure not yet attributable to family versus scale. Code and result logs are available from the corresponding author upon request.",
+  "abstract_zh": "在对话中预测情感越来越被视为预测下一个情感状态的值。我们展示了这一目标在一个状态观察的测试环境中是一个困难的量，并提出了一种可学习、可部署的重新表述。在来自双人语料库的愉悦-唤醒-主导性轨迹中，重复说话者自己之前的状态设定了一个持久性基线，任何冻结编码器的修正都没有显著改善，而状态空间过滤器则超越了这一基线；这一底线要求观察到历史状态，因为估计的锚点会使持久性低于直接预测者。最终剩下的是离开持久性的时机，这在四个语料库中的三个上是可学习的，而在基数最高的语料库上接近随机结果，这是我们报告的一个负面结果。我们将任务重新表述为选择性离开预测：一种加权的提前时间度量，带有泄漏协议，以及最佳选择随离开率变化的承诺策略。对话级别的符合风险控制界定了承诺预测的预期损失，满足了在所有测试的十二种配置中的目标，尽管这一保证是通过放弃获得的，覆盖率和警报召回在最困难的语料库上急剧下降。一个测试的语言模型的置信度在排名信号中失败，而另一个则成功，这是一种尚未归因于模型家族与规模的模型依赖性失败。代码和结果日志可根据请求向通讯作者提供。",
+  "arxiv_id": "2611.05896",
+  "arxiv_url": "https://arxiv.org/abs/2611.05896v1",
+  "authors": [
+    "Bin Wen",
+    "Dai-Qiao Zhang",
+    "Tien-Ping Tan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-05",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T03:55:36.398302+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.05896v1",
+  "published_at": "2026-11-04T03:39:22Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感预测",
+      "emotion",
+      "emotional",
+      "detection",
+      "dialogue",
+      "conversation",
+      "检测",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 58.0
+  },
+  "seen_dates": [
+    "2026-11-05"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.05896v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-05",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-05"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "Selective, Risk-Controlled Emotion Forecasting in Conversation: From a Persistence Barrier to Departure Detection with Conformal Guarantees",
+  "title_zh": "对话中的选择性、风险控制情感预测：从持久性障碍到带有符合保证的离开检测",
+  "translation_url": "https://hjfy.top/arxiv/2611.05896"
+}

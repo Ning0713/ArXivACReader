@@ -1,0 +1,20 @@
+{
+  "candidate_count": 469,
+  "date": "2026-11-13",
+  "filter_version": "affective-computing-v3",
+  "generated_at": "2026-11-15T04:01:47.025573+00:00",
+  "paper_ids": [
+    "2611.15306",
+    "2611.15601",
+    "2611.16647",
+    "2611.15655"
+  ],
+  "raw_count": 475,
+  "selected_count": 4,
+  "source_hash": "03658e9ce44ad68cdcc5f16d785647e34a8a69512d8310ca0322799ce1d505ec",
+  "source_mode": "axi",
+  "source_url": "https://paper.axi404.top/api/daily/2026-11-13",
+  "warnings": [
+    "arXiv metadata enrichment failed: Unable to fetch arXiv API (id_list=2611.15306%2C2611.15601%2C2611.16647%2C2611.15655&max_results=4): Client error '429 Too Many Requests' for url 'https://export.arxiv.org/api/query?id_list=2611.15306%2C2611.15601%2C2611.16647%2C2611.15655&max_results=4'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429"
+  ]
+}

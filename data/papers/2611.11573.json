@@ -1,0 +1,50 @@
+{
+  "abstract": "Audio language model benchmarks provide comprehensive evaluation across diverse tasks. However, some tasks can be answered from the transcript or even the question alone, and benchmark scores can therefore confound acoustic understanding with language modeling ability. We distinguish lexical tasks, for which the transcript usually suffices, from global-attribute and within-recording-structure tasks, which require the model to analyse the recording beyond its words, either as a whole, for properties such as the speaker and emotion, or within it, for patterns such as stress and intonation. We evaluated 19 open models and Gemini 3.1 Pro on 92 tasks from 6 benchmarks and estimated the recording gain, the accuracy advantage of the original recording over references that retain its words, by comparing the recording with synthetic readings of its transcript and by adding it to the transcript. On attribute and structure tasks, the open models fall behind Gemini by 28.6 and 41.9 percentage points, and about half or more of each deficit lies in the recording gain. Nevertheless, linear probes in Gemma-4 12B and Qwen2.5-Omni-7B show that the acoustic information needed for answering is already readable in early language-model layers, while the readout of many cues declines in the layers that follow. We therefore constructed training data and trained LoRA adapters in these layers, with a content anchor, which raises attribute and structure accuracy by 12.8 to 44.4 points in the two models and keeps mean lexical accuracy within 1 point of the base model. Most of the improvement appears as larger recording gains. These results suggest that training improves the use of acoustic information that the models already encode.",
+  "abstract_zh": "音频语言模型基准提供了对多样任务的全面评估。然而，一些任务可以仅通过转录本或甚至问题本身来回答，因此基准得分可能会混淆声学理解与语言建模能力。我们将词汇任务与全球属性和录音结构任务区分开来，前者通常仅依赖转录本，而后者需要模型分析录音超越其字面内容，无论是整体分析（如说话者和情感等属性），还是在录音内部分析（如重音和语调等模式）。我们对19个开放模型和Gemini 3.1 Pro在6个基准的92个任务上进行了评估，并通过将录音与其转录本的合成朗读进行比较，估算了录音增益，即原始录音相较于保留其字词的参考的准确性优势，并将其添加到转录本中。在属性和结构任务中，开放模型在准确性上落后于Gemini，分别为28.6和41.9个百分点，而每个缺口中约一半或更多来自于录音增益。然而，Gemma-4 12B和Qwen2.5-Omni-7B中的线性探针显示，回答所需的声学信息在早期语言模型层中已经可读，而许多线索的读取在后续层中下降。因此，我们构建了训练数据并在这些层中训练了LoRA适配器，使用内容锚点，使得两个模型的属性和结构准确性提高了12.8到44.4个百分点，并保持词汇平均准确性在基模型的1个百分点以内。大部分改进表现为更大的录音增益。这些结果表明，训练改善了模型已经编码的声学信息的使用。",
+  "arxiv_id": "2611.11573",
+  "arxiv_url": "https://arxiv.org/abs/2611.11573",
+  "authors": [
+    "Linkai Peng",
+    "Baorian Nuchged",
+    "Yuyang Yao"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.886753+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.11573",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "audio language",
+      "benchmark",
+      "audio"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "语音情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Beyond the Transcript: Measuring and Improving the Use of Acoustic Information in Audio Language Models",
+  "title_zh": "超越转录本：测量和改善音频语言模型中声学信息的使用",
+  "translation_url": "https://hjfy.top/arxiv/2611.11573"
+}

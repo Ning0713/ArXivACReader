@@ -1,0 +1,61 @@
+{
+  "abstract": "Omni-modal models can answer questions about video, but their predictions rarely show which participant, event, or interval supports an answer. Moreover, answer-level supervision alone does not teach a model to interpret structured video evidence. To systematically mitigate this issue, we present THG-Omni, a human-centric graph-supervision framework that links Segment Anything Model~3 participant tracks with temporally grounded Qwen3-VL annotations. Candidate semantic claims are checked against the source video and available audio before they are used to construct training questions, while track geometry provides explicit spatial and temporal supervision. The resulting questions teach an omni-modal reasoning model to interpret participant attributes, actions, affect, interactions, and their timing from a structured graph. At inference, THG-Omni uses a predicted graph constructed from the evaluation video. Experiments on IntentBench show consistent improvements over the unadapted backbone across social reasoning, emotion understanding, and deception perception. On NExT-QA, THG-Omni achieves 89.54\\% accuracy with the matched graph, compared with 85.10\\% without graph input. Further validation experiments show that compact graph input achieves 78.22\\% accuracy, compared with 78.02\\% using the full graph and 77.58\\% without graph input. A complementary diagnostic demonstrates that the predicted graph preserves evidence useful for answering questions even without the source video and audio. Together, these findings show that THG-Omni improves human-centric video reasoning while grounding its evidence in identifiable participants and events. Our codes are available at https://anonymous.4open.science/r/review-n94hhfcwp5666/",
+  "abstract_zh": "全模态模型能够回答关于视频的问题，但它们的预测很少显示哪个参与者、事件或时间段支持某个答案。此外，仅靠答案级监督并不能教会模型如何解释结构化的视频证据。为系统性地缓解这一问题，我们提出了THG-Omni，一个以人为中心的图形监督框架，它将Segment Anything Model~3的参与者轨迹与时间上有依据的Qwen3-VL注释相连接。在将候选语义主张用于构建训练问题之前，会对其进行源视频和可用音频的检查，而轨迹几何则提供了明确的空间和时间监督。由此产生的问题教会全模态推理模型如何从结构化图中解释参与者属性、行为、情感、互动及其时序。在推理时，THG-Omni使用从评估视频构建的预测图。IntentBench上的实验显示，在社会推理、情感理解和欺骗感知方面，相较于未适配的基础模型，THG-Omni表现出一致的提升。在NExT-QA上，THG-Omni在匹配图的情况下达到了89.54%的准确率，而在没有图输入的情况下为85.10%。进一步的验证实验表明，紧凑的图输入达到了78.22%的准确率，而使用完整图的准确率为78.02%，没有图输入的准确率为77.58%。一个补充的诊断表明，预测图即使在没有源视频和音频的情况下也保留了对回答问题有用的证据。这些发现共同表明，THG-Omni在提高以人为中心的视频推理的同时，将其证据与可识别的参与者和事件相结合。我们的代码可在 https://anonymous.4open.science/r/review-n94hhfcwp5666/ 获取。",
+  "arxiv_id": "2611.07836",
+  "arxiv_url": "https://arxiv.org/abs/2611.07836",
+  "authors": [
+    "Jisheng Dang",
+    "Kai Wei",
+    "Ronghao Lin",
+    "Bimei Wang",
+    "Hong Peng",
+    "Wei-Shi Zheng",
+    "Bin Hu",
+    "Qi Tian",
+    "Tat-Seng Chua"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-06",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:56:48.214933+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.07836",
+  "published_at": "2026-11-06",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion understanding",
+      "情感理解",
+      "emotion",
+      "reasoning",
+      "audio",
+      "识别",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-11-06"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-06",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-06"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "THG-Omni: Traceable Human-Centric Graph Supervision for Video Reasoning",
+  "title_zh": "THG-Omni：可追踪的人本图形监督用于视频推理",
+  "translation_url": "https://hjfy.top/arxiv/2611.07836"
+}

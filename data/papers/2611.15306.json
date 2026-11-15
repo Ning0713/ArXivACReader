@@ -1,0 +1,59 @@
+{
+  "abstract": "Short videos have become a dominant online medium, where harmful content is increasingly conveyed in implicit and fragmented forms. Prior work largely focuses on explicit categories, such as violence and hate speech, and often fails to detect videos that subtly promote misleading values through narrative context, emotional framing, or cross-modal cues, partly due to the lack of dedicated benchmarks for implicit harm. To bridge this gap, we construct DeepHarm-7K, a large-scale harmful short-video dataset comprising 7,110 samples annotated according to a fine-grained harmful-content taxonomy. The dataset systematically covers implicitly harmful videos across diverse real-world scenarios and is constructed through a rigorous multi-stage quality-control process. Building on this dataset, we propose DeepHarm-VL, a multimodal detection framework that integrates visual, audio, and cross-modal reasoning. The framework employs a two-round reasoning strategy to progressively identify surface-level evidence and infer latent harmful implications. Experimental results show consistent improvements over strong baselines and state-of-the-art methods across multiple open-source video-language models, demonstrating its effectiveness in detecting both explicit and implicit harmful short videos.",
+  "abstract_zh": "短视频已成为一种主导的在线媒介，其中有害内容越来越多地以隐性和碎片化的形式呈现。以往的研究主要集中在显性类别，如暴力和仇恨言论，往往未能检测出那些通过叙事背景、情感框架或跨模态线索微妙地传播误导性价值观的视频，这在一定程度上是由于缺乏针对隐性危害的专门基准。为填补这一空白，我们构建了DeepHarm-7K，这是一个大规模的有害短视频数据集，包含7,110个样本，依据细粒度的有害内容分类法进行标注。该数据集系统地覆盖了多种真实场景中的隐性有害视频，并通过严格的多阶段质量控制过程构建而成。在此数据集的基础上，我们提出了DeepHarm-VL，一个集成视觉、音频和跨模态推理的多模态检测框架。该框架采用两轮推理策略，逐步识别表层证据并推断潜在的有害含义。实验结果显示，在多个开源视频语言模型上，相较于强基线和最先进的方法，均取得了一致的改进，证明了其在检测显性和隐性有害短视频方面的有效性。",
+  "arxiv_id": "2611.15306",
+  "arxiv_url": "https://arxiv.org/abs/2611.15306",
+  "authors": [
+    "Chenyang Li",
+    "Qifan Yu",
+    "Saihui Hou",
+    "Zhaofeng He"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-13",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-15T04:01:04.561477+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.15306",
+  "published_at": "2026-11-13",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "multimodal",
+      "detection",
+      "reasoning",
+      "dataset",
+      "speech",
+      "audio",
+      "多模态",
+      "识别",
+      "分类",
+      "检测",
+      "推理"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 39.0
+  },
+  "seen_dates": [
+    "2026-11-13"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-13",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-13"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "数据集/评测",
+      "语音情感"
+    ]
+  },
+  "title": "Beyond the Explicit: Benchmarking and Detecting Implicit Harm in Short Videos",
+  "title_zh": "超越显性：短视频中隐性危害的基准测试与检测",
+  "translation_url": "https://hjfy.top/arxiv/2611.15306"
+}

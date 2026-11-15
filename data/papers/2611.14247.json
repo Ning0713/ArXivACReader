@@ -1,0 +1,58 @@
+{
+  "abstract": "Self-interested intelligent agents that negotiate with humans should interpret nonverbal expressions and adapt their behavior accordingly. However, generic facial-affect models degrade across individuals and contexts, creating a generalization gap. We introduce an affect-adaptive negotiation strategy that incorporates Continual Learning with Imagination for Facial Expression Recognition (CLIFER) to personalize valence-arousal perception in real time. Differential feedback converts changes in valence-arousal direction and intensity into adjustments of the agent's target utility. An asynchronous architecture updates CLIFER in the background during live interaction. In a counterbalanced within-subject study in which 66 participants negotiated with a humanoid robot, the CL-enabled agent achieved significantly higher individual utility and elicited higher participant concession rates than the FaceChannel baseline. The CL condition yielded significantly higher mean arousal estimates, alongside a broader output range. Participant utility and Nash distance did not change significantly between conditions. These outcomes support the practical value of coupling continual affective personalization with differential feedback for real-time negotiation.",
+  "abstract_zh": "自利的智能代理与人类进行协商时，应当解读非语言表达并相应调整其行为。然而，通用的面部情感模型在个体和情境之间的适用性较差，导致了泛化差距。我们提出了一种情感自适应的协商策略，该策略结合了持续学习与面部表情识别的想象（Continual Learning with Imagination for Facial Expression Recognition, CLIFER），以实时个性化愉悦度-唤醒度感知。差异反馈将愉悦度-唤醒度方向和强度的变化转化为代理目标效用的调整。异步架构在实时交互过程中后台更新CLIFER。在一项平衡的被试内研究中，66名参与者与类人机器人进行协商，启用CL的代理实现了显著更高的个体效用，并引发了更高的参与者让步率，相较于FaceChannel基线。CL条件下的平均唤醒度估计显著更高，同时输出范围更广。参与者效用和纳什距离在不同条件之间没有显著变化。这些结果支持将持续情感个性化与差异反馈结合用于实时协商的实际价值。",
+  "arxiv_id": "2611.14247",
+  "arxiv_url": "https://arxiv.org/abs/2611.14247",
+  "authors": [
+    "Mehmet Onur Keskin",
+    "Berk Buzcu",
+    "Nikhil Churamani",
+    "Reyhan Aydogan",
+    "Hatice Gunes",
+    "Catholijn Jonker"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-11",
+  "categories": [
+    "cs.AI",
+    "cs.HC",
+    "cs.LG",
+    "cs.MA",
+    "cs.RO"
+  ],
+  "fetched_at": "2026-11-15T04:00:22.128868+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.14247",
+  "published_at": "2026-11-11",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "affective",
+      "recognition",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 68.0
+  },
+  "seen_dates": [
+    "2026-11-11"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-11",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-11"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "社交信号"
+    ]
+  },
+  "title": "Personalized Affective Perception via Continual Learning in Human-Agent Negotiation",
+  "title_zh": "通过持续学习实现人机协商中的个性化情感感知",
+  "translation_url": "https://hjfy.top/arxiv/2611.14247"
+}

@@ -1,6 +1,710 @@
 {
-  "generated_at": "2026-11-03T12:42:45.952596+00:00",
+  "generated_at": "2026-11-15T04:01:47.025573+00:00",
   "items": [
+    {
+      "abstract": "Multimodal depression screening estimates risk from speech, visual behavior and language. Current methods mainly predict labels, with limited evidence of departures from a non-depressed reference. Recording-level supervision also leaves fine-grained emotional dynamics unannotated. Motivated by emotional inertia, the persistence of affect, InertiaMPDD learns healthy next-state patterns using a world-model-inspired latent predictor. Using pretrained multimodal representations, it predicts from observed history and context. Reference deviation, residual decay rate and a Jacobian spectral descriptor form reference-derived emotional dynamics descriptors, evaluated as candidate proxy biomarkers for standalone screening and personalized decision correction. Across five cohorts from four datasets, fusion reaches 98.41% F1 on D-Vlog and 84.98% on LMVD. Standalone descriptors outperform fixed additive fusion on MPDD but discriminate weakly on AVEC2014. These findings distinguish reference informativeness from fusion benefit and reveal context-dependent utility.",
+      "abstract_zh": "多模态抑郁筛查通过语音、视觉行为和语言评估风险。当前的方法主要预测标签，缺乏对非抑郁参考的偏离证据。记录级监督也使得细粒度的情感动态未被标注。受到情感惯性的启发，即情感的持续性，InertiaMPDD通过使用受世界模型启发的潜在预测器学习健康的下一状态模式。它利用预训练的多模态表示，从观察到的历史和上下文中进行预测。参考偏离、残余衰减率和雅可比谱描述符形成了基于参考的情感动态描述符，这些描述符被评估为独立筛查和个性化决策修正的候选代理生物标志物。在来自四个数据集的五个队列中，融合方法在D-Vlog上达到了98.41%的F1分数，在LMVD上达到了84.98%。独立描述符在MPDD上优于固定加性融合，但在AVEC2014上的区分能力较弱。这些发现区分了参考信息量与融合收益，并揭示了上下文依赖的效用。",
+      "authors": [
+        "Changzeng Fu",
+        "Songyang Wang",
+        "Chang Gao",
+        "Xinyi Zhang",
+        "Peilin Li",
+        "Mo Meng",
+        "Jiarui Wu",
+        "Mingze Li",
+        "Hongwei Ding",
+        "Shiqi Zhao",
+        "Yong Li",
+        "Lang He"
+      ],
+      "date": "2026-11-13",
+      "id": "2611.16647",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "心理状态/福祉"
+      ],
+      "title": "InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling",
+      "title_zh": "InertiaMPDD：通过情感惯性启发的动态建模实现多模态个性化抑郁检测",
+      "url": "/daily/2026-11-13/#paper-2611-16647"
+    },
+    {
+      "abstract": "As memory-augmented agents increasingly support long-term and personalized interactions, reliable recall of emotional experiences while preserving their associated affect becomes necessary. However, existing evaluations usually assess emotion accuracy and factual memory grounding separately, overlooking event-affect correspondence. In this work, we formulate Affective-Episodic Retrospection (AER) as a task that explicitly evaluates the recovery of past events, associated affects, and their correspondence, and define Event-Affect Decoupling as a failure mode where the correct emotion is recalled but associated with the wrong episode. To diagnose Event-Affect Decoupling, we propose EM-TRACE, a stage-wise framework that decomposes AER into retrieval, affect recovery, and realization. On a controlled GoEmotions-based benchmark, Emotion-only retrieval achieves 28.65% affect recovery but retrieves the target episode for only 4.44% of queries, yielding a UAR of 24.21%. Further analysis reveals that event retrieval and affect assignment introduce distinct binding failures. These findings show that reliable AER requires grounded recall of emotional experiences, where episode retrieval, affect recovery, event-affect binding, and generation quality should be evaluated jointly. Our code is available at https://anonymous.4open.science/r/A412/.",
+      "abstract_zh": "随着记忆增强代理越来越多地支持长期和个性化的互动，可靠地回忆情感经历并保持其相关情感变得必要。然而，现有评估通常分别评估情感准确性和事实记忆基础，忽视了事件-情感的一致性。在本研究中，我们将情感-情节回顾（Affective-Episodic Retrospection, AER）定义为一项明确评估过去事件、相关情感及其一致性的任务，并将事件-情感解耦（Event-Affect Decoupling）定义为一种失败模式，其中正确的情感被回忆但与错误的情节相关。为了诊断事件-情感解耦，我们提出了EM-TRACE，一个分阶段框架，将AER分解为检索、情感恢复和实现。在一个基于GoEmotions的控制基准上，仅情感检索的情感恢复率为28.65%，但仅有4.44%的查询成功检索到目标情节，导致无偏准确率（UAR）为24.21%。进一步分析表明，事件检索和情感分配引入了不同的绑定失败。这些发现表明，可靠的AER需要对情感经历的基础回忆，其中情节检索、情感恢复、事件-情感绑定和生成质量应共同评估。我们的代码可在 https://anonymous.4open.science/r/A412/ 获取。",
+      "authors": [
+        "Tingna Xie",
+        "Ming Wang",
+        "Shi Feng",
+        "Yongkang Liu"
+      ],
+      "date": "2026-11-13",
+      "id": "2611.15655",
+      "tags": [
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Can Agents Relive Past Experiences? Diagnosing Event-Affect Decoupling in Affective-Episodic Retrospection",
+      "title_zh": "代理能重温过去的经历吗？诊断情感-事件解耦在情感-情节回顾中的表现",
+      "url": "/daily/2026-11-13/#paper-2611-15655"
+    },
+    {
+      "abstract": "Animal focused computer vision datasets are of a growing interest in the fields of both Computer Vision and Animal behaviour. The ability to make sense of complex scenes via a variety of Computer Vision tasks has substantial implications for behavioural understanding and welfare. The perfection of these tasks will help lead to better health and emotional outcomes for wild and domestic animals. In this work we present the Cat Royale Comprehensive Dataset (CRCD), a large, comprehensive, multi-modal dataset for feline understanding, based on a huge database of over 500 hours of video captured during the Cat Royale artwork and research project. Our dataset contains annotations for a range of computer vision problems including 20,000 images with instance segmentation masks, 5000 images with multi-subject pose coordinates, over 800 video clips with action classes, and over 800 clips with detailed text description. This is the first such dataset to link this wide range of annotation types together for multi-modal use. We release this entire dataset, and our custom annotation tools will also be made available, in order to allow for ongoing expansion. We also provide a series of benchmarks for the tasks of Instance Segmentation, Pose detection, Temporal Action Localisation, and finally video-text retrieval. The totality of this multi-modal dataset is the data needed to solve both these individual computer vision tasks as well as enabling more complex multi-modal tasks making use of a combination of annotations.",
+      "abstract_zh": "以动物为中心的计算机视觉数据集在计算机视觉和动物行为领域越来越受到关注。通过各种计算机视觉任务理解复杂场景的能力对行为理解和动物福利具有重要影响。这些任务的完善将有助于改善野生和家养动物的健康和情感结果。在本研究中，我们介绍了猫王综合数据集（Cat Royale Comprehensive Dataset, CRCD），这是一个大型、全面的多模态数据集，旨在促进对猫科动物的理解，基于在猫王艺术和研究项目中捕获的超过500小时的视频构建而成。我们的数据集包含一系列计算机视觉问题的注释，包括20,000张带有实例分割掩码的图像、5,000张带有多主体姿态坐标的图像、超过800个带有动作类别的视频片段，以及超过800个带有详细文本描述的片段。这是第一个将如此广泛的注释类型链接在一起以供多模态使用的数据集。我们将发布整个数据集，并提供我们的自定义注释工具，以便进行持续扩展。我们还提供了一系列基准，用于实例分割、姿态检测、时间动作定位以及视频-文本检索等任务。这个多模态数据集的整体性为解决这些单独的计算机视觉任务提供了所需的数据，同时也使得利用组合注释进行更复杂的多模态任务成为可能。",
+      "authors": [
+        "Zane K. J. Hartley",
+        "Joseph Ho",
+        "Alan Chamberlain",
+        "Michael P. Pound",
+        "Steve Benford"
+      ],
+      "date": "2026-11-13",
+      "id": "2611.15601",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "文本情感"
+      ],
+      "title": "Cat Royale Comprehensive Dataset: A Dataset for Pose Detection, Segmentation, Animal Action Recognition and Scene Understanding",
+      "title_zh": "猫王综合数据集：用于姿态检测、分割、动物行为识别和场景理解的数据集",
+      "url": "/daily/2026-11-13/#paper-2611-15601"
+    },
+    {
+      "abstract": "Short videos have become a dominant online medium, where harmful content is increasingly conveyed in implicit and fragmented forms. Prior work largely focuses on explicit categories, such as violence and hate speech, and often fails to detect videos that subtly promote misleading values through narrative context, emotional framing, or cross-modal cues, partly due to the lack of dedicated benchmarks for implicit harm. To bridge this gap, we construct DeepHarm-7K, a large-scale harmful short-video dataset comprising 7,110 samples annotated according to a fine-grained harmful-content taxonomy. The dataset systematically covers implicitly harmful videos across diverse real-world scenarios and is constructed through a rigorous multi-stage quality-control process. Building on this dataset, we propose DeepHarm-VL, a multimodal detection framework that integrates visual, audio, and cross-modal reasoning. The framework employs a two-round reasoning strategy to progressively identify surface-level evidence and infer latent harmful implications. Experimental results show consistent improvements over strong baselines and state-of-the-art methods across multiple open-source video-language models, demonstrating its effectiveness in detecting both explicit and implicit harmful short videos.",
+      "abstract_zh": "短视频已成为一种主导的在线媒介，其中有害内容越来越多地以隐性和碎片化的形式呈现。以往的研究主要集中在显性类别，如暴力和仇恨言论，往往未能检测出那些通过叙事背景、情感框架或跨模态线索微妙地传播误导性价值观的视频，这在一定程度上是由于缺乏针对隐性危害的专门基准。为填补这一空白，我们构建了DeepHarm-7K，这是一个大规模的有害短视频数据集，包含7,110个样本，依据细粒度的有害内容分类法进行标注。该数据集系统地覆盖了多种真实场景中的隐性有害视频，并通过严格的多阶段质量控制过程构建而成。在此数据集的基础上，我们提出了DeepHarm-VL，一个集成视觉、音频和跨模态推理的多模态检测框架。该框架采用两轮推理策略，逐步识别表层证据并推断潜在的有害含义。实验结果显示，在多个开源视频语言模型上，相较于强基线和最先进的方法，均取得了一致的改进，证明了其在检测显性和隐性有害短视频方面的有效性。",
+      "authors": [
+        "Chenyang Li",
+        "Qifan Yu",
+        "Saihui Hou",
+        "Zhaofeng He"
+      ],
+      "date": "2026-11-13",
+      "id": "2611.15306",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "语音情感"
+      ],
+      "title": "Beyond the Explicit: Benchmarking and Detecting Implicit Harm in Short Videos",
+      "title_zh": "超越显性：短视频中隐性危害的基准测试与检测",
+      "url": "/daily/2026-11-13/#paper-2611-15306"
+    },
+    {
+      "abstract": "Self-interested intelligent agents that negotiate with humans should interpret nonverbal expressions and adapt their behavior accordingly. However, generic facial-affect models degrade across individuals and contexts, creating a generalization gap. We introduce an affect-adaptive negotiation strategy that incorporates Continual Learning with Imagination for Facial Expression Recognition (CLIFER) to personalize valence-arousal perception in real time. Differential feedback converts changes in valence-arousal direction and intensity into adjustments of the agent's target utility. An asynchronous architecture updates CLIFER in the background during live interaction. In a counterbalanced within-subject study in which 66 participants negotiated with a humanoid robot, the CL-enabled agent achieved significantly higher individual utility and elicited higher participant concession rates than the FaceChannel baseline. The CL condition yielded significantly higher mean arousal estimates, alongside a broader output range. Participant utility and Nash distance did not change significantly between conditions. These outcomes support the practical value of coupling continual affective personalization with differential feedback for real-time negotiation.",
+      "abstract_zh": "自利的智能代理与人类进行协商时，应当解读非语言表达并相应调整其行为。然而，通用的面部情感模型在个体和情境之间的适用性较差，导致了泛化差距。我们提出了一种情感自适应的协商策略，该策略结合了持续学习与面部表情识别的想象（Continual Learning with Imagination for Facial Expression Recognition, CLIFER），以实时个性化愉悦度-唤醒度感知。差异反馈将愉悦度-唤醒度方向和强度的变化转化为代理目标效用的调整。异步架构在实时交互过程中后台更新CLIFER。在一项平衡的被试内研究中，66名参与者与类人机器人进行协商，启用CL的代理实现了显著更高的个体效用，并引发了更高的参与者让步率，相较于FaceChannel基线。CL条件下的平均唤醒度估计显著更高，同时输出范围更广。参与者效用和纳什距离在不同条件之间没有显著变化。这些结果支持将持续情感个性化与差异反馈结合用于实时协商的实际价值。",
+      "authors": [
+        "Mehmet Onur Keskin",
+        "Berk Buzcu",
+        "Nikhil Churamani",
+        "Reyhan Aydogan",
+        "Hatice Gunes",
+        "Catholijn Jonker"
+      ],
+      "date": "2026-11-11",
+      "id": "2611.14247",
+      "tags": [
+        "面部表情",
+        "社交信号"
+      ],
+      "title": "Personalized Affective Perception via Continual Learning in Human-Agent Negotiation",
+      "title_zh": "通过持续学习实现人机协商中的个性化情感感知",
+      "url": "/daily/2026-11-11/#paper-2611-14247"
+    },
+    {
+      "abstract": "Emotion vectors are directions in a language model's internal representations that are associated with emotional concepts. Prior work shows that these vectors can influence model behavior, but their role in sentiment classification remains unclear. This study investigates emotion directions in Qwen2.5-0.5B-Instruct and Qwen2.5-3B-Instruct. Eight directions extracted from GoEmotions are evaluated through sentiment probing, activation interventions, and supervised correction. Emotion-only probes achieve 88.66% and 90.70% accuracy on binary TweetEval. In exploratory matched-ablation experiments, raw emotion-space removal causes 2.39 and 1.10 percentage points more accuracy loss than matched isotropic random-subspace removal for 0.5B and 3B, respectively. All four TweetEval raw and denoised effects are significant after Holm adjustment across eight comparisons. An exploratory SST-2 extension shows smaller raw excess losses of 0.66 and 0.57 points, with no effects surviving Holm adjustment. Frozen sentiment-correction classifiers are also tested on 20,000 Amazon Polarity reviews. Emotion-based correction improves accuracy over uncorrected Qwen, but does not consistently outperform margin-only baselines. These results distinguish sentiment information available in model representations, the effects of changing those representations, and their practical value for classification. They do not establish a uniquely emotional mechanism.",
+      "abstract_zh": "情感向量是与情感概念相关联的语言模型内部表征中的方向。先前的研究表明，这些向量可以影响模型行为，但它们在情感分类中的作用仍不明确。本研究调查了 Qwen2.5-0.5B-Instruct 和 Qwen2.5-3B-Instruct 中的情感方向。通过情感探测、激活干预和监督校正评估了从 GoEmotions 提取的八个方向。仅使用情感探测器在二元 TweetEval 上达到了 88.66% 和 90.70% 的准确率。在探索性匹配消融实验中，原始情感空间的移除导致 0.5B 和 3B 的准确率损失分别比匹配的各向同性随机子空间移除多出 2.39 和 1.10 个百分点。经过 Holm 调整后，所有四个 TweetEval 原始和去噪效果在八个比较中均显著。探索性 SST-2 扩展显示原始超额损失较小，分别为 0.66 和 0.57 分，且没有效果在 Holm 调整后存活。还对 20,000 条亚马逊极性评论测试了冻结的情感校正分类器。基于情感的校正提高了未校正 Qwen 的准确率，但并未始终优于仅基于边际的基线。这些结果区分了模型表征中可用的情感信息、改变这些表征的效果及其在分类中的实际价值。它们并未建立独特的情感机制。",
+      "authors": [
+        "Ali Hassan Khan",
+        "Saad Bin Ather",
+        "Muhammad Saif",
+        "Maryam Bashir",
+        "Hajra Waheed"
+      ],
+      "date": "2026-11-11",
+      "id": "2611.13744",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Do Language Models Feel the Sentiment? Investigating Emotion Vectors",
+      "title_zh": "语言模型是否感知情感？情感向量的研究",
+      "url": "/daily/2026-11-11/#paper-2611-13744"
+    },
+    {
+      "abstract": "Co-speech gestures can increase engagement and improve speech understanding. Yet, most data-driven robot systems generate either rhythmic beat-like motion or semantically meaningful iconic gestures, but not both. We present an emotion-aware rhythmic-semantic co-speech gesture system that generates iconic and beat behaviors in real time from text and the robot's internal emotional state. We formalize the task of beat-iconic gesture generation using emotion and propose lightweight models that predict iconic timing and intensity, then fill the remaining spans with emotion-conditioned beats at an appropriate intensity level. We train on the BEAT2 dataset and deploy the system on the social robot Haru. In an online user study with 60 participants, our method shows stronger speech-gesture alignment and is preferred over baseline methods.",
+      "abstract_zh": "共语手势可以增加参与感并改善语音理解。然而，大多数基于数据的机器人系统要么生成节奏感的打击动作，要么生成具有语义意义的标志性手势，但两者兼而有之的情况较少。我们提出了一种情感感知的节奏-语义共语手势系统，该系统能够实时从文本和机器人的内部情感状态生成标志性和节奏行为。我们通过情感形式化了节奏-标志性手势生成的任务，并提出了轻量级模型来预测标志性手势的时机和强度，然后以适当的强度水平填充剩余的时间段，以情感为条件生成节奏。我们在BEAT2数据集上进行训练，并将该系统部署在社交机器人Haru上。在一项包含60名参与者的在线用户研究中，我们的方法显示出更强的语音-手势对齐，并且优于基线方法。",
+      "authors": [
+        "Christian Arzate Cruz",
+        "Edwin C. Montiel-Vázquez",
+        "Stefanos Gkikas",
+        "Miguel Mejia Tobar",
+        "Randy Gomez"
+      ],
+      "date": "2026-11-11",
+      "id": "2611.13472",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Rhythmic-Semantic Co-Speech Gestures for Emotional Dialogue in Robots",
+      "title_zh": "机器人情感对话中的节奏-语义共语手势",
+      "url": "/daily/2026-11-11/#paper-2611-13472"
+    },
+    {
+      "abstract": "Thai is written without spaces between words, making segmentation a foundational step in most Thai NLP pipelines. Existing tools primarily reproduce the word-level conventions of corpora such as BEST; however, because the notion of a \"word\" in Thai lacks a unified linguistic consensus, these conventions struggle with productive compounding, leading to arbitrary boundaries and ambiguity in downstream representations. Instead, we propose operating at the morphological level, focusing on khammoon, the smallest atomic unit that carries meaning. Segmenting at the morphemic level provides an explicit, consistent morphological representation that eliminates compounding ambiguity. Crucially, this representation benefits downstream learning: models trained on morphemes perform on par with or exceed word-level baselines across part-of-speech tagging, named-entity recognition, and sentiment classification, demonstrating that linguistic consistency improves representation quality without downstream performance penalty. To operationalize this representation, we translate linguistic principles into a formal decision guideline with near-perfect human agreement ($\\kappa \\approx 0.99$), scale annotation with an LLM, and correct systematic errors with human labels. Finally, we train khammoon, a lightweight 1M-parameter convolutional BiLSTM segmenter designed for efficient CPU inference, achieving a boundary F1 of 0.992 on out-of-domain text. The guideline, datasets, model, and library are all publicly released.",
+      "abstract_zh": "泰语书写时单词之间没有空格，这使得分割成为大多数泰语自然语言处理（NLP）流程中的基础步骤。现有工具主要复现了如BEST等语料库的词级约定；然而，由于泰语中“词”的概念缺乏统一的语言学共识，这些约定在生产性复合词方面面临困难，导致了任意边界和下游表示中的歧义。因此，我们建议在形态学层面进行操作，关注khammoon，即携带意义的最小原子单位。在形态素层面进行分割提供了一种明确、一致的形态学表示，消除了复合歧义。至关重要的是，这种表示对下游学习有益：在形态素上训练的模型在词性标注、命名实体识别和情感分类等任务上表现与词级基线相当或更好，证明了语言学的一致性提高了表示质量而没有下游性能的惩罚。为了将这种表示付诸实践，我们将语言学原则转化为具有近乎完美人类一致性的正式决策指导（$ ext{kappa} ext{ } ext{≈} ext{ } 0.99$），通过大型语言模型（LLM）扩展注释，并通过人类标签纠正系统性错误。最后，我们训练了khammoon，一个轻量级的100万参数卷积双向长短期记忆（BiLSTM）分割器，旨在实现高效的CPU推理，在域外文本上达到了0.992的边界F1值。该指导原则、数据集、模型和库均已公开发布。",
+      "authors": [
+        "Warit Sirichotedumrong",
+        "Adisai Na-Thalang",
+        "Chanakan Wittayasakpan",
+        "Kritsadha Phatcharoen",
+        "Kunat Pipatanakul"
+      ],
+      "date": "2026-11-11",
+      "id": "2611.13012",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "khammoon: From a Linguistic Guideline to a Thai Morpheme Segmenter",
+      "title_zh": "khammoon：从语言指导到泰语形态素分割器",
+      "url": "/daily/2026-11-11/#paper-2611-13012"
+    },
+    {
+      "abstract": "Small multimodal models can misjudge emotion when words, voice, and visual cues conflict. We present EmoHarness, which runs such a model, the frozen student, inside a harness: the prompts, settings, and verification code around its calls. A human-written starting harness, the scaffold, numbers the student's visual observations, transcript, and prosody descriptions as citable evidence and has the student weigh candidate emotions against it. In Meta-Harness Evolving (MHE), a stronger LLM, the Builder, reads the student's errors and execution traces offline and edits the harness; static checks and validation gates decide which edits are kept, and the Builder never sees evaluation items. On 5,507 MME-Emotion items, EmoHarness raises task-macro Recognition by 7.6-13.4 points over a single video-only call for all four students and both Builders. Transcripts and prosody descriptions supply most of this boost (+5.38 to +10.71); the scaffold changes the audio-augmented call by -0.79 to +2.54, partly through extra multi-label predictions, and evolved edits add at most +0.95, although no evolved increment survives Holm correction. The harness's emotion context also transfers to IntentQA, with small gains for three of four students, none of which survives correction. EmoHarness thus boosts small multimodal students chiefly by supplying and organizing audio-derived evidence.",
+      "abstract_zh": "当语言、声音和视觉线索相互冲突时，小型多模态模型可能会误判情感。我们提出了EmoHarness，它在一个哈希框架内运行这样的模型，即冻结的学生模型：围绕其调用的提示、设置和验证代码。一个人类编写的起始哈希框架，即支架，给学生的视觉观察、转录和韵律描述编号，作为可引用的证据，并让学生根据这些证据权衡候选情感。在元哈希演化（Meta-Harness Evolving, MHE）中，一个更强大的大语言模型（LLM），即构建者（Builder），离线读取学生的错误和执行轨迹，并编辑哈希框架；静态检查和验证门决定保留哪些编辑，而构建者从未看到评估项目。在5507个MME-Emotion项目中，EmoHarness使任务宏观识别率提高了7.6-13.4个百分点，适用于所有四个学生和两个构建者。转录和韵律描述提供了大部分提升（+5.38到+10.71）；支架将音频增强调用的变化范围调整为-0.79到+2.54，部分原因是额外的多标签预测，而演化编辑最多增加+0.95，尽管没有演化增量经过Holm校正。哈希框架的情感上下文也转移到IntentQA，三个学生有小幅提升，但没有一个经过校正。因此，EmoHarness主要通过提供和组织音频衍生证据来提升小型多模态学生的表现。",
+      "authors": [
+        "Fenghai Li",
+        "Bingxuan Li",
+        "Jiawen Zhang",
+        "Yifan Shen",
+        "Jiateng Liu",
+        "Yutong Zhang",
+        "Yue Guo"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.11994",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "EmoHarness: Boosting Multimodal Emotion Understanding with Meta-Harness Evolving",
+      "title_zh": "EmoHarness：通过元哈希演化提升多模态情感理解",
+      "url": "/daily/2026-11-10/#paper-2611-11994"
+    },
+    {
+      "abstract": "Multimodal Emotion Recognition in Conversation (MERC) combines lexical, acoustic, visual and conversational cues, but accepting audio and video does not establish their effective or robust use. We audit off-the-shelf Omni models while holding the target transcript and prior textual context fixed and adding, removing or replacing target audio and video. In the primary evaluation of Qwen2.5-Omni-7B, Baichuan-Omni-1.5 and MiniCPM-o 2.6 on MELD and the full five-session six-class IEMOCAP set, T+A improves Accuracy in all six model-dataset pairs, with four gains significant after false discovery rate (FDR) correction. Across three source mappings, unrelated A/V (RandA/V) lowers Accuracy relative to Full in all 18 comparisons; all 18 remain significant under dialogue-cluster inference and BH-FDR correction, both on common-valid pairs and when invalid/OOM outcomes are treated as incorrect. Comparisons with modality-omission baselines further distinguish replacement penalties from mismatch-specific harm. A Qwen/MELD case study finds significantly greater gold-vs-best-candidate margin recovery in Late than Early or Middle under decision-query audio knockout, relative to an edge-count-matched Video-Sham control, using Holm-corrected tests. These results distinguish genuine-modality benefit from sensitivity and vulnerability to misleading input.",
+      "abstract_zh": "多模态对话情感识别（MERC）结合了词汇、声学、视觉和对话线索，但接受音频和视频并不意味着它们的有效或稳健使用。我们在固定目标转录文本和先前文本上下文的情况下，对现成的Omni模型进行审计，并添加、移除或替换目标音频和视频。在对Qwen2.5-Omni-7B、Baichuan-Omni-1.5和MiniCPM-o 2.6在MELD和完整的五会话六类IEMOCAP数据集的初步评估中，T+A在所有六个模型-数据集对中提高了准确率，其中四个在假发现率（FDR）校正后显著提升。在三个源映射中，无关音频/视频（RandA/V）相对于完整数据集在所有18个比较中降低了准确率；在对话聚类推断和BH-FDR校正下，所有18个比较仍然显著，无论是在常见有效对还是在无效/内存溢出结果被视为错误的情况下。与模态省略基线的比较进一步区分了替换惩罚与特定不匹配的危害。Qwen/MELD案例研究发现，在决策查询音频失效的情况下，Late的金标准与最佳候选者的差距恢复显著大于Early或Middle，相较于边缘计数匹配的Video-Sham控制组，使用了Holm校正的测试。这些结果区分了真正模态的益处与对误导输入的敏感性和脆弱性。",
+      "authors": [
+        "Youngseok Kim",
+        "Minjae Kim",
+        "Eunsoo Lee",
+        "Jihie Kim"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.11987",
+      "tags": [
+        "语音情感",
+        "数据集/评测",
+        "多模态情感"
+      ],
+      "title": "When Audio and Video Mislead: Evaluating Multimodal AI for Conversational Emotion Recognition",
+      "title_zh": "当音频和视频误导时：评估多模态人工智能在对话情感识别中的应用",
+      "url": "/daily/2026-11-10/#paper-2611-11987"
+    },
+    {
+      "abstract": "Multimodal Emotion Reasoning (MER) requires perceiving and integrating emotion cues from multiple modalities. Recent advances increasingly leverage Multimodal Large Language Models (MLLMs) to enhance reasoning capacity. However, due to the inherent heterogeneity in conveying emotions across modalities, these models often suffer from modality imbalance and confront flawed emotion understanding. In this paper, we conduct an in-depth analysis on MER models and uncover two key empirical insights. (i) In MER, modality imbalance manifests two distinct failure modes: unimodal over-reliance and insufficient cross-modal utilization, which call for different intervention strategies. (ii) MLLM layers exhibit implicit functional hierarchies in multimodal emotion processing, playing separable roles in stabilizing unimodal representations and integrating cross-modal information. Motivated by these observations, we propose a Layer-Aware Modality Rebalancing (LAMR) framework by explicitly aligning intervention strategies with layer roles. Specifically, we first introduce two quantized metrics for adaptive layer role profiling. In each layer, Modality Entropy (ME) measures the dispersion of modality contributions, and Cross-modal Intensity (CMI) captures the strength of cross-modal interactions. Then, we respectively enhance modality equilibrium in stabilization layers and cross-modal propagation in integration layers. Extensive experiments on two comprehensive MER benchmarks demonstrate that LAMR effectively mitigates modality imbalance and improves emotion reasoning across diverse MLLM backbones, without additional training.",
+      "abstract_zh": "多模态情感推理（MER）需要从多个模态中感知和整合情感线索。近期的进展越来越多地利用多模态大型语言模型（MLLMs）来增强推理能力。然而，由于在不同模态中传达情感的固有异质性，这些模型往往遭受模态不平衡的问题，并面临情感理解的缺陷。本文对MER模型进行了深入分析，揭示了两个关键的实证见解：（i）在MER中，模态不平衡表现为两种不同的失败模式：单模态过度依赖和跨模态利用不足，这需要不同的干预策略。（ii）MLLM层在多模态情感处理上表现出隐含的功能层次结构，在稳定单模态表示和整合跨模态信息中发挥着可分离的角色。基于这些观察，我们提出了一种层感知模态重平衡（LAMR）框架，通过明确对齐干预策略与层角色来实现。具体而言，我们首先引入两种量化指标用于自适应层角色剖析。在每一层中，模态熵（Modality Entropy, ME）衡量模态贡献的分散程度，而跨模态强度（Cross-modal Intensity, CMI）捕捉跨模态交互的强度。然后，我们分别在稳定层中增强模态平衡，在整合层中增强跨模态传播。在两个全面的MER基准上的大量实验表明，LAMR有效地缓解了模态不平衡，并在不同的MLLM骨干网络中改善了情感推理，而无需额外的训练。",
+      "authors": [
+        "Pengyu Huang",
+        "Peipei Song",
+        "Beier Zhu",
+        "Zhiyuan Han",
+        "Jinpeng Hu",
+        "Xun Yang"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.11907",
+      "tags": [
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "Layer Roles Matter: Mitigating Modality Imbalance in Multimodal Emotion Reasoning via Adaptive Layer Profiling",
+      "title_zh": "层角色的重要性：通过自适应层剖析缓解多模态情感推理中的模态不平衡",
+      "url": "/daily/2026-11-10/#paper-2611-11907"
+    },
+    {
+      "abstract": "Label-space expansion - predicting a larger joint space and summing back to the original labels - is a natural design for multi-label facial expression recognition, but its failure modes have not been characterised. We evaluate Condition-Aware Label Expansion (CALE) on a self-built dataset (30,240 training images, 3,460 multi-label test images), on seven backbones, and on the public RAF-DB and RAF-ML benchmarks. The central finding is that the aggregation rule, not the representation, decides whether the method works. With a fixed threshold of 0.5, the aggregate score spans 28x across five backbones at 10% of the training data (0.24 to 6.79) and collapses to a 1.9x range at full data, while threshold-free mAP stays within 1.28x over the same backbones, which localises the fault to the summation step. The mechanism is the uncalibrated aggregation rule, which adds the main-branch score to half the sum of the three non-main branches; we verify it by measuring main- and non-main-branch activations. Two plain seven-dimensional sigmoid baselines (BCE, ASL) reach mAP 0.5055 and 0.5175; ASL exceeds three of the five CALE configurations and falls within 0.03 of the best. On single-label FER the gain over a seven-dimensional baseline is nominally significant (paired t-test, p = 0.0436) but does not survive Benjamini-Hochberg correction (p_BH = 0.2055) or a Wilcoxon test (p = 0.1250). We conclude that sum-based label expansion requires threshold calibration at the deployment data scale, or a learned aggregation, before it can support multi-label decisions.",
+      "abstract_zh": "标签空间扩展——预测更大的联合空间并汇总回原始标签——是多标签面部表情识别的自然设计，但其失败模式尚未被表征。我们在自建数据集（30,240张训练图像，3,460张多标签测试图像）、七个主干网络以及公共的RAF-DB和RAF-ML基准上评估了条件感知标签扩展（Condition-Aware Label Expansion, CALE）。核心发现是，聚合规则而非表示决定了该方法的有效性。在固定阈值0.5下，在10%的训练数据下，五个主干网络的聚合得分跨度为28倍（0.24到6.79），而在全数据下则收缩至1.9倍范围，而无阈值的平均精度均值（mean Average Precision, mAP）在相同主干网络上保持在1.28倍之内，这将故障局限于求和步骤。其机制是未校准的聚合规则，该规则将主干得分与三条非主干的得分之和的一半相加；我们通过测量主干和非主干的激活来验证这一点。两个简单的七维sigmoid基线（BCE, ASL）分别达到mAP 0.5055和0.5175；ASL超越了五个CALE配置中的三个，并在最佳值之内相差0.03。在单标签面部表情识别中，相较于七维基线的增益在名义上显著（配对t检验，p = 0.0436），但未能通过Benjamini-Hochberg校正（p_BH = 0.2055）或Wilcoxon检验（p = 0.1250）。我们得出结论，基于求和的标签扩展在部署数据规模上需要进行阈值校准或学习聚合，才能支持多标签决策。",
+      "authors": [
+        "Weihang Yuan"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.11843",
+      "tags": [
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "Aggregation-Induced Calibration Failure in Sum-Based Label Expansion for Multi-Label Facial Expression Recognition: A Diagnostic Study",
+      "title_zh": "基于求和的标签扩展中的聚合引发的校准失败：多标签面部表情识别的诊断研究",
+      "url": "/daily/2026-11-10/#paper-2611-11843"
+    },
+    {
+      "abstract": "Audio language model benchmarks provide comprehensive evaluation across diverse tasks. However, some tasks can be answered from the transcript or even the question alone, and benchmark scores can therefore confound acoustic understanding with language modeling ability. We distinguish lexical tasks, for which the transcript usually suffices, from global-attribute and within-recording-structure tasks, which require the model to analyse the recording beyond its words, either as a whole, for properties such as the speaker and emotion, or within it, for patterns such as stress and intonation. We evaluated 19 open models and Gemini 3.1 Pro on 92 tasks from 6 benchmarks and estimated the recording gain, the accuracy advantage of the original recording over references that retain its words, by comparing the recording with synthetic readings of its transcript and by adding it to the transcript. On attribute and structure tasks, the open models fall behind Gemini by 28.6 and 41.9 percentage points, and about half or more of each deficit lies in the recording gain. Nevertheless, linear probes in Gemma-4 12B and Qwen2.5-Omni-7B show that the acoustic information needed for answering is already readable in early language-model layers, while the readout of many cues declines in the layers that follow. We therefore constructed training data and trained LoRA adapters in these layers, with a content anchor, which raises attribute and structure accuracy by 12.8 to 44.4 points in the two models and keeps mean lexical accuracy within 1 point of the base model. Most of the improvement appears as larger recording gains. These results suggest that training improves the use of acoustic information that the models already encode.",
+      "abstract_zh": "音频语言模型基准提供了对多样任务的全面评估。然而，一些任务可以仅通过转录本或甚至问题本身来回答，因此基准得分可能会混淆声学理解与语言建模能力。我们将词汇任务与全球属性和录音结构任务区分开来，前者通常仅依赖转录本，而后者需要模型分析录音超越其字面内容，无论是整体分析（如说话者和情感等属性），还是在录音内部分析（如重音和语调等模式）。我们对19个开放模型和Gemini 3.1 Pro在6个基准的92个任务上进行了评估，并通过将录音与其转录本的合成朗读进行比较，估算了录音增益，即原始录音相较于保留其字词的参考的准确性优势，并将其添加到转录本中。在属性和结构任务中，开放模型在准确性上落后于Gemini，分别为28.6和41.9个百分点，而每个缺口中约一半或更多来自于录音增益。然而，Gemma-4 12B和Qwen2.5-Omni-7B中的线性探针显示，回答所需的声学信息在早期语言模型层中已经可读，而许多线索的读取在后续层中下降。因此，我们构建了训练数据并在这些层中训练了LoRA适配器，使用内容锚点，使得两个模型的属性和结构准确性提高了12.8到44.4个百分点，并保持词汇平均准确性在基模型的1个百分点以内。大部分改进表现为更大的录音增益。这些结果表明，训练改善了模型已经编码的声学信息的使用。",
+      "authors": [
+        "Linkai Peng",
+        "Baorian Nuchged",
+        "Yuyang Yao"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.11573",
+      "tags": [
+        "数据集/评测",
+        "语音情感",
+        "情感大模型"
+      ],
+      "title": "Beyond the Transcript: Measuring and Improving the Use of Acoustic Information in Audio Language Models",
+      "title_zh": "超越转录本：测量和改善音频语言模型中声学信息的使用",
+      "url": "/daily/2026-11-10/#paper-2611-11573"
+    },
+    {
+      "abstract": "Generative agents are game characters whose plans, conversations, and memories are written on the fly by a large language model (LLM). The original Generative Agents demonstration used cloud inference in a custom simulation. We present GARP, a platform for real-time generative agents inside Godot, and describe the Character Behavior System used in GARP 2. The complete loop runs on local hardware using a 3B-parameter open-weight model and no cloud service. Alongside the original planning, memory, and reflection, GARP gives each agent an emotion system driven by LLM appraisal, four graded personality axes drawn from the Big Five that set simulation parameters as well as prompt text, six needs whose urgency grows over time, and pairwise relationships updated after every conversation. The system narrows 50+ candidate actions to typically 3-8, constrains model responses with JSON schemas, and surfaces important memories in decision prompts. A layered optimization strategy (an adjustable game clock, decisions taken ahead of need, multi-tier caching, prompt compression, and fully asynchronous execution) keeps the game responsive while the model thinks. In a nine-scenario evaluation, 25 of 27 runs passed log-based checks. Both failures occurred in the birthday party scenario, where one guest omitted the event from their daily plan.",
+      "abstract_zh": "生成代理是游戏角色，其计划、对话和记忆由大型语言模型（LLM）即时生成。原始的生成代理演示使用了云推理和定制模拟。我们提出了GARP，一个在Godot中实现实时生成代理的平台，并描述了GARP 2中使用的角色行为系统。完整的循环在本地硬件上运行，使用一个3B参数的开放权重模型，并且不依赖云服务。除了原始的计划、记忆和反思，GARP还为每个代理提供了一个由LLM评估驱动的情感系统，四个基于五大人格特质的分级个性轴用于设定模拟参数和提示文本，六个需求的紧迫性随着时间的推移而增加，以及在每次对话后更新的成对关系。该系统将50多个候选动作缩小到通常的3-8个，使用JSON架构约束模型响应，并在决策提示中呈现重要记忆。分层优化策略（可调游戏时钟、提前做出的决策、多级缓存、提示压缩和完全异步执行）确保游戏在模型思考时保持响应。在九个场景的评估中，27次运行中有25次通过了基于日志的检查。两个失败均发生在生日派对场景中，其中一位客人未将该事件纳入其日常计划。",
+      "authors": [
+        "Piero Molino",
+        "Patrick John Chia",
+        "Federico Bianchi",
+        "Jonathan P. Chen",
+        "Paul Szerlip"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.11064",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "GARP: Real-Time Generative Agents on Local Hardware in a Game Engine",
+      "title_zh": "GARP：游戏引擎中本地硬件上的实时生成代理",
+      "url": "/daily/2026-11-10/#paper-2611-11064"
+    },
+    {
+      "abstract": "This study investigates sequential multi-task learning using Parameter-Efficient Fine-Tuning (PEFT), LoRA, and 4-bit quantization on Llama 3.1 8B Instruct for mental health problem detection, emotion detection, and sentiment analysis. Using 4,243 English social media posts, it compares two task sequences and demonstrates that task ordering significantly affects knowledge transfer and task interference. The MHP-first sequence achieves the best mental health problem detection (Micro-F1: 0.7624), while the Emotion-first sequence performs better in emotion (F1: 0.6052) and sentiment analysis (F1: 0.9459). A Joint-MTL baseline further highlights the challenges of simultaneous learning, including task interference and generative format collapse. Overall, the findings demonstrate the effectiveness of sequential PEFT for mental health NLP while showing that task order is critical to balancing performance across related tasks. The integration of LoRA and 4-bit quantization also reduces computational and memory requirements, supporting the adaptation of large language models in resource-constrained environments.",
+      "abstract_zh": "本研究探讨了使用参数高效微调（Parameter-Efficient Fine-Tuning, PEFT）、低秩适应（LoRA）和4位量化在Llama 3.1 8B Instruct上进行的顺序多任务学习，以实现心理健康问题检测、情感检测和情绪分析。通过分析4243条英语社交媒体帖子，比较了两种任务序列，并证明任务顺序显著影响知识转移和任务干扰。心理健康问题优先序列在心理健康问题检测中表现最佳（Micro-F1: 0.7624），而情感优先序列在情感（F1: 0.6052）和情绪分析（F1: 0.9459）中表现更佳。联合多任务学习基线进一步突显了同时学习的挑战，包括任务干扰和生成格式崩溃。总体而言，研究结果表明顺序PEFT在心理健康自然语言处理中的有效性，同时显示任务顺序对平衡相关任务的性能至关重要。LoRA和4位量化的结合还降低了计算和内存需求，支持在资源受限环境中调整大语言模型。",
+      "authors": [
+        "Amir Rafiq Bhat",
+        "Rahim Dehkharghani",
+        "Zeki Erdem"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.10797",
+      "tags": [
+        "情绪识别",
+        "心理状态/福祉",
+        "文本情感"
+      ],
+      "title": "Adapting Large Language Models via Multi-Task Learning for Mental Health Problem, Emotion, and Sentiment Detection",
+      "title_zh": "通过多任务学习调整大语言模型以进行心理健康问题、情感和情绪检测",
+      "url": "/daily/2026-11-10/#paper-2611-10797"
+    },
+    {
+      "abstract": "The rapid expansion of AI-driven data center construction has outpaced public engagement: an estimated $64 billion in U.S. data center projects were blocked or delayed by local opposition between May 2024 and March 2025, yet the concerns driving this resistance remain poorly characterized. Prior engagement methods such as surveys and hearings are introduced late in the planning process, and no study has systematically mined social media to measure community stance at scale. To address this gap, this study presents an LLM-powered opinion-mining framework and applies it to 798 Reddit posts and 102,328 associated comments spanning a decade. An open-source large language model, guided by a Chain-of-Stance prompting framework and three domain-specific labeling rules, classified stance at 83% of the human inter-reviewer agreement ceiling. Opposition dominated discourse volume rather than disapproval: against posts outnumbered favor posts 2.6:1 and generated 8.5 times more comments, and this gap widened significantly over 86 weeks. Topic modeling of opposition arguments resolved into four reproducible clusters, resource consumption and scarcity (42.8%), contested siting processes and secrecy (34.2%), political opposition to data centers (13%), and political and corporate accountability (8%). Engagement analysis revealed that posts with emotional or provocative political framing attracted the most engagement, while key technical concerns (e.g., water, power) were dispersed across lower-engagement comment threads. These findings give local leaders, developers, and policy makers a quantified, continuously updatable basis for prioritizing concerns and policy levers, supporting a shift from opposition to negotiated, verifiable partnership for data center development.",
+      "abstract_zh": "人工智能驱动的数据中心建设的快速扩张已经超出了公众参与的步伐：在2024年5月至2025年3月期间，估计有640亿美元的美国数据中心项目因地方反对而被阻止或延迟，但推动这种抵制的担忧仍然缺乏明确的特征。以往的参与方法，如调查和听证会，通常在规划过程中较晚引入，且尚无研究系统性地挖掘社交媒体以大规模测量社区态度。为了解决这一空白，本研究提出了一种基于大型语言模型（LLM）的意见挖掘框架，并将其应用于798条Reddit帖子及其102,328条相关评论，涵盖十年时间。一个开源的大型语言模型，结合链式立场提示框架和三条特定领域的标注规则，将态度分类达到人类互评者一致性上限的83%。反对意见在话语量上占主导地位，而非单纯的不赞成：反对帖子数量是赞成帖子的2.6倍，生成的评论数量是其8.5倍，并且这一差距在86周内显著扩大。反对论点的主题建模分为四个可重复的聚类：资源消耗与稀缺性（42.8%）、争议选址过程与保密性（34.2%）、对数据中心的政治反对（13%）以及政治与企业问责（8%）。参与分析显示，带有情感或挑衅性政治框架的帖子吸引了最多的参与，而关键技术问题（如水、电）则分散在参与度较低的评论线程中。这些发现为地方领导者、开发者和政策制定者提供了一个量化的、可持续更新的基础，以优先考虑关切和政策杠杆，支持从反对转向协商、可验证的合作伙伴关系以推动数据中心发展。",
+      "authors": [
+        "Yoko Koyama",
+        "Gongfan Chen",
+        "Mansi Saxena"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.10109",
+      "tags": [
+        "情感大模型",
+        "文本情感",
+        "社交信号"
+      ],
+      "title": "The Infrastructure Divide: Analyzing Community Stance on Data Center Development via Reddit",
+      "title_zh": "基础设施分歧：通过Reddit分析社区对数据中心发展的态度",
+      "url": "/daily/2026-11-10/#paper-2611-10109"
+    },
+    {
+      "abstract": "Facial Expression Recognition (FER) traditionally relies on raw RGB images, introducing privacy risks, sensitivity to illumination variations, and susceptibility to identity-confounding visual shortcuts. As an alternative, this work proposes a lightweight, privacy-aware pipeline using exclusively geometric representations-facial landmarks (478 points) and blendshapes (52 coefficients, ARKit standard)-eliminating persistent raw video storage. Six neural architectures trained from scratch on fused CREMA-D and RAVDESS datasets were benchmarked against an ImageNet-pretrained ResNet50 baseline under a 5-fold subject-independent cross-validation protocol. Geometric models consistently outperformed the pixel baseline on unseen subjects with 12-124 times fewer parameters, while demonstrating superior robustness on subtle emotional expressions such as sadness. Ablation studies reveal that blendshapes capture the primary discriminative signal, while landmarks provide essential complementary spatial topology. These results demonstrate that compact geometric representations preserve affective semantics, eliminate downstream transfer learning dependency on visual backbones, and enable efficient, privacy-aware emotion recognition.",
+      "abstract_zh": "面部表情识别（FER）传统上依赖于原始RGB图像，这引入了隐私风险、对光照变化的敏感性以及对身份混淆视觉捷径的易感性。作为替代，本研究提出了一种轻量级的隐私意识管道，仅使用几何表示——面部地标（478个点）和混合形状（52个系数，ARKit标准）——消除了持久的原始视频存储。对从头开始在融合的CREMA-D和RAVDESS数据集上训练的六种神经网络架构进行了基准测试，与在5折受试者独立交叉验证协议下的ImageNet预训练ResNet50基线进行了比较。几何模型在未见过的受试者上始终优于像素基线，参数量减少了12-124倍，同时在微妙的情感表达（如悲伤）上表现出更强的鲁棒性。消融研究表明，混合形状捕捉了主要的区分信号，而地标提供了必要的互补空间拓扑。这些结果表明，紧凑的几何表示保留了情感语义，消除了下游迁移学习对视觉骨干的依赖，并实现了高效的隐私意识情感识别。",
+      "authors": [
+        "Larissa Palhares",
+        "Maria Machado",
+        "Hudson Bruno",
+        "Raphael Ramos",
+        "Andrew Vale",
+        "Barbara Barbosa",
+        "Inara Souza",
+        "Fabio Grassiotto"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.10097",
+      "tags": [
+        "情绪识别",
+        "面部表情",
+        "数据集/评测"
+      ],
+      "title": "A Privacy-Aware Deep Learning Benchmark for Facial Emotion Recognition",
+      "title_zh": "一种隐私意识的深度学习基准用于面部情感识别",
+      "url": "/daily/2026-11-10/#paper-2611-10097"
+    },
+    {
+      "abstract": "Mental health conditions affect millions of people worldwide, yet many cases go undetected until they reach a critical stage. Social media platforms like Reddit have become spaces where people openly share their experiences, but the support is often provided by individuals without clinical training. Existing multi-task approaches jointly model emotion and sentiment for mental health classification but frequently rely on noisy labels generated by pre-trained models and overlook topic information as a useful signal. This paper introduces two key contributions: First, an existing Core Fusion Network framework is extended by adding Topic alongside existing Mental Health Condition, Emotion, and Sentiment Classification tasks, with topic labels derived from the therapist-client interactions in the CounselChat dataset. Second, an Active Learning-based Stepwise Relabeling approach is proposed to refine a small subset of noisy emotion and topic labels using pre-trained models in two stages: targeting medium-uncertainty samples first, followed by high-uncertainty samples. The predictions above a confidence threshold (0.7) are accepted to prevent error propagation. The experiments are conducted on the SuicideWatch and Mental Health dataset of 54,412 Reddit posts collected from five mental health subreddits, evaluating domain-specific transformer encoders including MentalBERT and MentalRoBERTa. The proposed Active Learning-based Stepwise Relabeling, when applied to Core Fusion Network with MentalRoBERTa, improves Mental Health Condition by 0.09%, Emotion by 0.51%, Sentiment by 0.35%, and Topic Classification by 1.57% over the baseline Core Fusion Network. The results suggest that the proposed framework significantly reduces label noise in multi-task mental health classification, and that topic information provides additional context.",
+      "abstract_zh": "心理健康问题影响着全球数百万人，然而许多病例在达到危急阶段之前未被发现。社交媒体平台如Reddit已成为人们公开分享经历的空间，但支持往往来自没有临床培训的个体。现有的多任务方法共同建模情感和情绪以进行心理健康分类，但常常依赖于由预训练模型生成的噪声标签，并忽视了主题信息作为有用信号。本文提出了两个关键贡献：首先，扩展了现有的核心融合网络（Core Fusion Network）框架，增加了主题分类任务，并结合现有的心理健康状况、情感和情绪分类任务，主题标签来源于CounselChat数据集中治疗师与客户的互动。其次，提出了一种基于主动学习的逐步重新标注方法，通过在两个阶段中使用预训练模型来精炼一小部分噪声情感和主题标签：首先针对中等不确定性的样本，其次是高不确定性的样本。接受高于置信阈值（0.7）的预测，以防止错误传播。实验在54,412条来自五个心理健康子版块的Reddit帖子上进行，评估了包括MentalBERT和MentalRoBERTa在内的领域特定变换器编码器。将所提出的基于主动学习的逐步重新标注应用于结合MentalRoBERTa的核心融合网络时，心理健康状况提高了0.09%，情感提高了0.51%，情绪提高了0.35%，主题分类提高了1.57%，相较于基线核心融合网络。结果表明，所提出的框架显著减少了多任务心理健康分类中的标签噪声，并且主题信息提供了额外的上下文。",
+      "authors": [
+        "Revathy Iswarya Sekaran",
+        "Vansh Bhardwaj",
+        "Aveek Sahana",
+        "Utkarshani Jaimini"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.09941",
+      "tags": [
+        "心理状态/福祉",
+        "社交信号",
+        "数据集/评测"
+      ],
+      "title": "Topic-Aware Multi-Task Mental Health Classification with Active Learning-Based Stepwise Relabeling for Social Media Conversations",
+      "title_zh": "基于主题感知的多任务心理健康分类与基于主动学习的逐步重新标注方法在社交媒体对话中的应用",
+      "url": "/daily/2026-11-10/#paper-2611-09941"
+    },
+    {
+      "abstract": "This paper presents the design and preliminary evaluation of KR A1, a humanoid-robot interaction prototype that integrates personalized voice synthesis, contextual dialogue processing, and emotion-aware response generation for potential mental-healthcare applications. The system architecture combines a locally hosted large language model (Qwen2.5-3B-Instruct, served via Ollama) for natural-language understanding and response generation, OpenVoice v2 for zero-shot speaker-adaptive speech synthesis, and a two-tier emotion-processing pipeline comprising a keyword heuristic and LLM-based inference. Face recognition (InsightFace) and vector memory retrieval (FAISS with sentence-transformer embeddings) enable user-personalized interaction. The experimental evaluation reported here is limited to the voice-cloning component: cloned voices were evaluated against reference recordings using eight acoustic similarity measures - mel-frequency cepstral coefficients, pitch, spectral centroid, spectral contrast, spectral rolloff, zero-crossing rate, formants, and speaker-embedding cosine similarity - supplemented by a same-speaker versus cross-speaker baseline comparison. All tests were conducted on a small, informal development sample; no statistical significance testing against a held-out baseline was performed. The emotion-recognition accuracy, end-to-end response latency, and therapeutic or clinical impact of the integrated system have not yet been formally evaluated and are identified as directions for future work. All testing was informal and self-conducted by the development team; no patients or external human participants were involved, and the system has not been evaluated or deployed in a clinical setting.",
+      "abstract_zh": "本文介绍了KR A1的设计与初步评估，这是一种人形机器人交互原型，集成了个性化语音合成、上下文对话处理和情感感知响应生成，旨在潜在的心理健康护理应用中使用。该系统架构结合了本地托管的大型语言模型（Qwen2.5-3B-Instruct，通过Ollama提供服务）用于自然语言理解和响应生成，OpenVoice v2用于零样本说话人自适应语音合成，以及一个由关键词启发式和基于LLM的推理组成的双层情感处理管道。人脸识别（InsightFace）和向量记忆检索（FAISS与句子变换器嵌入）使用户个性化交互成为可能。本文报道的实验评估仅限于语音克隆组件：克隆语音通过八种声学相似性度量（梅尔频率倒谱系数、音高、谱质心、谱对比、谱滚降、零交叉率、共振峰和说话人嵌入余弦相似度）与参考录音进行评估，并补充了同说话人与异说话人的基线比较。所有测试均在一个小型非正式开发样本上进行；未对保留基线进行统计显著性测试。集成系统的情感识别准确性、端到端响应延迟以及治疗或临床影响尚未正式评估，并被确定为未来工作的方向。所有测试均为非正式且由开发团队自行进行；未涉及患者或外部人类参与者，系统尚未在临床环境中进行评估或部署。",
+      "authors": [
+        "Mahek Aanthu",
+        "Om Aanthu",
+        "Aaryan AK Aanthu"
+      ],
+      "date": "2026-11-10",
+      "id": "2611.09900",
+      "tags": [
+        "语音情感",
+        "情感生成",
+        "情绪识别"
+      ],
+      "title": "KR A1: Design and Preliminary Evaluation of a Humanoid-Robot Interaction Prototype Integrating Personalized Voice Synthesis, Contextual Dialogue, and Emotion-Aware Response Generation",
+      "title_zh": "KR A1：集成个性化语音合成、上下文对话和情感感知响应生成的人形机器人交互原型的设计与初步评估",
+      "url": "/daily/2026-11-10/#paper-2611-09900"
+    },
+    {
+      "abstract": "Lip synchronization, the task of generating realistic lip movements synchronized with audio signals, is fundamental to applications such as film dubbing, virtual avatars, and digital content creation. Recent GAN-based methods offer computational efficiency but often lack visual fidelity, while diffusion-based approaches achieve high-quality results at the cost of substantial computational overhead. Moreover, most existing methods are limited to photo-realistic human faces, restricting their applicability to stylized characters and non-human entities. In this paper, we propose an efficient universal lip-sync video generation framework that achieves high-quality results without compromising computational efficiency. We build on LivePortrait, a warp-based portrait animation model, and introduce a training strategy that aligns audio signals to an implicit motion space by distilling knowledge from a pre-trained video-to-motion model. This enables real-time inference while maintaining high visual fidelity, and naturally generalizes to diverse stylistic characters beyond photo-realistic humans. Furthermore, we introduce an expressive control gate that enables explicit manipulation of emotional expressions for content enrichment. Extensive experiments demonstrate that our method achieves state-of-the-art performance in both visual quality and lip-sync accuracy while ensuring real-time inference.",
+      "abstract_zh": "唇动同步是生成与音频信号同步的真实唇部动作的任务，这对于电影配音、虚拟化身和数字内容创作等应用至关重要。近期基于生成对抗网络（GAN）的方法提供了计算效率，但往往缺乏视觉真实感，而基于扩散的方法则在高质量结果的实现上付出了相当大的计算开销。此外，大多数现有方法仅限于照片真实的人脸，限制了它们在风格化角色和非人类实体中的应用。在本文中，我们提出了一种高效的通用唇动同步视频生成框架，能够在不妥协计算效率的情况下实现高质量的结果。我们基于LivePortrait，一个基于变形的肖像动画模型，提出了一种训练策略，通过从预训练的视频到运动模型中提取知识，将音频信号对齐到隐式运动空间。这使得在保持高视觉真实感的同时实现实时推理，并自然地推广到超越照片真实人类的多样化风格角色。此外，我们引入了一个表现力控制门，能够明确操控情感表达以丰富内容。大量实验表明，我们的方法在视觉质量和唇动同步精度上均实现了最先进的性能，同时确保了实时推理。",
+      "authors": [
+        "Sangjoon Yu",
+        "Seungeun Lee",
+        "JoonHeyok Shin",
+        "Ji-Su Kang"
+      ],
+      "date": "2026-11-09",
+      "id": "2611.09074",
+      "tags": [
+        "情感生成",
+        "语音情感"
+      ],
+      "title": "Emo-LiveSync: Real-Time Universal Lip Synchronization with Explicit Emotion Control",
+      "title_zh": "Emo-LiveSync：具有明确情感控制的实时通用唇动同步",
+      "url": "/daily/2026-11-09/#paper-2611-09074"
+    },
+    {
+      "abstract": "Multimodal emotion recognition in conversations (MERC) integrates textual, acoustic, and visual cues to identify utterance-level emotions. However, existing approaches generally do not explicitly adapt multimodal processing to the degree of inter-modal predictive disagreement. In real conversations, semantic incongruity, concealed emotion, noisy observations, and ambiguity can affect modality-specific emotional evidence differently, while the reliability of individual modalities varies across samples. Rather than identifying each source of inconsistency separately, we model their common consequence for emotion recognition as predictive disagreement among unimodal emotion distributions over the same emotion-label set. Such disagreement makes indiscriminate fusion prone to propagating unreliable or competing evidence. Inspired by the Brunswik Lens Model, we propose MiD-ERC, a divergence-centric framework that quantifies inter-modal predictive disagreement using a normalized divergence score and estimates sample-specific modality reliability. MiD-ERC uses these signals to coordinate divergence-guided cross-modal gating, divergence-modulated reliability weighting, and divergence-conditioned adaptive LLM prompting. The framework is trained end-to-end using only standard emotion annotations, without requiring additional conflict labels, auxiliary data construction, or external retrieval modules. Experiments on IEMOCAP and MELD demonstrate that MiD-ERC achieves state-of-the-art performance, with particularly pronounced improvements on high-divergence samples.",
+      "abstract_zh": "对话中的多模态情感识别（MERC）整合了文本、声学和视觉线索，以识别发言级别的情感。然而，现有的方法通常未能明确根据模态间预测不一致的程度来调整多模态处理。在真实对话中，语义不一致、隐藏情感、噪声观察和模糊性可能会对特定模态的情感证据产生不同的影响，而各个模态的可靠性在样本之间也存在差异。我们并不是单独识别每个不一致的来源，而是将它们对情感识别的共同影响建模为同一情感标签集上单模态情感分布之间的预测不一致。这种不一致使得无差别融合容易传播不可靠或相互竞争的证据。受到布伦斯维克透镜模型（Brunswik Lens Model）的启发，我们提出了MiD-ERC，一个以差异为中心的框架，通过归一化差异评分量化模态间的预测不一致，并估计样本特定的模态可靠性。MiD-ERC利用这些信号协调差异引导的跨模态门控、差异调制的可靠性加权和差异条件的自适应大语言模型提示。该框架采用端到端训练，仅使用标准情感注释，无需额外的冲突标签、辅助数据构建或外部检索模块。在IEMOCAP和MELD上的实验表明，MiD-ERC实现了最先进的性能，尤其在高差异样本上表现出显著的改善。",
+      "authors": [
+        "Jingwen Wang",
+        "Jiao Li",
+        "Yuhang Qian",
+        "Yuyin Wang",
+        "Min Zhang"
+      ],
+      "date": "2026-11-09",
+      "id": "2611.08860",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "Mind the Divergence: Divergence-Guided Reliability-Aware Fusion and Adaptive LLM Prompting for Conversational Emotion Recognition",
+      "title_zh": "注意差异：基于差异引导的可靠性感知融合与自适应大语言模型提示在对话情感识别中的应用",
+      "url": "/daily/2026-11-09/#paper-2611-08860"
+    },
+    {
+      "abstract": "Large language models (LLMs) have been evaluated on their ability to identify emotions expressed in text and produce fluent emotional language. However, output predictions alone do not reveal how fine-grained emotion distinctions are organized internally. We study seven LLMs on GoEmotions, an English Reddit dataset annotated with 27 fine-grained emotion categories plus neutral. We compare model predictions and emotion-prompted final-token representations with the 28 GoEmotions categories and with coarser emotion-family and sentiment groupings. We find a consistent pattern of $\\textit{overcompression}$ relative to the fine-grained GoEmotions taxonomy. Under the tested KMeans protocol, when we cluster their hidden representations without using emotion labels, the clearest split is into two groups that largely separate positive from negative emotion. Coarser emotion groupings are also recovered with fewer clusters than the full 28-category taxonomy. Yet linear probes retain substantial fine-grained predictive information. These results suggest that fine-grained emotion information remains accessible even though broader affective structure more strongly organizes the unsupervised geometry.",
+      "abstract_zh": "大型语言模型（LLMs）已被评估其识别文本中表达的情感和生成流畅情感语言的能力。然而，仅凭输出预测并不能揭示细粒度情感区分在内部是如何组织的。我们研究了七个LLM在GoEmotions数据集上的表现，该数据集是一个用27个细粒度情感类别及中性标注的英文Reddit数据集。我们将模型预测和情感提示的最终标记表示与28个GoEmotions类别以及更粗略的情感家族和情感分组进行比较。我们发现相对于细粒度的GoEmotions分类法，存在一种一致的$ extit{过度压缩}$模式。在测试的KMeans协议下，当我们在不使用情感标签的情况下对其隐藏表示进行聚类时，最明显的分裂是将正面情感与负面情感大致分为两组。更粗略的情感分组也以比完整的28类别分类法更少的聚类被恢复。然而，线性探测器仍然保留了大量细粒度的预测信息。这些结果表明，尽管更广泛的情感结构更强烈地组织了无监督几何，但细粒度情感信息仍然是可访问的。",
+      "authors": [
+        "Laya Iyer",
+        "Sanmi Koyejo",
+        "Chen Shani"
+      ],
+      "date": "2026-11-09",
+      "id": "2611.08683",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "文本情感"
+      ],
+      "title": "Compression of Emotion in Language Model Representations",
+      "title_zh": "语言模型表示中的情感压缩",
+      "url": "/daily/2026-11-09/#paper-2611-08683"
+    },
+    {
+      "abstract": "Haptic interactions, such as touching an object in virtual reality, involve detecting a plethora of sensations through the skin. Whilst tactile displays exist to simulate and manipulate all of these cues individually, little progress has been made constructing devices that can control multiple cues simultaneously. This paper presents a tactile display technology that offers both softness and temperature change. A prototype display, based on particle jamming and the thermal transfer of heated and cooled water, is evaluated in terms of its ability to change both stiffness and temperature. Mechanical evaluations demonstrate controllable stiffness increase of 300%, whilst thermal characterisation showed strong surface uniformity and a range of achievable temperatures from 10°C up to 50°C, with closed-loop control maintaining a 0.2°C error from a setpoint. This work advances the design of multimodal tactile displays with applications to perceptual research, medical simulation, and affective haptics.",
+      "abstract_zh": "触觉交互，例如在虚拟现实中触摸物体，涉及通过皮肤感知大量的感觉信号。尽管已有触觉显示器存在以单独模拟和操控这些感觉信号，但在构建能够同时控制多种感觉信号的设备方面进展甚微。本文提出了一种触觉显示技术，能够同时提供柔软度和温度变化。基于颗粒堵塞和加热及冷却水的热传递的原型显示器，在其改变刚度和温度的能力方面进行了评估。机械评估表明，刚度可控增加300%，而热特性显示出良好的表面均匀性，且可实现的温度范围从10°C到50°C，闭环控制保持与设定点的误差为0.2°C。该研究推动了多模态触觉显示器的设计，具有在感知研究、医学模拟和情感触觉等领域的应用潜力。",
+      "authors": [
+        "Joshua Brown",
+        "Fernando Bello",
+        "Lynette Jones"
+      ],
+      "date": "2026-11-06",
+      "id": "2611.08398",
+      "tags": [
+        "多模态情感"
+      ],
+      "title": "A Multimodal Haptic Interface for Simultaneous Softness and Thermal Modulation",
+      "title_zh": "一种用于同时调节柔软度和温度的多模态触觉接口",
+      "url": "/daily/2026-11-06/#paper-2611-08398"
+    },
+    {
+      "abstract": "Sentiment Analysis (SA) is a fundamental NLP task concerned with the identification and categorization of subjective information in text. While lexicon-based methods offer transparency, they often struggle with linguistic phenomena such as negation and intensification. Syntactic parsing has been integrated into SA pipelines to address this, but conventional parsers introduce significant computational overhead. Recent work shows that reformulating dependency parsing as a Sequence Labeling (SEL) task can improve efficiency. We propose and compare two strategies for integrating syntactic knowledge into a neural sentiment analysis model under unified Multi-Task Learning (MTL). The first, Standard-MTL, jointly learns dependency parsing (via sequence labeling) and sentiment polarity classification using a shared encoder with two task-specific heads. The second, Contrastive-MTL, provides implicit syntactic guidance through a contrastive auxiliary objective and a syntax-biased attention pooling mechanism, without requiring explicit label prediction. Both rely on syntactic annotations during training and eliminate need for hand-crafted compositional rules or external parsing at inference. We evaluate eleven datasets spanning seven languages---the MARC corpus (English, Spanish, French, German) and seven datasets from SemEval-2022 Task 10 (English, Spanish, Norwegian, Basque, Catalan)---using four established SEL encodings. With the relative encoding, Contrastive-MTL outperforms a syntax-naive baseline on 10 of 11 datasets and surpasses the external rule-based pipeline (SELSP) that parses at inference on all six datasets where the latter applies, while being 1.5--9$\\times$ faster at evaluation. Standard-MTL is more dataset- and encoding-dependent. These results show implicit syntactic supervision during training can match or exceed explicit parsing at inference without computational overhead.",
+      "abstract_zh": "情感分析（SA）是自然语言处理（NLP）中的一项基础任务，涉及对文本中主观信息的识别和分类。虽然基于词典的方法提供了透明性，但它们在处理否定和强化等语言现象时常常面临困难。语法解析已被整合到情感分析流程中以解决这一问题，但传统解析器引入了显著的计算开销。最近的研究表明，将依存解析重新表述为序列标注（SEL）任务可以提高效率。我们提出并比较了两种将语法知识整合到统一的多任务学习（MTL）神经情感分析模型中的策略。第一种是标准多任务学习（Standard-MTL），它通过共享编码器和两个特定任务的头部，联合学习依存解析（通过序列标注）和情感极性分类。第二种是对比多任务学习（Contrastive-MTL），通过对比辅助目标和语法偏向的注意力池化机制提供隐式语法指导，而无需显式标签预测。两者在训练过程中都依赖于语法注释，并消除了在推理时对手工构造的组合规则或外部解析的需求。我们评估了涵盖七种语言的十一组数据集——MARC 语料库（英语、西班牙语、法语、德语）和来自 SemEval-2022 任务 10 的七个数据集（英语、西班牙语、挪威语、巴斯克语、加泰罗尼亚语）——使用四种已建立的 SEL 编码。在相对编码下，对比多任务学习在 11 个数据集中的 10 个上超越了无语法基线，并在所有六个适用数据集上超过了在推理时进行解析的外部基于规则的管道（SELSP），同时在评估时速度提高了 1.5 到 9 倍。标准多任务学习则更依赖于数据集和编码。这些结果表明，在训练过程中进行隐式语法监督可以在不增加计算开销的情况下，与推理时的显式解析相匹配或超越。",
+      "authors": [
+        "Muhammad Imran",
+        "Carlos Gómez-Rodríguez"
+      ],
+      "date": "2026-11-06",
+      "id": "2611.08323",
+      "tags": [
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Polarity Classification with Multitask Learning Syntax Augmentation",
+      "title_zh": "基于多任务学习的极性分类与语法增强",
+      "url": "/daily/2026-11-06/#paper-2611-08323"
+    },
+    {
+      "abstract": "This paper presents a novel task of describing human facial expressions of a facial image in natural language, which captures the nuances of facial actions and emotional states beyond traditional emotion categories or facial action units (AUs). To achieve the facial expression captioning model, we propose a three-stage training framework that trains a vision-to-language model using synthesized image-text pairs and the BLIP-2 pre-training techniques. To overcome the challenge of missing training image-text pairs for facial expression captioning, we propose a strategy that involves synthesizing and combining captions using GPT-3.5 and existing annotations on either emotion categories or AUs. Experiments demonstrate the effectiveness of our method in generating captions that describe details of facial actions and emotions, as well as the inferential relationship between them, even when those emotions are not present in the training data. It is also demonstrated that the vision-to-language task enhances the performance of the intermediate visual features on both AU detection and emotion classification tasks.",
+      "abstract_zh": "本文提出了一项新任务，即用自然语言描述面部图像中的人类面部表情，捕捉面部动作和情感状态的细微差别，超越传统的情感类别或面部动作单元（AUs）。为了实现面部表情描述模型，我们提出了一个三阶段的训练框架，该框架使用合成的图像-文本对和BLIP-2预训练技术来训练视觉到语言模型。为了克服面部表情描述训练中缺失图像-文本对的挑战，我们提出了一种策略，通过使用GPT-3.5和现有的情感类别或AUs注释合成和组合描述。实验表明，我们的方法在生成描述面部动作和情感细节的描述方面有效，并且能够推断它们之间的关系，即使这些情感在训练数据中并不存在。还证明了视觉到语言任务提升了中间视觉特征在AUs检测和情感分类任务上的表现。",
+      "authors": [
+        "Yujian Yuan",
+        "Jiabei Zeng",
+        "Shiguang Shan"
+      ],
+      "date": "2026-11-06",
+      "id": "2611.08138",
+      "tags": [
+        "面部表情",
+        "情绪识别",
+        "文本情感"
+      ],
+      "title": "Describe Your Facial Expressions by Linking Image Encoders and Large Language Models",
+      "title_zh": "通过连接图像编码器和大型语言模型描述面部表情",
+      "url": "/daily/2026-11-06/#paper-2611-08138"
+    },
+    {
+      "abstract": "Omni-modal models can answer questions about video, but their predictions rarely show which participant, event, or interval supports an answer. Moreover, answer-level supervision alone does not teach a model to interpret structured video evidence. To systematically mitigate this issue, we present THG-Omni, a human-centric graph-supervision framework that links Segment Anything Model~3 participant tracks with temporally grounded Qwen3-VL annotations. Candidate semantic claims are checked against the source video and available audio before they are used to construct training questions, while track geometry provides explicit spatial and temporal supervision. The resulting questions teach an omni-modal reasoning model to interpret participant attributes, actions, affect, interactions, and their timing from a structured graph. At inference, THG-Omni uses a predicted graph constructed from the evaluation video. Experiments on IntentBench show consistent improvements over the unadapted backbone across social reasoning, emotion understanding, and deception perception. On NExT-QA, THG-Omni achieves 89.54\\% accuracy with the matched graph, compared with 85.10\\% without graph input. Further validation experiments show that compact graph input achieves 78.22\\% accuracy, compared with 78.02\\% using the full graph and 77.58\\% without graph input. A complementary diagnostic demonstrates that the predicted graph preserves evidence useful for answering questions even without the source video and audio. Together, these findings show that THG-Omni improves human-centric video reasoning while grounding its evidence in identifiable participants and events. Our codes are available at https://anonymous.4open.science/r/review-n94hhfcwp5666/",
+      "abstract_zh": "全模态模型能够回答关于视频的问题，但它们的预测很少显示哪个参与者、事件或时间段支持某个答案。此外，仅靠答案级监督并不能教会模型如何解释结构化的视频证据。为系统性地缓解这一问题，我们提出了THG-Omni，一个以人为中心的图形监督框架，它将Segment Anything Model~3的参与者轨迹与时间上有依据的Qwen3-VL注释相连接。在将候选语义主张用于构建训练问题之前，会对其进行源视频和可用音频的检查，而轨迹几何则提供了明确的空间和时间监督。由此产生的问题教会全模态推理模型如何从结构化图中解释参与者属性、行为、情感、互动及其时序。在推理时，THG-Omni使用从评估视频构建的预测图。IntentBench上的实验显示，在社会推理、情感理解和欺骗感知方面，相较于未适配的基础模型，THG-Omni表现出一致的提升。在NExT-QA上，THG-Omni在匹配图的情况下达到了89.54%的准确率，而在没有图输入的情况下为85.10%。进一步的验证实验表明，紧凑的图输入达到了78.22%的准确率，而使用完整图的准确率为78.02%，没有图输入的准确率为77.58%。一个补充的诊断表明，预测图即使在没有源视频和音频的情况下也保留了对回答问题有用的证据。这些发现共同表明，THG-Omni在提高以人为中心的视频推理的同时，将其证据与可识别的参与者和事件相结合。我们的代码可在 https://anonymous.4open.science/r/review-n94hhfcwp5666/ 获取。",
+      "authors": [
+        "Jisheng Dang",
+        "Kai Wei",
+        "Ronghao Lin",
+        "Bimei Wang",
+        "Hong Peng",
+        "Wei-Shi Zheng",
+        "Bin Hu",
+        "Qi Tian",
+        "Tat-Seng Chua"
+      ],
+      "date": "2026-11-06",
+      "id": "2611.07836",
+      "tags": [
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "THG-Omni: Traceable Human-Centric Graph Supervision for Video Reasoning",
+      "title_zh": "THG-Omni：可追踪的人本图形监督用于视频推理",
+      "url": "/daily/2026-11-06/#paper-2611-07836"
+    },
+    {
+      "abstract": "Language agents increasingly use persistent memory to record user preferences and procedures across sessions. We show that memory from benign interactions can cause unsafe or unreliable behavior on later tasks. We call this failure the memory trap. To study this issue, we compare behavior in sessions with and without memory across six frontier models (including Claude Sonnet, Opus, and Fable models and GPT-5.6). We evaluate these models in a range of settings. First, in autonomy experiments, we find that requests to skip confirmation during low-stakes coding chores lead agents to skip confirmation and verification on simulated high-stakes tasks in both coding and everyday life. We next study memories formed when users seek emotional support, or describe harm from uncritical feedback, and find these memories bias later judgments of mathematical work, arguments, and poems toward sycophancy or over-critique (respectively). Memory notes written during legitimate stale-test repairs lead agents to weaken correct tests that catch broken safeguards; these memories also increase cheating on ImpossibleBench, with larger increases for stronger Sonnet and Opus models. We show that memory traps can arise both from overgeneralizations in memory writing, and when acting on memory. These findings demonstrate that even benign interactions can lead to serious risks from memory systems, and thus motivate the need for new research into ensuring that agents preserve the scope of their memories.",
+      "abstract_zh": "语言代理越来越多地使用持久记忆来记录用户偏好和程序跨会话的变化。我们展示了良性互动的记忆可能导致后续任务中不安全或不可靠的行为。我们将这种失败称为记忆陷阱。为了研究这个问题，我们比较了六个前沿模型（包括 Claude Sonnet、Opus 和 Fable 模型以及 GPT-5.6）在有记忆和无记忆的会话中的行为。我们在多种环境中评估这些模型。首先，在自主实验中，我们发现请求在低风险编码任务中跳过确认会导致代理在模拟高风险任务（包括编码和日常生活）中跳过确认和验证。接下来，我们研究用户寻求情感支持或描述因不加批判的反馈而造成的伤害时形成的记忆，发现这些记忆会使后续对数学工作、论证和诗歌的判断偏向于阿谀奉承或过度批评（分别）。在合法的陈旧测试修复过程中写下的记忆笔记会导致代理削弱能够捕捉到破损保护措施的正确测试；这些记忆还会增加在 ImpossibleBench 上的作弊行为，且对于更强的 Sonnet 和 Opus 模型，增加幅度更大。我们展示了记忆陷阱可以源于记忆书写中的过度概括，以及在根据记忆行动时。这些发现表明，即使是良性互动也可能导致记忆系统的严重风险，因此激励了对确保代理保持其记忆范围的新研究的需求。",
+      "authors": [
+        "Kaiqu Liang",
+        "Jaime Fernández Fisac",
+        "Thomas L. Griffiths",
+        "Andrew Lampinen"
+      ],
+      "date": "2026-11-06",
+      "id": "2611.07554",
+      "tags": [
+        "共情交互",
+        "鲁棒性/偏差"
+      ],
+      "title": "The Memory Trap: Language Agents Overgeneralize from Benign Interactions",
+      "title_zh": "记忆陷阱：语言代理从良性互动中过度概括",
+      "url": "/daily/2026-11-06/#paper-2611-07554"
+    },
+    {
+      "abstract": "Group Relative Policy Optimization (GRPO) has advanced generative model post-training in verifiable domains such as code and mathematics, but evaluating video quality, especially emotional expression, often depends on subjective aesthetics and has no uniquely correct target. Existing approaches typically rely on fixed rewards for visual quality, motion quality, and text alignment that poorly capture emotional intent and can invite reward hacking, while RLHF is difficult to scale and subject to individual aesthetic differences that complicate the calibration of facial, body motion, and chromatic cues across narrative contexts. We introduce EmoReward, a new self-evolving training mechanism that distills evidence reliability from reward traces collected during an actual training run to adaptively guide multi-reward weight allocation in subsequent training by determining which emotional evidence to trust and how much to weight it. EmoReward first plans specific grounding cues from the emotional prompt to guide evaluation, then uses heterogeneous signal primitives to score the generated video during the act stage. Reflective Reward Gating calibrates their contributions through instance-level gates for phase, face confidence, conflict, and subtlety, then renormalizes weights over the active set to produce the sample's fused reward. RewardMemory then estimates each primitive's reliability from rollout scores and outcomes within each emotional regime in the finished training run, then fixes bounded multipliers that calibrate fusion weights in the next training run without updating reward models. Experiments on HunyuanVideo 1.5 show improvements across multiple RL algorithms and compare EmoReward with other agentic reward methods under SAGE-GRPO. Ablations and transfer experiments on SD 3.5 and FLUX further support adaptive reward calibration for visual generation.",
+      "abstract_zh": "群体相对策略优化（GRPO）在可验证领域如代码和数学的生成模型后训练中取得了进展，但视频质量的评估，尤其是情感表达，往往依赖于主观美学，并没有唯一正确的目标。现有方法通常依赖于固定的视觉质量、运动质量和文本对齐的奖励，这些奖励难以准确捕捉情感意图，并可能导致奖励操控，而基于人类反馈的强化学习（RLHF）难以扩展，并受到个体美学差异的影响，这使得在叙事上下文中校准面部、身体运动和色彩线索变得复杂。我们提出了EmoReward，一种新的自我演化训练机制，它从实际训练过程中收集的奖励轨迹中提取证据可靠性，以自适应地指导后续训练中的多重奖励权重分配，确定信任哪些情感证据以及如何加权。EmoReward首先根据情感提示规划特定的基础线索以指导评估，然后在执行阶段使用异构信号原语对生成的视频进行评分。反思奖励门控通过实例级门控校准其在阶段、面部置信度、冲突和细微差别方面的贡献，然后在活跃集合上重新归一化权重，以生成样本的融合奖励。奖励记忆随后根据每个情感状态中的回滚分数和结果估计每个原语的可靠性，并在下一个训练运行中固定界限乘数，以校准融合权重，而无需更新奖励模型。在HunyuanVideo 1.5上的实验显示了多个强化学习算法的改进，并在SAGE-GRPO下将EmoReward与其他代理奖励方法进行了比较。对SD 3.5和FLUX的消融实验和迁移实验进一步支持了视觉生成的自适应奖励校准。",
+      "authors": [
+        "Mingzhe Zheng",
+        "Yue Wu",
+        "Jing Tan",
+        "Chang Zou",
+        "Dengyang Jiang",
+        "Zeyue Tian",
+        "Xuanhua He",
+        "Ryan Xu",
+        "Yunyang Ge",
+        "Sihui Ji",
+        "Yunlong Lin",
+        "Kaihang Pan",
+        "Hongru Yan",
+        "Sixiang Chen",
+        "Dianyi Wang",
+        "Julian Zhang",
+        "Weijie Kong",
+        "Changlin Li",
+        "Lanqing Guo",
+        "Zhao Zhong",
+        "Qifeng Chen",
+        "Harry Yang"
+      ],
+      "date": "2026-11-05",
+      "id": "2611.06518",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "EmoReward: Self-Evolving Reward Calibration for Emotional Video Generation RL",
+      "title_zh": "EmoReward：情感视频生成强化学习的自我演化奖励校准",
+      "url": "/daily/2026-11-05/#paper-2611-06518"
+    },
+    {
+      "abstract": "Forecasting emotion in conversation is increasingly framed as predicting the next emotional state's value. We show this targets a hard quantity in a state-observed testbed and propose a learnable, deployable reformulation instead. On valence-arousal-dominance trajectories from a dyadic corpus, repeating a speaker's own previous state sets a persistence baseline that no frozen-encoder correction meaningfully improves upon and a state-space filter exceeds; the floor requires the historical state to be observed, since an estimated anchor collapses persistence below a direct forecaster. What survives is the timing of a departure from persistence, learnable on three of four corpora and near chance on the highest-base-rate corpus, a negative result we report. We recast the task as selective departure forecasting: a lead-time-weighted metric with a leakage protocol, and commitment policies whose best choice switches with the departure rate. A dialogue-level conformal risk control bounds the expected loss of committed predictions, meeting the target in all twelve configurations tested, though the guarantee is bought through abstention, with coverage and alarm recall falling sharply on the hardest corpus. One tested language model's confidence fails as a ranking signal where another succeeds, a model-dependent failure not yet attributable to family versus scale. Code and result logs are available from the corresponding author upon request.",
+      "abstract_zh": "在对话中预测情感越来越被视为预测下一个情感状态的值。我们展示了这一目标在一个状态观察的测试环境中是一个困难的量，并提出了一种可学习、可部署的重新表述。在来自双人语料库的愉悦-唤醒-主导性轨迹中，重复说话者自己之前的状态设定了一个持久性基线，任何冻结编码器的修正都没有显著改善，而状态空间过滤器则超越了这一基线；这一底线要求观察到历史状态，因为估计的锚点会使持久性低于直接预测者。最终剩下的是离开持久性的时机，这在四个语料库中的三个上是可学习的，而在基数最高的语料库上接近随机结果，这是我们报告的一个负面结果。我们将任务重新表述为选择性离开预测：一种加权的提前时间度量，带有泄漏协议，以及最佳选择随离开率变化的承诺策略。对话级别的符合风险控制界定了承诺预测的预期损失，满足了在所有测试的十二种配置中的目标，尽管这一保证是通过放弃获得的，覆盖率和警报召回在最困难的语料库上急剧下降。一个测试的语言模型的置信度在排名信号中失败，而另一个则成功，这是一种尚未归因于模型家族与规模的模型依赖性失败。代码和结果日志可根据请求向通讯作者提供。",
+      "authors": [
+        "Bin Wen",
+        "Dai-Qiao Zhang",
+        "Tien-Ping Tan"
+      ],
+      "date": "2026-11-05",
+      "id": "2611.05896",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Selective, Risk-Controlled Emotion Forecasting in Conversation: From a Persistence Barrier to Departure Detection with Conformal Guarantees",
+      "title_zh": "对话中的选择性、风险控制情感预测：从持久性障碍到带有符合保证的离开检测",
+      "url": "/daily/2026-11-05/#paper-2611-05896"
+    },
+    {
+      "abstract": "Comparisons in conversational emotion-shift forecasting are easily distorted when a learned model receives rich features but its transition baseline is given a noisy or unavailable current-emotion label, when hyperparameter budgets differ, or when target-turn information enters the representation. We present an information-matched, leakage-safe auditing protocol that closes these gaps with an explicit commitment point, executable causality tests, equal four-configuration validation searches, and seed-dialogue-aware inference. Applying it to six causal model families on four text corpora and two feature-source sensitivity configurations shows that a deployable train-only current-emotion classifier feeding the transition baseline yields a different verdict than an oracle diagnostic where both sides receive gold current emotion. Under the deployable condition, learned models improve over the predicted-label baseline on all four primary corpora; DailyDialog gains are large and survive a 72-comparison Holm correction (best ROC-AUC gain = +0.167, adjusted p=.0144). Under matched gold information, the baseline remains competitive on IEMOCAP and stronger on MELD, while every model retains a large DailyDialog advantage. We additionally report precision-recall AUC, calibration, a strictly utterance-local feature control, same-person self-shift forecasting, and a future-access dose-response test. An eight-item leakage checklist accompanies the protocol. Code, raw seed predictions, and reporting artifacts are available from the corresponding author upon request.",
+      "abstract_zh": "在对话情感转变预测中，当学习的模型接收到丰富特征但其转变基线被赋予嘈杂或不可用的当前情感标签时，比较结果容易失真，尤其是在超参数预算不同或目标轮次信息进入表示时。我们提出了一种信息匹配的、安全泄漏的审计协议，通过明确的承诺点、可执行的因果性测试、平等的四配置验证搜索和种子对话感知推理来弥补这些差距。将其应用于四个文本语料库上的六个因果模型系列和两种特征源敏感性配置，结果表明，采用可部署的仅训练当前情感分类器作为转变基线，与双方均接收真实当前情感的神谕诊断相比，得出的结论有所不同。在可部署条件下，学习模型在所有四个主要语料库上均优于预测标签基线；DailyDialog的增益显著，并且经过72次比较的Holm校正后仍然有效（最佳ROC-AUC增益 = +0.167，调整后的p=.0144）。在匹配的真实信息下，基线在IEMOCAP上仍具竞争力，在MELD上更强，而每个模型在DailyDialog上保持较大的优势。此外，我们还报告了精确率-召回曲线下的面积（AUC）、校准、严格的发言局部特征控制、同人自转变预测以及未来访问剂量反应测试。该协议附带一个八项泄漏检查清单。代码、原始种子预测和报告文档可根据请求从通讯作者处获得。",
+      "authors": [
+        "Bin Wen",
+        "Dai-Qiao Zhang",
+        "Tien-Ping Tan"
+      ],
+      "date": "2026-11-05",
+      "id": "2611.05895",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "数据集/评测"
+      ],
+      "title": "Information-Matched Auditing of Conversational Emotion-Shift Forecasting: A Leakage-Safe Evaluation Protocol",
+      "title_zh": "信息匹配的对话情感转变预测审计：一种安全泄漏评估协议",
+      "url": "/daily/2026-11-05/#paper-2611-05895"
+    },
+    {
+      "abstract": "Facial Expression Recognition (FER) on optomyographic (OMG) smart glasses such as OCOsense enables privacy-preserving, camera-free affect sensing for health and well-being. Most FER systems are fully supervised, i.e., they rely either on hand-crafted expert features with classical machine learning, or on end-to-end deep models trained from labelled data. Both depend on large quantities of labelled expressions, which are costly to collect and limit deployment in real-world, personalized settings. We investigate Self-Supervised Learning (SSL) as a route to label-efficient FER on these glasses. We pretrain a Vision Transformer with a masked-autoencoder objective on unlabelled OCOsense recordings and finetune it for five-class FER under person-independent cross-validation. Across label budgets from 5% to 100%, pretraining consistently improves performance; with only 5% of the labels, the pretrained model outperforms the from-scratch model trained with all labels. Our results show that SSL pretraining is a practical way to reduce labelling cost for smart eyewear FER, and we discuss the implications for future personalization and continual adaptation.",
+      "abstract_zh": "在光肌电（OMG）智能眼镜（如OCOsense）上进行的面部表情识别（FER）能够实现隐私保护的、无摄像头的情感感知，促进健康与福祉。大多数FER系统是完全监督的，即它们依赖于手工设计的专家特征与经典机器学习，或依赖于从标注数据中训练的端到端深度模型。这两者均依赖于大量的标注表情，而这些表情的收集成本高昂，限制了其在真实世界个性化环境中的应用。我们研究了自监督学习（SSL）作为在这些眼镜上实现标签高效FER的一种途径。我们在未标注的OCOsense录音上，使用掩码自编码器目标对视觉变换器进行预训练，并在独立于个体的交叉验证下对其进行五类FER的微调。在从5%到100%的标签预算范围内，预训练始终提高了性能；仅使用5%的标签，预训练模型的表现优于使用所有标签从头训练的模型。我们的结果表明，SSL预训练是一种降低智能眼镜FER标注成本的实用方法，并且我们讨论了其对未来个性化和持续适应的影响。",
+      "authors": [
+        "Zhengtao Gao",
+        "Francesco Bombassei De Bona",
+        "Leonardo Alchieri",
+        "Ivana Kiprijanovska",
+        "Simon Stankoski",
+        "Bojan Sofronievski",
+        "Hristijan Gjoreski",
+        "Marc Langheinrich",
+        "Martin Gjoreski"
+      ],
+      "date": "2026-11-05",
+      "id": "2611.05711",
+      "tags": [
+        "面部表情",
+        "心理状态/福祉"
+      ],
+      "title": "Self-Supervised Pretraining for Label-Efficient Facial Expression Recognition using Smart Glasses",
+      "title_zh": "基于自监督预训练的标签高效面部表情识别方法：以智能眼镜为例",
+      "url": "/daily/2026-11-05/#paper-2611-05711"
+    },
+    {
+      "abstract": "Cognitive Behavioral Therapy (CBT) demands more than empathic validation, requiring instead a structured formulation of the interplay among situations, automatic thoughts, emotions, and behaviors. Therapists formalize this interplay through a Cognitive Conceptualization Diagram, where maintaining longitudinal coherence necessitates continuous evidential adjudication to separate tentative hypotheses from established findings. Current dialogue systems track conversational history via retrieval or static profiles but lack the representational capacity to encode epistemic status. Consequently, provisional interpretations are often prematurely reified as established facts, inadvertently biasing downstream interventions. Addressing this limitation, CCDWiki is introduced as a plug-and-play advisor conceptualizing longitudinal therapy as evidence-grounded hypothesis adjudication. The approach encodes each clinical hypothesis as a mutable entry bound to corroborating and contradicting evidence. Across sessions, accumulating data strengthens supported entries, preserves provisional ones, and retracts contradicted assumptions. The resulting formulation distills into concise guidance for unmodified therapeutic language models. Experiments demonstrate substantial improvements in both conceptualization and intervention quality without requiring backbone retraining.",
+      "abstract_zh": "认知行为治疗（CBT）不仅仅需要同理心的验证，还需要对情境、自动思维、情感和行为之间相互作用的结构化构建。治疗师通过认知概念图（Cognitive Conceptualization Diagram）来形式化这种相互作用，而维持纵向一致性则需要持续的证据裁定，以区分暂定假设与已建立的发现。目前的对话系统通过检索或静态档案跟踪对话历史，但缺乏编码认知状态的表征能力。因此，临时解释往往被过早地固化为已建立的事实，从而无意中影响后续干预。为了解决这一局限性，本文提出了CCDWiki作为一种即插即用的顾问，将纵向治疗概念化为基于证据的假设裁定。这种方法将每个临床假设编码为一个可变条目，绑定于支持和反驳的证据。在多个会话中，累积的数据增强了支持条目的有效性，保留了临时条目，并撤回了被反驳的假设。最终的构建提炼为对未修改的治疗语言模型的简明指导。实验表明，在不需要重新训练基础模型的情况下，概念化和干预质量均有显著改善。",
+      "authors": [
+        "Mingwen Zhang",
+        "Ruiyang Song",
+        "Qinying Wang",
+        "Yuchen Wang",
+        "Changsheng Ma",
+        "Minqiang Yang"
+      ],
+      "date": "2026-11-05",
+      "id": "2611.05383",
+      "tags": [
+        "共情交互",
+        "情感生成"
+      ],
+      "title": "CCDWIKI: Decoupling Case Formulation from Response Generation in Longitudinal CBT Dialogue",
+      "title_zh": "CCDWIKI：将案例构建与响应生成解耦的纵向认知行为治疗对话",
+      "url": "/daily/2026-11-05/#paper-2611-05383"
+    },
+    {
+      "abstract": "User-generated videos, including opinion vlogs and video reviews, provide a rich source of people's attitudes toward products, services, and social topics. Understanding the sentiment expressed by speakers is important for analyzing online opinions, as transcripts alone may not capture the attitude and intensity conveyed through vocal tone and facial expressions. Multimodal sentiment analysis (MSA) addresses this need by integrating textual, acoustic, and visual cues. However, these cues are often subtle, noisy, and inconsistent across modalities. Existing local affective cue modeling methods typically operate within individual modalities and overlook global contexts from other modalities. This may cause cross-modal affective cue inconsistency. Hierarchical global-local fusion methods integrate global semantics with fine-grained local affective cues. However, they commonly determine the relative contributions of the two representations implicitly, preventing the global-local contributions from adapting to the sample-dependent reliability of local cues and resulting in either insufficient use of informative local cues or excessive interference from unreliable ones. To address these issues, we propose DGC-Net, a Dynamic Gating and Global-Guided Compensation Network for MSA. DGC-Net mitigates cross-modal affective cue inconsistency through cross-modal contribution-aware dynamic expert routing. This mechanism uses auxiliary global contexts to guide local expert selection. Moreover, global-guided dynamic compensation fusion alleviates sample-dependent global-local contribution imbalance while preserving global semantic as the primary anchor and adaptively incorporating expert-refined local cues. Experiments on five multimodal benchmark datasets demonstrate the effectiveness and general applicability of DGC-Net, and ablation studies verify the contribution of each proposed component.",
+      "abstract_zh": "用户生成的视频，包括意见博客和视频评论，为人们对产品、服务和社会话题的态度提供了丰富的来源。理解发言者表达的情感对于分析在线意见至关重要，因为仅仅依靠文字记录可能无法捕捉通过声调和面部表情传达的态度和强度。多模态情感分析（MSA）通过整合文本、声学和视觉线索来满足这一需求。然而，这些线索往往是微妙的、嘈杂的，并且在不同模态之间不一致。现有的局部情感线索建模方法通常在单一模态内操作，忽视了来自其他模态的全局上下文。这可能导致跨模态情感线索的不一致。分层全局-局部融合方法将全局语义与细粒度的局部情感线索整合在一起。然而，它们通常隐式地确定这两种表征的相对贡献，导致全局-局部贡献无法适应局部线索的样本依赖可靠性，从而导致信息丰富的局部线索使用不足或不可靠线索的过度干扰。为了解决这些问题，我们提出了DGC-Net，一种用于MSA的动态门控和全局引导补偿网络。DGC-Net通过跨模态贡献感知的动态专家路由来减轻跨模态情感线索的不一致性。该机制利用辅助全局上下文来指导局部专家的选择。此外，全局引导的动态补偿融合缓解了样本依赖的全局-局部贡献不平衡，同时保留全局语义作为主要锚点，并自适应地整合专家精炼的局部线索。在五个多模态基准数据集上的实验表明了DGC-Net的有效性和广泛适用性，消融研究验证了每个提出组件的贡献。",
+      "authors": [
+        "Linan Zhu",
+        "Huaijing Wu",
+        "Xiao Han",
+        "Yuhao Wang"
+      ],
+      "date": "2026-11-04",
+      "id": "2611.04841",
+      "tags": [
+        "文本情感",
+        "多模态情感",
+        "数据集/评测"
+      ],
+      "title": "DGC-Net: Cross-Modal Dynamic Routing with Global-Guided Compensation in Multimodal Sentiment Analysis",
+      "title_zh": "DGC-Net：在多模态情感分析中的跨模态动态路由与全局引导补偿",
+      "url": "/daily/2026-11-04/#paper-2611-04841"
+    },
+    {
+      "abstract": "Prolonged exposure to hate speech on social media can cause lasting psychological distress among users. Counterspeech has emerged as an effective, non-censorial mitigation strategy, but its deployment requires rigorous quality assessment. Manual assessment is unscalable due to the large volume of content on the Web and imposes severe emotional strain on human annotators. Large Language Models (LLMs) offer a scalable alternative, yet concerns remain regarding their reliability. In this paper, we investigate the extent to which LLMs can effectively perform this task. We test 12 open-weight LLMs of different sizes and families under zero-shot, few-shot, and chain-of-thought prompting, to approximate pointwise and pairwise human expert assessment of counterspeech quality across four dimensions: relevance, coherence, aggressiveness, and suitableness. We find that (i) LLMs show low agreement and moderate rank correlations with human experts: our best configuration, Qwen 2.5 72B on coherence, achieves up to a linear-weighted Cohen's $\\kappa_l = 0.19$ and Spearman's $\\rho = 0.42$ in pointwise evaluation and an unweighted Cohen's $\\kappa = 0.25$ in pairwise evaluation. (ii) Converting pointwise scores into pairwise labels substantially improves human--LLM agreement for selected configurations. For same-instance coherence, Qwen 2.5 72B under zero-shot prompting achieves $\\kappa = 0.35$ with converted labels, compared with $\\kappa = 0.25$ when judging pairs directly, and Mixtral 8$\\times$7B under few-shot prompting improves from $\\kappa = 0.07$ to $\\kappa = 0.34$. (iii) LLMs agree more with one another than with human experts, particularly in pairwise evaluation, where the strongest model pair, OLMo 2 32B and Llama 3.3 70B on coherence, reaches substantial agreement with $\\kappa = 0.76$, whereas their agreement with the experts in the same configuration does not exceed $\\kappa = 0.21$.",
+      "abstract_zh": "在社交媒体上长期接触仇恨言论可能导致用户产生持久的心理困扰。反言论作为一种有效的非审查性缓解策略应运而生，但其实施需要严格的质量评估。由于网络内容量庞大，人工评估难以扩展，并对人类标注者造成严重的情感压力。大型语言模型（LLMs）提供了一种可扩展的替代方案，但其可靠性仍然存在担忧。本文探讨了LLMs在执行此任务方面的有效性。我们在零样本、少样本和思维链提示下测试了12个不同规模和类别的开放权重LLMs，以近似人类专家在四个维度（相关性、连贯性、攻击性和适宜性）上的逐点和成对反言论质量评估。我们发现：（i）LLMs与人类专家之间的协议较低，秩相关性中等：我们最佳配置Qwen 2.5 72B在连贯性方面的逐点评估中达到了线性加权Cohen's $ ext{kappa}_l = 0.19$和Spearman's $ ho = 0.42$，而成对评估中未加权Cohen's $ ext{kappa} = 0.25$。（ii）将逐点分数转换为成对标签显著提高了选定配置下人类与LLM之间的协议。在同一实例的连贯性方面，Qwen 2.5 72B在零样本提示下使用转换标签时达到了$ ext{kappa} = 0.35$，而直接评估成对时为$ ext{kappa} = 0.25$，Mixtral 8$ imes$7B在少样本提示下从$ ext{kappa} = 0.07$提高到$ ext{kappa} = 0.34$。（iii）LLMs之间的协议高于与人类专家之间的协议，尤其是在成对评估中，最强模型对OLMo 2 32B和Llama 3.3 70B在连贯性方面达到了显著协议，$ ext{kappa} = 0.76$，而在相同配置下与专家的协议不超过$ ext{kappa} = 0.21$。",
+      "authors": [
+        "Johnny Alali",
+        "Nicolás Benjamín Ocampo",
+        "Davide Ceolin"
+      ],
+      "date": "2026-11-04",
+      "id": "2611.04627",
+      "tags": [
+        "情感大模型",
+        "语音情感",
+        "心理状态/福祉"
+      ],
+      "title": "Evaluating LLMs as Judges of Counterspeech Quality Against Online Hate Speech",
+      "title_zh": "评估大型语言模型（LLMs）作为反言论质量评判者对抗网络仇恨言论",
+      "url": "/daily/2026-11-04/#paper-2611-04627"
+    },
     {
       "abstract": "Improving a sentiment classifier with limited resources involves more than simply deciding how much data to collect or which model to train. A labelled collection may lack examples of an important class. Once trained, a classifier may benefit from another model even when that model is weaker on its own. We study these decisions in document-level Entity-Level Sentiment Analysis (ELSA), primarily using South Slavic news. We first compare acquisition orders as collections grow. We then use uncertainty to choose which predictions to revisit, how many to process, and whether an alternative encoder or local LLM can correct them. Finally, we select complete routing policies on development data for held-out evaluation. Minority-prioritised acquisition helps at some very small training sizes, but not consistently thereafter. On SentiCoref, an oracle correcting all errors in the least-confident 10% without harming correct predictions would add 9.14 Macro-F1 points; however the best evaluated action gains only 0.90. Encoder averaging helps on AspectBench and NewsMTSC but harms SentiCoref, where selective LLM assistance is more promising. Both development-selected policies route 30% of records to the encoder-assisted LLM, yielding observed gains of 1.02 points on SentiCoref (interval includes zero) and 1.71 on NewsMTSC, at substantially different inference costs.",
       "abstract_zh": "在资源有限的情况下，提高情感分类器不仅仅是决定收集多少数据或训练哪个模型。标注的集合可能缺乏重要类别的示例。一旦训练完成，分类器即使在单独使用时表现较弱，也可能受益于其他模型。我们在文档级实体情感分析（Entity-Level Sentiment Analysis, ELSA）中研究这些决策，主要使用南斯拉夫新闻。我们首先比较随着集合增长的获取顺序。然后，我们利用不确定性来选择哪些预测需要重新审视、处理多少以及是否可以通过替代编码器或本地大语言模型（Local LLM）来纠正它们。最后，我们在开发数据上选择完整的路由策略进行保留评估。在一些非常小的训练规模下，优先考虑少数类的获取有帮助，但此后并不一致。在 SentiCoref 上，一个能够纠正所有在最不自信的 10% 中错误的预言者，而不损害正确预测的效果，将增加 9.14 个宏观 F1 点；然而，最佳评估的行动仅获得 0.90。编码器平均在 AspectBench 和 NewsMTSC 上有帮助，但在 SentiCoref 上则有害，选择性 LLM 辅助更具前景。两个开发选择的策略将 30% 的记录路由到编码器辅助的 LLM，观察到在 SentiCoref 上获得 1.02 点的提升（区间包括零）和在 NewsMTSC 上获得 1.71 点的提升，推理成本大相径庭。",

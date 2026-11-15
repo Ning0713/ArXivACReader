@@ -1,0 +1,56 @@
+{
+  "abstract": "Thai is written without spaces between words, making segmentation a foundational step in most Thai NLP pipelines. Existing tools primarily reproduce the word-level conventions of corpora such as BEST; however, because the notion of a \"word\" in Thai lacks a unified linguistic consensus, these conventions struggle with productive compounding, leading to arbitrary boundaries and ambiguity in downstream representations. Instead, we propose operating at the morphological level, focusing on khammoon, the smallest atomic unit that carries meaning. Segmenting at the morphemic level provides an explicit, consistent morphological representation that eliminates compounding ambiguity. Crucially, this representation benefits downstream learning: models trained on morphemes perform on par with or exceed word-level baselines across part-of-speech tagging, named-entity recognition, and sentiment classification, demonstrating that linguistic consistency improves representation quality without downstream performance penalty. To operationalize this representation, we translate linguistic principles into a formal decision guideline with near-perfect human agreement ($\\kappa \\approx 0.99$), scale annotation with an LLM, and correct systematic errors with human labels. Finally, we train khammoon, a lightweight 1M-parameter convolutional BiLSTM segmenter designed for efficient CPU inference, achieving a boundary F1 of 0.992 on out-of-domain text. The guideline, datasets, model, and library are all publicly released.",
+  "abstract_zh": "泰语书写时单词之间没有空格，这使得分割成为大多数泰语自然语言处理（NLP）流程中的基础步骤。现有工具主要复现了如BEST等语料库的词级约定；然而，由于泰语中“词”的概念缺乏统一的语言学共识，这些约定在生产性复合词方面面临困难，导致了任意边界和下游表示中的歧义。因此，我们建议在形态学层面进行操作，关注khammoon，即携带意义的最小原子单位。在形态素层面进行分割提供了一种明确、一致的形态学表示，消除了复合歧义。至关重要的是，这种表示对下游学习有益：在形态素上训练的模型在词性标注、命名实体识别和情感分类等任务上表现与词级基线相当或更好，证明了语言学的一致性提高了表示质量而没有下游性能的惩罚。为了将这种表示付诸实践，我们将语言学原则转化为具有近乎完美人类一致性的正式决策指导（$ ext{kappa} ext{ } ext{≈} ext{ } 0.99$），通过大型语言模型（LLM）扩展注释，并通过人类标签纠正系统性错误。最后，我们训练了khammoon，一个轻量级的100万参数卷积双向长短期记忆（BiLSTM）分割器，旨在实现高效的CPU推理，在域外文本上达到了0.992的边界F1值。该指导原则、数据集、模型和库均已公开发布。",
+  "arxiv_id": "2611.13012",
+  "arxiv_url": "https://arxiv.org/abs/2611.13012",
+  "authors": [
+    "Warit Sirichotedumrong",
+    "Adisai Na-Thalang",
+    "Chanakan Wittayasakpan",
+    "Kritsadha Phatcharoen",
+    "Kunat Pipatanakul"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-11",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-15T04:00:22.139122+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.13012",
+  "published_at": "2026-11-11",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment classification",
+      "情感分类",
+      "LLM",
+      "recognition",
+      "classification",
+      "speech",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-11-11"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-11",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-11"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "khammoon: From a Linguistic Guideline to a Thai Morpheme Segmenter",
+  "title_zh": "khammoon：从语言指导到泰语形态素分割器",
+  "translation_url": "https://hjfy.top/arxiv/2611.13012"
+}

@@ -1,0 +1,62 @@
+{
+  "abstract": "Multimodal depression screening estimates risk from speech, visual behavior and language. Current methods mainly predict labels, with limited evidence of departures from a non-depressed reference. Recording-level supervision also leaves fine-grained emotional dynamics unannotated. Motivated by emotional inertia, the persistence of affect, InertiaMPDD learns healthy next-state patterns using a world-model-inspired latent predictor. Using pretrained multimodal representations, it predicts from observed history and context. Reference deviation, residual decay rate and a Jacobian spectral descriptor form reference-derived emotional dynamics descriptors, evaluated as candidate proxy biomarkers for standalone screening and personalized decision correction. Across five cohorts from four datasets, fusion reaches 98.41% F1 on D-Vlog and 84.98% on LMVD. Standalone descriptors outperform fixed additive fusion on MPDD but discriminate weakly on AVEC2014. These findings distinguish reference informativeness from fusion benefit and reveal context-dependent utility.",
+  "abstract_zh": "多模态抑郁筛查通过语音、视觉行为和语言评估风险。当前的方法主要预测标签，缺乏对非抑郁参考的偏离证据。记录级监督也使得细粒度的情感动态未被标注。受到情感惯性的启发，即情感的持续性，InertiaMPDD通过使用受世界模型启发的潜在预测器学习健康的下一状态模式。它利用预训练的多模态表示，从观察到的历史和上下文中进行预测。参考偏离、残余衰减率和雅可比谱描述符形成了基于参考的情感动态描述符，这些描述符被评估为独立筛查和个性化决策修正的候选代理生物标志物。在来自四个数据集的五个队列中，融合方法在D-Vlog上达到了98.41%的F1分数，在LMVD上达到了84.98%。独立描述符在MPDD上优于固定加性融合，但在AVEC2014上的区分能力较弱。这些发现区分了参考信息量与融合收益，并揭示了上下文依赖的效用。",
+  "arxiv_id": "2611.16647",
+  "arxiv_url": "https://arxiv.org/abs/2611.16647",
+  "authors": [
+    "Changzeng Fu",
+    "Songyang Wang",
+    "Chang Gao",
+    "Xinyi Zhang",
+    "Peilin Li",
+    "Mo Meng",
+    "Jiarui Wu",
+    "Mingze Li",
+    "Hongwei Ding",
+    "Shiqi Zhao",
+    "Yong Li",
+    "Lang He"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-13",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T04:01:04.580096+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.16647",
+  "published_at": "2026-11-13",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "multimodal",
+      "detection",
+      "speech",
+      "多模态",
+      "检测",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-13"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-13",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-13"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "语音情感",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling",
+  "title_zh": "InertiaMPDD：通过情感惯性启发的动态建模实现多模态个性化抑郁检测",
+  "translation_url": "https://hjfy.top/arxiv/2611.16647"
+}

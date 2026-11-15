@@ -1,0 +1,61 @@
+{
+  "abstract": "Multimodal Emotion Reasoning (MER) requires perceiving and integrating emotion cues from multiple modalities. Recent advances increasingly leverage Multimodal Large Language Models (MLLMs) to enhance reasoning capacity. However, due to the inherent heterogeneity in conveying emotions across modalities, these models often suffer from modality imbalance and confront flawed emotion understanding. In this paper, we conduct an in-depth analysis on MER models and uncover two key empirical insights. (i) In MER, modality imbalance manifests two distinct failure modes: unimodal over-reliance and insufficient cross-modal utilization, which call for different intervention strategies. (ii) MLLM layers exhibit implicit functional hierarchies in multimodal emotion processing, playing separable roles in stabilizing unimodal representations and integrating cross-modal information. Motivated by these observations, we propose a Layer-Aware Modality Rebalancing (LAMR) framework by explicitly aligning intervention strategies with layer roles. Specifically, we first introduce two quantized metrics for adaptive layer role profiling. In each layer, Modality Entropy (ME) measures the dispersion of modality contributions, and Cross-modal Intensity (CMI) captures the strength of cross-modal interactions. Then, we respectively enhance modality equilibrium in stabilization layers and cross-modal propagation in integration layers. Extensive experiments on two comprehensive MER benchmarks demonstrate that LAMR effectively mitigates modality imbalance and improves emotion reasoning across diverse MLLM backbones, without additional training.",
+  "abstract_zh": "多模态情感推理（MER）需要从多个模态中感知和整合情感线索。近期的进展越来越多地利用多模态大型语言模型（MLLMs）来增强推理能力。然而，由于在不同模态中传达情感的固有异质性，这些模型往往遭受模态不平衡的问题，并面临情感理解的缺陷。本文对MER模型进行了深入分析，揭示了两个关键的实证见解：（i）在MER中，模态不平衡表现为两种不同的失败模式：单模态过度依赖和跨模态利用不足，这需要不同的干预策略。（ii）MLLM层在多模态情感处理上表现出隐含的功能层次结构，在稳定单模态表示和整合跨模态信息中发挥着可分离的角色。基于这些观察，我们提出了一种层感知模态重平衡（LAMR）框架，通过明确对齐干预策略与层角色来实现。具体而言，我们首先引入两种量化指标用于自适应层角色剖析。在每一层中，模态熵（Modality Entropy, ME）衡量模态贡献的分散程度，而跨模态强度（Cross-modal Intensity, CMI）捕捉跨模态交互的强度。然后，我们分别在稳定层中增强模态平衡，在整合层中增强跨模态传播。在两个全面的MER基准上的大量实验表明，LAMR有效地缓解了模态不平衡，并在不同的MLLM骨干网络中改善了情感推理，而无需额外的训练。",
+  "arxiv_id": "2611.11907",
+  "arxiv_url": "https://arxiv.org/abs/2611.11907",
+  "authors": [
+    "Pengyu Huang",
+    "Peipei Song",
+    "Beier Zhu",
+    "Zhiyuan Han",
+    "Jinpeng Hu",
+    "Xun Yang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-10",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-15T03:59:13.881379+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.11907",
+  "published_at": "2026-11-10",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion understanding",
+      "emotion reasoning",
+      "情感理解",
+      "emotion",
+      "emotions",
+      "multimodal",
+      "large language models",
+      "MLLM",
+      "MLLMs",
+      "reasoning",
+      "多模态",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-10"
+  ],
+  "source": {
+    "axi": "https://paper.axi404.top/daily/2026-11-10",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-10"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Layer Roles Matter: Mitigating Modality Imbalance in Multimodal Emotion Reasoning via Adaptive Layer Profiling",
+  "title_zh": "层角色的重要性：通过自适应层剖析缓解多模态情感推理中的模态不平衡",
+  "translation_url": "https://hjfy.top/arxiv/2611.11907"
+}
