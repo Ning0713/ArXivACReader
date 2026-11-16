@@ -1,6 +1,13 @@
 {
   "dates": [
     {
+      "date": "2026-11-16",
+      "generated_at": "2026-11-16T13:29:03.470421+00:00",
+      "paper_count": 0,
+      "tag_count": 0,
+      "url": "/daily/2026-11-16/"
+    },
+    {
       "date": "2026-11-13",
       "generated_at": "2026-11-15T04:01:47.025573+00:00",
       "paper_count": 4,
@@ -281,9 +288,9 @@
       "url": "/daily/2026-09-16/"
     }
   ],
-  "generated_at": "2026-11-15T04:01:47.025573+00:00",
-  "latest_date": "2026-11-13",
-  "storage_bytes": 1045865,
+  "generated_at": "2026-11-16T13:29:03.470421+00:00",
+  "latest_date": "2026-11-16",
+  "storage_bytes": 1046272,
   "storage_mb": 1.0,
   "tag_counts": {
     "共情交互": 24,
@@ -301,6 +308,6 @@
     "鲁棒性/偏差": 18
   },
   "total_daily_papers": 246,
-  "total_days": 40,
+  "total_days": 41,
   "total_papers": 246
 }
