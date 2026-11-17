@@ -1,0 +1,55 @@
+{
+  "abstract": "In visual storytelling, a believable character must not only look consistent across scenes but also \\textit{behave} in ways that reflect their personality. Current text-to-image (T2I) models preserve visual appearance effectively, yet consistently fail to maintain personality-relevant behavior---a failure we term \\textit{trait collapse}. We show that conventional metrics (CLIP Score, DINO similarity) are blind to this failure, and that abstract personality descriptors and scene-level emotion labels do not produce consistent improvements over neutral prompts across models. To systematically diagnose trait collapse, we introduce \\textbf{ViStoryBench-Personality}, a story-level benchmark combining an expert-validated Visual Cues Lexicon (Fleiss' $\\kappa = 0.757$) with a six-dimensional metric suite covering personality alignment, cross-scene stability, and behavioral coherence. Evaluating seven T2I systems, we confirm a persistent semantic gap between abstract trait labels and visual evidence, and find that visual identity consistency does not imply personality consistency. To bridge this gap, we propose \\textbf{Trait-Behavior-Visual (TBV)}, a training-free prompting framework that decomposes personality traits into renderable visual constraints. TBV improves Personality Alignment Score by up to $+22.1\\%$, with larger gains in models with stronger language-conditioning capacity.",
+  "abstract_zh": "在视觉叙事中，一个可信的角色不仅在场景之间的外观上必须保持一致，而且还必须以反映其个性的方式进行 extit{行为}。当前的文本到图像（T2I）模型在有效保持视觉外观方面表现良好，但在维持与个性相关的行为方面却始终失败——我们将这种失败称为 extit{特征崩溃}。我们展示了传统指标（CLIP Score，DINO 相似度）对这种失败的盲目性，以及抽象个性描述符和场景级情感标签在不同模型中对中性提示未能产生一致的改善。为了系统性地诊断特征崩溃，我们引入了 extbf{ViStoryBench-Personality}，这是一个故事级基准，结合了经过专家验证的视觉线索词汇（Fleiss' $ ext{kappa} = 0.757$）和涵盖个性对齐、跨场景稳定性和行为一致性的六维指标套件。通过评估七个 T2I 系统，我们确认了抽象特征标签与视觉证据之间的持久语义差距，并发现视觉身份一致性并不意味着个性一致性。为了弥合这一差距，我们提出了 extbf{特征-行为-视觉（TBV）}，这是一种无训练的提示框架，将个性特征分解为可渲染的视觉约束。TBV 将个性对齐分数提高了高达 $+22.1 m{ ext{ extperthousand}}$，在具有更强语言条件能力的模型中获得了更大的提升。",
+  "arxiv_id": "2611.20381",
+  "arxiv_url": "https://arxiv.org/abs/2611.20381v1",
+  "authors": [
+    "Yuanbo Tong",
+    "Haoyuan Li",
+    "Jibiao Jiang",
+    "Zirui Wang",
+    "Yuchen Li",
+    "Jiamou Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CV",
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.973557+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.20381v1",
+  "published_at": "2026-11-16T01:16:15Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "generation",
+      "benchmark",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.20381v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "Trait Collapse in Text-to-Image Generation: Evaluating and Mitigating Personality Inconsistency in Visual Storytelling",
+  "title_zh": "文本到图像生成中的特征崩溃：评估和缓解视觉叙事中的个性不一致性",
+  "translation_url": "https://hjfy.top/arxiv/2611.20381"
+}

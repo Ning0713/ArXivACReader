@@ -1,0 +1,62 @@
+{
+  "abstract": "Fundamental to effective emotional support is the iterative interpersonal dynamic wherein a supporter intervention continuously shapes the psychological trajectory of the seeker. While contemporary models capture variables at the turn level, including transient emotions and discrete strategies, they inherently treat these factors as isolated events. By retaining strictly literal dialogue histories while discarding the underlying decision logic, such architectures remain fundamentally incapable of sustaining coherent extended support. Here we introduce EmoTrace, a recursive method utilizing trace factorization to preserve explicit decision continuity throughout interactions spanning multiple turns. Departing from others, our approach formulates each conversational turn as a structured interaction increment encapsulating the evolving state of the seeker, the selected strategy, the affect of the supporter, and the ultimate textual realization. Accumulated sequentially, this trajectory of increments functions as an explicit structural trace informing subsequent interventions. Optimization of this factorized generation is achieved through two complementary mechanisms. Specifically, a value guidance mechanism aligns discrete factor selection with interaction values over an extended horizon, whereas a trace conditioning mechanism refines textual realization contingent upon the fixed strategic trace. Empirical evaluations across standard benchmarks demonstrate that EmoTrace yields substantial improvements in both strategic planning and response generation. Crucially, rollouts spanning multiple turns reveal that these retained structural traces confer compounding benefits over extended dialogues, establishing a robust mechanism for sustained affective alignment in human-machine interaction.",
+  "abstract_zh": "有效情感支持的基础在于迭代的人际动态，其中支持者的干预持续塑造寻求者的心理轨迹。尽管当代模型在回合层面捕捉了包括瞬时情感和离散策略在内的变量，但它们本质上将这些因素视为孤立事件。通过严格保留字面对话历史而丢弃潜在的决策逻辑，这些架构在根本上无法维持连贯的延续支持。在此，我们介绍了EmoTrace，一种利用追踪因子分解的递归方法，以在跨多个回合的互动中保持明确的决策连续性。与其他方法不同，我们的方法将每个对话回合构建为一个结构化的互动增量，封装寻求者的演变状态、所选策略、支持者的情感及最终的文本实现。累积的增量轨迹作为一个明确的结构追踪，指导后续的干预。通过两种互补机制实现这种因子化生成的优化。具体而言，价值引导机制将离散因子选择与扩展视野内的互动价值对齐，而追踪条件机制则根据固定的战略追踪精炼文本实现。对标准基准的实证评估表明，EmoTrace在战略规划和响应生成方面均显著提升。关键是，跨多个回合的展开显示，这些保留的结构追踪在延续对话中带来了复合效益，为人机互动中的持续情感对齐建立了强有力的机制。",
+  "arxiv_id": "2611.18628",
+  "arxiv_url": "https://arxiv.org/abs/2611.18628v1",
+  "authors": [
+    "Mingwen Zhang",
+    "Minqiang Yang",
+    "Yang Yu",
+    "Haobo Liang",
+    "Yongfeng Tao",
+    "Changsheng Ma",
+    "Bin Hu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.990344+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.18628v1",
+  "published_at": "2026-09-20T06:39:25Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotions",
+      "emotional",
+      "affective",
+      "generation",
+      "dialogue",
+      "conversation",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 89.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.18628v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "共情交互",
+      "情感生成"
+    ]
+  },
+  "title": "EmoTrace: Recursive Trace-Factorized Generation for Emotional Support Conversation",
+  "title_zh": "EmoTrace：用于情感支持对话的递归追踪因子生成",
+  "translation_url": "https://hjfy.top/arxiv/2611.18628"
+}

@@ -1,0 +1,50 @@
+{
+  "abstract": "Facial expression recognition (FER) degrades sharply when illumination, exposure or resolution departs from the training distribution. Two remedies dominate practice: enriching the input signal, or conditioning intermediate features on an estimated image quality. The two are rarely compared under matched backbones, training budgets and condition annotations, and their cost is seldom reported. We present a controlled comparison on RAF-DB. Input-space conditioning uses four deterministic, label-free views (logarithmic stretching, inverse-logarithmic stretching, down-up resampling and identity), each processed by a shared backbone with a branch-specific BatchNorm and linear head, with the branch logits averaged. Feature-space conditioning is implemented as FiLM and Conditional BatchNorm under an identical protocol. Across six backbone architectures the input-space variant improves top-1 accuracy on every one (mean +0.94 percentage points; bootstrap interval [0.51, 1.63]; sign test p = 0.016), with a seed-controlled estimate of +0.42 percentage points on ResNet-18, whereas feature-level conditioning yields +0.10 and +0.03 percentage points. We attribute the gap to the information content of the heuristic condition label rather than to the conditioning mechanism. The gain costs 4.00x FLOPs, 4.18x latency and 3.79x training time, i.e. 0.26 percentage points per additional GFLOP, and we state an explicit rule for when the trade is worth making.",
+  "abstract_zh": "人脸表情识别（FER）在光照、曝光或分辨率偏离训练分布时会急剧下降。实践中主要有两种解决方案：丰富输入信号或基于估计的图像质量对中间特征进行条件化。在匹配的骨干网络、训练预算和条件注释下，这两者很少进行比较，其成本也鲜有报告。我们在RAF-DB上进行了受控比较。输入空间条件化使用四种确定性、无标签的视图（对数拉伸、逆对数拉伸、上下重采样和恒等），每种视图通过共享骨干网络处理，并配有特定分支的BatchNorm和线性头，最后对分支的logits进行平均。特征空间条件化则在相同协议下实现为FiLM和条件BatchNorm。在六种骨干架构中，输入空间变体在每一种架构上均提高了top-1准确率（平均+0.94个百分点；自助法区间[0.51, 1.63]；符号检验p = 0.016），在ResNet-18上的种子控制估计为+0.42个百分点，而特征层条件化的增益仅为+0.10和+0.03个百分点。我们将这一差距归因于启发式条件标签的信息内容，而非条件化机制。该增益的代价为4.00倍的FLOPs、4.18倍的延迟和3.79倍的训练时间，即每增加一个GFLOP增加0.26个百分点，并且我们提出了一个明确的规则来判断这种权衡是否值得进行。",
+  "arxiv_id": "2611.19754",
+  "arxiv_url": "https://arxiv.org/abs/2611.19754v1",
+  "authors": [
+    "Weihang Yuan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.970361+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.19754v1",
+  "published_at": "2026-11-15T03:35:42Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "RAF DB",
+      "recognition",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 82.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.19754v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "面部表情",
+    "secondary": [
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Input-Space versus Feature-Level Conditioning for Robust Facial Expression Recognition",
+  "title_zh": "输入空间与特征层条件化在鲁棒人脸表情识别中的比较",
+  "translation_url": "https://hjfy.top/arxiv/2611.19754"
+}

@@ -1,0 +1,50 @@
+{
+  "abstract": "Large-scale discourse analysis often requires stance labels, yet for many high-salience political events such labels are unavailable at the comment level. We introduce and validate a comment-level stance measurement instrument that assigns Pro-Israel, Pro-Palestinian, or Undefined stance using Reddit comment text. The instrument is calibrated from a small, manually annotated gold-standard dataset and scaled through large language model-assisted labeling, achieving weighted-$F_{1}=0.88$ against held-out human annotations. To enable corpus-scale measurement, we operationalize the instrument as a lightweight classifier based on DistilBERT embeddings and an RBF SVM, which achieves weighted-$F_{1}=0.7935$ on the original gold-standard set. Applying this instrument, we measure the stance of approximately 2.7 million Reddit comments posted between 2023 and 2025 during the Israel-Gaza war. We demonstrate what this measurement enables by analyzing stance-conditioned asymmetries in sentiment, toxicity, and emotional framing across political affiliations. This work shows how validated, low-cost stance measurement can support large-scale descriptive analysis of polarized discourse, without relying on network structure or prior labeled corpora.",
+  "abstract_zh": "大规模话语分析通常需要立场标签，但对于许多高关注度的政治事件，这些标签在评论层面上往往不可用。我们引入并验证了一种评论级别的立场测量工具，该工具通过分析Reddit评论文本来分配亲以色列、亲巴勒斯坦或未定义的立场。该工具是基于一个小型手动标注的金标准数据集进行校准，并通过大型语言模型辅助标注进行扩展，在与保留的人类注释对比中，达到了加权-$F_{1}=0.88$。为了实现语料库级别的测量，我们将该工具操作化为基于DistilBERT嵌入和RBF SVM的轻量级分类器，在原始金标准集上达到了加权-$F_{1}=0.7935$。应用该工具，我们测量了在2023年至2025年以色列-加沙战争期间发布的约270万条Reddit评论的立场。我们通过分析不同政治派别之间的情感、毒性和情感框架的立场条件不对称性，展示了这一测量所能实现的效果。这项工作表明，经过验证的低成本立场测量如何支持对极化话语的大规模描述性分析，而无需依赖网络结构或先前标注的语料库。",
+  "arxiv_id": "2611.18594",
+  "arxiv_url": "https://arxiv.org/abs/2611.18594v1",
+  "authors": [
+    "Shahar Oded"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "cs.SI"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.988887+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.18594v1",
+  "published_at": "2026-08-24T15:31:35Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "large language model",
+      "dataset",
+      "分类"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.18594v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War",
+  "title_zh": "你站在哪一边？在以色列-加沙战争期间对Reddit话语分析进行大规模立场测量",
+  "translation_url": "https://hjfy.top/arxiv/2611.18594"
+}

@@ -1,0 +1,49 @@
+{
+  "abstract": "Subword tokenizers assume that meaningful linguistic units can be recovered by splitting text at learned boundaries, an assumption better suited to concatenative morphology than to Semitic root-and-pattern systems. The challenge is acute for the Ethiopic languages, whose abugida script encodes consonant-vowel units as single characters and hides consonantal structure. We introduce FIDEL (FIdäl DEcomposition and Linearization), a family of reversible abugida-aware pre-tokenization schemes that expose consonant and vowel-order structure, extend SPLINTER reductions from abjad scripts to the Ethiopic abugida, and evaluate them on three Ethiopic languages under controlled conditions, holding corpus, architecture, budget and protocol fixed so that tokenization is the only variable. We report intrinsic tokenizer statistics for BPE and UnigramLM across vocabulary sizes alongside downstream NLP tasks, including transfer scenarios. We find that FIDEL reduction improves news classification consistently and named-entity recognition at larger capacity, while sentiment analysis performance declines under the more aggressive schemes, and extractive question answering performance is preserved.",
+  "abstract_zh": "子词标记化器假设通过在学习到的边界处拆分文本可以恢复有意义的语言单位，这一假设更适合于连接性形态学，而不适用于闪米特语的根-模式系统。对于埃塞俄比亚语言而言，这一挑战尤为突出，因为其音节文字将辅音-元音单位编码为单个字符，并隐藏了辅音结构。我们提出了FIDEL（FIdäl DEcomposition and Linearization），这是一系列可逆的面向音节的前标记化方案，旨在揭示辅音和元音的顺序结构，将从辅音字母（abjad）脚本的SPLINTER简化扩展到埃塞俄比亚音节，并在控制条件下对三种埃塞俄比亚语言进行评估，保持语料库、架构、预算和协议不变，以确保标记化是唯一的变量。我们报告了在不同词汇大小下BPE和UnigramLM的内部标记器统计数据，以及包括迁移场景在内的下游自然语言处理任务。我们发现，FIDEL简化在新闻分类中始终表现出改善，并在更大容量下提高了命名实体识别的效果，而在更激进的方案下情感分析的表现有所下降，提取式问答的表现则得以保持。",
+  "arxiv_id": "2611.20216",
+  "arxiv_url": "https://arxiv.org/abs/2611.20216v1",
+  "authors": [
+    "Gebreslassie Teklu Reda",
+    "Yuval Pinter"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.994216+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.20216v1",
+  "published_at": "2026-11-15T19:26:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "recognition",
+      "classification",
+      "识别",
+      "分类"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 68.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.20216v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": []
+  },
+  "title": "FIDEL: Abugida-Aware Pre-tokenization for Ethiopic Languages",
+  "title_zh": "FIDEL：面向埃塞俄比亚语言的音节前标记化方法",
+  "translation_url": "https://hjfy.top/arxiv/2611.20216"
+}

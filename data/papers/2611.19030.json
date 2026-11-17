@@ -1,0 +1,57 @@
+{
+  "abstract": "Instruction-guided text-to-speech (ITTS) lets users specify voice properties in natural language. Applications from conversational AI character voices to synthetic training data for downstream speech models depend on the system producing many distinct voices when the same broad category is requested repeatedly. No prior work audits whether ITTS outputs are in fact diverse, either compared to real speech or across attribute values. We evaluate seven open-source ITTS systems using speaker embeddings whose representational capacity we independently validate. Every system produces speaker distributions markedly narrower than real speech. Furthermore, female prompts produce less diverse voice pools than male prompts across most systems. In contrast, accent and emotion prompts barely alter speaker diversity in most systems, but reveal a strong controllability bias toward North American English and neutral speech. These results show that diversity and controllability capture complementary weaknesses, neither of which alone is sufficient to evaluate ITTS. Our code and data are available at https://github.com/dlion168/ITTS-Speaker-Diversity.",
+  "abstract_zh": "指导性文本到语音（ITTS）允许用户以自然语言指定声音属性。从对话式人工智能角色声音到下游语音模型的合成训练数据，应用程序依赖于系统在重复请求相同广泛类别时能够生成许多不同的声音。之前的研究未对ITTS输出的多样性进行审查，无论是与真实语音相比，还是在属性值之间。我们评估了七个开源ITTS系统，使用说话者嵌入，并独立验证其表征能力。每个系统生成的说话者分布明显比真实语音更窄。此外，在大多数系统中，女性提示产生的声音池多样性低于男性提示。相比之下，口音和情感提示在大多数系统中几乎不改变说话者多样性，但显示出对北美英语和中性语音的强可控性偏向。这些结果表明，多样性和可控性捕捉了互补的弱点，单独的任何一个都不足以评估ITTS。我们的代码和数据可在 https://github.com/dlion168/ITTS-Speaker-Diversity 获取。",
+  "arxiv_id": "2611.19030",
+  "arxiv_url": "https://arxiv.org/abs/2611.19030v1",
+  "authors": [
+    "Yi-Cheng Lin",
+    "Jia-Kai Dong",
+    "Kuan-Yu Chen",
+    "Szu-Chi Chen",
+    "Jian-Jiun Ding",
+    "Sung-Feng Huang",
+    "Yusuke Hirota",
+    "Hung-yi Lee"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.991073+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.19030v1",
+  "published_at": "2026-11-14T00:09:46Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "speech",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.19030v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "Beyond Controllability: Speaker Diversity in Instruction-Guided Text-to-Speech",
+  "title_zh": "超越可控性：指导性文本到语音中的说话者多样性",
+  "translation_url": "https://hjfy.top/arxiv/2611.19030"
+}

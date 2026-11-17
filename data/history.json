@@ -2832,8 +2832,156 @@
         "心理状态/福祉"
       ],
       "title": "InertiaMPDD: Multimodal Personalized Depression Detection via Emotional Inertia-Inspired Dynamics Modeling"
+    },
+    "2611.18589": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "语音情感",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "OmniTag-LLM: Multilingual Multitask Speech Tagging"
+    },
+    "2611.18594": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War"
+    },
+    "2611.18604": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "One Question, Four Voices: How Advice for Alzheimer's Caregiving Differs Between Caregivers, Clinicians, and Large Language Models"
+    },
+    "2611.18607": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "Justification of Emotional Appeal in Computational Argumentation"
+    },
+    "2611.18628": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "文本情感",
+        "共情交互",
+        "情感生成"
+      ],
+      "title": "EmoTrace: Recursive Trace-Factorized Generation for Emotional Support Conversation"
+    },
+    "2611.19030": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Beyond Controllability: Speaker Diversity in Instruction-Guided Text-to-Speech"
+    },
+    "2611.19145": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech"
+    },
+    "2611.19754": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "面部表情",
+        "鲁棒性/偏差"
+      ],
+      "title": "Input-Space versus Feature-Level Conditioning for Robust Facial Expression Recognition"
+    },
+    "2611.20216": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "FIDEL: Abugida-Aware Pre-tokenization for Ethiopic Languages"
+    },
+    "2611.20381": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Trait Collapse in Text-to-Image Generation: Evaluating and Mitigating Personality Inconsistency in Visual Storytelling"
+    },
+    "2611.20733": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "MemEmo: Evaluating Emotion in Memory Systems"
+    },
+    "2611.21232": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "A Generative AI-Driven Architecture for Whole-Home Intelligent Services: Edge Models, Memory Management, and Household Applications"
+    },
+    "2611.21535": {
+      "dates": [
+        "2026-11-17"
+      ],
+      "first_seen": "2026-11-17",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "文本情感"
+      ],
+      "title": "Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse"
     }
   },
-  "total": 246,
-  "updated_at": "2026-11-16T13:29:03.470421+00:00"
+  "total": 259,
+  "updated_at": "2026-11-17T14:14:43.848814+00:00"
 }

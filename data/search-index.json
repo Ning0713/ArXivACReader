@@ -1,6 +1,274 @@
 {
-  "generated_at": "2026-11-16T13:29:03.470421+00:00",
+  "generated_at": "2026-11-17T14:14:43.848814+00:00",
   "items": [
+    {
+      "abstract": "Large language models (LLMs) are increasingly used to interpret, generate, and mediate public-facing language, which makes their reliability especially consequential in politically sensitive settings. Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone. In this paper, we evaluate the robustness of LLMs for sentiment analysis of Spanish political discourse from social media, with emphasis on culturally situated affective interpretation. We introduce a diagnostic protocol that combines three independent human annotation views into Gold and Ambiguous subsets, and extends the corpus with a Synthetic subset built from sentiment-flipped counterfactuals selected through model-conditioned perplexity and LLM-as-a-judge criteria. Using this framework, we compare proprietary and open-weight models under zero-shot and few-shot prompting, focusing on predictive robustness across human agreement conditions and counterfactual shift. Our results show that annotation ambiguity and counterfactual perturbation reveal failure modes that conventional evaluation on the original corpus tends to obscure. GPT-4.1-mini remains the most stable among the evaluated models, whereas the two smaller open-weight models degrade more markedly under synthetic perturbations, and few-shot prompting provides only limited gains. Overall, the paper contributes a reproducible protocol for robustness-oriented evaluation in political sentiment analysis, an empirical characterization of model behavior under ambiguity and sentiment-flipped counterfactuals, and a publicly available Spanish social media dataset with three-way human sentiment annotations.",
+      "abstract_zh": "大型语言模型（LLMs）越来越多地被用于解释、生成和调解面向公众的语言，这使得它们在政治敏感环境中的可靠性尤为重要。尽管情感分析在这一领域是一项常见任务，但社交媒体话语中的情感意义通常通过文化背景和务实间接的线索传达，这些线索仅通过以标签为中心的评估并不能很好地捕捉。在本文中，我们评估了大型语言模型在西班牙政治话语情感分析中的鲁棒性，重点关注文化背景下的情感解读。我们引入了一种诊断协议，将三种独立的人类注释视角结合成金标准（Gold）和模糊（Ambiguous）子集，并通过基于模型条件困惑度和LLM作为评判者标准选择的情感翻转反事实扩展语料库，构建了一个合成（Synthetic）子集。利用这一框架，我们在零-shot和少量示例（few-shot）提示下比较了专有模型和开放权重模型，重点关注在不同人类一致性条件和反事实转变下的预测鲁棒性。我们的结果表明，注释模糊性和反事实扰动揭示了传统评估在原始语料库中往往掩盖的失败模式。在评估的模型中，GPT-4.1-mini保持了最稳定的表现，而两个较小的开放权重模型在合成扰动下的降级更为明显，且少量示例提示仅提供有限的收益。总体而言，本文贡献了一种可重复的鲁棒性导向评估协议，用于政治情感分析，提供了在模糊性和情感翻转反事实下模型行为的实证特征，以及一个公开可用的西班牙社交媒体数据集，包含三种人类情感注释。",
+      "authors": [
+        "Jorge Valverde-Rebaza",
+        "Nathan Garcia-Larios",
+        "Karime Ruvalcaba-Perez",
+        "Alejandro Rendon",
+        "Santiago Sanchez-Ballesteros",
+        "Alejandro Martin del Campo"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.21535",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "文本情感"
+      ],
+      "title": "Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse",
+      "title_zh": "评估大型语言模型在西班牙政治话语中的文化推理与鲁棒性",
+      "url": "/daily/2026-11-17/#paper-2611-21535"
+    },
+    {
+      "abstract": "Generative artificial intelligence is entering the home. Cloud-based assistants face governance limitations in data transmission, continuous availability, and the reliability of physical actions, which are especially salient in households where devices remain online, data accumulate over time, and commands trigger real-world actions. Using the home local server as a unifying organizing axis, this article develops a design-oriented review framework. Sources from arXiv, CNKI, ACL Anthology, and official documentation were searched through November 2026 and coded into five evidence categories: reviews, system prototypes, benchmarks, HCI and eldercare studies, and official documentation. System designs were mapped onto shared architectural modules, identifying nine recurrent responsibilities of the home local server. Generative models support perceptual interpretation, intent understanding, and candidate planning, while deterministic validation, knowledge-graph constraints, and authorization leases confine candidate actions to an inspectable space. Home control, emotional companionship, and intelligent guarding can be compared within a common framework: they share state and memory but differ in latency, false positive and negative rates, proactivity, and permissions. Existing benchmarks rely on virtual environments and cannot substitute for real-deployment evaluation. Local deployment is not inherently safer, and technical continuity alone does not establish the social or medical effects of companionship and guarding. The article proposes a five-dimensional evaluation framework covering architectural capability, system resources, privacy, safety and reliability, and human experience, together with six design principles and a future research agenda for local-first intelligent home systems.",
+      "abstract_zh": "生成性人工智能正在进入家庭。基于云的助手在数据传输、持续可用性和物理行为的可靠性方面面临治理限制，这在设备始终在线、数据随时间累积以及命令触发现实世界行为的家庭中尤为突出。本文以家庭本地服务器作为统一的组织轴心，开发了一个以设计为导向的评审框架。通过对arXiv、CNKI、ACL Anthology和官方文档的检索，截止到2026年11月，收集了五类证据：评审、系统原型、基准测试、人机交互与老年护理研究以及官方文档。系统设计被映射到共享的架构模块上，识别出家庭本地服务器的九个重复职责。生成模型支持感知解释、意图理解和候选规划，而确定性验证、知识图谱约束和授权租约将候选行为限制在可检查的空间内。家庭控制、情感陪伴和智能守护可以在一个共同框架内进行比较：它们共享状态和内存，但在延迟、误报和漏报率、主动性和权限方面存在差异。现有基准依赖于虚拟环境，无法替代实际部署评估。地方部署并不天然更安全，技术连续性本身也无法确立陪伴和守护的社会或医疗效果。本文提出了一个涵盖架构能力、系统资源、隐私、安全性与可靠性以及人类体验的五维评估框架，以及六项设计原则和未来的本地优先智能家居系统研究议程。",
+      "authors": [
+        "Mo Zhou"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.21232",
+      "tags": [
+        "数据集/评测"
+      ],
+      "title": "A Generative AI-Driven Architecture for Whole-Home Intelligent Services: Edge Models, Memory Management, and Household Applications",
+      "title_zh": "基于生成性人工智能的全屋智能服务架构：边缘模型、内存管理与家庭应用",
+      "url": "/daily/2026-11-17/#paper-2611-21232"
+    },
+    {
+      "abstract": "Memory systems address the challenge of context loss in Large Language Models during prolonged interactions. However, as an essential tool for warm companionship and personalized services, the effectiveness of memory systems in processing affective information remains underexamined. To bridge this gap, we propose an emotion-enhanced memory evaluation benchmark to assess the performance of mainstream and state-of-the-art memory systems in integrating and harnessing emotional information. First, we design a benchmark called \\textbf{MemEmo} to assess the affective reasoning and tracking capabilities of memory systems across four dimensions: emotional information extraction, emotional memory updating, emotional memory question-answering, and emotional conflict detection. Second, we construct the \\textbf{H}uman-\\textbf{L}ike \\textbf{M}emory \\textbf{E}motion (\\textbf{HLME}) dataset to provide an empirical foundation for scrutinizing memory systems. Finally, We evaluate five representative memory systems on the HLME dataset, reporting 11 performance metrics across four dimensions. Experimental results reveal that aggregating scores for all tested memory systems is up to 45\\%, far below 100\\% scale, exposing a profound disparity between memory system and affective intelligence.",
+      "abstract_zh": "记忆系统解决了大型语言模型在长期交互中面临的上下文丧失挑战。然而，作为温暖陪伴和个性化服务的重要工具，记忆系统在处理情感信息方面的有效性仍然未得到充分研究。为填补这一空白，我们提出了一种情感增强的记忆评估基准，以评估主流和最先进的记忆系统在整合和利用情感信息方面的表现。首先，我们设计了一个名为 extbf{MemEmo} 的基准，以评估记忆系统在情感信息提取、情感记忆更新、情感记忆问答和情感冲突检测四个维度上的情感推理和追踪能力。其次，我们构建了 extbf{H}uman- extbf{L}ike extbf{M}emory extbf{E}motion ( extbf{HLME}) 数据集，为深入审视记忆系统提供了实证基础。最后，我们在 HLME 数据集上评估了五个具有代表性的记忆系统，报告了四个维度上的 11 项性能指标。实验结果表明，所有测试的记忆系统的综合得分最高可达 45\\%，远低于 100\\\\% 的标准，揭示了记忆系统与情感智能之间的深刻差距。",
+      "authors": [
+        "Peng Liu",
+        "Zhen Tao",
+        "Jihao Zhao",
+        "Ding Chen",
+        "Yansong Zhang",
+        "Cuiping Li",
+        "Zhiyu Li",
+        "Hong Chen"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.20733",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "MemEmo: Evaluating Emotion in Memory Systems",
+      "title_zh": "MemEmo：评估记忆系统中的情感",
+      "url": "/daily/2026-11-17/#paper-2611-20733"
+    },
+    {
+      "abstract": "In visual storytelling, a believable character must not only look consistent across scenes but also \\textit{behave} in ways that reflect their personality. Current text-to-image (T2I) models preserve visual appearance effectively, yet consistently fail to maintain personality-relevant behavior---a failure we term \\textit{trait collapse}. We show that conventional metrics (CLIP Score, DINO similarity) are blind to this failure, and that abstract personality descriptors and scene-level emotion labels do not produce consistent improvements over neutral prompts across models. To systematically diagnose trait collapse, we introduce \\textbf{ViStoryBench-Personality}, a story-level benchmark combining an expert-validated Visual Cues Lexicon (Fleiss' $\\kappa = 0.757$) with a six-dimensional metric suite covering personality alignment, cross-scene stability, and behavioral coherence. Evaluating seven T2I systems, we confirm a persistent semantic gap between abstract trait labels and visual evidence, and find that visual identity consistency does not imply personality consistency. To bridge this gap, we propose \\textbf{Trait-Behavior-Visual (TBV)}, a training-free prompting framework that decomposes personality traits into renderable visual constraints. TBV improves Personality Alignment Score by up to $+22.1\\%$, with larger gains in models with stronger language-conditioning capacity.",
+      "abstract_zh": "在视觉叙事中，一个可信的角色不仅在场景之间的外观上必须保持一致，而且还必须以反映其个性的方式进行 extit{行为}。当前的文本到图像（T2I）模型在有效保持视觉外观方面表现良好，但在维持与个性相关的行为方面却始终失败——我们将这种失败称为 extit{特征崩溃}。我们展示了传统指标（CLIP Score，DINO 相似度）对这种失败的盲目性，以及抽象个性描述符和场景级情感标签在不同模型中对中性提示未能产生一致的改善。为了系统性地诊断特征崩溃，我们引入了 extbf{ViStoryBench-Personality}，这是一个故事级基准，结合了经过专家验证的视觉线索词汇（Fleiss' $ ext{kappa} = 0.757$）和涵盖个性对齐、跨场景稳定性和行为一致性的六维指标套件。通过评估七个 T2I 系统，我们确认了抽象特征标签与视觉证据之间的持久语义差距，并发现视觉身份一致性并不意味着个性一致性。为了弥合这一差距，我们提出了 extbf{特征-行为-视觉（TBV）}，这是一种无训练的提示框架，将个性特征分解为可渲染的视觉约束。TBV 将个性对齐分数提高了高达 $+22.1 m{ ext{ extperthousand}}$，在具有更强语言条件能力的模型中获得了更大的提升。",
+      "authors": [
+        "Yuanbo Tong",
+        "Haoyuan Li",
+        "Jibiao Jiang",
+        "Zirui Wang",
+        "Yuchen Li",
+        "Jiamou Liu"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.20381",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Trait Collapse in Text-to-Image Generation: Evaluating and Mitigating Personality Inconsistency in Visual Storytelling",
+      "title_zh": "文本到图像生成中的特征崩溃：评估和缓解视觉叙事中的个性不一致性",
+      "url": "/daily/2026-11-17/#paper-2611-20381"
+    },
+    {
+      "abstract": "Subword tokenizers assume that meaningful linguistic units can be recovered by splitting text at learned boundaries, an assumption better suited to concatenative morphology than to Semitic root-and-pattern systems. The challenge is acute for the Ethiopic languages, whose abugida script encodes consonant-vowel units as single characters and hides consonantal structure. We introduce FIDEL (FIdäl DEcomposition and Linearization), a family of reversible abugida-aware pre-tokenization schemes that expose consonant and vowel-order structure, extend SPLINTER reductions from abjad scripts to the Ethiopic abugida, and evaluate them on three Ethiopic languages under controlled conditions, holding corpus, architecture, budget and protocol fixed so that tokenization is the only variable. We report intrinsic tokenizer statistics for BPE and UnigramLM across vocabulary sizes alongside downstream NLP tasks, including transfer scenarios. We find that FIDEL reduction improves news classification consistently and named-entity recognition at larger capacity, while sentiment analysis performance declines under the more aggressive schemes, and extractive question answering performance is preserved.",
+      "abstract_zh": "子词标记化器假设通过在学习到的边界处拆分文本可以恢复有意义的语言单位，这一假设更适合于连接性形态学，而不适用于闪米特语的根-模式系统。对于埃塞俄比亚语言而言，这一挑战尤为突出，因为其音节文字将辅音-元音单位编码为单个字符，并隐藏了辅音结构。我们提出了FIDEL（FIdäl DEcomposition and Linearization），这是一系列可逆的面向音节的前标记化方案，旨在揭示辅音和元音的顺序结构，将从辅音字母（abjad）脚本的SPLINTER简化扩展到埃塞俄比亚音节，并在控制条件下对三种埃塞俄比亚语言进行评估，保持语料库、架构、预算和协议不变，以确保标记化是唯一的变量。我们报告了在不同词汇大小下BPE和UnigramLM的内部标记器统计数据，以及包括迁移场景在内的下游自然语言处理任务。我们发现，FIDEL简化在新闻分类中始终表现出改善，并在更大容量下提高了命名实体识别的效果，而在更激进的方案下情感分析的表现有所下降，提取式问答的表现则得以保持。",
+      "authors": [
+        "Gebreslassie Teklu Reda",
+        "Yuval Pinter"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.20216",
+      "tags": [
+        "文本情感"
+      ],
+      "title": "FIDEL: Abugida-Aware Pre-tokenization for Ethiopic Languages",
+      "title_zh": "FIDEL：面向埃塞俄比亚语言的音节前标记化方法",
+      "url": "/daily/2026-11-17/#paper-2611-20216"
+    },
+    {
+      "abstract": "Facial expression recognition (FER) degrades sharply when illumination, exposure or resolution departs from the training distribution. Two remedies dominate practice: enriching the input signal, or conditioning intermediate features on an estimated image quality. The two are rarely compared under matched backbones, training budgets and condition annotations, and their cost is seldom reported. We present a controlled comparison on RAF-DB. Input-space conditioning uses four deterministic, label-free views (logarithmic stretching, inverse-logarithmic stretching, down-up resampling and identity), each processed by a shared backbone with a branch-specific BatchNorm and linear head, with the branch logits averaged. Feature-space conditioning is implemented as FiLM and Conditional BatchNorm under an identical protocol. Across six backbone architectures the input-space variant improves top-1 accuracy on every one (mean +0.94 percentage points; bootstrap interval [0.51, 1.63]; sign test p = 0.016), with a seed-controlled estimate of +0.42 percentage points on ResNet-18, whereas feature-level conditioning yields +0.10 and +0.03 percentage points. We attribute the gap to the information content of the heuristic condition label rather than to the conditioning mechanism. The gain costs 4.00x FLOPs, 4.18x latency and 3.79x training time, i.e. 0.26 percentage points per additional GFLOP, and we state an explicit rule for when the trade is worth making.",
+      "abstract_zh": "人脸表情识别（FER）在光照、曝光或分辨率偏离训练分布时会急剧下降。实践中主要有两种解决方案：丰富输入信号或基于估计的图像质量对中间特征进行条件化。在匹配的骨干网络、训练预算和条件注释下，这两者很少进行比较，其成本也鲜有报告。我们在RAF-DB上进行了受控比较。输入空间条件化使用四种确定性、无标签的视图（对数拉伸、逆对数拉伸、上下重采样和恒等），每种视图通过共享骨干网络处理，并配有特定分支的BatchNorm和线性头，最后对分支的logits进行平均。特征空间条件化则在相同协议下实现为FiLM和条件BatchNorm。在六种骨干架构中，输入空间变体在每一种架构上均提高了top-1准确率（平均+0.94个百分点；自助法区间[0.51, 1.63]；符号检验p = 0.016），在ResNet-18上的种子控制估计为+0.42个百分点，而特征层条件化的增益仅为+0.10和+0.03个百分点。我们将这一差距归因于启发式条件标签的信息内容，而非条件化机制。该增益的代价为4.00倍的FLOPs、4.18倍的延迟和3.79倍的训练时间，即每增加一个GFLOP增加0.26个百分点，并且我们提出了一个明确的规则来判断这种权衡是否值得进行。",
+      "authors": [
+        "Weihang Yuan"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.19754",
+      "tags": [
+        "面部表情",
+        "鲁棒性/偏差"
+      ],
+      "title": "Input-Space versus Feature-Level Conditioning for Robust Facial Expression Recognition",
+      "title_zh": "输入空间与特征层条件化在鲁棒人脸表情识别中的比较",
+      "url": "/daily/2026-11-17/#paper-2611-19754"
+    },
+    {
+      "abstract": "Non-verbal vocalizations (NVs), such as laughter and breath, carry affective cues that words alone do not convey. Yet NV data remains scarce because speech annotation pipelines often omit or normalize these events. Existing work has improved NV text-to-speech through model design and data curation, but whether one NV token can help a model learn another has received little systematic study. We investigate this cross-token transferability in a controlled CosyVoice 2 setup. We first trace a laughter-only scaling curve, then hold laughter at 200 or 1,600 examples while adding breath, sigh, cough, lip-smack, or neutral speech. With only 200 laughter examples, adding 3,200 cough examples raises end-to-end laughter F1 from 0.170 to 0.529, surpassing the 0.495 obtained from 1,600 laughter examples alone. At the 1,600-example anchor, cough reaches 0.695, nearly matching 6,400 laughter examples (0.697). Waveform-level Whisper-D scoring and a semantic-token transcriber show consistent trends. Cross-token transfer therefore offers a complementary route to low-resource NV generation.",
+      "abstract_zh": "非语言发声（NV），如笑声和呼吸，传递了单靠文字无法表达的情感线索。然而，由于语音标注流程通常省略或规范化这些事件，NV数据仍然稀缺。现有研究通过模型设计和数据策划改善了NV文本到语音的效果，但关于一个NV标记是否能够帮助模型学习另一个标记的系统研究仍然较少。我们在一个受控的CosyVoice 2设置中探讨了这种跨标记可转移性。我们首先追踪了仅包含笑声的缩放曲线，然后在保持200或1,600个笑声示例的同时，添加呼吸、叹息、咳嗽、嘴唇声或中性语音。在仅有200个笑声示例的情况下，添加3,200个咳嗽示例使得端到端的笑声F1从0.170提升至0.529，超过了仅使用1,600个笑声示例所获得的0.495。在1,600个示例的基准下，咳嗽达到了0.695，几乎与6,400个笑声示例（0.697）相匹配。波形级别的Whisper-D评分和语义标记转录器显示出一致的趋势。因此，跨标记转移为低资源NV生成提供了一条互补的途径。",
+      "authors": [
+        "Jing Pan",
+        "Haibin Wu",
+        "Minxue Niu",
+        "Florian Metze",
+        "Yuzong Liu"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.19145",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech",
+      "title_zh": "数据高效非语言文本到语音的跨标记转移系统研究",
+      "url": "/daily/2026-11-17/#paper-2611-19145"
+    },
+    {
+      "abstract": "Instruction-guided text-to-speech (ITTS) lets users specify voice properties in natural language. Applications from conversational AI character voices to synthetic training data for downstream speech models depend on the system producing many distinct voices when the same broad category is requested repeatedly. No prior work audits whether ITTS outputs are in fact diverse, either compared to real speech or across attribute values. We evaluate seven open-source ITTS systems using speaker embeddings whose representational capacity we independently validate. Every system produces speaker distributions markedly narrower than real speech. Furthermore, female prompts produce less diverse voice pools than male prompts across most systems. In contrast, accent and emotion prompts barely alter speaker diversity in most systems, but reveal a strong controllability bias toward North American English and neutral speech. These results show that diversity and controllability capture complementary weaknesses, neither of which alone is sufficient to evaluate ITTS. Our code and data are available at https://github.com/dlion168/ITTS-Speaker-Diversity.",
+      "abstract_zh": "指导性文本到语音（ITTS）允许用户以自然语言指定声音属性。从对话式人工智能角色声音到下游语音模型的合成训练数据，应用程序依赖于系统在重复请求相同广泛类别时能够生成许多不同的声音。之前的研究未对ITTS输出的多样性进行审查，无论是与真实语音相比，还是在属性值之间。我们评估了七个开源ITTS系统，使用说话者嵌入，并独立验证其表征能力。每个系统生成的说话者分布明显比真实语音更窄。此外，在大多数系统中，女性提示产生的声音池多样性低于男性提示。相比之下，口音和情感提示在大多数系统中几乎不改变说话者多样性，但显示出对北美英语和中性语音的强可控性偏向。这些结果表明，多样性和可控性捕捉了互补的弱点，单独的任何一个都不足以评估ITTS。我们的代码和数据可在 https://github.com/dlion168/ITTS-Speaker-Diversity 获取。",
+      "authors": [
+        "Yi-Cheng Lin",
+        "Jia-Kai Dong",
+        "Kuan-Yu Chen",
+        "Szu-Chi Chen",
+        "Jian-Jiun Ding",
+        "Sung-Feng Huang",
+        "Yusuke Hirota",
+        "Hung-yi Lee"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.19030",
+      "tags": [
+        "语音情感",
+        "文本情感",
+        "情感生成"
+      ],
+      "title": "Beyond Controllability: Speaker Diversity in Instruction-Guided Text-to-Speech",
+      "title_zh": "超越可控性：指导性文本到语音中的说话者多样性",
+      "url": "/daily/2026-11-17/#paper-2611-19030"
+    },
+    {
+      "abstract": "Fundamental to effective emotional support is the iterative interpersonal dynamic wherein a supporter intervention continuously shapes the psychological trajectory of the seeker. While contemporary models capture variables at the turn level, including transient emotions and discrete strategies, they inherently treat these factors as isolated events. By retaining strictly literal dialogue histories while discarding the underlying decision logic, such architectures remain fundamentally incapable of sustaining coherent extended support. Here we introduce EmoTrace, a recursive method utilizing trace factorization to preserve explicit decision continuity throughout interactions spanning multiple turns. Departing from others, our approach formulates each conversational turn as a structured interaction increment encapsulating the evolving state of the seeker, the selected strategy, the affect of the supporter, and the ultimate textual realization. Accumulated sequentially, this trajectory of increments functions as an explicit structural trace informing subsequent interventions. Optimization of this factorized generation is achieved through two complementary mechanisms. Specifically, a value guidance mechanism aligns discrete factor selection with interaction values over an extended horizon, whereas a trace conditioning mechanism refines textual realization contingent upon the fixed strategic trace. Empirical evaluations across standard benchmarks demonstrate that EmoTrace yields substantial improvements in both strategic planning and response generation. Crucially, rollouts spanning multiple turns reveal that these retained structural traces confer compounding benefits over extended dialogues, establishing a robust mechanism for sustained affective alignment in human-machine interaction.",
+      "abstract_zh": "有效情感支持的基础在于迭代的人际动态，其中支持者的干预持续塑造寻求者的心理轨迹。尽管当代模型在回合层面捕捉了包括瞬时情感和离散策略在内的变量，但它们本质上将这些因素视为孤立事件。通过严格保留字面对话历史而丢弃潜在的决策逻辑，这些架构在根本上无法维持连贯的延续支持。在此，我们介绍了EmoTrace，一种利用追踪因子分解的递归方法，以在跨多个回合的互动中保持明确的决策连续性。与其他方法不同，我们的方法将每个对话回合构建为一个结构化的互动增量，封装寻求者的演变状态、所选策略、支持者的情感及最终的文本实现。累积的增量轨迹作为一个明确的结构追踪，指导后续的干预。通过两种互补机制实现这种因子化生成的优化。具体而言，价值引导机制将离散因子选择与扩展视野内的互动价值对齐，而追踪条件机制则根据固定的战略追踪精炼文本实现。对标准基准的实证评估表明，EmoTrace在战略规划和响应生成方面均显著提升。关键是，跨多个回合的展开显示，这些保留的结构追踪在延续对话中带来了复合效益，为人机互动中的持续情感对齐建立了强有力的机制。",
+      "authors": [
+        "Mingwen Zhang",
+        "Minqiang Yang",
+        "Yang Yu",
+        "Haobo Liang",
+        "Yongfeng Tao",
+        "Changsheng Ma",
+        "Bin Hu"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.18628",
+      "tags": [
+        "文本情感",
+        "共情交互",
+        "情感生成"
+      ],
+      "title": "EmoTrace: Recursive Trace-Factorized Generation for Emotional Support Conversation",
+      "title_zh": "EmoTrace：用于情感支持对话的递归追踪因子生成",
+      "url": "/daily/2026-11-17/#paper-2611-18628"
+    },
+    {
+      "abstract": "Emotional appeals (EAs) are often treated as fallacious in computational argumentation, yet they may be justified when warranted by the context. We introduce the task of predicting EA justification and present the first human-annotated dataset for this task, covering 1,176 argument--context pairs. Grounded in philosophical literature, our framework evaluates EA justification along logical and emotional dimensions. Human annotations show that justification criteria form a shared latent judgment space, with evidential proportionality and normative acceptability most strongly associated with overall justification. We further find that EAs without logical support are not always judged fully unjustified, and stronger EAs are not necessarily judged less justified. Finally, LLM experiments show that EA justification prediction remains challenging.",
+      "abstract_zh": "情感诉求（EAs）在计算论证中常被视为谬误，然而在特定情境下它们可能是合理的。我们引入了预测情感诉求合理性的任务，并呈现了首个针对该任务的人类标注数据集，涵盖了1,176个论证-情境对。基于哲学文献，我们的框架从逻辑和情感两个维度评估情感诉求的合理性。人类标注显示，合理性标准形成了一个共享的潜在判断空间，其中证据的比例性和规范的可接受性与整体合理性最为密切相关。我们进一步发现，没有逻辑支持的情感诉求并不总是被完全判断为不合理，而更强的情感诉求也不一定被判断为不那么合理。最后，大型语言模型（LLM）实验表明，情感诉求合理性预测仍然具有挑战性。",
+      "authors": [
+        "Yanran Chen",
+        "Steffen Eger"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.18607",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "Justification of Emotional Appeal in Computational Argumentation",
+      "title_zh": "计算论证中情感诉求的合理性",
+      "url": "/daily/2026-11-17/#paper-2611-18607"
+    },
+    {
+      "abstract": "Online caregiver forums are an important source of emotional and informational support for Alzheimer's disease and related dementias (ADRD). We compare responses to 85 real caregiver questions from ALZConnected across four responder groups: peer caregivers, physicians, ChatGPT, and a retrieval-augmented CareGPT grounded in peer discussions. Using 28 measures spanning linguistic form, emotional support, informational support, and topic scope, we examine how these voices differ when answering the same questions. Peers provided time-anchored narratives and community grounding; clinicians offered concise, advice-forward, clinically bounded guidance; and LLMs produced a formal, verbose, highly structured consultation style. CareGPT showed minimal measurable separation from ChatGPT, suggesting that retrieval plus prompt injection alone was insufficient to shift communicative stance. LLM outputs scored higher than peers on politeness and emotion-support markers and were comparable to clinicians on informativeness and physician-alignment measures, but were less narrative and less contextually situated. Topic modeling showed that LLM responses concentrated on advice-oriented themes, whereas peers covered a broader range, including emotional processing, legal and financial concerns, and daily care. These findings suggest that AI can complement, but not replace, human contributions to ADRD caregiver support and motivate hybrid systems that combine structured AI delivery with the distinct strengths of human voices.",
+      "abstract_zh": "在线护理者论坛是阿尔茨海默病及相关痴呆症（ADRD）情感和信息支持的重要来源。我们比较了来自 ALZConnected 的 85 个真实护理者问题的四个回应者群体的回答：同伴护理者、医生、ChatGPT 和基于同伴讨论的检索增强型 CareGPT。通过 28 个涵盖语言形式、情感支持、信息支持和主题范围的指标，我们考察了这些声音在回答相同问题时的差异。同伴提供了时间锚定的叙述和社区基础；临床医生提供了简洁、以建议为导向、临床界限明确的指导；而大型语言模型（LLMs）则产生了正式、冗长、高度结构化的咨询风格。CareGPT 与 ChatGPT 的可测量差异极小，表明仅仅依靠检索和提示注入不足以改变交流立场。LLM 的输出在礼貌性和情感支持指标上得分高于同伴，在信息量和与医生一致性指标上与临床医生相当，但在叙述性和情境适应性上较弱。主题建模显示，LLM 的回应集中于以建议为导向的主题，而同伴则涵盖了更广泛的范围，包括情感处理、法律和财务问题以及日常护理。这些发现表明，人工智能可以补充但不能替代人类对 ADRD 护理者支持的贡献，并激励结合结构化 AI 交付与人类声音独特优势的混合系统。",
+      "authors": [
+        "Congning Ni",
+        "Jinkyung Katie Park",
+        "Yang Li",
+        "Sarvech Qadir",
+        "Sean S. Huang",
+        "James S. Powers",
+        "Julia A. Hiner",
+        "Vania Leung",
+        "Patricia Commiskey",
+        "Lijun Song",
+        "Qingxia Chen",
+        "Pamela J. Wisniewski",
+        "Bradley A. Malin",
+        "Zhijun Yin"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.18604",
+      "tags": [
+        "情感大模型",
+        "共情交互"
+      ],
+      "title": "One Question, Four Voices: How Advice for Alzheimer's Caregiving Differs Between Caregivers, Clinicians, and Large Language Models",
+      "title_zh": "一个问题，四种声音：阿尔茨海默病护理建议在护理者、临床医生和大型语言模型之间的差异",
+      "url": "/daily/2026-11-17/#paper-2611-18604"
+    },
+    {
+      "abstract": "Large-scale discourse analysis often requires stance labels, yet for many high-salience political events such labels are unavailable at the comment level. We introduce and validate a comment-level stance measurement instrument that assigns Pro-Israel, Pro-Palestinian, or Undefined stance using Reddit comment text. The instrument is calibrated from a small, manually annotated gold-standard dataset and scaled through large language model-assisted labeling, achieving weighted-$F_{1}=0.88$ against held-out human annotations. To enable corpus-scale measurement, we operationalize the instrument as a lightweight classifier based on DistilBERT embeddings and an RBF SVM, which achieves weighted-$F_{1}=0.7935$ on the original gold-standard set. Applying this instrument, we measure the stance of approximately 2.7 million Reddit comments posted between 2023 and 2025 during the Israel-Gaza war. We demonstrate what this measurement enables by analyzing stance-conditioned asymmetries in sentiment, toxicity, and emotional framing across political affiliations. This work shows how validated, low-cost stance measurement can support large-scale descriptive analysis of polarized discourse, without relying on network structure or prior labeled corpora.",
+      "abstract_zh": "大规模话语分析通常需要立场标签，但对于许多高关注度的政治事件，这些标签在评论层面上往往不可用。我们引入并验证了一种评论级别的立场测量工具，该工具通过分析Reddit评论文本来分配亲以色列、亲巴勒斯坦或未定义的立场。该工具是基于一个小型手动标注的金标准数据集进行校准，并通过大型语言模型辅助标注进行扩展，在与保留的人类注释对比中，达到了加权-$F_{1}=0.88$。为了实现语料库级别的测量，我们将该工具操作化为基于DistilBERT嵌入和RBF SVM的轻量级分类器，在原始金标准集上达到了加权-$F_{1}=0.7935$。应用该工具，我们测量了在2023年至2025年以色列-加沙战争期间发布的约270万条Reddit评论的立场。我们通过分析不同政治派别之间的情感、毒性和情感框架的立场条件不对称性，展示了这一测量所能实现的效果。这项工作表明，经过验证的低成本立场测量如何支持对极化话语的大规模描述性分析，而无需依赖网络结构或先前标注的语料库。",
+      "authors": [
+        "Shahar Oded"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.18594",
+      "tags": [
+        "数据集/评测",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Whose Side Are You On? Measuring Stance at Scale for Reddit Discourse Analysis During the Israel-Gaza War",
+      "title_zh": "你站在哪一边？在以色列-加沙战争期间对Reddit话语分析进行大规模立场测量",
+      "url": "/daily/2026-11-17/#paper-2611-18594"
+    },
+    {
+      "abstract": "Multimodal LLMs promise to replace the traditional cascade of specialist speech models with a single system that, from one audio clip, jointly transcribes and labels emotion, gender, language, and named entities. Yet most benchmarks still score these tasks in isolation, and largely in English. We introduce OmniTag-Bench, a five-language benchmark (en/de/es/fr/it) and training recipe for joint understanding: one audio clip in, one JSON object out (transcript, emotion, gender, LID, token-level NER). We evaluate ten open multimodal LLMs and a LoRA fine-tuned Qwen3-Omni on a unified prompt and scorer. Beyond aggregate scores, OmniTag-Bench reveals a systematic failure mode: several strong models often transcribe or translate non-English speech into English, inflating multilingual WER. Fine-tuning improves the base model on NER, emotion, and WER while nearly doubling accuracy on independent human-labeled emotion corpora, suggesting transferable gains beyond pseudo-label imitation. The fine-tuned model also generalizes to unseen but related languages, transferring to held-out Dutch. We release prompts, the scorer, and the labeling pipeline.",
+      "abstract_zh": "多模态大语言模型（LLMs）有望用一个系统取代传统的专业语音模型级联，该系统可以从一个音频片段中共同转录和标注情感、性别、语言和命名实体。然而，大多数基准测试仍然孤立地评估这些任务，并且主要集中在英语上。我们介绍了OmniTag-Bench，这是一个涵盖五种语言（英语/德语/西班牙语/法语/意大利语）的基准测试和联合理解的训练方案：输入一个音频片段，输出一个JSON对象（转录、情感、性别、语言识别（LID）、标记级命名实体识别（NER））。我们在统一的提示和评分器上评估了十个开放的多模态LLMs和一个经过LoRA微调的Qwen3-Omni。除了汇总分数外，OmniTag-Bench还揭示了一种系统性失败模式：几个强大的模型常常将非英语语音转录或翻译成英语，从而夸大了多语言的词错误率（WER）。微调提高了基础模型在命名实体识别、情感和词错误率上的表现，同时在独立的人类标注情感语料库上几乎将准确率翻倍，表明超越伪标签模仿的可转移收益。微调后的模型还能够推广到未见过但相关的语言，成功迁移到保留的荷兰语。我们发布了提示、评分器和标注流程。",
+      "authors": [
+        "Aref Farhadipour",
+        "Francesco Verdini",
+        "Antonis Asonitis",
+        "Pierre-Edouard Honnet",
+        "Marzieh Razavi",
+        "Vijeta Avijeet",
+        "Juan Pablo Zuluaga Gomez"
+      ],
+      "date": "2026-11-17",
+      "id": "2611.18589",
+      "tags": [
+        "语音情感",
+        "多模态情感",
+        "情感大模型"
+      ],
+      "title": "OmniTag-LLM: Multilingual Multitask Speech Tagging",
+      "title_zh": "OmniTag-LLM：多语言多任务语音标注",
+      "url": "/daily/2026-11-17/#paper-2611-18589"
+    },
     {
       "abstract": "Multimodal depression screening estimates risk from speech, visual behavior and language. Current methods mainly predict labels, with limited evidence of departures from a non-depressed reference. Recording-level supervision also leaves fine-grained emotional dynamics unannotated. Motivated by emotional inertia, the persistence of affect, InertiaMPDD learns healthy next-state patterns using a world-model-inspired latent predictor. Using pretrained multimodal representations, it predicts from observed history and context. Reference deviation, residual decay rate and a Jacobian spectral descriptor form reference-derived emotional dynamics descriptors, evaluated as candidate proxy biomarkers for standalone screening and personalized decision correction. Across five cohorts from four datasets, fusion reaches 98.41% F1 on D-Vlog and 84.98% on LMVD. Standalone descriptors outperform fixed additive fusion on MPDD but discriminate weakly on AVEC2014. These findings distinguish reference informativeness from fusion benefit and reveal context-dependent utility.",
       "abstract_zh": "多模态抑郁筛查通过语音、视觉行为和语言评估风险。当前的方法主要预测标签，缺乏对非抑郁参考的偏离证据。记录级监督也使得细粒度的情感动态未被标注。受到情感惯性的启发，即情感的持续性，InertiaMPDD通过使用受世界模型启发的潜在预测器学习健康的下一状态模式。它利用预训练的多模态表示，从观察到的历史和上下文中进行预测。参考偏离、残余衰减率和雅可比谱描述符形成了基于参考的情感动态描述符，这些描述符被评估为独立筛查和个性化决策修正的候选代理生物标志物。在来自四个数据集的五个队列中，融合方法在D-Vlog上达到了98.41%的F1分数，在LMVD上达到了84.98%。独立描述符在MPDD上优于固定加性融合，但在AVEC2014上的区分能力较弱。这些发现区分了参考信息量与融合收益，并揭示了上下文依赖的效用。",

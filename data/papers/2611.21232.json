@@ -1,0 +1,46 @@
+{
+  "abstract": "Generative artificial intelligence is entering the home. Cloud-based assistants face governance limitations in data transmission, continuous availability, and the reliability of physical actions, which are especially salient in households where devices remain online, data accumulate over time, and commands trigger real-world actions. Using the home local server as a unifying organizing axis, this article develops a design-oriented review framework. Sources from arXiv, CNKI, ACL Anthology, and official documentation were searched through November 2026 and coded into five evidence categories: reviews, system prototypes, benchmarks, HCI and eldercare studies, and official documentation. System designs were mapped onto shared architectural modules, identifying nine recurrent responsibilities of the home local server. Generative models support perceptual interpretation, intent understanding, and candidate planning, while deterministic validation, knowledge-graph constraints, and authorization leases confine candidate actions to an inspectable space. Home control, emotional companionship, and intelligent guarding can be compared within a common framework: they share state and memory but differ in latency, false positive and negative rates, proactivity, and permissions. Existing benchmarks rely on virtual environments and cannot substitute for real-deployment evaluation. Local deployment is not inherently safer, and technical continuity alone does not establish the social or medical effects of companionship and guarding. The article proposes a five-dimensional evaluation framework covering architectural capability, system resources, privacy, safety and reliability, and human experience, together with six design principles and a future research agenda for local-first intelligent home systems.",
+  "abstract_zh": "生成性人工智能正在进入家庭。基于云的助手在数据传输、持续可用性和物理行为的可靠性方面面临治理限制，这在设备始终在线、数据随时间累积以及命令触发现实世界行为的家庭中尤为突出。本文以家庭本地服务器作为统一的组织轴心，开发了一个以设计为导向的评审框架。通过对arXiv、CNKI、ACL Anthology和官方文档的检索，截止到2026年11月，收集了五类证据：评审、系统原型、基准测试、人机交互与老年护理研究以及官方文档。系统设计被映射到共享的架构模块上，识别出家庭本地服务器的九个重复职责。生成模型支持感知解释、意图理解和候选规划，而确定性验证、知识图谱约束和授权租约将候选行为限制在可检查的空间内。家庭控制、情感陪伴和智能守护可以在一个共同框架内进行比较：它们共享状态和内存，但在延迟、误报和漏报率、主动性和权限方面存在差异。现有基准依赖于虚拟环境，无法替代实际部署评估。地方部署并不天然更安全，技术连续性本身也无法确立陪伴和守护的社会或医疗效果。本文提出了一个涵盖架构能力、系统资源、隐私、安全性与可靠性以及人类体验的五维评估框架，以及六项设计原则和未来的本地优先智能家居系统研究议程。",
+  "arxiv_id": "2611.21232",
+  "arxiv_url": "https://arxiv.org/abs/2611.21232v1",
+  "authors": [
+    "Mo Zhou"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.996513+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.21232v1",
+  "published_at": "2026-11-16T15:16:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.21232v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": []
+  },
+  "title": "A Generative AI-Driven Architecture for Whole-Home Intelligent Services: Edge Models, Memory Management, and Household Applications",
+  "title_zh": "基于生成性人工智能的全屋智能服务架构：边缘模型、内存管理与家庭应用",
+  "translation_url": "https://hjfy.top/arxiv/2611.21232"
+}

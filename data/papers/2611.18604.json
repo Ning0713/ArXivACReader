@@ -1,0 +1,67 @@
+{
+  "abstract": "Online caregiver forums are an important source of emotional and informational support for Alzheimer's disease and related dementias (ADRD). We compare responses to 85 real caregiver questions from ALZConnected across four responder groups: peer caregivers, physicians, ChatGPT, and a retrieval-augmented CareGPT grounded in peer discussions. Using 28 measures spanning linguistic form, emotional support, informational support, and topic scope, we examine how these voices differ when answering the same questions. Peers provided time-anchored narratives and community grounding; clinicians offered concise, advice-forward, clinically bounded guidance; and LLMs produced a formal, verbose, highly structured consultation style. CareGPT showed minimal measurable separation from ChatGPT, suggesting that retrieval plus prompt injection alone was insufficient to shift communicative stance. LLM outputs scored higher than peers on politeness and emotion-support markers and were comparable to clinicians on informativeness and physician-alignment measures, but were less narrative and less contextually situated. Topic modeling showed that LLM responses concentrated on advice-oriented themes, whereas peers covered a broader range, including emotional processing, legal and financial concerns, and daily care. These findings suggest that AI can complement, but not replace, human contributions to ADRD caregiver support and motivate hybrid systems that combine structured AI delivery with the distinct strengths of human voices.",
+  "abstract_zh": "在线护理者论坛是阿尔茨海默病及相关痴呆症（ADRD）情感和信息支持的重要来源。我们比较了来自 ALZConnected 的 85 个真实护理者问题的四个回应者群体的回答：同伴护理者、医生、ChatGPT 和基于同伴讨论的检索增强型 CareGPT。通过 28 个涵盖语言形式、情感支持、信息支持和主题范围的指标，我们考察了这些声音在回答相同问题时的差异。同伴提供了时间锚定的叙述和社区基础；临床医生提供了简洁、以建议为导向、临床界限明确的指导；而大型语言模型（LLMs）则产生了正式、冗长、高度结构化的咨询风格。CareGPT 与 ChatGPT 的可测量差异极小，表明仅仅依靠检索和提示注入不足以改变交流立场。LLM 的输出在礼貌性和情感支持指标上得分高于同伴，在信息量和与医生一致性指标上与临床医生相当，但在叙述性和情境适应性上较弱。主题建模显示，LLM 的回应集中于以建议为导向的主题，而同伴则涵盖了更广泛的范围，包括情感处理、法律和财务问题以及日常护理。这些发现表明，人工智能可以补充但不能替代人类对 ADRD 护理者支持的贡献，并激励结合结构化 AI 交付与人类声音独特优势的混合系统。",
+  "arxiv_id": "2611.18604",
+  "arxiv_url": "https://arxiv.org/abs/2611.18604v1",
+  "authors": [
+    "Congning Ni",
+    "Jinkyung Katie Park",
+    "Yang Li",
+    "Sarvech Qadir",
+    "Sean S. Huang",
+    "James S. Powers",
+    "Julia A. Hiner",
+    "Vania Leung",
+    "Patricia Commiskey",
+    "Lijun Song",
+    "Qingxia Chen",
+    "Pamela J. Wisniewski",
+    "Bradley A. Malin",
+    "Zhijun Yin"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.989257+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.18604v1",
+  "published_at": "2026-09-02T21:00:46Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional support",
+      "情感支持",
+      "emotion",
+      "emotional",
+      "large language models",
+      "LLM",
+      "LLMs"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 77.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.18604v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "共情交互"
+    ]
+  },
+  "title": "One Question, Four Voices: How Advice for Alzheimer's Caregiving Differs Between Caregivers, Clinicians, and Large Language Models",
+  "title_zh": "一个问题，四种声音：阿尔茨海默病护理建议在护理者、临床医生和大型语言模型之间的差异",
+  "translation_url": "https://hjfy.top/arxiv/2611.18604"
+}

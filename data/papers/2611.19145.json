@@ -1,0 +1,52 @@
+{
+  "abstract": "Non-verbal vocalizations (NVs), such as laughter and breath, carry affective cues that words alone do not convey. Yet NV data remains scarce because speech annotation pipelines often omit or normalize these events. Existing work has improved NV text-to-speech through model design and data curation, but whether one NV token can help a model learn another has received little systematic study. We investigate this cross-token transferability in a controlled CosyVoice 2 setup. We first trace a laughter-only scaling curve, then hold laughter at 200 or 1,600 examples while adding breath, sigh, cough, lip-smack, or neutral speech. With only 200 laughter examples, adding 3,200 cough examples raises end-to-end laughter F1 from 0.170 to 0.529, surpassing the 0.495 obtained from 1,600 laughter examples alone. At the 1,600-example anchor, cough reaches 0.695, nearly matching 6,400 laughter examples (0.697). Waveform-level Whisper-D scoring and a semantic-token transcriber show consistent trends. Cross-token transfer therefore offers a complementary route to low-resource NV generation.",
+  "abstract_zh": "非语言发声（NV），如笑声和呼吸，传递了单靠文字无法表达的情感线索。然而，由于语音标注流程通常省略或规范化这些事件，NV数据仍然稀缺。现有研究通过模型设计和数据策划改善了NV文本到语音的效果，但关于一个NV标记是否能够帮助模型学习另一个标记的系统研究仍然较少。我们在一个受控的CosyVoice 2设置中探讨了这种跨标记可转移性。我们首先追踪了仅包含笑声的缩放曲线，然后在保持200或1,600个笑声示例的同时，添加呼吸、叹息、咳嗽、嘴唇声或中性语音。在仅有200个笑声示例的情况下，添加3,200个咳嗽示例使得端到端的笑声F1从0.170提升至0.529，超过了仅使用1,600个笑声示例所获得的0.495。在1,600个示例的基准下，咳嗽达到了0.695，几乎与6,400个笑声示例（0.697）相匹配。波形级别的Whisper-D评分和语义标记转录器显示出一致的趋势。因此，跨标记转移为低资源NV生成提供了一条互补的途径。",
+  "arxiv_id": "2611.19145",
+  "arxiv_url": "https://arxiv.org/abs/2611.19145v1",
+  "authors": [
+    "Jing Pan",
+    "Haibin Wu",
+    "Minxue Niu",
+    "Florian Metze",
+    "Yuzong Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.991432+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.19145v1",
+  "published_at": "2026-11-14T04:06:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "generation",
+      "speech"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 12.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.19145v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "文本情感",
+      "情感生成"
+    ]
+  },
+  "title": "A Systematic Study of Cross-Token Transfer for Data-Efficient Non-Verbal Text-to-Speech",
+  "title_zh": "数据高效非语言文本到语音的跨标记转移系统研究",
+  "translation_url": "https://hjfy.top/arxiv/2611.19145"
+}

@@ -1,0 +1,64 @@
+{
+  "abstract": "Memory systems address the challenge of context loss in Large Language Models during prolonged interactions. However, as an essential tool for warm companionship and personalized services, the effectiveness of memory systems in processing affective information remains underexamined. To bridge this gap, we propose an emotion-enhanced memory evaluation benchmark to assess the performance of mainstream and state-of-the-art memory systems in integrating and harnessing emotional information. First, we design a benchmark called \\textbf{MemEmo} to assess the affective reasoning and tracking capabilities of memory systems across four dimensions: emotional information extraction, emotional memory updating, emotional memory question-answering, and emotional conflict detection. Second, we construct the \\textbf{H}uman-\\textbf{L}ike \\textbf{M}emory \\textbf{E}motion (\\textbf{HLME}) dataset to provide an empirical foundation for scrutinizing memory systems. Finally, We evaluate five representative memory systems on the HLME dataset, reporting 11 performance metrics across four dimensions. Experimental results reveal that aggregating scores for all tested memory systems is up to 45\\%, far below 100\\% scale, exposing a profound disparity between memory system and affective intelligence.",
+  "abstract_zh": "记忆系统解决了大型语言模型在长期交互中面临的上下文丧失挑战。然而，作为温暖陪伴和个性化服务的重要工具，记忆系统在处理情感信息方面的有效性仍然未得到充分研究。为填补这一空白，我们提出了一种情感增强的记忆评估基准，以评估主流和最先进的记忆系统在整合和利用情感信息方面的表现。首先，我们设计了一个名为 extbf{MemEmo} 的基准，以评估记忆系统在情感信息提取、情感记忆更新、情感记忆问答和情感冲突检测四个维度上的情感推理和追踪能力。其次，我们构建了 extbf{H}uman- extbf{L}ike extbf{M}emory extbf{E}motion ( extbf{HLME}) 数据集，为深入审视记忆系统提供了实证基础。最后，我们在 HLME 数据集上评估了五个具有代表性的记忆系统，报告了四个维度上的 11 项性能指标。实验结果表明，所有测试的记忆系统的综合得分最高可达 45\\%，远低于 100\\\\% 的标准，揭示了记忆系统与情感智能之间的深刻差距。",
+  "arxiv_id": "2611.20733",
+  "arxiv_url": "https://arxiv.org/abs/2611.20733v1",
+  "authors": [
+    "Peng Liu",
+    "Zhen Tao",
+    "Jihao Zhao",
+    "Ding Chen",
+    "Yansong Zhang",
+    "Cuiping Li",
+    "Zhiyu Li",
+    "Hong Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.995104+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.20733v1",
+  "published_at": "2026-11-16T08:39:09Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感智能",
+      "emotion",
+      "emotional",
+      "affective",
+      "large language models",
+      "detection",
+      "reasoning",
+      "benchmark",
+      "dataset",
+      "检测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 67.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.20733v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "MemEmo: Evaluating Emotion in Memory Systems",
+  "title_zh": "MemEmo：评估记忆系统中的情感",
+  "translation_url": "https://hjfy.top/arxiv/2611.20733"
+}

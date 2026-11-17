@@ -1,0 +1,51 @@
+{
+  "abstract": "Emotional appeals (EAs) are often treated as fallacious in computational argumentation, yet they may be justified when warranted by the context. We introduce the task of predicting EA justification and present the first human-annotated dataset for this task, covering 1,176 argument--context pairs. Grounded in philosophical literature, our framework evaluates EA justification along logical and emotional dimensions. Human annotations show that justification criteria form a shared latent judgment space, with evidential proportionality and normative acceptability most strongly associated with overall justification. We further find that EAs without logical support are not always judged fully unjustified, and stronger EAs are not necessarily judged less justified. Finally, LLM experiments show that EA justification prediction remains challenging.",
+  "abstract_zh": "情感诉求（EAs）在计算论证中常被视为谬误，然而在特定情境下它们可能是合理的。我们引入了预测情感诉求合理性的任务，并呈现了首个针对该任务的人类标注数据集，涵盖了1,176个论证-情境对。基于哲学文献，我们的框架从逻辑和情感两个维度评估情感诉求的合理性。人类标注显示，合理性标准形成了一个共享的潜在判断空间，其中证据的比例性和规范的可接受性与整体合理性最为密切相关。我们进一步发现，没有逻辑支持的情感诉求并不总是被完全判断为不合理，而更强的情感诉求也不一定被判断为不那么合理。最后，大型语言模型（LLM）实验表明，情感诉求合理性预测仍然具有挑战性。",
+  "arxiv_id": "2611.18607",
+  "arxiv_url": "https://arxiv.org/abs/2611.18607v1",
+  "authors": [
+    "Yanran Chen",
+    "Steffen Eger"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.989411+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.18607v1",
+  "published_at": "2026-09-03T11:40:40Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "prediction",
+      "dataset",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.18607v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Justification of Emotional Appeal in Computational Argumentation",
+  "title_zh": "计算论证中情感诉求的合理性",
+  "translation_url": "https://hjfy.top/arxiv/2611.18607"
+}

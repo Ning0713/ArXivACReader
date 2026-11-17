@@ -1,0 +1,62 @@
+{
+  "abstract": "Multimodal LLMs promise to replace the traditional cascade of specialist speech models with a single system that, from one audio clip, jointly transcribes and labels emotion, gender, language, and named entities. Yet most benchmarks still score these tasks in isolation, and largely in English. We introduce OmniTag-Bench, a five-language benchmark (en/de/es/fr/it) and training recipe for joint understanding: one audio clip in, one JSON object out (transcript, emotion, gender, LID, token-level NER). We evaluate ten open multimodal LLMs and a LoRA fine-tuned Qwen3-Omni on a unified prompt and scorer. Beyond aggregate scores, OmniTag-Bench reveals a systematic failure mode: several strong models often transcribe or translate non-English speech into English, inflating multilingual WER. Fine-tuning improves the base model on NER, emotion, and WER while nearly doubling accuracy on independent human-labeled emotion corpora, suggesting transferable gains beyond pseudo-label imitation. The fine-tuned model also generalizes to unseen but related languages, transferring to held-out Dutch. We release prompts, the scorer, and the labeling pipeline.",
+  "abstract_zh": "多模态大语言模型（LLMs）有望用一个系统取代传统的专业语音模型级联，该系统可以从一个音频片段中共同转录和标注情感、性别、语言和命名实体。然而，大多数基准测试仍然孤立地评估这些任务，并且主要集中在英语上。我们介绍了OmniTag-Bench，这是一个涵盖五种语言（英语/德语/西班牙语/法语/意大利语）的基准测试和联合理解的训练方案：输入一个音频片段，输出一个JSON对象（转录、情感、性别、语言识别（LID）、标记级命名实体识别（NER））。我们在统一的提示和评分器上评估了十个开放的多模态LLMs和一个经过LoRA微调的Qwen3-Omni。除了汇总分数外，OmniTag-Bench还揭示了一种系统性失败模式：几个强大的模型常常将非英语语音转录或翻译成英语，从而夸大了多语言的词错误率（WER）。微调提高了基础模型在命名实体识别、情感和词错误率上的表现，同时在独立的人类标注情感语料库上几乎将准确率翻倍，表明超越伪标签模仿的可转移收益。微调后的模型还能够推广到未见过但相关的语言，成功迁移到保留的荷兰语。我们发布了提示、评分器和标注流程。",
+  "arxiv_id": "2611.18589",
+  "arxiv_url": "https://arxiv.org/abs/2611.18589v1",
+  "authors": [
+    "Aref Farhadipour",
+    "Francesco Verdini",
+    "Antonis Asonitis",
+    "Pierre-Edouard Honnet",
+    "Marzieh Razavi",
+    "Vijeta Avijeet",
+    "Juan Pablo Zuluaga Gomez"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-17",
+  "categories": [
+    "cs.CL",
+    "cs.SD",
+    "eess.AS"
+  ],
+  "fetched_at": "2026-11-17T14:14:37.988624+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.18589v1",
+  "published_at": "2026-08-19T15:37:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "multimodal",
+      "LLM",
+      "LLMs",
+      "benchmark",
+      "speech",
+      "audio",
+      "多模态",
+      "识别"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 30.0
+  },
+  "seen_dates": [
+    "2026-11-17"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.18589v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-17",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-17"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "多模态情感",
+      "情感大模型"
+    ]
+  },
+  "title": "OmniTag-LLM: Multilingual Multitask Speech Tagging",
+  "title_zh": "OmniTag-LLM：多语言多任务语音标注",
+  "translation_url": "https://hjfy.top/arxiv/2611.18589"
+}
