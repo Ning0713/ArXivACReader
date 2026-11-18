@@ -1,0 +1,64 @@
+{
+  "abstract": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction: alongside predicting the impairment label as a masked token, it reconstructs masked gaze and trajectory. To probe the effects of different modalities and types of impairments on model inference, we introduce DIVERT, a driving-simulator dataset containing 103 hours of driving data (n = 109) with ten impairment inductions spanning cognitive, visual, and emotional states, recorded with gaze, vehicle state, and scene video. We demonstrate how ID-MAE affords significant improvements in impairment inference results on both the DIVERT dataset and existing datasets, and enables strong results in additional tasks, such as trajectory and gaze prediction. For location-matched pairs, our model achieves a paired AUC of 0.706 for impairment detection on DIVERT, compared to 0.590 without reconstruction loss, improving over existing baselines. We probe the design space in terms of input modalities, masking scheme, positional encoding, attention mechanism, and decoding. We also investigate the interaction between various impairments in training and inference, demonstrating that visually demanding distractions are separable from cognitive distractions. Code and data will be available upon acceptance.",
+  "abstract_zh": "人类的认知状态（例如，分心、压力）、注视和行为与驾驶环境以微妙的方式相互作用，这些信息可以被人工智能利用来辅助驾驶员，但获取人类认知状态水平的真实标签在规模上是昂贵的。我们提出了一种多模态掩蔽扩散自编码器，ID-MAE，它为障碍预测添加了自监督目标：除了预测作为掩蔽标记的障碍标签外，它还重建掩蔽的注视和轨迹。为了探讨不同模态和障碍类型对模型推断的影响，我们引入了DIVERT，这是一个包含103小时驾驶数据（n = 109）的驾驶模拟器数据集，涵盖了十种障碍诱导，涉及认知、视觉和情感状态，记录了注视、车辆状态和场景视频。我们展示了ID-MAE在DIVERT数据集和现有数据集上在障碍推断结果方面的显著改进，并在其他任务（如轨迹和注视预测）中实现了强大的结果。对于位置匹配的配对，我们的模型在DIVERT上的障碍检测中实现了0.706的配对AUC，而在没有重建损失的情况下为0.590，超越了现有基线。我们探讨了输入模态、掩蔽方案、位置编码、注意机制和解码的设计空间。我们还研究了各种障碍在训练和推断中的相互作用，证明视觉要求高的干扰与认知干扰是可分的。代码和数据将在接受后提供。",
+  "arxiv_id": "2611.23211",
+  "arxiv_url": "https://arxiv.org/abs/2611.23211v1",
+  "authors": [
+    "John Gideon",
+    "Anshul Gupta",
+    "Megan Applegate-Kenton",
+    "Kayli Battel",
+    "Todd J Rowell",
+    "Patricio Reyes Gomez",
+    "Laporsha Dees",
+    "Emily Sumner",
+    "Avinash Balachandran",
+    "Guy Rosman"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-18",
+  "categories": [
+    "cs.CV",
+    "cs.LG",
+    "cs.RO"
+  ],
+  "fetched_at": "2026-11-18T13:45:17.613905+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.23211v1",
+  "published_at": "2026-11-17T18:50:22Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "multimodal",
+      "detection",
+      "prediction",
+      "dataset",
+      "多模态",
+      "检测",
+      "预测"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-11-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.23211v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-18",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "数据集/评测",
+      "心理状态/福祉"
+    ]
+  },
+  "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+  "title_zh": "多模态掩蔽扩散自编码器用于建模驾驶障碍",
+  "translation_url": "https://hjfy.top/arxiv/2611.23211"
+}

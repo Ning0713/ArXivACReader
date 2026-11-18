@@ -1,6 +1,137 @@
 {
-  "generated_at": "2026-11-17T14:14:43.848814+00:00",
+  "generated_at": "2026-11-18T13:45:19.988518+00:00",
   "items": [
+    {
+      "abstract": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction: alongside predicting the impairment label as a masked token, it reconstructs masked gaze and trajectory. To probe the effects of different modalities and types of impairments on model inference, we introduce DIVERT, a driving-simulator dataset containing 103 hours of driving data (n = 109) with ten impairment inductions spanning cognitive, visual, and emotional states, recorded with gaze, vehicle state, and scene video. We demonstrate how ID-MAE affords significant improvements in impairment inference results on both the DIVERT dataset and existing datasets, and enables strong results in additional tasks, such as trajectory and gaze prediction. For location-matched pairs, our model achieves a paired AUC of 0.706 for impairment detection on DIVERT, compared to 0.590 without reconstruction loss, improving over existing baselines. We probe the design space in terms of input modalities, masking scheme, positional encoding, attention mechanism, and decoding. We also investigate the interaction between various impairments in training and inference, demonstrating that visually demanding distractions are separable from cognitive distractions. Code and data will be available upon acceptance.",
+      "abstract_zh": "人类的认知状态（例如，分心、压力）、注视和行为与驾驶环境以微妙的方式相互作用，这些信息可以被人工智能利用来辅助驾驶员，但获取人类认知状态水平的真实标签在规模上是昂贵的。我们提出了一种多模态掩蔽扩散自编码器，ID-MAE，它为障碍预测添加了自监督目标：除了预测作为掩蔽标记的障碍标签外，它还重建掩蔽的注视和轨迹。为了探讨不同模态和障碍类型对模型推断的影响，我们引入了DIVERT，这是一个包含103小时驾驶数据（n = 109）的驾驶模拟器数据集，涵盖了十种障碍诱导，涉及认知、视觉和情感状态，记录了注视、车辆状态和场景视频。我们展示了ID-MAE在DIVERT数据集和现有数据集上在障碍推断结果方面的显著改进，并在其他任务（如轨迹和注视预测）中实现了强大的结果。对于位置匹配的配对，我们的模型在DIVERT上的障碍检测中实现了0.706的配对AUC，而在没有重建损失的情况下为0.590，超越了现有基线。我们探讨了输入模态、掩蔽方案、位置编码、注意机制和解码的设计空间。我们还研究了各种障碍在训练和推断中的相互作用，证明视觉要求高的干扰与认知干扰是可分的。代码和数据将在接受后提供。",
+      "authors": [
+        "John Gideon",
+        "Anshul Gupta",
+        "Megan Applegate-Kenton",
+        "Kayli Battel",
+        "Todd J Rowell",
+        "Patricio Reyes Gomez",
+        "Laporsha Dees",
+        "Emily Sumner",
+        "Avinash Balachandran",
+        "Guy Rosman"
+      ],
+      "date": "2026-11-18",
+      "id": "2611.23211",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "心理状态/福祉"
+      ],
+      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving",
+      "title_zh": "多模态掩蔽扩散自编码器用于建模驾驶障碍",
+      "url": "/daily/2026-11-18/#paper-2611-23211"
+    },
+    {
+      "abstract": "Affective priming -- asking participants to write about a recalled event, such as a time they felt grateful or lacked control, and then measuring the induced state and its spillover onto related judgments -- is a standard way to manipulate emotion in the social sciences, and it also shifts the responses of LLM-based digital twins. The writing task, however, requires generating a full text. We test whether activation steering can replace it. Using Llama-3.1-8B-Instruct on 100 personas in two domains (gratitude, lack of control), we compare a real-prompt path replicating the original Twin-2K-500 Mega Study (J2) with an injection path that skips the writing and adds a mean-difference direction, extracted from human writing, to the residual stream at varying strengths. The real-prompt effects fall between the original human and digital-twin effects in 5 of 6 comparisons. Injection shifts the manipulation check in a dose-dependent way and matches the real-prompt effect at one strength in the gratitude domain (beta ~ 2.7), but overshoots beyond it, on the proximal measure as well, and asymmetrically across the two directions. A structure-matched No-Injection baseline separates two sources of difference: omitting the writing task raises the proximal measure in both domains, whereas the injected direction itself moves a distal measure in the lack-of-control domain. Substitution is therefore measure-dependent: validity established for one way of inducing a state does not carry over uniformly to another.",
+      "abstract_zh": "情感启动——要求参与者写下一个回忆事件，例如他们感到感激或缺乏控制的时刻，然后测量所诱发的状态及其对相关判断的溢出效应——是社会科学中操控情感的标准方法，同时也会影响基于大型语言模型（LLM）的数字双胞胎的反应。然而，写作任务需要生成完整的文本。我们测试激活引导是否可以替代这一过程。使用 Llama-3.1-8B-Instruct 在两个领域（感激、缺乏控制）对 100 个角色进行实验，我们比较了一个真实提示路径，该路径复制了原始的 Twin-2K-500 Mega Study (J2)，与一个跳过写作并在不同强度下将从人类写作中提取的均值差异方向添加到残差流中的注入路径。真实提示效应在 6 次比较中的 5 次落在原始人类效应和数字双胞胎效应之间。注入以剂量依赖的方式改变操控检查，并在感激领域的一个强度下与真实提示效应匹配（beta ~ 2.7），但在近端测量上超出该值，并且在两个方向上不对称。一个结构匹配的无注入基线将两个差异来源分开：省略写作任务在两个领域中提高了近端测量，而注入方向本身在缺乏控制的领域中移动了远端测量。因此，替代是依赖于测量的：为一种诱发状态的方法建立的有效性并不能均匀地转移到另一种方法上。",
+      "authors": [
+        "Junyi Fan"
+      ],
+      "date": "2026-11-18",
+      "id": "2611.22738",
+      "tags": [
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Can Activation Steering Substitute for Prompt-Based Affective Priming in LLM Digital Twins?",
+      "title_zh": "激活引导能否替代基于提示的情感启动在大型语言模型数字双胞胎中的应用？",
+      "url": "/daily/2026-11-18/#paper-2611-22738"
+    },
+    {
+      "abstract": "Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and annotator disagreement. We introduce Social Signal Bench, a 47-hour densely annotated benchmark for the evaluation of social signal recognition and engagement, comprising two datasets: Social Signal Bench Video (25 hours), covering ten social signals in audiovisual recordings, and Social Signal Bench Audio (22 hours), covering six signals in audio-only recordings. Each dataset pairs a public training set of online conversational video, of which 10 hours are expert-annotated and the remainder pseudo-labeled, with a private expert-labeled test set spanning four conversational domains. We also propose Evidence-Weighted F1 (EW-F1), which weights reference labels by annotator evidence and assigns graded credit to semantically related predictions through optimal per-clip matching. Controlled perturbations demonstrate that EW-F1 distinguishes semantically related errors from unrelated ones, unlike conventional F1. Under a shared evaluation protocol, 7B open models post-trained on Social Signal Bench outperform general-purpose frontier models on video and match them on audio.",
+      "abstract_zh": "识别社交信号，如兴趣和犹豫，需解读在对话中可能共现的上下文依赖行为。现有的情感计算基准很少评估此类共现信号，传统的多标签F1指标忽视了语义关系和标注者之间的分歧。我们提出了社交信号基准（Social Signal Bench），这是一个47小时密集标注的基准，用于评估社交信号识别和参与度，包含两个数据集：社交信号基准视频（Social Signal Bench Video，25小时），涵盖十种社交信号的视听录音，以及社交信号基准音频（Social Signal Bench Audio，22小时），涵盖六种信号的仅音频录音。每个数据集都配有一组公共训练集，包含在线对话视频，其中10小时由专家标注，其余为伪标注，并与跨越四个对话领域的私有专家标注测试集相配对。我们还提出了证据加权F1（Evidence-Weighted F1，EW-F1），该指标通过标注者证据对参考标签进行加权，并通过最佳逐片匹配对语义相关的预测赋予分级信用。受控扰动实验表明，EW-F1能够区分语义相关的错误与无关错误，这与传统的F1不同。在共享评估协议下，经过在社交信号基准上后训练的7B开放模型在视频上超越了通用前沿模型，并在音频上与其持平。",
+      "authors": [
+        "Siddharth Ravi",
+        "Anders R. Bargum",
+        "Hugo Anselme",
+        "Patrizio Cugia di Sant'Orsola",
+        "Alberto Cardaci",
+        "Flora Kincso Parragi",
+        "Vincent Borowiec",
+        "Line H. Clemmensen"
+      ],
+      "date": "2026-11-18",
+      "id": "2611.22704",
+      "tags": [
+        "数据集/评测",
+        "社交信号",
+        "语音情感"
+      ],
+      "title": "Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio",
+      "title_zh": "社交信号基准：视频和音频中共现社交信号的证据加权评估",
+      "url": "/daily/2026-11-18/#paper-2611-22704"
+    },
+    {
+      "abstract": "The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action. Unlike benchmarks centered on visible objects and activities, EgoLink evaluates whether models can interpret emotional and social cues, resolve visually grounded references, and convert user requests into verified tool-mediated actions. Its two tracks cover social reasoning in egocentric video and interactive agents that complete service tasks through dialogue, tool use, and closed-loop execution. Together, they test whether perception, reasoning, and decision-making remain coupled under both offline question answering and state-changing interaction. We highlight a multi-stage Track 1 data pipeline for multiple-choice question (MCQ) generation, chain-of-thought generation, automatic quality grading, and video-contribution filtering. We summarize the task design, evaluation metrics, rules, leaderboards, and representative solutions. The benchmark combines objective answer scoring with process- and result-based evaluation, enabling analysis of both final correctness and execution quality. The best Track 1 system achieved 0.9263 accuracy, while the best Track 2 system achieved 0.844 joint success and 0.916 micro accuracy. Participant reports reveal a shared principle: strong systems make intermediate evidence explicit through candidate verification, option-robust reasoning, scenario-aware planning, tool canonicalization, and state-aware correction before answering or acting. These findings highlight the importance of process verification and evidence-grounded reasoning for reliable egocentric multimodal intelligence.",
+      "abstract_zh": "EgoLink挑战赛在2026年ACM多媒体会议上基准测试以自我为中心的多模态智能，连接第一人称感知、社会推理和互动行为。与以可见物体和活动为中心的基准测试不同，EgoLink评估模型是否能够解读情感和社会线索，解决视觉基础的引用，并将用户请求转化为经过验证的工具介导的行动。其两个赛道涵盖了以自我为中心的视频中的社会推理和通过对话、工具使用和闭环执行完成服务任务的交互代理。两者共同测试感知、推理和决策在离线问答和状态变化交互下是否保持耦合。我们强调了一个多阶段的第一赛道数据管道，用于多项选择题（MCQ）生成、思维链生成、自动质量评分和视频贡献过滤。我们总结了任务设计、评估指标、规则、排行榜和代表性解决方案。该基准结合了客观答案评分与基于过程和结果的评估，能够分析最终正确性和执行质量。第一赛道最佳系统达到了0.9263的准确率，而第二赛道最佳系统达到了0.844的联合成功率和0.916的微观准确率。参与者报告揭示了一个共同原则：强大的系统通过候选验证、选项稳健推理、场景感知规划、工具标准化和状态感知纠正，使中间证据显性化，然后再进行回答或行动。这些发现突显了过程验证和基于证据的推理对于可靠的以自我为中心的多模态智能的重要性。",
+      "authors": [
+        "Renhe Sun",
+        "Yueying Feng",
+        "Bohan Yu",
+        "Tong Niu",
+        "Yunqi Liu",
+        "Zitong Wang",
+        "Haolin He",
+        "Kexin Shi",
+        "Hualei Wang",
+        "Qiuqiang Kong",
+        "Chang Yao",
+        "Yuge Huang",
+        "Weiqiang Wang",
+        "Jingyuan Chen",
+        "Jian Liu"
+      ],
+      "date": "2026-11-18",
+      "id": "2611.21690",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感生成"
+      ],
+      "title": "EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary",
+      "title_zh": "EgoLink：以自我为中心的语言-视觉交互网络知识挑战总结",
+      "url": "/daily/2026-11-18/#paper-2611-21690"
+    },
+    {
+      "abstract": "Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and de-escalation central to crisis conversations, while privacy restrictions limit use of real transcripts. Methods: We present CrisisBench, a privacy-preserving suite for single- and multi-turn crisis counseling evaluation. It includes 1,085 single-turn tasks from 200 de-identified conversations and 1,185 patient LLMs derived from hotline metadata. Patient models and a 23-item LLM judge were calibrated against expert counselors. Results: We evaluated five GPT models plus draft-then-edit and retrieval-augmented generation. All systems underperformed human counselors on excessive empathy and questioning in single-turn evaluation. The rubric achieved human-human Krippendorff's $\\alpha$ = 0.51 and LLM-human $\\alpha$ = 0.54 (Pearson r = 0.80). In multi-turn evaluation, retrieval-augmented generation scored highest overall (0.961), with all systems within 0.058. Microskills and style/tone were near ceiling, while productivity and safety/risk accounted for most between-system variation. Counselors rated patient LLMs realistic (86%) and useful (92%). Conclusion: CrisisBench enables scalable, privacy-preserving evaluation of crisis counseling. Current systems perform strongly on core structural competencies but still diverge from experts on important response-level failure modes. We release the rubrics, judge prompts, and evaluation tasks.",
+      "abstract_zh": "背景：危机热线在心理健康系统中至关重要，但往往人手不足且资金短缺。大型语言模型（LLMs）可以支持咨询师，但现有基准未能捕捉到危机对话中核心的升级、风险评估和降级过程，同时隐私限制也限制了真实对话记录的使用。方法：我们提出了CrisisBench，一个保护隐私的单轮和多轮危机咨询评估套件。它包括来自200个去标识化对话的1,085个单轮任务，以及基于热线元数据衍生的1,185个患者LLM。患者模型和23项LLM评估者经过与专家咨询师的校准。结果：我们评估了五个GPT模型以及草拟-再编辑和检索增强生成。所有系统在单轮评估中在过度同情和提问方面的表现均低于人类咨询师。评分标准在人际间的Krippendorff's α = 0.51，LLM与人类的α = 0.54（Pearson r = 0.80）。在多轮评估中，检索增强生成的得分最高（0.961），所有系统的得分相差不超过0.058。微技能和风格/语调接近上限，而生产力和安全/风险则占据了系统间变异的大部分。咨询师认为患者LLM是现实的（86%）和有用的（92%）。结论：CrisisBench使得危机咨询的可扩展、保护隐私的评估成为可能。当前系统在核心结构能力上表现良好，但在重要的响应级别失败模式上仍与专家存在差异。我们发布了评分标准、评估提示和评估任务。",
+      "authors": [
+        "Akshay Swaminathan",
+        "Filip Ramazan",
+        "Sharang Phadke",
+        "Kevina Wang",
+        "Ivan Lopez",
+        "Shaked Peleg Azzam",
+        "Gloria Ye",
+        "Chastin Chung",
+        "William Wang",
+        "Stephanie Stoll",
+        "Ivy Pham",
+        "Rebecca Hurwitz",
+        "Shreya Shah",
+        "Samuel Chuang",
+        "Divyanjali Verma",
+        "Abhay John",
+        "Ehsan Adeli",
+        "Nigam H. Shah"
+      ],
+      "date": "2026-11-18",
+      "id": "2611.21622",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+      "title_zh": "CrisisBench：危机咨询人工智能的评估套件",
+      "url": "/daily/2026-11-18/#paper-2611-21622"
+    },
     {
       "abstract": "Large language models (LLMs) are increasingly used to interpret, generate, and mediate public-facing language, which makes their reliability especially consequential in politically sensitive settings. Although sentiment analysis is a common task in this area, affective meaning in social media discourse is often conveyed through culturally situated and pragmatically indirect cues that are not well captured by label-centric evaluation alone. In this paper, we evaluate the robustness of LLMs for sentiment analysis of Spanish political discourse from social media, with emphasis on culturally situated affective interpretation. We introduce a diagnostic protocol that combines three independent human annotation views into Gold and Ambiguous subsets, and extends the corpus with a Synthetic subset built from sentiment-flipped counterfactuals selected through model-conditioned perplexity and LLM-as-a-judge criteria. Using this framework, we compare proprietary and open-weight models under zero-shot and few-shot prompting, focusing on predictive robustness across human agreement conditions and counterfactual shift. Our results show that annotation ambiguity and counterfactual perturbation reveal failure modes that conventional evaluation on the original corpus tends to obscure. GPT-4.1-mini remains the most stable among the evaluated models, whereas the two smaller open-weight models degrade more markedly under synthetic perturbations, and few-shot prompting provides only limited gains. Overall, the paper contributes a reproducible protocol for robustness-oriented evaluation in political sentiment analysis, an empirical characterization of model behavior under ambiguity and sentiment-flipped counterfactuals, and a publicly available Spanish social media dataset with three-way human sentiment annotations.",
       "abstract_zh": "大型语言模型（LLMs）越来越多地被用于解释、生成和调解面向公众的语言，这使得它们在政治敏感环境中的可靠性尤为重要。尽管情感分析在这一领域是一项常见任务，但社交媒体话语中的情感意义通常通过文化背景和务实间接的线索传达，这些线索仅通过以标签为中心的评估并不能很好地捕捉。在本文中，我们评估了大型语言模型在西班牙政治话语情感分析中的鲁棒性，重点关注文化背景下的情感解读。我们引入了一种诊断协议，将三种独立的人类注释视角结合成金标准（Gold）和模糊（Ambiguous）子集，并通过基于模型条件困惑度和LLM作为评判者标准选择的情感翻转反事实扩展语料库，构建了一个合成（Synthetic）子集。利用这一框架，我们在零-shot和少量示例（few-shot）提示下比较了专有模型和开放权重模型，重点关注在不同人类一致性条件和反事实转变下的预测鲁棒性。我们的结果表明，注释模糊性和反事实扰动揭示了传统评估在原始语料库中往往掩盖的失败模式。在评估的模型中，GPT-4.1-mini保持了最稳定的表现，而两个较小的开放权重模型在合成扰动下的降级更为明显，且少量示例提示仅提供有限的收益。总体而言，本文贡献了一种可重复的鲁棒性导向评估协议，用于政治情感分析，提供了在模糊性和情感翻转反事实下模型行为的实证特征，以及一个公开可用的西班牙社交媒体数据集，包含三种人类情感注释。",

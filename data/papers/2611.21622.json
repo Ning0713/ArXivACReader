@@ -1,0 +1,68 @@
+{
+  "abstract": "Background: Crisis helplines are essential to mental health systems but are often understaffed and underfunded. LLMs could support counselors, but existing benchmarks do not capture the escalation, risk assessment, and de-escalation central to crisis conversations, while privacy restrictions limit use of real transcripts. Methods: We present CrisisBench, a privacy-preserving suite for single- and multi-turn crisis counseling evaluation. It includes 1,085 single-turn tasks from 200 de-identified conversations and 1,185 patient LLMs derived from hotline metadata. Patient models and a 23-item LLM judge were calibrated against expert counselors. Results: We evaluated five GPT models plus draft-then-edit and retrieval-augmented generation. All systems underperformed human counselors on excessive empathy and questioning in single-turn evaluation. The rubric achieved human-human Krippendorff's $\\alpha$ = 0.51 and LLM-human $\\alpha$ = 0.54 (Pearson r = 0.80). In multi-turn evaluation, retrieval-augmented generation scored highest overall (0.961), with all systems within 0.058. Microskills and style/tone were near ceiling, while productivity and safety/risk accounted for most between-system variation. Counselors rated patient LLMs realistic (86%) and useful (92%). Conclusion: CrisisBench enables scalable, privacy-preserving evaluation of crisis counseling. Current systems perform strongly on core structural competencies but still diverge from experts on important response-level failure modes. We release the rubrics, judge prompts, and evaluation tasks.",
+  "abstract_zh": "背景：危机热线在心理健康系统中至关重要，但往往人手不足且资金短缺。大型语言模型（LLMs）可以支持咨询师，但现有基准未能捕捉到危机对话中核心的升级、风险评估和降级过程，同时隐私限制也限制了真实对话记录的使用。方法：我们提出了CrisisBench，一个保护隐私的单轮和多轮危机咨询评估套件。它包括来自200个去标识化对话的1,085个单轮任务，以及基于热线元数据衍生的1,185个患者LLM。患者模型和23项LLM评估者经过与专家咨询师的校准。结果：我们评估了五个GPT模型以及草拟-再编辑和检索增强生成。所有系统在单轮评估中在过度同情和提问方面的表现均低于人类咨询师。评分标准在人际间的Krippendorff's α = 0.51，LLM与人类的α = 0.54（Pearson r = 0.80）。在多轮评估中，检索增强生成的得分最高（0.961），所有系统的得分相差不超过0.058。微技能和风格/语调接近上限，而生产力和安全/风险则占据了系统间变异的大部分。咨询师认为患者LLM是现实的（86%）和有用的（92%）。结论：CrisisBench使得危机咨询的可扩展、保护隐私的评估成为可能。当前系统在核心结构能力上表现良好，但在重要的响应级别失败模式上仍与专家存在差异。我们发布了评分标准、评估提示和评估任务。",
+  "arxiv_id": "2611.21622",
+  "arxiv_url": "https://arxiv.org/abs/2611.21622v1",
+  "authors": [
+    "Akshay Swaminathan",
+    "Filip Ramazan",
+    "Sharang Phadke",
+    "Kevina Wang",
+    "Ivan Lopez",
+    "Shaked Peleg Azzam",
+    "Gloria Ye",
+    "Chastin Chung",
+    "William Wang",
+    "Stephanie Stoll",
+    "Ivy Pham",
+    "Rebecca Hurwitz",
+    "Shreya Shah",
+    "Samuel Chuang",
+    "Divyanjali Verma",
+    "Abhay John",
+    "Ehsan Adeli",
+    "Nigam H. Shah"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-18",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-18T13:45:17.628277+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.21622v1",
+  "published_at": "2026-09-11T06:42:30Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "empathy",
+      "LLM",
+      "LLMs",
+      "generation",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 21.0
+  },
+  "seen_dates": [
+    "2026-11-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.21622v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-18",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "心理状态/福祉",
+      "数据集/评测"
+    ]
+  },
+  "title": "CrisisBench: an evaluation suite for crisis counseling AI",
+  "title_zh": "CrisisBench：危机咨询人工智能的评估套件",
+  "translation_url": "https://hjfy.top/arxiv/2611.21622"
+}

@@ -1,0 +1,70 @@
+{
+  "abstract": "The EgoLink Challenge at ACM Multimedia 2026 benchmarks egocentric multimodal intelligence linking first-person perception, social reasoning, and interactive action. Unlike benchmarks centered on visible objects and activities, EgoLink evaluates whether models can interpret emotional and social cues, resolve visually grounded references, and convert user requests into verified tool-mediated actions. Its two tracks cover social reasoning in egocentric video and interactive agents that complete service tasks through dialogue, tool use, and closed-loop execution. Together, they test whether perception, reasoning, and decision-making remain coupled under both offline question answering and state-changing interaction. We highlight a multi-stage Track 1 data pipeline for multiple-choice question (MCQ) generation, chain-of-thought generation, automatic quality grading, and video-contribution filtering. We summarize the task design, evaluation metrics, rules, leaderboards, and representative solutions. The benchmark combines objective answer scoring with process- and result-based evaluation, enabling analysis of both final correctness and execution quality. The best Track 1 system achieved 0.9263 accuracy, while the best Track 2 system achieved 0.844 joint success and 0.916 micro accuracy. Participant reports reveal a shared principle: strong systems make intermediate evidence explicit through candidate verification, option-robust reasoning, scenario-aware planning, tool canonicalization, and state-aware correction before answering or acting. These findings highlight the importance of process verification and evidence-grounded reasoning for reliable egocentric multimodal intelligence.",
+  "abstract_zh": "EgoLink挑战赛在2026年ACM多媒体会议上基准测试以自我为中心的多模态智能，连接第一人称感知、社会推理和互动行为。与以可见物体和活动为中心的基准测试不同，EgoLink评估模型是否能够解读情感和社会线索，解决视觉基础的引用，并将用户请求转化为经过验证的工具介导的行动。其两个赛道涵盖了以自我为中心的视频中的社会推理和通过对话、工具使用和闭环执行完成服务任务的交互代理。两者共同测试感知、推理和决策在离线问答和状态变化交互下是否保持耦合。我们强调了一个多阶段的第一赛道数据管道，用于多项选择题（MCQ）生成、思维链生成、自动质量评分和视频贡献过滤。我们总结了任务设计、评估指标、规则、排行榜和代表性解决方案。该基准结合了客观答案评分与基于过程和结果的评估，能够分析最终正确性和执行质量。第一赛道最佳系统达到了0.9263的准确率，而第二赛道最佳系统达到了0.844的联合成功率和0.916的微观准确率。参与者报告揭示了一个共同原则：强大的系统通过候选验证、选项稳健推理、场景感知规划、工具标准化和状态感知纠正，使中间证据显性化，然后再进行回答或行动。这些发现突显了过程验证和基于证据的推理对于可靠的以自我为中心的多模态智能的重要性。",
+  "arxiv_id": "2611.21690",
+  "arxiv_url": "https://arxiv.org/abs/2611.21690v1",
+  "authors": [
+    "Renhe Sun",
+    "Yueying Feng",
+    "Bohan Yu",
+    "Tong Niu",
+    "Yunqi Liu",
+    "Zitong Wang",
+    "Haolin He",
+    "Kexin Shi",
+    "Hualei Wang",
+    "Qiuqiang Kong",
+    "Chang Yao",
+    "Yuge Huang",
+    "Weiqiang Wang",
+    "Jingyuan Chen",
+    "Jian Liu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-18",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-18T13:45:17.614063+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.21690v1",
+  "published_at": "2026-11-16T07:43:02Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "multimodal",
+      "reasoning",
+      "generation",
+      "dialogue",
+      "benchmark",
+      "多模态",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 33.0
+  },
+  "seen_dates": [
+    "2026-11-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.21690v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-18",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "多模态情感",
+      "情感生成"
+    ]
+  },
+  "title": "EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary",
+  "title_zh": "EgoLink：以自我为中心的语言-视觉交互网络知识挑战总结",
+  "translation_url": "https://hjfy.top/arxiv/2611.21690"
+}

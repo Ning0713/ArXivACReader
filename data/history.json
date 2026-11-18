@@ -2980,8 +2980,67 @@
         "文本情感"
       ],
       "title": "Evaluating Cultural Reasoning and Robustness in LLMs for Spanish Political Discourse"
+    },
+    "2611.21622": {
+      "dates": [
+        "2026-11-18"
+      ],
+      "first_seen": "2026-11-18",
+      "tags": [
+        "情感大模型",
+        "心理状态/福祉",
+        "数据集/评测"
+      ],
+      "title": "CrisisBench: an evaluation suite for crisis counseling AI"
+    },
+    "2611.21690": {
+      "dates": [
+        "2026-11-18"
+      ],
+      "first_seen": "2026-11-18",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "情感生成"
+      ],
+      "title": "EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary"
+    },
+    "2611.22704": {
+      "dates": [
+        "2026-11-18"
+      ],
+      "first_seen": "2026-11-18",
+      "tags": [
+        "数据集/评测",
+        "社交信号",
+        "语音情感"
+      ],
+      "title": "Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio"
+    },
+    "2611.22738": {
+      "dates": [
+        "2026-11-18"
+      ],
+      "first_seen": "2026-11-18",
+      "tags": [
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Can Activation Steering Substitute for Prompt-Based Affective Priming in LLM Digital Twins?"
+    },
+    "2611.23211": {
+      "dates": [
+        "2026-11-18"
+      ],
+      "first_seen": "2026-11-18",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "心理状态/福祉"
+      ],
+      "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving"
     }
   },
-  "total": 259,
-  "updated_at": "2026-11-17T14:14:43.848814+00:00"
+  "total": 264,
+  "updated_at": "2026-11-18T13:45:19.988518+00:00"
 }

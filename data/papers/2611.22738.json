@@ -1,0 +1,48 @@
+{
+  "abstract": "Affective priming -- asking participants to write about a recalled event, such as a time they felt grateful or lacked control, and then measuring the induced state and its spillover onto related judgments -- is a standard way to manipulate emotion in the social sciences, and it also shifts the responses of LLM-based digital twins. The writing task, however, requires generating a full text. We test whether activation steering can replace it. Using Llama-3.1-8B-Instruct on 100 personas in two domains (gratitude, lack of control), we compare a real-prompt path replicating the original Twin-2K-500 Mega Study (J2) with an injection path that skips the writing and adds a mean-difference direction, extracted from human writing, to the residual stream at varying strengths. The real-prompt effects fall between the original human and digital-twin effects in 5 of 6 comparisons. Injection shifts the manipulation check in a dose-dependent way and matches the real-prompt effect at one strength in the gratitude domain (beta ~ 2.7), but overshoots beyond it, on the proximal measure as well, and asymmetrically across the two directions. A structure-matched No-Injection baseline separates two sources of difference: omitting the writing task raises the proximal measure in both domains, whereas the injected direction itself moves a distal measure in the lack-of-control domain. Substitution is therefore measure-dependent: validity established for one way of inducing a state does not carry over uniformly to another.",
+  "abstract_zh": "情感启动——要求参与者写下一个回忆事件，例如他们感到感激或缺乏控制的时刻，然后测量所诱发的状态及其对相关判断的溢出效应——是社会科学中操控情感的标准方法，同时也会影响基于大型语言模型（LLM）的数字双胞胎的反应。然而，写作任务需要生成完整的文本。我们测试激活引导是否可以替代这一过程。使用 Llama-3.1-8B-Instruct 在两个领域（感激、缺乏控制）对 100 个角色进行实验，我们比较了一个真实提示路径，该路径复制了原始的 Twin-2K-500 Mega Study (J2)，与一个跳过写作并在不同强度下将从人类写作中提取的均值差异方向添加到残差流中的注入路径。真实提示效应在 6 次比较中的 5 次落在原始人类效应和数字双胞胎效应之间。注入以剂量依赖的方式改变操控检查，并在感激领域的一个强度下与真实提示效应匹配（beta ~ 2.7），但在近端测量上超出该值，并且在两个方向上不对称。一个结构匹配的无注入基线将两个差异来源分开：省略写作任务在两个领域中提高了近端测量，而注入方向本身在缺乏控制的领域中移动了远端测量。因此，替代是依赖于测量的：为一种诱发状态的方法建立的有效性并不能均匀地转移到另一种方法上。",
+  "arxiv_id": "2611.22738",
+  "arxiv_url": "https://arxiv.org/abs/2611.22738v1",
+  "authors": [
+    "Junyi Fan"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-18",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-18T13:45:17.627022+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.22738v1",
+  "published_at": "2026-11-17T13:08:06Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "affective",
+      "LLM",
+      "生成"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-11-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.22738v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-18",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Can Activation Steering Substitute for Prompt-Based Affective Priming in LLM Digital Twins?",
+  "title_zh": "激活引导能否替代基于提示的情感启动在大型语言模型数字双胞胎中的应用？",
+  "translation_url": "https://hjfy.top/arxiv/2611.22738"
+}

@@ -1,0 +1,65 @@
+{
+  "abstract": "Recognizing social signals such as interest and hesitation requires interpreting context-dependent behaviors that may co-occur in conversation. Existing affective computing benchmarks rarely evaluate such co-occurring signals, and conventional multi-label F1 overlooks semantic relationships and annotator disagreement. We introduce Social Signal Bench, a 47-hour densely annotated benchmark for the evaluation of social signal recognition and engagement, comprising two datasets: Social Signal Bench Video (25 hours), covering ten social signals in audiovisual recordings, and Social Signal Bench Audio (22 hours), covering six signals in audio-only recordings. Each dataset pairs a public training set of online conversational video, of which 10 hours are expert-annotated and the remainder pseudo-labeled, with a private expert-labeled test set spanning four conversational domains. We also propose Evidence-Weighted F1 (EW-F1), which weights reference labels by annotator evidence and assigns graded credit to semantically related predictions through optimal per-clip matching. Controlled perturbations demonstrate that EW-F1 distinguishes semantically related errors from unrelated ones, unlike conventional F1. Under a shared evaluation protocol, 7B open models post-trained on Social Signal Bench outperform general-purpose frontier models on video and match them on audio.",
+  "abstract_zh": "识别社交信号，如兴趣和犹豫，需解读在对话中可能共现的上下文依赖行为。现有的情感计算基准很少评估此类共现信号，传统的多标签F1指标忽视了语义关系和标注者之间的分歧。我们提出了社交信号基准（Social Signal Bench），这是一个47小时密集标注的基准，用于评估社交信号识别和参与度，包含两个数据集：社交信号基准视频（Social Signal Bench Video，25小时），涵盖十种社交信号的视听录音，以及社交信号基准音频（Social Signal Bench Audio，22小时），涵盖六种信号的仅音频录音。每个数据集都配有一组公共训练集，包含在线对话视频，其中10小时由专家标注，其余为伪标注，并与跨越四个对话领域的私有专家标注测试集相配对。我们还提出了证据加权F1（Evidence-Weighted F1，EW-F1），该指标通过标注者证据对参考标签进行加权，并通过最佳逐片匹配对语义相关的预测赋予分级信用。受控扰动实验表明，EW-F1能够区分语义相关的错误与无关错误，这与传统的F1不同。在共享评估协议下，经过在社交信号基准上后训练的7B开放模型在视频上超越了通用前沿模型，并在音频上与其持平。",
+  "arxiv_id": "2611.22704",
+  "arxiv_url": "https://arxiv.org/abs/2611.22704v1",
+  "authors": [
+    "Siddharth Ravi",
+    "Anders R. Bargum",
+    "Hugo Anselme",
+    "Patrizio Cugia di Sant'Orsola",
+    "Alberto Cardaci",
+    "Flora Kincso Parragi",
+    "Vincent Borowiec",
+    "Line H. Clemmensen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-18",
+  "categories": [
+    "cs.CV",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-18T13:45:17.619746+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.22704v1",
+  "published_at": "2026-11-17T12:49:04Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective computing",
+      "情感计算",
+      "affective",
+      "recognition",
+      "conversation",
+      "benchmark",
+      "dataset",
+      "audio",
+      "识别",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 86.0
+  },
+  "seen_dates": [
+    "2026-11-18"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.22704v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-18",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-18"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "社交信号",
+      "语音情感"
+    ]
+  },
+  "title": "Social Signal Bench: Evidence-Weighted Evaluation of Co-occurring Social Signals in Video and Audio",
+  "title_zh": "社交信号基准：视频和音频中共现社交信号的证据加权评估",
+  "translation_url": "https://hjfy.top/arxiv/2611.22704"
+}
