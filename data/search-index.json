@@ -1,6 +1,48 @@
 {
-  "generated_at": "2026-11-18T13:45:19.988518+00:00",
+  "generated_at": "2026-11-19T14:15:05.847148+00:00",
   "items": [
+    {
+      "abstract": "Diverse, semantically synchronized, and low-latency facial expressions are essential for human-robot interaction. While large language models (LLMs) have endowed anthropomorphic robots with fluent speech, facial expression still struggles to follow the conversation. Motivated by this gap, we present Emo-H2A (hidden-to-actuation), a paradigm that drives a facial robot directly from LLM hidden states during autoregressive decoding. Without a separate emotion label, expression stays continuous and context-sensitive, and the face moves with the unfolding reply. We instantiate this paradigm as EmoManifold, a training-free method that extracts a valence-arousal-dominance (VAD) coordinate from each hidden state, projects it, and drives the face at token granularity. The readout is checked on six language models, and the same projection drives our 29-degree-of-freedom (DoF) facial robot. When driven by this projection, the face shifts its expression in the matching direction on 87.5% of within-reply valence transitions, whereas holding a single label for the whole reply leaves directional tracking near the 50% chance level, and first moves in 0.96s rather than waiting 10-26s for the reply to finish and a turn-level label to return.",
+      "abstract_zh": "多样化、语义同步和低延迟的面部表情对于人机交互至关重要。虽然大型语言模型（LLMs）赋予了类人机器人流畅的语言能力，但面部表情仍然难以跟上对话的进程。基于这一差距，我们提出了Emo-H2A（hidden-to-actuation）范式，该范式在自回归解码过程中直接从LLM隐藏状态驱动面部机器人。在没有单独情感标签的情况下，表情保持连续且与上下文相关，面部表情随着回复的展开而移动。我们将这一范式实例化为EmoManifold，这是一种无训练方法，它从每个隐藏状态中提取出情感-唤醒-主导（valence-arousal-dominance，VAD）坐标，进行投影，并以令牌粒度驱动面部表情。我们在六种语言模型上检查了输出，并且相同的投影驱动了我们的29自由度（DoF）面部机器人。当通过该投影驱动时，面部在87.5%的回复内情感转变中朝匹配方向变化，而对整个回复持有单一标签则使得方向追踪接近50%的概率水平，并且首次移动时间为0.96秒，而不是等待10-26秒以完成回复并返回一个回合级别的标签。",
+      "authors": [
+        "Yige Liu",
+        "Jingcheng Huang",
+        "Hao Sun",
+        "Min Li",
+        "Zhouping Yin"
+      ],
+      "date": "2026-11-19",
+      "id": "2611.23932",
+      "tags": [
+        "情感大模型",
+        "面部表情",
+        "语音情感"
+      ],
+      "title": "Emo-H2A: Driving a Facial Robot Directly from LLM Hidden States at Token Rate",
+      "title_zh": "Emo-H2A：直接从大语言模型隐藏状态以令牌速率驱动面部机器人",
+      "url": "/daily/2026-11-19/#paper-2611-23932"
+    },
+    {
+      "abstract": "Character-level OCR for low-resource Manchu often produces near-miss spelling errors. Lexicon-constrained decoding can correct such errors with lexical knowledge, but a fixed dictionary cannot cover the many unseen word forms produced by agglutinative word formation. We study whether morphological expansion alleviates this limitation, and how the expansion size and confidence fallback affect recognition. We segment the training transcriptions with a dictionary-based stem list, extract roots and suffix chains from them, generate about 510k candidates, select the expansion size through frequency ranking on the validation set, and decompose accuracy under hard lexicon constraints into the product of coverage and in-lexicon precision. Across three CRNN training seeds, adding 250k candidates to a base dictionary of about 29k words raises the type accuracy on unseen combinations of seen roots from 63.6% to 86.3%, and overall token accuracy from 82.4% to 84.2%. Adding all candidates lowers overall token accuracy to 81.5%, showing that the coverage gain comes with a loss of in-lexicon precision. A further comparison shows that the base dictionary with confidence fallback performs best overall among the CRNN systems tested, reaching 76.1% type and 85.5% token accuracy and outperforming the expanded lexicon both with and without fallback. A Transformer recognizer shows similar trends. These results indicate that morphological expansion relieves the constraint of a fixed dictionary, but a larger lexicon does not guarantee better recognition; in the present low-resource Manchu OCR setting, a selective combination of reliable lexical constraints and open recognition is more effective.",
+      "abstract_zh": "针对低资源满洲语的字符级OCR常常会产生接近错误的拼写错误。词汇约束解码可以利用词汇知识纠正这些错误，但固定字典无法覆盖由粘合词形成产生的许多未见单词形式。我们研究形态学扩展是否缓解了这一限制，以及扩展规模和置信度回退如何影响识别。我们使用基于字典的词干列表对训练转录进行分段，从中提取词根和后缀链，生成约510k候选词，通过在验证集上的频率排名选择扩展规模，并将硬词汇约束下的准确性分解为覆盖率和词汇内精度的乘积。在三个CRNN训练种子中，将250k候选词添加到约29k单词的基础字典中，使得已见词根的未见组合的类型准确率从63.6%提高到86.3%，整体标记准确率从82.4%提高到84.2%。添加所有候选词使整体标记准确率降低至81.5%，显示出覆盖率的提升伴随着词汇内精度的损失。进一步比较显示，具有置信度回退的基础字典在测试的CRNN系统中整体表现最佳，达到了76.1%的类型准确率和85.5%的标记准确率，超越了扩展词汇表的表现，无论是否回退。Transformer识别器显示出类似的趋势。这些结果表明，形态学扩展缓解了固定字典的约束，但更大的词汇表并不保证更好的识别；在当前的低资源满洲OCR环境中，可靠的词汇约束与开放识别的选择性组合更为有效。",
+      "authors": [
+        "Ruixin Yu",
+        "Zifan Wang",
+        "Mingxin Ding",
+        "Xiaoxin Sun",
+        "Dongjie Wang",
+        "Suhua Wang",
+        "Minghao Yin"
+      ],
+      "date": "2026-11-19",
+      "id": "2611.23900",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Coverage Governs Accuracy: When to Expand the Lexicon and When to Fall Back in Low-Resource Manchu OCR",
+      "title_zh": "覆盖率决定准确性：在低资源满洲OCR中何时扩展词汇表以及何时回退",
+      "url": "/daily/2026-11-19/#paper-2611-23900"
+    },
     {
       "abstract": "Human cognitive state (e.g., distraction, stress), gaze, and behavior interact with the driving environment in subtle ways that AI could use to assist drivers, but ground-truth labels for human cognitive state levels are costly to obtain at scale. We propose a multimodal masked-diffusion autoencoder, ID-MAE, that adds a self-supervised objective to impairment prediction: alongside predicting the impairment label as a masked token, it reconstructs masked gaze and trajectory. To probe the effects of different modalities and types of impairments on model inference, we introduce DIVERT, a driving-simulator dataset containing 103 hours of driving data (n = 109) with ten impairment inductions spanning cognitive, visual, and emotional states, recorded with gaze, vehicle state, and scene video. We demonstrate how ID-MAE affords significant improvements in impairment inference results on both the DIVERT dataset and existing datasets, and enables strong results in additional tasks, such as trajectory and gaze prediction. For location-matched pairs, our model achieves a paired AUC of 0.706 for impairment detection on DIVERT, compared to 0.590 without reconstruction loss, improving over existing baselines. We probe the design space in terms of input modalities, masking scheme, positional encoding, attention mechanism, and decoding. We also investigate the interaction between various impairments in training and inference, demonstrating that visually demanding distractions are separable from cognitive distractions. Code and data will be available upon acceptance.",
       "abstract_zh": "人类的认知状态（例如，分心、压力）、注视和行为与驾驶环境以微妙的方式相互作用，这些信息可以被人工智能利用来辅助驾驶员，但获取人类认知状态水平的真实标签在规模上是昂贵的。我们提出了一种多模态掩蔽扩散自编码器，ID-MAE，它为障碍预测添加了自监督目标：除了预测作为掩蔽标记的障碍标签外，它还重建掩蔽的注视和轨迹。为了探讨不同模态和障碍类型对模型推断的影响，我们引入了DIVERT，这是一个包含103小时驾驶数据（n = 109）的驾驶模拟器数据集，涵盖了十种障碍诱导，涉及认知、视觉和情感状态，记录了注视、车辆状态和场景视频。我们展示了ID-MAE在DIVERT数据集和现有数据集上在障碍推断结果方面的显著改进，并在其他任务（如轨迹和注视预测）中实现了强大的结果。对于位置匹配的配对，我们的模型在DIVERT上的障碍检测中实现了0.706的配对AUC，而在没有重建损失的情况下为0.590，超越了现有基线。我们探讨了输入模态、掩蔽方案、位置编码、注意机制和解码的设计空间。我们还研究了各种障碍在训练和推断中的相互作用，证明视觉要求高的干扰与认知干扰是可分的。代码和数据将在接受后提供。",

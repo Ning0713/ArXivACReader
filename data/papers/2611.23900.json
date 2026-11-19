@@ -1,0 +1,53 @@
+{
+  "abstract": "Character-level OCR for low-resource Manchu often produces near-miss spelling errors. Lexicon-constrained decoding can correct such errors with lexical knowledge, but a fixed dictionary cannot cover the many unseen word forms produced by agglutinative word formation. We study whether morphological expansion alleviates this limitation, and how the expansion size and confidence fallback affect recognition. We segment the training transcriptions with a dictionary-based stem list, extract roots and suffix chains from them, generate about 510k candidates, select the expansion size through frequency ranking on the validation set, and decompose accuracy under hard lexicon constraints into the product of coverage and in-lexicon precision. Across three CRNN training seeds, adding 250k candidates to a base dictionary of about 29k words raises the type accuracy on unseen combinations of seen roots from 63.6% to 86.3%, and overall token accuracy from 82.4% to 84.2%. Adding all candidates lowers overall token accuracy to 81.5%, showing that the coverage gain comes with a loss of in-lexicon precision. A further comparison shows that the base dictionary with confidence fallback performs best overall among the CRNN systems tested, reaching 76.1% type and 85.5% token accuracy and outperforming the expanded lexicon both with and without fallback. A Transformer recognizer shows similar trends. These results indicate that morphological expansion relieves the constraint of a fixed dictionary, but a larger lexicon does not guarantee better recognition; in the present low-resource Manchu OCR setting, a selective combination of reliable lexical constraints and open recognition is more effective.",
+  "abstract_zh": "针对低资源满洲语的字符级OCR常常会产生接近错误的拼写错误。词汇约束解码可以利用词汇知识纠正这些错误，但固定字典无法覆盖由粘合词形成产生的许多未见单词形式。我们研究形态学扩展是否缓解了这一限制，以及扩展规模和置信度回退如何影响识别。我们使用基于字典的词干列表对训练转录进行分段，从中提取词根和后缀链，生成约510k候选词，通过在验证集上的频率排名选择扩展规模，并将硬词汇约束下的准确性分解为覆盖率和词汇内精度的乘积。在三个CRNN训练种子中，将250k候选词添加到约29k单词的基础字典中，使得已见词根的未见组合的类型准确率从63.6%提高到86.3%，整体标记准确率从82.4%提高到84.2%。添加所有候选词使整体标记准确率降低至81.5%，显示出覆盖率的提升伴随着词汇内精度的损失。进一步比较显示，具有置信度回退的基础字典在测试的CRNN系统中整体表现最佳，达到了76.1%的类型准确率和85.5%的标记准确率，超越了扩展词汇表的表现，无论是否回退。Transformer识别器显示出类似的趋势。这些结果表明，形态学扩展缓解了固定字典的约束，但更大的词汇表并不保证更好的识别；在当前的低资源满洲OCR环境中，可靠的词汇约束与开放识别的选择性组合更为有效。",
+  "arxiv_id": "2611.23900",
+  "arxiv_url": "https://arxiv.org/abs/2611.23900v1",
+  "authors": [
+    "Ruixin Yu",
+    "Zifan Wang",
+    "Mingxin Ding",
+    "Xiaoxin Sun",
+    "Dongjie Wang",
+    "Suhua Wang",
+    "Minghao Yin"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-19",
+  "categories": [
+    "cs.CL",
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-19T14:15:03.342408+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.23900v1",
+  "published_at": "2026-11-18T05:52:53Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affect recognition",
+      "recognition",
+      "识别",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 37.0
+  },
+  "seen_dates": [
+    "2026-11-19"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.23900v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-19",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-19"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "Coverage Governs Accuracy: When to Expand the Lexicon and When to Fall Back in Low-Resource Manchu OCR",
+  "title_zh": "覆盖率决定准确性：在低资源满洲OCR中何时扩展词汇表以及何时回退",
+  "translation_url": "https://hjfy.top/arxiv/2611.23900"
+}

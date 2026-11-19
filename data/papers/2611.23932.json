@@ -1,0 +1,56 @@
+{
+  "abstract": "Diverse, semantically synchronized, and low-latency facial expressions are essential for human-robot interaction. While large language models (LLMs) have endowed anthropomorphic robots with fluent speech, facial expression still struggles to follow the conversation. Motivated by this gap, we present Emo-H2A (hidden-to-actuation), a paradigm that drives a facial robot directly from LLM hidden states during autoregressive decoding. Without a separate emotion label, expression stays continuous and context-sensitive, and the face moves with the unfolding reply. We instantiate this paradigm as EmoManifold, a training-free method that extracts a valence-arousal-dominance (VAD) coordinate from each hidden state, projects it, and drives the face at token granularity. The readout is checked on six language models, and the same projection drives our 29-degree-of-freedom (DoF) facial robot. When driven by this projection, the face shifts its expression in the matching direction on 87.5% of within-reply valence transitions, whereas holding a single label for the whole reply leaves directional tracking near the 50% chance level, and first moves in 0.96s rather than waiting 10-26s for the reply to finish and a turn-level label to return.",
+  "abstract_zh": "多样化、语义同步和低延迟的面部表情对于人机交互至关重要。虽然大型语言模型（LLMs）赋予了类人机器人流畅的语言能力，但面部表情仍然难以跟上对话的进程。基于这一差距，我们提出了Emo-H2A（hidden-to-actuation）范式，该范式在自回归解码过程中直接从LLM隐藏状态驱动面部机器人。在没有单独情感标签的情况下，表情保持连续且与上下文相关，面部表情随着回复的展开而移动。我们将这一范式实例化为EmoManifold，这是一种无训练方法，它从每个隐藏状态中提取出情感-唤醒-主导（valence-arousal-dominance，VAD）坐标，进行投影，并以令牌粒度驱动面部表情。我们在六种语言模型上检查了输出，并且相同的投影驱动了我们的29自由度（DoF）面部机器人。当通过该投影驱动时，面部在87.5%的回复内情感转变中朝匹配方向变化，而对整个回复持有单一标签则使得方向追踪接近50%的概率水平，并且首次移动时间为0.96秒，而不是等待10-26秒以完成回复并返回一个回合级别的标签。",
+  "arxiv_id": "2611.23932",
+  "arxiv_url": "https://arxiv.org/abs/2611.23932v1",
+  "authors": [
+    "Yige Liu",
+    "Jingcheng Huang",
+    "Hao Sun",
+    "Min Li",
+    "Zhouping Yin"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-19",
+  "categories": [
+    "cs.RO"
+  ],
+  "fetched_at": "2026-11-19T14:15:03.320649+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.23932v1",
+  "published_at": "2026-11-18T06:22:49Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "large language models",
+      "LLM",
+      "LLMs",
+      "conversation",
+      "speech",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-19"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.23932v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-19",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-19"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "面部表情",
+      "语音情感"
+    ]
+  },
+  "title": "Emo-H2A: Driving a Facial Robot Directly from LLM Hidden States at Token Rate",
+  "title_zh": "Emo-H2A：直接从大语言模型隐藏状态以令牌速率驱动面部机器人",
+  "translation_url": "https://hjfy.top/arxiv/2611.23932"
+}

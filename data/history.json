@@ -3039,8 +3039,30 @@
         "心理状态/福祉"
       ],
       "title": "Multimodal Masked Diffusion Autoencoder for Modeling Impaired Driving"
+    },
+    "2611.23900": {
+      "dates": [
+        "2026-11-19"
+      ],
+      "first_seen": "2026-11-19",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Coverage Governs Accuracy: When to Expand the Lexicon and When to Fall Back in Low-Resource Manchu OCR"
+    },
+    "2611.23932": {
+      "dates": [
+        "2026-11-19"
+      ],
+      "first_seen": "2026-11-19",
+      "tags": [
+        "情感大模型",
+        "面部表情",
+        "语音情感"
+      ],
+      "title": "Emo-H2A: Driving a Facial Robot Directly from LLM Hidden States at Token Rate"
     }
   },
-  "total": 264,
-  "updated_at": "2026-11-18T13:45:19.988518+00:00"
+  "total": 266,
+  "updated_at": "2026-11-19T14:15:05.847148+00:00"
 }
