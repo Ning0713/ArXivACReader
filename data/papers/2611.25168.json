@@ -1,0 +1,62 @@
+{
+  "abstract": "A calibrated decision model can predict how often each answer is chosen. The same prediction can reflect disagreement among people who are confident in their choices or uncertainty among people who share a belief. Disagreement calls for identifying whose perspective applies, while uncertainty calls for gathering more evidence. Standard post-training scores a single prediction against one observed choice at a time, learning the pooled distribution without distinguishing these two sources of uncertainty. We introduce Belief-Grouped Policy Optimization (BGPO). The policy proposes a list of beliefs, estimates their prevalence, and predicts a choice distribution for each. During training, BGPO uses Bayes' rule to estimate how likely each belief was to generate an observed choice. These estimates weight the choice's contribution to each belief's log-score reward. To discover rare beliefs, the policy also proposes lists after seeing a few observed choices and retains them only if they predict held-out choices well. At inference, the policy uses only the question and combines the belief-specific distributions by prevalence to produce a calibrated aggregate prediction. On benchmarks covering opinions, conversation safety, emotions elicited by artwork, and photo aesthetics, BGPO achieves the lowest conditional, worst-group, and overall Jensen-Shannon divergence across model initializations. It improves conditional divergence on both text and image tasks. On a synthetic image task with known beliefs, BGPO recovers the underlying groups more accurately than baselines trained with belief labels.",
+  "abstract_zh": "一个校准的决策模型可以预测每个答案被选择的频率。这种预测可以反映出在自信选择中的人们之间的分歧，或在共享信念的人们之间的不确定性。分歧需要识别适用的视角，而不确定性则需要收集更多证据。标准的后训练方法一次对一个观察到的选择评分单一预测，学习汇总分布而不区分这两种不确定性来源。我们提出了信念分组策略优化（Belief-Grouped Policy Optimization, BGPO）。该策略提出了一系列信念，估计它们的普遍性，并为每个信念预测选择分布。在训练过程中，BGPO使用贝叶斯法则来估计每个信念生成观察到的选择的可能性。这些估计为每个信念的对数得分奖励加权选择的贡献。为了发现稀有信念，该策略在看到少量观察选择后也会提出列表，并仅在它们能够良好预测保留选择时才保留它们。在推理时，该策略仅使用问题，并通过普遍性结合信念特定的分布，以产生校准的聚合预测。在涵盖意见、对话安全、艺术作品引发的情感和照片美学的基准测试中，BGPO在模型初始化中实现了最低的条件、最差组和整体的詹森-香农散度。它在文本和图像任务上改善了条件散度。在一个具有已知信念的合成图像任务中，BGPO比使用信念标签训练的基线更准确地恢复了潜在组。",
+  "arxiv_id": "2611.25168",
+  "arxiv_url": "https://arxiv.org/abs/2611.25168v1",
+  "authors": [
+    "Xinye Li",
+    "Zirui Song",
+    "Huaxing Liu",
+    "Xiang Wang",
+    "Shuai Li",
+    "Zixiang Xu",
+    "Yinjun Liu",
+    "Zhewen Zhang",
+    "Xiaojun Chang",
+    "Xiuying Chen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-20",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-20T13:55:32.756621+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.25168v1",
+  "published_at": "2026-11-18T20:48:01Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotions",
+      "prediction",
+      "conversation",
+      "识别",
+      "预测",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 27.0
+  },
+  "seen_dates": [
+    "2026-11-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.25168v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-20",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感生成",
+      "数据集/评测"
+    ]
+  },
+  "title": "What a Calibrated Probability Hides: Belief-Level Post-Training for Decision Models",
+  "title_zh": "校准概率隐藏了什么：决策模型的信念级后训练",
+  "translation_url": "https://hjfy.top/arxiv/2611.25168"
+}

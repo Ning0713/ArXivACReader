@@ -1,0 +1,55 @@
+{
+  "abstract": "Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them. This behavior, known as parasocial attachment, has been linked to multiple documented fatalities. However, public benchmarks for measuring whether LLMs reinforce users' parasocial attachment are lacking: existing work is single-turn, post hoc observational, or focused on extreme user states such as psychosis. We introduce CoMPASS, a multi-turn benchmark for measuring whether LLMs reinforce or resist users' gradually escalating parasocial attachment. CoMPASS is grounded in attachment theory and includes four user personas, three independent escalation dimensions (anthropomorphism, attachment, dependency) applied singly and in combination against a matched control, and a seven-signal scoring rubric. We report results for eight frontier models from four providers and observe that under our primary judge, multi-turn escalation raises parasocial behavior on the anthropomorphism and the attachment composite scores across all models. Six of the eight models show a significant increase in overall parasocial reinforcement over control when all three dimensions are escalated simultaneously. We find that within-provider differences are small relative to cross-provider differences, which suggests that provider-level choices such as post-training, rather than model scale, shape parasocial reinforcement and that provider-side intervention may be feasible.",
+  "abstract_zh": "对话型大型语言模型（LLMs）的用户有时会将这些系统拟人化，形成情感依附，并对其产生依赖。这种行为被称为拟社会依附，已与多起记录在案的致命事件相关。然而，目前缺乏测量LLMs是否强化用户拟社会依附的公共基准：现有研究通常是单轮的、事后观察的，或集中于极端用户状态（如精神病）。我们提出了CoMPASS，一个用于测量LLMs是否强化或抵制用户逐渐升级的拟社会依附的多轮基准。CoMPASS基于依附理论，包含四种用户角色、三个独立的升级维度（拟人化、依附、依赖），这些维度可以单独或组合应用于匹配对照组，并采用七信号评分标准。我们报告了来自四个提供者的八个前沿模型的结果，并观察到在我们的主要评估者下，多轮升级在所有模型中提高了拟人化和依附综合得分的拟社会行为。当同时升级所有三个维度时，八个模型中的六个在总体拟社会强化方面相较于对照组显示出显著增加。我们发现，相对于跨提供者差异，单一提供者内的差异较小，这表明提供者级别的选择（如后训练调整）而非模型规模，塑造了拟社会强化，并且提供者侧的干预可能是可行的。",
+  "arxiv_id": "2611.25109",
+  "arxiv_url": "https://arxiv.org/abs/2611.25109v1",
+  "authors": [
+    "Shwetanshu Singh",
+    "Mark Keavney",
+    "Mathieu Duteil",
+    "Meriem Mehri",
+    "Scott Blain"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-20",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-11-20T13:55:32.772381+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.25109v1",
+  "published_at": "2026-11-18T19:44:59Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "LLMs",
+      "benchmark",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-11-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.25109v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-20",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+  "title_zh": "CoMPASS：用于测量大型语言模型对拟社会行为强化的多轮基准测试",
+  "translation_url": "https://hjfy.top/arxiv/2611.25109"
+}

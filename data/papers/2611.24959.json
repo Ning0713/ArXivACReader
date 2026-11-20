@@ -1,0 +1,56 @@
+{
+  "abstract": "The rise of powerful, fine-tuned large language models (LLMs) necessitates robust natural language inference (NLI) systems. These NLI systems ideally train across various tasks, encompassing diverse concepts like sentiment analysis, news classification, and coreference resolution. However, this continual, multi-tasking approach can lead to catastrophic forgetting, where previously learned tasks are lost, especially in domains lacking specific labels. Rehearsing past examples with labels can further exacerbate this issue by causing overfitting, hindering the system's ability to classify new categories. To tackle these challenges, this research proposes ICARE, a novel framework with two key components: an instance selection module and a knowledge distillation method. The former is based on representation learning, which meticulously selects training examples to present to the NLI system. The latter, knowledge distillation with feature and logit-level transfer, facilitates knowledge transfer between tasks. This leverages pruning techniques and optimized objective functions to transfer both essential feature-level and decision-making (logit-level) knowledge, mitigating catastrophic forgetting while adapting to new patterns. Extensive evaluations on benchmark text classification datasets have demonstrated ICARE's effectiveness. The framework achieves a significant improvement in target accuracy and reduction in the ``forgetting metric''. These results solidify ICARE's ability to preserve and leverage learned knowledge across diverse tasks, ultimately enhancing the adaptability and performance of NLI systems. The source code is available at https://github.com/CongSon01/ICARE_NLP.git",
+  "abstract_zh": "强大且经过精细调优的大型语言模型（LLMs）的崛起使得构建稳健的自然语言推理（NLI）系统成为必要。这些NLI系统理想情况下应在各种任务中进行训练，涵盖情感分析、新闻分类和共指解析等多样化概念。然而，这种持续的多任务处理方法可能导致灾难性遗忘，即之前学习的任务丧失，尤其是在缺乏特定标签的领域中。使用带标签的过去示例进行复习可能进一步加剧此问题，导致过拟合，从而妨碍系统对新类别的分类能力。为了解决这些挑战，本研究提出了ICARE，一个具有两个关键组件的新框架：实例选择模块和知识蒸馏方法。前者基于表示学习，精心选择训练示例以呈现给NLI系统。后者，即通过特征和logit级别转移的知识蒸馏，促进任务之间的知识转移。这利用了剪枝技术和优化目标函数，转移重要的特征级别和决策（logit级别）知识，减轻灾难性遗忘，同时适应新模式。在基准文本分类数据集上的广泛评估证明了ICARE的有效性。该框架在目标准确性和“遗忘度量”的降低方面取得了显著改善。这些结果巩固了ICARE在多样化任务中保留和利用学习知识的能力，最终提升了NLI系统的适应性和性能。源代码可在 https://github.com/CongSon01/ICARE_NLP.git 获取。",
+  "arxiv_id": "2611.24959",
+  "arxiv_url": "https://arxiv.org/abs/2611.24959v1",
+  "authors": [
+    "Son Duong",
+    "Truong X. Tran",
+    "Hai-Anh Tran"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-20",
+  "categories": [
+    "cs.CL",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-20T13:55:32.781032+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.24959v1",
+  "published_at": "2026-11-11T13:42:02Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "large language models",
+      "LLMs",
+      "classification",
+      "benchmark",
+      "分类",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 74.0
+  },
+  "seen_dates": [
+    "2026-11-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.24959v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-20",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "数据集/评测",
+      "情感大模型"
+    ]
+  },
+  "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+  "title_zh": "ICARE：基于增量类感知表示和蒸馏学习的跨领域文本分类",
+  "translation_url": "https://hjfy.top/arxiv/2611.24959"
+}

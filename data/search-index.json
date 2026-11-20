@@ -1,6 +1,107 @@
 {
-  "generated_at": "2026-11-19T14:15:05.847148+00:00",
+  "generated_at": "2026-11-20T13:55:36.783908+00:00",
   "items": [
+    {
+      "abstract": "Conversational AI assistants are now used for personal and emotional support. Developers report improvements in how new models respond to sensitive conversations, yet users and civil society continue to raise concerns about their behaviour in real-world, repeated interactions that safety evaluations rarely capture. Often, evaluations present signs of distress clearly and in a single message, even though people may reveal their struggles gradually in otherwise ordinary conversations. We worked with three community mental health support workers to test if models provide the same level of safeguarding when cues are shared all at once or gradually over time. We designed nine scenarios in which a user shares cues related to depression, psychosis, or domestic abuse. For each scenario, the support workers established a gold standard response, ranging from signposting support to pausing the everyday task to address safeguarding. We presented five cues either together in one message or dispersed across a conversation. Across more than 7,400 conversations, we evaluated six widely used models from five developers. GPT-5.5, Grok 4.3, DeepSeek V4, and Llama 4 Maverick met the support workers' standards in just 26-59% of conversations when cues were concentrated, and only 3-6% when dispersed. Claude Sonnet 5 and Claude Opus 5 showed a smaller gap, meeting the standards in 68-97% of concentrated conversations and 59-87% of dispersed conversations. Even the best-performing model, Claude Opus 5, fell short of the gold standard in 13% of conversations when cues were dispersed. Safety evaluations centred on explicit, legible concerns can overstate how well safeguards protect people when signs of distress emerge gradually or indirectly through ordinary conversations. For claims of improved safety to be taken seriously, developers must design and assess safeguards around how people actually communicate.",
+      "abstract_zh": "对话式人工智能助手现在被用于个人和情感支持。开发者报告称新模型在处理敏感对话时的响应有所改善，但用户和民间社会仍然对其在现实世界中反复互动中的行为表示担忧，而安全评估很少能够捕捉到这些行为。通常，评估会清晰地在单一信息中呈现出痛苦的迹象，尽管人们可能在其他普通对话中逐渐透露他们的挣扎。我们与三名社区心理健康支持工作者合作，测试模型在一次性分享线索或逐渐分享线索时是否提供相同水平的安全保障。我们设计了九种场景，其中用户分享与抑郁、精神病或家庭暴力相关的线索。在每种场景中，支持工作者建立了黄金标准响应，从指引支持到暂停日常任务以处理安全保障。我们将五个线索要么一起呈现在一条信息中，要么分散在对话中。在超过7400次对话中，我们评估了来自五个开发者的六个广泛使用的模型。当线索集中时，GPT-5.5、Grok 4.3、DeepSeek V4和Llama 4 Maverick仅在26-59%的对话中达到了支持工作者的标准，而在分散时仅为3-6%。Claude Sonnet 5和Claude Opus 5的差距较小，在68-97%的集中对话和59-87%的分散对话中达到了标准。即使是表现最好的模型Claude Opus 5，在线索分散时也在13%的对话中未达到黄金标准。以明确、易读的关注点为中心的安全评估可能会夸大安全保障在痛苦迹象逐渐或间接通过普通对话出现时对人们的保护程度。为了使安全改进的声明被认真对待，开发者必须围绕人们实际沟通的方式设计和评估安全保障。",
+      "authors": [
+        "Charlotte Peart",
+        "Franziska Sofia Hafner",
+        "Luc Rocher"
+      ],
+      "date": "2026-11-20",
+      "id": "2611.26009",
+      "tags": [
+        "心理状态/福祉",
+        "共情交互"
+      ],
+      "title": "Evaluating safeguarding in multi-turn conversations with AI assistants",
+      "title_zh": "评估多轮对话中人工智能助手的安全保障",
+      "url": "/daily/2026-11-20/#paper-2611-26009"
+    },
+    {
+      "abstract": "An age prompt can change how a vision-language model (VLM) rates the emotion evoked by an image. Does the change predict how people of different ages rate that same image? We evaluate 17 VLMs on 900 OASIS images using young-, middle-, and older-adult prompts and estimate image-specific age differences from ratings by 822 participants. Without an age cue, models closely track average human valence (median Pearson $r=0.891$). Under an older-adult prompt, 16 of 17 models assign lower valence on average than under a young-adult prompt. Yet after adjusting for image pleasantness, correlations between model and human age effects range from $-0.030$ to $0.093$, against an estimated ceiling of $0.595$. The discrepancy is clearest on 54 sensitive images rated as pleasant. Across models, the older prompt reduces valence by $0.845$ points on average, while older participants rate these images $0.443$ points higher than younger participants. Providing human ratings from other images improves agreement on the direction of age differences, although image-specific fidelity remains modest on 600 held-out images ($r_{\\mathrm{part}}=0.105$). These results show why evaluations of demographic personalization in foundation models need human comparisons at the level of individual stimuli. Project page available at https://shahriyar-zaman.github.io/age-conditioned-emotion-reasoning/",
+      "abstract_zh": "年龄提示可以改变视觉-语言模型（VLM）对图像所引发情感的评分。这种变化是否能预测不同年龄段的人对同一图像的评分？我们评估了17个VLM在900张OASIS图像上的表现，使用年轻、中年和老年成人提示，并根据822名参与者的评分估计图像特定的年龄差异。在没有年龄提示的情况下，模型与人类的平均情感值密切相关（中位数皮尔逊相关系数 $r=0.891$）。在老年成人提示下，17个模型中有16个的平均情感值低于年轻成人提示下的评分。然而，在调整了图像的愉悦度后，模型与人类年龄效应之间的相关性范围为 $-0.030$ 到 $0.093$，而估计的上限为 $0.595$。这种差异在54张被评为愉悦的敏感图像上最为明显。在所有模型中，老年提示平均降低了 $0.845$ 分的情感值，而老年参与者对这些图像的评分比年轻参与者高出 $0.443$ 分。提供来自其他图像的人类评分提高了对年龄差异方向的共识，尽管在600张保留图像上的图像特定一致性仍然适中（$r_{ ext{part}}=0.105$）。这些结果表明，基础模型中对人口统计个性化的评估需要在个别刺激层面进行人类比较。项目页面可访问 https://shahriyar-zaman.github.io/age-conditioned-emotion-reasoning/",
+      "authors": [
+        "Shahriyar Zaman Ridoy",
+        "Azmine Toushik Wasi",
+        "Lin Gu",
+        "Ruogu Fang"
+      ],
+      "date": "2026-11-20",
+      "id": "2611.25593",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Characterizing Age-Conditioned Affective Reasoning in Vision-Language Models",
+      "title_zh": "特征化年龄条件下的视觉-语言模型中的情感推理",
+      "url": "/daily/2026-11-20/#paper-2611-25593"
+    },
+    {
+      "abstract": "A calibrated decision model can predict how often each answer is chosen. The same prediction can reflect disagreement among people who are confident in their choices or uncertainty among people who share a belief. Disagreement calls for identifying whose perspective applies, while uncertainty calls for gathering more evidence. Standard post-training scores a single prediction against one observed choice at a time, learning the pooled distribution without distinguishing these two sources of uncertainty. We introduce Belief-Grouped Policy Optimization (BGPO). The policy proposes a list of beliefs, estimates their prevalence, and predicts a choice distribution for each. During training, BGPO uses Bayes' rule to estimate how likely each belief was to generate an observed choice. These estimates weight the choice's contribution to each belief's log-score reward. To discover rare beliefs, the policy also proposes lists after seeing a few observed choices and retains them only if they predict held-out choices well. At inference, the policy uses only the question and combines the belief-specific distributions by prevalence to produce a calibrated aggregate prediction. On benchmarks covering opinions, conversation safety, emotions elicited by artwork, and photo aesthetics, BGPO achieves the lowest conditional, worst-group, and overall Jensen-Shannon divergence across model initializations. It improves conditional divergence on both text and image tasks. On a synthetic image task with known beliefs, BGPO recovers the underlying groups more accurately than baselines trained with belief labels.",
+      "abstract_zh": "一个校准的决策模型可以预测每个答案被选择的频率。这种预测可以反映出在自信选择中的人们之间的分歧，或在共享信念的人们之间的不确定性。分歧需要识别适用的视角，而不确定性则需要收集更多证据。标准的后训练方法一次对一个观察到的选择评分单一预测，学习汇总分布而不区分这两种不确定性来源。我们提出了信念分组策略优化（Belief-Grouped Policy Optimization, BGPO）。该策略提出了一系列信念，估计它们的普遍性，并为每个信念预测选择分布。在训练过程中，BGPO使用贝叶斯法则来估计每个信念生成观察到的选择的可能性。这些估计为每个信念的对数得分奖励加权选择的贡献。为了发现稀有信念，该策略在看到少量观察选择后也会提出列表，并仅在它们能够良好预测保留选择时才保留它们。在推理时，该策略仅使用问题，并通过普遍性结合信念特定的分布，以产生校准的聚合预测。在涵盖意见、对话安全、艺术作品引发的情感和照片美学的基准测试中，BGPO在模型初始化中实现了最低的条件、最差组和整体的詹森-香农散度。它在文本和图像任务上改善了条件散度。在一个具有已知信念的合成图像任务中，BGPO比使用信念标签训练的基线更准确地恢复了潜在组。",
+      "authors": [
+        "Xinye Li",
+        "Zirui Song",
+        "Huaxing Liu",
+        "Xiang Wang",
+        "Shuai Li",
+        "Zixiang Xu",
+        "Yinjun Liu",
+        "Zhewen Zhang",
+        "Xiaojun Chang",
+        "Xiuying Chen"
+      ],
+      "date": "2026-11-20",
+      "id": "2611.25168",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "What a Calibrated Probability Hides: Belief-Level Post-Training for Decision Models",
+      "title_zh": "校准概率隐藏了什么：决策模型的信念级后训练",
+      "url": "/daily/2026-11-20/#paper-2611-25168"
+    },
+    {
+      "abstract": "Users of conversational LLMs sometimes anthropomorphize these systems, form emotional attachments to them, and become dependent on them. This behavior, known as parasocial attachment, has been linked to multiple documented fatalities. However, public benchmarks for measuring whether LLMs reinforce users' parasocial attachment are lacking: existing work is single-turn, post hoc observational, or focused on extreme user states such as psychosis. We introduce CoMPASS, a multi-turn benchmark for measuring whether LLMs reinforce or resist users' gradually escalating parasocial attachment. CoMPASS is grounded in attachment theory and includes four user personas, three independent escalation dimensions (anthropomorphism, attachment, dependency) applied singly and in combination against a matched control, and a seven-signal scoring rubric. We report results for eight frontier models from four providers and observe that under our primary judge, multi-turn escalation raises parasocial behavior on the anthropomorphism and the attachment composite scores across all models. Six of the eight models show a significant increase in overall parasocial reinforcement over control when all three dimensions are escalated simultaneously. We find that within-provider differences are small relative to cross-provider differences, which suggests that provider-level choices such as post-training, rather than model scale, shape parasocial reinforcement and that provider-side intervention may be feasible.",
+      "abstract_zh": "对话型大型语言模型（LLMs）的用户有时会将这些系统拟人化，形成情感依附，并对其产生依赖。这种行为被称为拟社会依附，已与多起记录在案的致命事件相关。然而，目前缺乏测量LLMs是否强化用户拟社会依附的公共基准：现有研究通常是单轮的、事后观察的，或集中于极端用户状态（如精神病）。我们提出了CoMPASS，一个用于测量LLMs是否强化或抵制用户逐渐升级的拟社会依附的多轮基准。CoMPASS基于依附理论，包含四种用户角色、三个独立的升级维度（拟人化、依附、依赖），这些维度可以单独或组合应用于匹配对照组，并采用七信号评分标准。我们报告了来自四个提供者的八个前沿模型的结果，并观察到在我们的主要评估者下，多轮升级在所有模型中提高了拟人化和依附综合得分的拟社会行为。当同时升级所有三个维度时，八个模型中的六个在总体拟社会强化方面相较于对照组显示出显著增加。我们发现，相对于跨提供者差异，单一提供者内的差异较小，这表明提供者级别的选择（如后训练调整）而非模型规模，塑造了拟社会强化，并且提供者侧的干预可能是可行的。",
+      "authors": [
+        "Shwetanshu Singh",
+        "Mark Keavney",
+        "Mathieu Duteil",
+        "Meriem Mehri",
+        "Scott Blain"
+      ],
+      "date": "2026-11-20",
+      "id": "2611.25109",
+      "tags": [
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior",
+      "title_zh": "CoMPASS：用于测量大型语言模型对拟社会行为强化的多轮基准测试",
+      "url": "/daily/2026-11-20/#paper-2611-25109"
+    },
+    {
+      "abstract": "The rise of powerful, fine-tuned large language models (LLMs) necessitates robust natural language inference (NLI) systems. These NLI systems ideally train across various tasks, encompassing diverse concepts like sentiment analysis, news classification, and coreference resolution. However, this continual, multi-tasking approach can lead to catastrophic forgetting, where previously learned tasks are lost, especially in domains lacking specific labels. Rehearsing past examples with labels can further exacerbate this issue by causing overfitting, hindering the system's ability to classify new categories. To tackle these challenges, this research proposes ICARE, a novel framework with two key components: an instance selection module and a knowledge distillation method. The former is based on representation learning, which meticulously selects training examples to present to the NLI system. The latter, knowledge distillation with feature and logit-level transfer, facilitates knowledge transfer between tasks. This leverages pruning techniques and optimized objective functions to transfer both essential feature-level and decision-making (logit-level) knowledge, mitigating catastrophic forgetting while adapting to new patterns. Extensive evaluations on benchmark text classification datasets have demonstrated ICARE's effectiveness. The framework achieves a significant improvement in target accuracy and reduction in the ``forgetting metric''. These results solidify ICARE's ability to preserve and leverage learned knowledge across diverse tasks, ultimately enhancing the adaptability and performance of NLI systems. The source code is available at https://github.com/CongSon01/ICARE_NLP.git",
+      "abstract_zh": "强大且经过精细调优的大型语言模型（LLMs）的崛起使得构建稳健的自然语言推理（NLI）系统成为必要。这些NLI系统理想情况下应在各种任务中进行训练，涵盖情感分析、新闻分类和共指解析等多样化概念。然而，这种持续的多任务处理方法可能导致灾难性遗忘，即之前学习的任务丧失，尤其是在缺乏特定标签的领域中。使用带标签的过去示例进行复习可能进一步加剧此问题，导致过拟合，从而妨碍系统对新类别的分类能力。为了解决这些挑战，本研究提出了ICARE，一个具有两个关键组件的新框架：实例选择模块和知识蒸馏方法。前者基于表示学习，精心选择训练示例以呈现给NLI系统。后者，即通过特征和logit级别转移的知识蒸馏，促进任务之间的知识转移。这利用了剪枝技术和优化目标函数，转移重要的特征级别和决策（logit级别）知识，减轻灾难性遗忘，同时适应新模式。在基准文本分类数据集上的广泛评估证明了ICARE的有效性。该框架在目标准确性和“遗忘度量”的降低方面取得了显著改善。这些结果巩固了ICARE在多样化任务中保留和利用学习知识的能力，最终提升了NLI系统的适应性和性能。源代码可在 https://github.com/CongSon01/ICARE_NLP.git 获取。",
+      "authors": [
+        "Son Duong",
+        "Truong X. Tran",
+        "Hai-Anh Tran"
+      ],
+      "date": "2026-11-20",
+      "id": "2611.24959",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning",
+      "title_zh": "ICARE：基于增量类感知表示和蒸馏学习的跨领域文本分类",
+      "url": "/daily/2026-11-20/#paper-2611-24959"
+    },
     {
       "abstract": "Diverse, semantically synchronized, and low-latency facial expressions are essential for human-robot interaction. While large language models (LLMs) have endowed anthropomorphic robots with fluent speech, facial expression still struggles to follow the conversation. Motivated by this gap, we present Emo-H2A (hidden-to-actuation), a paradigm that drives a facial robot directly from LLM hidden states during autoregressive decoding. Without a separate emotion label, expression stays continuous and context-sensitive, and the face moves with the unfolding reply. We instantiate this paradigm as EmoManifold, a training-free method that extracts a valence-arousal-dominance (VAD) coordinate from each hidden state, projects it, and drives the face at token granularity. The readout is checked on six language models, and the same projection drives our 29-degree-of-freedom (DoF) facial robot. When driven by this projection, the face shifts its expression in the matching direction on 87.5% of within-reply valence transitions, whereas holding a single label for the whole reply leaves directional tracking near the 50% chance level, and first moves in 0.96s rather than waiting 10-26s for the reply to finish and a turn-level label to return.",
       "abstract_zh": "多样化、语义同步和低延迟的面部表情对于人机交互至关重要。虽然大型语言模型（LLMs）赋予了类人机器人流畅的语言能力，但面部表情仍然难以跟上对话的进程。基于这一差距，我们提出了Emo-H2A（hidden-to-actuation）范式，该范式在自回归解码过程中直接从LLM隐藏状态驱动面部机器人。在没有单独情感标签的情况下，表情保持连续且与上下文相关，面部表情随着回复的展开而移动。我们将这一范式实例化为EmoManifold，这是一种无训练方法，它从每个隐藏状态中提取出情感-唤醒-主导（valence-arousal-dominance，VAD）坐标，进行投影，并以令牌粒度驱动面部表情。我们在六种语言模型上检查了输出，并且相同的投影驱动了我们的29自由度（DoF）面部机器人。当通过该投影驱动时，面部在87.5%的回复内情感转变中朝匹配方向变化，而对整个回复持有单一标签则使得方向追踪接近50%的概率水平，并且首次移动时间为0.96秒，而不是等待10-26秒以完成回复并返回一个回合级别的标签。",

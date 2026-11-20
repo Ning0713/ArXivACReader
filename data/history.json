@@ -3061,8 +3061,64 @@
         "语音情感"
       ],
       "title": "Emo-H2A: Driving a Facial Robot Directly from LLM Hidden States at Token Rate"
+    },
+    "2611.24959": {
+      "dates": [
+        "2026-11-20"
+      ],
+      "first_seen": "2026-11-20",
+      "tags": [
+        "文本情感",
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "ICARE: cross-domain text classification with incremental class-aware representation and distillation learning"
+    },
+    "2611.25109": {
+      "dates": [
+        "2026-11-20"
+      ],
+      "first_seen": "2026-11-20",
+      "tags": [
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "CoMPASS: A Multi-Turn Benchmark for Measuring LLM Reinforcement of Parasocial Behavior"
+    },
+    "2611.25168": {
+      "dates": [
+        "2026-11-20"
+      ],
+      "first_seen": "2026-11-20",
+      "tags": [
+        "文本情感",
+        "情感生成",
+        "数据集/评测"
+      ],
+      "title": "What a Calibrated Probability Hides: Belief-Level Post-Training for Decision Models"
+    },
+    "2611.25593": {
+      "dates": [
+        "2026-11-20"
+      ],
+      "first_seen": "2026-11-20",
+      "tags": [
+        "情感大模型"
+      ],
+      "title": "Characterizing Age-Conditioned Affective Reasoning in Vision-Language Models"
+    },
+    "2611.26009": {
+      "dates": [
+        "2026-11-20"
+      ],
+      "first_seen": "2026-11-20",
+      "tags": [
+        "心理状态/福祉",
+        "共情交互"
+      ],
+      "title": "Evaluating safeguarding in multi-turn conversations with AI assistants"
     }
   },
-  "total": 266,
-  "updated_at": "2026-11-19T14:15:05.847148+00:00"
+  "total": 271,
+  "updated_at": "2026-11-20T13:55:36.783908+00:00"
 }

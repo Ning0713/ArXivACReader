@@ -1,0 +1,54 @@
+{
+  "abstract": "An age prompt can change how a vision-language model (VLM) rates the emotion evoked by an image. Does the change predict how people of different ages rate that same image? We evaluate 17 VLMs on 900 OASIS images using young-, middle-, and older-adult prompts and estimate image-specific age differences from ratings by 822 participants. Without an age cue, models closely track average human valence (median Pearson $r=0.891$). Under an older-adult prompt, 16 of 17 models assign lower valence on average than under a young-adult prompt. Yet after adjusting for image pleasantness, correlations between model and human age effects range from $-0.030$ to $0.093$, against an estimated ceiling of $0.595$. The discrepancy is clearest on 54 sensitive images rated as pleasant. Across models, the older prompt reduces valence by $0.845$ points on average, while older participants rate these images $0.443$ points higher than younger participants. Providing human ratings from other images improves agreement on the direction of age differences, although image-specific fidelity remains modest on 600 held-out images ($r_{\\mathrm{part}}=0.105$). These results show why evaluations of demographic personalization in foundation models need human comparisons at the level of individual stimuli. Project page available at https://shahriyar-zaman.github.io/age-conditioned-emotion-reasoning/",
+  "abstract_zh": "年龄提示可以改变视觉-语言模型（VLM）对图像所引发情感的评分。这种变化是否能预测不同年龄段的人对同一图像的评分？我们评估了17个VLM在900张OASIS图像上的表现，使用年轻、中年和老年成人提示，并根据822名参与者的评分估计图像特定的年龄差异。在没有年龄提示的情况下，模型与人类的平均情感值密切相关（中位数皮尔逊相关系数 $r=0.891$）。在老年成人提示下，17个模型中有16个的平均情感值低于年轻成人提示下的评分。然而，在调整了图像的愉悦度后，模型与人类年龄效应之间的相关性范围为 $-0.030$ 到 $0.093$，而估计的上限为 $0.595$。这种差异在54张被评为愉悦的敏感图像上最为明显。在所有模型中，老年提示平均降低了 $0.845$ 分的情感值，而老年参与者对这些图像的评分比年轻参与者高出 $0.443$ 分。提供来自其他图像的人类评分提高了对年龄差异方向的共识，尽管在600张保留图像上的图像特定一致性仍然适中（$r_{ ext{part}}=0.105$）。这些结果表明，基础模型中对人口统计个性化的评估需要在个别刺激层面进行人类比较。项目页面可访问 https://shahriyar-zaman.github.io/age-conditioned-emotion-reasoning/",
+  "arxiv_id": "2611.25593",
+  "arxiv_url": "https://arxiv.org/abs/2611.25593v1",
+  "authors": [
+    "Shahriyar Zaman Ridoy",
+    "Azmine Toushik Wasi",
+    "Lin Gu",
+    "Ruogu Fang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-20",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-20T13:55:32.762425+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.25593v1",
+  "published_at": "2026-11-19T06:39:52Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion reasoning",
+      "emotion",
+      "affective",
+      "vision language",
+      "VLM",
+      "reasoning",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 55.0
+  },
+  "seen_dates": [
+    "2026-11-20"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.25593v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-20",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-20"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": []
+  },
+  "title": "Characterizing Age-Conditioned Affective Reasoning in Vision-Language Models",
+  "title_zh": "特征化年龄条件下的视觉-语言模型中的情感推理",
+  "translation_url": "https://hjfy.top/arxiv/2611.25593"
+}
