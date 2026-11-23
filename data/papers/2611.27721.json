@@ -1,0 +1,63 @@
+{
+  "abstract": "Decision models receive a question with a closed list of answers and return a probability for each answer instead of free text. They promise low latency and robustness to prompt wording, but no study has compared several of them with fine-tuned encoders across languages. We ask whether systems used without training on labelled data (zero-shot) can replace fine-tuning, and what the decision format adds over a general-purpose large language model (LLM). We compare three decision models (Jev, OpenAI Decisions, Strands Decider 2B) and two LLMs (GPT-6 Luna, Qwen3.5-2B), given Italian instructions, with two fine-tuned multilingual encoders (tabularisai, XLM-EMO) on four emotions (joy, sadness, anger, fear) in 10 social-media datasets in five languages, with paired difference and equivalence tests. The three best zero-shot systems (two decision models and one LLM) score on average about one macro-F1 point below an encoder fine-tuned on the target dataset; our test sets cannot exclude a gap of 4-5 points, and on single datasets either approach wins by up to 22 points. They beat encoders fine-tuned on another dataset by 8-15 points, though against XLM-EMO this may not extend to new datasets, and instructions in each text's language change their results by under 1 point. Exploratorily, they beat the strongest public emotion model used as is by about 6 points. OpenAI's decision endpoint matches GPT-6 Luna, the LLM it runs on, at a fifth of its median latency, and a 2-billion-parameter decision model beats a same-size general LLM by 10 points, owing to its training, not the decision format. The best zero-shot systems, the LLM included, have an SD of about 1 point across prompts. Without labelled data they are a strong default, and decision models add lower latency and, unlike generative LLM use, per-option probabilities. Fine-tuning won by a wide margin only on the largest dataset, GoEmotions.",
+  "abstract_zh": "决策模型接收一个带有封闭答案列表的问题，并为每个答案返回一个概率，而不是自由文本。它们承诺低延迟和对提示措辞的鲁棒性，但尚无研究将几种决策模型与跨语言的微调编码器进行比较。我们探讨了在没有标记数据训练的情况下（零样本）使用的系统是否可以替代微调，以及决策格式相较于通用大型语言模型（LLM）所增加的价值。我们比较了三种决策模型（Jev、OpenAI Decisions、Strands Decider 2B）和两种LLM（GPT-6 Luna、Qwen3.5-2B），在意大利语指令下，使用两个微调的多语言编码器（tabularisai、XLM-EMO）对四种情感（快乐、悲伤、愤怒、恐惧）进行分析，数据来自五种语言的10个社交媒体数据集，并进行了配对差异和等效性测试。三种最佳的零样本系统（两种决策模型和一种LLM）的得分平均比在目标数据集上微调的编码器低约一个宏F1点；我们的测试集无法排除4-5点的差距，并且在单个数据集上，任一方法的胜出幅度可达22点。它们在与另一个数据集上微调的编码器相比，得分高出8-15点，尽管在与XLM-EMO的比较中，这一优势可能不适用于新数据集，并且每个文本语言中的指令对结果的影响低于1点。探索性地，它们在使用的最强公共情感模型上得分高出约6点。OpenAI的决策端点在其运行的GPT-6 Luna上以其中位延迟的五分之一匹配，而一个20亿参数的决策模型在训练的基础上比同规模的通用LLM高出10点，而不是因为决策格式。最佳的零样本系统，包括LLM，在不同提示下的标准差约为1点。在没有标记数据的情况下，它们是一个强有力的默认选择，而决策模型则增加了更低的延迟，并且与生成性LLM的使用不同，提供了每个选项的概率。微调仅在最大的数据集GoEmotions上以较大幅度获胜。",
+  "arxiv_id": "2611.27721",
+  "arxiv_url": "https://arxiv.org/abs/2611.27721v1",
+  "authors": [
+    "Alessandro Piccolo",
+    "Francesco De Nicolò",
+    "Francesco Manco",
+    "Eufemia Lella"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-23",
+  "categories": [
+    "cs.CL",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-23T15:49:30.747460+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.27721v1",
+  "published_at": "2026-11-20T15:24:05Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion classification",
+      "情感分类",
+      "emotion",
+      "emotions",
+      "共情",
+      "large language model",
+      "LLM",
+      "LLMs",
+      "classification",
+      "dataset",
+      "分类",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 95.0
+  },
+  "seen_dates": [
+    "2026-11-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.27721v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-23",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "数据集/评测",
+      "鲁棒性/偏差"
+    ]
+  },
+  "title": "Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders",
+  "title_zh": "多语言情感分类的决策模型：与大型语言模型和编码器的比较研究",
+  "translation_url": "https://hjfy.top/arxiv/2611.27721"
+}

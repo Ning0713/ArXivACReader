@@ -3117,8 +3117,88 @@
         "共情交互"
       ],
       "title": "Evaluating safeguarding in multi-turn conversations with AI assistants"
+    },
+    "2611.27156": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "情绪识别"
+      ],
+      "title": "Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations"
+    },
+    "2611.27198": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "多模态情感",
+        "文本情感"
+      ],
+      "title": "DepthMSA: Combinatorial Training and Budget-Aware Depth Allocation for Multimodal Sentiment Analysis"
+    },
+    "2611.27327": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "语音情感",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Embodied Interaction Policy: A Unified Model for Full-Duplex Human-Robot Interaction"
+    },
+    "2611.27339": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "数据集/评测",
+        "多模态情感",
+        "文本情感"
+      ],
+      "title": "Unimodal Shortcuts and Joint Scene-Intent Dependence in Vision-Language Safety Representations"
+    },
+    "2611.27544": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Alliance Rupture and Repair in Simulating Cognitive Behavioral Therapy Dialogues"
+    },
+    "2611.27721": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "鲁棒性/偏差"
+      ],
+      "title": "Decision Models for Multilingual Emotion Classification: A Comparative Study Against LLMs and Encoders"
+    },
+    "2611.27807": {
+      "dates": [
+        "2026-11-23"
+      ],
+      "first_seen": "2026-11-23",
+      "tags": [
+        "文本情感",
+        "情感大模型",
+        "情感生成"
+      ],
+      "title": "Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models"
     }
   },
-  "total": 271,
-  "updated_at": "2026-11-20T13:55:36.783908+00:00"
+  "total": 278,
+  "updated_at": "2026-11-23T15:49:34.041084+00:00"
 }

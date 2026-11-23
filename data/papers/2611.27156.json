@@ -1,0 +1,47 @@
+{
+  "abstract": "Detectors of state-sponsored information operations (IOs) are trained on campaigns that platforms have already taken down. They lose much of their accuracy on an actor they have not seen, even though no operator in the archived data is trying to avoid them. A real operator wants two things, to reach an audience and to avoid being caught. We present IO-AI, a framework that gives simulated agents these two capabilities, engagement and evasion, and tests what each one does to detection. The agents are built from the posting behavior of real campaigns and choose the emotion, type, and timing of each post. An agent and a detector then train against each other in turn. We rank the trained agents by how hard they are to detect and train one detector on them from easiest to hardest. On 20 Twitter IO campaigns, this detector reduces missed detections of adaptive agents by 65% relative to a detector trained only on the archived campaigns, at a similar false-alarm rate. On actors it has never seen it reaches an F1 of 0.81, against 0.62. We find that an agent trained to seek engagement becomes easier to catch, because it learns the fast, emotional retweeting that archived campaigns were caught producing. An agent that was trained for engagement before the game keeps its engagement lead after it learns to evade. We also introduce a behavioral distance metric that compares two groups of accounts using only their unlabeled posting histories. The larger the distance between two groups, the worse a detector trained on one does on the other (Spearman rho = -0.58), so the metric can be used to choose which new groups to test first.",
+  "abstract_zh": "国家赞助的信息操作（IO）的探测器是基于平台已经下架的活动进行训练的。尽管在归档数据中没有操作者试图避免被探测，但它们在未见过的行为者身上失去了大部分准确性。真实的操作者希望实现两个目标：接触受众和避免被捕获。我们提出了IO-AI，一个框架，使模拟代理具备这两种能力，即参与和规避，并测试每种能力对探测的影响。这些代理基于真实活动的发布行为构建，并选择每个帖子的情感、类型和时机。代理和探测器交替进行训练。我们根据代理被探测的难度对其进行排名，并从最容易到最难训练一个探测器。在20个Twitter IO活动中，该探测器相较于仅基于归档活动训练的探测器，将适应性代理的漏检率降低了65%，且假警报率相似。在未见过的行为者上，其F1值达到了0.81，而之前为0.62。我们发现，训练以寻求参与的代理变得更容易被捕获，因为它学习到了归档活动中快速、情感化的转发行为。一个在游戏开始前就被训练以寻求参与的代理，在学习规避后仍保持其参与优势。我们还引入了一种行为距离度量，比较两个账户组，仅使用它们未标记的发布历史。两个组之间的距离越大，基于一个组训练的探测器在另一个组上的表现越差（Spearman rho = -0.58），因此该度量可以用于选择首先测试哪些新组。",
+  "arxiv_id": "2611.27156",
+  "arxiv_url": "https://arxiv.org/abs/2611.27156v1",
+  "authors": [
+    "Lin Tian",
+    "Marian-Andrei Rizoiu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-23",
+  "categories": [
+    "cs.CL",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-23T15:49:30.745423+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.27156v1",
+  "published_at": "2026-11-20T05:41:17Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "emotional",
+      "detection"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 15.0
+  },
+  "seen_dates": [
+    "2026-11-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.27156v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-23",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情绪识别",
+    "secondary": []
+  },
+  "title": "Co-Evolving Behavioral Agents and Detectors for Adaptive Information Operations",
+  "title_zh": "共进化行为代理与探测器用于自适应信息操作",
+  "translation_url": "https://hjfy.top/arxiv/2611.27156"
+}

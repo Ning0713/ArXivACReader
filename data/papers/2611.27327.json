@@ -1,0 +1,58 @@
+{
+  "abstract": "Real-time human-robot social interaction requires continuous coordination between speech and physical behavior. Existing systems often separate interaction agents from motion generation, complicating coordination as conversational states change. We propose \\textbf{Embodied Interaction Policy (EIP)}, a unified streaming framework that couples an Audio-Interaction expert with a motion expert through layer-wise joint attention. This allows motion generation to directly access the evolving interaction context. A chunk-wise causal mask prevents access to future context, while a vocal token encodes speaking state and the semantic emotion of the response. We construct \\textbf{Embodied Interaction Dataset (EI-Data)} from co-speech and dyadic interaction data and train our model in two stages to learn state-adaptive and emotion-conditioned behavior. Combined with the frozen interaction expert, EIP supports continuous robot motion during proactive responses and interruption-aware turn-taking. Quantitative evaluations demonstrate improved motion quality over representative gesture-generation baselines. Compared with a representative cascaded system, EIP achieves higher interaction success and reduces warm-start latency by 64\\%. Physical deployment and user studies further demonstrate improved motion naturalness and interaction comfort.",
+  "abstract_zh": "实时的人机社会交互需要在语言和身体行为之间进行持续的协调。现有系统通常将交互代理与运动生成分离，这在对话状态变化时使协调变得复杂。我们提出了 extbf{具身交互策略（Embodied Interaction Policy, EIP）}，这是一个统一的流式框架，通过层级联合注意力将音频交互专家与运动专家耦合。这使得运动生成可以直接访问不断变化的交互上下文。分块因果掩码防止访问未来上下文，而语音标记则编码说话状态和响应的语义情感。我们从共同发言和二人交互数据构建了 extbf{具身交互数据集（Embodied Interaction Dataset, EI-Data）}，并在两个阶段训练我们的模型，以学习状态自适应和情感条件行为。结合冻结的交互专家，EIP支持在主动响应和关注中断的轮流发言期间的连续机器人运动。定量评估表明，与代表性的手势生成基线相比，运动质量有所提高。与代表性的级联系统相比，EIP实现了更高的交互成功率，并将热启动延迟减少了64\u0000%。实际部署和用户研究进一步表明，运动的自然性和交互的舒适性得到了改善。",
+  "arxiv_id": "2611.27327",
+  "arxiv_url": "https://arxiv.org/abs/2611.27327v1",
+  "authors": [
+    "Youqiang Gui",
+    "Yunfei Liu",
+    "Lijian Lin",
+    "Ye Zhu",
+    "Jianan Wang",
+    "Cheng Peng",
+    "Yu Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-23",
+  "categories": [
+    "cs.RO"
+  ],
+  "fetched_at": "2026-11-23T15:49:30.719610+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.27327v1",
+  "published_at": "2026-11-20T09:06:20Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion",
+      "generation",
+      "dataset",
+      "speech",
+      "audio",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.27327v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-23",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "语音情感",
+    "secondary": [
+      "数据集/评测",
+      "情感生成"
+    ]
+  },
+  "title": "Embodied Interaction Policy: A Unified Model for Full-Duplex Human-Robot Interaction",
+  "title_zh": "具身交互策略：全双工人机交互的统一模型",
+  "translation_url": "https://hjfy.top/arxiv/2611.27327"
+}

@@ -1,0 +1,61 @@
+{
+  "abstract": "State-of-the-art multimodal sentiment analysis (MSA) models rely on large pretrained encoders, yet typically process every modality to its full depth, regardless of its computational cost or predictive contribution. This raises a fundamental question: how should limited computation be allocated across modalities to preserve predictive performance? We reveal a substantial mismatch between the computational cost of modality encoders and the predictive benefit of processing them more deeply, suggesting that different modalities require different encoding depths. However, enabling heterogeneous depths introduces a key challenge: representations extracted at different depths must still be effectively fused. To address this, we propose $\\textbf{DepthMSA}$, a budget-aware framework that supports flexible modality depths within a single MSA model. Specifically, we introduce combinatorial anytime training, which supervises the fusion head across all cross-modal depth combinations using a single full-depth encoder pass. At inference, a training-free, cost-aware allocator selects the configuration with the lowest validation-calibrated error under a sample-specific FLOPs budget. On CMU-MOSEI, DepthMSA maintains accuracy within one percentage point of the full-depth model while reducing measured FLOPs by 45\\%, or by 82\\% with a separately trained skip-enabled variant. When a CLIP visual encoder dominates computation, the allocation shifts toward reducing visual depth, achieving 56\\% fewer FLOPs at unchanged accuracy. Compared with ADMN, an adaptive layer-allocation method that trains a controller for each budget, the skip-enabled variant reaches its accuracy with 3.2$\\times$ fewer FLOPs and lower latency, without any per-budget training. Our project is available at https://pwang322.github.io/DepthMSA/.",
+  "abstract_zh": "最先进的多模态情感分析（MSA）模型依赖于大型预训练编码器，但通常对每种模态都进行全深度处理，而不考虑其计算成本或预测贡献。这引发了一个基本问题：如何在模态之间分配有限的计算资源以保持预测性能？我们揭示了模态编码器的计算成本与更深层次处理的预测收益之间存在显著的不匹配，表明不同模态需要不同的编码深度。然而，启用异构深度带来了一个关键挑战：在不同深度提取的表示仍需有效融合。为了解决这个问题，我们提出了$ extbf{DepthMSA}$，这是一个预算感知框架，支持单个MSA模型内的灵活模态深度。具体而言，我们引入了组合随时训练（combinatorial anytime training），该方法通过单次全深度编码器传递来监督所有跨模态深度组合的融合头。在推理阶段，一个无训练的、成本感知的分配器在特定样本的FLOPs预算下选择验证校准误差最低的配置。在CMU-MOSEI数据集上，DepthMSA的准确性保持在全深度模型的一个百分点内，同时测得的FLOPs减少了45%，或者通过单独训练的跳过启用变体减少了82%。当CLIP视觉编码器主导计算时，分配向减少视觉深度倾斜，实现了在保持准确性的情况下减少56%的FLOPs。与ADMN（自适应层分配方法）相比，后者为每个预算训练一个控制器，跳过启用变体以3.2倍更少的FLOPs和更低的延迟达到了其准确性，而无需任何每预算训练。我们的项目可在https://pwang322.github.io/DepthMSA/获取。",
+  "arxiv_id": "2611.27198",
+  "arxiv_url": "https://arxiv.org/abs/2611.27198v1",
+  "authors": [
+    "Pan Wang",
+    "Jie Peng",
+    "Zhimin Li",
+    "Jingxian Chen",
+    "Hui Ji",
+    "Huanrui Yang",
+    "Pengfei Zhou",
+    "Tianlong Chen",
+    "Jingtong Hu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-23",
+  "categories": [
+    "cs.CV",
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-23T15:49:30.729524+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.27198v1",
+  "published_at": "2026-11-20T06:33:07Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "CMU MOSEI",
+      "multimodal",
+      "多模态",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 88.0
+  },
+  "seen_dates": [
+    "2026-11-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.27198v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-23",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "文本情感"
+    ]
+  },
+  "title": "DepthMSA: Combinatorial Training and Budget-Aware Depth Allocation for Multimodal Sentiment Analysis",
+  "title_zh": "DepthMSA：用于多模态情感分析的组合训练与预算感知深度分配",
+  "translation_url": "https://hjfy.top/arxiv/2611.27198"
+}

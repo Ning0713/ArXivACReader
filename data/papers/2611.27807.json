@@ -1,0 +1,56 @@
+{
+  "abstract": "While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research predominantly focuses on English or relies on fine-tuned task-specific models, leaving a gap in understanding how open-weight LLMs handle compound sentiment triplet extraction across diverse language families and domains. We present a systematic evaluation of zero-shot multilingual TASD across 12 languages and three domains using seven instruction-tuned open-weight models -- ranging from 8B to 35B parameters across dense and mixture-of-experts (MoE) architectures -- under four prompting paradigms: monolithic, chain-of-thought, sequential, and sequential refine. Our results show that direct monolithic prompting achieves strong zero-shot performance, outperforming multi-step pipelines, while dense models consistently outperform sparse MoE architectures. Through fine-grained error taxonomy profiling and step-level pipeline tracking, we demonstrate that initial aspect term recall forms a hard bottleneck, whereas multi-step decomposition degrades extraction quality; iterative refinement only partially recovers this loss on larger models while inducing net-negative over-refinement on smaller architectures. Finally, generation volume analysis shows that multi-step strategies incur up to 2.38x token overhead without F1 gains, establishing monolithic prompting as the most effective and efficient paradigm for multilingual ABSA.",
+  "abstract_zh": "尽管大型语言模型（LLMs）在自然语言理解方面取得了进展，但它们在零-shot多语言环境中执行复杂的目标-方面-情感检测（TASD）——这是基于方面的情感分析（ABSA）中的一项关键任务——的能力仍然未得到充分探索。现有的ABSA研究主要集中在英语上，或依赖于经过微调的特定任务模型，这导致我们对开放权重的LLMs如何处理跨多种语言族和领域的复合情感三元组提取的理解存在空白。我们对12种语言和三个领域的零-shot多语言TASD进行了系统评估，使用了七个经过指令调优的开放权重模型——参数范围从8B到35B，涵盖了密集和混合专家（MoE）架构——在四种提示范式下进行评估：单一提示、思维链、顺序提示和顺序细化。我们的结果表明，直接的单一提示在零-shot性能上表现强劲，优于多步骤管道，而密集模型始终优于稀疏的MoE架构。通过细致的错误分类分析和步骤级管道跟踪，我们证明了初始方面术语的召回率形成了一个硬瓶颈，而多步骤分解则降低了提取质量；迭代细化仅在较大模型上部分恢复了这一损失，同时在较小架构上引入了净负的过度细化。最后，生成量分析显示，多步骤策略在没有F1增益的情况下会产生高达2.38倍的标记开销，确立了单一提示作为多语言ABSA中最有效和高效的范式。",
+  "arxiv_id": "2611.27807",
+  "arxiv_url": "https://arxiv.org/abs/2611.27807v1",
+  "authors": [
+    "Jakub Šm{í}d",
+    "Pavel Kr{á}l"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-23",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-23T15:49:30.747869+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.27807v1",
+  "published_at": "2026-11-20T16:34:21Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "sentiment analysis",
+      "情感分析",
+      "large language models",
+      "LLMs",
+      "detection",
+      "generation",
+      "大模型",
+      "分类",
+      "检测",
+      "生成"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 80.0
+  },
+  "seen_dates": [
+    "2026-11-23"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.27807v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-23",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-23"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "文本情感",
+    "secondary": [
+      "情感大模型",
+      "情感生成"
+    ]
+  },
+  "title": "Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models",
+  "title_zh": "评估大型语言模型在零-shot多语言基于方面的情感分析中的提示策略",
+  "translation_url": "https://hjfy.top/arxiv/2611.27807"
+}
