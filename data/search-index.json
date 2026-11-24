@@ -1,6 +1,159 @@
 {
-  "generated_at": "2026-11-23T15:49:34.041084+00:00",
+  "generated_at": "2026-11-24T15:41:03.902926+00:00",
   "items": [
+    {
+      "abstract": "Stress has become a significant concern because of its negative impact on both physical and mental health and therefore drives the need for reliable automated systems to assess stress levels. Electrocardiogram (ECG) signals provide a non-invasive and objective measure of physiological stress responses and have emerged as a promising modality for continuous stress monitoring. While deep learning techniques have achieved encouraging results in ECG-based stress detection, many studies focus only on one type of feature representation, and therefore limit their ability to capture both the morphological patterns and temporal dynamics embedded in ECG signals. To address this limitation, in this paper, we propose three deep learning-based feature fusion frameworks for ECG-based stress classification. These are Residual Feature Fusion (RFF), Bidirectional Feature-Wise Cross-Attention Fusion (BFCAF), and a novel Cross-Attention Residual Fusion (CARF) framework that combines the strengths of residual learning and bidirectional cross-attention within a unified architecture. A 1D Convolutional Neural Network (1D-CNN) and a BiLSTM-Attention network are used to extract complementary morphological and temporal representations from ECG signals, respectively. The proposed fusion frameworks leverage these heterogeneous representations to improve feature interaction, information preservation, and stress discrimination. The proposed frameworks are evaluated using subject-independent Leave-One-Subject-Out Cross-Validation (LOSOCV) on the RML and WESAD datasets for three-class stress classification. Experimental results show that the proposed feature fusion methods consistently improve performance over individual CNN and BiLSTM models, with CARF achieving the highest accuracies of 83.1% and 77.91% on the RML and WESAD datasets, respectively.",
+      "abstract_zh": "压力已成为一个重要问题，因为它对身体和心理健康产生负面影响，因此需要可靠的自动化系统来评估压力水平。心电图（ECG）信号提供了一种非侵入性和客观的生理压力反应测量，并已成为连续压力监测的有前景的方式。尽管深度学习技术在基于ECG的压力检测中取得了令人鼓舞的结果，但许多研究仅关注一种特征表示，因此限制了它们捕捉ECG信号中嵌入的形态模式和时间动态的能力。为了解决这一限制，本文提出了三种基于深度学习的特征融合框架用于基于ECG的压力分类。这些框架分别是残差特征融合（Residual Feature Fusion, RFF）、双向特征交叉注意力融合（Bidirectional Feature-Wise Cross-Attention Fusion, BFCAF）以及一种新颖的交叉注意力残差融合（Cross-Attention Residual Fusion, CARF）框架，该框架在统一架构中结合了残差学习和双向交叉注意力的优势。我们使用一维卷积神经网络（1D Convolutional Neural Network, 1D-CNN）和双向长短期记忆网络-注意力（BiLSTM-Attention）网络分别从ECG信号中提取互补的形态和时间表示。所提出的融合框架利用这些异构表示来改善特征交互、信息保留和压力区分。所提出的框架在RML和WESAD数据集上使用无关主体的留一法交叉验证（Leave-One-Subject-Out Cross-Validation, LOSOCV）进行三类压力分类的评估。实验结果表明，所提出的特征融合方法在性能上始终优于单独的CNN和BiLSTM模型，其中CARF在RML和WESAD数据集上分别达到了83.1%和77.91%的最高准确率。",
+      "authors": [
+        "Zeeshan Ahmad",
+        "Muhammad Rehman Zafar"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.29870",
+      "tags": [
+        "心理状态/福祉",
+        "生理信号"
+      ],
+      "title": "Deep Discriminative Feature Fusion of Convolutional and Attention-Based Recurrent Representations for Subject-Independent ECG Stress Recognition",
+      "title_zh": "基于卷积和注意力机制的循环表示的深度判别特征融合用于无关主体的心电图压力识别",
+      "url": "/daily/2026-11-24/#paper-2611-29870"
+    },
+    {
+      "abstract": "Advancements in Large Language Models (LLMs) have enabled a wide range of applications. However, their ability to simulate human-like behavior and reasoning remains unclear. While emotion detection is a better-established Natural Language Processing (NLP) task, existing approaches primarily focus on directly classifying text into predefined emotion classes, often overlooking the appraisal process that explains why an individual experiences a particular emotion in a given situation. In this work, we propose Psychology-based Chain-of-Thought (PsyCoT) reasoning, a theory-driven prompting strategy grounded in the Schachter-Singer and Cognitive Appraisal theories of emotion. We propose and evaluate PsyCoT for subjective NLP tasks, including emotion analysis, emotion intensity prediction, stress analysis, and depression severity identification. Our evaluation covers four levels of classification complexity: binary, multiclass, multi-label, and ordinal scaling, spanning 11 languages. We assess the performance of five state-of-the-art LLMs across these selected subjective NLP tasks. Experimental results demonstrate that PsyCoT prompt variants improve the standard chain-of-thought (CoT) prompting across the evaluated tasks. Across all evaluated tasks, PsyCoT yields F1 score gains ranging from 0.5% to 28.1%, depending on the model, task, and language configuration.",
+      "abstract_zh": "大型语言模型（LLMs）的进展使得广泛的应用成为可能。然而，它们模拟人类行为和推理的能力仍然不清晰。尽管情感检测是一个更为成熟的自然语言处理（NLP）任务，但现有方法主要集中在将文本直接分类为预定义的情感类别，往往忽视了评估过程，该过程解释了个体在特定情境中为何会体验某种情感。在本研究中，我们提出了基于心理学的思维链（Psychology-based Chain-of-Thought, PsyCoT）推理，这是一种基于情感的Schachter-Singer和认知评估理论的理论驱动提示策略。我们提出并评估了PsyCoT在主观NLP任务中的应用，包括情感分析、情感强度预测、压力分析和抑郁严重性识别。我们的评估涵盖了四个分类复杂度级别：二元、多类、多标签和序数标度，涉及11种语言。我们评估了五种最先进的LLMs在这些选定的主观NLP任务中的表现。实验结果表明，PsyCoT提示变体在评估的任务中改善了标准的思维链（Chain-of-Thought, CoT）提示。在所有评估的任务中，PsyCoT的F1得分提升范围为0.5%到28.1%，具体取决于模型、任务和语言配置。",
+      "authors": [
+        "Tadesse Destaw Bela",
+        "Iqra Ameer",
+        "Helena Gómez Adorno",
+        "Alexander Gelbukh",
+        "Eusebio Ricardez Vázquez",
+        "Olga Kolesnikova",
+        "Grigori Sidorov",
+        "Seid Muhie Yimam"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.29628",
+      "tags": [
+        "心理状态/福祉",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Explainable Emotion and Mental Health Reasoning in Large Language Models Using Theories of Emotion",
+      "title_zh": "基于情感理论的大型语言模型中的可解释情感与心理健康推理",
+      "url": "/daily/2026-11-24/#paper-2611-29628"
+    },
+    {
+      "abstract": "We present ChatNPC, a game companion that dynamically personalizes its responses in real time based on players' emotional shifts to enhance user immersion. The model integrates sequential data, leveraging the dynamic nature of streams to benefit from player information, spoken lines, and in-game context. We leverage recent progress in LLMs' tool-calling capabilities to extract vital information from memory and recognize potential constraints for accurate reasoning, thereby tackling the complexity of NPC conversation scenarios. The task is divided into a game sentinel-guided agent (SeGent), a memory capability, and a chat planning tool for reasoning instantiation. The approach uses a lightweight game template as an information framework, with relevant details and a thorough reasoning layout. We conduct extensive experiments on a newly developed game dataset for in-game context NPC dialogue and demonstrate that ChatNPC sequentially captures players' emotional shifts over time; responses are more naturalistic and human-like with appropriate conversational cues, pauses, and sighs; and utterances remain faithful to the dynamics of in-game context and player actions, supporting narrative continuity.",
+      "abstract_zh": "我们提出了ChatNPC，这是一款游戏伴侣，能够实时动态地根据玩家的情感变化个性化其响应，以增强用户沉浸感。该模型整合了序列数据，利用流的动态特性，从玩家信息、对话内容和游戏内情境中获益。我们利用近期在大型语言模型（LLMs）工具调用能力方面的进展，从记忆中提取重要信息，并识别潜在约束以实现准确推理，从而应对非玩家角色（NPC）对话场景的复杂性。该任务分为一个游戏哨兵引导的代理（SeGent）、一个记忆能力和一个用于推理实例化的聊天规划工具。该方法使用轻量级游戏模板作为信息框架，包含相关细节和全面的推理布局。我们在新开发的游戏数据集上进行了广泛实验，以支持游戏内情境的NPC对话，并展示了ChatNPC能够顺序捕捉玩家情感的变化；其响应更加自然和类人，具有适当的对话提示、停顿和叹息；并且发言忠实于游戏内情境和玩家行为的动态，支持叙事的连续性。",
+      "authors": [
+        "Michael Adjeisah",
+        "Jin Zhang",
+        "Pierluigi Vito Amadori",
+        "Ryan Spick",
+        "Eshani Kawshika Fernando",
+        "Kwame Omono Asamoah",
+        "Huiwen Zhao",
+        "Jian Jun Zhang",
+        "Guy Moss",
+        "Jian Chang"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.29372",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "Emotion-Aware and Context-Grounded Dialogue Agents for Personalized Video Game Interactions",
+      "title_zh": "情感感知与情境基础的对话代理用于个性化视频游戏互动",
+      "url": "/daily/2026-11-24/#paper-2611-29372"
+    },
+    {
+      "abstract": "Multimodal Emotion Recognition (MER) involves detecting the underlying emotion behind each utterance within a conversation, which is essential for emotionally aware human-computer interaction. While omni-modal large language models (Omni-LLMs) demonstrate strong capability for MER by jointly processing modalities including text, audio, and vision, different modality combinations yield different prediction outcomes across utterances: acoustic and visual inputs can help recover annotated labels missed by text-only inference, but can also turn correct predictions into errors. Processing all modalities for every utterance is also computationally expensive. To this end, we introduce EmoRouter, a training-free, model-agnostic framework for adaptive modality cascading that selects an exit tier for each utterance along a predefined modality order. The routing is guided by prediction-uncertainty estimates derived from Conformal Prediction. EmoRouter routes each utterance through a sequence of increasing-cost modality levels and exits at the first level when the model is confident in the emotion. To determine when to exit, we propose Conformal Set Contraction, a structural calibration criterion that calibrates the per-tier CP error budgets used for these exit decisions. Comprehensive evaluations on 4 MER benchmarks and 3 Omni-LLMs reveal that EmoRouter matches or outperforms the full modalities while reducing inference latency by 67.9--94.5%. Furthermore, EmoRouter demonstrates high transferability across different models, validating its robustness. Code is available at https://github.com/tianyi-lab/EmoRouter.",
+      "abstract_zh": "多模态情感识别（MER）涉及在对话中检测每个话语背后的潜在情感，这对于具有情感意识的人机交互至关重要。尽管全模态大型语言模型（Omni-LLMs）通过联合处理文本、音频和视觉等模态展现出强大的MER能力，但不同的模态组合在各个话语中会产生不同的预测结果：声学和视觉输入可以帮助恢复文本推理中遗漏的标注标签，但也可能将正确的预测转变为错误。对每个话语处理所有模态的计算成本也非常高。为此，我们提出了EmoRouter，这是一个无训练、模型无关的自适应模态级联框架，能够为每个话语沿预定义的模态顺序选择一个退出层。路由由基于符合预测（Conformal Prediction）得出的预测不确定性估计引导。EmoRouter将每个话语通过一系列逐渐增加成本的模态层进行路由，并在模型对情感有信心时在第一个层级退出。为了确定何时退出，我们提出了符合集收缩（Conformal Set Contraction），这是一种结构校准标准，用于校准用于这些退出决策的每层CP误差预算。在4个MER基准和3个Omni-LLMs上的全面评估表明，EmoRouter的表现与全模态相当或更优，同时将推理延迟降低了67.9%至94.5%。此外，EmoRouter在不同模型之间表现出高迁移性，验证了其鲁棒性。代码可在 https://github.com/tianyi-lab/EmoRouter 获取。",
+      "authors": [
+        "Fangxu Yu",
+        "Lingzhi Yuan",
+        "Dehai Min",
+        "Tao Feng",
+        "Ge Liu",
+        "Furong Huang",
+        "Tianyi Zhou"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.28960",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "EmoRouter: Adaptive Modality Cascading for Multimodal Emotion Recognition",
+      "title_zh": "EmoRouter：用于多模态情感识别的自适应模态级联",
+      "url": "/daily/2026-11-24/#paper-2611-28960"
+    },
+    {
+      "abstract": "Multimodal emotion recognition remains challenging due to the intrinsic heterogeneity of different modalities. Effectively leveraging both cross-modal consensus (consistency) and conflict (inconsistency) is essential, as they jointly provide complementary cues that enhance emotion understanding from diverse perspectives. Traditional multimodal methods often suffer from semantic ambiguity and rarely explicitly model the interplay between cross-modal consensus and conflict. Moreover, existing approaches struggle to capture and exploit the dynamic interactions between these two complementary factors. To overcome these limitations, we propose DynFlux, a model guided by a temporal heterogeneous graph that encodes both consensus and conflict relationships across modalities. DynFlux introduces a dedicated graph branch that explicitly captures cross-modal dependencies through sparse temporal graphs, and modulates the conventional multimodal emotion recognition pipeline at three hierarchical stages: adaptive feature modulation during feature extraction, guided aggregation modulation during feature integration, and fusion strategy modulation at the multimodal fusion stage. Through this design, DynFlux dynamically balances cross-modal consensus and conflict, enabling richer and more robust emotion understanding. Extensive experiments on benchmark datasets confirm that DynFlux consistently outperforms state-of-the-art methods, and its generality is further validated on multimodal intent recognition and multimodal sarcasm detection tasks.",
+      "abstract_zh": "多模态情感识别由于不同模态的内在异质性而仍然面临挑战。有效利用跨模态共识（一致性）和冲突（不一致性）至关重要，因为它们共同提供了互补线索，从不同角度增强情感理解。传统的多模态方法通常存在语义模糊的问题，并且很少明确建模跨模态共识与冲突之间的相互作用。此外，现有的方法难以捕捉和利用这两种互补因素之间的动态交互。为了解决这些局限性，我们提出了DynFlux，一个由时间异构图引导的模型，编码了跨模态的共识和冲突关系。DynFlux引入了一个专门的图分支，通过稀疏时间图明确捕捉跨模态依赖关系，并在三个层次的阶段调节传统的多模态情感识别流程：在特征提取阶段进行自适应特征调节，在特征整合阶段进行引导聚合调节，以及在多模态融合阶段进行融合策略调节。通过这种设计，DynFlux动态平衡跨模态共识与冲突，从而实现更丰富、更稳健的情感理解。在基准数据集上的大量实验确认，DynFlux始终优于最先进的方法，其通用性在多模态意图识别和多模态讽刺检测任务上得到了进一步验证。",
+      "authors": [
+        "Zeheng Wang",
+        "Hao Zhang",
+        "Yige Wang",
+        "Xi Xiao",
+        "Hao Xu"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.28716",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "情绪识别"
+      ],
+      "title": "DynFlux: Learning to Dynamically Balance Consensus and Conflict in Multimodal Emotion Recognition",
+      "title_zh": "DynFlux：学习在多模态情感识别中动态平衡共识与冲突",
+      "url": "/daily/2026-11-24/#paper-2611-28716"
+    },
+    {
+      "abstract": "Contribution: This study has shown that a shared prompt-refinement procedure, guided by distinct affective and cognitive feedback signals, can improve held-out reference agreement and multi-label classification while reducing affective-generation variability without executor parameter updates. Background: Industry 4.0 has increased demand for personalized technical education across interconnected computing and engineering domains, while prompt sensitivity and generation variability have complicated dependable interpretation of instructional dialogue and learning outcomes. Research Questions: The study has examined whether task-specific feedback can improve affective-reference agreement, generation consistency, and cognitive classification without updating executor parameters. Methodology: A secondary language model has revised executor prompts using executor-output discrepancies against model-generated affective references for four dialogues and annotated Bloom labels for 70 learning outcomes; separate sets of 100 EduTalk conversations and 1,000 outcomes have supported held-out comparisons. Small refinement sets, unvalidated affective references, and absent learner-outcome measures have constrained interpretation. Findings: Affective mean absolute error has decreased from 0.742 to 0.702 and mean generation standard deviation from 0.307 to 0.238, while Bloom micro-F1 has increased from 0.687 to 0.893 and exact-match subset accuracy from 0.418 to 0.636. These findings have supported prompt refinement as a candidate approach for developing adaptive technical instruction, while its effects on workforce learning remain to be established.",
+      "abstract_zh": "贡献：本研究表明，采用不同的情感和认知反馈信号指导的共享提示优化程序，可以在不更新执行者参数的情况下，提高保留参考一致性和多标签分类，同时减少情感生成的变异性。背景：工业4.0增加了对跨互联计算和工程领域个性化技术教育的需求，而提示敏感性和生成变异性使得对教学对话和学习结果的可靠解释变得复杂。研究问题：本研究考察了任务特定反馈是否能够在不更新执行者参数的情况下改善情感参考一致性、生成一致性和认知分类。方法论：一个次级语言模型使用执行者输出与模型生成的情感参考之间的差异修订执行者提示，针对四个对话和70个学习结果的布鲁姆标签进行了注释；另外100个EduTalk对话和1,000个结果的独立集支持了保留比较。小规模的优化集、未经验证的情感参考以及缺乏学习者结果的测量限制了解释。发现：情感平均绝对误差从0.742降至0.702，平均生成标准差从0.307降至0.238，而布鲁姆微F1从0.687上升至0.893，精确匹配子集准确率从0.418上升至0.636。这些发现支持提示优化作为开发自适应技术教学的一种候选方法，但其对劳动力学习的影响仍需进一步确定。",
+      "authors": [
+        "Josh Dean",
+        "Karan Patel",
+        "Gaurangi Raul",
+        "Yu-Zheng Lin",
+        "Jesus Pacheco",
+        "Sicong Shao",
+        "Shalaka Satam",
+        "Soheil Salehi",
+        "Pratik Satam"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.28293",
+      "tags": [
+        "情感生成"
+      ],
+      "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification",
+      "title_zh": "基于反馈的教育人工智能提示优化：情感轨迹估计与布鲁姆分类法",
+      "url": "/daily/2026-11-24/#paper-2611-28293"
+    },
+    {
+      "abstract": "A cross-modal routing module can improve over its backbone while its transport plan accounts for no demonstrable part of that improvement. In ABVnet with DFEW, Sinkhorn cross-modal routing (SCR) exceeds the retrained baseline by 0.87 unweighted average recall (UAR) points, a resolved difference, yet sits 0.17 points above an individually trained, parameter-matched pooled variant, an unresolved difference that establishes no equivalence; under the development protocol the comparison with the baseline reverses. Separating the two needs comparisons a module-against-backbone test cannot supply: parameter-matched variants changing only the plan rule, and interventions replacing the plan without retraining. The evaluation covers MMA-DFER and ABVnet on DFEW and MAFW, and MMA-DFER on CREMA-D, with a single training run per configuration and paired fold intervals. ABVnet with DFEW motivated the follow-up after the broader results were available. Replacing the plan everywhere with a uniform one reduces UAR by 0.72, whereas permuting its rows gives an unresolved difference of -0.20 UAR points; permutation is less damaging by 0.51 UAR points, a resolved contrast. Replacing the plan with the product of its own marginals, preserving both marginals and removing only frame-specific mixtures, reduces UAR by 0.70. These reductions concern reliance at inference; attribution of the module gain to the transport plan remains unestablished. Under the 1.5 fold-dependence widening, the baseline gain remains resolved, whereas the replacement reductions and the paired contrast are unresolved.",
+      "abstract_zh": "跨模态路由模块可以在其主干网络上实现改进，而其传输计划并未对该改进做出可证明的贡献。在使用DFEW数据集的ABVnet中，Sinkhorn跨模态路由（SCR）比重新训练的基线提高了0.87个未加权平均召回率（UAR）点，这是一个已解决的差异，但比单独训练的、参数匹配的合并变体高出0.17个点，这是一个未解决的差异，无法建立等价关系；在开发协议下，与基线的比较则相反。分离这两者需要模块与主干的对比测试无法提供的比较：仅改变计划规则的参数匹配变体，以及在不重新训练的情况下替换计划的干预。评估涵盖了MMA-DFER和ABVnet在DFEW和MAFW上的表现，以及MMA-DFER在CREMA-D上的表现，每种配置进行一次训练并配对折叠间隔。在更广泛的结果可用后，DFEW上的ABVnet促使了后续研究。将计划在所有地方替换为统一的计划使UAR降低了0.72，而对其行进行置换则产生了-0.20 UAR点的未解决差异；置换的损害程度较低，减少了0.51 UAR点，这是一个已解决的对比。用其自身边际的乘积替换计划，保留两个边际并仅去除帧特定的混合，导致UAR降低0.70。这些减少涉及推理时的依赖性；将模块增益归因于传输计划仍未得到确立。在1.5倍依赖性扩展下，基线增益仍然是已解决的，而替换的减少和配对对比则是未解决的。",
+      "authors": [
+        "Vu Nhat Minh Pham",
+        "Cong Khanh Nguyen",
+        "Minh Tuan Le",
+        "Van Thong Huynh"
+      ],
+      "date": "2026-11-24",
+      "id": "2611.28120",
+      "tags": [
+        "多模态情感",
+        "面部表情",
+        "语音情感"
+      ],
+      "title": "Separating Module Gain From Transport Plan Contribution in Audio-Visual Dynamic Facial Expression Recognition",
+      "title_zh": "音视频动态面部表情识别中模块增益与传输计划贡献的分离",
+      "url": "/daily/2026-11-24/#paper-2611-28120"
+    },
     {
       "abstract": "While large language models (LLMs) have advanced natural language understanding, their ability to perform complex target-aspect-sentiment detection (TASD) -- a key task within aspect-based sentiment analysis (ABSA) -- in zero-shot multilingual settings remains underexplored. Existing ABSA research predominantly focuses on English or relies on fine-tuned task-specific models, leaving a gap in understanding how open-weight LLMs handle compound sentiment triplet extraction across diverse language families and domains. We present a systematic evaluation of zero-shot multilingual TASD across 12 languages and three domains using seven instruction-tuned open-weight models -- ranging from 8B to 35B parameters across dense and mixture-of-experts (MoE) architectures -- under four prompting paradigms: monolithic, chain-of-thought, sequential, and sequential refine. Our results show that direct monolithic prompting achieves strong zero-shot performance, outperforming multi-step pipelines, while dense models consistently outperform sparse MoE architectures. Through fine-grained error taxonomy profiling and step-level pipeline tracking, we demonstrate that initial aspect term recall forms a hard bottleneck, whereas multi-step decomposition degrades extraction quality; iterative refinement only partially recovers this loss on larger models while inducing net-negative over-refinement on smaller architectures. Finally, generation volume analysis shows that multi-step strategies incur up to 2.38x token overhead without F1 gains, establishing monolithic prompting as the most effective and efficient paradigm for multilingual ABSA.",
       "abstract_zh": "尽管大型语言模型（LLMs）在自然语言理解方面取得了进展，但它们在零-shot多语言环境中执行复杂的目标-方面-情感检测（TASD）——这是基于方面的情感分析（ABSA）中的一项关键任务——的能力仍然未得到充分探索。现有的ABSA研究主要集中在英语上，或依赖于经过微调的特定任务模型，这导致我们对开放权重的LLMs如何处理跨多种语言族和领域的复合情感三元组提取的理解存在空白。我们对12种语言和三个领域的零-shot多语言TASD进行了系统评估，使用了七个经过指令调优的开放权重模型——参数范围从8B到35B，涵盖了密集和混合专家（MoE）架构——在四种提示范式下进行评估：单一提示、思维链、顺序提示和顺序细化。我们的结果表明，直接的单一提示在零-shot性能上表现强劲，优于多步骤管道，而密集模型始终优于稀疏的MoE架构。通过细致的错误分类分析和步骤级管道跟踪，我们证明了初始方面术语的召回率形成了一个硬瓶颈，而多步骤分解则降低了提取质量；迭代细化仅在较大模型上部分恢复了这一损失，同时在较小架构上引入了净负的过度细化。最后，生成量分析显示，多步骤策略在没有F1增益的情况下会产生高达2.38倍的标记开销，确立了单一提示作为多语言ABSA中最有效和高效的范式。",

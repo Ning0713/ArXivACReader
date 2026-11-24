@@ -1,0 +1,59 @@
+{
+  "abstract": "A cross-modal routing module can improve over its backbone while its transport plan accounts for no demonstrable part of that improvement. In ABVnet with DFEW, Sinkhorn cross-modal routing (SCR) exceeds the retrained baseline by 0.87 unweighted average recall (UAR) points, a resolved difference, yet sits 0.17 points above an individually trained, parameter-matched pooled variant, an unresolved difference that establishes no equivalence; under the development protocol the comparison with the baseline reverses. Separating the two needs comparisons a module-against-backbone test cannot supply: parameter-matched variants changing only the plan rule, and interventions replacing the plan without retraining. The evaluation covers MMA-DFER and ABVnet on DFEW and MAFW, and MMA-DFER on CREMA-D, with a single training run per configuration and paired fold intervals. ABVnet with DFEW motivated the follow-up after the broader results were available. Replacing the plan everywhere with a uniform one reduces UAR by 0.72, whereas permuting its rows gives an unresolved difference of -0.20 UAR points; permutation is less damaging by 0.51 UAR points, a resolved contrast. Replacing the plan with the product of its own marginals, preserving both marginals and removing only frame-specific mixtures, reduces UAR by 0.70. These reductions concern reliance at inference; attribution of the module gain to the transport plan remains unestablished. Under the 1.5 fold-dependence widening, the baseline gain remains resolved, whereas the replacement reductions and the paired contrast are unresolved.",
+  "abstract_zh": "跨模态路由模块可以在其主干网络上实现改进，而其传输计划并未对该改进做出可证明的贡献。在使用DFEW数据集的ABVnet中，Sinkhorn跨模态路由（SCR）比重新训练的基线提高了0.87个未加权平均召回率（UAR）点，这是一个已解决的差异，但比单独训练的、参数匹配的合并变体高出0.17个点，这是一个未解决的差异，无法建立等价关系；在开发协议下，与基线的比较则相反。分离这两者需要模块与主干的对比测试无法提供的比较：仅改变计划规则的参数匹配变体，以及在不重新训练的情况下替换计划的干预。评估涵盖了MMA-DFER和ABVnet在DFEW和MAFW上的表现，以及MMA-DFER在CREMA-D上的表现，每种配置进行一次训练并配对折叠间隔。在更广泛的结果可用后，DFEW上的ABVnet促使了后续研究。将计划在所有地方替换为统一的计划使UAR降低了0.72，而对其行进行置换则产生了-0.20 UAR点的未解决差异；置换的损害程度较低，减少了0.51 UAR点，这是一个已解决的对比。用其自身边际的乘积替换计划，保留两个边际并仅去除帧特定的混合，导致UAR降低0.70。这些减少涉及推理时的依赖性；将模块增益归因于传输计划仍未得到确立。在1.5倍依赖性扩展下，基线增益仍然是已解决的，而替换的减少和配对对比则是未解决的。",
+  "arxiv_id": "2611.28120",
+  "arxiv_url": "https://arxiv.org/abs/2611.28120v1",
+  "authors": [
+    "Vu Nhat Minh Pham",
+    "Cong Khanh Nguyen",
+    "Minh Tuan Le",
+    "Van Thong Huynh"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.CV",
+    "eess.IV"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.283616+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.28120v1",
+  "published_at": "2026-11-18T09:34:55Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "facial expression recognition",
+      "表情识别",
+      "CREMA D",
+      "MAFW",
+      "DFEW",
+      "recognition",
+      "audio",
+      "识别",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感计算数据集证据"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.28120v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "面部表情",
+      "语音情感"
+    ]
+  },
+  "title": "Separating Module Gain From Transport Plan Contribution in Audio-Visual Dynamic Facial Expression Recognition",
+  "title_zh": "音视频动态面部表情识别中模块增益与传输计划贡献的分离",
+  "translation_url": "https://hjfy.top/arxiv/2611.28120"
+}

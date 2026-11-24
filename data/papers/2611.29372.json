@@ -1,0 +1,65 @@
+{
+  "abstract": "We present ChatNPC, a game companion that dynamically personalizes its responses in real time based on players' emotional shifts to enhance user immersion. The model integrates sequential data, leveraging the dynamic nature of streams to benefit from player information, spoken lines, and in-game context. We leverage recent progress in LLMs' tool-calling capabilities to extract vital information from memory and recognize potential constraints for accurate reasoning, thereby tackling the complexity of NPC conversation scenarios. The task is divided into a game sentinel-guided agent (SeGent), a memory capability, and a chat planning tool for reasoning instantiation. The approach uses a lightweight game template as an information framework, with relevant details and a thorough reasoning layout. We conduct extensive experiments on a newly developed game dataset for in-game context NPC dialogue and demonstrate that ChatNPC sequentially captures players' emotional shifts over time; responses are more naturalistic and human-like with appropriate conversational cues, pauses, and sighs; and utterances remain faithful to the dynamics of in-game context and player actions, supporting narrative continuity.",
+  "abstract_zh": "我们提出了ChatNPC，这是一款游戏伴侣，能够实时动态地根据玩家的情感变化个性化其响应，以增强用户沉浸感。该模型整合了序列数据，利用流的动态特性，从玩家信息、对话内容和游戏内情境中获益。我们利用近期在大型语言模型（LLMs）工具调用能力方面的进展，从记忆中提取重要信息，并识别潜在约束以实现准确推理，从而应对非玩家角色（NPC）对话场景的复杂性。该任务分为一个游戏哨兵引导的代理（SeGent）、一个记忆能力和一个用于推理实例化的聊天规划工具。该方法使用轻量级游戏模板作为信息框架，包含相关细节和全面的推理布局。我们在新开发的游戏数据集上进行了广泛实验，以支持游戏内情境的NPC对话，并展示了ChatNPC能够顺序捕捉玩家情感的变化；其响应更加自然和类人，具有适当的对话提示、停顿和叹息；并且发言忠实于游戏内情境和玩家行为的动态，支持叙事的连续性。",
+  "arxiv_id": "2611.29372",
+  "arxiv_url": "https://arxiv.org/abs/2611.29372v1",
+  "authors": [
+    "Michael Adjeisah",
+    "Jin Zhang",
+    "Pierluigi Vito Amadori",
+    "Ryan Spick",
+    "Eshani Kawshika Fernando",
+    "Kwame Omono Asamoah",
+    "Huiwen Zhao",
+    "Jian Jun Zhang",
+    "Guy Moss",
+    "Jian Chang"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.320822+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.29372v1",
+  "published_at": "2026-11-22T10:24:58Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion aware",
+      "emotion",
+      "emotional",
+      "LLMs",
+      "reasoning",
+      "dialogue",
+      "conversation",
+      "dataset",
+      "识别",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 64.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.29372v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "数据集/评测",
+    "secondary": [
+      "情感大模型"
+    ]
+  },
+  "title": "Emotion-Aware and Context-Grounded Dialogue Agents for Personalized Video Game Interactions",
+  "title_zh": "情感感知与情境基础的对话代理用于个性化视频游戏互动",
+  "translation_url": "https://hjfy.top/arxiv/2611.29372"
+}

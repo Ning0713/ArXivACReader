@@ -3197,8 +3197,88 @@
         "情感生成"
       ],
       "title": "Evaluating Prompting Strategies for Zero-Shot Multilingual Aspect-Based Sentiment Analysis with Large Language Models"
+    },
+    "2611.28120": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "多模态情感",
+        "面部表情",
+        "语音情感"
+      ],
+      "title": "Separating Module Gain From Transport Plan Contribution in Audio-Visual Dynamic Facial Expression Recognition"
+    },
+    "2611.28293": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "情感生成"
+      ],
+      "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification"
+    },
+    "2611.28716": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "多模态情感",
+        "数据集/评测",
+        "情绪识别"
+      ],
+      "title": "DynFlux: Learning to Dynamically Balance Consensus and Conflict in Multimodal Emotion Recognition"
+    },
+    "2611.28960": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "语音情感"
+      ],
+      "title": "EmoRouter: Adaptive Modality Cascading for Multimodal Emotion Recognition"
+    },
+    "2611.29372": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "数据集/评测",
+        "情感大模型"
+      ],
+      "title": "Emotion-Aware and Context-Grounded Dialogue Agents for Personalized Video Game Interactions"
+    },
+    "2611.29628": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "心理状态/福祉",
+        "文本情感",
+        "情感大模型"
+      ],
+      "title": "Explainable Emotion and Mental Health Reasoning in Large Language Models Using Theories of Emotion"
+    },
+    "2611.29870": {
+      "dates": [
+        "2026-11-24"
+      ],
+      "first_seen": "2026-11-24",
+      "tags": [
+        "心理状态/福祉",
+        "生理信号"
+      ],
+      "title": "Deep Discriminative Feature Fusion of Convolutional and Attention-Based Recurrent Representations for Subject-Independent ECG Stress Recognition"
     }
   },
-  "total": 278,
-  "updated_at": "2026-11-23T15:49:34.041084+00:00"
+  "total": 285,
+  "updated_at": "2026-11-24T15:41:03.902926+00:00"
 }

@@ -1,0 +1,68 @@
+{
+  "abstract": "Advancements in Large Language Models (LLMs) have enabled a wide range of applications. However, their ability to simulate human-like behavior and reasoning remains unclear. While emotion detection is a better-established Natural Language Processing (NLP) task, existing approaches primarily focus on directly classifying text into predefined emotion classes, often overlooking the appraisal process that explains why an individual experiences a particular emotion in a given situation. In this work, we propose Psychology-based Chain-of-Thought (PsyCoT) reasoning, a theory-driven prompting strategy grounded in the Schachter-Singer and Cognitive Appraisal theories of emotion. We propose and evaluate PsyCoT for subjective NLP tasks, including emotion analysis, emotion intensity prediction, stress analysis, and depression severity identification. Our evaluation covers four levels of classification complexity: binary, multiclass, multi-label, and ordinal scaling, spanning 11 languages. We assess the performance of five state-of-the-art LLMs across these selected subjective NLP tasks. Experimental results demonstrate that PsyCoT prompt variants improve the standard chain-of-thought (CoT) prompting across the evaluated tasks. Across all evaluated tasks, PsyCoT yields F1 score gains ranging from 0.5% to 28.1%, depending on the model, task, and language configuration.",
+  "abstract_zh": "大型语言模型（LLMs）的进展使得广泛的应用成为可能。然而，它们模拟人类行为和推理的能力仍然不清晰。尽管情感检测是一个更为成熟的自然语言处理（NLP）任务，但现有方法主要集中在将文本直接分类为预定义的情感类别，往往忽视了评估过程，该过程解释了个体在特定情境中为何会体验某种情感。在本研究中，我们提出了基于心理学的思维链（Psychology-based Chain-of-Thought, PsyCoT）推理，这是一种基于情感的Schachter-Singer和认知评估理论的理论驱动提示策略。我们提出并评估了PsyCoT在主观NLP任务中的应用，包括情感分析、情感强度预测、压力分析和抑郁严重性识别。我们的评估涵盖了四个分类复杂度级别：二元、多类、多标签和序数标度，涉及11种语言。我们评估了五种最先进的LLMs在这些选定的主观NLP任务中的表现。实验结果表明，PsyCoT提示变体在评估的任务中改善了标准的思维链（Chain-of-Thought, CoT）提示。在所有评估的任务中，PsyCoT的F1得分提升范围为0.5%到28.1%，具体取决于模型、任务和语言配置。",
+  "arxiv_id": "2611.29628",
+  "arxiv_url": "https://arxiv.org/abs/2611.29628v1",
+  "authors": [
+    "Tadesse Destaw Bela",
+    "Iqra Ameer",
+    "Helena Gómez Adorno",
+    "Alexander Gelbukh",
+    "Eusebio Ricardez Vázquez",
+    "Olga Kolesnikova",
+    "Grigori Sidorov",
+    "Seid Muhie Yimam"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.336251+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.29628v1",
+  "published_at": "2026-11-22T17:23:32Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion detection",
+      "emotion analysis",
+      "情感分析",
+      "emotion",
+      "large language models",
+      "LLMs",
+      "classification",
+      "detection",
+      "prediction",
+      "reasoning",
+      "识别",
+      "分类",
+      "检测",
+      "预测",
+      "推理"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.29628v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "文本情感",
+      "情感大模型"
+    ]
+  },
+  "title": "Explainable Emotion and Mental Health Reasoning in Large Language Models Using Theories of Emotion",
+  "title_zh": "基于情感理论的大型语言模型中的可解释情感与心理健康推理",
+  "translation_url": "https://hjfy.top/arxiv/2611.29628"
+}

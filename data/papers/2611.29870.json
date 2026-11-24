@@ -1,0 +1,55 @@
+{
+  "abstract": "Stress has become a significant concern because of its negative impact on both physical and mental health and therefore drives the need for reliable automated systems to assess stress levels. Electrocardiogram (ECG) signals provide a non-invasive and objective measure of physiological stress responses and have emerged as a promising modality for continuous stress monitoring. While deep learning techniques have achieved encouraging results in ECG-based stress detection, many studies focus only on one type of feature representation, and therefore limit their ability to capture both the morphological patterns and temporal dynamics embedded in ECG signals. To address this limitation, in this paper, we propose three deep learning-based feature fusion frameworks for ECG-based stress classification. These are Residual Feature Fusion (RFF), Bidirectional Feature-Wise Cross-Attention Fusion (BFCAF), and a novel Cross-Attention Residual Fusion (CARF) framework that combines the strengths of residual learning and bidirectional cross-attention within a unified architecture. A 1D Convolutional Neural Network (1D-CNN) and a BiLSTM-Attention network are used to extract complementary morphological and temporal representations from ECG signals, respectively. The proposed fusion frameworks leverage these heterogeneous representations to improve feature interaction, information preservation, and stress discrimination. The proposed frameworks are evaluated using subject-independent Leave-One-Subject-Out Cross-Validation (LOSOCV) on the RML and WESAD datasets for three-class stress classification. Experimental results show that the proposed feature fusion methods consistently improve performance over individual CNN and BiLSTM models, with CARF achieving the highest accuracies of 83.1% and 77.91% on the RML and WESAD datasets, respectively.",
+  "abstract_zh": "压力已成为一个重要问题，因为它对身体和心理健康产生负面影响，因此需要可靠的自动化系统来评估压力水平。心电图（ECG）信号提供了一种非侵入性和客观的生理压力反应测量，并已成为连续压力监测的有前景的方式。尽管深度学习技术在基于ECG的压力检测中取得了令人鼓舞的结果，但许多研究仅关注一种特征表示，因此限制了它们捕捉ECG信号中嵌入的形态模式和时间动态的能力。为了解决这一限制，本文提出了三种基于深度学习的特征融合框架用于基于ECG的压力分类。这些框架分别是残差特征融合（Residual Feature Fusion, RFF）、双向特征交叉注意力融合（Bidirectional Feature-Wise Cross-Attention Fusion, BFCAF）以及一种新颖的交叉注意力残差融合（Cross-Attention Residual Fusion, CARF）框架，该框架在统一架构中结合了残差学习和双向交叉注意力的优势。我们使用一维卷积神经网络（1D Convolutional Neural Network, 1D-CNN）和双向长短期记忆网络-注意力（BiLSTM-Attention）网络分别从ECG信号中提取互补的形态和时间表示。所提出的融合框架利用这些异构表示来改善特征交互、信息保留和压力区分。所提出的框架在RML和WESAD数据集上使用无关主体的留一法交叉验证（Leave-One-Subject-Out Cross-Validation, LOSOCV）进行三类压力分类的评估。实验结果表明，所提出的特征融合方法在性能上始终优于单独的CNN和BiLSTM模型，其中CARF在RML和WESAD数据集上分别达到了83.1%和77.91%的最高准确率。",
+  "arxiv_id": "2611.29870",
+  "arxiv_url": "https://arxiv.org/abs/2611.29870v1",
+  "authors": [
+    "Zeeshan Ahmad",
+    "Muhammad Rehman Zafar"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.322201+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.29870v1",
+  "published_at": "2026-11-23T01:00:41Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "WESAD",
+      "recognition",
+      "classification",
+      "detection",
+      "physiological",
+      "neural network",
+      "deep learning",
+      "识别",
+      "分类",
+      "检测"
+    ],
+    "reasons": [
+      "情感计算数据集证据"
+    ],
+    "score": 47.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.29870v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "生理信号"
+    ]
+  },
+  "title": "Deep Discriminative Feature Fusion of Convolutional and Attention-Based Recurrent Representations for Subject-Independent ECG Stress Recognition",
+  "title_zh": "基于卷积和注意力机制的循环表示的深度判别特征融合用于无关主体的心电图压力识别",
+  "translation_url": "https://hjfy.top/arxiv/2611.29870"
+}

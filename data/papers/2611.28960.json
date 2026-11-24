@@ -1,0 +1,68 @@
+{
+  "abstract": "Multimodal Emotion Recognition (MER) involves detecting the underlying emotion behind each utterance within a conversation, which is essential for emotionally aware human-computer interaction. While omni-modal large language models (Omni-LLMs) demonstrate strong capability for MER by jointly processing modalities including text, audio, and vision, different modality combinations yield different prediction outcomes across utterances: acoustic and visual inputs can help recover annotated labels missed by text-only inference, but can also turn correct predictions into errors. Processing all modalities for every utterance is also computationally expensive. To this end, we introduce EmoRouter, a training-free, model-agnostic framework for adaptive modality cascading that selects an exit tier for each utterance along a predefined modality order. The routing is guided by prediction-uncertainty estimates derived from Conformal Prediction. EmoRouter routes each utterance through a sequence of increasing-cost modality levels and exits at the first level when the model is confident in the emotion. To determine when to exit, we propose Conformal Set Contraction, a structural calibration criterion that calibrates the per-tier CP error budgets used for these exit decisions. Comprehensive evaluations on 4 MER benchmarks and 3 Omni-LLMs reveal that EmoRouter matches or outperforms the full modalities while reducing inference latency by 67.9--94.5%. Furthermore, EmoRouter demonstrates high transferability across different models, validating its robustness. Code is available at https://github.com/tianyi-lab/EmoRouter.",
+  "abstract_zh": "多模态情感识别（MER）涉及在对话中检测每个话语背后的潜在情感，这对于具有情感意识的人机交互至关重要。尽管全模态大型语言模型（Omni-LLMs）通过联合处理文本、音频和视觉等模态展现出强大的MER能力，但不同的模态组合在各个话语中会产生不同的预测结果：声学和视觉输入可以帮助恢复文本推理中遗漏的标注标签，但也可能将正确的预测转变为错误。对每个话语处理所有模态的计算成本也非常高。为此，我们提出了EmoRouter，这是一个无训练、模型无关的自适应模态级联框架，能够为每个话语沿预定义的模态顺序选择一个退出层。路由由基于符合预测（Conformal Prediction）得出的预测不确定性估计引导。EmoRouter将每个话语通过一系列逐渐增加成本的模态层进行路由，并在模型对情感有信心时在第一个层级退出。为了确定何时退出，我们提出了符合集收缩（Conformal Set Contraction），这是一种结构校准标准，用于校准用于这些退出决策的每层CP误差预算。在4个MER基准和3个Omni-LLMs上的全面评估表明，EmoRouter的表现与全模态相当或更优，同时将推理延迟降低了67.9%至94.5%。此外，EmoRouter在不同模型之间表现出高迁移性，验证了其鲁棒性。代码可在 https://github.com/tianyi-lab/EmoRouter 获取。",
+  "arxiv_id": "2611.28960",
+  "arxiv_url": "https://arxiv.org/abs/2611.28960v1",
+  "authors": [
+    "Fangxu Yu",
+    "Lingzhi Yuan",
+    "Dehai Min",
+    "Tao Feng",
+    "Ge Liu",
+    "Furong Huang",
+    "Tianyi Zhou"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.333311+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.28960v1",
+  "published_at": "2026-11-21T17:52:45Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "multimodal",
+      "large language models",
+      "LLMs",
+      "recognition",
+      "prediction",
+      "conversation",
+      "audio",
+      "多模态",
+      "识别",
+      "检测",
+      "预测",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.28960v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "语音情感"
+    ]
+  },
+  "title": "EmoRouter: Adaptive Modality Cascading for Multimodal Emotion Recognition",
+  "title_zh": "EmoRouter：用于多模态情感识别的自适应模态级联",
+  "translation_url": "https://hjfy.top/arxiv/2611.28960"
+}

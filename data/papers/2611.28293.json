@@ -1,0 +1,61 @@
+{
+  "abstract": "Contribution: This study has shown that a shared prompt-refinement procedure, guided by distinct affective and cognitive feedback signals, can improve held-out reference agreement and multi-label classification while reducing affective-generation variability without executor parameter updates. Background: Industry 4.0 has increased demand for personalized technical education across interconnected computing and engineering domains, while prompt sensitivity and generation variability have complicated dependable interpretation of instructional dialogue and learning outcomes. Research Questions: The study has examined whether task-specific feedback can improve affective-reference agreement, generation consistency, and cognitive classification without updating executor parameters. Methodology: A secondary language model has revised executor prompts using executor-output discrepancies against model-generated affective references for four dialogues and annotated Bloom labels for 70 learning outcomes; separate sets of 100 EduTalk conversations and 1,000 outcomes have supported held-out comparisons. Small refinement sets, unvalidated affective references, and absent learner-outcome measures have constrained interpretation. Findings: Affective mean absolute error has decreased from 0.742 to 0.702 and mean generation standard deviation from 0.307 to 0.238, while Bloom micro-F1 has increased from 0.687 to 0.893 and exact-match subset accuracy from 0.418 to 0.636. These findings have supported prompt refinement as a candidate approach for developing adaptive technical instruction, while its effects on workforce learning remain to be established.",
+  "abstract_zh": "贡献：本研究表明，采用不同的情感和认知反馈信号指导的共享提示优化程序，可以在不更新执行者参数的情况下，提高保留参考一致性和多标签分类，同时减少情感生成的变异性。背景：工业4.0增加了对跨互联计算和工程领域个性化技术教育的需求，而提示敏感性和生成变异性使得对教学对话和学习结果的可靠解释变得复杂。研究问题：本研究考察了任务特定反馈是否能够在不更新执行者参数的情况下改善情感参考一致性、生成一致性和认知分类。方法论：一个次级语言模型使用执行者输出与模型生成的情感参考之间的差异修订执行者提示，针对四个对话和70个学习结果的布鲁姆标签进行了注释；另外100个EduTalk对话和1,000个结果的独立集支持了保留比较。小规模的优化集、未经验证的情感参考以及缺乏学习者结果的测量限制了解释。发现：情感平均绝对误差从0.742降至0.702，平均生成标准差从0.307降至0.238，而布鲁姆微F1从0.687上升至0.893，精确匹配子集准确率从0.418上升至0.636。这些发现支持提示优化作为开发自适应技术教学的一种候选方法，但其对劳动力学习的影响仍需进一步确定。",
+  "arxiv_id": "2611.28293",
+  "arxiv_url": "https://arxiv.org/abs/2611.28293v1",
+  "authors": [
+    "Josh Dean",
+    "Karan Patel",
+    "Gaurangi Raul",
+    "Yu-Zheng Lin",
+    "Jesus Pacheco",
+    "Sicong Shao",
+    "Shalaka Satam",
+    "Soheil Salehi",
+    "Pratik Satam"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.AI",
+    "cs.CL",
+    "cs.CY",
+    "cs.HC",
+    "cs.LG"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.316101+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.28293v1",
+  "published_at": "2026-11-20T20:20:32Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "affective",
+      "classification",
+      "generation",
+      "dialogue",
+      "分类",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.28293v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感生成",
+    "secondary": []
+  },
+  "title": "Feedback-Driven Prompt Refinement for Educational AI: Affective Trajectory Estimation and Bloom's Taxonomy Classification",
+  "title_zh": "基于反馈的教育人工智能提示优化：情感轨迹估计与布鲁姆分类法",
+  "translation_url": "https://hjfy.top/arxiv/2611.28293"
+}

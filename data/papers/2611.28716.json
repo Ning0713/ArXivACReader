@@ -1,0 +1,62 @@
+{
+  "abstract": "Multimodal emotion recognition remains challenging due to the intrinsic heterogeneity of different modalities. Effectively leveraging both cross-modal consensus (consistency) and conflict (inconsistency) is essential, as they jointly provide complementary cues that enhance emotion understanding from diverse perspectives. Traditional multimodal methods often suffer from semantic ambiguity and rarely explicitly model the interplay between cross-modal consensus and conflict. Moreover, existing approaches struggle to capture and exploit the dynamic interactions between these two complementary factors. To overcome these limitations, we propose DynFlux, a model guided by a temporal heterogeneous graph that encodes both consensus and conflict relationships across modalities. DynFlux introduces a dedicated graph branch that explicitly captures cross-modal dependencies through sparse temporal graphs, and modulates the conventional multimodal emotion recognition pipeline at three hierarchical stages: adaptive feature modulation during feature extraction, guided aggregation modulation during feature integration, and fusion strategy modulation at the multimodal fusion stage. Through this design, DynFlux dynamically balances cross-modal consensus and conflict, enabling richer and more robust emotion understanding. Extensive experiments on benchmark datasets confirm that DynFlux consistently outperforms state-of-the-art methods, and its generality is further validated on multimodal intent recognition and multimodal sarcasm detection tasks.",
+  "abstract_zh": "多模态情感识别由于不同模态的内在异质性而仍然面临挑战。有效利用跨模态共识（一致性）和冲突（不一致性）至关重要，因为它们共同提供了互补线索，从不同角度增强情感理解。传统的多模态方法通常存在语义模糊的问题，并且很少明确建模跨模态共识与冲突之间的相互作用。此外，现有的方法难以捕捉和利用这两种互补因素之间的动态交互。为了解决这些局限性，我们提出了DynFlux，一个由时间异构图引导的模型，编码了跨模态的共识和冲突关系。DynFlux引入了一个专门的图分支，通过稀疏时间图明确捕捉跨模态依赖关系，并在三个层次的阶段调节传统的多模态情感识别流程：在特征提取阶段进行自适应特征调节，在特征整合阶段进行引导聚合调节，以及在多模态融合阶段进行融合策略调节。通过这种设计，DynFlux动态平衡跨模态共识与冲突，从而实现更丰富、更稳健的情感理解。在基准数据集上的大量实验确认，DynFlux始终优于最先进的方法，其通用性在多模态意图识别和多模态讽刺检测任务上得到了进一步验证。",
+  "arxiv_id": "2611.28716",
+  "arxiv_url": "https://arxiv.org/abs/2611.28716v1",
+  "authors": [
+    "Zeheng Wang",
+    "Hao Zhang",
+    "Yige Wang",
+    "Xi Xiao",
+    "Hao Xu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-24",
+  "categories": [
+    "cs.CV"
+  ],
+  "fetched_at": "2026-11-24T15:40:55.289482+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.28716v1",
+  "published_at": "2026-11-21T10:18:43Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "emotion understanding",
+      "情感识别",
+      "情感理解",
+      "emotion",
+      "multimodal",
+      "recognition",
+      "detection",
+      "benchmark",
+      "多模态",
+      "识别",
+      "检测"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-24"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.28716v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-24",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-24"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "数据集/评测",
+      "情绪识别"
+    ]
+  },
+  "title": "DynFlux: Learning to Dynamically Balance Consensus and Conflict in Multimodal Emotion Recognition",
+  "title_zh": "DynFlux：学习在多模态情感识别中动态平衡共识与冲突",
+  "translation_url": "https://hjfy.top/arxiv/2611.28716"
+}
