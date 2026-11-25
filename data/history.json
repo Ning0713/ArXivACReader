@@ -3277,8 +3277,44 @@
         "生理信号"
       ],
       "title": "Deep Discriminative Feature Fusion of Convolutional and Attention-Based Recurrent Representations for Subject-Independent ECG Stress Recognition"
+    },
+    "2611.31346": {
+      "dates": [
+        "2026-11-25"
+      ],
+      "first_seen": "2026-11-25",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "数据集/评测"
+      ],
+      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations"
+    },
+    "2611.31851": {
+      "dates": [
+        "2026-11-25"
+      ],
+      "first_seen": "2026-11-25",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Modeling Event-Conditioned Emotional Expression Response with LLM Agents in a Synthetic Social Simulation"
+    },
+    "2611.31884": {
+      "dates": [
+        "2026-11-25"
+      ],
+      "first_seen": "2026-11-25",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "HEAR, SEE, SPIKE ONCE: Highly Efficient NeuroAI Temporal Neural Networks for Low-Precision Multimodal Audio-Visual Classification and Online Learning"
     }
   },
-  "total": 285,
-  "updated_at": "2026-11-24T15:41:03.902926+00:00"
+  "total": 288,
+  "updated_at": "2026-11-25T15:25:05.464167+00:00"
 }

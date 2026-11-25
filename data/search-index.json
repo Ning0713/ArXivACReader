@@ -1,6 +1,67 @@
 {
-  "generated_at": "2026-11-24T15:41:03.902926+00:00",
+  "generated_at": "2026-11-25T15:25:05.464167+00:00",
   "items": [
+    {
+      "abstract": "Spiking neural networks for multimodal audio-visual classification reach high accuracy by adopting deep-learning machinery: multi-stage convolutional or transformer encoders trained end-to-end with surrogate-gradient backpropagation through time. These prior works typically rely on full-precision (32-bit) parameters and do not treat hardware efficiency as a primary design objective. In this paper, we propose NeuTNN-AV, a much simpler hardware-amenable multimodal substrate built on the recently proposed NeuroAI Temporal Neural Network (NeuTNN) and demonstrate that it can match or outperform state-of-the-art SNN baselines with a fraction of their synapse counts. NeuTNN neurons carry multiple active dendritic segments. Each input line spikes at most once (temporal coding) and every weight is learned via a local reward-modulated spike-timing dependent plasticity (STDP) rule. All weights are 4-bit integers and inference uses only comparisons and additions. On CREMA-D, it reaches 78.6% with 2.34M synapses establishing a new state-of-the-art SNN accuracy, against 77.14% for MISNet-XL (31M parameters). On UrbanSound8K-AV, NeuTNN reaches 98.82% with 1.38M synapses, against 96.85% for SMMT (9.99M parameters) and 98.96% for MISNet-XL (31M parameters). Weight memory is 23-106x smaller than the spiking baselines, and the measured synaptic energy per inference is two to three orders of magnitude lower. Furthermore, the proposed NeuTNN learns CREMA-D in a single pass with 73.8% accuracy and demonstrates rapid online continual learning by adapting to unseen actors from a few dozen clips.",
+      "abstract_zh": "用于多模态音视频分类的脉冲神经网络通过采用深度学习机制实现了高准确率：多阶段卷积或变换器编码器通过时间的替代梯度反向传播进行端到端训练。这些先前的工作通常依赖于全精度（32位）参数，并未将硬件效率作为主要设计目标。在本文中，我们提出了NeuTNN-AV，这是一个基于最近提出的神经人工智能时序神经网络（NeuroAI Temporal Neural Network, NeuTNN）构建的更简单的硬件友好型多模态底层结构，并展示它可以在突触数量仅为其一小部分的情况下匹配或超越最先进的脉冲神经网络（SNN）基准。NeuTNN神经元携带多个活跃的树突段。每条输入线最多发放一次脉冲（时序编码），每个权重通过局部奖励调制的脉冲时序依赖性可塑性（Spike-Timing Dependent Plasticity, STDP）规则进行学习。所有权重均为4位整数，推理仅使用比较和加法。在CREMA-D数据集上，NeuTNN达到了78.6%的准确率，使用了234万个突触，建立了新的最先进的SNN准确率，而MISNet-XL（3100万个参数）的准确率为77.14%。在UrbanSound8K-AV数据集上，NeuTNN达到了98.82%的准确率，使用了138万个突触，而SMMT（999万个参数）的准确率为96.85%，MISNet-XL（3100万个参数）的准确率为98.96%。权重内存比脉冲基准小23-106倍，测得的每次推理的突触能量低两个到三个数量级。此外，所提出的NeuTNN在一次传递中学习CREMA-D，准确率为73.8%，并通过适应来自几十个片段的未见演员展示了快速的在线持续学习能力。",
+      "authors": [
+        "Shanmuga Venkatachalam",
+        "Quinn Jacobson",
+        "John Paul Shen"
+      ],
+      "date": "2026-11-25",
+      "id": "2611.31884",
+      "tags": [
+        "多模态情感",
+        "语音情感",
+        "数据集/评测"
+      ],
+      "title": "HEAR, SEE, SPIKE ONCE: Highly Efficient NeuroAI Temporal Neural Networks for Low-Precision Multimodal Audio-Visual Classification and Online Learning",
+      "title_zh": "听、看、一次性发放脉冲：高效的神经人工智能时序神经网络用于低精度多模态音视频分类和在线学习",
+      "url": "/daily/2026-11-25/#paper-2611-31884"
+    },
+    {
+      "abstract": "Emotions are central drivers of human behavior, yet most behavioral models fail to capture their role in shaping perception, decision-making, and collective action. Application areas such as emergency response and public health are especially constrained by the lack of emotion-aware modeling. While large language models (LLMs) are increasingly integrated into agent-based models (ABMs), little work has examined how to endow LLM agents with emotional reasoning or validated their ability to reproduce empirically observed emotional patterns. This study addresses this gap by introducing a hierarchical prompting framework that conditions LLM agents with demographic, psychological, and contextual cues to generate event-conditioned emotional responses to real-world events. We validate the resulting event-conditioned emotional responses against large-scale social media reaction data derived from the Social Science One Facebook URL Shares Dataset, complemented by demographic and personality benchmarks. Our simulation results reproduce both polarized and consensus-driven emotional patterns with significant fidelity, supporting the application of LLM agents for emotion-aware modeling in behavioral simulations. We also find, however, that systematic gaps in emotional expression of LLM agents and human populations exist, such as the underexpression of anger relative to human baselines. As such, these findings highlight the need for continued calibration if LLM agents are to serve as proxies for human populations in behavioral modeling. By quantifying their divergence from human populations in terms of emotional expression, we hope that our methods can aid in this effort.",
+      "abstract_zh": "情感是驱动人类行为的核心因素，但大多数行为模型未能捕捉其在塑造感知、决策和集体行动中的作用。紧急响应和公共卫生等应用领域尤其受到缺乏情感感知建模的限制。尽管大型语言模型（LLMs）越来越多地被整合到基于代理的模型（ABMs）中，但很少有研究探讨如何赋予LLM代理情感推理或验证其再现经验观察到的情感模式的能力。本研究通过引入一个层次化提示框架来填补这一空白，该框架利用人口统计、心理和情境线索来条件化LLM代理，以生成对现实事件的事件条件情感反应。我们将生成的事件条件情感反应与来自社会科学一号Facebook URL分享数据集的大规模社交媒体反应数据进行验证，并辅以人口统计和个性基准。我们的模拟结果以显著的保真度再现了两种情感模式：极化和共识驱动的情感模式，支持LLM代理在行为模拟中进行情感感知建模的应用。然而，我们也发现LLM代理和人类群体在情感表达上存在系统性差距，例如相较于人类基线，愤怒的表达不足。因此，这些发现突显了如果LLM代理要作为人类群体在行为建模中的代理，仍需持续校准。通过量化它们在情感表达方面与人类群体的偏差，我们希望我们的研究方法能够帮助这一努力。",
+      "authors": [
+        "Rebecca Marigliano",
+        "Peter Carragher",
+        "Kathleen M. Carley"
+      ],
+      "date": "2026-11-25",
+      "id": "2611.31851",
+      "tags": [
+        "情感大模型",
+        "数据集/评测",
+        "情感生成"
+      ],
+      "title": "Modeling Event-Conditioned Emotional Expression Response with LLM Agents in a Synthetic Social Simulation",
+      "title_zh": "在合成社会模拟中使用大型语言模型代理建模事件条件下的情感表达反应",
+      "url": "/daily/2026-11-25/#paper-2611-31851"
+    },
+    {
+      "abstract": "Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations. We develop an evidence-grounded multi-agent annotation framework to construct and verify reliable labels from rich contextual evidence. We benchmark representative multimodal models and systematically analyze their fine-grained information manipulation understanding, providing a testbed beyond binary truth-deception judgments.",
+      "abstract_zh": "近年来，MLLMs（多模态大语言模型）的进步提升了社会理解能力，使模型能够识别情感并区分真实与虚假行为。然而，现有的基准主要集中在粗粒度的情感识别或二元的真实-虚假检测上，忽视了人们在对话中操控信息的多样方式，如隐瞒、泄露、虚构、回避和防御性反驳。理解这些行为需要推理潜在事实、参与者知识和对话上下文，这使得它们难以可靠评估。为了解决这一空白，我们引入了InfoCon，一个用于对话中细粒度信息操控的多模态基准。InfoCon识别六种细粒度策略，并根据其事实和互动关系推导出粗略一致性标签。我们开发了一个基于证据的多智能体注释框架，以构建和验证来自丰富上下文证据的可靠标签。我们对代表性的多模态模型进行了基准测试，并系统分析了它们对细粒度信息操控的理解，提供了一个超越二元真实-虚假判断的测试平台。",
+      "authors": [
+        "Yuhan Bian",
+        "Zhaokai Liang",
+        "Jia Wang",
+        "Haoyu Liu",
+        "Yu Chen",
+        "Jianfeng Qu",
+        "Zhixu Li"
+      ],
+      "date": "2026-11-25",
+      "id": "2611.31346",
+      "tags": [
+        "多模态情感",
+        "情绪识别",
+        "数据集/评测"
+      ],
+      "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+      "title_zh": "人们选择不说的话：对话中细粒度信息操控的多模态基准",
+      "url": "/daily/2026-11-25/#paper-2611-31346"
+    },
     {
       "abstract": "Stress has become a significant concern because of its negative impact on both physical and mental health and therefore drives the need for reliable automated systems to assess stress levels. Electrocardiogram (ECG) signals provide a non-invasive and objective measure of physiological stress responses and have emerged as a promising modality for continuous stress monitoring. While deep learning techniques have achieved encouraging results in ECG-based stress detection, many studies focus only on one type of feature representation, and therefore limit their ability to capture both the morphological patterns and temporal dynamics embedded in ECG signals. To address this limitation, in this paper, we propose three deep learning-based feature fusion frameworks for ECG-based stress classification. These are Residual Feature Fusion (RFF), Bidirectional Feature-Wise Cross-Attention Fusion (BFCAF), and a novel Cross-Attention Residual Fusion (CARF) framework that combines the strengths of residual learning and bidirectional cross-attention within a unified architecture. A 1D Convolutional Neural Network (1D-CNN) and a BiLSTM-Attention network are used to extract complementary morphological and temporal representations from ECG signals, respectively. The proposed fusion frameworks leverage these heterogeneous representations to improve feature interaction, information preservation, and stress discrimination. The proposed frameworks are evaluated using subject-independent Leave-One-Subject-Out Cross-Validation (LOSOCV) on the RML and WESAD datasets for three-class stress classification. Experimental results show that the proposed feature fusion methods consistently improve performance over individual CNN and BiLSTM models, with CARF achieving the highest accuracies of 83.1% and 77.91% on the RML and WESAD datasets, respectively.",
       "abstract_zh": "压力已成为一个重要问题，因为它对身体和心理健康产生负面影响，因此需要可靠的自动化系统来评估压力水平。心电图（ECG）信号提供了一种非侵入性和客观的生理压力反应测量，并已成为连续压力监测的有前景的方式。尽管深度学习技术在基于ECG的压力检测中取得了令人鼓舞的结果，但许多研究仅关注一种特征表示，因此限制了它们捕捉ECG信号中嵌入的形态模式和时间动态的能力。为了解决这一限制，本文提出了三种基于深度学习的特征融合框架用于基于ECG的压力分类。这些框架分别是残差特征融合（Residual Feature Fusion, RFF）、双向特征交叉注意力融合（Bidirectional Feature-Wise Cross-Attention Fusion, BFCAF）以及一种新颖的交叉注意力残差融合（Cross-Attention Residual Fusion, CARF）框架，该框架在统一架构中结合了残差学习和双向交叉注意力的优势。我们使用一维卷积神经网络（1D Convolutional Neural Network, 1D-CNN）和双向长短期记忆网络-注意力（BiLSTM-Attention）网络分别从ECG信号中提取互补的形态和时间表示。所提出的融合框架利用这些异构表示来改善特征交互、信息保留和压力区分。所提出的框架在RML和WESAD数据集上使用无关主体的留一法交叉验证（Leave-One-Subject-Out Cross-Validation, LOSOCV）进行三类压力分类的评估。实验结果表明，所提出的特征融合方法在性能上始终优于单独的CNN和BiLSTM模型，其中CARF在RML和WESAD数据集上分别达到了83.1%和77.91%的最高准确率。",

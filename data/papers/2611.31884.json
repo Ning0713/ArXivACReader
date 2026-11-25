@@ -1,0 +1,56 @@
+{
+  "abstract": "Spiking neural networks for multimodal audio-visual classification reach high accuracy by adopting deep-learning machinery: multi-stage convolutional or transformer encoders trained end-to-end with surrogate-gradient backpropagation through time. These prior works typically rely on full-precision (32-bit) parameters and do not treat hardware efficiency as a primary design objective. In this paper, we propose NeuTNN-AV, a much simpler hardware-amenable multimodal substrate built on the recently proposed NeuroAI Temporal Neural Network (NeuTNN) and demonstrate that it can match or outperform state-of-the-art SNN baselines with a fraction of their synapse counts. NeuTNN neurons carry multiple active dendritic segments. Each input line spikes at most once (temporal coding) and every weight is learned via a local reward-modulated spike-timing dependent plasticity (STDP) rule. All weights are 4-bit integers and inference uses only comparisons and additions. On CREMA-D, it reaches 78.6% with 2.34M synapses establishing a new state-of-the-art SNN accuracy, against 77.14% for MISNet-XL (31M parameters). On UrbanSound8K-AV, NeuTNN reaches 98.82% with 1.38M synapses, against 96.85% for SMMT (9.99M parameters) and 98.96% for MISNet-XL (31M parameters). Weight memory is 23-106x smaller than the spiking baselines, and the measured synaptic energy per inference is two to three orders of magnitude lower. Furthermore, the proposed NeuTNN learns CREMA-D in a single pass with 73.8% accuracy and demonstrates rapid online continual learning by adapting to unseen actors from a few dozen clips.",
+  "abstract_zh": "用于多模态音视频分类的脉冲神经网络通过采用深度学习机制实现了高准确率：多阶段卷积或变换器编码器通过时间的替代梯度反向传播进行端到端训练。这些先前的工作通常依赖于全精度（32位）参数，并未将硬件效率作为主要设计目标。在本文中，我们提出了NeuTNN-AV，这是一个基于最近提出的神经人工智能时序神经网络（NeuroAI Temporal Neural Network, NeuTNN）构建的更简单的硬件友好型多模态底层结构，并展示它可以在突触数量仅为其一小部分的情况下匹配或超越最先进的脉冲神经网络（SNN）基准。NeuTNN神经元携带多个活跃的树突段。每条输入线最多发放一次脉冲（时序编码），每个权重通过局部奖励调制的脉冲时序依赖性可塑性（Spike-Timing Dependent Plasticity, STDP）规则进行学习。所有权重均为4位整数，推理仅使用比较和加法。在CREMA-D数据集上，NeuTNN达到了78.6%的准确率，使用了234万个突触，建立了新的最先进的SNN准确率，而MISNet-XL（3100万个参数）的准确率为77.14%。在UrbanSound8K-AV数据集上，NeuTNN达到了98.82%的准确率，使用了138万个突触，而SMMT（999万个参数）的准确率为96.85%，MISNet-XL（3100万个参数）的准确率为98.96%。权重内存比脉冲基准小23-106倍，测得的每次推理的突触能量低两个到三个数量级。此外，所提出的NeuTNN在一次传递中学习CREMA-D，准确率为73.8%，并通过适应来自几十个片段的未见演员展示了快速的在线持续学习能力。",
+  "arxiv_id": "2611.31884",
+  "arxiv_url": "https://arxiv.org/abs/2611.31884v1",
+  "authors": [
+    "Shanmuga Venkatachalam",
+    "Quinn Jacobson",
+    "John Paul Shen"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-25",
+  "categories": [
+    "cs.AI"
+  ],
+  "fetched_at": "2026-11-25T15:25:00.410789+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.31884v1",
+  "published_at": "2026-11-24T03:43:51Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "CREMA D",
+      "multimodal",
+      "classification",
+      "audio",
+      "neural network",
+      "deep learning",
+      "多模态",
+      "分类",
+      "推理"
+    ],
+    "reasons": [
+      "情感计算数据集证据"
+    ],
+    "score": 44.0
+  },
+  "seen_dates": [
+    "2026-11-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.31884v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-25",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "语音情感",
+      "数据集/评测"
+    ]
+  },
+  "title": "HEAR, SEE, SPIKE ONCE: Highly Efficient NeuroAI Temporal Neural Networks for Low-Precision Multimodal Audio-Visual Classification and Online Learning",
+  "title_zh": "听、看、一次性发放脉冲：高效的神经人工智能时序神经网络用于低精度多模态音视频分类和在线学习",
+  "translation_url": "https://hjfy.top/arxiv/2611.31884"
+}

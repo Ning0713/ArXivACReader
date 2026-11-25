@@ -1,0 +1,68 @@
+{
+  "abstract": "Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations. We develop an evidence-grounded multi-agent annotation framework to construct and verify reliable labels from rich contextual evidence. We benchmark representative multimodal models and systematically analyze their fine-grained information manipulation understanding, providing a testbed beyond binary truth-deception judgments.",
+  "abstract_zh": "近年来，MLLMs（多模态大语言模型）的进步提升了社会理解能力，使模型能够识别情感并区分真实与虚假行为。然而，现有的基准主要集中在粗粒度的情感识别或二元的真实-虚假检测上，忽视了人们在对话中操控信息的多样方式，如隐瞒、泄露、虚构、回避和防御性反驳。理解这些行为需要推理潜在事实、参与者知识和对话上下文，这使得它们难以可靠评估。为了解决这一空白，我们引入了InfoCon，一个用于对话中细粒度信息操控的多模态基准。InfoCon识别六种细粒度策略，并根据其事实和互动关系推导出粗略一致性标签。我们开发了一个基于证据的多智能体注释框架，以构建和验证来自丰富上下文证据的可靠标签。我们对代表性的多模态模型进行了基准测试，并系统分析了它们对细粒度信息操控的理解，提供了一个超越二元真实-虚假判断的测试平台。",
+  "arxiv_id": "2611.31346",
+  "arxiv_url": "https://arxiv.org/abs/2611.31346v1",
+  "authors": [
+    "Yuhan Bian",
+    "Zhaokai Liang",
+    "Jia Wang",
+    "Haoyu Liu",
+    "Yu Chen",
+    "Jianfeng Qu",
+    "Zhixu Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-25",
+  "categories": [
+    "cs.AI",
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-25T15:25:00.407208+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.31346v1",
+  "published_at": "2026-11-23T17:57:08Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotion recognition",
+      "情感识别",
+      "emotion",
+      "emotions",
+      "multimodal",
+      "MLLMs",
+      "recognition",
+      "detection",
+      "reasoning",
+      "benchmark",
+      "多模态",
+      "识别",
+      "检测",
+      "推理",
+      "对话"
+    ],
+    "reasons": [
+      "明确的情感计算任务",
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 100.0
+  },
+  "seen_dates": [
+    "2026-11-25"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.31346v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-25",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-25"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "多模态情感",
+    "secondary": [
+      "情绪识别",
+      "数据集/评测"
+    ]
+  },
+  "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+  "title_zh": "人们选择不说的话：对话中细粒度信息操控的多模态基准",
+  "translation_url": "https://hjfy.top/arxiv/2611.31346"
+}
