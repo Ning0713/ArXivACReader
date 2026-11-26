@@ -1,0 +1,57 @@
+{
+  "abstract": "When users assume that an AI chatbot has mental states, they are more likely to develop over-reliance, emotional dependence, and in extreme cases, psychological harm or self-harm. However, how these mind attributions arise in conversations and how human or AI factors influence this is still unknown. We study how users attribute minds using a minimal framework: a simulated user with different characteristics chats with assistants that differ in social style and memory. We also introduce a message-level measure of who attributes a mind to whom in four directions, checked with trained coders and applied by a fine-tuned encoder that reproduces an LLM judge. Our results show that, on average, nine out of thirteen characteristics raised simulated users' attribution to the assistant. We found that relational needs such as attachment anxiety raised it as theory predicts, some general personality traits raised it as well, and AI-specific characteristics the least. By contrast, the assistant's social style barely changed simulated users' mind attribution. Instead, sycophantic instructions raised the assistant's attribution to itself. Memory raised users' attribution only with some user models. The model playing the user changed overall attribution and the effects of characteristics, style, and memory. Our framework measures how persona descriptions affect mind attribution in simulation. It gives concrete hypotheses for human studies and shows the need for more consistent user simulators.",
+  "abstract_zh": "当用户假设AI聊天机器人具有心理状态时，他们更可能发展出过度依赖、情感依赖，甚至在极端情况下导致心理伤害或自残。然而，这些心智归因在对话中如何产生，以及人类或AI因素如何影响这一过程，仍然未知。我们使用一个最小框架研究用户如何进行心智归因：具有不同特征的模拟用户与在社交风格和记忆上有所不同的助手进行对话。我们还引入了一种消息级别的度量，来衡量谁将心智归因于谁，分为四个方向，并通过经过训练的编码员进行验证，应用于一个微调的编码器，该编码器重现了一个大型语言模型（LLM）评判者。我们的结果显示，平均而言，十三个特征中有九个提高了模拟用户对助手的归因。我们发现，依恋焦虑等关系需求如理论所预测，提升了归因，一些一般性的人格特征也提升了归因，而特定于AI的特征提升最小。相比之下，助手的社交风格几乎没有改变模拟用户的心智归因。相反，谄媚的指令提高了助手对自身的归因。记忆仅在某些用户模型下提高了用户的归因。扮演用户的模型改变了整体归因及特征、风格和记忆的影响。我们的框架测量了角色描述如何影响模拟中的心智归因，为人类研究提供了具体假设，并显示出对更一致的用户模拟器的需求。",
+  "arxiv_id": "2611.33327",
+  "arxiv_url": "https://arxiv.org/abs/2611.33327v1",
+  "authors": [
+    "Mingxi Yan",
+    "Vasudha Varadarajan",
+    "Qiaosi Wang",
+    "Qing Xiao",
+    "Hong Shen",
+    "Jodi Forlizzi",
+    "Maarten Sap"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-26",
+  "categories": [
+    "cs.CL",
+    "cs.HC"
+  ],
+  "fetched_at": "2026-11-26T14:55:26.842435+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.33327v1",
+  "published_at": "2026-11-24T19:16:34Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "conversation",
+      "预测",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 18.0
+  },
+  "seen_dates": [
+    "2026-11-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.33327v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-26",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "心理状态/福祉",
+    "secondary": [
+      "情感大模型",
+      "社交信号"
+    ]
+  },
+  "title": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation",
+  "title_zh": "谁将心智归因于谁？模拟用户与助手对话中的相互心智理论",
+  "translation_url": "https://hjfy.top/arxiv/2611.33327"
+}

@@ -1,0 +1,55 @@
+{
+  "abstract": "Emotionally supportive interactions require large language models not only to avoid overtly harmful content, but also to recognize vulnerability-related risk, regulate their relational stance, preserve user agency, and provide context-appropriate support. Existing safety benchmarks often measure isolated violations, leaving unclear what underlying response competence their scores represent. We introduce VulnSafe, a Chinese capability assessment centered on Vulnerability-Aware Response Competence (VARC). VARC organizes relational safety into five complementary constructs: Risk Perception, Safety Preservation, Autonomy Protection, Supportive Response, and Boundary Management. Following an evidence-centered design, 41 scenarios elicit construct-relevant behavior through 2,050 balanced prompts and scenario-specific scoring rubrics. The assessment further separates proactive should-do behavior from prohibitive should-not behavior. Across eight representative LLMs, results show distinct competence profiles and larger disparities than prohibitive requirements. VulnSafe therefore makes relational safety interpretable as a multidimensional model capability rather than as refusal compliance alone.",
+  "abstract_zh": "情感支持的互动要求大型语言模型不仅要避免明显有害的内容，还要识别与脆弱性相关的风险，调节其关系立场，维护用户的自主权，并提供适合上下文的支持。现有的安全基准通常测量孤立的违规行为，未能明确其得分所代表的潜在响应能力。我们引入了VulnSafe，这是一个以脆弱性意识响应能力（Vulnerability-Aware Response Competence，VARC）为中心的中文能力评估。VARC将关系安全组织为五个互补的构造：风险感知、安全维护、自主权保护、支持性响应和边界管理。基于证据中心的设计，41个场景通过2050个平衡提示和特定场景的评分标准引发与构造相关的行为。该评估进一步将主动的应做行为与禁止的应不做行为区分开来。在八个代表性的语言模型中，结果显示出明显的能力特征和比禁止要求更大的差异。因此，VulnSafe使关系安全可解释为一个多维模型能力，而不仅仅是拒绝合规。",
+  "arxiv_id": "2611.34819",
+  "arxiv_url": "https://arxiv.org/abs/2611.34819v1",
+  "authors": [
+    "Jiaming Luo",
+    "Jiacheng Ji",
+    "Haoan Jin",
+    "Xiaoning Sun",
+    "Qiuzhi Xiong",
+    "Yuxin Zhang",
+    "Hanhui Xu",
+    "Mengyue Wu"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-26",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-26T14:55:26.846792+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.34819v1",
+  "published_at": "2026-11-25T18:03:09Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "情感支持",
+      "large language models",
+      "LLMs",
+      "识别"
+    ],
+    "reasons": [
+      "明确的情感计算任务"
+    ],
+    "score": 37.0
+  },
+  "seen_dates": [
+    "2026-11-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.34819v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-26",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "数据集/评测"
+    ]
+  },
+  "title": "VulnSafe: Measuring Vulnerability-Aware Relational Safety in Large Language Models",
+  "title_zh": "VulnSafe：测量大型语言模型中的脆弱性意识关系安全性",
+  "translation_url": "https://hjfy.top/arxiv/2611.34819"
+}

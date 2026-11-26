@@ -1,0 +1,58 @@
+{
+  "abstract": "Social-deduction games give models opposing objectives, but they also give roles different information and speaking obligations. We analyze 5,404 public utterances from 150 Chinese Werewolf games played by 12 models, comparing ordinary wolves with ordinary villagers so that special roles are excluded. Private knowledge and goals still differ, and no utterance is verified as true or false. After model and length adjustment, wolf utterances score higher on both certainty and uncertainty (coefficients +0.074 and +0.072). Emotional intensification has the largest rank-biserial effect (r = .145), but it depends on a single degree marker and correlates weakly with human-rated affect. Three annotators' ratings of 392 utterances show higher wolf scores on four behavioral dimensions, and five LLM judges reach 60.8%-70.2% accuracy on a shared evaluation set. In a generation probe that prompts six models with a wolf identity but a villager speaking goal under fixed public context, certainty (+0.164) and emotional intensification (+0.095) increase. These findings describe role-associated language rather than verified lying, and they argue for explicit comparison groups and lexicon sensitivity checks in game-based deception evaluation. Data and code are available at https://github.com/justinchoi929/Tells-of-a-Lying-Machine",
+  "abstract_zh": "社交推理游戏为模型提供了对立的目标，同时也为角色提供了不同的信息和发言义务。我们分析了来自150场中文狼人杀游戏的5,404条公开发言，这些游戏由12个模型进行，比较了普通狼与普通村民，以排除特殊角色的影响。私有知识和目标依然存在差异，且没有任何发言被验证为真或假。在模型和长度调整后，狼的发言在确定性和不确定性上得分更高（系数分别为+0.074和+0.072）。情感强化具有最大的秩序-双序效应（r = .145），但它依赖于单一的程度标记，并与人类评分的情感相关性较弱。三位注释者对392条发言的评分显示，狼在四个行为维度上的得分更高，而五位大型语言模型（LLM）评审在共享评估集上的准确率达到60.8%-70.2%。在一个生成探测中，六个模型被提示具有狼身份但以村民的发言目标在固定的公共背景下进行发言，确定性（+0.164）和情感强化（+0.095）均有所增加。这些发现描述了与角色相关的语言，而非经过验证的谎言，并主张在基于游戏的欺骗评估中进行明确的比较组和词汇敏感性检查。数据和代码可在 https://github.com/justinchoi929/Tells-of-a-Lying-Machine 获取。",
+  "arxiv_id": "2611.33747",
+  "arxiv_url": "https://arxiv.org/abs/2611.33747v1",
+  "authors": [
+    "Xian Cui",
+    "Gan Yang",
+    "Dongqi Han",
+    "Han Zhu",
+    "Bo Zheng",
+    "Jianhui Zheng",
+    "Xiaoyong Li"
+  ],
+  "axi_url": "https://paper.axi404.top/daily/2026-11-26",
+  "categories": [
+    "cs.CL"
+  ],
+  "fetched_at": "2026-11-26T14:55:26.843609+00:00",
+  "pdf_url": "https://arxiv.org/pdf/2611.33747v1",
+  "published_at": "2026-11-25T04:08:20Z",
+  "relevance": {
+    "classifier": "rules",
+    "include": true,
+    "matched_terms": [
+      "emotional",
+      "LLM",
+      "generation",
+      "dialogue",
+      "推理",
+      "生成",
+      "对话"
+    ],
+    "reasons": [
+      "情感上下文与计算技术共同命中"
+    ],
+    "score": 24.0
+  },
+  "seen_dates": [
+    "2026-11-26"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/2611.33747v1",
+    "axi": "https://paper.axi404.top/daily/2026-11-26",
+    "axi_api": "https://paper.axi404.top/api/daily/2026-11-26"
+  },
+  "summary_zh": "",
+  "tags": {
+    "primary": "情感大模型",
+    "secondary": [
+      "情感生成",
+      "社交信号"
+    ]
+  },
+  "title": "Tells of a Lying Machine: Analyzing LLM-Generated Strategic Dialogue in Chinese Werewolf",
+  "title_zh": "谎言机器的叙述：分析中文狼人杀中的大型语言模型生成的战略对话",
+  "translation_url": "https://hjfy.top/arxiv/2611.33747"
+}

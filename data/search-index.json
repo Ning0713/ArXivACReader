@@ -1,6 +1,75 @@
 {
-  "generated_at": "2026-11-25T15:25:05.464167+00:00",
+  "generated_at": "2026-11-26T14:55:30.804208+00:00",
   "items": [
+    {
+      "abstract": "Emotionally supportive interactions require large language models not only to avoid overtly harmful content, but also to recognize vulnerability-related risk, regulate their relational stance, preserve user agency, and provide context-appropriate support. Existing safety benchmarks often measure isolated violations, leaving unclear what underlying response competence their scores represent. We introduce VulnSafe, a Chinese capability assessment centered on Vulnerability-Aware Response Competence (VARC). VARC organizes relational safety into five complementary constructs: Risk Perception, Safety Preservation, Autonomy Protection, Supportive Response, and Boundary Management. Following an evidence-centered design, 41 scenarios elicit construct-relevant behavior through 2,050 balanced prompts and scenario-specific scoring rubrics. The assessment further separates proactive should-do behavior from prohibitive should-not behavior. Across eight representative LLMs, results show distinct competence profiles and larger disparities than prohibitive requirements. VulnSafe therefore makes relational safety interpretable as a multidimensional model capability rather than as refusal compliance alone.",
+      "abstract_zh": "情感支持的互动要求大型语言模型不仅要避免明显有害的内容，还要识别与脆弱性相关的风险，调节其关系立场，维护用户的自主权，并提供适合上下文的支持。现有的安全基准通常测量孤立的违规行为，未能明确其得分所代表的潜在响应能力。我们引入了VulnSafe，这是一个以脆弱性意识响应能力（Vulnerability-Aware Response Competence，VARC）为中心的中文能力评估。VARC将关系安全组织为五个互补的构造：风险感知、安全维护、自主权保护、支持性响应和边界管理。基于证据中心的设计，41个场景通过2050个平衡提示和特定场景的评分标准引发与构造相关的行为。该评估进一步将主动的应做行为与禁止的应不做行为区分开来。在八个代表性的语言模型中，结果显示出明显的能力特征和比禁止要求更大的差异。因此，VulnSafe使关系安全可解释为一个多维模型能力，而不仅仅是拒绝合规。",
+      "authors": [
+        "Jiaming Luo",
+        "Jiacheng Ji",
+        "Haoan Jin",
+        "Xiaoning Sun",
+        "Qiuzhi Xiong",
+        "Yuxin Zhang",
+        "Hanhui Xu",
+        "Mengyue Wu"
+      ],
+      "date": "2026-11-26",
+      "id": "2611.34819",
+      "tags": [
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "VulnSafe: Measuring Vulnerability-Aware Relational Safety in Large Language Models",
+      "title_zh": "VulnSafe：测量大型语言模型中的脆弱性意识关系安全性",
+      "url": "/daily/2026-11-26/#paper-2611-34819"
+    },
+    {
+      "abstract": "Social-deduction games give models opposing objectives, but they also give roles different information and speaking obligations. We analyze 5,404 public utterances from 150 Chinese Werewolf games played by 12 models, comparing ordinary wolves with ordinary villagers so that special roles are excluded. Private knowledge and goals still differ, and no utterance is verified as true or false. After model and length adjustment, wolf utterances score higher on both certainty and uncertainty (coefficients +0.074 and +0.072). Emotional intensification has the largest rank-biserial effect (r = .145), but it depends on a single degree marker and correlates weakly with human-rated affect. Three annotators' ratings of 392 utterances show higher wolf scores on four behavioral dimensions, and five LLM judges reach 60.8%-70.2% accuracy on a shared evaluation set. In a generation probe that prompts six models with a wolf identity but a villager speaking goal under fixed public context, certainty (+0.164) and emotional intensification (+0.095) increase. These findings describe role-associated language rather than verified lying, and they argue for explicit comparison groups and lexicon sensitivity checks in game-based deception evaluation. Data and code are available at https://github.com/justinchoi929/Tells-of-a-Lying-Machine",
+      "abstract_zh": "社交推理游戏为模型提供了对立的目标，同时也为角色提供了不同的信息和发言义务。我们分析了来自150场中文狼人杀游戏的5,404条公开发言，这些游戏由12个模型进行，比较了普通狼与普通村民，以排除特殊角色的影响。私有知识和目标依然存在差异，且没有任何发言被验证为真或假。在模型和长度调整后，狼的发言在确定性和不确定性上得分更高（系数分别为+0.074和+0.072）。情感强化具有最大的秩序-双序效应（r = .145），但它依赖于单一的程度标记，并与人类评分的情感相关性较弱。三位注释者对392条发言的评分显示，狼在四个行为维度上的得分更高，而五位大型语言模型（LLM）评审在共享评估集上的准确率达到60.8%-70.2%。在一个生成探测中，六个模型被提示具有狼身份但以村民的发言目标在固定的公共背景下进行发言，确定性（+0.164）和情感强化（+0.095）均有所增加。这些发现描述了与角色相关的语言，而非经过验证的谎言，并主张在基于游戏的欺骗评估中进行明确的比较组和词汇敏感性检查。数据和代码可在 https://github.com/justinchoi929/Tells-of-a-Lying-Machine 获取。",
+      "authors": [
+        "Xian Cui",
+        "Gan Yang",
+        "Dongqi Han",
+        "Han Zhu",
+        "Bo Zheng",
+        "Jianhui Zheng",
+        "Xiaoyong Li"
+      ],
+      "date": "2026-11-26",
+      "id": "2611.33747",
+      "tags": [
+        "情感大模型",
+        "情感生成",
+        "社交信号"
+      ],
+      "title": "Tells of a Lying Machine: Analyzing LLM-Generated Strategic Dialogue in Chinese Werewolf",
+      "title_zh": "谎言机器的叙述：分析中文狼人杀中的大型语言模型生成的战略对话",
+      "url": "/daily/2026-11-26/#paper-2611-33747"
+    },
+    {
+      "abstract": "When users assume that an AI chatbot has mental states, they are more likely to develop over-reliance, emotional dependence, and in extreme cases, psychological harm or self-harm. However, how these mind attributions arise in conversations and how human or AI factors influence this is still unknown. We study how users attribute minds using a minimal framework: a simulated user with different characteristics chats with assistants that differ in social style and memory. We also introduce a message-level measure of who attributes a mind to whom in four directions, checked with trained coders and applied by a fine-tuned encoder that reproduces an LLM judge. Our results show that, on average, nine out of thirteen characteristics raised simulated users' attribution to the assistant. We found that relational needs such as attachment anxiety raised it as theory predicts, some general personality traits raised it as well, and AI-specific characteristics the least. By contrast, the assistant's social style barely changed simulated users' mind attribution. Instead, sycophantic instructions raised the assistant's attribution to itself. Memory raised users' attribution only with some user models. The model playing the user changed overall attribution and the effects of characteristics, style, and memory. Our framework measures how persona descriptions affect mind attribution in simulation. It gives concrete hypotheses for human studies and shows the need for more consistent user simulators.",
+      "abstract_zh": "当用户假设AI聊天机器人具有心理状态时，他们更可能发展出过度依赖、情感依赖，甚至在极端情况下导致心理伤害或自残。然而，这些心智归因在对话中如何产生，以及人类或AI因素如何影响这一过程，仍然未知。我们使用一个最小框架研究用户如何进行心智归因：具有不同特征的模拟用户与在社交风格和记忆上有所不同的助手进行对话。我们还引入了一种消息级别的度量，来衡量谁将心智归因于谁，分为四个方向，并通过经过训练的编码员进行验证，应用于一个微调的编码器，该编码器重现了一个大型语言模型（LLM）评判者。我们的结果显示，平均而言，十三个特征中有九个提高了模拟用户对助手的归因。我们发现，依恋焦虑等关系需求如理论所预测，提升了归因，一些一般性的人格特征也提升了归因，而特定于AI的特征提升最小。相比之下，助手的社交风格几乎没有改变模拟用户的心智归因。相反，谄媚的指令提高了助手对自身的归因。记忆仅在某些用户模型下提高了用户的归因。扮演用户的模型改变了整体归因及特征、风格和记忆的影响。我们的框架测量了角色描述如何影响模拟中的心智归因，为人类研究提供了具体假设，并显示出对更一致的用户模拟器的需求。",
+      "authors": [
+        "Mingxi Yan",
+        "Vasudha Varadarajan",
+        "Qiaosi Wang",
+        "Qing Xiao",
+        "Hong Shen",
+        "Jodi Forlizzi",
+        "Maarten Sap"
+      ],
+      "date": "2026-11-26",
+      "id": "2611.33327",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "社交信号"
+      ],
+      "title": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation",
+      "title_zh": "谁将心智归因于谁？模拟用户与助手对话中的相互心智理论",
+      "url": "/daily/2026-11-26/#paper-2611-33327"
+    },
     {
       "abstract": "Spiking neural networks for multimodal audio-visual classification reach high accuracy by adopting deep-learning machinery: multi-stage convolutional or transformer encoders trained end-to-end with surrogate-gradient backpropagation through time. These prior works typically rely on full-precision (32-bit) parameters and do not treat hardware efficiency as a primary design objective. In this paper, we propose NeuTNN-AV, a much simpler hardware-amenable multimodal substrate built on the recently proposed NeuroAI Temporal Neural Network (NeuTNN) and demonstrate that it can match or outperform state-of-the-art SNN baselines with a fraction of their synapse counts. NeuTNN neurons carry multiple active dendritic segments. Each input line spikes at most once (temporal coding) and every weight is learned via a local reward-modulated spike-timing dependent plasticity (STDP) rule. All weights are 4-bit integers and inference uses only comparisons and additions. On CREMA-D, it reaches 78.6% with 2.34M synapses establishing a new state-of-the-art SNN accuracy, against 77.14% for MISNet-XL (31M parameters). On UrbanSound8K-AV, NeuTNN reaches 98.82% with 1.38M synapses, against 96.85% for SMMT (9.99M parameters) and 98.96% for MISNet-XL (31M parameters). Weight memory is 23-106x smaller than the spiking baselines, and the measured synaptic energy per inference is two to three orders of magnitude lower. Furthermore, the proposed NeuTNN learns CREMA-D in a single pass with 73.8% accuracy and demonstrates rapid online continual learning by adapting to unseen actors from a few dozen clips.",
       "abstract_zh": "用于多模态音视频分类的脉冲神经网络通过采用深度学习机制实现了高准确率：多阶段卷积或变换器编码器通过时间的替代梯度反向传播进行端到端训练。这些先前的工作通常依赖于全精度（32位）参数，并未将硬件效率作为主要设计目标。在本文中，我们提出了NeuTNN-AV，这是一个基于最近提出的神经人工智能时序神经网络（NeuroAI Temporal Neural Network, NeuTNN）构建的更简单的硬件友好型多模态底层结构，并展示它可以在突触数量仅为其一小部分的情况下匹配或超越最先进的脉冲神经网络（SNN）基准。NeuTNN神经元携带多个活跃的树突段。每条输入线最多发放一次脉冲（时序编码），每个权重通过局部奖励调制的脉冲时序依赖性可塑性（Spike-Timing Dependent Plasticity, STDP）规则进行学习。所有权重均为4位整数，推理仅使用比较和加法。在CREMA-D数据集上，NeuTNN达到了78.6%的准确率，使用了234万个突触，建立了新的最先进的SNN准确率，而MISNet-XL（3100万个参数）的准确率为77.14%。在UrbanSound8K-AV数据集上，NeuTNN达到了98.82%的准确率，使用了138万个突触，而SMMT（999万个参数）的准确率为96.85%，MISNet-XL（3100万个参数）的准确率为98.96%。权重内存比脉冲基准小23-106倍，测得的每次推理的突触能量低两个到三个数量级。此外，所提出的NeuTNN在一次传递中学习CREMA-D，准确率为73.8%，并通过适应来自几十个片段的未见演员展示了快速的在线持续学习能力。",

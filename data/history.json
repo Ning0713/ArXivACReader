@@ -3313,8 +3313,43 @@
         "数据集/评测"
       ],
       "title": "HEAR, SEE, SPIKE ONCE: Highly Efficient NeuroAI Temporal Neural Networks for Low-Precision Multimodal Audio-Visual Classification and Online Learning"
+    },
+    "2611.33327": {
+      "dates": [
+        "2026-11-26"
+      ],
+      "first_seen": "2026-11-26",
+      "tags": [
+        "心理状态/福祉",
+        "情感大模型",
+        "社交信号"
+      ],
+      "title": "Who Attributes a Mind to Whom? Mutual Theory of Mind in Simulated User-Assistant Conversation"
+    },
+    "2611.33747": {
+      "dates": [
+        "2026-11-26"
+      ],
+      "first_seen": "2026-11-26",
+      "tags": [
+        "情感大模型",
+        "情感生成",
+        "社交信号"
+      ],
+      "title": "Tells of a Lying Machine: Analyzing LLM-Generated Strategic Dialogue in Chinese Werewolf"
+    },
+    "2611.34819": {
+      "dates": [
+        "2026-11-26"
+      ],
+      "first_seen": "2026-11-26",
+      "tags": [
+        "情感大模型",
+        "数据集/评测"
+      ],
+      "title": "VulnSafe: Measuring Vulnerability-Aware Relational Safety in Large Language Models"
     }
   },
-  "total": 288,
-  "updated_at": "2026-11-25T15:25:05.464167+00:00"
+  "total": 291,
+  "updated_at": "2026-11-26T14:55:30.804208+00:00"
 }
